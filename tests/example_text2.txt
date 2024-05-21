@@ -1,0 +1,19 @@
+ Tournament "Déglingos" buyIn: 4,50€ + 0,50€ level: 0 - HandId: #662028569697845253-8-1460574182 - Holdem no limit (15/30) - 2016/04/13 19:03:02 UTC
+Table: 'Déglingos(154140538)#004' 3-max (real money) Seat #1 is the button
+Seat 1: jaleo88 (990)
+Seat 2: Art&mus (490)
+Seat 3: manggy94 (520)
+*** ANTE/BLINDS ***
+Art&mus posts small blind 15
+manggy94 posts big blind 30
+Dealt to manggy94 [Th 6d]
+*** PRE-FLOP *** 
+jaleo88 raises 90 to 120
+Art&mus folds
+manggy94 folds
+jaleo88 collected 165 from pot
+*** SUMMARY ***
+Total pot 165 | No rake
+Seat 1: jaleo88 (button) won 165
+
+

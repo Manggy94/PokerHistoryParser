@@ -2,6 +2,17 @@
 
 source venv/bin/activate
 
+echo "Running tests..."
+sh scripts/test_code.sh
+
+if [ $? -ne 0 ]; then
+    echo "Tests failed. Aborting the update process."
+    exit 1
+fi
+
+echo "Tests passed. Proceeding with the update."
+
+
 # Définir le chemin du fichier de version
 VERSION_FILE="config/version.json"
 

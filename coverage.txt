@@ -1,0 +1,8 @@
+Name                                    Stmts   Miss  Cover
+-----------------------------------------------------------
+pkrhistoryparser/__init__.py                2      0   100%
+pkrhistoryparser/parser.py                117      7    94%
+pkrhistoryparser/patterns/__init__.py       0      0   100%
+pkrhistoryparser/patterns/winamax.py       26      0   100%
+-----------------------------------------------------------
+TOTAL                                     145      7    95%
