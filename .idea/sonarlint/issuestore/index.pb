@@ -31,3 +31,10 @@ I
 scripts/update_version.sh,1\4\143ad98d8e95857542e293d77c465cfa83a3f2e2
 ?
 scripts/test.sh,c\5\c50263638f3890c64d93ff52ebd1ab67bd90ed5b
+8
+setup.py,8\e\8e2edce0d507e1297474f25c00cae94258db38d8
+;
+Manifest.in,8\0\808a1ec3154756860d418bf613a1d93c9843261b
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

@@ -29,7 +29,7 @@ def get_version():
         return f"{version['major']}.{version['minor']}.{version['patch']}"
 
 
-setuptools.setup(
+setup(
     name="pkrhistoryparser",
     version=get_version(),
     author="Alexandre MANGWA",
@@ -43,7 +43,7 @@ setuptools.setup(
     },
     classifiers=classifiers,
     package_dir={"": "pkrhistoryparser"},
-    packages=setuptools.find_packages(where="pkrhistoryparser"),
+    packages=find_packages(where="pkrhistoryparser"),
     python_requires=">=3.9",
     install_requires=install_requires
 )
