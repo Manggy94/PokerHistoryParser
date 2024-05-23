@@ -1,0 +1,14 @@
+site_name: PokerHistoryParser Documentation
+theme: readthedocs
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+
+nav:
+  - Home: index.md
+  - API Reference:
+    - Patterns:
+      - Winamax: patterns/winamax.md
+    - Parser: parser.md
+

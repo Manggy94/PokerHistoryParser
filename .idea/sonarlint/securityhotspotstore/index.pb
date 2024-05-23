@@ -38,3 +38,22 @@ I
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+=
+docs/index.md,0\b\0b3e33619677413fe8f879987c9e0357046fe604
+:
+
+mkdocs.yml,e\0\e06ae62d2bf20523432731a2d6fa671c79156f34
+F
+scripts/init_mkdocs.sh,9\6\96113bc4fb794f0af216f3b72c759763d991baa4
+>
+docs/parser.md,3\4\3406ceea68ed1881bb69b5ab22fb98da9e1915ea
+F
+site/parser/index.html,d\3\d3174737558cadd2ed3323dab8bf19037c3809ad
+D
+scripts/build_doc.sh,4\a\4ac79172f2b9dc62ee5d64aefda32dd8a32eb338
+H
+docs/patterns/winamax.md,6\6\663d687fae958cd0d845c0ba7cf162b444d243ba
+?
+site/index.html,f\8\f8b5f3ae1c096b53afb265d4a56fc2955bfc7607
+J
+tests/example_history.json,7\9\793523de20292b31fae5867460adaea968902c37

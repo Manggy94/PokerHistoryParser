@@ -1,0 +1,213 @@
+{
+    "hand_id": "2612804708405870609-6-1672853787",
+    "datetime": "04-01-2023 17:36:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "blinds": {
+        "ante": 25.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "level": 1,
+    "max_players": 6,
+    "button_seat": 4,
+    "table_name": "GUERILLA(608341002)#016",
+    "table_ident": "(608341002)#016",
+    "players": {
+        "1": {
+            "seat": 1,
+            "pseudo": "FrenchAAAA",
+            "stack": 19575.0,
+            "bounty": 2.25
+        },
+        "2": {
+            "seat": 2,
+            "pseudo": "daifwa",
+            "stack": 21830.0,
+            "bounty": 2.25
+        },
+        "3": {
+            "seat": 3,
+            "pseudo": "Roomxx",
+            "stack": 34263.0,
+            "bounty": 3.37
+        },
+        "4": {
+            "seat": 4,
+            "pseudo": "SB Warrior34",
+            "stack": 18548.0,
+            "bounty": 2.25
+        },
+        "5": {
+            "seat": 5,
+            "pseudo": "GoToVG",
+            "stack": 26609.0,
+            "bounty": 2.25
+        },
+        "6": {
+            "seat": 6,
+            "pseudo": "manggy94",
+            "stack": 19175.0,
+            "bounty": 2.25
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2c",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "pseudo": "GoToVG",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "pseudo": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "pseudo": "FrenchAAAA",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "pseudo": "daifwa",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "pseudo": "Roomxx",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "pseudo": "SB Warrior34",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "pseudo": "GoToVG",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "pseudo": "manggy94",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "FrenchAAAA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "daifwa",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "Roomxx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SB Warrior34",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "GoToVG",
+                "action": "raises",
+                "amount": 700.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "daifwa",
+                "action": "calls",
+                "amount": 700.0
+            },
+            {
+                "player": "SB Warrior34",
+                "action": "calls",
+                "amount": 700.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "GoToVG",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "daifwa",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "SB Warrior34",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "GoToVG",
+                "action": "bets",
+                "amount": 1000.0
+            },
+            {
+                "player": "daifwa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SB Warrior34",
+                "action": "calls",
+                "amount": 1000.0
+            }
+        ],
+        "river": [
+            {
+                "player": "GoToVG",
+                "action": "bets",
+                "amount": 2525.0
+            },
+            {
+                "player": "SB Warrior34",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7h",
+        "flop_card_2": "2d",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": "2h"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {},
+    "winners": {
+        "GoToVG": {
+            "amount": 7575.0,
+            "pot_type": "pot"
+        }
+    }
+}

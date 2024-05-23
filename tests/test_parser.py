@@ -49,7 +49,7 @@ class TestHandHistoryParser(unittest.TestCase):
 
     def test_extract_datetime(self):
         result = self.parser.extract_datetime(self.hand_text)
-        expected_result = {"datetime": datetime(2023, 1, 4, 17, 36, 27)}
+        expected_result = {"datetime": "04-01-2023 17:36:27"}
         self.assertEqual(result, expected_result)
 
     def test_extract_blinds(self):
@@ -147,6 +147,23 @@ class TestHandHistoryParser(unittest.TestCase):
         }
         self.assertEqual(result, expected_result)
 
+    def test_parse_hand(self):
+        result = self.parser.parse_hand(self.hand_text)
+        self.assertIsInstance(result, dict)
+        self.assertEqual(
+            set(result.keys()),
+            {'hand_id', 'datetime', 'game_type', 'buy_in', 'blinds', 'level', 'max_players', 'button_seat', 'players',
+             'table_name', 'table_ident', 'hero_hand', 'postings', 'actions', 'flop', 'turn', 'river', 'showdown',
+             'winners'
+             }
+        )
+
+    def test_parse_to_json(self):
+        file_path = os.path.join(TEST_DIR, "example_text.txt")
+        destination_path = os.path.join(TEST_DIR, "example_history.json")
+        self.parser.parse_to_json(file_path, destination_path)
+        self.assertTrue(os.path.exists(destination_path))
+
 
 class TestHandHistoryParser2(unittest.TestCase):
     def setUp(self):
@@ -160,7 +177,7 @@ class TestHandHistoryParser2(unittest.TestCase):
 
     def test_extract_datetime(self):
         result = self.parser.extract_datetime(self.hand_text)
-        self.assertEqual(result, {"datetime": datetime(2016, 4, 13, 19, 3, 2)})
+        self.assertEqual(result, {"datetime": '13-04-2016 19:03:02'})
 
     def test_game_type_extraction_returns_correct_game_type(self):
         result = self.parser.extract_game_type(self.hand_text)

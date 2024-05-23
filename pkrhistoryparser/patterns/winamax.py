@@ -1,3 +1,7 @@
+"""
+This module contains regular expressions used to parse Winamax hand histories.
+"""
+
 PLAYER_PATTERN = r"Seat (\d+): ([\w\s.\-&]{3,12}) \((\d+)(?:, ([\d\.]+)\D)?"
 BLINDS_PATTERN = r"(\n[\w\s\-&.]{3,12})\s+posts\s+(small blind|big blind|ante)\s+([\d.,]+)"
 NORMAL_BUY_IN_PATTERN = r"buyIn:\s+([\d.,]+)€\s+\+\s+([\d.,]+)€"

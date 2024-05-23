@@ -1,18 +1,51 @@
-""" This module contains the HandHistoryParser class which is used to parse poker hand histories. """
+"""
+This module contains the HandHistoryParser class which is used to parse poker hand histories.
+This doc is destined for developers who will work on the pkrhistoryparser module.
+"""
+import json
 import re
-import os
 from datetime import datetime
 from .patterns import winamax as patterns
 
 
 class HandHistoryParser:
+    """
+    A class to parse poker hand histories.
 
+    Methods
+    -------
+    get_raw_text(history_path)
+        Get the raw text from a history file.
+    to_float(txt_num)
+        Transform a string number into a float.
+    extract_game_type(hand_txt)
+        Extract the type of the game from the hand text.
+    parse_to_json(history_path, destination_path)
+        Parse a poker hand history to a JSON format.
+
+    Examples
+    --------
+    1. Parse a poker hand history to a dict to be used in a program:
+
+        >>> parser = HandHistoryParser()
+        >>> hand_text = parser.get_raw_text("path/to/hand/history.txt")
+        >>> hand_info = parser.parse_hand(hand_text)
+
+    2. Parse a poker hand history to a JSON file:
+
+        >>> history_parser = HandHistoryParser()
+        >>> history_parser.parse_to_json('path/to/hand/history.txt', 'path/to/save/json/file.json')
+    """
     @staticmethod
     def get_raw_text(history_path) -> str:
         """
         Get the raw text from a history file
-        :param history_path:
-        :return: The text of the hand history file
+
+        Parameters:
+            history_path (str): The path to the history file.
+
+        Returns:
+            str: The text of the hand history file.
         """
         with open(history_path, "r", encoding="utf-8") as file:
             hand_text = file.read()
@@ -22,8 +55,13 @@ class HandHistoryParser:
     def to_float(txt_num: str) -> float:
         """
         Transforms any written str number into a float
-        :param txt_num: number to transform
-        :return: float number
+
+        Parameters:
+            txt_num(str): The number to transform
+
+        Returns:
+            float: The float number
+
         """
         try:
             return float(txt_num.replace(",", "."))
@@ -34,6 +72,12 @@ class HandHistoryParser:
     def extract_game_type(hand_txt: str) -> dict:
         """
         Extract the type of the game (Tournament or CashGame).
+
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+
+        Returns:
+            dict: A dictionary containing the game type extracted from the poker hand history(game_type).
         """
         game_types = {"Tournament": "Tournament", "CashGame": "CashGame"}
         game_type = next((game_types[key] for key in game_types if key in hand_txt), "Unknown")
@@ -44,10 +88,11 @@ class HandHistoryParser:
         Extract player information from a raw poker hand history and return as a dictionary.
 
         Parameters:
-            hand_txt (str): The hand history as a string.
+            hand_txt (str): The raw poker hand history as a string.
 
         Returns:
-            dict: A dictionary containing player information (seat, pseudo, stack, and bounty if available).
+            dict: A dictionary containing player information(seat, pseudo, stack, bounty).
+
         """
         matches = re.findall(pattern=patterns.PLAYER_PATTERN, string=hand_txt)
         players_info = {int(seat): {
@@ -66,7 +111,8 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand history as a string.
 
         Returns:
-            list: A dictionary containing blinds and antes information.
+            list: A list of dictionaries containing blinds and antes information(pseudo, amount, blind_type).
+
         """
         matches = re.findall(pattern=patterns.BLINDS_PATTERN, string=hand_txt)
         blinds_antes_info = [{"pseudo": pseudo.strip(), "amount": self.to_float(amount), "blind_type": blind_type} for
@@ -77,6 +123,14 @@ class HandHistoryParser:
     def extract_buy_in(self, hand_txt: str) -> dict:
         """
         Extract the buy-in and rake information.
+
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+
+        Returns:
+            dict: A dict containing the buy-in and rake extracted
+            from the poker hand history(prize_pool_contribution, bounty, rake).
+
         """
         ko_buy_in_match = re.search(pattern=patterns.KO_BUY_IN_PATTERN, string=hand_txt)
         buy_in_match = re.search(pattern=patterns.NORMAL_BUY_IN_PATTERN, string=hand_txt)
@@ -98,14 +152,27 @@ class HandHistoryParser:
     def extract_datetime(hand_txt: str) -> dict:
         """
         Extract the datetime information.
+
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+
+        Returns:
+            dict: A dictionary containing the datetime extracted from the poker hand history(datetime).
         """
         datetime_match = re.search(pattern=patterns.DATETIME_PATTERN, string=hand_txt)
         dt = datetime.strptime(datetime_match.group(1), "%Y/%m/%d %H:%M:%S")
-        return {"datetime": dt}
+        dt_str = dt.strftime("%d-%m-%Y %H:%M:%S")
+        return {"datetime": dt_str}
 
     def extract_blinds(self, hand_txt: str) -> dict:
         """
         Extract the blind levels and ante.
+
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+
+        Returns:
+            dict: A dictionary containing the blind levels and ante extracted from the poker hand history(ante, sb, bb).
         """
         tour_blinds_match = re.search(pattern=patterns.TOURNAMENT_BLINDS_PATTERN, string=hand_txt)
         other_blinds_match = re.search(pattern=patterns.OTHER_BLINDS_PATTERN, string=hand_txt)
@@ -123,6 +190,12 @@ class HandHistoryParser:
     def extract_level(hand_txt: str) -> dict:
         """
         Extract the level information.
+
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+
+        Returns:
+            dict: A dictionary containing the level extracted from the poker hand history(level).
         """
         level_match = re.search(pattern=patterns.LEVEL_PATTERN, string=hand_txt)
         return {"level": int(level_match.group(1)) if level_match else 0}
@@ -131,6 +204,12 @@ class HandHistoryParser:
     def extract_max_players(hand_txt: str) -> dict:
         """
         Extract the max players at the table.
+
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+
+        Returns:
+            dict: A dictionary containing the max players extracted from the poker hand history(max_players).
         """
         max_players = re.search(pattern=patterns.MAX_PLAYERS_PATTERN, string=hand_txt).group(1)
         return {"max_players": int(max_players)}
@@ -139,6 +218,12 @@ class HandHistoryParser:
     def extract_button_seat(hand_txt: str) -> dict:
         """
         Extract the button seat information.
+
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+
+        Returns:
+            dict: A dictionary containing the button seat extracted from the poker hand history(button).
         """
         button = re.search(pattern=patterns.BUTTON_SEAT_PATTERN, string=hand_txt).group(1)
         return {"button": int(button)}
@@ -147,6 +232,12 @@ class HandHistoryParser:
     def extract_table_name(hand_txt: str) -> dict:
         """
         Extract the table name information.
+
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+
+        Returns:
+            dict: A dictionary containing the table name extracted from the poker hand history(table_name).
         """
         table_name = re.search(pattern=patterns.TABLE_NAME_PATTERN, string=hand_txt).group(1)
         return {"table_name": table_name}
@@ -155,6 +246,12 @@ class HandHistoryParser:
     def extract_table_ident(hand_txt: str) -> dict:
         """
         Extract the table ident information.
+
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+
+        Returns:
+            dict: A dictionary containing the table ident extracted from the poker hand history(table_ident).
         """
         table_ident = re.search(pattern=patterns.TABLE_IDENT_PATTERN, string=hand_txt).group(1)
         return {"table_ident": table_ident}
@@ -168,7 +265,7 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            str: A string representing the hero's hand (hole cards).
+            dict: A dictionary containing the hero's hand extracted from the poker hand history(hero, first_card, second_card).
         """
         hero, card1, card2 = re.search(pattern=patterns.HERO_HAND_PATTERN, string=hand_txt, flags=re.UNICODE).groups()
         return {"hero": hero, "first_card": card1, "second_card": card2}
@@ -182,7 +279,7 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            str: A string representing the cards on the Flop.
+            dict: A dictionary representing the cards on the Flop(flop_card_1, flop_card_2, flop_card_3).
         """
         flop_match = re.search(pattern=patterns.FLOP_PATTERN, string=hand_txt, flags=re.UNICODE)
         card1, card2, card3 = flop_match.groups() if flop_match else (None, None, None)
@@ -197,7 +294,7 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A dictionary representing the card on the Turn.
+            dict: A dictionary representing the card on the Turn(turn_card).
         """
         turn_match = re.search(pattern=patterns.TURN_PATTERN, string=hand_txt, flags=re.UNICODE)
         card = turn_match.group(1) if turn_match else None
@@ -212,7 +309,7 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A dictionary representing the card on the River.
+            dict: A dictionary representing the card on the River(river_card).
         """
         river_match = re.search(pattern=patterns.RIVER_PATTERN, string=hand_txt, flags=re.UNICODE)
         card = river_match.group(1) if river_match else None
@@ -227,21 +324,23 @@ class HandHistoryParser:
             actions_txt (str): The raw actions text for a specific street.
 
         Returns:
-            list: A list of dictionaries, each representing an action.
+            list: A list of dictionaries(player, action, amount), each representing an action.
         """
         actions = re.findall(pattern=patterns.ACTION_PATTERN, string=actions_txt)
         parsed_actions = [{'player': player.strip(), 'action': action_type, 'amount': self.to_float(amount)}
                           for player, action_type, amount in actions]
         return parsed_actions
 
-    def extract_actions(self, hand_txt: str):
+    def extract_actions(self, hand_txt: str) -> dict:
         """
         Extract the actions information from a poker hand history and return as a nested dictionary.
+
         Parameters:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A dictionary containing all the actions extracted from the poker hand history.
+            dict: A dictionary containing all the actions extracted for each street
+            of the poker hand history(preflop, flop, turn, river).
         """
         actions_dict = {
             street: self.parse_actions(re.search(pattern, string=hand_txt, flags=re.DOTALL).group(1))
@@ -258,7 +357,8 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            showdown_info: A dict of dictionaries, each containing the player's shown cards.
+            dict: A dict containing the showdown information extracted
+            from the poker hand history(first_card, second_card).
         """
         showdown_info = {player.strip(): {"first_card": card1, "second_card": card2}
                          for player, card1, card2 in re.findall(pattern=patterns.SHOWDOWN_PATTERN, string=hand_txt)}
@@ -272,7 +372,8 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A nested dictionary with pl_names as keys, each containing a dictionary with the amount and pot type.
+            dict: A dictionary containing the winners information extracted
+            from the poker hand history(winner_name(amount, pot_type)).
         """
         winners_info = {winner: {"amount": self.to_float(amount), "pot_type": pot_type}
                         for winner, amount, pot_type in re.findall(pattern=patterns.WINNERS_PATTERN, string=hand_txt)}
@@ -287,7 +388,7 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A dictionary containing the hand id extracted from the poker hand history.
+            dict: A dictionary containing the hand id extracted from the poker hand history(hand_id).
         """
         hand_id = re.search(pattern=patterns.HAND_ID_PATTERN, string=hand_txt).group(1)
         return {"hand_id": hand_id}
@@ -300,7 +401,9 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A dictionary containing all the information extracted from the poker hand history.
+            dict: A dictionary containing all the information extracted from the poker hand history
+        (hand_id, datetime, game_type, buy_in, blinds, level, max_players, button_seat, table_name, table_ident,
+        players, hero_hand, postings, actions, flop, turn, river, showdown, winners).
         """
         hand_history_dict = {
             "hand_id": self.extract_hand_id(hand_txt)["hand_id"],
@@ -324,3 +427,16 @@ class HandHistoryParser:
             "winners": self.extract_winners(hand_txt)
         }
         return hand_history_dict
+
+    def parse_to_json(self, history_path: str, destination_path: str) -> None:
+        """
+        Parse a poker hand history to a JSON format.
+
+        Parameters:
+            history_path (str): The path to the poker hand history file.
+            destination_path (str): The path to save the JSON file.
+        """
+        hand_text = self.get_raw_text(history_path)
+        hand_info = self.parse_hand(hand_text)
+        with open(destination_path, "w", encoding="utf-8") as file:
+            json.dump(hand_info, file, indent=4)
