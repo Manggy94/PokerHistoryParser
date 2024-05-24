@@ -57,3 +57,5 @@ H
 site/index.html,f\8\f8b5f3ae1c096b53afb265d4a56fc2955bfc7607
 J
 tests/example_history.json,7\9\793523de20292b31fae5867460adaea968902c37
+C
+config/version.json,d\3\d36c48db54c6f38e0d16b79836996d399d0dde64

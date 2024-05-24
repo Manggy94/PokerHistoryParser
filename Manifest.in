@@ -1,7 +1,7 @@
 global-include *.txt *.md *.py
 prune build
 prune dist
-prune pkrcomponents.egg-info
+prune pkrhistoryparser.egg-info
 prune venv
 prune docs
 prune tests

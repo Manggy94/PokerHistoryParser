@@ -44,6 +44,7 @@ create_markdown_file() {
   module_path=$2
   relative_path=${module_path#"$package_name/"}
   module_name=$(basename "$relative_path" .py)
+  dir_path=$(dirname "$relative_path")
   md_file="docs/${relative_path%.py}.md"
   # Convert the module path to a Python import path
   module_python_path=$(echo "${module_path%.py}" | sed 's|/|.|g')

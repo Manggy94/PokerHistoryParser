@@ -23,7 +23,7 @@ coverage report > coverage.txt
 total_coverage=$(grep 'TOTAL' coverage.txt | awk '{print $4}' | sed 's/%//')
 
 # Vérifier si la couverture est supérieure ou égale à 90%
-if (echo "$total_coverage >= 90" | bc -l); then
+if [ $(echo "$total_coverage >= 90" | bc -l) -eq 1 ]  ; then
     echo "Test coverage is sufficient: ${total_coverage}%"
     exit 0
 else

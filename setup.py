@@ -19,7 +19,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Natural Language :: English",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3"
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+    "Topic :: Games/Entertainment :: Board Games"
 ]
 
 
@@ -43,7 +45,8 @@ setup(
     },
     classifiers=classifiers,
     package_dir={"": "pkrhistoryparser"},
-    packages=find_packages(where="pkrhistoryparser"),
+    packages=find_packages(exclude=["tests", ".venv", "venv", "venv.*"]),
     python_requires=">=3.9",
-    install_requires=install_requires
+    install_requires=install_requires,
+    license="MIT",
 )

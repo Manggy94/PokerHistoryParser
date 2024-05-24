@@ -2,7 +2,6 @@
 
 source venv/bin/activate
 
-echo "Running tests..."
 sh scripts/test_code.sh
 
 if [ $? -ne 0 ]; then
