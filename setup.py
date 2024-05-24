@@ -44,7 +44,6 @@ setup(
         "Bug Tracker": "https://github.com/manggy94/PokerHistoryParser/issues",
     },
     classifiers=classifiers,
-    package_dir={"": "pkrhistoryparser"},
     packages=find_packages(exclude=["tests", ".venv", "venv", "venv.*"], include=["pkrhistoryparser"]),
     python_requires=">=3.9",
     install_requires=install_requires,

@@ -109,6 +109,7 @@ if [ -d "build" ]; then
 fi
 echo "Creating the distribution..."
 python3 setup.py sdist bdist_wheel
+
 if [ $? -ne 0 ]; then
   echo "An error occurred while creating the distribution. Aborting the update process."
   exit 1
