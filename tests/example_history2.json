@@ -1,0 +1,102 @@
+{
+    "hand_id": "662028569697845253-8-1460574182",
+    "datetime": "13-04-2016 19:03:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "blinds": {
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "max_players": 3,
+    "button_seat": 1,
+    "table_name": "D\u00e9glingos(154140538)#004",
+    "table_ident": "(154140538)#004",
+    "players": {
+        "1": {
+            "seat": 1,
+            "pseudo": "jaleo88",
+            "stack": 990.0,
+            "bounty": null
+        },
+        "2": {
+            "seat": 2,
+            "pseudo": "Art&mus",
+            "stack": 490.0,
+            "bounty": null
+        },
+        "3": {
+            "seat": 3,
+            "pseudo": "manggy94",
+            "stack": 520.0,
+            "bounty": null
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "pseudo": "Art&mus",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "pseudo": "manggy94",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jaleo88",
+                "action": "raises",
+                "amount": 90.0
+            },
+            {
+                "player": "Art&mus",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "jaleo88": {
+            "amount": 165.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -15,22 +15,12 @@ U
 %pkrhistoryparser/patterns/__init__.py,1\3\1341abe021319a797a533080943faa190dee028c
 L
 pkrhistoryparser/__init__.py,f\1\f1aef9e2523ac0f8a1c0495421369f5485917e5e
-B
-htmlcov/index.html,7\f\7fbfaf5b961834621de8df2ce80982f6d3c260b5
-I
-scripts/check_coverage.py,f\9\f9d3b87c7ba7c5ebad4ce43ade4944186c5357b9
-I
-scripts/check_coverage.sh,9\2\926087d480689e2604c42c620c39169232b8f95d
-G
-scripts/test_package.sh,4\f\4fea7886d8a70106bb36d6437e28c81dd5531efe
 D
 scripts/test_code.sh,a\3\a342caa52c07f435a99f210466dd60640148f6b2
 <
 coverage.txt,7\f\7fdf79859c08d5abb5c25747edcf2d4a333a524b
 I
 scripts/update_version.sh,1\4\143ad98d8e95857542e293d77c465cfa83a3f2e2
-?
-scripts/test.sh,c\5\c50263638f3890c64d93ff52ebd1ab67bd90ed5b
 8
 setup.py,8\e\8e2edce0d507e1297474f25c00cae94258db38d8
 ;
@@ -59,3 +49,11 @@ J
 tests/example_history.json,7\9\793523de20292b31fae5867460adaea968902c37
 C
 config/version.json,d\3\d36c48db54c6f38e0d16b79836996d399d0dde64
+@
+requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
+K
+tests/example_history2.json,c\7\c7ba48b928a0206c17a00f87fec58957b81f18d6
+B
+htmlcov/index.html,7\f\7fbfaf5b961834621de8df2ce80982f6d3c260b5
+J
+tests/example_freeroll.txt,7\5\75217cad882d952bcabb38da51d7a507e6bdd3df

@@ -5,7 +5,7 @@ This doc is destined for developers who will work on the pkrhistoryparser module
 import json
 import re
 from datetime import datetime
-from .patterns import winamax as patterns
+from pkrhistoryparser.patterns import winamax as patterns
 
 
 class HandHistoryParser:
@@ -132,13 +132,9 @@ class HandHistoryParser:
             from the poker hand history(prize_pool_contribution, bounty, rake).
 
         """
-        ko_buy_in_match = re.search(pattern=patterns.KO_BUY_IN_PATTERN, string=hand_txt)
         buy_in_match = re.search(pattern=patterns.NORMAL_BUY_IN_PATTERN, string=hand_txt)
         free_roll_match = re.search(pattern=patterns.FREE_ROLL_PATTERN, string=hand_txt)
-        if ko_buy_in_match:
-            prize_pool_contribution, bounty, rake = (ko_buy_in_match.group(1), ko_buy_in_match.group(2),
-                                                     ko_buy_in_match.group(3))
-        elif buy_in_match:
+        if buy_in_match:
             prize_pool_contribution, rake = buy_in_match.group(1), buy_in_match.group(2)
             bounty = 0
         elif free_roll_match:
@@ -411,7 +407,12 @@ class HandHistoryParser:
             "game_type": self.extract_game_type(hand_txt)["game_type"],
             "buy_in": self.extract_buy_in(hand_txt),
             "blinds": self.extract_blinds(hand_txt),
-            "level": self.extract_level(hand_txt)["level"],
+            "level": {
+                "value": self.extract_level(hand_txt)["level"],
+                "ante": self.extract_blinds(hand_txt)["ante"],
+                "sb": self.extract_blinds(hand_txt)["sb"],
+                "bb": self.extract_blinds(hand_txt)["bb"]
+            },
             "max_players": self.extract_max_players(hand_txt)["max_players"],
             "button_seat": self.extract_button_seat(hand_txt)["button"],
             "table_name": self.extract_table_name(hand_txt)["table_name"],

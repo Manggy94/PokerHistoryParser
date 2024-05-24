@@ -12,7 +12,12 @@
         "sb": 100.0,
         "bb": 200.0
     },
-    "level": 1,
+    "level": {
+        "value": 1,
+        "ante": 25.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
     "max_players": 6,
     "button_seat": 4,
     "table_name": "GUERILLA(608341002)#016",

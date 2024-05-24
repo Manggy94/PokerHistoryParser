@@ -1,43 +1,26 @@
- - Tournament "Freeroll" buyIn: 0€ + 0€ level: 12 - HandId: #2884909080088936512-49-1689430574 - Holdem no limit (160/700/1400) - 2023/07/15 14:16:14 UTC
-Table: 'Freeroll(671695238)#0063' 8-max (real money) Seat #2 is the button
-Seat 1: manggy94 (9448)
-Seat 2: lolo 16 (72036)
-Seat 3: mimi-toto42 (33540)
-Seat 4: fredus 82 (109393)
-Seat 5: Tango37 (12045)
-Seat 6: Locura Sabia (37580)
-Seat 7: Eliaspdb (82071)
-Seat 8: janphi66 (11145)
+Winamax Poker - Tournament "Freeroll" buyIn: Free level: 3 - HandId: #538926101095776287-1-1438893440 - Holdem no limit (30/60) - 2015/08/06 20:37:20 UTC
+Table: 'Freeroll(125478511)#030' 9-max (play money) Seat #2 is the button
+Seat 1: Akastacha (7000)
+Seat 2: gilbert49 (3000)
+Seat 5: manggy94 (3000)
 *** ANTE/BLINDS ***
-mimi-toto42 posts ante 160
-fredus 82 posts ante 160
-manggy94 posts ante 160
-lolo 16 posts ante 160
-Tango37 posts ante 160
-Locura Sabia posts ante 160
-Eliaspdb posts ante 160
-janphi66 posts ante 160
-mimi-toto42 posts small blind 700
-fredus 82 posts big blind 1400
-Dealt to manggy94 [Qd 7h]
+manggy94 posts small blind 30
+Akastacha posts big blind 60
+Dealt to manggy94 [7c Jc]
 *** PRE-FLOP *** 
-Tango37 folds
-Locura Sabia folds
-Eliaspdb folds
-janphi66 folds
-manggy94 folds
-lolo 16 folds
-mimi-toto42 raises 31980 to 33380 and is all-in
-fredus 82 calls 31980
-*** FLOP *** [Kh Ks Ac]
-*** TURN *** [Kh Ks Ac][Js]
-*** RIVER *** [Kh Ks Ac Js][2d]
-*** SHOW DOWN ***
-mimi-toto42 shows [6s 7s] (One pair : Kings)
-fredus 82 shows [Jd Ad] (Two pairs : Aces and Kings)
-fredus 82 collected 68040 from pot
+gilbert49 calls 60
+manggy94 calls 30
+Akastacha checks
+*** FLOP *** [Ah 7d Tc]
+manggy94 checks
+Akastacha checks
+gilbert49 checks
+*** TURN *** [Ah 7d Tc][4s]
+manggy94 bets 180
+Akastacha folds
+gilbert49 folds
+manggy94 collected 360 from pot
 *** SUMMARY ***
-Total pot 68040 | No rake
-Board: [Kh Ks Ac Js 2d]
-Seat 3: mimi-toto42 (small blind) showed [6s 7s] and lost with One pair : Kings
-Seat 4: fredus 82 (big blind) showed [Jd Ad] and won 68040 with Two pairs : Aces and Kings
+Total pot 360 | No rake
+Board: [Ah 7d Tc 4s]
+Seat 5: manggy94 (small blind) won 360

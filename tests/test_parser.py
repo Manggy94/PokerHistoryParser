@@ -1,6 +1,5 @@
 import unittest
 import os
-from datetime import datetime
 from pkrhistoryparser.parser import HandHistoryParser
 
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -248,4 +247,26 @@ class TestHandHistoryParser2(unittest.TestCase):
             'river': []
         }
         self.assertEqual(result, expected_result)
+
+    def test_parse_to_json(self):
+        file_path = os.path.join(TEST_DIR, "example_text2.txt")
+        destination_path = os.path.join(TEST_DIR, "example_history2.json")
+        self.parser.parse_to_json(file_path, destination_path)
+        self.assertTrue(os.path.exists(destination_path))
+
+
+class TestHandHistoryParser3(unittest.TestCase):
+    def setUp(self):
+        self.parser = HandHistoryParser()
+        file_path = os.path.join(TEST_DIR, "example_freeroll.txt")
+        self.hand_text = self.parser.get_raw_text(file_path)
+
+
+    def test_game_type_extraction_returns_correct_game_type(self):
+        result = self.parser.extract_game_type(self.hand_text)
+        self.assertEqual(result, {"game_type": "Tournament"})
+
+    def test_buy_in_extraction_returns_correct_buy_in_info(self):
+        result = self.parser.extract_buy_in(self.hand_text)
+        self.assertEqual(result, {"prize_pool_contribution": 0, "bounty": 0, "rake": 0})
 
