@@ -45,7 +45,7 @@ setup(
     },
     classifiers=classifiers,
     package_dir={"": "pkrhistoryparser"},
-    packages=find_packages(exclude=["tests", ".venv", "venv", "venv.*"]),
+    packages=find_packages(exclude=["tests", ".venv", "venv", "venv.*"], include=["pkrhistoryparser"]),
     python_requires=">=3.9",
     install_requires=install_requires,
     license="MIT",
