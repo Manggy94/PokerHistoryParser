@@ -40,15 +40,16 @@ class HandHistoryParser:
     Examples
     --------
     1. Parse a poker hand history to a dict to be used in a program:
-
-        >>> parser = HandHistoryParser()
-        >>> hand_text = parser.get_raw_text("path/to/hand/history.txt")
-        >>> hand_info = parser.parse_hand(hand_text)
+    ```
+    >>> parser = HandHistoryParser()
+    >>> hand_text = parser.get_raw_text("path/to/hand/history.txt")
+    >>> hand_info = parser.parse_hand(hand_text)
+    ```
 
     2. Parse a poker hand history to a JSON file:
 
-        >>> history_parser = HandHistoryParser()
-        >>> history_parser.parse_to_json('path/to/hand/history.txt', 'path/to/save/json/file.json')
+    >>> history_parser = HandHistoryParser()
+    >>> history_parser.parse_to_json('path/to/hand/history.txt', 'path/to/save/json/file.json')
     """
     @staticmethod
     def get_raw_text(history_path) -> str:
