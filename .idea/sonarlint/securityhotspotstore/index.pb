@@ -67,3 +67,5 @@ F
 readthedocs.yml,8\5\8588181436eab3b6648db1f743c775276ab3a8b8
 E
 docs/requirements.txt,2\7\271b54d579b58b0097c7c56b8ab060c6e3a67b4f
+;
+LICENSE.txt,7\9\79b82ce9b64a924266619555502f890dd80c83b9

@@ -42,6 +42,7 @@ setup(
     url="https://github.com/manggy94/PokerHistoryParser",
     project_urls={
         "Bug Tracker": "https://github.com/manggy94/PokerHistoryParser/issues",
+        "Documentation": "https://pkrhistoryparser.readthedocs.io/en/latest/parser/"
     },
     classifiers=classifiers,
     packages=find_packages(exclude=["tests", ".venv", "venv", "venv.*"], include=["pkrhistoryparser"]),
