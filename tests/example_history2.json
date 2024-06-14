@@ -7,39 +7,37 @@
         "bounty": 0.0,
         "rake": 0.5
     },
-    "blinds": {
-        "ante": 0.0,
-        "sb": 15.0,
-        "bb": 30.0
-    },
     "level": {
         "value": 0,
         "ante": 0.0,
         "sb": 15.0,
         "bb": 30.0
     },
+    "tournament_info": {
+        "tournament_name": "D\u00e9glingos",
+        "tournament_id": "154140538",
+        "table_number": "004"
+    },
     "max_players": 3,
     "button_seat": 1,
-    "table_name": "D\u00e9glingos(154140538)#004",
-    "table_ident": "(154140538)#004",
     "players": {
         "1": {
             "seat": 1,
-            "pseudo": "jaleo88",
-            "stack": 990.0,
-            "bounty": null
+            "name": "jaleo88",
+            "init_stack": 990.0,
+            "bounty": 0.0
         },
         "2": {
             "seat": 2,
-            "pseudo": "Art&mus",
-            "stack": 490.0,
-            "bounty": null
+            "name": "Art&mus",
+            "init_stack": 490.0,
+            "bounty": 0.0
         },
         "3": {
             "seat": 3,
-            "pseudo": "manggy94",
-            "stack": 520.0,
-            "bounty": null
+            "name": "manggy94",
+            "init_stack": 520.0,
+            "bounty": 0.0
         }
     },
     "hero_hand": {
@@ -49,12 +47,12 @@
     },
     "postings": [
         {
-            "pseudo": "Art&mus",
+            "name": "Art&mus",
             "amount": 15.0,
             "blind_type": "small blind"
         },
         {
-            "pseudo": "manggy94",
+            "name": "manggy94",
             "amount": 30.0,
             "blind_type": "big blind"
         }

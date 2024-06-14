@@ -1,0 +1,224 @@
+{
+    "hand_id": "2113338189845364845-10-1634495793",
+    "datetime": "17-10-2021 18:36:33",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 1,
+        "ante": 25.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "POUR LA DARONNE",
+        "tournament_id": "492049891",
+        "table_number": "0108"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "LASYLVE34",
+            "init_stack": 19625.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "NotBadRiverr",
+            "init_stack": 17358.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Sofia1712",
+            "init_stack": 20175.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "KassRM",
+            "init_stack": 12554.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Romain miklo",
+            "init_stack": 21200.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 29538.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qd",
+        "second_card": "2c"
+    },
+    "postings": [
+        {
+            "name": "Sofia1712",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "KassRM",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LASYLVE34",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NotBadRiverr",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Romain miklo",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sofia1712",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "KassRM",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Romain miklo",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LASYLVE34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NotBadRiverr",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Sofia1712",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KassRM",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "KassRM",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Romain miklo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "NotBadRiverr",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "KassRM",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Romain miklo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "NotBadRiverr",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "KassRM",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Romain miklo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "NotBadRiverr",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jh",
+        "flop_card_2": "5h",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": "Tc"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {
+        "NotBadRiverr": {
+            "first_card": "Kc",
+            "second_card": "Qh"
+        },
+        "Romain miklo": {
+            "first_card": "4c",
+            "second_card": "4h"
+        },
+        "KassRM": {
+            "first_card": "8d",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "KassRM": {
+            "amount": 1750.0,
+            "pot_type": "pot"
+        }
+    }
+}

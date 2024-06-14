@@ -7,56 +7,54 @@
         "bounty": 0.0,
         "rake": 0.5
     },
-    "blinds": {
-        "ante": 25.0,
-        "sb": 100.0,
-        "bb": 200.0
-    },
     "level": {
         "value": 1,
         "ante": 25.0,
         "sb": 100.0,
         "bb": 200.0
     },
+    "tournament_info": {
+        "tournament_name": "GUERILLA",
+        "tournament_id": "608341002",
+        "table_number": "016"
+    },
     "max_players": 6,
     "button_seat": 4,
-    "table_name": "GUERILLA(608341002)#016",
-    "table_ident": "(608341002)#016",
     "players": {
         "1": {
             "seat": 1,
-            "pseudo": "FrenchAAAA",
-            "stack": 19575.0,
+            "name": "FrenchAAAA",
+            "init_stack": 19575.0,
             "bounty": 2.25
         },
         "2": {
             "seat": 2,
-            "pseudo": "daifwa",
-            "stack": 21830.0,
+            "name": "daifwa",
+            "init_stack": 21830.0,
             "bounty": 2.25
         },
         "3": {
             "seat": 3,
-            "pseudo": "Roomxx",
-            "stack": 34263.0,
+            "name": "Roomxx",
+            "init_stack": 34263.0,
             "bounty": 3.37
         },
         "4": {
             "seat": 4,
-            "pseudo": "SB Warrior34",
-            "stack": 18548.0,
+            "name": "SB Warrior34",
+            "init_stack": 18548.0,
             "bounty": 2.25
         },
         "5": {
             "seat": 5,
-            "pseudo": "GoToVG",
-            "stack": 26609.0,
+            "name": "GoToVG",
+            "init_stack": 26609.0,
             "bounty": 2.25
         },
         "6": {
             "seat": 6,
-            "pseudo": "manggy94",
-            "stack": 19175.0,
+            "name": "manggy94",
+            "init_stack": 19175.0,
             "bounty": 2.25
         }
     },
@@ -67,42 +65,42 @@
     },
     "postings": [
         {
-            "pseudo": "GoToVG",
+            "name": "GoToVG",
             "amount": 25.0,
             "blind_type": "ante"
         },
         {
-            "pseudo": "manggy94",
+            "name": "manggy94",
             "amount": 25.0,
             "blind_type": "ante"
         },
         {
-            "pseudo": "FrenchAAAA",
+            "name": "FrenchAAAA",
             "amount": 25.0,
             "blind_type": "ante"
         },
         {
-            "pseudo": "daifwa",
+            "name": "daifwa",
             "amount": 25.0,
             "blind_type": "ante"
         },
         {
-            "pseudo": "Roomxx",
+            "name": "Roomxx",
             "amount": 25.0,
             "blind_type": "ante"
         },
         {
-            "pseudo": "SB Warrior34",
+            "name": "SB Warrior34",
             "amount": 25.0,
             "blind_type": "ante"
         },
         {
-            "pseudo": "GoToVG",
+            "name": "GoToVG",
             "amount": 100.0,
             "blind_type": "small blind"
         },
         {
-            "pseudo": "manggy94",
+            "name": "manggy94",
             "amount": 200.0,
             "blind_type": "big blind"
         }

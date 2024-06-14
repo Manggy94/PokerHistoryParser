@@ -57,3 +57,11 @@ B
 htmlcov/index.html,7\f\7fbfaf5b961834621de8df2ce80982f6d3c260b5
 J
 tests/example_freeroll.txt,7\5\75217cad882d952bcabb38da51d7a507e6bdd3df
+K
+tests/example_freeroll.json,1\4\14ab2ce75c19fc970ec5d58d64ebbbd412404d28
+E
+tests/example_PLD.txt,d\d\ddf14cef8fc45b7daaad1f0adbeaa483767cc0d0
+F
+tests/example_PLD.json,c\6\c65866381ffe0ab17911d08fb4b2fd205acb8f20
+?
+readthedocs.yml,8\5\8588181436eab3b6648db1f743c775276ab3a8b8

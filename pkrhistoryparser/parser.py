@@ -22,6 +22,44 @@ class HandHistoryParser:
         Extract the type of the game from the hand text.
     parse_to_json(history_path, destination_path)
         Parse a poker hand history to a JSON format.
+    extract_players(hand_txt)
+        Extract player information from a hand text.
+    extract_posting(hand_txt)
+        Extract blinds and antes posted information from a hand text.
+    extract_buy_in(hand_txt)
+        Extract the buy-in and rake information from a hand text.
+    extract_datetime(hand_txt)
+        Extract the datetime information from a hand text.
+    extract_blinds(hand_txt)
+        Extract the blind levels and ante from a hand text.
+    extract_level(hand_txt)
+        Extract the level information from a hand text.
+    extract_max_players(hand_txt)
+        Extract the max players at the table from a hand text.
+    extract_button_seat(hand_txt)
+        Extract the button seat information from a hand text.
+    extract_tournament_info(hand_txt)
+        Extract the tournament information from a hand text.
+    extract_hero_hand(hand_txt)
+        Extract the hero's hand from a hand text.
+    extract_flop(hand_txt)
+        Extract the cards on the Flop from a hand text.
+    extract_turn(hand_txt)
+        Extract the card on the Turn from a hand text.
+    extract_river(hand_txt)
+        Extract the card on the River from a hand text.
+    parse_actions(actions_txt)
+        Parse the actions text for a specific street.
+    extract_actions(hand_txt)
+        Extract the actions information from a hand text.
+    extract_showdown(hand_txt)
+        Extract the showdown information from a hand text.
+    extract_winners(hand_txt)
+        Extract the winners information from a hand text.
+    extract_hand_id(hand_txt)
+        Extract the hand id information from a hand text.
+    parse_hand(hand_txt)
+        Extract all information from a hand text.
 
     Examples
     --------
@@ -91,16 +129,16 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand history as a string.
 
         Returns:
-            dict: A dictionary containing player information(seat, pseudo, stack, bounty).
+            dict: A dictionary containing player information(seat, name, init_stack, bounty).
 
         """
         matches = re.findall(pattern=patterns.PLAYER_PATTERN, string=hand_txt)
         players_info = {int(seat): {
             "seat": int(seat),
-            "pseudo": pseudo,
-            "stack": self.to_float(stack),
-            "bounty": self.to_float(bounty) if bounty else None
-        } for seat, pseudo, stack, bounty in matches}
+            "name": name,
+            "init_stack": self.to_float(init_stack),
+            "bounty": self.to_float(bounty) if bounty else 0.0
+        } for seat, name, init_stack, bounty in matches}
         return players_info
 
     def extract_posting(self, hand_txt: str) -> list:
@@ -111,12 +149,12 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand history as a string.
 
         Returns:
-            list: A list of dictionaries containing blinds and antes information(pseudo, amount, blind_type).
+            list: A list of dictionaries containing blinds and antes information(name, amount, blind_type).
 
         """
         matches = re.findall(pattern=patterns.BLINDS_PATTERN, string=hand_txt)
-        blinds_antes_info = [{"pseudo": pseudo.strip(), "amount": self.to_float(amount), "blind_type": blind_type} for
-                             pseudo, blind_type, amount in matches]
+        blinds_antes_info = [{"name": name.strip(), "amount": self.to_float(amount), "blind_type": blind_type} for
+                             name, blind_type, amount in matches]
 
         return blinds_antes_info
 
@@ -225,32 +263,23 @@ class HandHistoryParser:
         return {"button": int(button)}
 
     @staticmethod
-    def extract_table_name(hand_txt: str) -> dict:
+    def extract_tournament_info(hand_txt: str) -> dict:
         """
-        Extract the table name information.
+        Extract the tournament information from a poker hand history.
 
         Parameters:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A dictionary containing the table name extracted from the poker hand history(table_name).
+            dict: A dictionary containing the tournament information extracted
+            from the poker hand history(tournament_name, tournament_id, table_ident).
         """
-        table_name = re.search(pattern=patterns.TABLE_NAME_PATTERN, string=hand_txt).group(1)
-        return {"table_name": table_name}
+        tournament_info = re.search(pattern=patterns.TOURNAMENT_INFO_PATTERN, string=hand_txt)
+        tournament_name = tournament_info.group(1) if tournament_info else None
+        tournament_id = tournament_info.group(2) if tournament_info else None
+        table_number = tournament_info.group(3) if tournament_info else None
 
-    @staticmethod
-    def extract_table_ident(hand_txt: str) -> dict:
-        """
-        Extract the table ident information.
-
-        Parameters:
-            hand_txt (str): The raw poker hand text as a string.
-
-        Returns:
-            dict: A dictionary containing the table ident extracted from the poker hand history(table_ident).
-        """
-        table_ident = re.search(pattern=patterns.TABLE_IDENT_PATTERN, string=hand_txt).group(1)
-        return {"table_ident": table_ident}
+        return {"tournament_name": tournament_name, "tournament_id": tournament_id, "table_number": table_number}
 
     @staticmethod
     def extract_hero_hand(hand_txt: str) -> dict:
@@ -406,17 +435,15 @@ class HandHistoryParser:
             "datetime": self.extract_datetime(hand_txt)["datetime"],
             "game_type": self.extract_game_type(hand_txt)["game_type"],
             "buy_in": self.extract_buy_in(hand_txt),
-            "blinds": self.extract_blinds(hand_txt),
             "level": {
                 "value": self.extract_level(hand_txt)["level"],
                 "ante": self.extract_blinds(hand_txt)["ante"],
                 "sb": self.extract_blinds(hand_txt)["sb"],
                 "bb": self.extract_blinds(hand_txt)["bb"]
             },
+            "tournament_info": self.extract_tournament_info(hand_txt),
             "max_players": self.extract_max_players(hand_txt)["max_players"],
             "button_seat": self.extract_button_seat(hand_txt)["button"],
-            "table_name": self.extract_table_name(hand_txt)["table_name"],
-            "table_ident": self.extract_table_ident(hand_txt)["table_ident"],
             "players": self.extract_players(hand_txt),
             "hero_hand": self.extract_hero_hand(hand_txt),
             "postings": self.extract_posting(hand_txt),

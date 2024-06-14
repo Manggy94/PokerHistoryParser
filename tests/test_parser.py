@@ -18,26 +18,26 @@ class TestHandHistoryParser(unittest.TestCase):
     def test_extract_players(self):
         result = self.parser.extract_players(self.hand_text)
         expected_result = {
-            1: {"seat": 1, "pseudo": "FrenchAAAA", "stack": 19575.0, "bounty": 2.25},
-            2: {"seat": 2, "pseudo": "daifwa", "stack": 21830.0, "bounty": 2.25},
-            3: {"seat": 3, "pseudo": "Roomxx", "stack": 34263.0, "bounty": 3.37},
-            4: {"seat": 4, "pseudo": "SB Warrior34", "stack": 18548.0, "bounty": 2.25},
-            5: {"seat": 5, "pseudo": "GoToVG", "stack": 26609.0, "bounty": 2.25},
-            6: {"seat": 6, "pseudo": "manggy94", "stack": 19175.0, "bounty": 2.25}
+            1: {"seat": 1, "name": "FrenchAAAA", "init_stack": 19575.0, "bounty": 2.25},
+            2: {"seat": 2, "name": "daifwa", "init_stack": 21830.0, "bounty": 2.25},
+            3: {"seat": 3, "name": "Roomxx", "init_stack": 34263.0, "bounty": 3.37},
+            4: {"seat": 4, "name": "SB Warrior34", "init_stack": 18548.0, "bounty": 2.25},
+            5: {"seat": 5, "name": "GoToVG", "init_stack": 26609.0, "bounty": 2.25},
+            6: {"seat": 6, "name": "manggy94", "init_stack": 19175.0, "bounty": 2.25}
         }
         self.assertEqual(result, expected_result)
 
     def test_extract_posting(self):
         result = self.parser.extract_posting(self.hand_text)
         expected_result = [
-            {"pseudo": "GoToVG", "amount": 25.0, "blind_type": "ante"},
-            {"pseudo": "manggy94", "amount": 25.0, "blind_type": "ante"},
-            {"pseudo": "FrenchAAAA", "amount": 25.0, "blind_type": "ante"},
-            {"pseudo": "daifwa", "amount": 25.0, "blind_type": "ante"},
-            {"pseudo": "Roomxx", "amount": 25.0, "blind_type": "ante"},
-            {"pseudo": "SB Warrior34", "amount": 25.0, "blind_type": "ante"},
-            {"pseudo": "GoToVG", "amount": 100.0, "blind_type": "small blind"},
-            {"pseudo": "manggy94", "amount": 200.0, "blind_type": "big blind"}
+            {"name": "GoToVG", "amount": 25.0, "blind_type": "ante"},
+            {"name": "manggy94", "amount": 25.0, "blind_type": "ante"},
+            {"name": "FrenchAAAA", "amount": 25.0, "blind_type": "ante"},
+            {"name": "daifwa", "amount": 25.0, "blind_type": "ante"},
+            {"name": "Roomxx", "amount": 25.0, "blind_type": "ante"},
+            {"name": "SB Warrior34", "amount": 25.0, "blind_type": "ante"},
+            {"name": "GoToVG", "amount": 100.0, "blind_type": "small blind"},
+            {"name": "manggy94", "amount": 200.0, "blind_type": "big blind"}
         ]
         self.assertEqual(result, expected_result)
 
@@ -71,14 +71,9 @@ class TestHandHistoryParser(unittest.TestCase):
         expected_result = {"button": 4}
         self.assertEqual(result, expected_result)
 
-    def test_extract_table_name(self):
-        result = self.parser.extract_table_name(self.hand_text)
-        expected_result = {"table_name": "GUERILLA(608341002)#016"}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_table_ident(self):
-        result = self.parser.extract_table_ident(self.hand_text)
-        expected_result = {"table_ident": "(608341002)#016"}
+    def test_extract_tournament_info(self):
+        result = self.parser.extract_tournament_info(self.hand_text)
+        expected_result = {"tournament_name": "GUERILLA", "tournament_id": "608341002", "table_number": "016"}
         self.assertEqual(result, expected_result)
 
     def test_extract_hero_hand(self):
@@ -151,8 +146,8 @@ class TestHandHistoryParser(unittest.TestCase):
         self.assertIsInstance(result, dict)
         self.assertEqual(
             set(result.keys()),
-            {'hand_id', 'datetime', 'game_type', 'buy_in', 'blinds', 'level', 'max_players', 'button_seat', 'players',
-             'table_name', 'table_ident', 'hero_hand', 'postings', 'actions', 'flop', 'turn', 'river', 'showdown',
+            {'hand_id', 'datetime', 'game_type', 'buy_in', 'level', 'max_players', 'button_seat', 'players',
+             'tournament_info', 'hero_hand', 'postings', 'actions', 'flop', 'turn', 'river', 'showdown',
              'winners'
              }
         )
@@ -201,14 +196,6 @@ class TestHandHistoryParser2(unittest.TestCase):
     def test_button_seat_extraction_returns_correct_button_seat(self):
         result = self.parser.extract_button_seat(self.hand_text)
         self.assertEqual(result, {"button": 1})
-
-    def test_table_name_extraction_returns_correct_table_name(self):
-        result = self.parser.extract_table_name(self.hand_text)
-        self.assertEqual(result, {"table_name": "Déglingos(154140538)#004"})
-
-    def test_table_ident_extraction_returns_correct_table_ident(self):
-        result = self.parser.extract_table_ident(self.hand_text)
-        self.assertEqual(result, {"table_ident": "(154140538)#004"})
 
     def test_hero_hand_extraction_returns_correct_hero_hand(self):
         result = self.parser.extract_hero_hand(self.hand_text)
@@ -269,4 +256,37 @@ class TestHandHistoryParser3(unittest.TestCase):
     def test_buy_in_extraction_returns_correct_buy_in_info(self):
         result = self.parser.extract_buy_in(self.hand_text)
         self.assertEqual(result, {"prize_pool_contribution": 0, "bounty": 0, "rake": 0})
+
+    def test_parse_to_json(self):
+        file_path = os.path.join(TEST_DIR, "example_freeroll.txt")
+        destination_path = os.path.join(TEST_DIR, "example_freeroll.json")
+        self.parser.parse_to_json(file_path, destination_path)
+        self.assertTrue(os.path.exists(destination_path))
+
+class TestHandHistoryParser4(unittest.TestCase):
+    def setUp(self):
+        self.parser = HandHistoryParser()
+        file_path = os.path.join(TEST_DIR, "example_PLD.txt")
+        self.hand_text = self.parser.get_raw_text(file_path)
+
+    def test_extract_game_type(self):
+        result = self.parser.extract_game_type(self.hand_text)
+        self.assertEqual(result, {"game_type": "Tournament"})
+
+    def test_extract_players(self):
+        result = self.parser.extract_players(self.hand_text)
+        expected_result = {
+            1: {'bounty': 0.0, 'init_stack': 19625.0, 'name': 'LASYLVE34', 'seat': 1},
+            2: {'bounty': 0.0, 'init_stack': 17358.0, 'name': 'NotBadRiverr', 'seat': 2},
+            3: {'bounty': 0.0, 'init_stack': 20175.0, 'name': 'Sofia1712', 'seat': 3},
+            4: {'bounty': 0.0, 'init_stack': 12554.0, 'name': 'KassRM', 'seat': 4},
+            5: {'bounty': 0.0, 'init_stack': 21200.0, 'name': 'Romain miklo', 'seat': 5},
+            6: {'bounty': 0.0, 'init_stack': 29538.0, 'name': 'manggy94', 'seat': 6}}
+        self.assertEqual(result, expected_result)
+
+    def test_parse_to_json(self):
+        file_path = os.path.join(TEST_DIR, "example_PLD.txt")
+        destination_path = os.path.join(TEST_DIR, "example_PLD.json")
+        self.parser.parse_to_json(file_path, destination_path)
+        self.assertTrue(os.path.exists(destination_path))
 
