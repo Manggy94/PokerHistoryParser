@@ -12,24 +12,15 @@ class HandHistoryParser:
     """
     A class to parse poker hand histories.
 
-    Methods
-    -------
-    get_raw_text(history_path)
-        Get the raw text from a history file.
-    to_float(txt_num)
-        Transform a string number into a float.
-    extract_game_type(hand_txt)
-        Extract the type of the game from the hand text.
-    parse_to_json(history_path, destination_path)
-        Parse a poker hand history to a JSON format.
-    extract_players(hand_txt)
-        Extract player information from a hand text.
-    extract_posting(hand_txt)
-        Extract blinds and antes posted information from a hand text.
-    extract_buy_in(hand_txt)
-        Extract the buy-in and rake information from a hand text.
-    extract_datetime(hand_txt)
-        Extract the datetime information from a hand text.
+    Methods:
+        get_raw_text: Get the raw text from a history file.
+        to_float: Transform a string number into a float.
+        extract_game_type: Extract the type of the game from the hand text.
+        parse_to_json: Parse a poker hand history to a JSON format.
+        extract_players: Extract player information from a hand text.
+        extract_posting: Extract blinds and antes posted information from a hand text.
+        extract_buy_in: Extract the buy-in and rake information from a hand text.
+        extract_datetime: Extract the datetime information from a hand text.
     extract_blinds(hand_txt)
         Extract the blind levels and ante from a hand text.
     extract_level(hand_txt)
