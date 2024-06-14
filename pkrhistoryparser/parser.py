@@ -21,36 +21,21 @@ class HandHistoryParser:
         extract_posting: Extract blinds and antes posted information from a hand text.
         extract_buy_in: Extract the buy-in and rake information from a hand text.
         extract_datetime: Extract the datetime information from a hand text.
-    extract_blinds(hand_txt)
-        Extract the blind levels and ante from a hand text.
-    extract_level(hand_txt)
-        Extract the level information from a hand text.
-    extract_max_players(hand_txt)
-        Extract the max players at the table from a hand text.
-    extract_button_seat(hand_txt)
-        Extract the button seat information from a hand text.
-    extract_tournament_info(hand_txt)
-        Extract the tournament information from a hand text.
-    extract_hero_hand(hand_txt)
-        Extract the hero's hand from a hand text.
-    extract_flop(hand_txt)
-        Extract the cards on the Flop from a hand text.
-    extract_turn(hand_txt)
-        Extract the card on the Turn from a hand text.
-    extract_river(hand_txt)
-        Extract the card on the River from a hand text.
-    parse_actions(actions_txt)
-        Parse the actions text for a specific street.
-    extract_actions(hand_txt)
-        Extract the actions information from a hand text.
-    extract_showdown(hand_txt)
-        Extract the showdown information from a hand text.
-    extract_winners(hand_txt)
-        Extract the winners information from a hand text.
-    extract_hand_id(hand_txt)
-        Extract the hand id information from a hand text.
-    parse_hand(hand_txt)
-        Extract all information from a hand text.
+        extract_blinds: Extract the blind levels and ante from a hand text.
+        extract_level: Extract the level information from a hand text.
+        extract_max_players: Extract the max players at the table from a hand text.
+        extract_button_seat: Extract the button seat information from a hand text.
+        extract_tournament_info: Extract the tournament information from a hand text.
+        extract_hero_hand: Extract the hero's hand from a hand text.
+        extract_flop: Extract the cards on the Flop from a hand text.
+        extract_turn: Extract the card on the Turn from a hand text.
+        extract_river: Extract the card on the River from a hand text.
+        parse_actions: Parse the actions text for a specific street.
+        extract_actions: Extract the actions information from a hand text.
+        extract_showdown: Extract the showdown information from a hand text.
+        extract_winners: Extract the winners information from a hand text.
+        extract_hand_id: Extract the hand id information from a hand text.
+        parse_hand: Extract all information from a hand text.
 
     Examples
     --------
@@ -74,7 +59,7 @@ class HandHistoryParser:
             history_path (str): The path to the history file.
 
         Returns:
-            str: The text of the hand history file.
+            (str): The text of the hand history file.
         """
         with open(history_path, "r", encoding="utf-8") as file:
             hand_text = file.read()
@@ -89,7 +74,7 @@ class HandHistoryParser:
             txt_num(str): The number to transform
 
         Returns:
-            float: The float number
+            (float): The float number
 
         """
         try:
@@ -106,7 +91,7 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A dictionary containing the game type extracted from the poker hand history(game_type).
+            game_type (dict): A dictionary containing the game type extracted from the poker hand history(game_type).
         """
         game_types = {"Tournament": "Tournament", "CashGame": "CashGame"}
         game_type = next((game_types[key] for key in game_types if key in hand_txt), "Unknown")
@@ -120,7 +105,7 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand history as a string.
 
         Returns:
-            dict: A dictionary containing player information(seat, name, init_stack, bounty).
+            players_info (dict): A dictionary containing player information(seat, name, init_stack, bounty).
 
         """
         matches = re.findall(pattern=patterns.PLAYER_PATTERN, string=hand_txt)
@@ -140,7 +125,8 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand history as a string.
 
         Returns:
-            list: A list of dictionaries containing blinds and antes information(name, amount, blind_type).
+            blinds_antes_info (list): A list of dictionaries containing blinds and antes information(name, amount,
+            blind_type).
 
         """
         matches = re.findall(pattern=patterns.BLINDS_PATTERN, string=hand_txt)
@@ -157,7 +143,7 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A dict containing the buy-in and rake extracted
+            buy_in (dict): A dict containing the buy-in and rake extracted
             from the poker hand history(prize_pool_contribution, bounty, rake).
 
         """
@@ -182,7 +168,7 @@ class HandHistoryParser:
             hand_txt (str): The raw poker hand text as a string.
 
         Returns:
-            dict: A dictionary containing the datetime extracted from the poker hand history(datetime).
+            datetime (str): A dictionary containing the datetime extracted from the poker hand history(datetime).
         """
         datetime_match = re.search(pattern=patterns.DATETIME_PATTERN, string=hand_txt)
         dt = datetime.strptime(datetime_match.group(1), "%Y/%m/%d %H:%M:%S")
