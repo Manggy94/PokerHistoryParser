@@ -1,5 +1,6 @@
 site_name: PokerHistoryParser Documentation
-theme: readthedocs
+theme:
+  name: material
 plugins:
   - search
   - mkdocstrings:

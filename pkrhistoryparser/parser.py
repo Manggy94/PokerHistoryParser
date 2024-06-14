@@ -36,9 +36,9 @@ class HandHistoryParser:
         extract_winners: Extract the winners information from a hand text.
         extract_hand_id: Extract the hand id information from a hand text.
         parse_hand: Extract all information from a hand text.
-
-    Examples
     --------
+    Examples
+
     Parse a poker hand history to a dict to be used in a program:
     ```python
     >>> parser = HandHistoryParser()
@@ -48,8 +48,8 @@ class HandHistoryParser:
 
     Parse a poker hand history to a JSON file:
     ```python
-    >>> history_parser = HandHistoryParser()
-    >>> history_parser.parse_to_json('path/to/hand/history.txt', 'path/to/save/json/file.json')
+    >>> parser = HandHistoryParser()
+    >>> parser.parse_to_json('path/to/hand/history.txt', 'path/to/save/json/file.json')
     ```
     """
     @staticmethod
