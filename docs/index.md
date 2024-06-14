@@ -48,7 +48,7 @@ from pkrhistoryparser.parser import HandHistoryParser
 parser = HandHistoryParser()
 hand_text = parser.get_raw_text("path/to/hand/history.txt")
 hand_info = parser.parse_hand(hand_text)
-   ```
+```
 
 Parse a poker hand history to a JSON file:
 ```python
@@ -60,14 +60,14 @@ parser.parse_to_json('path/to/hand/history.txt', 'path/to/save/json/file.json')
 For more details on usage, please refer to the [documentation](https://pkrhistoryparser.readthedocs.io/en/latest/).
 
 ### Supported Poker Sites
-Currently, PokerHistoryParser supports the following poker sites:
+Currently, PokerHistoryParser supports the following poker sites:  
 - Winamax
 
 ### Upcoming Features
 Here are some features we plan to add in future versions:
-- Analysis of tournament summary files
-- Analysis of CashGame files
-- Support for more poker sites
+- Analysis of tournament summary files  
+- Analysis of CashGame files  
+- Support for more poker sites  
 
 ## Contributing
 
