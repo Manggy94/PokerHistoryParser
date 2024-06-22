@@ -1,0 +1,181 @@
+{
+    "hand_id": "556258587647672542-4-1442588770",
+    "datetime": "18-09-2015 15:06:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "129514045",
+        "table_number": "221",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/18 15:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "jean-lc",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "911sabrina",
+            "init_stack": 3100.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "bnjeams1492",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "kevinalves",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "maxdsou",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "petitboucan",
+            "init_stack": 3225.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Spinelo86400",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Iceo13",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "jean-lc",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "911sabrina",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bnjeams1492",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kevinalves",
+                "action": "raises",
+                "amount": 2970.0
+            },
+            {
+                "player": "maxdsou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "petitboucan",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Spinelo86400",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Iceo13",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jean-lc",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "911sabrina",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "4d",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "9s"
+    },
+    "showdown": {
+        "kevinalves": {
+            "first_card": "8s",
+            "second_card": "Td"
+        },
+        "Iceo13": {
+            "first_card": "9h",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "Iceo13": {
+            "amount": 6045.0,
+            "pot_type": "pot"
+        }
+    }
+}

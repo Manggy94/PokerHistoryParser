@@ -1,0 +1,95 @@
+{
+    "hand_id": "578854341872451585-14-1445448902",
+    "datetime": "21-10-2015 17:35:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "134775029",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/21 17:26:07 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "astek56",
+            "init_stack": 1640.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 3360.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "Kd"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "astek56",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 3320.0
+            },
+            {
+                "player": "astek56",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 3400.0,
+            "pot_type": "pot"
+        }
+    }
+}

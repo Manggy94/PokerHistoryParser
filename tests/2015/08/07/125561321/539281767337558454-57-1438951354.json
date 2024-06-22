@@ -1,0 +1,185 @@
+{
+    "hand_id": "539281767337558454-57-1438951354",
+    "datetime": "07-08-2015 12:42:34",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561321",
+        "table_number": "437",
+        "prize_pool": 100.0,
+        "registered_players": 3950,
+        "speed": "turbo",
+        "start_date": "2015/08/07 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jackland",
+            "init_stack": 12382.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Letyuna",
+            "init_stack": 16329.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "MINOUCHE23",
+            "init_stack": 1255.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 7485.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "drikc41",
+            "init_stack": 40275.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nufan14",
+            "init_stack": 19039.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "5d"
+    },
+    "postings": [
+        {
+            "name": "MINOUCHE23",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jackland",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Letyuna",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "drikc41",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nufan14",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MINOUCHE23",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "drikc41",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nufan14",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "jackland",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Letyuna",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MINOUCHE23",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nufan14",
+                "action": "bets",
+                "amount": 2480.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kh",
+        "flop_card_2": "Ah",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Nufan14": {
+            "amount": 4960.0,
+            "pot_type": "pot"
+        }
+    }
+}

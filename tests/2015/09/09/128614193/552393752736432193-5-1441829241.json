@@ -1,0 +1,264 @@
+{
+    "hand_id": "552393752736432193-5-1441829241",
+    "datetime": "09-09-2015 20:07:21",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "128614193",
+        "table_number": "064",
+        "prize_pool": 2240.0,
+        "registered_players": 640,
+        "speed": "semiturbo",
+        "start_date": "2015/09/09 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Jaunisse1932",
+            "init_stack": 29515.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "LuckyPlayer7",
+            "init_stack": 9150.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ozz33",
+            "init_stack": 9081.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "x-fab299-x",
+            "init_stack": 25080.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "quihihaaqui",
+            "init_stack": 8405.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Unstable34",
+            "init_stack": 23545.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "DETENDS-TOI",
+            "init_stack": 23150.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 31505.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Wesch57",
+            "init_stack": 9960.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "DETENDS-TOI",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jaunisse1932",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LuckyPlayer7",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ozz33",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "x-fab299-x",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "quihihaaqui",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Unstable34",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Wesch57",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DETENDS-TOI",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Wesch57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jaunisse1932",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LuckyPlayer7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ozz33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "x-fab299-x",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "quihihaaqui",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Unstable34",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "DETENDS-TOI",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Unstable34",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 800.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Unstable34",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Unstable34",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3s",
+        "flop_card_2": "9d",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": "4s"
+    },
+    "river": {
+        "river_card": "Ac"
+    },
+    "showdown": {
+        "Unstable34": {
+            "first_card": "2d",
+            "second_card": "Kd"
+        },
+        "manggy94": {
+            "first_card": "Ks",
+            "second_card": "3d"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 3210.0,
+            "pot_type": "pot"
+        }
+    }
+}

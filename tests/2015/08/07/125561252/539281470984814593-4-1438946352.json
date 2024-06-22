@@ -1,0 +1,170 @@
+{
+    "hand_id": "539281470984814593-4-1438946352",
+    "datetime": "07-08-2015 11:19:12",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Omaha",
+        "tournament_id": "125561252",
+        "table_number": "000",
+        "prize_pool": 1000.0,
+        "registered_players": 40,
+        "speed": "normal",
+        "start_date": "2015/08/07 11:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Adamarcus",
+            "init_stack": 2570.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 1130.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Mistral13480",
+            "init_stack": 4880.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "rgr51",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "vitaminct",
+            "init_stack": 1470.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "Adamarcus",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Mistral13480",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "rgr51",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "vitaminct",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Adamarcus",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "bets",
+                "amount": 80.0
+            },
+            {
+                "player": "rgr51",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Mistral13480",
+                "action": "bets",
+                "amount": 240.0
+            },
+            {
+                "player": "rgr51",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qh",
+        "flop_card_2": "3c",
+        "flop_card_3": "2h"
+    },
+    "turn": {
+        "turn_card": "Ah"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Mistral13480": {
+            "amount": 480.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "hand_id": "596949799299710996-4-1450010874",
+    "datetime": "13-12-2015 12:47:54",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138988206",
+        "table_number": "019",
+        "prize_pool": 2500.0,
+        "registered_players": 479,
+        "speed": "normal",
+        "start_date": "2015/12/13 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 10750.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "squatvt",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Fanta-Orange",
+            "init_stack": 7937.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-IU-",
+            "init_stack": 6718.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "BacSijp",
+            "init_stack": 11255.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mitouflin",
+            "init_stack": 13415.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "Fanta-Orange",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "-IU-",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "BacSijp",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mitouflin",
+                "action": "raises",
+                "amount": 175.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 525.0
+            },
+            {
+                "player": "squatvt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fanta-Orange",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-IU-",
+                "action": "calls",
+                "amount": 700.0
+            },
+            {
+                "player": "mitouflin",
+                "action": "calls",
+                "amount": 525.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "-IU-",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mitouflin",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2275.0
+            },
+            {
+                "player": "-IU-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mitouflin",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "8h",
+        "flop_card_3": "6s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 4550.0,
+            "pot_type": "pot"
+        }
+    }
+}

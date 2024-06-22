@@ -1,0 +1,220 @@
+{
+    "hand_id": "570460902034243596-6-1445196010",
+    "datetime": "18-10-2015 19:20:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132820779",
+        "table_number": "011",
+        "prize_pool": 2516.5,
+        "registered_players": 719,
+        "speed": "semiturbo",
+        "start_date": "2015/10/18 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "rorop42",
+            "init_stack": 8503.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "OhSoFarAway",
+            "init_stack": 11640.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "hypocrisy90",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tipoye",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "TOM-AS11",
+            "init_stack": 8560.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 9483.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Ymvej",
+            "init_stack": 12339.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "loloetloll",
+            "init_stack": 9625.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "truchemole",
+            "init_stack": 9900.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "8h"
+    },
+    "postings": [
+        {
+            "name": "truchemole",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "rorop42",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "OhSoFarAway",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "hypocrisy90",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tipoye",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TOM-AS11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ymvej",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "loloetloll",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "truchemole",
+                "action": "calls",
+                "amount": 25.0
+            },
+            {
+                "player": "rorop42",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "truchemole",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "loloetloll",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "truchemole",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "rorop42",
+                "action": "bets",
+                "amount": 125.0
+            },
+            {
+                "player": "loloetloll",
+                "action": "calls",
+                "amount": 125.0
+            }
+        ],
+        "river": [
+            {
+                "player": "rorop42",
+                "action": "bets",
+                "amount": 125.0
+            },
+            {
+                "player": "loloetloll",
+                "action": "raises",
+                "amount": 950.0
+            },
+            {
+                "player": "rorop42",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8c",
+        "flop_card_2": "Kh",
+        "flop_card_3": "Kc"
+    },
+    "turn": {
+        "turn_card": "Qc"
+    },
+    "river": {
+        "river_card": "Qs"
+    },
+    "showdown": {},
+    "winners": {
+        "loloetloll": {
+            "amount": 1900.0,
+            "pot_type": "pot"
+        }
+    }
+}

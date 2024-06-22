@@ -1,0 +1,171 @@
+{
+    "hand_id": "542619120135307412-11-1439716319",
+    "datetime": "16-08-2015 09:11:59",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126338359",
+        "table_number": "147",
+        "prize_pool": 50.0,
+        "registered_players": 2586,
+        "speed": "turbo",
+        "start_date": "2015/08/16 09:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Guren06",
+            "init_stack": 2550.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "NickyMoney",
+            "init_stack": 15535.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "kito64",
+            "init_stack": 2670.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "m pitoux",
+            "init_stack": 2945.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "jijelien",
+            "init_stack": 8920.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "sebluffeur",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "-denis-62-",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 1410.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sevdu10",
+            "init_stack": 13730.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "2d"
+    },
+    "postings": [
+        {
+            "name": "kito64",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "m pitoux",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jijelien",
+                "action": "raises",
+                "amount": 8860.0
+            },
+            {
+                "player": "sebluffeur",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-denis-62-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sevdu10",
+                "action": "calls",
+                "amount": 8920.0
+            },
+            {
+                "player": "kito64",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "m pitoux",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kh",
+        "flop_card_2": "9c",
+        "flop_card_3": "5h"
+    },
+    "turn": {
+        "turn_card": "6h"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "sevdu10": {
+            "first_card": "Jd",
+            "second_card": "7d"
+        },
+        "jijelien": {
+            "first_card": "3h",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "jijelien": {
+            "amount": 17930.0,
+            "pot_type": "pot"
+        }
+    }
+}

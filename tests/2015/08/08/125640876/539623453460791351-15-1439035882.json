@@ -1,0 +1,186 @@
+{
+    "hand_id": "539623453460791351-15-1439035882",
+    "datetime": "08-08-2015 12:11:22",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "054",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "doudou16120",
+            "init_stack": 4585.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "dam-ocles",
+            "init_stack": 2760.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2330.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "METEO34",
+            "init_stack": 7000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "CALCULATOR16",
+            "init_stack": 575.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "spacetritri",
+            "init_stack": 4320.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "doudou16120",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "dam-ocles",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "METEO34",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "CALCULATOR16",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "spacetritri",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "doudou16120",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dam-ocles",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "dam-ocles",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "METEO34",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "CALCULATOR16",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "spacetritri",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "dam-ocles",
+                "action": "bets",
+                "amount": 60.0
+            },
+            {
+                "player": "METEO34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CALCULATOR16",
+                "action": "raises",
+                "amount": 455.0
+            },
+            {
+                "player": "spacetritri",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dam-ocles",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kc",
+        "flop_card_2": "2c",
+        "flop_card_3": "Qs"
+    },
+    "turn": {
+        "turn_card": "8s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "CALCULATOR16": {
+            "amount": 845.0,
+            "pot_type": "pot"
+        }
+    }
+}

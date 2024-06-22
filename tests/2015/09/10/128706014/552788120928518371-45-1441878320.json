@@ -1,0 +1,232 @@
+{
+    "hand_id": "552788120928518371-45-1441878320",
+    "datetime": "10-09-2015 09:45:20",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "226",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Inquisitor",
+            "init_stack": 10250.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "GEORGUS41",
+            "init_stack": 1160.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "wiwi.34",
+            "init_stack": 16300.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "flanel974",
+            "init_stack": 21835.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "shokozugi71",
+            "init_stack": 705.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "fabien32190x",
+            "init_stack": 22005.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 21970.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "croquebol",
+            "init_stack": 12315.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "croquebol",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Inquisitor",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "GEORGUS41",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wiwi.34",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "flanel974",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "shokozugi71",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fabien32190x",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "croquebol",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Inquisitor",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "GEORGUS41",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wiwi.34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "flanel974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "shokozugi71",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fabien32190x",
+                "action": "raises",
+                "amount": 800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "croquebol",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Inquisitor",
+                "action": "calls",
+                "amount": 800.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Inquisitor",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "fabien32190x",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 5840.0
+            },
+            {
+                "player": "Inquisitor",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fabien32190x",
+                "action": "raises",
+                "amount": 14485.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7h",
+        "flop_card_2": "3s",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "fabien32190x": {
+            "amount": 32005.0,
+            "pot_type": "pot"
+        }
+    }
+}

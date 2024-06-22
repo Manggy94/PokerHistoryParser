@@ -1,0 +1,230 @@
+{
+    "hand_id": "570460902034243596-104-1445202208",
+    "datetime": "18-10-2015 21:03:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 16,
+        "ante": 500.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132820779",
+        "table_number": "011",
+        "prize_pool": 2516.5,
+        "registered_players": 719,
+        "speed": "semiturbo",
+        "start_date": "2015/10/18 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "gohan1436",
+            "init_stack": 28546.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "botticelli29",
+            "init_stack": 111584.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Clem76520",
+            "init_stack": 20466.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ALTasas",
+            "init_stack": 54466.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "archange_x_x",
+            "init_stack": 97970.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 54174.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "YE1978",
+            "init_stack": 23207.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ASSE73",
+            "init_stack": 50978.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "luckyclass64",
+            "init_stack": 15370.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8c",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "botticelli29",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Clem76520",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gohan1436",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ALTasas",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "archange_x_x",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "YE1978",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ASSE73",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "luckyclass64",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "botticelli29",
+            "amount": 2000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Clem76520",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ALTasas",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "archange_x_x",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "YE1978",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ASSE73",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "luckyclass64",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gohan1436",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "botticelli29",
+                "action": "raises",
+                "amount": 107084.0
+            },
+            {
+                "player": "Clem76520",
+                "action": "calls",
+                "amount": 15966.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "8d",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "2d"
+    },
+    "river": {
+        "river_card": "Tc"
+    },
+    "showdown": {
+        "Clem76520": {
+            "first_card": "Js",
+            "second_card": "Jh"
+        },
+        "botticelli29": {
+            "first_card": "Kh",
+            "second_card": "3s"
+        }
+    },
+    "winners": {
+        "botticelli29": {
+            "amount": 91118.0,
+            "pot_type": "side pot 1"
+        },
+        "Clem76520": {
+            "amount": 44432.0,
+            "pot_type": "main pot"
+        }
+    }
+}

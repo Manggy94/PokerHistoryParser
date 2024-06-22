@@ -1,0 +1,175 @@
+{
+    "hand_id": "594319995119337482-82-1449492233",
+    "datetime": "07-12-2015 12:43:53",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 22,
+        "ante": 500.0,
+        "sb": 2500.0,
+        "bb": 5000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "009",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 26893.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "flo_dpr",
+            "init_stack": 14535.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "AirAmerikA",
+            "init_stack": 143484.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "toninosniper",
+            "init_stack": 329553.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "ALWISH",
+            "init_stack": 12570.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "critinuma",
+            "init_stack": 165003.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "flo_dpr",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AirAmerikA",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "toninosniper",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ALWISH",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "critinuma",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 5000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "flo_dpr",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AirAmerikA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ALWISH",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "critinuma",
+                "action": "calls",
+                "amount": 5000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 21393.0
+            },
+            {
+                "player": "critinuma",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3h",
+        "flop_card_2": "Jh",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 34393.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,215 @@
+{
+    "hand_id": "592942745136398342-40-1449247516",
+    "datetime": "04-12-2015 16:45:16",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 10,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138055241",
+        "table_number": "005",
+        "prize_pool": 1458.0,
+        "registered_players": 324,
+        "speed": "turbo",
+        "start_date": "2015/12/04 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "vincedu84",
+            "init_stack": 14700.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Tuine",
+            "init_stack": 23020.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Djaystyle",
+            "init_stack": 22515.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "hunter 25",
+            "init_stack": 26625.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Gun Rood",
+            "init_stack": 8455.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mouki59",
+            "init_stack": 36250.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "PopAyeisbAck",
+            "init_stack": 5095.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 16435.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7c",
+        "second_card": "Td"
+    },
+    "postings": [
+        {
+            "name": "mouki59",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PopAyeisbAck",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vincedu84",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tuine",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Djaystyle",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "hunter 25",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Gun Rood",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mouki59",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PopAyeisbAck",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vincedu84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tuine",
+                "action": "raises",
+                "amount": 2000.0
+            },
+            {
+                "player": "Djaystyle",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "hunter 25",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gun Rood",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mouki59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PopAyeisbAck",
+                "action": "raises",
+                "amount": 1995.0
+            },
+            {
+                "player": "Tuine",
+                "action": "calls",
+                "amount": 1995.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3h",
+        "flop_card_2": "4c",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "7h"
+    },
+    "river": {
+        "river_card": "Ad"
+    },
+    "showdown": {
+        "PopAyeisbAck": {
+            "first_card": "Qs",
+            "second_card": "Jd"
+        },
+        "Tuine": {
+            "first_card": "As",
+            "second_card": "Kd"
+        }
+    },
+    "winners": {
+        "Tuine": {
+            "amount": 11290.0,
+            "pot_type": "pot"
+        }
+    }
+}

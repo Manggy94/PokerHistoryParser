@@ -1,0 +1,224 @@
+{
+    "hand_id": "540379457899200799-5-1439203141",
+    "datetime": "10-08-2015 10:39:01",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816897",
+        "table_number": "286",
+        "prize_pool": 100.0,
+        "registered_players": 3005,
+        "speed": "turbo",
+        "start_date": "2015/08/10 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2700.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Herve50300",
+            "init_stack": 5960.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "MagicDoooph",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "velcro31",
+            "init_stack": 6420.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "elisabeth60",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Zuly13110",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "diablerouge3",
+            "init_stack": 2920.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "FLECHE76",
+            "init_stack": 2515.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "STAFFO59",
+            "init_stack": 3450.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "STAFFO59",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Herve50300",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "MagicDoooph",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "velcro31",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "elisabeth60",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "Zuly13110",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "diablerouge3",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FLECHE76",
+                "action": "raises",
+                "amount": 2475.0
+            },
+            {
+                "player": "STAFFO59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2475.0
+            },
+            {
+                "player": "Herve50300",
+                "action": "calls",
+                "amount": 2475.0
+            },
+            {
+                "player": "velcro31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "elisabeth60",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Herve50300",
+                "action": "bets",
+                "amount": 1445.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 185.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5h",
+        "flop_card_2": "Ts",
+        "flop_card_3": "5d"
+    },
+    "turn": {
+        "turn_card": "3s"
+    },
+    "river": {
+        "river_card": "6d"
+    },
+    "showdown": {
+        "FLECHE76": {
+            "first_card": "8c",
+            "second_card": "8d"
+        },
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "Qh"
+        },
+        "Herve50300": {
+            "first_card": "Qc",
+            "second_card": "Kd"
+        }
+    },
+    "winners": {
+        "Herve50300": {
+            "amount": 1445.0,
+            "pot_type": "side pot 2"
+        },
+        "manggy94": {
+            "amount": 185.0,
+            "pot_type": "side pot 1"
+        },
+        "FLECHE76": {
+            "amount": 7645.0,
+            "pot_type": "main pot"
+        }
+    }
+}

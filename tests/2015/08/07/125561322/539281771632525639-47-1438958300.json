@@ -1,0 +1,262 @@
+{
+    "hand_id": "539281771632525639-47-1438958300",
+    "datetime": "07-08-2015 14:38:20",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 20,
+        "ante": 350.0,
+        "sb": 1500.0,
+        "bb": 3000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "326",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jcdu31",
+            "init_stack": 7958.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Tioloups",
+            "init_stack": 4935.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "jumaral",
+            "init_stack": 2491.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tebat40",
+            "init_stack": 11528.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mariktof",
+            "init_stack": 35890.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 15724.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "franceronge",
+            "init_stack": 40070.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ren.1945",
+            "init_stack": 23481.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "leoboss60",
+            "init_stack": 70825.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "8c"
+    },
+    "postings": [
+        {
+            "name": "mariktof",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jcdu31",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tioloups",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jumaral",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tebat40",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "franceronge",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ren.1945",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "leoboss60",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mariktof",
+            "amount": 1500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 3000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "franceronge",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ren.1945",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "leoboss60",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "jcdu31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tioloups",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jumaral",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tebat40",
+                "action": "raises",
+                "amount": 8178.0
+            },
+            {
+                "player": "mariktof",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 8178.0
+            },
+            {
+                "player": "leoboss60",
+                "action": "calls",
+                "amount": 8178.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "leoboss60",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "leoboss60",
+                "action": "bets",
+                "amount": 3000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "Th",
+        "flop_card_3": "4h"
+    },
+    "turn": {
+        "turn_card": "Kd"
+    },
+    "river": {
+        "river_card": "6d"
+    },
+    "showdown": {
+        "tebat40": {
+            "first_card": "Ts",
+            "second_card": "Td"
+        },
+        "leoboss60": {
+            "first_card": "Ah",
+            "second_card": "3h"
+        }
+    },
+    "winners": {
+        "leoboss60": {
+            "amount": 3000.0,
+            "pot_type": "side pot 1"
+        },
+        "tebat40": {
+            "amount": 38184.0,
+            "pot_type": "main pot"
+        }
+    }
+}

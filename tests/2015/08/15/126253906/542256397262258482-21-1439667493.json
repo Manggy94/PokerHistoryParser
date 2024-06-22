@@ -1,0 +1,217 @@
+{
+    "hand_id": "542256397262258482-21-1439667493",
+    "datetime": "15-08-2015 19:38:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0305",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Theido74",
+            "init_stack": 11110.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "wini74",
+            "init_stack": 2710.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "yocartouche",
+            "init_stack": 1170.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "jcl06",
+            "init_stack": 4270.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "yovan60",
+            "init_stack": 2795.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "djee76 x",
+            "init_stack": 7270.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "wutangclan04",
+            "init_stack": 18470.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "TerYbaRt",
+            "init_stack": 2870.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 6305.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "wutangclan04",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TerYbaRt",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Theido74",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wini74",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "yocartouche",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jcl06",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "yovan60",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "djee76 x",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wutangclan04",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "TerYbaRt",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Theido74",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wini74",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "yocartouche",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jcl06",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "yovan60",
+                "action": "raises",
+                "amount": 2630.0
+            },
+            {
+                "player": "djee76 x",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wutangclan04",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TerYbaRt",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "yovan60": {
+            "amount": 3140.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "hand_id": "540379453604233350-11-1439197859",
+    "datetime": "10-08-2015 09:10:59",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816896",
+        "table_number": "133",
+        "prize_pool": 50.0,
+        "registered_players": 2487,
+        "speed": "turbo",
+        "start_date": "2015/08/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "anaabellee",
+            "init_stack": 2870.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "magach",
+            "init_stack": 5330.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2480.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "call me dude",
+            "init_stack": 8550.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Taosacco",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "valdo126",
+            "init_stack": 8480.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "edjaz1993",
+            "init_stack": 2810.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "AlineOturn",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "gabys19",
+            "init_stack": 2700.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7d",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "gabys19",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "anaabellee",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "magach",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "call me dude",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "Taosacco",
+                "action": "raises",
+                "amount": 2760.0
+            },
+            {
+                "player": "valdo126",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gabys19",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "anaabellee",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "magach",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "call me dude",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Taosacco": {
+            "amount": 3030.0,
+            "pot_type": "pot"
+        }
+    }
+}

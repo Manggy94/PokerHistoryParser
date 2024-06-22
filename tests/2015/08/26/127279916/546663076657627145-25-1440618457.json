@@ -1,0 +1,275 @@
+{
+    "hand_id": "546663076657627145-25-1440618457",
+    "datetime": "26-08-2015 19:47:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279916",
+        "table_number": "0008",
+        "prize_pool": 250.0,
+        "registered_players": 9038,
+        "speed": "turbo",
+        "start_date": "2015/08/26 19:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 4270.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Hako45",
+            "init_stack": 2165.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Filoouu",
+            "init_stack": 6530.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-pasta-",
+            "init_stack": 6560.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "FILTONFLOUSE",
+            "init_stack": 2995.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "visa115",
+            "init_stack": 5244.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "PluieDetoile",
+            "init_stack": 1910.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "abs78200",
+            "init_stack": 2175.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Jeunie",
+            "init_stack": 9455.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "2c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Hako45",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Filoouu",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-pasta-",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "FILTONFLOUSE",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "visa115",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PluieDetoile",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "abs78200",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jeunie",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Hako45",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Filoouu",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-pasta-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FILTONFLOUSE",
+                "action": "raises",
+                "amount": 450.0
+            },
+            {
+                "player": "visa115",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PluieDetoile",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "abs78200",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeunie",
+                "action": "calls",
+                "amount": 750.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Hako45",
+                "action": "calls",
+                "amount": 450.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Hako45",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "FILTONFLOUSE",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeunie",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "Hako45",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FILTONFLOUSE",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "FILTONFLOUSE",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeunie",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "FILTONFLOUSE",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "river": [
+            {
+                "player": "FILTONFLOUSE",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeunie",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "FILTONFLOUSE",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Kc",
+        "flop_card_2": "6s",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": "2s"
+    },
+    "river": {
+        "river_card": "5h"
+    },
+    "showdown": {},
+    "winners": {
+        "Jeunie": {
+            "amount": 4215.0,
+            "pot_type": "pot"
+        }
+    }
+}

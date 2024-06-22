@@ -1,0 +1,182 @@
+{
+    "hand_id": "550711753349005770-41-1441487020",
+    "datetime": "05-09-2015 21:03:40",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "457",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "topaloff33",
+            "init_stack": 11335.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "vair78",
+            "init_stack": 11159.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Jeff-bzh",
+            "init_stack": 8748.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 15214.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manouel75",
+            "init_stack": 10400.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "dimtri76",
+            "init_stack": 8830.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Td",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "dimtri76",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "topaloff33",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vair78",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jeff-bzh",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manouel75",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dimtri76",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "topaloff33",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "vair78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeff-bzh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manouel75",
+                "action": "raises",
+                "amount": 9520.0
+            },
+            {
+                "player": "dimtri76",
+                "action": "calls",
+                "amount": 8350.0
+            },
+            {
+                "player": "topaloff33",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6c",
+        "flop_card_2": "Ac",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": "4d"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {
+        "dimtri76": {
+            "first_card": "Ks",
+            "second_card": "9s"
+        },
+        "manouel75": {
+            "first_card": "7s",
+            "second_card": "7d"
+        }
+    },
+    "winners": {
+        "manouel75": {
+            "amount": 1570.0,
+            "pot_type": "side pot 1"
+        },
+        "dimtri76": {
+            "amount": 18780.0,
+            "pot_type": "main pot"
+        }
+    }
+}

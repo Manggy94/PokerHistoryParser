@@ -1,0 +1,182 @@
+{
+    "hand_id": "539623453460791824-83-1439039619",
+    "datetime": "08-08-2015 13:13:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 22,
+        "ante": 500.0,
+        "sb": 2500.0,
+        "bb": 5000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "527",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "lelfe53",
+            "init_stack": 94029.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "...6M...",
+            "init_stack": 51241.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "kaaris1991",
+            "init_stack": 353380.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 9490.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "zaga31",
+            "init_stack": 18505.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "bipbip94",
+            "init_stack": 26218.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "...6M...",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kaaris1991",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lelfe53",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zaga31",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bipbip94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "...6M...",
+            "amount": 2500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "kaaris1991",
+            "amount": 5000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 3990.0
+            },
+            {
+                "player": "zaga31",
+                "action": "raises",
+                "amount": 9015.0
+            },
+            {
+                "player": "bipbip94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lelfe53",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "...6M...",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kaaris1991",
+                "action": "calls",
+                "amount": 13005.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "3h",
+        "flop_card_3": "7h"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "kaaris1991": {
+            "first_card": "5d",
+            "second_card": "4h"
+        },
+        "manggy94": {
+            "first_card": "9c",
+            "second_card": "Kc"
+        },
+        "zaga31": {
+            "first_card": "4c",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "zaga31": {
+            "amount": 50500.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "hand_id": "545010807033823373-23-1440272534",
+    "datetime": "22-08-2015 19:42:14",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126895217",
+        "table_number": "0140",
+        "prize_pool": 250.0,
+        "registered_players": 6680,
+        "speed": "turbo",
+        "start_date": "2015/08/22 19:15:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "STELLAMART76",
+            "init_stack": 23625.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "opium06150",
+            "init_stack": 6275.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Bob Cash 76",
+            "init_stack": 5095.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "abidine93",
+            "init_stack": 5110.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Marcopaulo28",
+            "init_stack": 22255.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Jojotek57",
+            "init_stack": 5505.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "YCANNES83",
+            "init_stack": 2525.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Ocb 93",
+            "init_stack": 3265.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 4535.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "8d"
+    },
+    "postings": [
+        {
+            "name": "Ocb 93",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "STELLAMART76",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "opium06150",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bob Cash 76",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "abidine93",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Marcopaulo28",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jojotek57",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "YCANNES83",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ocb 93",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "STELLAMART76",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "opium06150",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Bob Cash 76",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "abidine93",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Marcopaulo28",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jojotek57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "YCANNES83",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "Ocb 93",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "STELLAMART76",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "STELLAMART76",
+                "action": "bets",
+                "amount": 1680.0
+            },
+            {
+                "player": "YCANNES83",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "Ad",
+        "flop_card_3": "Qs"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "STELLAMART76": {
+            "amount": 3360.0,
+            "pot_type": "pot"
+        }
+    }
+}

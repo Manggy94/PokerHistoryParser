@@ -1,0 +1,158 @@
+{
+    "hand_id": "571495787289116681-107-1445348183",
+    "datetime": "20-10-2015 13:36:23",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 12,
+        "ante": 180.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133061732",
+        "table_number": "008",
+        "prize_pool": 1694.0,
+        "registered_players": 484,
+        "speed": "semiturbo",
+        "start_date": "2015/10/20 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Incognito 55",
+            "init_stack": 61425.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "sharkingpro",
+            "init_stack": 96640.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 66385.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Fredante",
+            "init_stack": 32200.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "tomnice78",
+            "init_stack": 36340.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6s",
+        "second_card": "8h"
+    },
+    "postings": [
+        {
+            "name": "Fredante",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tomnice78",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Incognito 55",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sharkingpro",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fredante",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "tomnice78",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Incognito 55",
+                "action": "raises",
+                "amount": 1600.0
+            },
+            {
+                "player": "sharkingpro",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fredante",
+                "action": "raises",
+                "amount": 28820.0
+            },
+            {
+                "player": "tomnice78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Incognito 55",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Fredante": {
+            "amount": 37720.0,
+            "pot_type": "pot"
+        }
+    }
+}

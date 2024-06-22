@@ -1,0 +1,275 @@
+{
+    "hand_id": "571496727886954528-10-1445359731",
+    "datetime": "20-10-2015 16:48:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 7,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1759.5,
+        "registered_players": 391,
+        "speed": "normal",
+        "start_date": "2015/10/20 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "etilove26",
+            "init_stack": 39756.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 20330.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "hold-up-31",
+            "init_stack": 29303.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Antho22160",
+            "init_stack": 19880.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "corillaz",
+            "init_stack": 17180.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "UneMeringue",
+            "init_stack": 39960.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Yolteotl",
+            "init_stack": 17596.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Nemean",
+            "init_stack": 15305.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Steuf59",
+            "init_stack": 18940.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Tc",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "etilove26",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "hold-up-31",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Antho22160",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "corillaz",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "UneMeringue",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Yolteotl",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nemean",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Steuf59",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "etilove26",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "hold-up-31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Antho22160",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "corillaz",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "UneMeringue",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "Yolteotl",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nemean",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Steuf59",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "etilove26",
+                "action": "calls",
+                "amount": 900.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "etilove26",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "UneMeringue",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Steuf59",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "etilove26",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "UneMeringue",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Steuf59",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "etilove26",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "UneMeringue",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Steuf59",
+                "action": "bets",
+                "amount": 2797.0
+            },
+            {
+                "player": "etilove26",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "UneMeringue",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ac",
+        "flop_card_2": "2c",
+        "flop_card_3": "8h"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": "Jd"
+    },
+    "showdown": {},
+    "winners": {
+        "Steuf59": {
+            "amount": 7537.0,
+            "pot_type": "pot"
+        }
+    }
+}

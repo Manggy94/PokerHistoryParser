@@ -1,0 +1,247 @@
+{
+    "hand_id": "552788065093943321-17-1441880383",
+    "datetime": "10-09-2015 10:19:43",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.22,
+        "bounty": 0.0,
+        "rake": 0.03
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "128706001",
+        "table_number": "024",
+        "prize_pool": 67.98,
+        "registered_players": 309,
+        "speed": "semiturbo",
+        "start_date": "2015/09/10 09:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Cees_Van_Och",
+            "init_stack": 25300.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "kyja",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 787.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "youmarseille",
+            "init_stack": 14038.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "neve127",
+            "init_stack": 6475.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "khanalexvd",
+            "init_stack": 13250.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "karambol972",
+            "init_stack": 21125.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "PaTaTe2Forr1",
+            "init_stack": 5825.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "L.A.23.",
+            "init_stack": 10850.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "8c"
+    },
+    "postings": [
+        {
+            "name": "youmarseille",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "neve127",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "khanalexvd",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "karambol972",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "PaTaTe2Forr1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "L.A.23.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Cees_Van_Och",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kyja",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 487.0
+            },
+            {
+                "player": "youmarseille",
+                "action": "calls",
+                "amount": 637.0
+            },
+            {
+                "player": "neve127",
+                "action": "calls",
+                "amount": 487.0
+            },
+            {
+                "player": "karambol972",
+                "action": "calls",
+                "amount": 487.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "youmarseille",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "neve127",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "karambol972",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "youmarseille",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "neve127",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "karambol972",
+                "action": "bets",
+                "amount": 1574.0
+            },
+            {
+                "player": "youmarseille",
+                "action": "calls",
+                "amount": 1574.0
+            },
+            {
+                "player": "neve127",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "youmarseille",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "karambol972",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "As",
+        "flop_card_3": "9c"
+    },
+    "turn": {
+        "turn_card": "Qs"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {
+        "youmarseille": {
+            "first_card": "Th",
+            "second_card": "7s"
+        },
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "8c"
+        },
+        "karambol972": {
+            "first_card": "Kh",
+            "second_card": "8s"
+        }
+    },
+    "winners": {
+        "karambol972": {
+            "amount": 4722.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 1574.0,
+            "pot_type": "main pot"
+        }
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "hand_id": "539623453460791351-29-1439036570",
+    "datetime": "08-08-2015 12:22:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "054",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "doudou16120",
+            "init_stack": 3430.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "mentaliste",
+            "init_stack": 2870.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 7100.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "METEO34",
+            "init_stack": 8048.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "moiser36",
+            "init_stack": 2290.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "nitsudes",
+            "init_stack": 4425.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "METEO34",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "doudou16120",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mentaliste",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "moiser36",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nitsudes",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "METEO34",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "moiser36",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nitsudes",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "doudou16120",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mentaliste",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "METEO34": {
+            "amount": 315.0,
+            "pot_type": "pot"
+        }
+    }
+}

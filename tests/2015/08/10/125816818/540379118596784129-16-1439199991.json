@@ -1,0 +1,202 @@
+{
+    "hand_id": "540379118596784129-16-1439199991",
+    "datetime": "10-08-2015 09:46:31",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1200.0,
+        "registered_players": 99,
+        "speed": "normal",
+        "start_date": "2015/08/10 09:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Mareta65",
+            "init_stack": 19100.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 21450.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Yazco",
+            "init_stack": 9300.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Cebuano",
+            "init_stack": 19850.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "SOURIS38",
+            "init_stack": 20900.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "KHOR ANGAR",
+            "init_stack": 75275.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "fati54800",
+            "init_stack": 5325.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "01remy01",
+            "init_stack": 35700.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "5d"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Yazco",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Cebuano",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SOURIS38",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "KHOR ANGAR",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fati54800",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "01remy01",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Mareta65",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yazco",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Yazco",
+                "action": "bets",
+                "amount": 2500.0
+            },
+            {
+                "player": "SOURIS38",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "fati54800",
+                "action": "calls",
+                "amount": 2500.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Yazco",
+                "action": "bets",
+                "amount": 2765.0
+            },
+            {
+                "player": "SOURIS38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fati54800",
+                "action": "calls",
+                "amount": 2025.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "4d",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "fati54800": {
+            "first_card": "6d",
+            "second_card": "9s"
+        },
+        "Yazco": {
+            "first_card": "Kc",
+            "second_card": "4c"
+        }
+    },
+    "winners": {
+        "Yazco": {
+            "amount": 14790.0,
+            "pot_type": "pot"
+        }
+    }
+}

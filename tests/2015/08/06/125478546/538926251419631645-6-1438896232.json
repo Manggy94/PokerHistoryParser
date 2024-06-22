@@ -1,0 +1,124 @@
+{
+    "hand_id": "538926251419631645-6-1438896232",
+    "datetime": "06-08-2015 21:23:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125478546",
+        "table_number": "028",
+        "prize_pool": 100.0,
+        "registered_players": 2820,
+        "speed": "turbo",
+        "start_date": "2015/08/06 21:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "leucky",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 3492.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ZORG74",
+            "init_stack": 2885.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "wimen",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "La Prince84",
+            "init_stack": 1230.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "khalba",
+            "init_stack": 2560.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "La Prince84",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "khalba",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "leucky",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "La Prince84",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "khalba": {
+            "amount": 60.0,
+            "pot_type": "pot"
+        }
+    }
+}

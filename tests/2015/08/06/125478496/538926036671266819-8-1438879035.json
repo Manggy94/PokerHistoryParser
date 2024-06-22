@@ -1,0 +1,171 @@
+{
+    "hand_id": "538926036671266819-8-1438879035",
+    "datetime": "06-08-2015 16:37:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 5000.0,
+        "registered_players": 242,
+        "speed": "normal",
+        "start_date": "2015/08/06 16:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 20050.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fuster",
+            "init_stack": 21050.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "peppert",
+            "init_stack": 19750.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "baby08",
+            "init_stack": 20825.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Laissetombe",
+            "init_stack": 18525.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "victorbynite",
+            "init_stack": 19900.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qs",
+        "second_card": "7h"
+    },
+    "postings": [
+        {
+            "name": "baby08",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Laissetombe",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "victorbynite",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fuster",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "peppert",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "baby08",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "Laissetombe",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "baby08",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Laissetombe",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "fuster",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "baby08",
+                "action": "bets",
+                "amount": 200.0
+            },
+            {
+                "player": "Laissetombe",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fuster",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kc",
+        "flop_card_2": "Td",
+        "flop_card_3": "Qh"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "baby08": {
+            "amount": 500.0,
+            "pot_type": "pot"
+        }
+    }
+}

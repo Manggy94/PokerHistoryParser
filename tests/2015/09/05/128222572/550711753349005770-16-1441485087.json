@@ -1,0 +1,165 @@
+{
+    "hand_id": "550711753349005770-16-1441485087",
+    "datetime": "05-09-2015 20:31:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "457",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ezeckk19",
+            "init_stack": 3640.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "souris83",
+            "init_stack": 2460.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ptibud34",
+            "init_stack": 2390.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 9192.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "toubilou",
+            "init_stack": 2640.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nikita111",
+            "init_stack": 880.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4h",
+        "second_card": "8c"
+    },
+    "postings": [
+        {
+            "name": "toubilou",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Nikita111",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ezeckk19",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "souris83",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "ptibud34",
+                "action": "raises",
+                "amount": 480.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "toubilou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nikita111",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ezeckk19",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "souris83",
+                "action": "calls",
+                "amount": 480.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "souris83",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ptibud34",
+                "action": "bets",
+                "amount": 750.0
+            },
+            {
+                "player": "souris83",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "2d",
+        "flop_card_3": "7h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "ptibud34": {
+            "amount": 2250.0,
+            "pot_type": "pot"
+        }
+    }
+}

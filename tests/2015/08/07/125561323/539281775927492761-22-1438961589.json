@@ -1,0 +1,280 @@
+{
+    "hand_id": "539281775927492761-22-1438961589",
+    "datetime": "07-08-2015 15:33:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561323",
+        "table_number": "152",
+        "prize_pool": 150.0,
+        "registered_players": 4105,
+        "speed": "turbo",
+        "start_date": "2015/08/07 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 625.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Manu 4 AS",
+            "init_stack": 2425.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "padebol0738",
+            "init_stack": 5535.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Joudolyon",
+            "init_stack": 6314.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "J-LimitLess",
+            "init_stack": 6755.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "SEBDURE03",
+            "init_stack": 2090.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Amandine-38",
+            "init_stack": 12315.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Sp1deryann",
+            "init_stack": 6030.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Nino1501",
+            "init_stack": 22691.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "J-LimitLess",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SEBDURE03",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Manu 4 AS",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "padebol0738",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Joudolyon",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Amandine-38",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sp1deryann",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nino1501",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "J-LimitLess",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "SEBDURE03",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Amandine-38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sp1deryann",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Nino1501",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Manu 4 AS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "padebol0738",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Joudolyon",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "J-LimitLess",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SEBDURE03",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sp1deryann",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Nino1501",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Sp1deryann",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nino1501",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "Joudolyon",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Sp1deryann",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Sp1deryann",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nino1501",
+                "action": "bets",
+                "amount": 750.0
+            },
+            {
+                "player": "Joudolyon",
+                "action": "calls",
+                "amount": 750.0
+            },
+            {
+                "player": "Sp1deryann",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Nino1501",
+                "action": "bets",
+                "amount": 1650.0
+            },
+            {
+                "player": "Joudolyon",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8s",
+        "flop_card_2": "3h",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "Js"
+    },
+    "showdown": {},
+    "winners": {
+        "Nino1501": {
+            "amount": 6615.0,
+            "pot_type": "pot"
+        }
+    }
+}

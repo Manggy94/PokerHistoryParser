@@ -1,0 +1,201 @@
+{
+    "hand_id": "594319995119337572-51-1449490831",
+    "datetime": "07-12-2015 12:20:31",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "099",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tranquillouv",
+            "init_stack": 13873.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "AnonymoussPL",
+            "init_stack": 5300.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 8800.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Giiiim",
+            "init_stack": 3349.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "tane59",
+            "init_stack": 6992.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "rouxxy",
+            "init_stack": 1480.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Thylacine13",
+            "init_stack": 21437.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "pierredu41",
+            "init_stack": 5890.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2c",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "AnonymoussPL",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tranquillouv",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Giiiim",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tane59",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "rouxxy",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Thylacine13",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pierredu41",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AnonymoussPL",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Giiiim",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tane59",
+                "action": "raises",
+                "amount": 5892.0
+            },
+            {
+                "player": "rouxxy",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Thylacine13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pierredu41",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tranquillouv",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AnonymoussPL",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "tane59": {
+            "amount": 9192.0,
+            "pot_type": "pot"
+        }
+    }
+}

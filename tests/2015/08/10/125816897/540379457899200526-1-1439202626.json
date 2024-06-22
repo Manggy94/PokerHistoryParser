@@ -1,0 +1,181 @@
+{
+    "hand_id": "540379457899200526-1-1439202626",
+    "datetime": "10-08-2015 10:30:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816897",
+        "table_number": "013",
+        "prize_pool": 100.0,
+        "registered_players": 3005,
+        "speed": "turbo",
+        "start_date": "2015/08/10 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "gingerbond",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "ninie1004",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Anthony04100",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "paolito46",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "La-Buse-13",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "DaySyaNNe",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "flo5156",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Lucifer85",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "Lucifer85",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gingerbond",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ninie1004",
+                "action": "raises",
+                "amount": 2980.0
+            },
+            {
+                "player": "Anthony04100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "paolito46",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "La-Buse-13",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "DaySyaNNe",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "flo5156",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lucifer85",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gingerbond",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "Qd",
+        "flop_card_3": "Kc"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": "5h"
+    },
+    "showdown": {
+        "ninie1004": {
+            "first_card": "Jd",
+            "second_card": "Ad"
+        },
+        "La-Buse-13": {
+            "first_card": "Td",
+            "second_card": "Qs"
+        }
+    },
+    "winners": {
+        "La-Buse-13": {
+            "amount": 6030.0,
+            "pot_type": "pot"
+        }
+    }
+}

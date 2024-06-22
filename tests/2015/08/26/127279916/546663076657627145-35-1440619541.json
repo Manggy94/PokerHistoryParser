@@ -1,0 +1,259 @@
+{
+    "hand_id": "546663076657627145-35-1440619541",
+    "datetime": "26-08-2015 20:05:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279916",
+        "table_number": "0008",
+        "prize_pool": 250.0,
+        "registered_players": 9038,
+        "speed": "turbo",
+        "start_date": "2015/08/26 19:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 5475.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "arcimboldo56",
+            "init_stack": 21786.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Filoouu",
+            "init_stack": 4715.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-pasta-",
+            "init_stack": 10310.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "crumble75",
+            "init_stack": 4533.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "visa115",
+            "init_stack": 3959.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "greygucci",
+            "init_stack": 20980.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "eskoner",
+            "init_stack": 5700.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "arcimboldo56",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Filoouu",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-pasta-",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "crumble75",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "visa115",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "greygucci",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "eskoner",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "arcimboldo56",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Filoouu",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "-pasta-",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "crumble75",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "visa115",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "greygucci",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "eskoner",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "arcimboldo56",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Filoouu",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "arcimboldo56",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Filoouu",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "-pasta-",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "greygucci",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "arcimboldo56",
+                "action": "bets",
+                "amount": 1000.0
+            },
+            {
+                "player": "Filoouu",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-pasta-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "greygucci",
+                "action": "calls",
+                "amount": 1000.0
+            }
+        ],
+        "river": [
+            {
+                "player": "arcimboldo56",
+                "action": "bets",
+                "amount": 1000.0
+            },
+            {
+                "player": "greygucci",
+                "action": "raises",
+                "amount": 6367.0
+            },
+            {
+                "player": "arcimboldo56",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "6c",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "8s"
+    },
+    "river": {
+        "river_card": "5h"
+    },
+    "showdown": {},
+    "winners": {
+        "greygucci": {
+            "amount": 15167.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "hand_id": "562444208137306159-316-1443625793",
+    "datetime": "30-09-2015 15:09:53",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 23,
+        "ante": 2500.0,
+        "sb": 10000.0,
+        "bb": 20000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "130954247",
+        "table_number": "046",
+        "prize_pool": 1382.5,
+        "registered_players": 395,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "TheLuckyCat",
+            "init_stack": 295435.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 932494.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "allinJoe2014",
+            "init_stack": 370111.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mikiiice",
+            "init_stack": 698994.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "mikiiice",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TheLuckyCat",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "allinJoe2014",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mikiiice",
+            "amount": 10000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "TheLuckyCat",
+            "amount": 20000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20000.0
+            },
+            {
+                "player": "allinJoe2014",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mikiiice",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TheLuckyCat",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "TheLuckyCat",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "TheLuckyCat",
+                "action": "bets",
+                "amount": 20000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20000.0
+            }
+        ],
+        "river": [
+            {
+                "player": "TheLuckyCat",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "9d",
+        "flop_card_3": "9s"
+    },
+    "turn": {
+        "turn_card": "Kd"
+    },
+    "river": {
+        "river_card": "Jc"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Qh",
+            "second_card": "3d"
+        },
+        "TheLuckyCat": {
+            "first_card": "3h",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "TheLuckyCat": {
+            "amount": 100000.0,
+            "pot_type": "pot"
+        }
+    }
+}

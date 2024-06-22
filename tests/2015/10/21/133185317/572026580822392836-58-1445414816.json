@@ -1,0 +1,143 @@
+{
+    "hand_id": "572026580822392836-58-1445414816",
+    "datetime": "21-10-2015 08:06:56",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 841.5,
+        "registered_players": 187,
+        "speed": "normal",
+        "start_date": "2015/10/21 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 4,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "pistak777",
+            "init_stack": 45256.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 15500.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "bastien4218",
+            "init_stack": 8633.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "slav4ella",
+            "init_stack": 30611.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "8h"
+    },
+    "postings": [
+        {
+            "name": "bastien4218",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "slav4ella",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pistak777",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "bastien4218",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "slav4ella",
+                "action": "raises",
+                "amount": 750.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bastien4218",
+                "action": "calls",
+                "amount": 750.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "bastien4218",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "slav4ella",
+                "action": "bets",
+                "amount": 1080.0
+            },
+            {
+                "player": "bastien4218",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ts",
+        "flop_card_2": "3c",
+        "flop_card_3": "Ac"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "slav4ella": {
+            "amount": 3480.0,
+            "pot_type": "pot"
+        }
+    }
+}

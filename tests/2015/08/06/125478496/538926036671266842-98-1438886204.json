@@ -1,0 +1,226 @@
+{
+    "hand_id": "538926036671266842-98-1438886204",
+    "datetime": "06-08-2015 18:36:44",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 13,
+        "ante": 320.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 5000.0,
+        "registered_players": 242,
+        "speed": "normal",
+        "start_date": "2015/08/06 16:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Roronoa Z.",
+            "init_stack": 55316.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "isabella87",
+            "init_stack": 283006.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "LeBouliste44",
+            "init_stack": 145576.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "fa11",
+            "init_stack": 47970.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "DAVIDE42",
+            "init_stack": 154555.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 144634.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "DAVIDE42",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Roronoa Z.",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "isabella87",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LeBouliste44",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fa11",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DAVIDE42",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Roronoa Z.",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "isabella87",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LeBouliste44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fa11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DAVIDE42",
+                "action": "calls",
+                "amount": 1250.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 9420.0
+            },
+            {
+                "player": "Roronoa Z.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DAVIDE42",
+                "action": "calls",
+                "amount": 9420.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "DAVIDE42",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 28260.0
+            },
+            {
+                "player": "DAVIDE42",
+                "action": "calls",
+                "amount": 28260.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "DAVIDE42",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "DAVIDE42",
+                "action": "bets",
+                "amount": 2500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2500.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "6h",
+        "flop_card_3": "4h"
+    },
+    "turn": {
+        "turn_card": "6c"
+    },
+    "river": {
+        "river_card": "5c"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ad",
+            "second_card": "Ks"
+        },
+        "DAVIDE42": {
+            "first_card": "3h",
+            "second_card": "2h"
+        }
+    },
+    "winners": {
+        "DAVIDE42": {
+            "amount": 89780.0,
+            "pot_type": "pot"
+        }
+    }
+}

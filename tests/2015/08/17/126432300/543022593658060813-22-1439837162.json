@@ -1,0 +1,226 @@
+{
+    "hand_id": "543022593658060813-22-1439837162",
+    "datetime": "17-08-2015 18:46:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126432300",
+        "table_number": "0012",
+        "prize_pool": 150.0,
+        "registered_players": 7593,
+        "speed": "turbo",
+        "start_date": "2015/08/17 18:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "poupee13003",
+            "init_stack": 18215.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "calou4433",
+            "init_stack": 4825.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 11985.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "clowntriste",
+            "init_stack": 2430.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "cousin67",
+            "init_stack": 3755.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "josymini",
+            "init_stack": 11780.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "edisonkchuil",
+            "init_stack": 12330.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "faloli13800",
+            "init_stack": 5485.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "alexfou7",
+            "init_stack": 11295.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ts",
+        "second_card": "2d"
+    },
+    "postings": [
+        {
+            "name": "josymini",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "edisonkchuil",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "poupee13003",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "calou4433",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "clowntriste",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cousin67",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "faloli13800",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "alexfou7",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "josymini",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "edisonkchuil",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "faloli13800",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "alexfou7",
+                "action": "raises",
+                "amount": 10960.0
+            },
+            {
+                "player": "poupee13003",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "calou4433",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "clowntriste",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cousin67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "josymini",
+                "action": "raises",
+                "amount": 485.0
+            },
+            {
+                "player": "edisonkchuil",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8s",
+        "flop_card_2": "3d",
+        "flop_card_3": "6d"
+    },
+    "turn": {
+        "turn_card": "Js"
+    },
+    "river": {
+        "river_card": "7d"
+    },
+    "showdown": {
+        "alexfou7": {
+            "first_card": "8d",
+            "second_card": "8h"
+        },
+        "josymini": {
+            "first_card": "Qd",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "josymini": {
+            "amount": 23620.0,
+            "pot_type": "pot"
+        }
+    }
+}

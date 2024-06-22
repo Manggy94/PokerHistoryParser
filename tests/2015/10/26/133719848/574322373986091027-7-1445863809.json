@@ -1,0 +1,165 @@
+{
+    "hand_id": "574322373986091027-7-1445863809",
+    "datetime": "26-10-2015 12:50:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133719848",
+        "table_number": "018",
+        "prize_pool": 1827.0,
+        "registered_players": 522,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 12:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Yekoms",
+            "init_stack": 9763.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tipokpok",
+            "init_stack": 10862.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "-valueporc-",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Celestaaa",
+            "init_stack": 10150.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Nevro97436",
+            "init_stack": 9050.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 20175.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "Nevro97436",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Yekoms",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tipokpok",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-valueporc-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Celestaaa",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "calls",
+                "amount": 25.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Nevro97436",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Celestaaa",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7s",
+        "flop_card_2": "2d",
+        "flop_card_3": "Kc"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Celestaaa": {
+            "amount": 250.0,
+            "pot_type": "pot"
+        }
+    }
+}

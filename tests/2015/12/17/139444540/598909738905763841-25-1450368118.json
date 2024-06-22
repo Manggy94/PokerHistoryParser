@@ -1,0 +1,150 @@
+{
+    "hand_id": "598909738905763841-25-1450368118",
+    "datetime": "17-12-2015 16:01:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.45,
+        "bounty": 0.0,
+        "rake": 0.05
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 29.7,
+        "registered_players": 26,
+        "speed": "turbo",
+        "start_date": "2015/12/17 15:40:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 8,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 480.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "caroun63",
+            "init_stack": 2320.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "REDA69230",
+            "init_stack": 2495.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "AA-AA-",
+            "init_stack": 2000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "maximus 07",
+            "init_stack": 1895.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Le Shark_61",
+            "init_stack": 1940.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "lawineuse73",
+            "init_stack": 2445.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3s",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "REDA69230",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "AA-AA-",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "maximus 07",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Le Shark_61",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "lawineuse73",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "caroun63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "REDA69230",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AA-AA-",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Le Shark_61": {
+            "amount": 420.0,
+            "pot_type": "pot"
+        }
+    }
+}

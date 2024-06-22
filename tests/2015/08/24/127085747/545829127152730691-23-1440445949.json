@@ -1,0 +1,259 @@
+{
+    "hand_id": "545829127152730691-23-1440445949",
+    "datetime": "24-08-2015 19:52:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085747",
+        "table_number": "0578",
+        "prize_pool": 250.0,
+        "registered_players": 9824,
+        "speed": "turbo",
+        "start_date": "2015/08/24 19:15:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tachillon",
+            "init_stack": 19672.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Kakaouette1",
+            "init_stack": 1092.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "jveutesjeton",
+            "init_stack": 12697.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lili14930",
+            "init_stack": 9030.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bryce-",
+            "init_stack": 1960.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "missdoudou13",
+            "init_stack": 12777.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 8812.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "pouffy59",
+            "init_stack": 2340.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "outly",
+            "init_stack": 5935.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qs",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "missdoudou13",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tachillon",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kakaouette1",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jveutesjeton",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lili14930",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bryce-",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pouffy59",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "outly",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "missdoudou13",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pouffy59",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "outly",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tachillon",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kakaouette1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jveutesjeton",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "lili14930",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bryce-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "missdoudou13",
+                "action": "calls",
+                "amount": 250.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "missdoudou13",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2450.0
+            },
+            {
+                "player": "pouffy59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jveutesjeton",
+                "action": "calls",
+                "amount": 2450.0
+            },
+            {
+                "player": "missdoudou13",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "jveutesjeton",
+                "action": "bets",
+                "amount": 7350.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "2c",
+        "flop_card_3": "5d"
+    },
+    "turn": {
+        "turn_card": "As"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "jveutesjeton": {
+            "amount": 14700.0,
+            "pot_type": "pot"
+        }
+    }
+}

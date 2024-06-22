@@ -1,0 +1,294 @@
+{
+    "hand_id": "568654782386929675-55-1444846818",
+    "datetime": "14-10-2015 18:20:18",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 7.0,
+        "bounty": 0.0,
+        "rake": 3.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132400259",
+        "table_number": "010",
+        "prize_pool": 1533.0,
+        "registered_players": 219,
+        "speed": "semiturbo",
+        "start_date": "2015/10/14 17:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "johnny2010",
+            "init_stack": 12195.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "magiknono666",
+            "init_stack": 8340.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "superpoutchi",
+            "init_stack": 17900.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "w2totor",
+            "init_stack": 36453.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "93HARDCORE",
+            "init_stack": 26733.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Sinnlos",
+            "init_stack": 33844.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 16622.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "latirel",
+            "init_stack": 28985.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "eldiabloss",
+            "init_stack": 23060.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7d",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "name": "johnny2010",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "magiknono666",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "superpoutchi",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "w2totor",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "93HARDCORE",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sinnlos",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "latirel",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "eldiabloss",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "johnny2010",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "magiknono666",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "superpoutchi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "w2totor",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "93HARDCORE",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sinnlos",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "latirel",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "eldiabloss",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "johnny2010",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "magiknono666",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "johnny2010",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "magiknono666",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "latirel",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "johnny2010",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "magiknono666",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "latirel",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "johnny2010",
+                "action": "bets",
+                "amount": 3675.0
+            },
+            {
+                "player": "magiknono666",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 11847.0
+            },
+            {
+                "player": "latirel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "johnny2010",
+                "action": "calls",
+                "amount": 7420.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "Jc",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": "4s"
+    },
+    "river": {
+        "river_card": "3s"
+    },
+    "showdown": {
+        "johnny2010": {
+            "first_card": "Kd",
+            "second_card": "2d"
+        },
+        "manggy94": {
+            "first_card": "7d",
+            "second_card": "6d"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 31517.0,
+            "pot_type": "pot"
+        }
+    }
+}

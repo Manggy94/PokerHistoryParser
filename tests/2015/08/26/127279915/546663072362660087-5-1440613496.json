@@ -1,0 +1,180 @@
+{
+    "hand_id": "546663072362660087-5-1440613496",
+    "datetime": "26-08-2015 18:24:56",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279915",
+        "table_number": "0246",
+        "prize_pool": 150.0,
+        "registered_players": 6576,
+        "speed": "turbo",
+        "start_date": "2015/08/26 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "nicodange",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "wannawin",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "norman2276",
+            "init_stack": 5020.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Mr McJacK",
+            "init_stack": 5960.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "birbey",
+            "init_stack": 910.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 690.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "cartalias",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "stone-_-park",
+            "init_stack": 8580.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "BATMAN48",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "stone-_-park",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "BATMAN48",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nicodange",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wannawin",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "norman2276",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "Mr McJacK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "birbey",
+                "action": "raises",
+                "amount": 850.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 690.0
+            },
+            {
+                "player": "stone-_-park",
+                "action": "calls",
+                "amount": 850.0
+            },
+            {
+                "player": "norman2276",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8s",
+        "flop_card_2": "5d",
+        "flop_card_3": "2c"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "birbey": {
+            "first_card": "Ad",
+            "second_card": "Qd"
+        },
+        "manggy94": {
+            "first_card": "9c",
+            "second_card": "Ac"
+        },
+        "stone-_-park": {
+            "first_card": "2d",
+            "second_card": "6c"
+        }
+    },
+    "winners": {
+        "stone-_-park": {
+            "amount": 2570.0,
+            "pot_type": "pot"
+        }
+    }
+}

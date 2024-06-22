@@ -1,0 +1,245 @@
+{
+    "hand_id": "570460902034243596-18-1445196685",
+    "datetime": "18-10-2015 19:31:25",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132820779",
+        "table_number": "011",
+        "prize_pool": 2516.5,
+        "registered_players": 719,
+        "speed": "semiturbo",
+        "start_date": "2015/10/18 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "rorop42",
+            "init_stack": 11003.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "OhSoFarAway",
+            "init_stack": 11315.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "LG24",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tipoye",
+            "init_stack": 26135.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "A-llow win",
+            "init_stack": 9400.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 17633.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Ymvej",
+            "init_stack": 12189.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "loloetloll",
+            "init_stack": 12475.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "taken",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "LG24",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "tipoye",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "A-llow win",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ymvej",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "loloetloll",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "taken",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "OhSoFarAway",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "LG24",
+                "action": "calls",
+                "amount": 75.0
+            },
+            {
+                "player": "tipoye",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "LG24",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "tipoye",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "OhSoFarAway",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "LG24",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "tipoye",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "LG24",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "bets",
+                "amount": 750.0
+            },
+            {
+                "player": "OhSoFarAway",
+                "action": "calls",
+                "amount": 750.0
+            },
+            {
+                "player": "LG24",
+                "action": "calls",
+                "amount": 750.0
+            }
+        ],
+        "river": [
+            {
+                "player": "LG24",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "bets",
+                "amount": 3750.0
+            },
+            {
+                "player": "OhSoFarAway",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LG24",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2h",
+        "flop_card_2": "Ah",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {},
+    "winners": {
+        "rorop42": {
+            "amount": 7500.0,
+            "pot_type": "pot"
+        }
+    }
+}

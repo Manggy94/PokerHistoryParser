@@ -1,0 +1,139 @@
+{
+    "hand_id": "593829213501390895-27-1449407604",
+    "datetime": "06-12-2015 13:13:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138261638",
+        "table_number": "046",
+        "prize_pool": 3726.0,
+        "registered_players": 828,
+        "speed": "normal",
+        "start_date": "2015/12/06 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 10700.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "la Ventrale",
+            "init_stack": 11325.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BEINGOFLIGHT",
+            "init_stack": 11065.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "SyLeps",
+            "init_stack": 7925.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Ramouchinho",
+            "init_stack": 7485.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "chib88",
+            "init_stack": 11500.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jh",
+        "second_card": "7c"
+    },
+    "postings": [
+        {
+            "name": "Ramouchinho",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "chib88",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "la Ventrale",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "BEINGOFLIGHT",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SyLeps",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ramouchinho",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chib88",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "la Ventrale": {
+            "amount": 525.0,
+            "pot_type": "pot"
+        }
+    }
+}

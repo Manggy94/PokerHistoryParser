@@ -1,0 +1,292 @@
+{
+    "hand_id": "540379118596784130-29-1439201252",
+    "datetime": "10-08-2015 10:07:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1200.0,
+        "registered_players": 99,
+        "speed": "normal",
+        "start_date": "2015/08/10 09:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Monqey",
+            "init_stack": 58800.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "K-l-K",
+            "init_stack": 27312.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "lepiaf_60180",
+            "init_stack": 48600.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "neumohr",
+            "init_stack": 57450.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "theblackpawn",
+            "init_stack": 5238.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "rockyleking",
+            "init_stack": 19700.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "lapiaz39",
+            "init_stack": 350.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 30450.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "MARTIN OUI",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5h",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "theblackpawn",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "rockyleking",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Monqey",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "K-l-K",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lepiaf_60180",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "neumohr",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lapiaz39",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MARTIN OUI",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "theblackpawn",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "rockyleking",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "lapiaz39",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MARTIN OUI",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Monqey",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "K-l-K",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "lepiaf_60180",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "neumohr",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "theblackpawn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rockyleking",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "rockyleking",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "MARTIN OUI",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Monqey",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "K-l-K",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "lepiaf_60180",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "rockyleking",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "MARTIN OUI",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "rockyleking",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Monqey",
+                "action": "bets",
+                "amount": 58175.0
+            },
+            {
+                "player": "K-l-K",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lepiaf_60180",
+                "action": "calls",
+                "amount": 47975.0
+            },
+            {
+                "player": "rockyleking",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "Td",
+        "flop_card_3": "Kh"
+    },
+    "turn": {
+        "turn_card": "9c"
+    },
+    "river": {
+        "river_card": "2c"
+    },
+    "showdown": {
+        "Monqey": {
+            "first_card": "7d",
+            "second_card": "6c"
+        },
+        "lepiaf_60180": {
+            "first_card": "Jc",
+            "second_card": "7c"
+        }
+    },
+    "winners": {
+        "lepiaf_60180": {
+            "amount": 99025.0,
+            "pot_type": "main pot"
+        },
+        "Monqey": {
+            "amount": 10200.0,
+            "pot_type": "side pot 1"
+        }
+    }
+}

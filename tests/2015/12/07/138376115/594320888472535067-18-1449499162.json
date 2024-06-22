@@ -1,0 +1,184 @@
+{
+    "hand_id": "594320888472535067-18-1449499162",
+    "datetime": "07-12-2015 14:39:22",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138376115",
+        "table_number": "026",
+        "prize_pool": 1957.5,
+        "registered_players": 435,
+        "speed": "semiturbo",
+        "start_date": "2015/12/07 14:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "hona19",
+            "init_stack": 17600.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "milimac",
+            "init_stack": 9400.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "fouuuuu57",
+            "init_stack": 17650.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Glatrick",
+            "init_stack": 13950.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CrazyFred02",
+            "init_stack": 9300.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "koppiscine29",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Djaystyle",
+            "init_stack": 12925.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2s",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "Djaystyle",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "hona19",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "milimac",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "fouuuuu57",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Glatrick",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CrazyFred02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "koppiscine29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Djaystyle",
+                "action": "raises",
+                "amount": 12625.0
+            },
+            {
+                "player": "hona19",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "milimac",
+                "action": "calls",
+                "amount": 9100.0
+            },
+            {
+                "player": "fouuuuu57",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jd",
+        "flop_card_2": "6d",
+        "flop_card_3": "Kd"
+    },
+    "turn": {
+        "turn_card": "Tc"
+    },
+    "river": {
+        "river_card": "Kc"
+    },
+    "showdown": {
+        "milimac": {
+            "first_card": "Kh",
+            "second_card": "Jc"
+        },
+        "Djaystyle": {
+            "first_card": "9c",
+            "second_card": "9s"
+        }
+    },
+    "winners": {
+        "Djaystyle": {
+            "amount": 3525.0,
+            "pot_type": "side pot 1"
+        },
+        "milimac": {
+            "amount": 19400.0,
+            "pot_type": "main pot"
+        }
+    }
+}

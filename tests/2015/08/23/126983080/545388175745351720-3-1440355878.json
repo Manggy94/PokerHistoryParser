@@ -1,0 +1,213 @@
+{
+    "hand_id": "545388175745351720-3-1440355878",
+    "datetime": "23-08-2015 18:51:18",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Welcome Freeroll",
+        "tournament_id": "126983080",
+        "table_number": "039",
+        "prize_pool": 1000.0,
+        "registered_players": 1150,
+        "speed": "semiturbo",
+        "start_date": "2015/08/23 18:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Sleng93",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Damien93230",
+            "init_stack": 6030.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "CashUrgent",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-16-pascool",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ziedzinedine",
+            "init_stack": 30.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Senia13",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "ORMA1",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Fable64",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Tc",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "Sleng93",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Damien93230",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "CashUrgent",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-16-pascool",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ziedzinedine",
+                "action": "raises",
+                "amount": 10.0
+            },
+            {
+                "player": "Senia13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ORMA1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Sleng93",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Damien93230",
+                "action": "calls",
+                "amount": 10.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Damien93230",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Damien93230",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Damien93230",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9h",
+        "flop_card_2": "Ad",
+        "flop_card_3": "Qs"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": "Qh"
+    },
+    "showdown": {
+        "Damien93230": {
+            "first_card": "Kc",
+            "second_card": "5s"
+        },
+        "manggy94": {
+            "first_card": "Tc",
+            "second_card": "Kh"
+        },
+        "ziedzinedine": {
+            "first_card": "4c",
+            "second_card": "6c"
+        }
+    },
+    "winners": {
+        "ziedzinedine": {
+            "amount": 100.0,
+            "pot_type": "pot"
+        }
+    }
+}

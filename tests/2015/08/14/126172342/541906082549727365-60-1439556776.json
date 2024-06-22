@@ -1,0 +1,180 @@
+{
+    "hand_id": "541906082549727365-60-1439556776",
+    "datetime": "14-08-2015 12:52:56",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 17,
+        "ante": 160.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "132",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "gaugau7",
+            "init_stack": 14069.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "anto8391",
+            "init_stack": 8205.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nicolito11",
+            "init_stack": 16240.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "sandymillion",
+            "init_stack": 12098.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "frater13015x",
+            "init_stack": 6781.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 5831.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7h",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "frater13015x",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gaugau7",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "anto8391",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nicolito11",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sandymillion",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "frater13015x",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gaugau7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "anto8391",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nicolito11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sandymillion",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "frater13015x",
+                "action": "bets",
+                "amount": 1600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "Ac",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "frater13015x": {
+            "amount": 5760.0,
+            "pot_type": "pot"
+        }
+    }
+}

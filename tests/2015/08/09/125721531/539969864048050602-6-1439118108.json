@@ -1,0 +1,224 @@
+{
+    "hand_id": "539969864048050602-6-1439118108",
+    "datetime": "09-08-2015 11:01:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "425",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "alittledream",
+            "init_stack": 5035.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 3860.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nico-82",
+            "init_stack": 4790.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "idaho94420",
+            "init_stack": 2925.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "NeRVouze68",
+            "init_stack": 6250.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "le-loup",
+            "init_stack": 11895.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "MIDE1991",
+            "init_stack": 2905.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "DGEJO",
+            "init_stack": 3725.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qc",
+        "second_card": "2h"
+    },
+    "postings": [
+        {
+            "name": "Nico-82",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "idaho94420",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "alittledream",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NeRVouze68",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "le-loup",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MIDE1991",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DGEJO",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nico-82",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "idaho94420",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "NeRVouze68",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le-loup",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "MIDE1991",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DGEJO",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "alittledream",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "raises",
+                "amount": 4170.0
+            },
+            {
+                "player": "idaho94420",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le-loup",
+                "action": "calls",
+                "amount": 4170.0
+            },
+            {
+                "player": "DGEJO",
+                "action": "calls",
+                "amount": 3105.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "9d",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "7h"
+    },
+    "river": {
+        "river_card": "Qd"
+    },
+    "showdown": {
+        "le-loup": {
+            "first_card": "Ah",
+            "second_card": "Ad"
+        },
+        "DGEJO": {
+            "first_card": "9s",
+            "second_card": "9h"
+        },
+        "Nico-82": {
+            "first_card": "Kd",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "Nico-82": {
+            "amount": 13605.0,
+            "pot_type": "pot"
+        }
+    }
+}

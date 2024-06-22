@@ -1,0 +1,246 @@
+{
+    "hand_id": "572024519238090760-23-1445441882",
+    "datetime": "21-10-2015 15:38:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133184837",
+        "table_number": "007",
+        "prize_pool": 819.0,
+        "registered_players": 234,
+        "speed": "turbo",
+        "start_date": "2015/10/21 15:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ukinismuilas",
+            "init_stack": 8725.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Yoplax78",
+            "init_stack": 9890.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "bodydu 86",
+            "init_stack": 18310.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "kITcHEn-cHeF",
+            "init_stack": 90580.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "TONY6727",
+            "init_stack": 13930.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "UthinkIMgod",
+            "init_stack": 7960.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 10110.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "aurel412",
+            "init_stack": 9960.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "UthinkIMgod",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ukinismuilas",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Yoplax78",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bodydu 86",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kITcHEn-cHeF",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TONY6727",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "aurel412",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "UthinkIMgod",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "aurel412",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "ukinismuilas",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yoplax78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bodydu 86",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kITcHEn-cHeF",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "TONY6727",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "UthinkIMgod",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2070.0
+            },
+            {
+                "player": "aurel412",
+                "action": "calls",
+                "amount": 2070.0
+            },
+            {
+                "player": "kITcHEn-cHeF",
+                "action": "calls",
+                "amount": 2070.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 7500.0
+            },
+            {
+                "player": "aurel412",
+                "action": "calls",
+                "amount": 7350.0
+            },
+            {
+                "player": "kITcHEn-cHeF",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6c",
+        "flop_card_2": "7d",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": "Kd"
+    },
+    "showdown": {
+        "aurel412": {
+            "first_card": "Jc",
+            "second_card": "9c"
+        },
+        "manggy94": {
+            "first_card": "7s",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 150.0,
+            "pot_type": "side pot 1"
+        },
+        "aurel412": {
+            "amount": 22980.0,
+            "pot_type": "main pot"
+        }
+    }
+}

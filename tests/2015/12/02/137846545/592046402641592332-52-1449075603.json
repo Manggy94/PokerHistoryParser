@@ -1,0 +1,208 @@
+{
+    "hand_id": "592046402641592332-52-1449075603",
+    "datetime": "02-12-2015 17:00:03",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 13,
+        "ante": 240.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "137846545",
+        "table_number": "011",
+        "prize_pool": 1701.0,
+        "registered_players": 378,
+        "speed": "turbo",
+        "start_date": "2015/12/02 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "aurel38290",
+            "init_stack": 14427.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Doc9445",
+            "init_stack": 56244.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "GOTAGA-EU",
+            "init_stack": 22737.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kiara14",
+            "init_stack": 42351.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mickarocco62",
+            "init_stack": 40160.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 13448.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ric22520",
+            "init_stack": 16340.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "8c"
+    },
+    "postings": [
+        {
+            "name": "Doc9445",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "GOTAGA-EU",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "aurel38290",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kiara14",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mickarocco62",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ric22520",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Doc9445",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "GOTAGA-EU",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Kiara14",
+                "action": "raises",
+                "amount": 2000.0
+            },
+            {
+                "player": "mickarocco62",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ric22520",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "aurel38290",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Doc9445",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "GOTAGA-EU",
+                "action": "raises",
+                "amount": 18497.0
+            },
+            {
+                "player": "Kiara14",
+                "action": "raises",
+                "amount": 19614.0
+            },
+            {
+                "player": "Doc9445",
+                "action": "calls",
+                "amount": 38111.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4c",
+        "flop_card_2": "Jh",
+        "flop_card_3": "5s"
+    },
+    "turn": {
+        "turn_card": "4h"
+    },
+    "river": {
+        "river_card": "Qs"
+    },
+    "showdown": {
+        "GOTAGA-EU": {
+            "first_card": "3h",
+            "second_card": "As"
+        },
+        "Kiara14": {
+            "first_card": "Th",
+            "second_card": "Tc"
+        },
+        "Doc9445": {
+            "first_card": "Qd",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "Doc9445": {
+            "amount": 108399.0,
+            "pot_type": "pot"
+        }
+    }
+}

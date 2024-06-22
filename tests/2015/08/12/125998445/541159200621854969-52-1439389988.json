@@ -1,0 +1,264 @@
+{
+    "hand_id": "541159200621854969-52-1439389988",
+    "datetime": "12-08-2015 14:33:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 19,
+        "ante": 250.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "248",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "oki1023",
+            "init_stack": 43110.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "BUTIA974",
+            "init_stack": 33516.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "dolef",
+            "init_stack": 50275.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "fullnobeat",
+            "init_stack": 29817.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "icekush",
+            "init_stack": 4664.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Brown Nino",
+            "init_stack": 2451.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 44628.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "pong45",
+            "init_stack": 14356.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "kris2307",
+            "init_stack": 30119.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9d",
+        "second_card": "9c"
+    },
+    "postings": [
+        {
+            "name": "fullnobeat",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "icekush",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "oki1023",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BUTIA974",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dolef",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Brown Nino",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pong45",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kris2307",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fullnobeat",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "icekush",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Brown Nino",
+                "action": "calls",
+                "amount": 2201.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "pong45",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kris2307",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "oki1023",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "BUTIA974",
+                "action": "raises",
+                "amount": 5000.0
+            },
+            {
+                "player": "dolef",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fullnobeat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "icekush",
+                "action": "calls",
+                "amount": 1914.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 5000.0
+            },
+            {
+                "player": "oki1023",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "BUTIA974",
+                "action": "bets",
+                "amount": 10000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "5h",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "Brown Nino": {
+            "first_card": "5d",
+            "second_card": "Ac"
+        },
+        "icekush": {
+            "first_card": "3c",
+            "second_card": "5c"
+        },
+        "BUTIA974": {
+            "first_card": "As",
+            "second_card": "6s"
+        }
+    },
+    "winners": {
+        "BUTIA974": {
+            "amount": 16172.0,
+            "pot_type": "side pot 2"
+        },
+        "icekush": {
+            "amount": 6938.0,
+            "pot_type": "side pot 1"
+        },
+        "Brown Nino": {
+            "amount": 14505.0,
+            "pot_type": "main pot"
+        }
+    }
+}

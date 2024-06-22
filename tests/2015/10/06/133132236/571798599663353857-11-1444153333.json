@@ -1,0 +1,166 @@
+{
+    "hand_id": "571798599663353857-11-1444153333",
+    "datetime": "06-10-2015 17:42:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block Winamax Poker Tour",
+        "tournament_id": "133132236",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/06 17:33:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 8,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "Dr. Mitch",
+            "init_stack": 1545.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "chawizy",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "zagg57",
+            "init_stack": 6040.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 175.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Dacdacodac",
+            "init_stack": 4380.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "2d"
+    },
+    "postings": [
+        {
+            "name": "Dr. Mitch",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "chawizy",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "zagg57",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dacdacodac",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dr. Mitch",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chawizy",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "chawizy",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zagg57",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "chawizy",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zagg57",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "chawizy",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zagg57",
+                "action": "bets",
+                "amount": 60.0
+            },
+            {
+                "player": "chawizy",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "7d",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": "5c"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {},
+    "winners": {
+        "zagg57": {
+            "amount": 210.0,
+            "pot_type": "pot"
+        }
+    }
+}

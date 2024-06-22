@@ -1,0 +1,186 @@
+{
+    "hand_id": "538925972246757377-1-1438866905",
+    "datetime": "06-08-2015 13:15:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1000.0,
+        "registered_players": 39,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "mcdv06",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "ganguise",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "pat1410",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "charas",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "searle89",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9d",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "pat1410",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "charas",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "searle89",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "mcdv06",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ganguise",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pat1410",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "charas",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "searle89",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "searle89",
+                "action": "bets",
+                "amount": 575.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 575.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "searle89",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "searle89",
+                "action": "bets",
+                "amount": 1150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1150.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "7h",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "Tc"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "9d",
+            "second_card": "9s"
+        },
+        "searle89": {
+            "first_card": "Th",
+            "second_card": "Jh"
+        }
+    },
+    "winners": {
+        "searle89": {
+            "amount": 4600.0,
+            "pot_type": "pot"
+        }
+    }
+}

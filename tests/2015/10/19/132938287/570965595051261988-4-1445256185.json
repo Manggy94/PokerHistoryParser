@@ -1,0 +1,160 @@
+{
+    "hand_id": "570965595051261988-4-1445256185",
+    "datetime": "19-10-2015 12:03:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132938287",
+        "table_number": "035",
+        "prize_pool": 1757.0,
+        "registered_players": 502,
+        "speed": "semiturbo",
+        "start_date": "2015/10/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ilonAA",
+            "init_stack": 9900.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "dan14",
+            "init_stack": 10283.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "lirax",
+            "init_stack": 10768.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "unlucky luke",
+            "init_stack": 9450.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Chrismorgen",
+            "init_stack": 9749.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "ilonAA",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "dan14",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "lirax",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "unlucky luke",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Chrismorgen",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 350.0
+            },
+            {
+                "player": "ilonAA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dan14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lirax",
+                "action": "calls",
+                "amount": 350.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "lirax",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1050.0
+            },
+            {
+                "player": "lirax",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "Kh",
+        "flop_card_3": "3c"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 2100.0,
+            "pot_type": "pot"
+        }
+    }
+}

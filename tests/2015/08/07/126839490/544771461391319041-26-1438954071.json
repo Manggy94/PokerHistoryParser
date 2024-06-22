@@ -1,0 +1,150 @@
+{
+    "hand_id": "544771461391319041-26-1438954071",
+    "datetime": "07-08-2015 13:27:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Sit&Go Freeroll",
+        "tournament_id": "126839490",
+        "table_number": "0",
+        "prize_pool": 0.1,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:11:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "sitngo"
+    },
+    "max_players": 10,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "motony",
+            "init_stack": 2740.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 1485.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "MisterA.",
+            "init_stack": 3320.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "toffou333",
+            "init_stack": 3145.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "gammagt",
+            "init_stack": 4310.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "Ts"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "MisterA.",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "toffou333",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gammagt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "motony",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "MisterA.",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "MisterA.",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1365.0
+            },
+            {
+                "player": "MisterA.",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "3c",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "4h"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 1605.0,
+            "pot_type": "pot"
+        }
+    }
+}

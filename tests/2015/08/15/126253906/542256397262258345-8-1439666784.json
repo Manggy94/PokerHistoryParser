@@ -1,0 +1,178 @@
+{
+    "hand_id": "542256397262258345-8-1439666784",
+    "datetime": "15-08-2015 19:26:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0168",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2920.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "papabouto18",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "fiston38",
+            "init_stack": 3160.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Fusiion",
+            "init_stack": 3050.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Javi974",
+            "init_stack": 2585.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Centoxx",
+            "init_stack": 2890.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "gnoukan",
+            "init_stack": 6020.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "JeanBlues",
+            "init_stack": 3870.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Tea & riZ",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "Centoxx",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gnoukan",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "JeanBlues",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tea & riZ",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "papabouto18",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fiston38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fusiion",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Centoxx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gnoukan",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "gnoukan",
+                "action": "bets",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "Jh",
+        "flop_card_3": "6d"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "gnoukan": {
+            "amount": 210.0,
+            "pot_type": "pot"
+        }
+    }
+}

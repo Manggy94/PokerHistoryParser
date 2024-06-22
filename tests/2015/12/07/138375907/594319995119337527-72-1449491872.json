@@ -1,0 +1,201 @@
+{
+    "hand_id": "594319995119337527-72-1449491872",
+    "datetime": "07-12-2015 12:37:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 20,
+        "ante": 350.0,
+        "sb": 1500.0,
+        "bb": 3000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "054",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Thank thank",
+            "init_stack": 87546.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "turckas",
+            "init_stack": 12850.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Bigawouel",
+            "init_stack": 22237.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "1.PERSONNE.1",
+            "init_stack": 73020.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 42350.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "clajul31",
+            "init_stack": 88339.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "prendpastout",
+            "init_stack": 141219.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "As"
+    },
+    "postings": [
+        {
+            "name": "turckas",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Thank thank",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bigawouel",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "1.PERSONNE.1",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "clajul31",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "prendpastout",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "turckas",
+            "amount": 3000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Bigawouel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "1.PERSONNE.1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 39000.0
+            },
+            {
+                "player": "clajul31",
+                "action": "raises",
+                "amount": 45989.0
+            },
+            {
+                "player": "prendpastout",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Thank thank",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "turckas",
+                "action": "calls",
+                "amount": 9500.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "5c",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "2c"
+    },
+    "showdown": {
+        "turckas": {
+            "first_card": "5h",
+            "second_card": "5d"
+        },
+        "manggy94": {
+            "first_card": "Jd",
+            "second_card": "As"
+        },
+        "clajul31": {
+            "first_card": "Ad",
+            "second_card": "Qh"
+        }
+    },
+    "winners": {
+        "clajul31": {
+            "amount": 45989.0,
+            "pot_type": "side pot 2"
+        },
+        "manggy94": {
+            "amount": 59000.0,
+            "pot_type": "side pot 1"
+        },
+        "turckas": {
+            "amount": 39950.0,
+            "pot_type": "main pot"
+        }
+    }
+}

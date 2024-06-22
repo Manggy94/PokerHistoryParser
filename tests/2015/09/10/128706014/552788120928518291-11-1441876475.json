@@ -1,0 +1,254 @@
+{
+    "hand_id": "552788120928518291-11-1441876475",
+    "datetime": "10-09-2015 09:14:35",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "146",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "-kenshiro-",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Monamour94",
+            "init_stack": 5293.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Donsalat",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "MAXTHO",
+            "init_stack": 5780.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "pipas83",
+            "init_stack": 3695.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Tocitsa",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "_Dark Side_",
+            "init_stack": 7560.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Yoyo-49",
+            "init_stack": 8975.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kd",
+        "second_card": "2c"
+    },
+    "postings": [
+        {
+            "name": "_Dark Side_",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Yoyo-49",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "-kenshiro-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Monamour94",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Donsalat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MAXTHO",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "pipas83",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tocitsa",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "_Dark Side_",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "Yoyo-49",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "_Dark Side_",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Monamour94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "MAXTHO",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Tocitsa",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "_Dark Side_",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Monamour94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "MAXTHO",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Tocitsa",
+                "action": "bets",
+                "amount": 267.0
+            },
+            {
+                "player": "_Dark Side_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Monamour94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MAXTHO",
+                "action": "calls",
+                "amount": 267.0
+            }
+        ],
+        "river": [
+            {
+                "player": "MAXTHO",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Tocitsa",
+                "action": "bets",
+                "amount": 623.0
+            },
+            {
+                "player": "MAXTHO",
+                "action": "calls",
+                "amount": 623.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "7s",
+        "flop_card_3": "2h"
+    },
+    "turn": {
+        "turn_card": "9c"
+    },
+    "river": {
+        "river_card": "4c"
+    },
+    "showdown": {
+        "Tocitsa": {
+            "first_card": "6s",
+            "second_card": "Js"
+        },
+        "MAXTHO": {
+            "first_card": "9h",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "MAXTHO": {
+            "amount": 2180.0,
+            "pot_type": "pot"
+        }
+    }
+}

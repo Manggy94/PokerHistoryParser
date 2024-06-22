@@ -1,0 +1,197 @@
+{
+    "hand_id": "594320849817829391-38-1449494653",
+    "datetime": "07-12-2015 13:24:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138376106",
+        "table_number": "014",
+        "prize_pool": 2875.5,
+        "registered_players": 639,
+        "speed": "normal",
+        "start_date": "2015/12/07 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": ".restart.",
+            "init_stack": 25037.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Gasmayer",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "JEP973",
+            "init_stack": 17781.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "crapou",
+            "init_stack": 33125.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 9550.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Rahl6",
+            "init_stack": 4707.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "2d"
+    },
+    "postings": [
+        {
+            "name": "Rahl6",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": ".restart.",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Gasmayer",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "JEP973",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "crapou",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Rahl6",
+                "action": "calls",
+                "amount": 450.0
+            },
+            {
+                "player": ".restart.",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Rahl6",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": ".restart.",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Gasmayer",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "crapou",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Rahl6",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": ".restart.",
+                "action": "bets",
+                "amount": 1050.0
+            },
+            {
+                "player": "Gasmayer",
+                "action": "calls",
+                "amount": 1050.0
+            },
+            {
+                "player": "crapou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Rahl6",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": ".restart.",
+                "action": "bets",
+                "amount": 2250.0
+            },
+            {
+                "player": "Gasmayer",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2h",
+        "flop_card_2": "Ks",
+        "flop_card_3": "Jh"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": "6d"
+    },
+    "showdown": {},
+    "winners": {
+        ".restart.": {
+            "amount": 6750.0,
+            "pot_type": "pot"
+        }
+    }
+}

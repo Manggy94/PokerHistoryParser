@@ -1,0 +1,171 @@
+{
+    "hand_id": "593829213501390895-48-1449408390",
+    "datetime": "06-12-2015 13:26:30",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138261638",
+        "table_number": "046",
+        "prize_pool": 3726.0,
+        "registered_players": 828,
+        "speed": "normal",
+        "start_date": "2015/12/06 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 11800.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "afogal1976",
+            "init_stack": 9550.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BEINGOFLIGHT",
+            "init_stack": 41600.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-sgayou-",
+            "init_stack": 10070.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Bic974",
+            "init_stack": 7300.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "FouAAd68",
+            "init_stack": 19680.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "Jh"
+    },
+    "postings": [
+        {
+            "name": "BEINGOFLIGHT",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "-sgayou-",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Bic974",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "FouAAd68",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "afogal1976",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BEINGOFLIGHT",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-sgayou-",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "-sgayou-",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Bic974",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "FouAAd68",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "-sgayou-",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Bic974",
+                "action": "bets",
+                "amount": 1650.0
+            },
+            {
+                "player": "FouAAd68",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "4d",
+        "flop_card_3": "2s"
+    },
+    "turn": {
+        "turn_card": "2d"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Bic974": {
+            "amount": 3300.0,
+            "pot_type": "pot"
+        }
+    }
+}

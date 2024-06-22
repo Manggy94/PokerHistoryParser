@@ -1,0 +1,182 @@
+{
+    "hand_id": "538926251419631645-5-1438896102",
+    "datetime": "06-08-2015 21:21:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125478546",
+        "table_number": "028",
+        "prize_pool": 100.0,
+        "registered_players": 2820,
+        "speed": "turbo",
+        "start_date": "2015/08/06 21:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "leucky",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 3572.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ZORG74",
+            "init_stack": 2885.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "KARITE37130",
+            "init_stack": 2750.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "La Prince84",
+            "init_stack": 1270.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "khalba",
+            "init_stack": 2640.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "KARITE37130",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "La Prince84",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "khalba",
+                "action": "raises",
+                "amount": 40.0
+            },
+            {
+                "player": "leucky",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "KARITE37130",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "La Prince84",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "KARITE37130",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "khalba",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "KARITE37130",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "khalba",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "KARITE37130",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "khalba",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "4c",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "6d"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {},
+    "winners": {
+        "KARITE37130": {
+            "amount": 280.0,
+            "pot_type": "pot"
+        }
+    }
+}

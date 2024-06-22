@@ -1,0 +1,248 @@
+{
+    "hand_id": "541906108319531581-25-1439582023",
+    "datetime": "14-08-2015 19:53:43",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172348",
+        "table_number": "0572",
+        "prize_pool": 250.0,
+        "registered_players": 7239,
+        "speed": "turbo",
+        "start_date": "2015/08/14 19:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "SMIMTH976",
+            "init_stack": 4710.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "senzora",
+            "init_stack": 5803.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "rascalou",
+            "init_stack": 3905.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "foxyman",
+            "init_stack": 13315.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "DidierBZH",
+            "init_stack": 20785.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Luc76-70",
+            "init_stack": 1310.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 3465.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "974LS974",
+            "init_stack": 22940.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "nyanc",
+            "init_stack": 6255.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "Luc76-70",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SMIMTH976",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "senzora",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "rascalou",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "foxyman",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DidierBZH",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "974LS974",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nyanc",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Luc76-70",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "974LS974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nyanc",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SMIMTH976",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "senzora",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rascalou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "foxyman",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DidierBZH",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Luc76-70",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1700.0
+            },
+            {
+                "player": "SMIMTH976",
+                "action": "calls",
+                "amount": 1700.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1215.0
+            },
+            {
+                "player": "SMIMTH976",
+                "action": "raises",
+                "amount": 1245.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6c",
+        "flop_card_2": "Ah",
+        "flop_card_3": "Jh"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": "Td"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "4s",
+            "second_card": "Jc"
+        },
+        "SMIMTH976": {
+            "first_card": "7d",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "SMIMTH976": {
+            "amount": 8775.0,
+            "pot_type": "pot"
+        }
+    }
+}

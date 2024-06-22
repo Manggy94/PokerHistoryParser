@@ -1,0 +1,182 @@
+{
+    "hand_id": "538926251419631976-8-1438897020",
+    "datetime": "06-08-2015 21:37:00",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125478546",
+        "table_number": "359",
+        "prize_pool": 100.0,
+        "registered_players": 2820,
+        "speed": "turbo",
+        "start_date": "2015/08/06 21:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "QuentG60",
+            "init_stack": 2780.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "gaga29200",
+            "init_stack": 5700.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "pakpot",
+            "init_stack": 4320.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "kaiser1310",
+            "init_stack": 1970.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 5584.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "PAPADV",
+            "init_stack": 2523.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "PAPADV",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "QuentG60",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gaga29200",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pakpot",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kaiser1310",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "PAPADV",
+                "action": "calls",
+                "amount": 75.0
+            },
+            {
+                "player": "QuentG60",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "PAPADV",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "QuentG60",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "PAPADV",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "QuentG60",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "PAPADV",
+                "action": "calls",
+                "amount": 150.0
+            }
+        ],
+        "river": [
+            {
+                "player": "PAPADV",
+                "action": "bets",
+                "amount": 1350.0
+            },
+            {
+                "player": "QuentG60",
+                "action": "calls",
+                "amount": 1350.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jd",
+        "flop_card_2": "5h",
+        "flop_card_3": "As"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "Jc"
+    },
+    "showdown": {},
+    "winners": {
+        "PAPADV": {
+            "amount": 4050.0,
+            "pot_type": "pot"
+        }
+    }
+}

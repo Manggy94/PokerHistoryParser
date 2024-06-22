@@ -1,0 +1,235 @@
+{
+    "hand_id": "552393752736432193-38-1441831305",
+    "datetime": "09-09-2015 20:41:45",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 13,
+        "ante": 240.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "128614193",
+        "table_number": "064",
+        "prize_pool": 2240.0,
+        "registered_players": 640,
+        "speed": "semiturbo",
+        "start_date": "2015/09/09 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "faycel",
+            "init_stack": 16752.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "LuckyPlayer7",
+            "init_stack": 49280.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ozz33",
+            "init_stack": 39652.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "le spiew fou",
+            "init_stack": 16247.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Alucard38",
+            "init_stack": 12616.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "ScoobyBoy",
+            "init_stack": 55865.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "DETENDS-TOI",
+            "init_stack": 14869.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 61340.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "MagicRiver25",
+            "init_stack": 57453.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "2h"
+    },
+    "postings": [
+        {
+            "name": "Alucard38",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ScoobyBoy",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "faycel",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LuckyPlayer7",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ozz33",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "le spiew fou",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DETENDS-TOI",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MagicRiver25",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Alucard38",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ScoobyBoy",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "DETENDS-TOI",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MagicRiver25",
+                "action": "raises",
+                "amount": 2000.0
+            },
+            {
+                "player": "faycel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LuckyPlayer7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ozz33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le spiew fou",
+                "action": "raises",
+                "amount": 12007.0
+            },
+            {
+                "player": "Alucard38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ScoobyBoy",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MagicRiver25",
+                "action": "raises",
+                "amount": 41206.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6s",
+        "flop_card_2": "Qh",
+        "flop_card_3": "4h"
+    },
+    "turn": {
+        "turn_card": "4c"
+    },
+    "river": {
+        "river_card": "7s"
+    },
+    "showdown": {
+        "le spiew fou": {
+            "first_card": "5d",
+            "second_card": "Qs"
+        },
+        "MagicRiver25": {
+            "first_card": "6h",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "MagicRiver25": {
+            "amount": 41206.0,
+            "pot_type": "side pot 1"
+        },
+        "le spiew fou": {
+            "amount": 37174.0,
+            "pot_type": "main pot"
+        }
+    }
+}

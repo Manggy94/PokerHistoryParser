@@ -1,0 +1,155 @@
+{
+    "hand_id": "556729724085207075-33-1442665720",
+    "datetime": "19-09-2015 12:28:40",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "034",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 31619.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Rog3r",
+            "init_stack": 14466.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "mamoon85420",
+            "init_stack": 25878.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "BUCKDANY77",
+            "init_stack": 18166.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "PADACOR1",
+            "init_stack": 8700.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "MickyPy38",
+            "init_stack": 30066.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Tc",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "BUCKDANY77",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PADACOR1",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "MickyPy38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Rog3r",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mamoon85420",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BUCKDANY77",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "PADACOR1",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "BUCKDANY77",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "PADACOR1",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "BUCKDANY77",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "As",
+        "flop_card_2": "Kh",
+        "flop_card_3": "8d"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "PADACOR1": {
+            "amount": 1200.0,
+            "pot_type": "pot"
+        }
+    }
+}

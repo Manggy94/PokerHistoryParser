@@ -1,0 +1,234 @@
+{
+    "hand_id": "542619609761579075-4-1439751050",
+    "datetime": "16-08-2015 18:50:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Welcome Freeroll",
+        "tournament_id": "126338473",
+        "table_number": "066",
+        "prize_pool": 1000.0,
+        "registered_players": 943,
+        "speed": "semiturbo",
+        "start_date": "2015/08/16 18:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DickOnFire69",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Ntox971",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Kakio80",
+            "init_stack": 3030.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Victor-poker",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "alpha.63",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Hilton night",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "chris-93230",
+            "init_stack": 3070.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "pratas",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "DickOnFire69",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Ntox971",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kakio80",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Victor-poker",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "alpha.63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Hilton night",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chris-93230",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "pratas",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DickOnFire69",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "DickOnFire69",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Kakio80",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "chris-93230",
+                "action": "bets",
+                "amount": 35.0
+            },
+            {
+                "player": "DickOnFire69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kakio80",
+                "action": "calls",
+                "amount": 35.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Kakio80",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "chris-93230",
+                "action": "bets",
+                "amount": 50.0
+            },
+            {
+                "player": "Kakio80",
+                "action": "calls",
+                "amount": 50.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Kakio80",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "chris-93230",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "8c",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {
+        "Kakio80": {
+            "first_card": "7c",
+            "second_card": "7d"
+        },
+        "chris-93230": {
+            "first_card": "Qc",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "chris-93230": {
+            "amount": 240.0,
+            "pot_type": "pot"
+        }
+    }
+}

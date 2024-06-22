@@ -1,0 +1,209 @@
+{
+    "hand_id": "538925989426626562-21-1438870204",
+    "datetime": "06-08-2015 14:10:04",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 6,
+        "ante": 10.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "isabella87",
+            "init_stack": 1330.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "domi110965",
+            "init_stack": 4250.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 11045.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "sague1",
+            "init_stack": 8050.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Bensetleo19",
+            "init_stack": 3150.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "RoyalFlush95",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3s",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "isabella87",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "domi110965",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sague1",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bensetleo19",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RoyalFlush95",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "isabella87",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "domi110965",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sague1",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "Bensetleo19",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "RoyalFlush95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "isabella87",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "domi110965",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "domi110965",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sague1",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Bensetleo19",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "domi110965",
+                "action": "raises",
+                "amount": 4000.0
+            },
+            {
+                "player": "sague1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Bensetleo19",
+                "action": "calls",
+                "amount": 2900.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "4s",
+        "flop_card_3": "5d"
+    },
+    "turn": {
+        "turn_card": "Ks"
+    },
+    "river": {
+        "river_card": "Td"
+    },
+    "showdown": {
+        "Bensetleo19": {
+            "first_card": "4d",
+            "second_card": "5s"
+        },
+        "domi110965": {
+            "first_card": "2d",
+            "second_card": "3d"
+        }
+    },
+    "winners": {
+        "domi110965": {
+            "amount": 7620.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,234 @@
+{
+    "hand_id": "566942035328630796-3-1444483295",
+    "datetime": "10-10-2015 13:21:35",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132001479",
+        "table_number": "011",
+        "prize_pool": 1004.5,
+        "registered_players": 287,
+        "speed": "semiturbo",
+        "start_date": "2015/10/10 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "zino05",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 10350.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "sareya",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Denver6923",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "UnknowPlay3r",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Barbaskonn",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "22mistral",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "okkono",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Take Five",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qc",
+        "second_card": "4h"
+    },
+    "postings": [
+        {
+            "name": "sareya",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Denver6923",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "UnknowPlay3r",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Barbaskonn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "22mistral",
+                "action": "raises",
+                "amount": 100.0
+            },
+            {
+                "player": "okkono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Take Five",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "zino05",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sareya",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Denver6923",
+                "action": "calls",
+                "amount": 100.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Denver6923",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "22mistral",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Take Five",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Denver6923",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "22mistral",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Take Five",
+                "action": "bets",
+                "amount": 325.0
+            },
+            {
+                "player": "Denver6923",
+                "action": "calls",
+                "amount": 325.0
+            },
+            {
+                "player": "22mistral",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Denver6923",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "Take Five",
+                "action": "calls",
+                "amount": 100.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jh",
+        "flop_card_2": "5h",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": "6s"
+    },
+    "showdown": {
+        "Denver6923": {
+            "first_card": "Qh",
+            "second_card": "Ad"
+        },
+        "Take Five": {
+            "first_card": "3h",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "Take Five": {
+            "amount": 1500.0,
+            "pot_type": "pot"
+        }
+    }
+}

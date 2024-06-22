@@ -1,0 +1,134 @@
+{
+    "hand_id": "577524697307021313-15-1445194966",
+    "datetime": "18-10-2015 19:02:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "134465447",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/18 18:52:08 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 6,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "johanpino",
+            "init_stack": 800.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Fwank60100",
+            "init_stack": 419.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "damien45110",
+            "init_stack": 1225.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "parker27",
+            "init_stack": 1111.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 1085.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "aliccc",
+            "init_stack": 360.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8c",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "aliccc",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "johanpino",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fwank60100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "damien45110",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "parker27",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "aliccc": {
+            "amount": 90.0,
+            "pot_type": "pot"
+        }
+    }
+}

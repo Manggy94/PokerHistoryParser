@@ -1,0 +1,115 @@
+{
+    "hand_id": "596951135034540034-53-1450026969",
+    "datetime": "13-12-2015 17:16:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.7,
+        "bounty": 0.0,
+        "rake": 0.3
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "D\u00e9glingos",
+        "tournament_id": "138988517",
+        "table_number": "001",
+        "prize_pool": 267.3,
+        "registered_players": 99,
+        "speed": "turbo",
+        "start_date": "2015/12/13 17:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "madtilt"
+    },
+    "max_players": 3,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 380.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "rose-des-as",
+            "init_stack": 3145.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "angoisse62",
+            "init_stack": 520.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "rose-des-as",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "angoisse62",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 260.0
+            },
+            {
+                "player": "rose-des-as",
+                "action": "calls",
+                "amount": 260.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3h",
+        "flop_card_2": "6h",
+        "flop_card_3": "2c"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": "Qs"
+    },
+    "showdown": {
+        "rose-des-as": {
+            "first_card": "5s",
+            "second_card": "9d"
+        },
+        "manggy94": {
+            "first_card": "6d",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 760.0,
+            "pot_type": "pot"
+        }
+    }
+}

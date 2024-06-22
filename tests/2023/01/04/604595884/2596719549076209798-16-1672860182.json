@@ -1,0 +1,624 @@
+{
+    "hand_id": "2596719549076209798-16-1672860182",
+    "datetime": "04-01-2023 19:23:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 1,
+        "ante": 120.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "W SERIES Event 69",
+        "tournament_id": "604595884",
+        "table_number": "0133",
+        "prize_pool": 28831.5,
+        "registered_players": 5083,
+        "speed": "normal",
+        "start_date": "2023/01/04 19:00:01 UTC",
+        "levels_structure": [
+            {
+                "value": 1,
+                "sb": "500",
+                "bb": "1000",
+                "ante": "120"
+            },
+            {
+                "value": 2,
+                "sb": "600",
+                "bb": "1200",
+                "ante": "140"
+            },
+            {
+                "value": 3,
+                "sb": "700",
+                "bb": "1400",
+                "ante": "160"
+            },
+            {
+                "value": 4,
+                "sb": "800",
+                "bb": "1600",
+                "ante": "200"
+            },
+            {
+                "value": 5,
+                "sb": "1000",
+                "bb": "2000",
+                "ante": "250"
+            },
+            {
+                "value": 6,
+                "sb": "1250",
+                "bb": "2500",
+                "ante": "300"
+            },
+            {
+                "value": 7,
+                "sb": "1500",
+                "bb": "3000",
+                "ante": "350"
+            },
+            {
+                "value": 8,
+                "sb": "1750",
+                "bb": "3500",
+                "ante": "400"
+            },
+            {
+                "value": 9,
+                "sb": "2000",
+                "bb": "4000",
+                "ante": "500"
+            },
+            {
+                "value": 10,
+                "sb": "2500",
+                "bb": "5000",
+                "ante": "600"
+            },
+            {
+                "value": 11,
+                "sb": "3000",
+                "bb": "6000",
+                "ante": "700"
+            },
+            {
+                "value": 12,
+                "sb": "3500",
+                "bb": "7000",
+                "ante": "800"
+            },
+            {
+                "value": 13,
+                "sb": "4000",
+                "bb": "8000",
+                "ante": "1000"
+            },
+            {
+                "value": 14,
+                "sb": "5000",
+                "bb": "10000",
+                "ante": "1200"
+            },
+            {
+                "value": 15,
+                "sb": "6000",
+                "bb": "12000",
+                "ante": "1400"
+            },
+            {
+                "value": 16,
+                "sb": "7000",
+                "bb": "14000",
+                "ante": "1600"
+            },
+            {
+                "value": 17,
+                "sb": "8000",
+                "bb": "16000",
+                "ante": "2000"
+            },
+            {
+                "value": 18,
+                "sb": "10000",
+                "bb": "20000",
+                "ante": "2500"
+            },
+            {
+                "value": 19,
+                "sb": "12500",
+                "bb": "25000",
+                "ante": "3000"
+            },
+            {
+                "value": 20,
+                "sb": "15000",
+                "bb": "30000",
+                "ante": "3500"
+            },
+            {
+                "value": 21,
+                "sb": "17500",
+                "bb": "35000",
+                "ante": "4000"
+            },
+            {
+                "value": 22,
+                "sb": "20000",
+                "bb": "40000",
+                "ante": "5000"
+            },
+            {
+                "value": 23,
+                "sb": "25000",
+                "bb": "50000",
+                "ante": "6000"
+            },
+            {
+                "value": 24,
+                "sb": "30000",
+                "bb": "60000",
+                "ante": "7000"
+            },
+            {
+                "value": 25,
+                "sb": "35000",
+                "bb": "70000",
+                "ante": "8000"
+            },
+            {
+                "value": 26,
+                "sb": "40000",
+                "bb": "80000",
+                "ante": "10000"
+            },
+            {
+                "value": 27,
+                "sb": "50000",
+                "bb": "100000",
+                "ante": "12000"
+            },
+            {
+                "value": 28,
+                "sb": "60000",
+                "bb": "120000",
+                "ante": "14000"
+            },
+            {
+                "value": 29,
+                "sb": "70000",
+                "bb": "140000",
+                "ante": "16000"
+            },
+            {
+                "value": 30,
+                "sb": "80000",
+                "bb": "160000",
+                "ante": "20000"
+            },
+            {
+                "value": 31,
+                "sb": "100000",
+                "bb": "200000",
+                "ante": "25000"
+            },
+            {
+                "value": 32,
+                "sb": "125000",
+                "bb": "250000",
+                "ante": "30000"
+            },
+            {
+                "value": 33,
+                "sb": "150000",
+                "bb": "300000",
+                "ante": "35000"
+            },
+            {
+                "value": 34,
+                "sb": "175000",
+                "bb": "350000",
+                "ante": "40000"
+            },
+            {
+                "value": 35,
+                "sb": "200000",
+                "bb": "400000",
+                "ante": "50000"
+            },
+            {
+                "value": 36,
+                "sb": "250000",
+                "bb": "500000",
+                "ante": "60000"
+            },
+            {
+                "value": 37,
+                "sb": "300000",
+                "bb": "600000",
+                "ante": "70000"
+            },
+            {
+                "value": 38,
+                "sb": "350000",
+                "bb": "700000",
+                "ante": "80000"
+            },
+            {
+                "value": 39,
+                "sb": "400000",
+                "bb": "800000",
+                "ante": "100000"
+            },
+            {
+                "value": 40,
+                "sb": "500000",
+                "bb": "1000000",
+                "ante": "120000"
+            },
+            {
+                "value": 41,
+                "sb": "600000",
+                "bb": "1200000",
+                "ante": "140000"
+            },
+            {
+                "value": 42,
+                "sb": "700000",
+                "bb": "1400000",
+                "ante": "160000"
+            },
+            {
+                "value": 43,
+                "sb": "800000",
+                "bb": "1600000",
+                "ante": "200000"
+            },
+            {
+                "value": 44,
+                "sb": "1000000",
+                "bb": "2000000",
+                "ante": "250000"
+            },
+            {
+                "value": 45,
+                "sb": "1250000",
+                "bb": "2500000",
+                "ante": "300000"
+            },
+            {
+                "value": 46,
+                "sb": "1500000",
+                "bb": "3000000",
+                "ante": "350000"
+            },
+            {
+                "value": 47,
+                "sb": "1750000",
+                "bb": "3500000",
+                "ante": "400000"
+            },
+            {
+                "value": 48,
+                "sb": "2000000",
+                "bb": "4000000",
+                "ante": "500000"
+            },
+            {
+                "value": 49,
+                "sb": "2500000",
+                "bb": "5000000",
+                "ante": "600000"
+            },
+            {
+                "value": 50,
+                "sb": "3000000",
+                "bb": "6000000",
+                "ante": "700000"
+            },
+            {
+                "value": 51,
+                "sb": "3500000",
+                "bb": "7000000",
+                "ante": "800000"
+            },
+            {
+                "value": 52,
+                "sb": "4000000",
+                "bb": "8000000",
+                "ante": "1000000"
+            },
+            {
+                "value": 53,
+                "sb": "5000000",
+                "bb": "10000000",
+                "ante": "1200000"
+            },
+            {
+                "value": 54,
+                "sb": "6000000",
+                "bb": "12000000",
+                "ante": "1400000"
+            },
+            {
+                "value": 55,
+                "sb": "7000000",
+                "bb": "14000000",
+                "ante": "1600000"
+            },
+            {
+                "value": 56,
+                "sb": "8000000",
+                "bb": "16000000",
+                "ante": "2000000"
+            },
+            {
+                "value": 57,
+                "sb": "10000000",
+                "bb": "20000000",
+                "ante": "2500000"
+            },
+            {
+                "value": 58,
+                "sb": "12500000",
+                "bb": "25000000",
+                "ante": "3000000"
+            },
+            {
+                "value": 59,
+                "sb": "15000000",
+                "bb": "30000000",
+                "ante": "3500000"
+            },
+            {
+                "value": 60,
+                "sb": "17500000",
+                "bb": "35000000",
+                "ante": "4000000"
+            },
+            {
+                "value": 61,
+                "sb": "20000000",
+                "bb": "40000000",
+                "ante": "5000000"
+            },
+            {
+                "value": 62,
+                "sb": "25000000",
+                "bb": "50000000",
+                "ante": "6000000"
+            },
+            {
+                "value": 63,
+                "sb": "30000000",
+                "bb": "60000000",
+                "ante": "7000000"
+            },
+            {
+                "value": 64,
+                "sb": "35000000",
+                "bb": "70000000",
+                "ante": "8000000"
+            },
+            {
+                "value": 65,
+                "sb": "40000000",
+                "bb": "80000000",
+                "ante": "10000000"
+            },
+            {
+                "value": 66,
+                "sb": "50000000",
+                "bb": "100000000",
+                "ante": "12000000"
+            }
+        ],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Ludovic 84",
+            "init_stack": 99660.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "MP_Condor4",
+            "init_stack": 125847.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "KONG-STRONG",
+            "init_stack": 101220.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 120200.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "cavayet73",
+            "init_stack": 85890.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Martoni Bluf",
+            "init_stack": 78470.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "LeCroupieR02",
+            "init_stack": 69509.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "LilyLouLie11",
+            "init_stack": 91200.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qd",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "KONG-STRONG",
+            "amount": 120.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 120.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ludovic 84",
+            "amount": 120.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MP_Condor4",
+            "amount": 120.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cavayet73",
+            "amount": 120.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Martoni Bluf",
+            "amount": 120.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LeCroupieR02",
+            "amount": 120.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LilyLouLie11",
+            "amount": 120.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "KONG-STRONG",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "cavayet73",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Martoni Bluf",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LeCroupieR02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LilyLouLie11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ludovic 84",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "MP_Condor4",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KONG-STRONG",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "KONG-STRONG",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Ludovic 84",
+                "action": "bets",
+                "amount": 3960.0
+            },
+            {
+                "player": "KONG-STRONG",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "Kd",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Ludovic 84": {
+            "amount": 7920.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "hand_id": "543022602247995524-16-1439840002",
+    "datetime": "17-08-2015 19:33:22",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126432302",
+        "table_number": "0131",
+        "prize_pool": 250.0,
+        "registered_players": 8751,
+        "speed": "turbo",
+        "start_date": "2015/08/17 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "mamad1169",
+            "init_stack": 5716.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "all-in-star",
+            "init_stack": 8339.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "haze12",
+            "init_stack": 2835.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "larnaqueuse0",
+            "init_stack": 2120.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "auroreddr",
+            "init_stack": 3135.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "FACOM305",
+            "init_stack": 8880.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 2920.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "christobal03",
+            "init_stack": 3920.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "amel1308",
+            "init_stack": 9080.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5s",
+        "second_card": "3s"
+    },
+    "postings": [
+        {
+            "name": "FACOM305",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "christobal03",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "amel1308",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "mamad1169",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "all-in-star",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "haze12",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "larnaqueuse0",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "auroreddr",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "FACOM305",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "christobal03",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "amel1308",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mamad1169",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "larnaqueuse0",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "auroreddr",
+                "action": "bets",
+                "amount": 780.0
+            },
+            {
+                "player": "christobal03",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "amel1308",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mamad1169",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "larnaqueuse0",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jd",
+        "flop_card_2": "3d",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "auroreddr": {
+            "amount": 1560.0,
+            "pot_type": "pot"
+        }
+    }
+}

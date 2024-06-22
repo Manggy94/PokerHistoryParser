@@ -1,0 +1,211 @@
+{
+    "hand_id": "539623453460791574-68-1439038200",
+    "datetime": "08-08-2015 12:50:00",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 16,
+        "ante": 135.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "277",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 11325.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Little liars",
+            "init_stack": 8805.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "x_thegame95",
+            "init_stack": 13180.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "spoutnik47",
+            "init_stack": 20666.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "samedisoir",
+            "init_stack": 29214.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Dolibaz",
+            "init_stack": 51014.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3c",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "samedisoir",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dolibaz",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Little liars",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "x_thegame95",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "spoutnik47",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "samedisoir",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Dolibaz",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "Little liars",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "x_thegame95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "spoutnik47",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "samedisoir",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dolibaz",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Dolibaz",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Dolibaz",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Dolibaz",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "Js",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": "8h"
+    },
+    "showdown": {
+        "Dolibaz": {
+            "first_card": "2c",
+            "second_card": "Tc"
+        },
+        "manggy94": {
+            "first_card": "3c",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 3810.0,
+            "pot_type": "pot"
+        }
+    }
+}

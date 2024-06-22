@@ -1,0 +1,156 @@
+{
+    "hand_id": "546663055182791035-10-1440591193",
+    "datetime": "26-08-2015 12:13:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279911",
+        "table_number": "378",
+        "prize_pool": 100.0,
+        "registered_players": 3953,
+        "speed": "turbo",
+        "start_date": "2015/08/26 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "777..28",
+            "init_stack": 2905.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "chico70",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Oldentexas",
+            "init_stack": 5625.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "chipour",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 2120.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mondeo 68",
+            "init_stack": 2780.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kd",
+        "second_card": "Ad"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "mondeo 68",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "777..28",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chico70",
+                "action": "raises",
+                "amount": 2920.0
+            },
+            {
+                "player": "Oldentexas",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chipour",
+                "action": "calls",
+                "amount": 2860.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2080.0
+            },
+            {
+                "player": "mondeo 68",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "Th",
+        "flop_card_3": "5d"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": "9h"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Kd",
+            "second_card": "Ad"
+        },
+        "chipour": {
+            "first_card": "Kh",
+            "second_card": "Ah"
+        },
+        "chico70": {
+            "first_card": "6c",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "chico70": {
+            "amount": 140.0,
+            "pot_type": "side pot 1"
+        },
+        "chipour": {
+            "amount": 7920.0,
+            "pot_type": "main pot"
+        }
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "hand_id": "545388248759796325-18-1440355190",
+    "datetime": "23-08-2015 18:39:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126983097",
+        "table_number": "0612",
+        "prize_pool": 150.0,
+        "registered_players": 8191,
+        "speed": "turbo",
+        "start_date": "2015/08/23 18:15:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Bledinho76",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 2530.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "bal54",
+            "init_stack": 8635.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Quick31",
+            "init_stack": 2655.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ferrazzi",
+            "init_stack": 2445.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "villa.sylv",
+            "init_stack": 7570.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "gronaldo78",
+            "init_stack": 2750.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "mario51",
+            "init_stack": 5846.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "mario51",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bledinho76",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bal54",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Quick31",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ferrazzi",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "villa.sylv",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mario51",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Bledinho76",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bal54",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Quick31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ferrazzi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "villa.sylv",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mario51",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "Bledinho76",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "mario51": {
+            "amount": 740.0,
+            "pot_type": "pot"
+        }
+    }
+}

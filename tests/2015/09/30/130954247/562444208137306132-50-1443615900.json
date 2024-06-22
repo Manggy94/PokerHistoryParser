@@ -1,0 +1,175 @@
+{
+    "hand_id": "562444208137306132-50-1443615900",
+    "datetime": "30-09-2015 12:25:00",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "130954247",
+        "table_number": "019",
+        "prize_pool": 1382.5,
+        "registered_players": 395,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 52363.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Winaarien69",
+            "init_stack": 16493.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "prentou57",
+            "init_stack": 12764.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "vegaston",
+            "init_stack": 13371.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bounce974",
+            "init_stack": 8830.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CHipeurCHeap",
+            "init_stack": 13150.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9d",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "bounce974",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "CHipeurCHeap",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Winaarien69",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "prentou57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vegaston",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "bounce974",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "CHipeurCHeap",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "bounce974",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "CHipeurCHeap",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Winaarien69",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "vegaston",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bounce974",
+                "action": "raises",
+                "amount": 7930.0
+            },
+            {
+                "player": "CHipeurCHeap",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Winaarien69",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "9h",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "bounce974": {
+            "amount": 10330.0,
+            "pot_type": "pot"
+        }
+    }
+}

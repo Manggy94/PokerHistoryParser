@@ -1,0 +1,204 @@
+{
+    "hand_id": "556258798101069833-13-1442589948",
+    "datetime": "18-09-2015 15:25:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129514094",
+        "table_number": "008",
+        "prize_pool": 773.5,
+        "registered_players": 221,
+        "speed": "turbo",
+        "start_date": "2015/09/18 15:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "madmoiselleK",
+            "init_stack": 8900.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 12990.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "MCzoreille",
+            "init_stack": 11150.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "patrick77000",
+            "init_stack": 10450.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "nico73stb",
+            "init_stack": 9225.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Natty King",
+            "init_stack": 19950.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "WellesKane",
+            "init_stack": 11483.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "krl78",
+            "init_stack": 10150.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "MCzoreille",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "patrick77000",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "nico73stb",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "Natty King",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "WellesKane",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "krl78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "madmoiselleK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MCzoreille",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "patrick77000",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "patrick77000",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "nico73stb",
+                "action": "bets",
+                "amount": 200.0
+            },
+            {
+                "player": "patrick77000",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "patrick77000",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "nico73stb",
+                "action": "bets",
+                "amount": 200.0
+            },
+            {
+                "player": "patrick77000",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "river": [
+            {
+                "player": "patrick77000",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "nico73stb",
+                "action": "bets",
+                "amount": 8625.0
+            },
+            {
+                "player": "patrick77000",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "5s",
+        "flop_card_3": "3c"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {},
+    "winners": {
+        "nico73stb": {
+            "amount": 9925.0,
+            "pot_type": "pot"
+        }
+    }
+}

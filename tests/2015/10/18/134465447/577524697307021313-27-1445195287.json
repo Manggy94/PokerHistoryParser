@@ -1,0 +1,137 @@
+{
+    "hand_id": "577524697307021313-27-1445195287",
+    "datetime": "18-10-2015 19:08:07",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "134465447",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/18 18:52:08 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 7,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "johanpino",
+            "init_stack": 460.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Fwank60100",
+            "init_stack": 879.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "parker27",
+            "init_stack": 2866.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 795.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "johanpino",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Fwank60100",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "parker27",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "johanpino",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fwank60100",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Fwank60100",
+                "action": "bets",
+                "amount": 639.0
+            },
+            {
+                "player": "parker27",
+                "action": "calls",
+                "amount": 639.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "7c",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": "8d"
+    },
+    "river": {
+        "river_card": "7d"
+    },
+    "showdown": {
+        "Fwank60100": {
+            "first_card": "Tc",
+            "second_card": "Kc"
+        },
+        "parker27": {
+            "first_card": "9d",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "parker27": {
+            "amount": 1818.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "hand_id": "572024978799591453-35-1445429973",
+    "datetime": "21-10-2015 12:19:33",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133184944",
+        "table_number": "028",
+        "prize_pool": 1669.5,
+        "registered_players": 477,
+        "speed": "semiturbo",
+        "start_date": "2015/10/21 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "PAT-ATRAC",
+            "init_stack": 9923.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "loi kroh",
+            "init_stack": 14736.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 30673.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Num33",
+            "init_stack": 13583.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Grand.Chicon",
+            "init_stack": 4705.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nelson_du_77",
+            "init_stack": 6380.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3h",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "Grand.Chicon",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Nelson_du_77",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "PAT-ATRAC",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "loi kroh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "Num33",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "Grand.Chicon",
+                "action": "raises",
+                "amount": 4305.0
+            },
+            {
+                "player": "Nelson_du_77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PAT-ATRAC",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Num33",
+                "action": "calls",
+                "amount": 4305.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "6s",
+        "flop_card_3": "9h"
+    },
+    "turn": {
+        "turn_card": "4c"
+    },
+    "river": {
+        "river_card": "Qd"
+    },
+    "showdown": {
+        "Num33": {
+            "first_card": "7s",
+            "second_card": "5s"
+        },
+        "Grand.Chicon": {
+            "first_card": "Kd",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "Grand.Chicon": {
+            "amount": 10410.0,
+            "pot_type": "pot"
+        }
+    }
+}

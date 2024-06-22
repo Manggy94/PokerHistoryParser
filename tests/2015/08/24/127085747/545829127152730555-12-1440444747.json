@@ -1,0 +1,223 @@
+{
+    "hand_id": "545829127152730555-12-1440444747",
+    "datetime": "24-08-2015 19:32:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085747",
+        "table_number": "0442",
+        "prize_pool": 250.0,
+        "registered_players": 9824,
+        "speed": "turbo",
+        "start_date": "2015/08/24 19:15:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 8225.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Jeremie98765",
+            "init_stack": 2840.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "deadcalimero",
+            "init_stack": 2840.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "MI 7LIMA",
+            "init_stack": 4845.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bapoi",
+            "init_stack": 3640.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "matteodu64",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "titcalimero",
+            "init_stack": 4840.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "neochrome68",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "floboy93",
+            "init_stack": 4520.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "deadcalimero",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "MI 7LIMA",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bapoi",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "matteodu64",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "titcalimero",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "neochrome68",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "floboy93",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 240.0
+            },
+            {
+                "player": "Jeremie98765",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "deadcalimero",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MI 7LIMA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bapoi",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "bapoi",
+                "action": "bets",
+                "amount": 450.0
+            },
+            {
+                "player": "titcalimero",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 450.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "bapoi",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1800.0
+            },
+            {
+                "player": "bapoi",
+                "action": "raises",
+                "amount": 1150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1150.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3h",
+        "flop_card_2": "Ad",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": "Kh"
+    },
+    "showdown": {
+        "bapoi": {
+            "first_card": "9s",
+            "second_card": "Ac"
+        },
+        "manggy94": {
+            "first_card": "As",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 7700.0,
+            "pot_type": "pot"
+        }
+    }
+}

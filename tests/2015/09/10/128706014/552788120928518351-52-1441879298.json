@@ -1,0 +1,226 @@
+{
+    "hand_id": "552788120928518351-52-1441879298",
+    "datetime": "10-09-2015 10:01:38",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 18,
+        "ante": 200.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "206",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "STAR AS",
+            "init_stack": 27837.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "jyrcreation",
+            "init_stack": 3145.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "dande55",
+            "init_stack": 68589.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "michouel jeh",
+            "init_stack": 32320.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "eltoros84",
+            "init_stack": 17829.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Camax",
+            "init_stack": 15640.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "wikirichi",
+            "init_stack": 30023.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "kikeur54",
+            "init_stack": 54340.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 41267.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jh",
+        "second_card": "8d"
+    },
+    "postings": [
+        {
+            "name": "jyrcreation",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dande55",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "STAR AS",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "michouel jeh",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "eltoros84",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Camax",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wikirichi",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kikeur54",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jyrcreation",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "dande55",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "michouel jeh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "eltoros84",
+                "action": "raises",
+                "amount": 15629.0
+            },
+            {
+                "player": "Camax",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wikirichi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kikeur54",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "STAR AS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jyrcreation",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dande55",
+                "action": "calls",
+                "amount": 15629.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "5c",
+        "flop_card_3": "Qs"
+    },
+    "turn": {
+        "turn_card": "6h"
+    },
+    "river": {
+        "river_card": "Td"
+    },
+    "showdown": {
+        "dande55": {
+            "first_card": "9d",
+            "second_card": "9s"
+        },
+        "eltoros84": {
+            "first_card": "Th",
+            "second_card": "3d"
+        }
+    },
+    "winners": {
+        "eltoros84": {
+            "amount": 38058.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "hand_id": "538926032376299521-14-1438876473",
+    "datetime": "06-08-2015 15:54:33",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 4000.0,
+        "registered_players": 95,
+        "speed": "semiturbo",
+        "start_date": "2015/08/06 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "TOINOU7373",
+            "init_stack": 4515.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Didy95",
+            "init_stack": 2660.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 20.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Pompierspp67",
+            "init_stack": 3105.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mick37",
+            "init_stack": 2925.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lecanaille",
+            "init_stack": 9970.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "lecanaille",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "TOINOU7373",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Didy95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Pompierspp67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mick37",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "calls",
+                "amount": 15.0
+            },
+            {
+                "player": "TOINOU7373",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "lecanaille",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TOINOU7373",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mick37",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "lecanaille",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TOINOU7373",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mick37",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "lecanaille",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TOINOU7373",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mick37",
+                "action": "bets",
+                "amount": 83.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TOINOU7373",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "3c",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "6d"
+    },
+    "river": {
+        "river_card": "Qh"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ac",
+            "second_card": "4c"
+        },
+        "mick37": {
+            "first_card": "Qc",
+            "second_card": "7d"
+        }
+    },
+    "winners": {
+        "mick37": {
+            "amount": 193.0,
+            "pot_type": "pot"
+        }
+    }
+}

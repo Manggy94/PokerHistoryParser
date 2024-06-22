@@ -1,0 +1,204 @@
+{
+    "hand_id": "552788120928518351-62-1441879901",
+    "datetime": "10-09-2015 10:11:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 22,
+        "ante": 500.0,
+        "sb": 2500.0,
+        "bb": 5000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "206",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "STAR AS",
+            "init_stack": 48393.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "eve123",
+            "init_stack": 11410.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ikam",
+            "init_stack": 42044.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "eltoros84",
+            "init_stack": 2192.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Camax",
+            "init_stack": 8540.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "wikirichi",
+            "init_stack": 22423.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "kikeur54",
+            "init_stack": 196033.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 29617.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "5s"
+    },
+    "postings": [
+        {
+            "name": "ikam",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "STAR AS",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "eltoros84",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Camax",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wikirichi",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kikeur54",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ikam",
+            "amount": 5000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "eltoros84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Camax",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wikirichi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kikeur54",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "STAR AS",
+                "action": "raises",
+                "amount": 10000.0
+            },
+            {
+                "player": "ikam",
+                "action": "raises",
+                "amount": 26544.0
+            },
+            {
+                "player": "STAR AS",
+                "action": "raises",
+                "amount": 6349.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8d",
+        "flop_card_2": "As",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "7c"
+    },
+    "showdown": {
+        "ikam": {
+            "first_card": "Qh",
+            "second_card": "5h"
+        },
+        "STAR AS": {
+            "first_card": "Th",
+            "second_card": "2h"
+        }
+    },
+    "winners": {
+        "STAR AS": {
+            "amount": 6349.0,
+            "pot_type": "side pot 1"
+        },
+        "ikam": {
+            "amount": 86588.0,
+            "pot_type": "main pot"
+        }
+    }
+}

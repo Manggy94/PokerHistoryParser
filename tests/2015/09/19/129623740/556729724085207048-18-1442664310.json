@@ -1,0 +1,174 @@
+{
+    "hand_id": "556729724085207048-18-1442664310",
+    "datetime": "19-09-2015 12:05:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "007",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "olivier17810",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "lamorgane69",
+            "init_stack": 8525.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "AK-meleon-47",
+            "init_stack": 8300.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "PILZ3",
+            "init_stack": 10449.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 19825.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lefavorie",
+            "init_stack": 11368.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "5d"
+    },
+    "postings": [
+        {
+            "name": "PILZ3",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "lefavorie",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "olivier17810",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lamorgane69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AK-meleon-47",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "PILZ3",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 950.0
+            },
+            {
+                "player": "lefavorie",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AK-meleon-47",
+                "action": "calls",
+                "amount": 950.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2850.0
+            },
+            {
+                "player": "AK-meleon-47",
+                "action": "raises",
+                "amount": 4100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 4100.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6d",
+        "flop_card_2": "8d",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": "7d"
+    },
+    "river": {
+        "river_card": "Tc"
+    },
+    "showdown": {
+        "AK-meleon-47": {
+            "first_card": "4s",
+            "second_card": "4d"
+        },
+        "manggy94": {
+            "first_card": "Ac",
+            "second_card": "5d"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 16750.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "hand_id": "594319995119337565-48-1449491211",
+    "datetime": "07-12-2015 12:26:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 17,
+        "ante": 160.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "092",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 25230.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "cerise bleu",
+            "init_stack": 13499.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Pushk71700",
+            "init_stack": 4753.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "amsterdam47",
+            "init_stack": 19245.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "ninapril",
+            "init_stack": 20232.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "be cool",
+            "init_stack": 11061.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3c",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "cerise bleu",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pushk71700",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "amsterdam47",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ninapril",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "be cool",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cerise bleu",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Pushk71700",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "amsterdam47",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ninapril",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "be cool",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "cerise bleu": {
+            "amount": 2560.0,
+            "pot_type": "pot"
+        }
+    }
+}

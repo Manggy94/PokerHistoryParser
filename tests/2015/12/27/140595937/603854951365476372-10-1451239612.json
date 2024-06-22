@@ -1,0 +1,244 @@
+{
+    "hand_id": "603854951365476372-10-1451239612",
+    "datetime": "27-12-2015 18:06:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 1.8,
+        "bounty": 0.0,
+        "rake": 0.2
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Super Sat SUNDAY SURPRISE",
+        "tournament_id": "140595937",
+        "table_number": "019",
+        "prize_pool": 360.0,
+        "registered_players": 200,
+        "speed": "turbo",
+        "start_date": "2015/12/27 17:35:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "djahmoul",
+            "init_stack": 3295.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "dod33",
+            "init_stack": 2575.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 2380.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "combrinho",
+            "init_stack": 3530.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "chovrinho",
+            "init_stack": 2620.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "...ENZINO...",
+            "init_stack": 6420.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "felin13220",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "djahmoul",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dod33",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "combrinho",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chovrinho",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "...ENZINO...",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "felin13220",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "djahmoul",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "dod33",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "combrinho",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "chovrinho",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "...ENZINO...",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "felin13220",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "djahmoul",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dod33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "combrinho",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "combrinho",
+                "action": "bets",
+                "amount": 400.0
+            },
+            {
+                "player": "chovrinho",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "felin13220",
+                "action": "raises",
+                "amount": 1680.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "combrinho",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chovrinho",
+                "action": "calls",
+                "amount": 1300.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "4h",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "5s"
+    },
+    "showdown": {
+        "chovrinho": {
+            "first_card": "As",
+            "second_card": "Qc"
+        },
+        "felin13220": {
+            "first_card": "Qh",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "felin13220": {
+            "amount": 3900.0,
+            "pot_type": "side pot 1"
+        },
+        "chovrinho": {
+            "amount": 3520.0,
+            "pot_type": "main pot"
+        }
+    }
+}

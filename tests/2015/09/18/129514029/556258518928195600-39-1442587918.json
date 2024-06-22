@@ -1,0 +1,222 @@
+{
+    "hand_id": "556258518928195600-39-1442587918",
+    "datetime": "18-09-2015 14:51:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.45,
+        "bounty": 0.0,
+        "rake": 0.05
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "129514029",
+        "table_number": "015",
+        "prize_pool": 125.55,
+        "registered_players": 279,
+        "speed": "semiturbo",
+        "start_date": "2015/09/18 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Benny365",
+            "init_stack": 9021.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Clementine18",
+            "init_stack": 13615.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Le-Dade",
+            "init_stack": 7825.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mino55",
+            "init_stack": 6359.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "duzouc",
+            "init_stack": 10482.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "Qs"
+    },
+    "postings": [
+        {
+            "name": "duzouc",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Benny365",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Clementine18",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Le-Dade",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mino55",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "duzouc",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Benny365",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Clementine18",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Le-Dade",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mino55",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "duzouc",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "Benny365",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "duzouc",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Benny365",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Le-Dade",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "duzouc",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Benny365",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "Le-Dade",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "duzouc",
+                "action": "raises",
+                "amount": 1090.0
+            },
+            {
+                "player": "Benny365",
+                "action": "calls",
+                "amount": 1090.0
+            }
+        ],
+        "river": [
+            {
+                "player": "duzouc",
+                "action": "bets",
+                "amount": 2580.0
+            },
+            {
+                "player": "Benny365",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "9c",
+        "flop_card_3": "5d"
+    },
+    "turn": {
+        "turn_card": "2s"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {},
+    "winners": {
+        "duzouc": {
+            "amount": 7740.0,
+            "pot_type": "pot"
+        }
+    }
+}

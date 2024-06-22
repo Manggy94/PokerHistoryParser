@@ -1,0 +1,180 @@
+{
+    "hand_id": "605815638295838888-44-1451482077",
+    "datetime": "30-12-2015 13:27:57",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 9,
+        "ante": 25.0,
+        "sb": 125.0,
+        "bb": 250.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "141052445",
+        "table_number": "167",
+        "prize_pool": 100.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/12/30 13:00:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "TILUCAS",
+            "init_stack": 2555.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "momonono18",
+            "init_stack": 1690.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "wanted1109",
+            "init_stack": 3310.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "mimi84336",
+            "init_stack": 1265.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "JKLINB",
+            "init_stack": 23505.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 5546.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kh",
+        "second_card": "3c"
+    },
+    "postings": [
+        {
+            "name": "JKLINB",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TILUCAS",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "momonono18",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wanted1109",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mimi84336",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JKLINB",
+            "amount": 125.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 250.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "TILUCAS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "momonono18",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wanted1109",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mimi84336",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JKLINB",
+                "action": "calls",
+                "amount": 125.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "JKLINB",
+                "action": "bets",
+                "amount": 1375.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9d",
+        "flop_card_2": "Tc",
+        "flop_card_3": "6d"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "JKLINB": {
+            "amount": 2025.0,
+            "pot_type": "pot"
+        }
+    }
+}

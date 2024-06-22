@@ -1,0 +1,236 @@
+{
+    "hand_id": "539623462050725985-14-1439047121",
+    "datetime": "08-08-2015 15:18:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 6,
+        "ante": 10.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640878",
+        "table_number": "096",
+        "prize_pool": 150.0,
+        "registered_players": 4151,
+        "speed": "turbo",
+        "start_date": "2015/08/08 15:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "saignol07",
+            "init_stack": 2730.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "romain47180",
+            "init_stack": 8650.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "many-paty",
+            "init_stack": 2790.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "DAVISCUP",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mart",
+            "init_stack": 2770.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Joe Li",
+            "init_stack": 2800.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "celpotuss",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 8280.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sarrazyn",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "Qc"
+    },
+    "postings": [
+        {
+            "name": "romain47180",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "many-paty",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "saignol07",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DAVISCUP",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mart",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Joe Li",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "celpotuss",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sarrazyn",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "romain47180",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "many-paty",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "DAVISCUP",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mart",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Joe Li",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "celpotuss",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 510.0
+            },
+            {
+                "player": "sarrazyn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "saignol07",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "romain47180",
+                "action": "raises",
+                "amount": 8010.0
+            },
+            {
+                "player": "many-paty",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Joe Li",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 7640.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "8s",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "Ts"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "Qc"
+        },
+        "romain47180": {
+            "first_card": "As",
+            "second_card": "9s"
+        }
+    },
+    "winners": {
+        "romain47180": {
+            "amount": 17240.0,
+            "pot_type": "pot"
+        }
+    }
+}

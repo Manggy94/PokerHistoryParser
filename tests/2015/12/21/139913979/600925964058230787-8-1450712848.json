@@ -1,0 +1,163 @@
+{
+    "hand_id": "600925964058230787-8-1450712848",
+    "datetime": "21-12-2015 15:47:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.9,
+        "bounty": 0.0,
+        "rake": 0.1
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "D\u00e9glingos",
+        "tournament_id": "139913979",
+        "table_number": "002",
+        "prize_pool": 100.0,
+        "registered_players": 93,
+        "speed": "turbo",
+        "start_date": "2015/12/21 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "madtilt"
+    },
+    "max_players": 3,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 480.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "florianc10",
+            "init_stack": 460.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "zizou100",
+            "init_stack": 560.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3c",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "zizou100",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "florianc10",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "zizou100",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "zizou100",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 60.0
+            },
+            {
+                "player": "florianc10",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "zizou100",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "florianc10",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "florianc10",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "5h",
+        "flop_card_2": "Kh",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": "Qc"
+    },
+    "river": {
+        "river_card": "9s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "3c",
+            "second_card": "3d"
+        },
+        "florianc10": {
+            "first_card": "8s",
+            "second_card": "Ks"
+        }
+    },
+    "winners": {
+        "florianc10": {
+            "amount": 260.0,
+            "pot_type": "pot"
+        }
+    }
+}

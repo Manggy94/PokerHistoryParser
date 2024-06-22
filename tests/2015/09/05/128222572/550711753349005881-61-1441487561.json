@@ -1,0 +1,194 @@
+{
+    "hand_id": "550711753349005881-61-1441487561",
+    "datetime": "05-09-2015 21:12:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 17,
+        "ante": 160.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "568",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "trefle007",
+            "init_stack": 14990.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "nonodrino",
+            "init_stack": 8925.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "mabelle51",
+            "init_stack": 29565.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 15299.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "pattate57",
+            "init_stack": 52074.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "guigui291",
+            "init_stack": 20016.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "mabelle51",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "trefle007",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nonodrino",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pattate57",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "guigui291",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mabelle51",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pattate57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "guigui291",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "trefle007",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nonodrino",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mabelle51",
+                "action": "raises",
+                "amount": 1600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 7360.0
+            },
+            {
+                "player": "mabelle51",
+                "action": "calls",
+                "amount": 7360.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "mabelle51",
+                "action": "bets",
+                "amount": 18845.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 4579.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8c",
+        "flop_card_2": "9c",
+        "flop_card_3": "3h"
+    },
+    "turn": {
+        "turn_card": "2h"
+    },
+    "river": {
+        "river_card": "6h"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Js",
+            "second_card": "Jc"
+        },
+        "mabelle51": {
+            "first_card": "Qh",
+            "second_card": "Qs"
+        }
+    },
+    "winners": {
+        "mabelle51": {
+            "amount": 45504.0,
+            "pot_type": "pot"
+        }
+    }
+}

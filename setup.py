@@ -4,13 +4,7 @@ import json
 
 
 install_requires = [
-    "parsedatetime",
-    "cached-property",
-    "numpy",
-    "pandas",
-    "pytest",
-    "coverage",
-    "pytest-cov"
+    "python-dotenv"
 ]
 
 classifiers = [

@@ -1,0 +1,191 @@
+{
+    "hand_id": "546663063772725429-90-1440606203",
+    "datetime": "26-08-2015 16:23:23",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 25,
+        "ante": 1350.0,
+        "sb": 6000.0,
+        "bb": 12000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279913",
+        "table_number": "180",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/26 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "bilou11111",
+            "init_stack": 128135.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 41206.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "luffyzorro7",
+            "init_stack": 202595.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "CP40",
+            "init_stack": 18800.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fripounet44",
+            "init_stack": 34032.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "MEMO26",
+            "init_stack": 91434.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "CristianOzil",
+            "init_stack": 7215.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "-kenshiro-",
+            "init_stack": 100838.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qs",
+        "second_card": "5d"
+    },
+    "postings": [
+        {
+            "name": "fripounet44",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MEMO26",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bilou11111",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "luffyzorro7",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CristianOzil",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-kenshiro-",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fripounet44",
+            "amount": 6000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "MEMO26",
+            "amount": 12000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "CristianOzil",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-kenshiro-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bilou11111",
+                "action": "raises",
+                "amount": 36000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "luffyzorro7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fripounet44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MEMO26",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "bilou11111": {
+            "amount": 75450.0,
+            "pot_type": "pot"
+        }
+    }
+}

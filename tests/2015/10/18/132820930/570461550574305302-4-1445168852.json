@@ -1,0 +1,173 @@
+{
+    "hand_id": "570461550574305302-4-1445168852",
+    "datetime": "18-10-2015 11:47:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132820930",
+        "table_number": "021",
+        "prize_pool": 1500.0,
+        "registered_players": 203,
+        "speed": "semiturbo",
+        "start_date": "2015/10/18 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ghiscari",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fonfonas69",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ptitchatte75",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "salmon_maki",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Phoden",
+            "init_stack": 10825.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 9650.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ghiscari",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "fonfonas69",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "ptitchatte75",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "salmon_maki",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Phoden",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "ghiscari",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fonfonas69",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "ptitchatte75",
+                "action": "raises",
+                "amount": 1700.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 7100.0
+            },
+            {
+                "player": "fonfonas69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ptitchatte75",
+                "action": "calls",
+                "amount": 7100.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kc",
+        "flop_card_2": "Th",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": "7h"
+    },
+    "river": {
+        "river_card": "Td"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "As",
+            "second_card": "Ks"
+        },
+        "ptitchatte75": {
+            "first_card": "Ah",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "ptitchatte75": {
+            "amount": 20200.0,
+            "pot_type": "pot"
+        }
+    }
+}

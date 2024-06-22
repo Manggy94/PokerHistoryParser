@@ -1,0 +1,211 @@
+{
+    "hand_id": "574322373986091027-81-1445867466",
+    "datetime": "26-10-2015 13:51:06",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133719848",
+        "table_number": "018",
+        "prize_pool": 1827.0,
+        "registered_players": 522,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 12:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "betor66",
+            "init_stack": 19660.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Dimss76",
+            "init_stack": 7620.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "-valueporc-",
+            "init_stack": 37779.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "RuunBiAtch",
+            "init_stack": 10092.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Nevro97436",
+            "init_stack": 15430.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 28669.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jh",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "Dimss76",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-valueporc-",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "betor66",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RuunBiAtch",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nevro97436",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dimss76",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "-valueporc-",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "RuunBiAtch",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "betor66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dimss76",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-valueporc-",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "-valueporc-",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "-valueporc-",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "-valueporc-",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3h",
+        "flop_card_2": "7h",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "4s"
+    },
+    "river": {
+        "river_card": "Ad"
+    },
+    "showdown": {
+        "Nevro97436": {
+            "first_card": "Kh",
+            "second_card": "Qs"
+        },
+        "-valueporc-": {
+            "first_card": "5h",
+            "second_card": "4d"
+        }
+    },
+    "winners": {
+        "-valueporc-": {
+            "amount": 1490.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "hand_id": "593829213501390895-44-1449408237",
+    "datetime": "06-12-2015 13:23:57",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138261638",
+        "table_number": "046",
+        "prize_pool": 3726.0,
+        "registered_players": 828,
+        "speed": "normal",
+        "start_date": "2015/12/06 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "la Ventrale",
+            "init_stack": 11430.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BEINGOFLIGHT",
+            "init_stack": 29110.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-sgayou-",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "FouAAd68",
+            "init_stack": 19760.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2c",
+        "second_card": "5s"
+    },
+    "postings": [
+        {
+            "name": "-sgayou-",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "FouAAd68",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "la Ventrale",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "BEINGOFLIGHT",
+                "action": "raises",
+                "amount": 680.0
+            },
+            {
+                "player": "-sgayou-",
+                "action": "calls",
+                "amount": 830.0
+            },
+            {
+                "player": "FouAAd68",
+                "action": "calls",
+                "amount": 680.0
+            },
+            {
+                "player": "la Ventrale",
+                "action": "raises",
+                "amount": 10450.0
+            },
+            {
+                "player": "BEINGOFLIGHT",
+                "action": "raises",
+                "amount": 10450.0
+            },
+            {
+                "player": "-sgayou-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FouAAd68",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8d",
+        "flop_card_2": "As",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": "4d"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "la Ventrale": {
+            "first_card": "Qs",
+            "second_card": "Qd"
+        },
+        "BEINGOFLIGHT": {
+            "first_card": "Ah",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "BEINGOFLIGHT": {
+            "amount": 35270.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "hand_id": "542619609761579045-39-1439752966",
+    "datetime": "16-08-2015 19:22:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Welcome Freeroll",
+        "tournament_id": "126338473",
+        "table_number": "036",
+        "prize_pool": 1000.0,
+        "registered_players": 943,
+        "speed": "semiturbo",
+        "start_date": "2015/08/16 18:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DevilCrowns",
+            "init_stack": 2705.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "rem.chrlt",
+            "init_stack": 2685.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "KK3010",
+            "init_stack": 2550.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tr00evil",
+            "init_stack": 3715.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "COuXGaamer",
+            "init_stack": 2090.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "thonin62",
+            "init_stack": 14120.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Micky47",
+            "init_stack": 2450.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 4620.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Floowx",
+            "init_stack": 5555.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9s",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "Micky47",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Floowx",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "DevilCrowns",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rem.chrlt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KK3010",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tr00evil",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "COuXGaamer",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "thonin62",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "Micky47",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Micky47",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Floowx",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "thonin62",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Micky47",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 720.0
+            },
+            {
+                "player": "Floowx",
+                "action": "calls",
+                "amount": 720.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Floowx",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qc",
+        "flop_card_2": "4d",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Floowx": {
+            "amount": 2280.0,
+            "pot_type": "pot"
+        }
+    }
+}

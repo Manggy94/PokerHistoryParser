@@ -1,0 +1,144 @@
+{
+    "hand_id": "546253233698374147-2-1440504221",
+    "datetime": "25-08-2015 12:03:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "514",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tirex78",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "kost23",
+            "init_stack": 20.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "timalls1",
+            "init_stack": 2920.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "chamallow20",
+            "init_stack": 6040.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "barjoland",
+            "init_stack": 2800.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qs",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "chamallow20",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "barjoland",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tirex78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kost23",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "timalls1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chamallow20",
+                "action": "calls",
+                "amount": 15.0
+            },
+            {
+                "player": "barjoland",
+                "action": "raises",
+                "amount": 2770.0
+            },
+            {
+                "player": "chamallow20",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "barjoland": {
+            "amount": 2830.0,
+            "pot_type": "pot"
+        }
+    }
+}

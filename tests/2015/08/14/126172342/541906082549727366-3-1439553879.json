@@ -1,0 +1,156 @@
+{
+    "hand_id": "541906082549727366-3-1439553879",
+    "datetime": "14-08-2015 12:04:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "133",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2775.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "shaki59",
+            "init_stack": 60.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Gyula",
+            "init_stack": 2920.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "GuildAsAs1",
+            "init_stack": 8970.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "maxou785",
+            "init_stack": 2890.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "asfar2813",
+            "init_stack": 6130.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2d",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "GuildAsAs1",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "maxou785",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "asfar2813",
+                "action": "raises",
+                "amount": 6100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "shaki59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gyula",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "GuildAsAs1",
+                "action": "calls",
+                "amount": 6115.0
+            },
+            {
+                "player": "maxou785",
+                "action": "calls",
+                "amount": 2860.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "8c",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "Qh"
+    },
+    "river": {
+        "river_card": "Kc"
+    },
+    "showdown": {
+        "asfar2813": {
+            "first_card": "Tc",
+            "second_card": "Js"
+        },
+        "maxou785": {
+            "first_card": "Jd",
+            "second_card": "Qc"
+        },
+        "GuildAsAs1": {
+            "first_card": "Ad",
+            "second_card": "Jc"
+        }
+    },
+    "winners": {
+        "GuildAsAs1": {
+            "amount": 6480.0,
+            "pot_type": "side pot 1"
+        },
+        "maxou785": {
+            "amount": 8670.0,
+            "pot_type": "main pot"
+        }
+    }
+}

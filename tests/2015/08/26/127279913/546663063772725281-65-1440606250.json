@@ -1,0 +1,231 @@
+{
+    "hand_id": "546663063772725281-65-1440606250",
+    "datetime": "26-08-2015 16:24:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 26,
+        "ante": 1350.0,
+        "sb": 6000.0,
+        "bb": 12000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279913",
+        "table_number": "032",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/26 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Pluchebenoit",
+            "init_stack": 128534.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "kywi37",
+            "init_stack": 31269.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 39856.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "woodoo-child",
+            "init_stack": 60884.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ledubsindust",
+            "init_stack": 116128.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "tietco",
+            "init_stack": 159797.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Ptiyou92",
+            "init_stack": 125325.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "mamibramou",
+            "init_stack": 61729.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "dyfre",
+            "init_stack": 47526.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "kywi37",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pluchebenoit",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "woodoo-child",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ledubsindust",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tietco",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ptiyou92",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mamibramou",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dyfre",
+            "amount": 1350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kywi37",
+            "amount": 6000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 12000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "woodoo-child",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ledubsindust",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tietco",
+                "action": "calls",
+                "amount": 12000.0
+            },
+            {
+                "player": "Ptiyou92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mamibramou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dyfre",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pluchebenoit",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kywi37",
+                "action": "raises",
+                "amount": 17919.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tietco",
+                "action": "calls",
+                "amount": 17919.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "7s",
+        "flop_card_3": "8c"
+    },
+    "turn": {
+        "turn_card": "Qh"
+    },
+    "river": {
+        "river_card": "Kh"
+    },
+    "showdown": {
+        "kywi37": {
+            "first_card": "Jd",
+            "second_card": "Ah"
+        },
+        "tietco": {
+            "first_card": "Kc",
+            "second_card": "9d"
+        }
+    },
+    "winners": {
+        "tietco": {
+            "amount": 83988.0,
+            "pot_type": "pot"
+        }
+    }
+}

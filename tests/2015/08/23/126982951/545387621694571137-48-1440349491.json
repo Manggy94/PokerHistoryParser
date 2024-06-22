@@ -1,0 +1,154 @@
+{
+    "hand_id": "545387621694571137-48-1440349491",
+    "datetime": "23-08-2015 17:04:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 9,
+        "ante": 25.0,
+        "sb": 125.0,
+        "bb": 250.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126982951",
+        "table_number": "640",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/23 16:30:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "VITALIS63",
+            "init_stack": 985.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "silde7",
+            "init_stack": 4245.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 1190.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Sman069",
+            "init_stack": 1220.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gadjetpat",
+            "init_stack": 1435.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "VITALIS63",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "silde7",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sman069",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "VITALIS63",
+            "amount": 125.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "silde7",
+            "amount": 250.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sman069",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "VITALIS63",
+                "action": "calls",
+                "amount": 125.0
+            },
+            {
+                "player": "silde7",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "VITALIS63",
+                "action": "bets",
+                "amount": 710.0
+            },
+            {
+                "player": "silde7",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "5c",
+        "flop_card_3": "Kd"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "VITALIS63": {
+            "amount": 1310.0,
+            "pot_type": "pot"
+        }
+    }
+}

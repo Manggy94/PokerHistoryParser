@@ -1,0 +1,263 @@
+{
+    "hand_id": "541906104024564355-10-1439577778",
+    "datetime": "14-08-2015 18:42:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 9,
+        "ante": 25.0,
+        "sb": 125.0,
+        "bb": 250.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172347",
+        "table_number": "0642",
+        "prize_pool": 150.0,
+        "registered_players": 6420,
+        "speed": "turbo",
+        "start_date": "2015/08/14 18:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "duxstagus",
+            "init_stack": 2740.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Lisa666",
+            "init_stack": 2540.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Erekosei",
+            "init_stack": 6335.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "vince33127",
+            "init_stack": 1805.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "r2983jjj",
+            "init_stack": 14050.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Kee66",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "O-kan",
+            "init_stack": 2650.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Kyozor",
+            "init_stack": 8295.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 10465.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "duxstagus",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lisa666",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Erekosei",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vince33127",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "r2983jjj",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kee66",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "O-kan",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kyozor",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "duxstagus",
+            "amount": 125.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Lisa666",
+            "amount": 250.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Erekosei",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vince33127",
+                "action": "calls",
+                "amount": 250.0
+            },
+            {
+                "player": "r2983jjj",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kee66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "O-kan",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kyozor",
+                "action": "raises",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 750.0
+            },
+            {
+                "player": "duxstagus",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lisa666",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vince33127",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "vince33127",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Kyozor",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "vince33127",
+                "action": "bets",
+                "amount": 1030.0
+            },
+            {
+                "player": "Kyozor",
+                "action": "calls",
+                "amount": 1030.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qh",
+        "flop_card_2": "Js",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "4s"
+    },
+    "showdown": {
+        "Kyozor": {
+            "first_card": "Ah",
+            "second_card": "Kh"
+        },
+        "vince33127": {
+            "first_card": "Jh",
+            "second_card": "Kd"
+        }
+    },
+    "winners": {
+        "vince33127": {
+            "amount": 4910.0,
+            "pot_type": "pot"
+        }
+    }
+}

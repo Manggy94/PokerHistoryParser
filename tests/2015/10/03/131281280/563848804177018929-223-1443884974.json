@@ -1,0 +1,205 @@
+{
+    "hand_id": "563848804177018929-223-1443884974",
+    "datetime": "03-10-2015 15:09:34",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 23,
+        "ante": 2500.0,
+        "sb": 10000.0,
+        "bb": 20000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131281280",
+        "table_number": "048",
+        "prize_pool": 1883.0,
+        "registered_players": 538,
+        "speed": "semiturbo",
+        "start_date": "2015/10/03 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "bono76xxx",
+            "init_stack": 658136.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "vanrys10",
+            "init_stack": 688321.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "francky24000",
+            "init_stack": 457543.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 550907.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "atoupok",
+            "init_stack": 328790.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8h",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "bono76xxx",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vanrys10",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "francky24000",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "atoupok",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bono76xxx",
+            "amount": 10000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "vanrys10",
+            "amount": 20000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "francky24000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20000.0
+            },
+            {
+                "player": "atoupok",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bono76xxx",
+                "action": "calls",
+                "amount": 10000.0
+            },
+            {
+                "player": "vanrys10",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "bono76xxx",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "vanrys10",
+                "action": "bets",
+                "amount": 30000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30000.0
+            },
+            {
+                "player": "bono76xxx",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "vanrys10",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "vanrys10",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "7h",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": "Jh"
+    },
+    "showdown": {
+        "vanrys10": {
+            "first_card": "8d",
+            "second_card": "6c"
+        },
+        "manggy94": {
+            "first_card": "8h",
+            "second_card": "Jc"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 132500.0,
+            "pot_type": "pot"
+        }
+    }
+}

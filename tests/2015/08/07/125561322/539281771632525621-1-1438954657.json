@@ -1,0 +1,152 @@
+{
+    "hand_id": "539281771632525621-1-1438954657",
+    "datetime": "07-08-2015 13:37:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "308",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "2pac57140",
+            "init_stack": 2660.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Tirygolo",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "tarzoon29200",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "jask27",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Gwen 77",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Cy.B-org",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "pito70",
+            "init_stack": 3855.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 9570.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "playerdream",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "tarzoon29200",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "jask27",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Cy.B-org",
+                "action": "raises",
+                "amount": 160.0
+            },
+            {
+                "player": "2pac57140",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tarzoon29200",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jask27",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {
+        "Cy.B-org raises 160 to 200\n2pac57140 folds\ntarzoon29200 folds\njask27 folds\nCy.B-org": {
+            "first_card": "4h",
+            "second_card": "2h"
+        }
+    },
+    "winners": {
+        "Cy.B-org": {
+            "amount": 260.0,
+            "pot_type": "pot"
+        }
+    }
+}

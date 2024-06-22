@@ -1,0 +1,169 @@
+{
+    "hand_id": "538926251419631976-10-1438897187",
+    "datetime": "06-08-2015 21:39:47",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125478546",
+        "table_number": "359",
+        "prize_pool": 100.0,
+        "registered_players": 2820,
+        "speed": "turbo",
+        "start_date": "2015/08/06 21:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "QuentG60",
+            "init_stack": 530.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "gaga29200",
+            "init_stack": 3600.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "pakpot",
+            "init_stack": 4320.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "kaiser1310",
+            "init_stack": 1970.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 7834.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "PAPADV",
+            "init_stack": 4623.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "gaga29200",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "pakpot",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "kaiser1310",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "PAPADV",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "QuentG60",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "gaga29200",
+                "action": "raises",
+                "amount": 1000.0
+            },
+            {
+                "player": "pakpot",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PAPADV",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "QuentG60",
+                "action": "calls",
+                "amount": 330.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "gaga29200",
+                "action": "bets",
+                "amount": 2400.0
+            },
+            {
+                "player": "PAPADV",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "2h",
+        "flop_card_3": "8d"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {},
+    "winners": {
+        "gaga29200": {
+            "amount": 3740.0,
+            "pot_type": "side pot 1"
+        },
+        "QuentG60": {
+            "amount": 1990.0,
+            "pot_type": "main pot"
+        }
+    }
+}

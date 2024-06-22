@@ -1,0 +1,222 @@
+{
+    "hand_id": "594319995119337572-57-1449491113",
+    "datetime": "07-12-2015 12:25:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 16,
+        "ante": 135.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "099",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tranquillouv",
+            "init_stack": 13203.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "AnonymoussPL",
+            "init_stack": 4130.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 12675.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Giiiim",
+            "init_stack": 1179.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "tane59",
+            "init_stack": 16314.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Thylacine13",
+            "init_stack": 21190.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "yvjc",
+            "init_stack": 7450.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "yvjc",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tranquillouv",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AnonymoussPL",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Giiiim",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tane59",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Thylacine13",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "yvjc",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "tranquillouv",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "AnonymoussPL",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "Giiiim",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tane59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Thylacine13",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "yvjc",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tranquillouv",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Thylacine13",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Thylacine13",
+                "action": "bets",
+                "amount": 7545.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 2595.0
+            },
+            {
+                "player": "Thylacine13",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "3h",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 25230.0,
+            "pot_type": "pot"
+        }
+    }
+}

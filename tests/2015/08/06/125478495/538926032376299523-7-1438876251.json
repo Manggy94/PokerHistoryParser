@@ -1,0 +1,136 @@
+{
+    "hand_id": "538926032376299523-7-1438876251",
+    "datetime": "06-08-2015 15:50:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 4000.0,
+        "registered_players": 95,
+        "speed": "semiturbo",
+        "start_date": "2015/08/06 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "kaklasss",
+            "init_stack": 3070.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "louloulouuu",
+            "init_stack": 1670.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 1430.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "titoune68700",
+            "init_stack": 3070.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "cumpagnu",
+            "init_stack": 4505.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kh",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "cumpagnu",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "kaklasss",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "louloulouuu",
+                "action": "raises",
+                "amount": 1650.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "titoune68700",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cumpagnu",
+                "action": "raises",
+                "amount": 1650.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "As",
+        "flop_card_3": "6c"
+    },
+    "turn": {
+        "turn_card": "Ad"
+    },
+    "river": {
+        "river_card": "Jh"
+    },
+    "showdown": {
+        "louloulouuu": {
+            "first_card": "Jc",
+            "second_card": "Ks"
+        },
+        "cumpagnu": {
+            "first_card": "7d",
+            "second_card": "Qs"
+        }
+    },
+    "winners": {
+        "cumpagnu": {
+            "amount": 1650.0,
+            "pot_type": "side pot 1"
+        },
+        "louloulouuu": {
+            "amount": 3340.0,
+            "pot_type": "main pot"
+        }
+    }
+}

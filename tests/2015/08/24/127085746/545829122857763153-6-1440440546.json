@@ -1,0 +1,199 @@
+{
+    "hand_id": "545829122857763153-6-1440440546",
+    "datetime": "24-08-2015 18:22:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085746",
+        "table_number": "0336",
+        "prize_pool": 150.0,
+        "registered_players": 8729,
+        "speed": "turbo",
+        "start_date": "2015/08/24 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "sleven19",
+            "init_stack": 6055.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "laurics",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "blackjack90",
+            "init_stack": 3040.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "badboy84",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "vendetta8549",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 2920.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "lechat20",
+            "init_stack": 3335.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Franki27400",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "psychogirls",
+            "init_stack": 2750.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "lechat20",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Franki27400",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "psychogirls",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "sleven19",
+                "action": "raises",
+                "amount": 60.0
+            },
+            {
+                "player": "laurics",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "blackjack90",
+                "action": "raises",
+                "amount": 2940.0
+            },
+            {
+                "player": "badboy84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vendetta8549",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lechat20",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Franki27400",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "psychogirls",
+                "action": "calls",
+                "amount": 2710.0
+            },
+            {
+                "player": "sleven19",
+                "action": "calls",
+                "amount": 2940.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "Ts",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "6d"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "blackjack90": {
+            "first_card": "Kc",
+            "second_card": "Jc"
+        },
+        "psychogirls": {
+            "first_card": "Qh",
+            "second_card": "Kh"
+        },
+        "sleven19": {
+            "first_card": "Qc",
+            "second_card": "Ks"
+        }
+    },
+    "winners": {
+        "sleven19": {
+            "amount": 4735.0,
+            "pot_type": "side pot 1"
+        },
+        "psychogirls": {
+            "amount": 4155.0,
+            "pot_type": "main pot"
+        }
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "hand_id": "571495787289116703-65-1445346270",
+    "datetime": "20-10-2015 13:04:30",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133061732",
+        "table_number": "030",
+        "prize_pool": 1694.0,
+        "registered_players": 484,
+        "speed": "semiturbo",
+        "start_date": "2015/10/20 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 27856.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Jacoby23",
+            "init_stack": 21356.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Raisingman86",
+            "init_stack": 62157.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "sahabo",
+            "init_stack": 39270.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "pierloch29",
+            "init_stack": 49992.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8d",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "sahabo",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pierloch29",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jacoby23",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sahabo",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "pierloch29",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "Jacoby23",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sahabo",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "pierloch29",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "sahabo",
+                "action": "bets",
+                "amount": 1020.0
+            },
+            {
+                "player": "pierloch29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qs",
+        "flop_card_2": "Ks",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "sahabo": {
+            "amount": 3060.0,
+            "pot_type": "pot"
+        }
+    }
+}

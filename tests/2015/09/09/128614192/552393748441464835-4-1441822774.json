@@ -1,0 +1,165 @@
+{
+    "hand_id": "552393748441464835-4-1441822774",
+    "datetime": "09-09-2015 18:19:34",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "128614192",
+        "table_number": "002",
+        "prize_pool": 500.5,
+        "registered_players": 143,
+        "speed": "semiturbo",
+        "start_date": "2015/09/09 18:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "opale3366",
+            "init_stack": 9775.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "samsam1482",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "esncampeone",
+            "init_stack": 9600.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 7525.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "pachat 33",
+            "init_stack": 10975.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "opale3366",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "samsam1482",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "esncampeone",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "pachat 33",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "opale3366",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "samsam1482",
+                "action": "calls",
+                "amount": 150.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "samsam1482",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pachat 33",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "samsam1482",
+                "action": "bets",
+                "amount": 325.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1300.0
+            },
+            {
+                "player": "pachat 33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "samsam1482",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "3s",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": "Qs"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 2600.0,
+            "pot_type": "pot"
+        }
+    }
+}

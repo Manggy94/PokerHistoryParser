@@ -1,0 +1,203 @@
+{
+    "hand_id": "540379453604233350-2-1439197392",
+    "datetime": "10-08-2015 09:03:12",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816896",
+        "table_number": "133",
+        "prize_pool": 50.0,
+        "registered_players": 2487,
+        "speed": "turbo",
+        "start_date": "2015/08/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "anaabellee",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "sebastienom",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "call me dude",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "pioo7",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "valdo126",
+            "init_stack": 3120.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "lereup",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "G-rome77",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Remy_0013",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "G-rome77",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Remy_0013",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "anaabellee",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sebastienom",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "call me dude",
+                "action": "raises",
+                "amount": 70.0
+            },
+            {
+                "player": "pioo7",
+                "action": "raises",
+                "amount": 2890.0
+            },
+            {
+                "player": "valdo126",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lereup",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "G-rome77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Remy_0013",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sebastienom",
+                "action": "calls",
+                "amount": 2960.0
+            },
+            {
+                "player": "call me dude",
+                "action": "calls",
+                "amount": 2870.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "3h",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "4c"
+    },
+    "showdown": {
+        "call me dude": {
+            "first_card": "Ah",
+            "second_card": "Jh"
+        },
+        "sebastienom": {
+            "first_card": "Ad",
+            "second_card": "7c"
+        },
+        "pioo7": {
+            "first_card": "9s",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "pioo7": {
+            "amount": 20.0,
+            "pot_type": "side pot 1"
+        },
+        "sebastienom": {
+            "amount": 20.0,
+            "pot_type": "side pot 1"
+        },
+        "call me dude": {
+            "amount": 8910.0,
+            "pot_type": "main pot"
+        }
+    }
+}

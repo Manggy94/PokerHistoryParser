@@ -1,0 +1,264 @@
+{
+    "hand_id": "552393752736432194-44-1441832775",
+    "datetime": "09-09-2015 21:06:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 16,
+        "ante": 500.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "128614193",
+        "table_number": "065",
+        "prize_pool": 2240.0,
+        "registered_players": 640,
+        "speed": "semiturbo",
+        "start_date": "2015/09/09 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "elite59153",
+            "init_stack": 62612.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "dams-king78",
+            "init_stack": 101628.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "didouille05",
+            "init_stack": 33530.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "1tripAAA",
+            "init_stack": 47246.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "michou_31",
+            "init_stack": 52849.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "sj44",
+            "init_stack": 19330.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "ATP26",
+            "init_stack": 57476.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 100291.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "christal94",
+            "init_stack": 81862.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5h",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "christal94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "elite59153",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dams-king78",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "didouille05",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "1tripAAA",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "michou_31",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sj44",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ATP26",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "christal94",
+            "amount": 2000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "elite59153",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "dams-king78",
+                "action": "raises",
+                "amount": 6000.0
+            },
+            {
+                "player": "didouille05",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "1tripAAA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "michou_31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sj44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ATP26",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "christal94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "elite59153",
+                "action": "calls",
+                "amount": 6000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "elite59153",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "dams-king78",
+                "action": "bets",
+                "amount": 4000.0
+            },
+            {
+                "player": "elite59153",
+                "action": "calls",
+                "amount": 4000.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "elite59153",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "dams-king78",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "elite59153",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "dams-king78",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2s",
+        "flop_card_2": "4d",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "8c"
+    },
+    "river": {
+        "river_card": "8s"
+    },
+    "showdown": {
+        "elite59153": {
+            "first_card": "5c",
+            "second_card": "Tc"
+        },
+        "dams-king78": {
+            "first_card": "9s",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "dams-king78": {
+            "amount": 34500.0,
+            "pot_type": "pot"
+        }
+    }
+}

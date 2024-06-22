@@ -1,0 +1,175 @@
+{
+    "hand_id": "569086336405864456-1-1444909504",
+    "datetime": "15-10-2015 11:45:04",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132500738",
+        "table_number": "007",
+        "prize_pool": 1500.0,
+        "registered_players": 398,
+        "speed": "semiturbo",
+        "start_date": "2015/10/15 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Saiid92",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "edounono",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "JUMANJI95",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Stder",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Picsou643640",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jh",
+        "second_card": "2d"
+    },
+    "postings": [
+        {
+            "name": "JUMANJI95",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Stder",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "Picsou643640",
+                "action": "raises",
+                "amount": 75.0
+            },
+            {
+                "player": "Saiid92",
+                "action": "calls",
+                "amount": 125.0
+            },
+            {
+                "player": "edounono",
+                "action": "calls",
+                "amount": 125.0
+            },
+            {
+                "player": "JUMANJI95",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Stder",
+                "action": "raises",
+                "amount": 675.0
+            },
+            {
+                "player": "Picsou643640",
+                "action": "calls",
+                "amount": 675.0
+            },
+            {
+                "player": "Saiid92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "edounono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JUMANJI95",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Stder",
+                "action": "bets",
+                "amount": 2025.0
+            },
+            {
+                "player": "Picsou643640",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "Th",
+        "flop_card_3": "6s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Stder": {
+            "amount": 4050.0,
+            "pot_type": "pot"
+        }
+    }
+}

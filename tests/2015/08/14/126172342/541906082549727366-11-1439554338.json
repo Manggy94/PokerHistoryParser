@@ -1,0 +1,192 @@
+{
+    "hand_id": "541906082549727366-11-1439554338",
+    "datetime": "14-08-2015 12:12:18",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "133",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 4265.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "kat24",
+            "init_stack": 3365.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Gyula",
+            "init_stack": 5005.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JEANPHI456",
+            "init_stack": 6315.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "joceber",
+            "init_stack": 2870.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lotusble",
+            "init_stack": 2530.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4c",
+        "second_card": "5s"
+    },
+    "postings": [
+        {
+            "name": "lotusble",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "kat24",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gyula",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "JEANPHI456",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "joceber",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "lotusble",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "lotusble",
+                "action": "bets",
+                "amount": 200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gyula",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "JEANPHI456",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "joceber",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "lotusble",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "Gyula",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "JEANPHI456",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "lotusble",
+                "action": "bets",
+                "amount": 1670.0
+            },
+            {
+                "player": "Gyula",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "Qs",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "As"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {},
+    "winners": {
+        "lotusble": {
+            "amount": 3770.0,
+            "pot_type": "pot"
+        }
+    }
+}

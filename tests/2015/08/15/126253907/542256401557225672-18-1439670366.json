@@ -1,0 +1,139 @@
+{
+    "hand_id": "542256401557225672-18-1439670366",
+    "datetime": "15-08-2015 20:26:06",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253907",
+        "table_number": "199",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/15 20:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "MRC41",
+            "init_stack": 17770.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "FISSOUILLE",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "phoebus008",
+            "init_stack": 2770.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "NICOFOOTIX92",
+            "init_stack": 2865.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "a.b.b.y",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2s",
+        "second_card": "Js"
+    },
+    "postings": [
+        {
+            "name": "phoebus008",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "NICOFOOTIX92",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "a.b.b.y",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MRC41",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "FISSOUILLE",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "phoebus008",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NICOFOOTIX92",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "MRC41": {
+            "amount": 300.0,
+            "pot_type": "pot"
+        }
+    }
+}

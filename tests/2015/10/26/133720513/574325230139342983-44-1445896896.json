@@ -1,0 +1,169 @@
+{
+    "hand_id": "574325230139342983-44-1445896896",
+    "datetime": "26-10-2015 22:01:36",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 9,
+        "ante": 75.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "LE TOTEM",
+        "tournament_id": "133720513",
+        "table_number": "0134",
+        "prize_pool": 7902.0,
+        "registered_players": 1384,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 21:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "LINO13000",
+            "init_stack": 22198.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Dan_per",
+            "init_stack": 15968.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 8585.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "MalcolmCrowe",
+            "init_stack": 23993.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "arctic11112",
+            "init_stack": 32441.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Chaiseman",
+            "init_stack": 36815.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Td",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "MalcolmCrowe",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "arctic11112",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LINO13000",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dan_per",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Chaiseman",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MalcolmCrowe",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "arctic11112",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Chaiseman",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LINO13000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dan_per",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 2450.0
+            },
+            {
+                "player": "MalcolmCrowe",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "arctic11112",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 4900.0,
+            "pot_type": "pot"
+        }
+    }
+}

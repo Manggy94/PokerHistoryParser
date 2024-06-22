@@ -1,0 +1,189 @@
+{
+    "hand_id": "546253233698373685-71-1440507602",
+    "datetime": "25-08-2015 13:00:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 18,
+        "ante": 200.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "052",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 18492.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "cililyla",
+            "init_stack": 37754.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "smoker2fish",
+            "init_stack": 33247.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gazidaniel",
+            "init_stack": 33040.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "geuvye",
+            "init_stack": 35576.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "nounours503",
+            "init_stack": 4432.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ts",
+        "second_card": "Td"
+    },
+    "postings": [
+        {
+            "name": "cililyla",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "smoker2fish",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gazidaniel",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "geuvye",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nounours503",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cililyla",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "smoker2fish",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gazidaniel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "geuvye",
+                "action": "raises",
+                "amount": 8000.0
+            },
+            {
+                "player": "nounours503",
+                "action": "calls",
+                "amount": 4232.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 10000.0
+            },
+            {
+                "player": "cililyla",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "smoker2fish",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "geuvye",
+                "action": "bets",
+                "amount": 25376.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qc",
+        "flop_card_2": "4c",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": "7c"
+    },
+    "river": {
+        "river_card": "8d"
+    },
+    "showdown": {
+        "nounours503": {
+            "first_card": "Ad",
+            "second_card": "8s"
+        },
+        "geuvye": {
+            "first_card": "Jd",
+            "second_card": "Jc"
+        }
+    },
+    "winners": {
+        "geuvye": {
+            "amount": 53808.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,219 @@
+{
+    "hand_id": "545387604514701498-1-1440325827",
+    "datetime": "23-08-2015 10:30:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126982947",
+        "table_number": "185",
+        "prize_pool": 100.0,
+        "registered_players": 3717,
+        "speed": "turbo",
+        "start_date": "2015/08/23 10:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "marmotte974",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "TheToilet2b",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "babass14",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Fearless57",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "VMAG",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Rigged_a_max",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "choupinete31",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Bambi501",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "9c"
+    },
+    "postings": [
+        {
+            "name": "TheToilet2b",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "babass14",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Fearless57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "VMAG",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Rigged_a_max",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "choupinete31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Bambi501",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 70.0
+            },
+            {
+                "player": "marmotte974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TheToilet2b",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "babass14",
+                "action": "calls",
+                "amount": 70.0
+            },
+            {
+                "player": "Bambi501",
+                "action": "calls",
+                "amount": 70.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "babass14",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Bambi501",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 280.0
+            },
+            {
+                "player": "babass14",
+                "action": "calls",
+                "amount": 280.0
+            },
+            {
+                "player": "Bambi501",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "babass14",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2630.0
+            },
+            {
+                "player": "babass14",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2s",
+        "flop_card_2": "3h",
+        "flop_card_3": "9s"
+    },
+    "turn": {
+        "turn_card": "Qd"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 3470.0,
+            "pot_type": "pot"
+        }
+    }
+}

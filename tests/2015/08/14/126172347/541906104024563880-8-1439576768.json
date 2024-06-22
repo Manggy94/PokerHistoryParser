@@ -1,0 +1,190 @@
+{
+    "hand_id": "541906104024563880-8-1439576768",
+    "datetime": "14-08-2015 18:26:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172347",
+        "table_number": "0167",
+        "prize_pool": 150.0,
+        "registered_players": 6420,
+        "speed": "turbo",
+        "start_date": "2015/08/14 18:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "chico1959",
+            "init_stack": 2570.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Erekosei",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "bbp59",
+            "init_stack": 750.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "xjojopokerx",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "pirate as",
+            "init_stack": 2870.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "r2983jjj",
+            "init_stack": 2965.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Aconit Napel",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "O-kan",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8c",
+        "second_card": "2h"
+    },
+    "postings": [
+        {
+            "name": "bbp59",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "xjojopokerx",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pirate as",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "r2983jjj",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Aconit Napel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "O-kan",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "chico1959",
+                "action": "raises",
+                "amount": 720.0
+            },
+            {
+                "player": "Erekosei",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bbp59",
+                "action": "calls",
+                "amount": 720.0
+            },
+            {
+                "player": "xjojopokerx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "O-kan",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9h",
+        "flop_card_2": "Qs",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "6s"
+    },
+    "showdown": {
+        "bbp59": {
+            "first_card": "Jc",
+            "second_card": "7d"
+        },
+        "chico1959": {
+            "first_card": "6c",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "chico1959": {
+            "amount": 30.0,
+            "pot_type": "side pot 1"
+        },
+        "bbp59": {
+            "amount": 1620.0,
+            "pot_type": "main pot"
+        }
+    }
+}

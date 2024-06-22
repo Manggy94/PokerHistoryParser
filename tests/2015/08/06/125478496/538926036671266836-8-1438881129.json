@@ -1,0 +1,189 @@
+{
+    "hand_id": "538926036671266836-8-1438881129",
+    "datetime": "06-08-2015 17:12:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 5000.0,
+        "registered_players": 242,
+        "speed": "normal",
+        "start_date": "2015/08/06 16:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "hummaga",
+            "init_stack": 21225.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "jmi62",
+            "init_stack": 18250.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 14525.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "mayous974",
+            "init_stack": 19725.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "bbmorello",
+            "init_stack": 33700.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "2c"
+    },
+    "postings": [
+        {
+            "name": "bbmorello",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "hummaga",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jmi62",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mayous974",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bbmorello",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "hummaga",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jmi62",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "mayous974",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "bbmorello",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "hummaga",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "hummaga",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "jmi62",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mayous974",
+                "action": "bets",
+                "amount": 19400.0
+            },
+            {
+                "player": "hummaga",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jmi62",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "6c",
+        "flop_card_3": "Ah"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "mayous974": {
+            "amount": 20875.0,
+            "pot_type": "pot"
+        }
+    }
+}

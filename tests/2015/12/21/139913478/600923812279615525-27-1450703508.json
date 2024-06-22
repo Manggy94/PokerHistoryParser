@@ -1,0 +1,134 @@
+{
+    "hand_id": "600923812279615525-27-1450703508",
+    "datetime": "21-12-2015 13:11:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "139913478",
+        "table_number": "036",
+        "prize_pool": 2000.0,
+        "registered_players": 438,
+        "speed": "normal",
+        "start_date": "2015/12/21 12:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jrdey",
+            "init_stack": 22562.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "_MADBLAKE_",
+            "init_stack": 9260.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Petomane26",
+            "init_stack": 16817.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "tonsawyer",
+            "init_stack": 9486.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jOjO87700",
+            "init_stack": 12000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6s",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "Petomane26",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "tonsawyer",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jOjO87700",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jrdey",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "_MADBLAKE_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Petomane26",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "tonsawyer": {
+            "amount": 225.0,
+            "pot_type": "pot"
+        }
+    }
+}

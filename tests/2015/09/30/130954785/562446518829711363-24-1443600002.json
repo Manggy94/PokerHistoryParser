@@ -1,0 +1,278 @@
+{
+    "hand_id": "562446518829711363-24-1443600002",
+    "datetime": "30-09-2015 08:00:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.9,
+        "bounty": 0.0,
+        "rake": 0.1
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 99.9,
+        "registered_players": 111,
+        "speed": "turbo",
+        "start_date": "2015/09/30 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 10790.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "TheCroco",
+            "init_stack": 9395.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ronduh",
+            "init_stack": 10255.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "davbos 59",
+            "init_stack": 28268.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "feustev02",
+            "init_stack": 9095.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "papylaurent",
+            "init_stack": 16220.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "klhrt 974",
+            "init_stack": 19925.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Budy1canabis",
+            "init_stack": 27830.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "_DETRITUS_",
+            "init_stack": 32975.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2s",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "_DETRITUS_",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TheCroco",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ronduh",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "davbos 59",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "feustev02",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "papylaurent",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "klhrt 974",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Budy1canabis",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "_DETRITUS_",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "TheCroco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ronduh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "davbos 59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "feustev02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "papylaurent",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "klhrt 974",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "Budy1canabis",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "_DETRITUS_",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "_DETRITUS_",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "klhrt 974",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "_DETRITUS_",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "klhrt 974",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "_DETRITUS_",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "klhrt 974",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "Qd",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "6c"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "2s",
+            "second_card": "9s"
+        },
+        "klhrt 974": {
+            "first_card": "8s",
+            "second_card": "9d"
+        },
+        "_DETRITUS_": {
+            "first_card": "9c",
+            "second_card": "9h"
+        }
+    },
+    "winners": {
+        "_DETRITUS_": {
+            "amount": 2340.0,
+            "pot_type": "pot"
+        }
+    }
+}

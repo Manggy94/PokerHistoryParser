@@ -1,0 +1,241 @@
+{
+    "hand_id": "568654782386929682-11-1444845998",
+    "datetime": "14-10-2015 18:06:38",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 7.0,
+        "bounty": 0.0,
+        "rake": 3.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132400259",
+        "table_number": "017",
+        "prize_pool": 1533.0,
+        "registered_players": 219,
+        "speed": "semiturbo",
+        "start_date": "2015/10/14 17:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 8985.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "noelalexis",
+            "init_stack": 9685.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "_NiKoBeliKo_",
+            "init_stack": 20842.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JEGESMEDVE28",
+            "init_stack": 9000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Yanyan1505",
+            "init_stack": 15121.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "iCaLLuMuck",
+            "init_stack": 6667.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Guibots14",
+            "init_stack": 9780.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "SankaTesMort",
+            "init_stack": 9920.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "Qd"
+    },
+    "postings": [
+        {
+            "name": "Guibots14",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "noelalexis",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "_NiKoBeliKo_",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JEGESMEDVE28",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Yanyan1505",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "iCaLLuMuck",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SankaTesMort",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Guibots14",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "SankaTesMort",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1320.0
+            },
+            {
+                "player": "noelalexis",
+                "action": "calls",
+                "amount": 1820.0
+            },
+            {
+                "player": "_NiKoBeliKo_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JEGESMEDVE28",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yanyan1505",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "iCaLLuMuck",
+                "action": "calls",
+                "amount": 1820.0
+            },
+            {
+                "player": "Guibots14",
+                "action": "calls",
+                "amount": 1320.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Guibots14",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "noelalexis",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "iCaLLuMuck",
+                "action": "bets",
+                "amount": 4807.0
+            },
+            {
+                "player": "Guibots14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 4807.0
+            },
+            {
+                "player": "noelalexis",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qs",
+        "flop_card_2": "Kc",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "5c"
+    },
+    "river": {
+        "river_card": "Tc"
+    },
+    "showdown": {
+        "iCaLLuMuck": {
+            "first_card": "8c",
+            "second_card": "Js"
+        },
+        "manggy94": {
+            "first_card": "As",
+            "second_card": "Qd"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 17214.0,
+            "pot_type": "pot"
+        }
+    }
+}

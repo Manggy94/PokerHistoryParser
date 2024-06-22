@@ -1,0 +1,170 @@
+{
+    "hand_id": "538926032376299521-18-1438877078",
+    "datetime": "06-08-2015 16:04:38",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 4000.0,
+        "registered_players": 95,
+        "speed": "semiturbo",
+        "start_date": "2015/08/06 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "Didy95",
+            "init_stack": 4390.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 1110.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Pompierspp67",
+            "init_stack": 3065.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mick37",
+            "init_stack": 2695.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lecanaille",
+            "init_stack": 10390.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3h",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "Pompierspp67",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "mick37",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "lecanaille",
+                "action": "raises",
+                "amount": 80.0
+            },
+            {
+                "player": "Didy95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pompierspp67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mick37",
+                "action": "calls",
+                "amount": 80.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "mick37",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "mick37",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ],
+        "river": [
+            {
+                "player": "mick37",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "Ks",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": "2d"
+    },
+    "river": {
+        "river_card": "3d"
+    },
+    "showdown": {
+        "mick37": {
+            "first_card": "5h",
+            "second_card": "Ad"
+        },
+        "lecanaille": {
+            "first_card": "Ah",
+            "second_card": "Jh"
+        }
+    },
+    "winners": {
+        "lecanaille": {
+            "amount": 420.0,
+            "pot_type": "pot"
+        }
+    }
+}

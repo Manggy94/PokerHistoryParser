@@ -1,0 +1,185 @@
+{
+    "hand_id": "539623453460791823-32-1439037226",
+    "datetime": "08-08-2015 12:33:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "526",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "chachnaq",
+            "init_stack": 10222.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Fredo extra",
+            "init_stack": 625.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "NINIE19841",
+            "init_stack": 10910.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "dameisolde",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "looser13127",
+            "init_stack": 5050.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 7835.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "dameisolde",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "looser13127",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chachnaq",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fredo extra",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dameisolde",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "looser13127",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "chachnaq",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fredo extra",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dameisolde",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "looser13127",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "dameisolde",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "looser13127",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1400.0
+            },
+            {
+                "player": "dameisolde",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "looser13127",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "Ts",
+        "flop_card_3": "9h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 2800.0,
+            "pot_type": "pot"
+        }
+    }
+}

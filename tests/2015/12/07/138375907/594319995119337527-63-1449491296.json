@@ -1,0 +1,206 @@
+{
+    "hand_id": "594319995119337527-63-1449491296",
+    "datetime": "07-12-2015 12:28:16",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 17,
+        "ante": 160.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "054",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Nerull44",
+            "init_stack": 33851.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "sopra61",
+            "init_stack": 7027.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "turckas",
+            "init_stack": 24610.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Bigawouel",
+            "init_stack": 6240.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "1.PERSONNE.1",
+            "init_stack": 22680.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 28430.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "T.Montana25",
+            "init_stack": 8045.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "prendpastout",
+            "init_stack": 115795.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "name": "Nerull44",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sopra61",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "turckas",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bigawouel",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "1.PERSONNE.1",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "T.Montana25",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "prendpastout",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nerull44",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "sopra61",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "turckas",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Bigawouel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "1.PERSONNE.1",
+                "action": "raises",
+                "amount": 20920.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "T.Montana25",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "prendpastout",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nerull44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sopra61",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {
+        "turckas folds\nBigawouel folds\n1.PERSONNE.1 raises 20920 to 22520 and is all-in\nmanggy94 folds\nT.Montana25 folds\nprendpastout folds\nNerull44 folds\nsopra61 folds\n1.PERSONNE.1": {
+            "first_card": "2h",
+            "second_card": "2d"
+        }
+    },
+    "winners": {
+        "1.PERSONNE.1": {
+            "amount": 26200.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "hand_id": "541159200621855128-49-1439390427",
+    "datetime": "12-08-2015 14:40:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 21,
+        "ante": 400.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "407",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "mulcain",
+            "init_stack": 20500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Sosobb",
+            "init_stack": 55790.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "raphael3434",
+            "init_stack": 64585.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "onetwo84",
+            "init_stack": 34520.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Dens86000",
+            "init_stack": 32163.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "melog",
+            "init_stack": 17680.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "PolakAA",
+            "init_stack": 43044.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 101033.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sandaliers",
+            "init_stack": 81299.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "mulcain",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sosobb",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "raphael3434",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "onetwo84",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dens86000",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "melog",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PolakAA",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mulcain",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Sosobb",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "raphael3434",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "onetwo84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dens86000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "melog",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PolakAA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 4000.0
+            },
+            {
+                "player": "mulcain",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "mulcain",
+                "action": "bets",
+                "amount": 4000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 19200.0
+            },
+            {
+                "player": "mulcain",
+                "action": "calls",
+                "amount": 12100.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "Js",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "7d"
+    },
+    "showdown": {
+        "mulcain": {
+            "first_card": "Jd",
+            "second_card": "Qs"
+        },
+        "manggy94": {
+            "first_card": "8s",
+            "second_card": "9s"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 7100.0,
+            "pot_type": "side pot 1"
+        },
+        "mulcain": {
+            "amount": 43400.0,
+            "pot_type": "main pot"
+        }
+    }
+}

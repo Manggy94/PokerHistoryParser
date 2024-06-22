@@ -1,0 +1,225 @@
+{
+    "hand_id": "541159200621855128-54-1439390654",
+    "datetime": "12-08-2015 14:44:14",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 22,
+        "ante": 500.0,
+        "sb": 2500.0,
+        "bb": 5000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "407",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "mulcain",
+            "init_stack": 65340.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Sosobb",
+            "init_stack": 113980.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "raphael3434",
+            "init_stack": 49785.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "LeBibou64",
+            "init_stack": 43077.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Dens86000",
+            "init_stack": 24863.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "fullnobeat",
+            "init_stack": 34067.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "paillol34",
+            "init_stack": 15328.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 28143.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sandaliers",
+            "init_stack": 79799.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jh",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "Dens86000",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fullnobeat",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mulcain",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sosobb",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "raphael3434",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "paillol34",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sandaliers",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dens86000",
+            "amount": 2500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "fullnobeat",
+            "amount": 5000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "paillol34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 5000.0
+            },
+            {
+                "player": "sandaliers",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mulcain",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sosobb",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "raphael3434",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dens86000",
+                "action": "raises",
+                "amount": 19363.0
+            },
+            {
+                "player": "fullnobeat",
+                "action": "raises",
+                "amount": 9204.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 22643.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kc",
+        "flop_card_2": "8h",
+        "flop_card_3": "2s"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "3d"
+    },
+    "showdown": {
+        "Dens86000": {
+            "first_card": "Qd",
+            "second_card": "Th"
+        },
+        "manggy94": {
+            "first_card": "Jh",
+            "second_card": "Qh"
+        },
+        "fullnobeat": {
+            "first_card": "Kh",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "fullnobeat": {
+            "amount": 89573.0,
+            "pot_type": "pot"
+        }
+    }
+}

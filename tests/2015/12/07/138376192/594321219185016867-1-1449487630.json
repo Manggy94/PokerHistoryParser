@@ -1,0 +1,109 @@
+{
+    "hand_id": "594321219185016867-1-1449487630",
+    "datetime": "07-12-2015 11:27:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "FAST FOOD",
+        "tournament_id": "138376192",
+        "table_number": "034",
+        "prize_pool": 1912.5,
+        "registered_players": 363,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 2,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "chrisambre45",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "7c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "chrisambre45",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "chrisambre45",
+                "action": "raises",
+                "amount": 9100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 9100.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "Qh",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "Kh"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ad",
+            "second_card": "7c"
+        },
+        "chrisambre45": {
+            "first_card": "Qs",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "chrisambre45": {
+            "amount": 20000.0,
+            "pot_type": "pot"
+        }
+    }
+}

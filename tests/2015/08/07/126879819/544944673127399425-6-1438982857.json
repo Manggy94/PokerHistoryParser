@@ -1,0 +1,258 @@
+{
+    "hand_id": "544944673127399425-6-1438982857",
+    "datetime": "07-08-2015 21:27:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Sit&Go Freeroll",
+        "tournament_id": "126879819",
+        "table_number": "0",
+        "prize_pool": 0.1,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/08/07 21:19:35 UTC",
+        "levels_structure": [],
+        "tournament_type": "sitngo"
+    },
+    "max_players": 10,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "kiwi39",
+            "init_stack": 1355.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "ju_al",
+            "init_stack": 1360.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 3020.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Lakhdar24",
+            "init_stack": 50.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "-999-",
+            "init_stack": 1470.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gadjetpat",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "NoBs35",
+            "init_stack": 1510.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "eddylesau 76",
+            "init_stack": 1725.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "gustavio777",
+            "init_stack": 3010.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Lakhdar24",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "-999-",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "gadjetpat",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "NoBs35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "eddylesau 76",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "gustavio777",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kiwi39",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "ju_al",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Lakhdar24",
+                "action": "raises",
+                "amount": 10.0
+            },
+            {
+                "player": "-999-",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "gadjetpat",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "eddylesau 76",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "kiwi39",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 10.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "-999-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gadjetpat",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "eddylesau 76",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "kiwi39",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "gadjetpat",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "eddylesau 76",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gadjetpat",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2s",
+        "flop_card_2": "8d",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": "Ad"
+    },
+    "showdown": {
+        "Lakhdar24": {
+            "first_card": "Th",
+            "second_card": "Qs"
+        },
+        "eddylesau 76": {
+            "first_card": "6h",
+            "second_card": "5h"
+        }
+    },
+    "winners": {
+        "eddylesau 76": {
+            "amount": 1800.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "hand_id": "555316774334103694-3-1442423905",
+    "datetime": "16-09-2015 17:18:25",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "129294762",
+        "table_number": "141",
+        "prize_pool": 150.0,
+        "registered_players": 4072,
+        "speed": "turbo",
+        "start_date": "2015/09/16 17:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jean cultout",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Le Moribond",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Noosphy.II",
+            "init_stack": 2680.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "FULL MAX 65",
+            "init_stack": 3360.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "sirmacdowell",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "sirmacdowell",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jean cultout",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Le Moribond",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Noosphy.II",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "FULL MAX 65",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "sirmacdowell",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "sirmacdowell",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Le Moribond",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "Noosphy.II",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FULL MAX 65",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sirmacdowell",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "5s",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Le Moribond": {
+            "amount": 240.0,
+            "pot_type": "pot"
+        }
+    }
+}

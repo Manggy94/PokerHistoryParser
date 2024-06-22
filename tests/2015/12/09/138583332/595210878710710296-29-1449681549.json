@@ -1,0 +1,197 @@
+{
+    "hand_id": "595210878710710296-29-1449681549",
+    "datetime": "09-12-2015 17:19:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.22,
+        "bounty": 0.0,
+        "rake": 0.03
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "138583332",
+        "table_number": "023",
+        "prize_pool": 165.44,
+        "registered_players": 752,
+        "speed": "semiturbo",
+        "start_date": "2015/12/09 16:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "LuckyNuts",
+            "init_stack": 8947.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Pokermum",
+            "init_stack": 7803.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "chtival",
+            "init_stack": 9025.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "BBIIBBII",
+            "init_stack": 29354.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 15679.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gorbi1975",
+            "init_stack": 9200.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "PARLEAMAMAIN",
+            "init_stack": 26842.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "BFight74",
+            "init_stack": 13150.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "Qd"
+    },
+    "postings": [
+        {
+            "name": "PARLEAMAMAIN",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "BFight74",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "LuckyNuts",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pokermum",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chtival",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BBIIBBII",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "gorbi1975",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "PARLEAMAMAIN",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "BFight74",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "PARLEAMAMAIN",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "BFight74",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "gorbi1975",
+                "action": "raises",
+                "amount": 900.0
+            },
+            {
+                "player": "PARLEAMAMAIN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BFight74",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "As",
+        "flop_card_2": "Qs",
+        "flop_card_3": "3c"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "gorbi1975": {
+            "amount": 2700.0,
+            "pot_type": "pot"
+        }
+    }
+}

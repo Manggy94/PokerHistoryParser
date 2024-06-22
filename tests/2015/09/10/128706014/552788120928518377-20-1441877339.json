@@ -1,0 +1,284 @@
+{
+    "hand_id": "552788120928518377-20-1441877339",
+    "datetime": "10-09-2015 09:28:59",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 9,
+        "ante": 25.0,
+        "sb": 125.0,
+        "bb": 250.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "232",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "cocolatax67",
+            "init_stack": 2230.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Maje666",
+            "init_stack": 6846.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "viciousduck",
+            "init_stack": 1725.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Tango66",
+            "init_stack": 2235.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "The Red Hood",
+            "init_stack": 5710.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "tintin1231",
+            "init_stack": 3855.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "eve123",
+            "init_stack": 4450.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "darkclaude",
+            "init_stack": 3670.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 30080.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ah",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "The Red Hood",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tintin1231",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cocolatax67",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Maje666",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "viciousduck",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tango66",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "eve123",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "darkclaude",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "The Red Hood",
+            "amount": 125.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "tintin1231",
+            "amount": 250.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "eve123",
+                "action": "calls",
+                "amount": 250.0
+            },
+            {
+                "player": "darkclaude",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 250.0
+            },
+            {
+                "player": "cocolatax67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Maje666",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "viciousduck",
+                "action": "calls",
+                "amount": 250.0
+            },
+            {
+                "player": "Tango66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "The Red Hood",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tintin1231",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "tintin1231",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "eve123",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "viciousduck",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "tintin1231",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "eve123",
+                "action": "bets",
+                "amount": 250.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "viciousduck",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tintin1231",
+                "action": "calls",
+                "amount": 250.0
+            }
+        ],
+        "river": [
+            {
+                "player": "tintin1231",
+                "action": "bets",
+                "amount": 750.0
+            },
+            {
+                "player": "eve123",
+                "action": "calls",
+                "amount": 750.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "3h",
+        "flop_card_3": "Qc"
+    },
+    "turn": {
+        "turn_card": "Th"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "tintin1231": {
+            "first_card": "Tc",
+            "second_card": "8d"
+        },
+        "eve123": {
+            "first_card": "Qs",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "eve123": {
+            "amount": 3350.0,
+            "pot_type": "pot"
+        }
+    }
+}

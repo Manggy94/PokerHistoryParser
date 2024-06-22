@@ -1,0 +1,211 @@
+{
+    "hand_id": "546663055182791035-3-1440590625",
+    "datetime": "26-08-2015 12:03:45",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279911",
+        "table_number": "378",
+        "prize_pool": 100.0,
+        "registered_players": 3953,
+        "speed": "turbo",
+        "start_date": "2015/08/26 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Cenith X",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Bibi3134",
+            "init_stack": 6790.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "faflo",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "cykian",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mondeo 68",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "3s"
+    },
+    "postings": [
+        {
+            "name": "cykian",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "mondeo 68",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Cenith X",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Bibi3134",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "faflo",
+                "action": "raises",
+                "amount": 60.0
+            },
+            {
+                "player": "cykian",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "Bibi3134",
+                "action": "calls",
+                "amount": 60.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Bibi3134",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "faflo",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Bibi3134",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "faflo",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 285.0
+            },
+            {
+                "player": "Bibi3134",
+                "action": "calls",
+                "amount": 285.0
+            },
+            {
+                "player": "faflo",
+                "action": "raises",
+                "amount": 285.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 285.0
+            },
+            {
+                "player": "Bibi3134",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "Qc",
+        "flop_card_3": "9d"
+    },
+    "turn": {
+        "turn_card": "5c"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "3s"
+        },
+        "faflo": {
+            "first_card": "Js",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "faflo": {
+            "amount": 1710.0,
+            "pot_type": "pot"
+        }
+    }
+}

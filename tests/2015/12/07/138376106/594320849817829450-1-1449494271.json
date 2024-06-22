@@ -1,0 +1,106 @@
+{
+    "hand_id": "594320849817829450-1-1449494271",
+    "datetime": "07-12-2015 13:17:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138376106",
+        "table_number": "073",
+        "prize_pool": 2875.5,
+        "registered_players": 639,
+        "speed": "normal",
+        "start_date": "2015/12/07 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bmlc92",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "bmlc92",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bmlc92",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 400.0
+            },
+            {
+                "player": "bmlc92",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "Kh",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 800.0,
+            "pot_type": "pot"
+        }
+    }
+}

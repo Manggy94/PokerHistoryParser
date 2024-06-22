@@ -1,0 +1,159 @@
+{
+    "hand_id": "574325230139342869-105-1445897859",
+    "datetime": "26-10-2015 22:17:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 12,
+        "ante": 180.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "LE TOTEM",
+        "tournament_id": "133720513",
+        "table_number": "0020",
+        "prize_pool": 7902.0,
+        "registered_players": 1384,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 21:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "AA-MNESKIIK",
+            "init_stack": 70049.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Manjon1902",
+            "init_stack": 12766.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "woogataga911",
+            "init_stack": 57185.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Roaring_Lion",
+            "init_stack": 28264.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 23920.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Morefayaa",
+            "init_stack": 38220.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ts",
+        "second_card": "3c"
+    },
+    "postings": [
+        {
+            "name": "Manjon1902",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "woogataga911",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Roaring_Lion",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Morefayaa",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Manjon1902",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "woogataga911",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Roaring_Lion",
+                "action": "raises",
+                "amount": 1600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Morefayaa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Manjon1902",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "woogataga911",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Roaring_Lion": {
+            "amount": 6500.0,
+            "pot_type": "pot"
+        }
+    }
+}

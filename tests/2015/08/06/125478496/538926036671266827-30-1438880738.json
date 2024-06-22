@@ -1,0 +1,216 @@
+{
+    "hand_id": "538926036671266827-30-1438880738",
+    "datetime": "06-08-2015 17:05:38",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 5000.0,
+        "registered_players": 242,
+        "speed": "normal",
+        "start_date": "2015/08/06 16:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Daniel71",
+            "init_stack": 61099.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "papydan",
+            "init_stack": 23300.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "nono77keus10",
+            "init_stack": 18500.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Ben21980",
+            "init_stack": 36500.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 26525.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "peppert",
+            "init_stack": 18500.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "5d"
+    },
+    "postings": [
+        {
+            "name": "nono77keus10",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Ben21980",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "peppert",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Daniel71",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "papydan",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nono77keus10",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ben21980",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Daniel71",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Ben21980",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Daniel71",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Ben21980",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Daniel71",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Ben21980",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Daniel71",
+                "action": "bets",
+                "amount": 3750.0
+            },
+            {
+                "player": "Ben21980",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 3750.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "Kh",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ad",
+            "second_card": "5d"
+        },
+        "Daniel71": {
+            "first_card": "8c",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "Daniel71": {
+            "amount": 11250.0,
+            "pot_type": "pot"
+        }
+    }
+}

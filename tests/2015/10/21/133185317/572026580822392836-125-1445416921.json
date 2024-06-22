@@ -1,0 +1,151 @@
+{
+    "hand_id": "572026580822392836-125-1445416921",
+    "datetime": "21-10-2015 08:42:01",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 8,
+        "ante": 75.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 841.5,
+        "registered_players": 187,
+        "speed": "normal",
+        "start_date": "2015/10/21 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 4,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "pistak777",
+            "init_stack": 87610.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 15065.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Swiss Knife",
+            "init_stack": 1380.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "IBrokeUrMum",
+            "init_stack": 55945.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qc",
+        "second_card": "2c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Swiss Knife",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pistak777",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "IBrokeUrMum",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Swiss Knife",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "IBrokeUrMum",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pistak777",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "Swiss Knife",
+                "action": "raises",
+                "amount": 505.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 505.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8d",
+        "flop_card_2": "As",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": "3d"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Qc",
+            "second_card": "2c"
+        },
+        "Swiss Knife": {
+            "first_card": "Qd",
+            "second_card": "5c"
+        }
+    },
+    "winners": {
+        "Swiss Knife": {
+            "amount": 2910.0,
+            "pot_type": "pot"
+        }
+    }
+}

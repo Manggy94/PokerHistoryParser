@@ -1,0 +1,179 @@
+{
+    "hand_id": "571798599663353857-6-1444153139",
+    "datetime": "06-10-2015 17:38:59",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block Winamax Poker Tour",
+        "tournament_id": "133132236",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/06 17:33:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 9,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "Dr. Mitch",
+            "init_stack": 1410.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "chawizy",
+            "init_stack": 1400.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "zagg57",
+            "init_stack": 7450.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 710.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Dacdacodac",
+            "init_stack": 2575.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Womble13",
+            "init_stack": 1455.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8h",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "Dr. Mitch",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "chawizy",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "zagg57",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 105.0
+            },
+            {
+                "player": "Dacdacodac",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Womble13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dr. Mitch",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "chawizy",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zagg57",
+                "action": "calls",
+                "amount": 105.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Dr. Mitch",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zagg57",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 575.0
+            },
+            {
+                "player": "Dr. Mitch",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zagg57",
+                "action": "calls",
+                "amount": 575.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "7d",
+        "flop_card_3": "9c"
+    },
+    "turn": {
+        "turn_card": "Ts"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "zagg57": {
+            "first_card": "3s",
+            "second_card": "3d"
+        },
+        "manggy94": {
+            "first_card": "8h",
+            "second_card": "6h"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 1585.0,
+            "pot_type": "pot"
+        }
+    }
+}

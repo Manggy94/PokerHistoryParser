@@ -1,0 +1,174 @@
+{
+    "hand_id": "600923537401708548-9-1450726997",
+    "datetime": "21-12-2015 19:43:17",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 1.8,
+        "bounty": 0.0,
+        "rake": 0.2
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 81.0,
+        "registered_players": 19,
+        "speed": "turbo",
+        "start_date": "2015/12/21 19:10:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 7,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "BatteurHd",
+            "init_stack": 7825.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 1120.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ayoube974",
+            "init_stack": 4890.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "flickflock",
+            "init_stack": 7250.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Falcon61100",
+            "init_stack": 2345.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": ".BLEKLEROC.",
+            "init_stack": 3570.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "BatteurHd",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ayoube974",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "flickflock",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Falcon61100",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": ".BLEKLEROC.",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BatteurHd",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ayoube974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "flickflock",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "Falcon61100",
+                "action": "raises",
+                "amount": 1905.0
+            },
+            {
+                "player": ".BLEKLEROC.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BatteurHd",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "flickflock",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Falcon61100": {
+            "amount": 3545.0,
+            "pot_type": "pot"
+        }
+    }
+}

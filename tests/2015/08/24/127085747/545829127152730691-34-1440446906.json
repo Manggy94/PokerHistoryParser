@@ -1,0 +1,230 @@
+{
+    "hand_id": "545829127152730691-34-1440446906",
+    "datetime": "24-08-2015 20:08:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085747",
+        "table_number": "0578",
+        "prize_pool": 250.0,
+        "registered_players": 9824,
+        "speed": "turbo",
+        "start_date": "2015/08/24 19:15:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tachillon",
+            "init_stack": 16582.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "allo_quoi",
+            "init_stack": 34550.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Kevinfro62",
+            "init_stack": 30023.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "cuicui85",
+            "init_stack": 1100.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "habitrouge-",
+            "init_stack": 7015.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "missdoudou13",
+            "init_stack": 16889.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 4317.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "vev21",
+            "init_stack": 10127.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "outly",
+            "init_stack": 9435.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "tachillon",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "allo_quoi",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kevinfro62",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cuicui85",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "habitrouge-",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "missdoudou13",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vev21",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "outly",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tachillon",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "allo_quoi",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Kevinfro62",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cuicui85",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "habitrouge-",
+                "action": "raises",
+                "amount": 5915.0
+            },
+            {
+                "player": "missdoudou13",
+                "action": "raises",
+                "amount": 9874.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vev21",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "outly",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tachillon",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "allo_quoi",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8s",
+        "flop_card_2": "5c",
+        "flop_card_3": "8c"
+    },
+    "turn": {
+        "turn_card": "5d"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "habitrouge-": {
+            "first_card": "5h",
+            "second_card": "5s"
+        },
+        "missdoudou13": {
+            "first_card": "Qd",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "missdoudou13": {
+            "amount": 9874.0,
+            "pot_type": "side pot 1"
+        },
+        "habitrouge-": {
+            "amount": 16230.0,
+            "pot_type": "main pot"
+        }
+    }
+}

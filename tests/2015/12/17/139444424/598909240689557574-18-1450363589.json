@@ -1,0 +1,182 @@
+{
+    "hand_id": "598909240689557574-18-1450363589",
+    "datetime": "17-12-2015 14:46:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "139444424",
+        "table_number": "069",
+        "prize_pool": 100.0,
+        "registered_players": 4178,
+        "speed": "turbo",
+        "start_date": "2015/12/17 14:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Ruf 911",
+            "init_stack": 8696.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "FLOKILMAT 01",
+            "init_stack": 6086.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "nekpoker75",
+            "init_stack": 398.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fullbiker",
+            "init_stack": 2770.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "K10ismagic",
+            "init_stack": 3207.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Hous94",
+            "init_stack": 5968.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "unbandefhish",
+            "init_stack": 2875.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "8h"
+    },
+    "postings": [
+        {
+            "name": "K10ismagic",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Hous94",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "unbandefhish",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ruf 911",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FLOKILMAT 01",
+                "action": "raises",
+                "amount": 5966.0
+            },
+            {
+                "player": "nekpoker75",
+                "action": "calls",
+                "amount": 398.0
+            },
+            {
+                "player": "fullbiker",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "K10ismagic",
+                "action": "calls",
+                "amount": 3147.0
+            },
+            {
+                "player": "Hous94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "Ks",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {
+        "nekpoker75": {
+            "first_card": "7s",
+            "second_card": "7h"
+        },
+        "K10ismagic": {
+            "first_card": "8d",
+            "second_card": "8s"
+        },
+        "FLOKILMAT 01": {
+            "first_card": "5h",
+            "second_card": "Th"
+        }
+    },
+    "winners": {
+        "FLOKILMAT 01": {
+            "amount": 2879.0,
+            "pot_type": "side pot 2"
+        },
+        "K10ismagic": {
+            "amount": 5618.0,
+            "pot_type": "side pot 1"
+        },
+        "nekpoker75": {
+            "amount": 1314.0,
+            "pot_type": "main pot"
+        }
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "hand_id": "552788125223485734-14-1441882044",
+    "datetime": "10-09-2015 10:47:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706015",
+        "table_number": "293",
+        "prize_pool": 100.0,
+        "registered_players": 4250,
+        "speed": "turbo",
+        "start_date": "2015/09/10 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Escrobar134",
+            "init_stack": 2780.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "NonoWinner44",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "boxer59",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "galactik06",
+            "init_stack": 6380.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 5970.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "SuckMyWin AA",
+            "init_stack": 3510.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "moncure",
+            "init_stack": 2630.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "YZABET",
+            "init_stack": 4015.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "wildsheep62",
+            "init_stack": 5030.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4h",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "boxer59",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "galactik06",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "SuckMyWin AA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "moncure",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "YZABET",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wildsheep62",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "Escrobar134",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NonoWinner44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "boxer59",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "galactik06",
+                "action": "raises",
+                "amount": 960.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "moncure",
+                "action": "raises",
+                "amount": 1550.0
+            },
+            {
+                "player": "wildsheep62",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "boxer59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "galactik06",
+                "action": "calls",
+                "amount": 1550.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kh",
+        "flop_card_2": "Ts",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "galactik06": {
+            "first_card": "5h",
+            "second_card": "5c"
+        },
+        "moncure": {
+            "first_card": "9c",
+            "second_card": "9d"
+        }
+    },
+    "winners": {
+        "moncure": {
+            "amount": 5620.0,
+            "pot_type": "pot"
+        }
+    }
+}

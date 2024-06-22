@@ -1,0 +1,153 @@
+{
+    "hand_id": "539623453460791772-67-1439038803",
+    "datetime": "08-08-2015 13:00:03",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 18,
+        "ante": 200.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "475",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "papy_dany",
+            "init_stack": 6161.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "matttgreg54",
+            "init_stack": 36666.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Divine-S.",
+            "init_stack": 22423.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Youns1984",
+            "init_stack": 59394.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 14595.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "Qs"
+    },
+    "postings": [
+        {
+            "name": "Divine-S.",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "papy_dany",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "matttgreg54",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Youns1984",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Divine-S.",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Youns1984",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "papy_dany",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "matttgreg54",
+                "action": "raises",
+                "amount": 34466.0
+            },
+            {
+                "player": "Divine-S.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "matttgreg54": {
+            "amount": 41466.0,
+            "pot_type": "pot"
+        }
+    }
+}

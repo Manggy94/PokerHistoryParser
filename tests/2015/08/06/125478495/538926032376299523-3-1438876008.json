@@ -1,0 +1,196 @@
+{
+    "hand_id": "538926032376299523-3-1438876008",
+    "datetime": "06-08-2015 15:46:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 4000.0,
+        "registered_players": 95,
+        "speed": "semiturbo",
+        "start_date": "2015/08/06 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "kaklasss",
+            "init_stack": 3010.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "louloulouuu",
+            "init_stack": 1600.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Bouyouf_",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "efire",
+            "init_stack": 1480.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "TheJoker4444",
+            "init_stack": 1410.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8c",
+        "second_card": "Kd"
+    },
+    "postings": [
+        {
+            "name": "kaklasss",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "louloulouuu",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Bouyouf_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "efire",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "TheJoker4444",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "kaklasss",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "louloulouuu",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "kaklasss",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "louloulouuu",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "efire",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TheJoker4444",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "kaklasss",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "louloulouuu",
+                "action": "bets",
+                "amount": 1580.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "efire",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TheJoker4444",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kaklasss",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3s",
+        "flop_card_2": "2s",
+        "flop_card_3": "Ac"
+    },
+    "turn": {
+        "turn_card": "4h"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "louloulouuu": {
+            "amount": 1680.0,
+            "pot_type": "pot"
+        }
+    }
+}

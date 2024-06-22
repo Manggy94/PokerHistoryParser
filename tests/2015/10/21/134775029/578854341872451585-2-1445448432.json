@@ -1,0 +1,169 @@
+{
+    "hand_id": "578854341872451585-2-1445448432",
+    "datetime": "21-10-2015 17:27:12",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "134775029",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/21 17:26:07 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "astek56",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "ducky.B",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "FaroukVazaha",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kolos-KopiK",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 2020.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "GCAM31",
+            "init_stack": 480.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "swifced",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9d",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "GCAM31",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "swifced",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "astek56",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ducky.B",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "FaroukVazaha",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kolos-KopiK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "GCAM31",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "swifced",
+                "action": "raises",
+                "amount": 480.0
+            },
+            {
+                "player": "ducky.B",
+                "action": "calls",
+                "amount": 480.0
+            },
+            {
+                "player": "GCAM31",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "Jd",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": "5c"
+    },
+    "showdown": {
+        "ducky.B": {
+            "first_card": "Js",
+            "second_card": "5s"
+        },
+        "swifced": {
+            "first_card": "7d",
+            "second_card": "4d"
+        }
+    },
+    "winners": {
+        "swifced": {
+            "amount": 1020.0,
+            "pot_type": "pot"
+        }
+    }
+}

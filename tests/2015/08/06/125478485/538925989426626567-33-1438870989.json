@@ -1,0 +1,217 @@
+{
+    "hand_id": "538925989426626567-33-1438870989",
+    "datetime": "06-08-2015 14:23:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "zinc 19",
+            "init_stack": 4405.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fclamalou",
+            "init_stack": 3045.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 7820.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "El diablo om",
+            "init_stack": 9103.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "baka07",
+            "init_stack": 6619.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "R4Gn4TiK",
+            "init_stack": 865.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "Ts"
+    },
+    "postings": [
+        {
+            "name": "zinc 19",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fclamalou",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "El diablo om",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "baka07",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "R4Gn4TiK",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zinc 19",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "fclamalou",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "El diablo om",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "baka07",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "R4Gn4TiK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zinc 19",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "fclamalou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 400.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "zinc 19",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 400.0
+            },
+            {
+                "player": "El diablo om",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "zinc 19",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "El diablo om",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 3840.0
+            },
+            {
+                "player": "El diablo om",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Tc",
+        "flop_card_2": "Qc",
+        "flop_card_3": "Qs"
+    },
+    "turn": {
+        "turn_card": "4s"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 7680.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "hand_id": "609434633574023169-2-1450727397",
+    "datetime": "21-12-2015 19:49:57",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "141895058",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/12/21 19:48:28 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Gilardino57",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ryanivey",
+            "init_stack": 480.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Francois 112",
+            "init_stack": 2020.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "thctiti",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "PL02",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Octopus68",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5h",
+        "second_card": "Kd"
+    },
+    "postings": [
+        {
+            "name": "ryanivey",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Francois 112",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "thctiti",
+                "action": "raises",
+                "amount": 480.0
+            },
+            {
+                "player": "PL02",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Octopus68",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gilardino57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ryanivey",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Francois 112",
+                "action": "raises",
+                "amount": 1520.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "9c",
+        "flop_card_3": "8h"
+    },
+    "turn": {
+        "turn_card": "Ts"
+    },
+    "river": {
+        "river_card": "3h"
+    },
+    "showdown": {
+        "thctiti": {
+            "first_card": "Ks",
+            "second_card": "4d"
+        },
+        "PL02": {
+            "first_card": "6h",
+            "second_card": "Kc"
+        },
+        "Octopus68": {
+            "first_card": "Kh",
+            "second_card": "7c"
+        },
+        "Francois 112": {
+            "first_card": "Ad",
+            "second_card": "Jc"
+        }
+    },
+    "winners": {
+        "Francois 112": {
+            "amount": 1520.0,
+            "pot_type": "side pot 1"
+        },
+        "Octopus68": {
+            "amount": 2010.0,
+            "pot_type": "main pot"
+        }
+    }
+}

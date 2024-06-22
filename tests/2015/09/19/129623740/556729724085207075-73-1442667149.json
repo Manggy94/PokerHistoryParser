@@ -1,0 +1,185 @@
+{
+    "hand_id": "556729724085207075-73-1442667149",
+    "datetime": "19-09-2015 12:52:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "034",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 36960.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Joffeyr",
+            "init_stack": 10817.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "mamoon85420",
+            "init_stack": 45886.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Pacoste1",
+            "init_stack": 21910.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Galinette66",
+            "init_stack": 5831.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "nurbel78",
+            "init_stack": 17146.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "Pacoste1",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Galinette66",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Joffeyr",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mamoon85420",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nurbel78",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pacoste1",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Galinette66",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "nurbel78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Joffeyr",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mamoon85420",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Pacoste1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Galinette66",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Galinette66",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mamoon85420",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "Galinette66",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "Qh",
+        "flop_card_3": "9s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "mamoon85420": {
+            "amount": 1990.0,
+            "pot_type": "pot"
+        }
+    }
+}

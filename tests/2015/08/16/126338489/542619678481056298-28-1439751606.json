@@ -1,0 +1,272 @@
+{
+    "hand_id": "542619678481056298-28-1439751606",
+    "datetime": "16-08-2015 19:00:06",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 13,
+        "ante": 70.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126338489",
+        "table_number": "0553",
+        "prize_pool": 150.0,
+        "registered_players": 7455,
+        "speed": "turbo",
+        "start_date": "2015/08/16 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "lorio 69",
+            "init_stack": 5430.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "foot85",
+            "init_stack": 12117.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "piloka",
+            "init_stack": 3295.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "GROS GLOCK",
+            "init_stack": 6590.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "viper666",
+            "init_stack": 6920.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "bachibouz",
+            "init_stack": 8964.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 1460.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "winriver26",
+            "init_stack": 12887.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "voltface62",
+            "init_stack": 4607.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "winriver26",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "voltface62",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lorio 69",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "foot85",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "piloka",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "GROS GLOCK",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "viper666",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bachibouz",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "winriver26",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "voltface62",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "lorio 69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "foot85",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "piloka",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "GROS GLOCK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "viper666",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bachibouz",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "winriver26",
+                "action": "calls",
+                "amount": 900.0
+            },
+            {
+                "player": "voltface62",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "winriver26",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "voltface62",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "bachibouz",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "winriver26",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "voltface62",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "bachibouz",
+                "action": "raises",
+                "amount": 5894.0
+            },
+            {
+                "player": "winriver26",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "voltface62",
+                "action": "calls",
+                "amount": 1537.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "4h",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "5c"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {
+        "voltface62": {
+            "first_card": "Ac",
+            "second_card": "Ts"
+        },
+        "bachibouz": {
+            "first_card": "Ad",
+            "second_card": "2h"
+        }
+    },
+    "winners": {
+        "bachibouz": {
+            "amount": 10109.0,
+            "pot_type": "side pot 1"
+        },
+        "voltface62": {
+            "amount": 5752.0,
+            "pot_type": "main pot"
+        }
+    }
+}

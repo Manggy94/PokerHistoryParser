@@ -1,0 +1,226 @@
+{
+    "hand_id": "539969864048050602-24-1439119244",
+    "datetime": "09-08-2015 11:20:44",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "425",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "PICAMPALOIS",
+            "init_stack": 7461.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 7726.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "GUIZMO 1",
+            "init_stack": 1601.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "zougataga08",
+            "init_stack": 9230.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "XXX888XXX",
+            "init_stack": 19074.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "le-loup",
+            "init_stack": 16118.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "WINATYA",
+            "init_stack": 935.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "gratorino",
+            "init_stack": 5750.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "unknown394",
+            "init_stack": 39760.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8d",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "GUIZMO 1",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zougataga08",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PICAMPALOIS",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "XXX888XXX",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "le-loup",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "WINATYA",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gratorino",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "unknown394",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "GUIZMO 1",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "zougataga08",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "XXX888XXX",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le-loup",
+                "action": "raises",
+                "amount": 2000.0
+            },
+            {
+                "player": "WINATYA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gratorino",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "unknown394",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PICAMPALOIS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "GUIZMO 1",
+                "action": "calls",
+                "amount": 1001.0
+            },
+            {
+                "player": "zougataga08",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qh",
+        "flop_card_2": "2h",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "Js"
+    },
+    "river": {
+        "river_card": "7c"
+    },
+    "showdown": {
+        "GUIZMO 1": {
+            "first_card": "6s",
+            "second_card": "As"
+        },
+        "le-loup": {
+            "first_card": "Jc",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "le-loup": {
+            "amount": 6401.0,
+            "pot_type": "pot"
+        }
+    }
+}

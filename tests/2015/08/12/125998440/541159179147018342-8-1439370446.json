@@ -1,0 +1,190 @@
+{
+    "hand_id": "541159179147018342-8-1439370446",
+    "datetime": "12-08-2015 09:07:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998440",
+        "table_number": "101",
+        "prize_pool": 50.0,
+        "registered_players": 1839,
+        "speed": "turbo",
+        "start_date": "2015/08/12 09:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DJJM",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "NIICO2704",
+            "init_stack": 790.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "JJP92",
+            "init_stack": 6602.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "reveilmatin",
+            "init_stack": 6455.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "SNT89",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "choupette-06",
+            "init_stack": 2607.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 455.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "miguel3004",
+            "init_stack": 4196.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "le litalien",
+            "init_stack": 2935.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "le litalien",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "DJJM",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "NIICO2704",
+                "action": "raises",
+                "amount": 750.0
+            },
+            {
+                "player": "JJP92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "reveilmatin",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SNT89",
+                "action": "calls",
+                "amount": 790.0
+            },
+            {
+                "player": "choupette-06",
+                "action": "raises",
+                "amount": 1817.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "miguel3004",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le litalien",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DJJM",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SNT89",
+                "action": "calls",
+                "amount": 1817.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9d",
+        "flop_card_2": "5d",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": "6h"
+    },
+    "showdown": {
+        "NIICO2704": {
+            "first_card": "7d",
+            "second_card": "4s"
+        },
+        "choupette-06": {
+            "first_card": "As",
+            "second_card": "Jc"
+        },
+        "SNT89": {
+            "first_card": "Qc",
+            "second_card": "Qd"
+        }
+    },
+    "winners": {
+        "SNT89": {
+            "amount": 6064.0,
+            "pot_type": "pot"
+        }
+    }
+}

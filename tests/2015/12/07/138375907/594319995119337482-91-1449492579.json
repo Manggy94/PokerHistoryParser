@@ -1,0 +1,227 @@
+{
+    "hand_id": "594319995119337482-91-1449492579",
+    "datetime": "07-12-2015 12:49:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 24,
+        "ante": 800.0,
+        "sb": 4000.0,
+        "bb": 8000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "009",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "RIPOUX49",
+            "init_stack": 4814.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 127509.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "flo_dpr",
+            "init_stack": 5005.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "kykypoker",
+            "init_stack": 3270.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "AirAmerikA",
+            "init_stack": 145091.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "toninosniper",
+            "init_stack": 322134.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "grmax",
+            "init_stack": 49928.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "critinuma",
+            "init_stack": 141101.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "2c"
+    },
+    "postings": [
+        {
+            "name": "kykypoker",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AirAmerikA",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RIPOUX49",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "flo_dpr",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "toninosniper",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "grmax",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "critinuma",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kykypoker",
+            "amount": 2470.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "AirAmerikA",
+            "amount": 8000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "toninosniper",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "grmax",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "critinuma",
+                "action": "calls",
+                "amount": 8000.0
+            },
+            {
+                "player": "RIPOUX49",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "flo_dpr",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AirAmerikA",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "AirAmerikA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "critinuma",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "AirAmerikA",
+                "action": "bets",
+                "amount": 8000.0
+            },
+            {
+                "player": "critinuma",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "Ks",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "8h"
+    },
+    "showdown": {
+        "kykypoker": {
+            "first_card": "3h",
+            "second_card": "Ts"
+        },
+        "AirAmerikA": {
+            "first_card": "Jd",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "AirAmerikA": {
+            "amount": 32870.0,
+            "pot_type": "pot"
+        }
+    }
+}

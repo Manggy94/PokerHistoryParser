@@ -1,0 +1,192 @@
+{
+    "hand_id": "572523285200240674-58-1445517475",
+    "datetime": "22-10-2015 12:37:55",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 5,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133300965",
+        "table_number": "033",
+        "prize_pool": 1662.5,
+        "registered_players": 475,
+        "speed": "semiturbo",
+        "start_date": "2015/10/22 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "6nilon9",
+            "init_stack": 27400.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 5500.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "boumerdassi",
+            "init_stack": 37875.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JoO638",
+            "init_stack": 26275.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "giovannidu30",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Fishyard51",
+            "init_stack": 18700.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "JoO638",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "giovannidu30",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "6nilon9",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "boumerdassi",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fishyard51",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JoO638",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "giovannidu30",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Fishyard51",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "6nilon9",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "boumerdassi",
+                "action": "raises",
+                "amount": 37250.0
+            },
+            {
+                "player": "JoO638",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "giovannidu30",
+                "action": "calls",
+                "amount": 9600.0
+            },
+            {
+                "player": "Fishyard51",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "6nilon9",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "8d",
+        "flop_card_3": "8c"
+    },
+    "turn": {
+        "turn_card": "4d"
+    },
+    "river": {
+        "river_card": "5d"
+    },
+    "showdown": {
+        "giovannidu30": {
+            "first_card": "9h",
+            "second_card": "Ah"
+        },
+        "boumerdassi": {
+            "first_card": "Ad",
+            "second_card": "Qc"
+        }
+    },
+    "winners": {
+        "boumerdassi": {
+            "amount": 38600.0,
+            "pot_type": "side pot 1"
+        },
+        "giovannidu30": {
+            "amount": 10650.0,
+            "pot_type": "main pot"
+        }
+    }
+}

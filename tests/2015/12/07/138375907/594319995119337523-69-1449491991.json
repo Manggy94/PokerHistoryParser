@@ -1,0 +1,206 @@
+{
+    "hand_id": "594319995119337523-69-1449491991",
+    "datetime": "07-12-2015 12:39:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 21,
+        "ante": 400.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "050",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "castillou",
+            "init_stack": 19904.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "MrClem34",
+            "init_stack": 19291.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "brice6689",
+            "init_stack": 7700.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 44850.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "brooks21",
+            "init_stack": 103189.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lepiaf_60180",
+            "init_stack": 25174.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "tousavelo",
+            "init_stack": 33486.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Aksynn",
+            "init_stack": 2420.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "brooks21",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "castillou",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MrClem34",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "brice6689",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lepiaf_60180",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tousavelo",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Aksynn",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "brooks21",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "lepiaf_60180",
+                "action": "raises",
+                "amount": 20774.0
+            },
+            {
+                "player": "tousavelo",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Aksynn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "castillou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MrClem34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "brice6689",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "brooks21",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {
+        "lepiaf_60180 raises 20774 to 24774 and is all-in\ntousavelo folds\nAksynn folds\ncastillou folds\nMrClem34 folds\nbrice6689 folds\nmanggy94 folds\nbrooks21 folds\nlepiaf_60180": {
+            "first_card": "Js",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "lepiaf_60180": {
+            "amount": 33974.0,
+            "pot_type": "pot"
+        }
+    }
+}

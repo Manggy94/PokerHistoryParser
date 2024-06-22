@@ -1,0 +1,193 @@
+{
+    "hand_id": "543022602247995934-2-1439839157",
+    "datetime": "17-08-2015 19:19:17",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126432302",
+        "table_number": "0541",
+        "prize_pool": 250.0,
+        "registered_players": 8751,
+        "speed": "turbo",
+        "start_date": "2015/08/17 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Ixam42400",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "judi71",
+            "init_stack": 2900.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Jdhamel",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "AS38",
+            "init_stack": 3230.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "at83",
+            "init_stack": 2900.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Wachewache",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "fisherman86",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "everythinman",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "Ixam42400",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "judi71",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Jdhamel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AS38",
+                "action": "raises",
+                "amount": 30.0
+            },
+            {
+                "player": "at83",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "Wachewache",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fisherman86",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "everythinman",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ixam42400",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "judi71",
+                "action": "calls",
+                "amount": 30.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "judi71",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "AS38",
+                "action": "bets",
+                "amount": 195.0
+            },
+            {
+                "player": "at83",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "judi71",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qh",
+        "flop_card_2": "Kc",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "AS38": {
+            "amount": 390.0,
+            "pot_type": "pot"
+        }
+    }
+}

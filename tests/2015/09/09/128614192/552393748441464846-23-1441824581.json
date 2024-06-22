@@ -1,0 +1,182 @@
+{
+    "hand_id": "552393748441464846-23-1441824581",
+    "datetime": "09-09-2015 18:49:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "128614192",
+        "table_number": "013",
+        "prize_pool": 500.5,
+        "registered_players": 143,
+        "speed": "semiturbo",
+        "start_date": "2015/09/09 18:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ikki83",
+            "init_stack": 19225.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "esncampeone",
+            "init_stack": 21800.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 13400.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Troubadourix",
+            "init_stack": 16175.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mokkori",
+            "init_stack": 8867.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "inzaghi7183",
+            "init_stack": 7425.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Troubadourix",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "mokkori",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "inzaghi7183",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ikki83",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "esncampeone",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Troubadourix",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Troubadourix",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ikki83",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "Troubadourix",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Troubadourix",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ikki83",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "Troubadourix",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Troubadourix",
+                "action": "bets",
+                "amount": 2500.0
+            },
+            {
+                "player": "ikki83",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "Js",
+        "flop_card_3": "6c"
+    },
+    "turn": {
+        "turn_card": "Kh"
+    },
+    "river": {
+        "river_card": "Qd"
+    },
+    "showdown": {},
+    "winners": {
+        "Troubadourix": {
+            "amount": 5900.0,
+            "pot_type": "pot"
+        }
+    }
+}

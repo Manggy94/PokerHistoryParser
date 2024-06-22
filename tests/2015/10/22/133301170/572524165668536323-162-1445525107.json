@@ -1,0 +1,179 @@
+{
+    "hand_id": "572524165668536323-162-1445525107",
+    "datetime": "22-10-2015 14:45:07",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 9.0,
+        "bounty": 0.0,
+        "rake": 1.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 567.0,
+        "registered_players": 63,
+        "speed": "normal",
+        "start_date": "2015/10/22 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 4,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "i smok u",
+            "init_stack": 32471.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Rest In Fish",
+            "init_stack": 31916.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ShipforBoobs",
+            "init_stack": 73412.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 18428.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "ShipforBoobs",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "i smok u",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Rest In Fish",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ShipforBoobs",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "i smok u",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "Rest In Fish",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "ShipforBoobs",
+                "action": "raises",
+                "amount": 3600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "i smok u",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Rest In Fish",
+                "action": "calls",
+                "amount": 3600.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "ShipforBoobs",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Rest In Fish",
+                "action": "bets",
+                "amount": 7760.0
+            },
+            {
+                "player": "ShipforBoobs",
+                "action": "calls",
+                "amount": 7760.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "ShipforBoobs",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Rest In Fish",
+                "action": "bets",
+                "amount": 19296.0
+            },
+            {
+                "player": "ShipforBoobs",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "Tc",
+        "flop_card_3": "7d"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Rest In Fish": {
+            "amount": 46456.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "hand_id": "546663072362660087-2-1440613202",
+    "datetime": "26-08-2015 18:20:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279915",
+        "table_number": "0246",
+        "prize_pool": 150.0,
+        "registered_players": 6576,
+        "speed": "turbo",
+        "start_date": "2015/08/26 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "nicodange",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "wannawin",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "norman2276",
+            "init_stack": 2260.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Mr McJacK",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "birbey",
+            "init_stack": 3800.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Royal64",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Sony33oklm",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "BATMAN48",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2s",
+        "second_card": "2c"
+    },
+    "postings": [
+        {
+            "name": "Mr McJacK",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "birbey",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Royal64",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sony33oklm",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BATMAN48",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nicodange",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wannawin",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "norman2276",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Mr McJacK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "birbey",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "birbey",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "norman2276",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "birbey",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "norman2276",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "birbey",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "norman2276",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "As",
+        "flop_card_3": "Ks"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "5h"
+    },
+    "showdown": {
+        "norman2276": {
+            "first_card": "6d",
+            "second_card": "4d"
+        },
+        "manggy94": {
+            "first_card": "2s",
+            "second_card": "2c"
+        },
+        "birbey": {
+            "first_card": "Jh",
+            "second_card": "Tc"
+        }
+    },
+    "winners": {
+        "birbey": {
+            "amount": 105.0,
+            "pot_type": "pot"
+        }
+    }
+}

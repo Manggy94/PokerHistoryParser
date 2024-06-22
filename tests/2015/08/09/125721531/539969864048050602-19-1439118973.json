@@ -1,0 +1,206 @@
+{
+    "hand_id": "539969864048050602-19-1439118973",
+    "datetime": "09-08-2015 11:16:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 13,
+        "ante": 70.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "425",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "didd1er",
+            "init_stack": 1355.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 4843.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "zougataga08",
+            "init_stack": 9610.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "XXX888XXX",
+            "init_stack": 12956.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "le-loup",
+            "init_stack": 5145.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "WINATYA",
+            "init_stack": 1615.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "gratorino",
+            "init_stack": 7030.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sylv419",
+            "init_stack": 8590.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "WINATYA",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gratorino",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "didd1er",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zougataga08",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "XXX888XXX",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "le-loup",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sylv419",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "WINATYA",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gratorino",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "sylv419",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "didd1er",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "zougataga08",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "XXX888XXX",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le-loup",
+                "action": "raises",
+                "amount": 1200.0
+            },
+            {
+                "player": "WINATYA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gratorino",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "le-loup": {
+            "amount": 3860.0,
+            "pot_type": "pot"
+        }
+    }
+}

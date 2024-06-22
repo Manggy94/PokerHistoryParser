@@ -1,0 +1,233 @@
+{
+    "hand_id": "541906078254760260-15-1439550713",
+    "datetime": "14-08-2015 11:11:53",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172341",
+        "table_number": "323",
+        "prize_pool": 100.0,
+        "registered_players": 4249,
+        "speed": "turbo",
+        "start_date": "2015/08/14 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "titi835001",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Tomacito347",
+            "init_stack": 12165.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "jazzman69",
+            "init_stack": 1185.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "blufeur13120",
+            "init_stack": 2290.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "serekoum",
+            "init_stack": 3465.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jeandan70",
+            "init_stack": 8610.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "pierro 67",
+            "init_stack": 2830.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 2455.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "wwf1811",
+            "init_stack": 13690.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4c",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wwf1811",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "titi835001",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tomacito347",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jazzman69",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "blufeur13120",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "serekoum",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jeandan70",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "wwf1811",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "titi835001",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tomacito347",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jazzman69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "blufeur13120",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "serekoum",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "jeandan70",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 500.0
+            },
+            {
+                "player": "wwf1811",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "serekoum",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "serekoum",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "Qh",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {
+        "manggy94 checks\nserekoum bets 500\nmanggy94 folds\nserekoum": {
+            "first_card": "As",
+            "second_card": "3s"
+        }
+    },
+    "winners": {
+        "serekoum": {
+            "amount": 3400.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "hand_id": "572024978799591453-52-1445430538",
+    "datetime": "21-10-2015 12:28:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133184944",
+        "table_number": "028",
+        "prize_pool": 1669.5,
+        "registered_players": 477,
+        "speed": "semiturbo",
+        "start_date": "2015/10/21 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tibo352",
+            "init_stack": 16186.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "loi kroh",
+            "init_stack": 14886.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 35744.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "zarden",
+            "init_stack": 22629.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fred4242",
+            "init_stack": 9668.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nelson_du_77",
+            "init_stack": 10598.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6s",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "zarden",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "fred4242",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Nelson_du_77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tibo352",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "loi kroh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zarden",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "fred4242",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "zarden": {
+            "amount": 900.0,
+            "pot_type": "pot"
+        }
+    }
+}

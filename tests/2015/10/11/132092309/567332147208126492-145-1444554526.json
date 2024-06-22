@@ -1,0 +1,116 @@
+{
+    "hand_id": "567332147208126492-145-1444554526",
+    "datetime": "11-10-2015 09:08:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 10,
+        "ante": 150.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1332.0,
+        "registered_players": 296,
+        "speed": "normal",
+        "start_date": "2015/10/11 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 4,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "OLASRFC9",
+            "init_stack": 10558.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 49964.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "La_Bank",
+            "init_stack": 95233.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7d",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "La_Bank",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "OLASRFC9",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "La_Bank",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "OLASRFC9",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "La_Bank",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "OLASRFC9": {
+            "amount": 2250.0,
+            "pot_type": "pot"
+        }
+    }
+}

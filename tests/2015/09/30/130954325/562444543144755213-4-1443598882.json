@@ -1,0 +1,144 @@
+{
+    "hand_id": "562444543144755213-4-1443598882",
+    "datetime": "30-09-2015 07:41:22",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.22,
+        "bounty": 0.0,
+        "rake": 0.03
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "130954325",
+        "table_number": "012",
+        "prize_pool": 23.1,
+        "registered_players": 105,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "BigBamTheory",
+            "init_stack": 15125.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Chip Bully13",
+            "init_stack": 10300.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "theboss62700",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "janyo",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "Chip Bully13",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "theboss62700",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "janyo",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BigBamTheory",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Chip Bully13",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "theboss62700",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Chip Bully13",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "theboss62700",
+                "action": "bets",
+                "amount": 200.0
+            },
+            {
+                "player": "Chip Bully13",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "6h",
+        "flop_card_3": "Kh"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "theboss62700": {
+            "amount": 400.0,
+            "pot_type": "pot"
+        }
+    }
+}

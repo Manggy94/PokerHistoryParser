@@ -1,0 +1,245 @@
+{
+    "hand_id": "600923301178507265-52-1450711218",
+    "datetime": "21-12-2015 15:20:18",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 1.8,
+        "bounty": 0.0,
+        "rake": 0.2
+    },
+    "level": {
+        "value": 13,
+        "ante": 70.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Super Sat SUNDAY SURPRISE",
+        "tournament_id": "139913359",
+        "table_number": "000",
+        "prize_pool": 55.8,
+        "registered_players": 31,
+        "speed": "turbo",
+        "start_date": "2015/12/21 14:35:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Ahri Potter",
+            "init_stack": 7090.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "-vTpN-",
+            "init_stack": 9760.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "hona19",
+            "init_stack": 5400.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "IraizeUfold",
+            "init_stack": 4544.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ridermx47",
+            "init_stack": 5230.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 10835.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "clementhinio",
+            "init_stack": 2783.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "vicenzo564",
+            "init_stack": 1015.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "Ahri Potter",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-vTpN-",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "hona19",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "IraizeUfold",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ridermx47",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "clementhinio",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vicenzo564",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ahri Potter",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "-vTpN-",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "hona19",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "IraizeUfold",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ridermx47",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "clementhinio",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "vicenzo564",
+                "action": "raises",
+                "amount": 345.0
+            },
+            {
+                "player": "Ahri Potter",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-vTpN-",
+                "action": "calls",
+                "amount": 345.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 345.0
+            },
+            {
+                "player": "clementhinio",
+                "action": "calls",
+                "amount": 345.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "-vTpN-",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "clementhinio",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-vTpN-",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "Kh",
+        "flop_card_3": "Jh"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "3d"
+    },
+    "showdown": {
+        "vicenzo564": {
+            "first_card": "Ah",
+            "second_card": "5h"
+        },
+        "manggy94": {
+            "first_card": "Ac",
+            "second_card": "6c"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 600.0,
+            "pot_type": "side pot 1"
+        },
+        "vicenzo564": {
+            "amount": 4640.0,
+            "pot_type": "main pot"
+        }
+    }
+}

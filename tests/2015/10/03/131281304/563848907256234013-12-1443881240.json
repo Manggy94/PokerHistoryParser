@@ -1,0 +1,245 @@
+{
+    "hand_id": "563848907256234013-12-1443881240",
+    "datetime": "03-10-2015 14:07:20",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131281304",
+        "table_number": "028",
+        "prize_pool": 1211.0,
+        "registered_players": 346,
+        "speed": "semiturbo",
+        "start_date": "2015/10/03 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 7210.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Skill-78",
+            "init_stack": 20550.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ponponette51",
+            "init_stack": 24510.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "john love",
+            "init_stack": 27070.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "giovannidu30",
+            "init_stack": 21600.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "porlolo69400",
+            "init_stack": 8440.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Kolbi",
+            "init_stack": 7920.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "kador 271",
+            "init_stack": 13020.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "bocitron",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "Kolbi",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kador 271",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Skill-78",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ponponette51",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "john love",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "giovannidu30",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "porlolo69400",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bocitron",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kolbi",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "kador 271",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bocitron",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Skill-78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ponponette51",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "john love",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "giovannidu30",
+                "action": "raises",
+                "amount": 2000.0
+            },
+            {
+                "player": "porlolo69400",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kolbi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kador 271",
+                "action": "raises",
+                "amount": 10480.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 6670.0
+            },
+            {
+                "player": "john love",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "giovannidu30",
+                "action": "calls",
+                "amount": 10480.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "Kc",
+        "flop_card_3": "8h"
+    },
+    "turn": {
+        "turn_card": "Ad"
+    },
+    "river": {
+        "river_card": "6s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "9h",
+            "second_card": "9d"
+        },
+        "kador 271": {
+            "first_card": "Ks",
+            "second_card": "Jh"
+        },
+        "giovannidu30": {
+            "first_card": "As",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "giovannidu30": {
+            "amount": 34240.0,
+            "pot_type": "pot"
+        }
+    }
+}

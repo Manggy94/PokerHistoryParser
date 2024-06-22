@@ -1,0 +1,226 @@
+{
+    "hand_id": "548316621886717953-4-1439711561",
+    "datetime": "16-08-2015 07:52:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Super Freeroll Stade 1",
+        "tournament_id": "127664912",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 6,
+        "speed": "turbo",
+        "start_date": "2015/08/16 07:50:22 UTC",
+        "levels_structure": [],
+        "tournament_type": "freeroll100k"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ayyouba",
+            "init_stack": 1430.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "patochelucie",
+            "init_stack": 1470.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "laulau40",
+            "init_stack": 1460.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Battlesun",
+            "init_stack": 1745.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "gegeguzzi",
+            "init_stack": 1385.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 1510.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "laulau40",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Battlesun",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gegeguzzi",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ayyouba",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "patochelucie",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "laulau40",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "Battlesun",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "laulau40",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Battlesun",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "gegeguzzi",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "patochelucie",
+                "action": "bets",
+                "amount": 20.0
+            },
+            {
+                "player": "laulau40",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Battlesun",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gegeguzzi",
+                "action": "calls",
+                "amount": 20.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "laulau40",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "gegeguzzi",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "patochelucie",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "laulau40",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "gegeguzzi",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "patochelucie",
+                "action": "raises",
+                "amount": 40.0
+            },
+            {
+                "player": "laulau40",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gegeguzzi",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "5s",
+        "flop_card_3": "Kd"
+    },
+    "turn": {
+        "turn_card": "Kh"
+    },
+    "river": {
+        "river_card": "8d"
+    },
+    "showdown": {
+        "gegeguzzi": {
+            "first_card": "Ts",
+            "second_card": "Td"
+        },
+        "patochelucie": {
+            "first_card": "5d",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "patochelucie": {
+            "amount": 340.0,
+            "pot_type": "pot"
+        }
+    }
+}

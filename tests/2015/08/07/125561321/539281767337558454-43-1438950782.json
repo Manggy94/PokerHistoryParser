@@ -1,0 +1,187 @@
+{
+    "hand_id": "539281767337558454-43-1438950782",
+    "datetime": "07-08-2015 12:33:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561321",
+        "table_number": "437",
+        "prize_pool": 100.0,
+        "registered_players": 3950,
+        "speed": "turbo",
+        "start_date": "2015/08/07 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Kashmiri59",
+            "init_stack": 4190.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Letyuna",
+            "init_stack": 8900.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "WmySterOPliv",
+            "init_stack": 4750.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 10290.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "elodie26100",
+            "init_stack": 3520.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Missyl2b",
+            "init_stack": 1754.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "5d"
+    },
+    "postings": [
+        {
+            "name": "Missyl2b",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kashmiri59",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Letyuna",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "WmySterOPliv",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "elodie26100",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Missyl2b",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Kashmiri59",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Letyuna",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "WmySterOPliv",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "elodie26100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Missyl2b",
+                "action": "raises",
+                "amount": 1419.0
+            },
+            {
+                "player": "Kashmiri59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Letyuna",
+                "action": "calls",
+                "amount": 1419.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "3c",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "As"
+    },
+    "river": {
+        "river_card": "7s"
+    },
+    "showdown": {
+        "Letyuna": {
+            "first_card": "Ks",
+            "second_card": "4c"
+        },
+        "Missyl2b": {
+            "first_card": "Kd",
+            "second_card": "2h"
+        }
+    },
+    "winners": {
+        "Missyl2b": {
+            "amount": 1974.0,
+            "pot_type": "pot"
+        },
+        "Letyuna": {
+            "amount": 1974.0,
+            "pot_type": "pot"
+        }
+    }
+}

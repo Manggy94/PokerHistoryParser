@@ -1,0 +1,206 @@
+{
+    "hand_id": "539281470984814593-22-1438947734",
+    "datetime": "07-08-2015 11:42:14",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Omaha",
+        "tournament_id": "125561252",
+        "table_number": "000",
+        "prize_pool": 1000.0,
+        "registered_players": 40,
+        "speed": "normal",
+        "start_date": "2015/08/07 11:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Adamarcus",
+            "init_stack": 5080.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 880.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Mistral13480",
+            "init_stack": 6880.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lafiaso67",
+            "init_stack": 5870.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "didiche22",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "34Ricardo",
+            "init_stack": 7295.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "Mistral13480",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lafiaso67",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "didiche22",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "lafiaso67",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "didiche22",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Mistral13480",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lafiaso67",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "didiche22",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "lafiaso67",
+                "action": "bets",
+                "amount": 4430.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 4430.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "calls",
+                "amount": 3640.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qs",
+        "flop_card_2": "5s",
+        "flop_card_3": "As"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": "6h"
+    },
+    "showdown": {},
+    "winners": {
+        "lafiaso67": {
+            "amount": 17300.0,
+            "pot_type": "pot"
+        }
+    }
+}

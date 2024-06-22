@@ -1,0 +1,199 @@
+{
+    "hand_id": "565681462427254791-28-1444236098",
+    "datetime": "07-10-2015 16:41:38",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 14.0,
+        "bounty": 0.0,
+        "rake": 6.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131707979",
+        "table_number": "006",
+        "prize_pool": 1316.0,
+        "registered_players": 94,
+        "speed": "semiturbo",
+        "start_date": "2015/10/07 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "TCBpat",
+            "init_stack": 10625.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "lanfeust_tor",
+            "init_stack": 8452.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 10150.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Dante A.",
+            "init_stack": 7275.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "2Q1mek.",
+            "init_stack": 31183.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lionel13007",
+            "init_stack": 17463.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5h",
+        "second_card": "Kd"
+    },
+    "postings": [
+        {
+            "name": "2Q1mek.",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lionel13007",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "TCBpat",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "lanfeust_tor",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Dante A.",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "2Q1mek.",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "lionel13007",
+                "action": "raises",
+                "amount": 1200.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dante A.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "2Q1mek.",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "lionel13007",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "bets",
+                "amount": 3900.0
+            },
+            {
+                "player": "lionel13007",
+                "action": "calls",
+                "amount": 3900.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "lionel13007",
+                "action": "bets",
+                "amount": 8775.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "calls",
+                "amount": 5225.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "2h",
+        "flop_card_3": "Kc"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": "2d"
+    },
+    "showdown": {
+        "TCBpat": {
+            "first_card": "9h",
+            "second_card": "8h"
+        },
+        "lionel13007": {
+            "first_card": "Ad",
+            "second_card": "Qd"
+        }
+    },
+    "winners": {
+        "lionel13007": {
+            "amount": 3550.0,
+            "pot_type": "side pot 1"
+        },
+        "TCBpat": {
+            "amount": 22150.0,
+            "pot_type": "main pot"
+        }
+    }
+}

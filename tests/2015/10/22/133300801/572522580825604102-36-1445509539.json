@@ -1,0 +1,261 @@
+{
+    "hand_id": "572522580825604102-36-1445509539",
+    "datetime": "22-10-2015 10:25:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.22,
+        "bounty": 0.0,
+        "rake": 0.03
+    },
+    "level": {
+        "value": 5,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "133300801",
+        "table_number": "005",
+        "prize_pool": 68.86,
+        "registered_players": 313,
+        "speed": "semiturbo",
+        "start_date": "2015/10/22 09:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "RoscaX2",
+            "init_stack": 8000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "sapafam29",
+            "init_stack": 10450.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "dantonku63",
+            "init_stack": 66550.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "89-Beating",
+            "init_stack": 7400.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "jujutheo",
+            "init_stack": 10600.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "benoni44",
+            "init_stack": 8200.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 14750.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "gongleur54",
+            "init_stack": 32225.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Eightycent49",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "Td"
+    },
+    "postings": [
+        {
+            "name": "89-Beating",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jujutheo",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RoscaX2",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sapafam29",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dantonku63",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "benoni44",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gongleur54",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Eightycent49",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "89-Beating",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "jujutheo",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "benoni44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "gongleur54",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Eightycent49",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "RoscaX2",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sapafam29",
+                "action": "raises",
+                "amount": 900.0
+            },
+            {
+                "player": "dantonku63",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "89-Beating",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jujutheo",
+                "action": "calls",
+                "amount": 900.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 900.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "jujutheo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 13525.0
+            },
+            {
+                "player": "sapafam29",
+                "action": "calls",
+                "amount": 9225.0
+            },
+            {
+                "player": "dantonku63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jujutheo",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6s",
+        "flop_card_2": "4h",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "As"
+    },
+    "river": {
+        "river_card": "4c"
+    },
+    "showdown": {
+        "sapafam29": {
+            "first_card": "Th",
+            "second_card": "Ah"
+        },
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "Td"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 4300.0,
+            "pot_type": "side pot 1"
+        },
+        "sapafam29": {
+            "amount": 23625.0,
+            "pot_type": "main pot"
+        }
+    }
+}

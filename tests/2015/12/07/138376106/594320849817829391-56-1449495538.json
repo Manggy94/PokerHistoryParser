@@ -1,0 +1,185 @@
+{
+    "hand_id": "594320849817829391-56-1449495538",
+    "datetime": "07-12-2015 13:38:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138376106",
+        "table_number": "014",
+        "prize_pool": 2875.5,
+        "registered_players": 639,
+        "speed": "normal",
+        "start_date": "2015/12/07 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": ".restart.",
+            "init_stack": 20125.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Gasmayer",
+            "init_stack": 3120.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "JEP973",
+            "init_stack": 25526.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "crapou",
+            "init_stack": 34075.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 11320.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Rahl6",
+            "init_stack": 6034.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "3c"
+    },
+    "postings": [
+        {
+            "name": "Rahl6",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": ".restart.",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Gasmayer",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JEP973",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "crapou",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Rahl6",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": ".restart.",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Gasmayer",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "JEP973",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "crapou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Rahl6",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": ".restart.",
+                "action": "calls",
+                "amount": 400.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Rahl6",
+                "action": "bets",
+                "amount": 5204.0
+            },
+            {
+                "player": ".restart.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gasmayer",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qs",
+        "flop_card_2": "4c",
+        "flop_card_3": "6s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Rahl6": {
+            "amount": 7784.0,
+            "pot_type": "pot"
+        }
+    }
+}

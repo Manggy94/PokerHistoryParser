@@ -1,0 +1,204 @@
+{
+    "hand_id": "545388248759796429-9-1440354619",
+    "datetime": "23-08-2015 18:30:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126983097",
+        "table_number": "0716",
+        "prize_pool": 150.0,
+        "registered_players": 8191,
+        "speed": "turbo",
+        "start_date": "2015/08/23 18:15:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Yophot",
+            "init_stack": 2130.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "69connect",
+            "init_stack": 2685.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "arnaudco",
+            "init_stack": 2920.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gegeclocam",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 2205.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Sabouna68",
+            "init_stack": 3680.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Hubert21000",
+            "init_stack": 6780.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "bLaZe.ShAmAn",
+            "init_stack": 8940.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "kojiro7",
+            "init_stack": 2100.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9d",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "kojiro7",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Yophot",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "69connect",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "arnaudco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gegeclocam",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sabouna68",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "Hubert21000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bLaZe.ShAmAn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kojiro7",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "Yophot",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "kojiro7",
+                "action": "bets",
+                "amount": 80.0
+            },
+            {
+                "player": "Yophot",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "Sabouna68",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "kojiro7",
+                "action": "bets",
+                "amount": 80.0
+            },
+            {
+                "player": "Yophot",
+                "action": "raises",
+                "amount": 420.0
+            },
+            {
+                "player": "kojiro7",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "9s",
+        "flop_card_3": "4d"
+    },
+    "turn": {
+        "turn_card": "Ah"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Yophot": {
+            "amount": 980.0,
+            "pot_type": "pot"
+        }
+    }
+}

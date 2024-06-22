@@ -1,0 +1,187 @@
+{
+    "hand_id": "562444208137306177-10-1443626351",
+    "datetime": "30-09-2015 15:19:11",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 24,
+        "ante": 3200.0,
+        "sb": 12500.0,
+        "bb": 25000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "130954247",
+        "table_number": "064",
+        "prize_pool": 1382.5,
+        "registered_players": 395,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 7,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "maxchab",
+            "init_stack": 1084135.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "mikiiice",
+            "init_stack": 654694.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "allinJoe2014",
+            "init_stack": 394222.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 393982.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "TheLuckyCat",
+            "init_stack": 866902.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "CheKKall",
+            "init_stack": 556065.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5c",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "maxchab",
+            "amount": 3200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mikiiice",
+            "amount": 3200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "allinJoe2014",
+            "amount": 3200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 3200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TheLuckyCat",
+            "amount": 3200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CheKKall",
+            "amount": 3200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "maxchab",
+            "amount": 12500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "mikiiice",
+            "amount": 25000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "allinJoe2014",
+                "action": "raises",
+                "amount": 25000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TheLuckyCat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CheKKall",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "maxchab",
+                "action": "raises",
+                "amount": 1030935.0
+            },
+            {
+                "player": "mikiiice",
+                "action": "calls",
+                "amount": 626494.0
+            },
+            {
+                "player": "allinJoe2014",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7s",
+        "flop_card_2": "6s",
+        "flop_card_3": "Qh"
+    },
+    "turn": {
+        "turn_card": "2d"
+    },
+    "river": {
+        "river_card": "6h"
+    },
+    "showdown": {
+        "mikiiice": {
+            "first_card": "As",
+            "second_card": "Ac"
+        },
+        "maxchab": {
+            "first_card": "Tc",
+            "second_card": "Ts"
+        }
+    },
+    "winners": {
+        "maxchab": {
+            "amount": 429441.0,
+            "pot_type": "side pot 1"
+        },
+        "mikiiice": {
+            "amount": 1372188.0,
+            "pot_type": "main pot"
+        }
+    }
+}

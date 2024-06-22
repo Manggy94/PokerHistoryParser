@@ -1,0 +1,187 @@
+{
+    "hand_id": "572024978799591453-39-1445430100",
+    "datetime": "21-10-2015 12:21:40",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133184944",
+        "table_number": "028",
+        "prize_pool": 1669.5,
+        "registered_players": 477,
+        "speed": "semiturbo",
+        "start_date": "2015/10/21 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "PAT-ATRAC",
+            "init_stack": 7823.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "loi kroh",
+            "init_stack": 14436.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 34544.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Num33",
+            "init_stack": 8478.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Grand.Chicon",
+            "init_stack": 10210.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nelson_du_77",
+            "init_stack": 4509.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Num33",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Grand.Chicon",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nelson_du_77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PAT-ATRAC",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "loi kroh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Num33",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Num33",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "PAT-ATRAC",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Num33",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "PAT-ATRAC",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "Num33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PAT-ATRAC",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "Qs",
+        "flop_card_3": "Kd"
+    },
+    "turn": {
+        "turn_card": "Ts"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 2400.0,
+            "pot_type": "pot"
+        }
+    }
+}

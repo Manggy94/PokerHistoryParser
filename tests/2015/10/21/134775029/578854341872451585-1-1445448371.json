@@ -1,0 +1,200 @@
+{
+    "hand_id": "578854341872451585-1-1445448371",
+    "datetime": "21-10-2015 17:26:11",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "134775029",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/21 17:26:07 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "astek56",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "ducky.B",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "FaroukVazaha",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kolos-KopiK",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "GCAM31",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "-LaGuigne-",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Voulzy",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "bosch60",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "swifced",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8d",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "GCAM31",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "-LaGuigne-",
+                "action": "raises",
+                "amount": 480.0
+            },
+            {
+                "player": "Voulzy",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "bosch60",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "swifced",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "astek56",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ducky.B",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FaroukVazaha",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kolos-KopiK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 490.0
+            },
+            {
+                "player": "GCAM31",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "Qc",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": "Tc"
+    },
+    "showdown": {
+        "-LaGuigne-": {
+            "first_card": "5c",
+            "second_card": "8c"
+        },
+        "Voulzy": {
+            "first_card": "7h",
+            "second_card": "Ad"
+        },
+        "bosch60": {
+            "first_card": "Ah",
+            "second_card": "9h"
+        },
+        "manggy94": {
+            "first_card": "8d",
+            "second_card": "6d"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 2020.0,
+            "pot_type": "pot"
+        }
+    }
+}

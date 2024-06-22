@@ -1,0 +1,203 @@
+{
+    "hand_id": "600923653365825559-16-1450715353",
+    "datetime": "21-12-2015 16:29:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "139913441",
+        "table_number": "022",
+        "prize_pool": 1813.5,
+        "registered_players": 403,
+        "speed": "turbo",
+        "start_date": "2015/12/21 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "FLOFLIFLOSC",
+            "init_stack": 20400.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "patrick77000",
+            "init_stack": 10400.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "lihum",
+            "init_stack": 14325.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Osco manosco",
+            "init_stack": 13825.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bistoufly07.",
+            "init_stack": 10400.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 12650.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Sharky69",
+            "init_stack": 8400.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "agentludo78",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9d",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "Osco manosco",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "bistoufly07.",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Sharky69",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "agentludo78",
+                "action": "raises",
+                "amount": 750.0
+            },
+            {
+                "player": "FLOFLIFLOSC",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "patrick77000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lihum",
+                "action": "calls",
+                "amount": 1050.0
+            },
+            {
+                "player": "Osco manosco",
+                "action": "calls",
+                "amount": 900.0
+            },
+            {
+                "player": "bistoufly07.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sharky69",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Osco manosco",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "agentludo78",
+                "action": "bets",
+                "amount": 2025.0
+            },
+            {
+                "player": "lihum",
+                "action": "calls",
+                "amount": 2025.0
+            },
+            {
+                "player": "Osco manosco",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "agentludo78",
+                "action": "bets",
+                "amount": 2100.0
+            },
+            {
+                "player": "lihum",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "9s",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "agentludo78": {
+            "amount": 10200.0,
+            "pot_type": "pot"
+        }
+    }
+}

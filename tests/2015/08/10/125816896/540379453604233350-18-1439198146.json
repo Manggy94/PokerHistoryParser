@@ -1,0 +1,197 @@
+{
+    "hand_id": "540379453604233350-18-1439198146",
+    "datetime": "10-08-2015 09:15:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816896",
+        "table_number": "133",
+        "prize_pool": 50.0,
+        "registered_players": 2487,
+        "speed": "turbo",
+        "start_date": "2015/08/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "anaabellee",
+            "init_stack": 2780.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "magach",
+            "init_stack": 16890.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 5080.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "call me dude",
+            "init_stack": 5950.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Taosacco",
+            "init_stack": 2750.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "francky1388",
+            "init_stack": 2560.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "LECHIRURGIEN",
+            "init_stack": 2830.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "cednesta",
+            "init_stack": 2340.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "jerome11260",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "LECHIRURGIEN",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "cednesta",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jerome11260",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "anaabellee",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "magach",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "call me dude",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "Taosacco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "francky1388",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LECHIRURGIEN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cednesta",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "call me dude",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "cednesta",
+                "action": "bets",
+                "amount": 1980.0
+            },
+            {
+                "player": "call me dude",
+                "action": "calls",
+                "amount": 1980.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ac",
+        "flop_card_2": "6d",
+        "flop_card_3": "9h"
+    },
+    "turn": {
+        "turn_card": "Js"
+    },
+    "river": {
+        "river_card": "5d"
+    },
+    "showdown": {
+        "cednesta": {
+            "first_card": "4s",
+            "second_card": "Kc"
+        },
+        "call me dude": {
+            "first_card": "As",
+            "second_card": "7d"
+        }
+    },
+    "winners": {
+        "call me dude": {
+            "amount": 4740.0,
+            "pot_type": "pot"
+        }
+    }
+}

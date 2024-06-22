@@ -1,0 +1,242 @@
+{
+    "hand_id": "571496727886954504-137-1445364386",
+    "datetime": "20-10-2015 18:06:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 14,
+        "ante": 430.0,
+        "sb": 1500.0,
+        "bb": 3000.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1759.5,
+        "registered_players": 391,
+        "speed": "normal",
+        "start_date": "2015/10/20 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "PAT_THE OLD",
+            "init_stack": 76001.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Hideo-Kojima",
+            "init_stack": 159528.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "KKnet",
+            "init_stack": 60910.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Lahn90",
+            "init_stack": 68106.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 46402.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "bens23",
+            "init_stack": 53633.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "misequuncoup",
+            "init_stack": 186628.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "name": "PAT_THE OLD",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Hideo-Kojima",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "KKnet",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lahn90",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bens23",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "misequuncoup",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PAT_THE OLD",
+            "amount": 1500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Hideo-Kojima",
+            "amount": 3000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "KKnet",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lahn90",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bens23",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "misequuncoup",
+                "action": "raises",
+                "amount": 3000.0
+            },
+            {
+                "player": "PAT_THE OLD",
+                "action": "calls",
+                "amount": 4500.0
+            },
+            {
+                "player": "Hideo-Kojima",
+                "action": "calls",
+                "amount": 3000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "PAT_THE OLD",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Hideo-Kojima",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "misequuncoup",
+                "action": "bets",
+                "amount": 7800.0
+            },
+            {
+                "player": "PAT_THE OLD",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Hideo-Kojima",
+                "action": "calls",
+                "amount": 7800.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Hideo-Kojima",
+                "action": "bets",
+                "amount": 16475.0
+            },
+            {
+                "player": "misequuncoup",
+                "action": "calls",
+                "amount": 16475.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Hideo-Kojima",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "misequuncoup",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jh",
+        "flop_card_2": "2c",
+        "flop_card_3": "2s"
+    },
+    "turn": {
+        "turn_card": "5s"
+    },
+    "river": {
+        "river_card": "Kc"
+    },
+    "showdown": {
+        "misequuncoup": {
+            "first_card": "Tc",
+            "second_card": "Td"
+        },
+        "Hideo-Kojima": {
+            "first_card": "Jd",
+            "second_card": "3d"
+        }
+    },
+    "winners": {
+        "Hideo-Kojima": {
+            "amount": 69560.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "hand_id": "552788120928518377-28-1441877760",
+    "datetime": "10-09-2015 09:36:00",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "232",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "BRABR",
+            "init_stack": 6484.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Maje666",
+            "init_stack": 6066.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "viciousduck",
+            "init_stack": 595.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Tango66",
+            "init_stack": 1555.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "The Red Hood",
+            "init_stack": 5305.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "tintin1231",
+            "init_stack": 3205.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "eve123",
+            "init_stack": 5820.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "darkclaude",
+            "init_stack": 3555.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 30840.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "8h"
+    },
+    "postings": [
+        {
+            "name": "Tango66",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "The Red Hood",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BRABR",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Maje666",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "viciousduck",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tintin1231",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "eve123",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "darkclaude",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tango66",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "The Red Hood",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "tintin1231",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "eve123",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "darkclaude",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "BRABR",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "Maje666",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "viciousduck",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tango66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "The Red Hood",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "eve123",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2160.0
+            },
+            {
+                "player": "BRABR",
+                "action": "calls",
+                "amount": 2160.0
+            },
+            {
+                "player": "eve123",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "BRABR",
+                "action": "bets",
+                "amount": 3240.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ah",
+        "flop_card_2": "2d",
+        "flop_card_3": "Ts"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "BRABR": {
+            "amount": 9720.0,
+            "pot_type": "pot"
+        }
+    }
+}

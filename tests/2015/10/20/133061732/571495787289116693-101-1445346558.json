@@ -1,0 +1,174 @@
+{
+    "hand_id": "571495787289116693-101-1445346558",
+    "datetime": "20-10-2015 13:09:18",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 9,
+        "ante": 75.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133061732",
+        "table_number": "020",
+        "prize_pool": 1694.0,
+        "registered_players": 484,
+        "speed": "semiturbo",
+        "start_date": "2015/10/20 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jeanpaul7767",
+            "init_stack": 19515.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Saiid92",
+            "init_stack": 23537.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "-McNulty-",
+            "init_stack": 15165.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Ps6choMantis",
+            "init_stack": 23610.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Mamynova22",
+            "init_stack": 45573.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 26461.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5s",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "-McNulty-",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ps6choMantis",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jeanpaul7767",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Saiid92",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Mamynova22",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-McNulty-",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Ps6choMantis",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Mamynova22",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "jeanpaul7767",
+                "action": "raises",
+                "amount": 18640.0
+            },
+            {
+                "player": "Saiid92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-McNulty-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ps6choMantis",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "jeanpaul7767": {
+            "amount": 21890.0,
+            "pot_type": "pot"
+        }
+    }
+}

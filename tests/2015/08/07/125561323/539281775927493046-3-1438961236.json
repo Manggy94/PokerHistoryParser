@@ -1,0 +1,236 @@
+{
+    "hand_id": "539281775927493046-3-1438961236",
+    "datetime": "07-08-2015 15:27:16",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561323",
+        "table_number": "437",
+        "prize_pool": 150.0,
+        "registered_players": 4105,
+        "speed": "turbo",
+        "start_date": "2015/08/07 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2365.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "gmanou34",
+            "init_stack": 3643.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "TORNADO0216",
+            "init_stack": 2645.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "yan08",
+            "init_stack": 6795.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "leroutier48",
+            "init_stack": 6780.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Tumouche3",
+            "init_stack": 8675.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "tetu37",
+            "init_stack": 5250.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "tiga74",
+            "init_stack": 3915.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "voxroad",
+            "init_stack": 2280.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ah",
+        "second_card": "9c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gmanou34",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TORNADO0216",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "yan08",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "leroutier48",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tumouche3",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tetu37",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tiga74",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "voxroad",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gmanou34",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "TORNADO0216",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "yan08",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "leroutier48",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tumouche3",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tetu37",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "tiga74",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "voxroad",
+                "action": "raises",
+                "amount": 2060.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gmanou34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tetu37",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tiga74",
+                "action": "calls",
+                "amount": 2060.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jh",
+        "flop_card_2": "2c",
+        "flop_card_3": "5h"
+    },
+    "turn": {
+        "turn_card": "Qh"
+    },
+    "river": {
+        "river_card": "As"
+    },
+    "showdown": {
+        "tiga74": {
+            "first_card": "Js",
+            "second_card": "Ts"
+        },
+        "voxroad": {
+            "first_card": "2h",
+            "second_card": "2d"
+        }
+    },
+    "winners": {
+        "voxroad": {
+            "amount": 5200.0,
+            "pot_type": "pot"
+        }
+    }
+}

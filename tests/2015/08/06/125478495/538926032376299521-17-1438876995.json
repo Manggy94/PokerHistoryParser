@@ -1,0 +1,190 @@
+{
+    "hand_id": "538926032376299521-17-1438876995",
+    "datetime": "06-08-2015 16:03:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 4000.0,
+        "registered_players": 95,
+        "speed": "semiturbo",
+        "start_date": "2015/08/06 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "laurent2006",
+            "init_stack": 1440.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Didy95",
+            "init_stack": 2650.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 1130.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Pompierspp67",
+            "init_stack": 3105.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mick37",
+            "init_stack": 2695.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lecanaille",
+            "init_stack": 10630.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "2c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Pompierspp67",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "mick37",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "laurent2006",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "Didy95",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pompierspp67",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "lecanaille",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "laurent2006",
+                "action": "raises",
+                "amount": 160.0
+            },
+            {
+                "player": "Didy95",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "calls",
+                "amount": 160.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "lecanaille",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "laurent2006",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "Didy95",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3s",
+        "flop_card_2": "Kc",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "8d"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "laurent2006": {
+            "first_card": "Jd",
+            "second_card": "Kd"
+        },
+        "Didy95": {
+            "first_card": "3h",
+            "second_card": "7h"
+        }
+    },
+    "winners": {
+        "Didy95": {
+            "amount": 3180.0,
+            "pot_type": "pot"
+        }
+    }
+}

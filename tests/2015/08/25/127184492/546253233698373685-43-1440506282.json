@@ -1,0 +1,185 @@
+{
+    "hand_id": "546253233698373685-43-1440506282",
+    "datetime": "25-08-2015 12:38:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "052",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 5376.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Jo34z",
+            "init_stack": 14384.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "shechi",
+            "init_stack": 19970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gazidaniel",
+            "init_stack": 13290.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "vengachapati",
+            "init_stack": 24075.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "nounours503",
+            "init_stack": 4816.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "Qd"
+    },
+    "postings": [
+        {
+            "name": "gazidaniel",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vengachapati",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jo34z",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "shechi",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nounours503",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gazidaniel",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "vengachapati",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "nounours503",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jo34z",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "shechi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gazidaniel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vengachapati",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "vengachapati",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "nounours503",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "vengachapati",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2h",
+        "flop_card_2": "Jh",
+        "flop_card_3": "Kd"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "nounours503": {
+            "amount": 2050.0,
+            "pot_type": "pot"
+        }
+    }
+}

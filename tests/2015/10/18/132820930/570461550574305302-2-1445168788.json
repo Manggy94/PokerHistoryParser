@@ -1,0 +1,134 @@
+{
+    "hand_id": "570461550574305302-2-1445168788",
+    "datetime": "18-10-2015 11:46:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132820930",
+        "table_number": "021",
+        "prize_pool": 1500.0,
+        "registered_players": 203,
+        "speed": "semiturbo",
+        "start_date": "2015/10/18 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ghiscari",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fonfonas69",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ptitchatte75",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "salmon_maki",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Phoden",
+            "init_stack": 10825.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 9625.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2d",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "salmon_maki",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Phoden",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ghiscari",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fonfonas69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ptitchatte75",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "salmon_maki",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Phoden": {
+            "amount": 75.0,
+            "pot_type": "pot"
+        }
+    }
+}

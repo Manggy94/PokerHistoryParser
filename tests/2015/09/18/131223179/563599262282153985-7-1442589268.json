@@ -1,0 +1,188 @@
+{
+    "hand_id": "563599262282153985-7-1442589268",
+    "datetime": "18-09-2015 15:14:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "131223179",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/09/18 15:06:50 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 10,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "caaac",
+            "init_stack": 853.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "dicanto",
+            "init_stack": 480.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "POUPIPOK",
+            "init_stack": 1030.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "jemetafame",
+            "init_stack": 212.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "sylvsab",
+            "init_stack": 960.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Ricosteph",
+            "init_stack": 1115.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "manggy94",
+            "init_stack": 350.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3h",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "caaac",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "dicanto",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "POUPIPOK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jemetafame",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sylvsab",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ricosteph",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "caaac",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "dicanto",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "caaac",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Ricosteph",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "caaac",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Ricosteph",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "caaac",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "Ricosteph",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "caaac",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4c",
+        "flop_card_2": "4h",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "Ah"
+    },
+    "river": {
+        "river_card": "5s"
+    },
+    "showdown": {},
+    "winners": {
+        "Ricosteph": {
+            "amount": 400.0,
+            "pot_type": "pot"
+        }
+    }
+}

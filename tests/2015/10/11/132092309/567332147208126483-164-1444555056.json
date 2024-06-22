@@ -1,0 +1,156 @@
+{
+    "hand_id": "567332147208126483-164-1444555056",
+    "datetime": "11-10-2015 09:17:36",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 11,
+        "ante": 180.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1332.0,
+        "registered_players": 296,
+        "speed": "normal",
+        "start_date": "2015/10/11 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 4,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "_june",
+            "init_stack": 30776.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Bourbeurx",
+            "init_stack": 22947.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 59154.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "AAGregusAA",
+            "init_stack": 108350.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4c",
+        "second_card": "Jh"
+    },
+    "postings": [
+        {
+            "name": "_june",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bourbeurx",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AAGregusAA",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "_june",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Bourbeurx",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "AAGregusAA",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "_june",
+                "action": "raises",
+                "amount": 28996.0
+            },
+            {
+                "player": "Bourbeurx",
+                "action": "calls",
+                "amount": 21167.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AAGregusAA",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "Js",
+        "flop_card_3": "Kc"
+    },
+    "turn": {
+        "turn_card": "Kh"
+    },
+    "river": {
+        "river_card": "5s"
+    },
+    "showdown": {
+        "Bourbeurx": {
+            "first_card": "Ac",
+            "second_card": "Th"
+        },
+        "_june": {
+            "first_card": "Ks",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "_june": {
+            "amount": 57283.0,
+            "pot_type": "pot"
+        }
+    }
+}

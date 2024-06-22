@@ -1,0 +1,211 @@
+{
+    "hand_id": "538925989426626565-26-1438870581",
+    "datetime": "06-08-2015 14:16:21",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "mage847",
+            "init_stack": 3675.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Greg_Sw",
+            "init_stack": 10610.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 10130.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Steph6400",
+            "init_stack": 2695.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mumu2411",
+            "init_stack": 2335.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "fsraerdah",
+            "init_stack": 5735.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3h",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "mage847",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Greg_Sw",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Steph6400",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mumu2411",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fsraerdah",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mage847",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Greg_Sw",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Steph6400",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mumu2411",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fsraerdah",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mage847",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "Greg_Sw",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "mage847",
+                "action": "bets",
+                "amount": 200.0
+            },
+            {
+                "player": "Greg_Sw",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "mage847",
+                "action": "bets",
+                "amount": 200.0
+            },
+            {
+                "player": "Greg_Sw",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "river": [
+            {
+                "player": "mage847",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Greg_Sw",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "5d",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "8d"
+    },
+    "river": {
+        "river_card": "Tc"
+    },
+    "showdown": {
+        "mage847": {
+            "first_card": "7d",
+            "second_card": "As"
+        },
+        "Greg_Sw": {
+            "first_card": "6h",
+            "second_card": "6s"
+        }
+    },
+    "winners": {
+        "Greg_Sw": {
+            "amount": 1320.0,
+            "pot_type": "pot"
+        }
+    }
+}

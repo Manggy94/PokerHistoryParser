@@ -1,0 +1,189 @@
+{
+    "hand_id": "571495787289116703-57-1445345611",
+    "datetime": "20-10-2015 12:53:31",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133061732",
+        "table_number": "030",
+        "prize_pool": 1694.0,
+        "registered_players": 484,
+        "speed": "semiturbo",
+        "start_date": "2015/10/20 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 30550.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Jacoby23",
+            "init_stack": 23216.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Le Shark_61",
+            "init_stack": 9884.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "yokoto60",
+            "init_stack": 22173.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "sahabo",
+            "init_stack": 27655.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "pierloch29",
+            "init_stack": 24996.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3s",
+        "second_card": "Qs"
+    },
+    "postings": [
+        {
+            "name": "Le Shark_61",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "yokoto60",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jacoby23",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sahabo",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pierloch29",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Le Shark_61",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "yokoto60",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "sahabo",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "pierloch29",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Jacoby23",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Le Shark_61",
+                "action": "raises",
+                "amount": 9344.0
+            },
+            {
+                "player": "yokoto60",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sahabo",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pierloch29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jacoby23",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Le Shark_61": {
+            "amount": 12584.0,
+            "pot_type": "pot"
+        }
+    }
+}

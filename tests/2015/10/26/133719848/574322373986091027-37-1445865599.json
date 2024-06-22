@@ -1,0 +1,174 @@
+{
+    "hand_id": "574322373986091027-37-1445865599",
+    "datetime": "26-10-2015 13:19:59",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133719848",
+        "table_number": "018",
+        "prize_pool": 1827.0,
+        "registered_players": 522,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 12:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Yekoms",
+            "init_stack": 7887.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Solid_Spew",
+            "init_stack": 1187.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "-valueporc-",
+            "init_stack": 42319.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "RuunBiAtch",
+            "init_stack": 8875.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Nevro97436",
+            "init_stack": 16178.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 13554.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ah",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "Nevro97436",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Yekoms",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Solid_Spew",
+                "action": "raises",
+                "amount": 500.0
+            },
+            {
+                "player": "-valueporc-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "RuunBiAtch",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Nevro97436",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Solid_Spew",
+                "action": "bets",
+                "amount": 487.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "calls",
+                "amount": 487.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "5h",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "7c"
+    },
+    "river": {
+        "river_card": "6s"
+    },
+    "showdown": {
+        "Solid_Spew": {
+            "first_card": "Ad",
+            "second_card": "5d"
+        },
+        "Nevro97436": {
+            "first_card": "Kd",
+            "second_card": "6d"
+        }
+    },
+    "winners": {
+        "Nevro97436": {
+            "amount": 3074.0,
+            "pot_type": "pot"
+        }
+    }
+}

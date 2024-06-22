@@ -1,0 +1,269 @@
+{
+    "hand_id": "543022593658061210-37-1439838260",
+    "datetime": "17-08-2015 19:04:20",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126432300",
+        "table_number": "0409",
+        "prize_pool": 150.0,
+        "registered_players": 7593,
+        "speed": "turbo",
+        "start_date": "2015/08/17 18:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Micibo",
+            "init_stack": 2640.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "micka1015",
+            "init_stack": 240.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "lebourricot",
+            "init_stack": 16020.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 14410.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "205gti26",
+            "init_stack": 21533.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "moshimoshi85",
+            "init_stack": 46370.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "El XIII",
+            "init_stack": 2360.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Antonescu",
+            "init_stack": 5885.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "0montana95",
+            "init_stack": 11640.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7c",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "lebourricot",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Micibo",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "micka1015",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "205gti26",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "moshimoshi85",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "El XIII",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Antonescu",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "0montana95",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lebourricot",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "205gti26",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "moshimoshi85",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "El XIII",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "Antonescu",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "0montana95",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "Micibo",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "micka1015",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lebourricot",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "lebourricot",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "205gti26",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "El XIII",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "0montana95",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "lebourricot",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "205gti26",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "0montana95",
+                "action": "bets",
+                "amount": 1302.0
+            },
+            {
+                "player": "205gti26",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4c",
+        "flop_card_2": "Jd",
+        "flop_card_3": "Kh"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "0montana95": {
+            "amount": 7622.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "hand_id": "563599262282153985-9-1442589368",
+    "datetime": "18-09-2015 15:16:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "131223179",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/09/18 15:06:50 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "caaac",
+            "init_stack": 733.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "dicanto",
+            "init_stack": 420.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "POUPIPOK",
+            "init_stack": 1170.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "jemetafame",
+            "init_stack": 212.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "sylvsab",
+            "init_stack": 960.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Ricosteph",
+            "init_stack": 1195.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "manggy94",
+            "init_stack": 310.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kh",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "POUPIPOK",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "jemetafame",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "sylvsab",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ricosteph",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 250.0
+            },
+            {
+                "player": "caaac",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dicanto",
+                "action": "raises",
+                "amount": 110.0
+            },
+            {
+                "player": "POUPIPOK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jemetafame",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ricosteph",
+                "action": "calls",
+                "amount": 360.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "7d",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "Qd"
+    },
+    "river": {
+        "river_card": "2c"
+    },
+    "showdown": {
+        "dicanto": {
+            "first_card": "5d",
+            "second_card": "Ac"
+        },
+        "manggy94": {
+            "first_card": "Kh",
+            "second_card": "9d"
+        },
+        "Ricosteph": {
+            "first_card": "7h",
+            "second_card": "5h"
+        }
+    },
+    "winners": {
+        "Ricosteph": {
+            "amount": 1240.0,
+            "pot_type": "pot"
+        }
+    }
+}

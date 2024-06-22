@@ -1,0 +1,117 @@
+{
+    "hand_id": "544802389450817537-37-1438959434",
+    "datetime": "07-08-2015 14:57:14",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Sit&Go Freeroll",
+        "tournament_id": "126846691",
+        "table_number": "0",
+        "prize_pool": 0.1,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/08/07 14:42:13 UTC",
+        "levels_structure": [],
+        "tournament_type": "sitngo"
+    },
+    "max_players": 10,
+    "button_seat": 3,
+    "players": {
+        "3": {
+            "seat": 3,
+            "name": "Kind_PP",
+            "init_stack": 1830.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 9010.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "ddel49",
+            "init_stack": 4160.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5h",
+        "second_card": "Kd"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ddel49",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Kind_PP",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "ddel49",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 240.0
+            },
+            {
+                "player": "ddel49",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8s",
+        "flop_card_2": "8h",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 480.0,
+            "pot_type": "pot"
+        }
+    }
+}

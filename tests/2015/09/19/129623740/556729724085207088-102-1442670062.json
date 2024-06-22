@@ -1,0 +1,163 @@
+{
+    "hand_id": "556729724085207088-102-1442670062",
+    "datetime": "19-09-2015 13:41:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 13,
+        "ante": 240.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "047",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Paranada",
+            "init_stack": 44068.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 153112.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "K_Or_p",
+            "init_stack": 144434.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "_Missill_",
+            "init_stack": 92317.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Arciesis3.14",
+            "init_stack": 135111.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7c",
+        "second_card": "Js"
+    },
+    "postings": [
+        {
+            "name": "K_Or_p",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "_Missill_",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Paranada",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Arciesis3.14",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "K_Or_p",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "_Missill_",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Arciesis3.14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Paranada",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "K_Or_p",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "_Missill_",
+                "action": "raises",
+                "amount": 3320.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 12840.0
+            },
+            {
+                "player": "_Missill_",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 25680.0,
+            "pot_type": "pot"
+        }
+    }
+}

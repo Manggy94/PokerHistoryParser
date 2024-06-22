@@ -1,0 +1,150 @@
+{
+    "hand_id": "596728591304097793-4-1448726576",
+    "datetime": "28-11-2015 16:02:56",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "138936702",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/11/28 15:59:16 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "34schiele",
+            "init_stack": 490.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "k-b13",
+            "init_stack": 470.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 480.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "AllezAllezkk",
+            "init_stack": 1020.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "berman",
+            "init_stack": 440.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "many mal",
+            "init_stack": 1600.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "goupil18",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7d",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "AllezAllezkk",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "berman",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "many mal",
+                "action": "raises",
+                "amount": 1570.0
+            },
+            {
+                "player": "goupil18",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "34schiele",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "k-b13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AllezAllezkk",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "many mal": {
+            "amount": 1645.0,
+            "pot_type": "pot"
+        }
+    }
+}

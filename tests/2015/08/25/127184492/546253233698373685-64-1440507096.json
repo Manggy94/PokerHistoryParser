@@ -1,0 +1,195 @@
+{
+    "hand_id": "546253233698373685-64-1440507096",
+    "datetime": "25-08-2015 12:51:36",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 17,
+        "ante": 160.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "052",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 21252.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "cililyla",
+            "init_stack": 41554.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "smoker2fish",
+            "init_stack": 25127.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gazidaniel",
+            "init_stack": 13340.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "geuvye",
+            "init_stack": 53276.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "nounours503",
+            "init_stack": 7992.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ts",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cililyla",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "smoker2fish",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gazidaniel",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "geuvye",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nounours503",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "cililyla",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "smoker2fish",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gazidaniel",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "geuvye",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nounours503",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "cililyla",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "cililyla",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "gazidaniel",
+                "action": "bets",
+                "amount": 5760.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cililyla",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "9h",
+        "flop_card_3": "Jh"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "gazidaniel": {
+            "amount": 11520.0,
+            "pot_type": "pot"
+        }
+    }
+}

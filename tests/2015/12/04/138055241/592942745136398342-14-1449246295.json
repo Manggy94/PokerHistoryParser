@@ -1,0 +1,166 @@
+{
+    "hand_id": "592942745136398342-14-1449246295",
+    "datetime": "04-12-2015 16:24:55",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138055241",
+        "table_number": "005",
+        "prize_pool": 1458.0,
+        "registered_players": 324,
+        "speed": "turbo",
+        "start_date": "2015/12/04 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "loups48",
+            "init_stack": 9625.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "perturB",
+            "init_stack": 18450.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Djaystyle",
+            "init_stack": 10275.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "hunter 25",
+            "init_stack": 9775.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Gun Rood",
+            "init_stack": 10950.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "fred12000",
+            "init_stack": 8575.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "mimitte35",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 22350.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "2h"
+    },
+    "postings": [
+        {
+            "name": "Djaystyle",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "hunter 25",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Gun Rood",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fred12000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mimitte35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "loups48",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "perturB",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Djaystyle",
+                "action": "raises",
+                "amount": 10075.0
+            },
+            {
+                "player": "hunter 25",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "loups48",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Djaystyle": {
+            "amount": 10675.0,
+            "pot_type": "pot"
+        }
+    }
+}

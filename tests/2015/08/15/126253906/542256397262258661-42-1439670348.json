@@ -1,0 +1,243 @@
+{
+    "hand_id": "542256397262258661-42-1439670348",
+    "datetime": "15-08-2015 20:25:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 21,
+        "ante": 400.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0484",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Player75008",
+            "init_stack": 9665.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Cris91100",
+            "init_stack": 2315.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "le-shpountz",
+            "init_stack": 23630.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "CheKKall",
+            "init_stack": 38076.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "coyotte44300",
+            "init_stack": 51113.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Similan3",
+            "init_stack": 30225.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "stefano59000",
+            "init_stack": 19739.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 26221.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Nilluje",
+            "init_stack": 12985.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "Similan3",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "stefano59000",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Player75008",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Cris91100",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "le-shpountz",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CheKKall",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "coyotte44300",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nilluje",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Similan3",
+            "amount": 2000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "stefano59000",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nilluje",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Player75008",
+                "action": "calls",
+                "amount": 4000.0
+            },
+            {
+                "player": "Cris91100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le-shpountz",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CheKKall",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "coyotte44300",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Similan3",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "stefano59000",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Similan3",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "stefano59000",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Player75008",
+                "action": "bets",
+                "amount": 5265.0
+            },
+            {
+                "player": "Similan3",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "stefano59000",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8d",
+        "flop_card_2": "9d",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Player75008": {
+            "amount": 20865.0,
+            "pot_type": "pot"
+        }
+    }
+}

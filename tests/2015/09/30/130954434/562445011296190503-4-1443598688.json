@@ -1,0 +1,214 @@
+{
+    "hand_id": "562445011296190503-4-1443598688",
+    "datetime": "30-09-2015 07:38:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.45,
+        "bounty": 0.0,
+        "rake": 0.05
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "130954434",
+        "table_number": "038",
+        "prize_pool": 108.9,
+        "registered_players": 242,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 06:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 12089.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "vinsou1834",
+            "init_stack": 6660.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "papyange",
+            "init_stack": 9105.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "rb85",
+            "init_stack": 21931.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "makenzy85",
+            "init_stack": 9380.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "kikinan",
+            "init_stack": 3935.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kd",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "makenzy85",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kikinan",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vinsou1834",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "papyange",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "rb85",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "makenzy85",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "kikinan",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "vinsou1834",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "papyange",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rb85",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "makenzy85",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "kikinan",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "makenzy85",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "kikinan",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2760.0
+            },
+            {
+                "player": "vinsou1834",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "makenzy85",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kikinan",
+                "action": "raises",
+                "amount": 515.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 515.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "Qh",
+        "flop_card_3": "Qc"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "Kc"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Kd",
+            "second_card": "2s"
+        },
+        "kikinan": {
+            "first_card": "4c",
+            "second_card": "Qs"
+        }
+    },
+    "winners": {
+        "kikinan": {
+            "amount": 9310.0,
+            "pot_type": "pot"
+        }
+    }
+}

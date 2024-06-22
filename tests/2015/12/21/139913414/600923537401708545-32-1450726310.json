@@ -1,0 +1,209 @@
+{
+    "hand_id": "600923537401708545-32-1450726310",
+    "datetime": "21-12-2015 19:31:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 1.8,
+        "bounty": 0.0,
+        "rake": 0.2
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 81.0,
+        "registered_players": 19,
+        "speed": "turbo",
+        "start_date": "2015/12/21 19:10:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Piloute40100",
+            "init_stack": 6300.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 1070.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Tacktik",
+            "init_stack": 950.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ayoube974",
+            "init_stack": 1080.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Ready to Die",
+            "init_stack": 680.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "WINNIPOK",
+            "init_stack": 950.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7h",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "Tacktik",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ayoube974",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Piloute40100",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ready to Die",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "WINNIPOK",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tacktik",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ayoube974",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Ready to Die",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "WINNIPOK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Piloute40100",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 615.0
+            },
+            {
+                "player": "Tacktik",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ayoube974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Piloute40100",
+                "action": "calls",
+                "amount": 615.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Piloute40100",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Piloute40100",
+                "action": "bets",
+                "amount": 5520.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 290.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7s",
+        "flop_card_2": "Kd",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "9d"
+    },
+    "river": {
+        "river_card": "Kh"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "7h",
+            "second_card": "Ac"
+        },
+        "Piloute40100": {
+            "first_card": "6d",
+            "second_card": "Qd"
+        }
+    },
+    "winners": {
+        "Piloute40100": {
+            "amount": 5230.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 2425.0,
+            "pot_type": "main pot"
+        }
+    }
+}

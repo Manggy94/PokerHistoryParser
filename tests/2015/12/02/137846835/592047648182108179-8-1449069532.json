@@ -1,0 +1,143 @@
+{
+    "hand_id": "592047648182108179-8-1449069532",
+    "datetime": "02-12-2015 15:18:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.7,
+        "bounty": 0.0,
+        "rake": 0.3
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 418.5,
+        "registered_players": 155,
+        "speed": "turbo",
+        "start_date": "2015/12/02 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "niquedoul",
+            "init_stack": 17740.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Indasky",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 9325.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Prugnard",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "bluedemon",
+            "init_stack": 12430.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "bluedemon",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "niquedoul",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Indasky",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bluedemon",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "niquedoul",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Indasky",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1120.0
+            },
+            {
+                "player": "bluedemon",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "niquedoul",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 2240.0,
+            "pot_type": "pot"
+        }
+    }
+}

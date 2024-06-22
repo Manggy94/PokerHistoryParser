@@ -1,0 +1,211 @@
+{
+    "hand_id": "541159200621854984-70-1439390119",
+    "datetime": "12-08-2015 14:35:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 19,
+        "ante": 250.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "263",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Pixies69",
+            "init_stack": 18177.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fleuron26100",
+            "init_stack": 54078.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "chayen",
+            "init_stack": 32349.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "andyKIKI",
+            "init_stack": 15704.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Fefefe69",
+            "init_stack": 13310.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 39878.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "theovall",
+            "init_stack": 35325.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "harissa35",
+            "init_stack": 46247.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Charles12",
+            "init_stack": 8930.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "theovall",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pixies69",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fleuron26100",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chayen",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "andyKIKI",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fefefe69",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "harissa35",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Charles12",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "theovall",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "harissa35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Charles12",
+                "action": "raises",
+                "amount": 6180.0
+            },
+            {
+                "player": "Pixies69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fleuron26100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chayen",
+                "action": "raises",
+                "amount": 23419.0
+            },
+            {
+                "player": "andyKIKI",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fefefe69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "theovall",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ah",
+        "flop_card_2": "6s",
+        "flop_card_3": "Qh"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": "3d"
+    },
+    "showdown": {
+        "Charles12": {
+            "first_card": "9d",
+            "second_card": "9s"
+        },
+        "chayen": {
+            "first_card": "Ad",
+            "second_card": "Js"
+        }
+    },
+    "winners": {
+        "chayen": {
+            "amount": 45279.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,187 @@
+{
+    "hand_id": "546253233698373685-38-1440506117",
+    "datetime": "25-08-2015 12:35:17",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "052",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 7341.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "MATEO 67",
+            "init_stack": 13370.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "shechi",
+            "init_stack": 20950.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gazidaniel",
+            "init_stack": 13020.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "vengachapati",
+            "init_stack": 12345.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "nounours503",
+            "init_stack": 5646.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3c",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "vengachapati",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nounours503",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MATEO 67",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "shechi",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gazidaniel",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vengachapati",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "nounours503",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MATEO 67",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "shechi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gazidaniel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vengachapati",
+                "action": "raises",
+                "amount": 11905.0
+            },
+            {
+                "player": "nounours503",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MATEO 67",
+                "action": "raises",
+                "amount": 1025.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "Ks",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": "5c"
+    },
+    "river": {
+        "river_card": "5d"
+    },
+    "showdown": {
+        "vengachapati": {
+            "first_card": "As",
+            "second_card": "Tc"
+        },
+        "MATEO 67": {
+            "first_card": "6d",
+            "second_card": "8d"
+        }
+    },
+    "winners": {
+        "MATEO 67": {
+            "amount": 1025.0,
+            "pot_type": "side pot 1"
+        },
+        "vengachapati": {
+            "amount": 25250.0,
+            "pot_type": "main pot"
+        }
+    }
+}

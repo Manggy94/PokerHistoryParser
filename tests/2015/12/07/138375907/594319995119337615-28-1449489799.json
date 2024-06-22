@@ -1,0 +1,236 @@
+{
+    "hand_id": "594319995119337615-28-1449489799",
+    "datetime": "07-12-2015 12:03:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 9,
+        "ante": 25.0,
+        "sb": 125.0,
+        "bb": 250.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "142",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "usherpeter90",
+            "init_stack": 2740.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Bico13110",
+            "init_stack": 2895.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "chaouche08",
+            "init_stack": 4822.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tigrou6",
+            "init_stack": 7853.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "cerbereims",
+            "init_stack": 5990.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "supereglisse",
+            "init_stack": 2345.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "bobof06",
+            "init_stack": 9635.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 6035.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2s",
+        "second_card": "3h"
+    },
+    "postings": [
+        {
+            "name": "cerbereims",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "supereglisse",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "usherpeter90",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bico13110",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chaouche08",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tigrou6",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bobof06",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cerbereims",
+            "amount": 125.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "supereglisse",
+            "amount": 250.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bobof06",
+                "action": "calls",
+                "amount": 250.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "usherpeter90",
+                "action": "raises",
+                "amount": 375.0
+            },
+            {
+                "player": "Bico13110",
+                "action": "calls",
+                "amount": 625.0
+            },
+            {
+                "player": "chaouche08",
+                "action": "calls",
+                "amount": 625.0
+            },
+            {
+                "player": "tigrou6",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cerbereims",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "supereglisse",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bobof06",
+                "action": "calls",
+                "amount": 375.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "bobof06",
+                "action": "bets",
+                "amount": 3200.0
+            },
+            {
+                "player": "usherpeter90",
+                "action": "calls",
+                "amount": 2090.0
+            },
+            {
+                "player": "Bico13110",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chaouche08",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qc",
+        "flop_card_2": "6c",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "7h"
+    },
+    "river": {
+        "river_card": "Qh"
+    },
+    "showdown": {
+        "usherpeter90": {
+            "first_card": "Ks",
+            "second_card": "Kc"
+        },
+        "bobof06": {
+            "first_card": "Qs",
+            "second_card": "2c"
+        }
+    },
+    "winners": {
+        "bobof06": {
+            "amount": 8365.0,
+            "pot_type": "pot"
+        }
+    }
+}

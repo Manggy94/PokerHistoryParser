@@ -1,0 +1,162 @@
+{
+    "hand_id": "592047648182108167-69-1449071022",
+    "datetime": "02-12-2015 15:43:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.7,
+        "bounty": 0.0,
+        "rake": 0.3
+    },
+    "level": {
+        "value": 14,
+        "ante": 320.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 418.5,
+        "registered_players": 155,
+        "speed": "turbo",
+        "start_date": "2015/12/02 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "RaidNRV13",
+            "init_stack": 140450.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "zahaff32",
+            "init_stack": 11060.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "xxXtchoumXxx",
+            "init_stack": 46620.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 10870.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Pepper70",
+            "init_stack": 33020.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "zahaff32",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "xxXtchoumXxx",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RaidNRV13",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pepper70",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zahaff32",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "xxXtchoumXxx",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 8050.0
+            },
+            {
+                "player": "Pepper70",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "RaidNRV13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zahaff32",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "xxXtchoumXxx",
+                "action": "calls",
+                "amount": 8050.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "Tc",
+        "flop_card_3": "8h"
+    },
+    "turn": {
+        "turn_card": "Qh"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ks",
+            "second_card": "9s"
+        },
+        "xxXtchoumXxx": {
+            "first_card": "8s",
+            "second_card": "4s"
+        }
+    },
+    "winners": {
+        "xxXtchoumXxx": {
+            "amount": 23950.0,
+            "pot_type": "pot"
+        }
+    }
+}

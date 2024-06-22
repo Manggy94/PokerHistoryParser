@@ -1,0 +1,191 @@
+{
+    "hand_id": "541159179147018342-1-1439370025",
+    "datetime": "12-08-2015 09:00:25",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998440",
+        "table_number": "101",
+        "prize_pool": 50.0,
+        "registered_players": 1839,
+        "speed": "turbo",
+        "start_date": "2015/08/12 09:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DJJM",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "NIICO2704",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "JJP92",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "reveilmatin",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "SNT89",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "midol6",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "miguel3004",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "le litalien",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3c",
+        "second_card": "8h"
+    },
+    "postings": [
+        {
+            "name": "NIICO2704",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "JJP92",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "reveilmatin",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "SNT89",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "midol6",
+                "action": "raises",
+                "amount": 2980.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "miguel3004",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le litalien",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DJJM",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NIICO2704",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JJP92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "reveilmatin",
+                "action": "calls",
+                "amount": 2980.0
+            },
+            {
+                "player": "SNT89",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "6d",
+        "flop_card_3": "9c"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": "6h"
+    },
+    "showdown": {
+        "midol6": {
+            "first_card": "Ks",
+            "second_card": "Qd"
+        },
+        "reveilmatin": {
+            "first_card": "Ad",
+            "second_card": "6c"
+        }
+    },
+    "winners": {
+        "reveilmatin": {
+            "amount": 6050.0,
+            "pot_type": "pot"
+        }
+    }
+}

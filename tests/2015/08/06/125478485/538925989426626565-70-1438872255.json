@@ -1,0 +1,209 @@
+{
+    "hand_id": "538925989426626565-70-1438872255",
+    "datetime": "06-08-2015 14:44:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 18,
+        "ante": 200.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "mayous974",
+            "init_stack": 56695.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Greg_Sw",
+            "init_stack": 3915.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "fsraerdah",
+            "init_stack": 44596.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "PMBM37",
+            "init_stack": 29867.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 25180.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "Greg_Sw",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fsraerdah",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mayous974",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PMBM37",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Greg_Sw",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "fsraerdah",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "PMBM37",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mayous974",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "Greg_Sw",
+                "action": "raises",
+                "amount": 1715.0
+            },
+            {
+                "player": "fsraerdah",
+                "action": "calls",
+                "amount": 1715.0
+            },
+            {
+                "player": "PMBM37",
+                "action": "calls",
+                "amount": 1715.0
+            },
+            {
+                "player": "mayous974",
+                "action": "calls",
+                "amount": 1715.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "fsraerdah",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "PMBM37",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mayous974",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "fsraerdah",
+                "action": "bets",
+                "amount": 2000.0
+            },
+            {
+                "player": "PMBM37",
+                "action": "raises",
+                "amount": 23952.0
+            },
+            {
+                "player": "mayous974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fsraerdah",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7s",
+        "flop_card_2": "9h",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": "Kc"
+    },
+    "showdown": {
+        "Greg_Sw": {
+            "first_card": "As",
+            "second_card": "Td"
+        },
+        "PMBM37": {
+            "first_card": "5d",
+            "second_card": "5s"
+        }
+    },
+    "winners": {
+        "PMBM37": {
+            "amount": 43812.0,
+            "pot_type": "pot"
+        }
+    }
+}

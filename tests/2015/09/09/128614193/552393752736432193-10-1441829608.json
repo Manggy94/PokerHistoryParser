@@ -1,0 +1,253 @@
+{
+    "hand_id": "552393752736432193-10-1441829608",
+    "datetime": "09-09-2015 20:13:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "128614193",
+        "table_number": "064",
+        "prize_pool": 2240.0,
+        "registered_players": 640,
+        "speed": "semiturbo",
+        "start_date": "2015/09/09 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Jaunisse1932",
+            "init_stack": 28335.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "LuckyPlayer7",
+            "init_stack": 7970.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ozz33",
+            "init_stack": 5751.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "raunopehka",
+            "init_stack": 9360.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "quihihaaqui",
+            "init_stack": 8125.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Unstable34",
+            "init_stack": 25855.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "DETENDS-TOI",
+            "init_stack": 22620.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 31335.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Wesch57",
+            "init_stack": 14600.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "Ad"
+    },
+    "postings": [
+        {
+            "name": "ozz33",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "raunopehka",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jaunisse1932",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LuckyPlayer7",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "quihihaaqui",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Unstable34",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DETENDS-TOI",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Wesch57",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ozz33",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "raunopehka",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "quihihaaqui",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Unstable34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DETENDS-TOI",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "Wesch57",
+                "action": "raises",
+                "amount": 3300.0
+            },
+            {
+                "player": "Jaunisse1932",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LuckyPlayer7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ozz33",
+                "action": "raises",
+                "amount": 1191.0
+            },
+            {
+                "player": "raunopehka",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DETENDS-TOI",
+                "action": "raises",
+                "amount": 16869.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Wesch57",
+                "action": "calls",
+                "amount": 10040.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6s",
+        "flop_card_2": "9h",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "6c"
+    },
+    "showdown": {
+        "ozz33": {
+            "first_card": "9c",
+            "second_card": "8c"
+        },
+        "Wesch57": {
+            "first_card": "Kc",
+            "second_card": "Kh"
+        },
+        "DETENDS-TOI": {
+            "first_card": "Js",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "DETENDS-TOI": {
+            "amount": 8020.0,
+            "pot_type": "side pot 2"
+        },
+        "Wesch57": {
+            "amount": 17698.0,
+            "pot_type": "side pot 1"
+        },
+        "ozz33": {
+            "amount": 19413.0,
+            "pot_type": "main pot"
+        }
+    }
+}

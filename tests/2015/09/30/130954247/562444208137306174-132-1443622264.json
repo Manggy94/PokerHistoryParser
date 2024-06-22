@@ -1,0 +1,206 @@
+{
+    "hand_id": "562444208137306174-132-1443622264",
+    "datetime": "30-09-2015 14:11:04",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 16,
+        "ante": 500.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "130954247",
+        "table_number": "061",
+        "prize_pool": 1382.5,
+        "registered_players": 395,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 484086.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Ste Therese",
+            "init_stack": 44830.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "masterVIPxx",
+            "init_stack": 100690.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "pronofilou18",
+            "init_stack": 91632.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "HotAnanas",
+            "init_stack": 55330.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "boutsse1",
+            "init_stack": 108937.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Tc",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "Ste Therese",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "masterVIPxx",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pronofilou18",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "HotAnanas",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "boutsse1",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ste Therese",
+            "amount": 2000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "masterVIPxx",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pronofilou18",
+                "action": "raises",
+                "amount": 6000.0
+            },
+            {
+                "player": "HotAnanas",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "boutsse1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 10000.0
+            },
+            {
+                "player": "Ste Therese",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "masterVIPxx",
+                "action": "calls",
+                "amount": 6000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "masterVIPxx",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pronofilou18",
+                "action": "bets",
+                "amount": 35000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "masterVIPxx",
+                "action": "calls",
+                "amount": 35000.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "masterVIPxx",
+                "action": "bets",
+                "amount": 22500.0
+            },
+            {
+                "player": "pronofilou18",
+                "action": "raises",
+                "amount": 23632.0
+            },
+            {
+                "player": "masterVIPxx",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "6s",
+        "flop_card_3": "4h"
+    },
+    "turn": {
+        "turn_card": "4d"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "pronofilou18": {
+            "amount": 173632.0,
+            "pot_type": "pot"
+        }
+    }
+}

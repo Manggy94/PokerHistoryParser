@@ -1,0 +1,164 @@
+{
+    "hand_id": "572024978799591453-99-1445432534",
+    "datetime": "21-10-2015 13:02:14",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133184944",
+        "table_number": "028",
+        "prize_pool": 1669.5,
+        "registered_players": 477,
+        "speed": "semiturbo",
+        "start_date": "2015/10/21 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tibo352",
+            "init_stack": 20926.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "loi kroh",
+            "init_stack": 39988.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 6495.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "NeverChek",
+            "init_stack": 36110.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fred4242",
+            "init_stack": 8212.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nelson_du_77",
+            "init_stack": 7980.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "5s"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NeverChek",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tibo352",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "loi kroh",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fred4242",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nelson_du_77",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "NeverChek",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "fred4242",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nelson_du_77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tibo352",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "loi kroh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "NeverChek": {
+            "amount": 1260.0,
+            "pot_type": "pot"
+        }
+    }
+}

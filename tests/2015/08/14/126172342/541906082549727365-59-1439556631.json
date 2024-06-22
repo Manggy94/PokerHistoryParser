@@ -1,0 +1,249 @@
+{
+    "hand_id": "541906082549727365-59-1439556631",
+    "datetime": "14-08-2015 12:50:31",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 16,
+        "ante": 135.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "132",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "gaugau7",
+            "init_stack": 14204.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "anto8391",
+            "init_stack": 2600.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nicolito11",
+            "init_stack": 16375.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "sandymillion",
+            "init_stack": 9355.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "frater13015x",
+            "init_stack": 14724.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 5966.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3s",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "sandymillion",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "frater13015x",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gaugau7",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "anto8391",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nicolito11",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sandymillion",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "frater13015x",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gaugau7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "anto8391",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "Nicolito11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sandymillion",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "raises",
+                "amount": 1200.0
+            },
+            {
+                "player": "anto8391",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "sandymillion",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "sandymillion",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "anto8391",
+                "action": "calls",
+                "amount": 65.0
+            },
+            {
+                "player": "sandymillion",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "sandymillion",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "sandymillion",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ],
+        "river": [
+            {
+                "player": "sandymillion",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "bets",
+                "amount": 3008.0
+            },
+            {
+                "player": "sandymillion",
+                "action": "calls",
+                "amount": 3008.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "6s",
+        "flop_card_3": "6c"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "5h"
+    },
+    "showdown": {
+        "frater13015x": {
+            "first_card": "3d",
+            "second_card": "Ah"
+        },
+        "anto8391": {
+            "first_card": "6d",
+            "second_card": "Kd"
+        },
+        "sandymillion": {
+            "first_card": "2s",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "sandymillion": {
+            "amount": 10686.0,
+            "pot_type": "side pot 1"
+        },
+        "anto8391": {
+            "amount": 8205.0,
+            "pot_type": "main pot"
+        }
+    }
+}

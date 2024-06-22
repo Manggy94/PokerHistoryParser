@@ -1,0 +1,178 @@
+{
+    "hand_id": "538926036671266842-54-1438884185",
+    "datetime": "06-08-2015 18:03:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 150.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 5000.0,
+        "registered_players": 242,
+        "speed": "normal",
+        "start_date": "2015/08/06 16:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "lorenzo7",
+            "init_stack": 38625.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Pierrot.69",
+            "init_stack": 35475.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "LeBouliste44",
+            "init_stack": 171791.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "fa11",
+            "init_stack": 54905.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "berrnar",
+            "init_stack": 16455.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 70594.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "lorenzo7",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pierrot.69",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LeBouliste44",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fa11",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "berrnar",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lorenzo7",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Pierrot.69",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "LeBouliste44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fa11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "berrnar",
+                "action": "raises",
+                "amount": 15105.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 16305.0
+            },
+            {
+                "player": "lorenzo7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pierrot.69",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "5c",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": "Kd"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Jc",
+            "second_card": "6c"
+        },
+        "berrnar": {
+            "first_card": "Ah",
+            "second_card": "2h"
+        }
+    },
+    "winners": {
+        "berrnar": {
+            "amount": 35310.0,
+            "pot_type": "pot"
+        }
+    }
+}

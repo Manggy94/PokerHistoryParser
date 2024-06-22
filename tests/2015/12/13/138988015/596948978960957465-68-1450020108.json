@@ -1,0 +1,217 @@
+{
+    "hand_id": "596948978960957465-68-1450020108",
+    "datetime": "13-12-2015 15:21:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 10,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138988015",
+        "table_number": "024",
+        "prize_pool": 3672.0,
+        "registered_players": 816,
+        "speed": "semiturbo",
+        "start_date": "2015/12/13 14:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Darius92",
+            "init_stack": 18935.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "vulcx",
+            "init_stack": 19905.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "AAricainAA",
+            "init_stack": 46820.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tiseb17",
+            "init_stack": 56283.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 40028.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "BouffmonBite",
+            "init_stack": 56236.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "LorenzJ",
+            "init_stack": 31319.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "tripe2porc",
+            "init_stack": 8610.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "AAricainAA",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tiseb17",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Darius92",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vulcx",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BouffmonBite",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LorenzJ",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tripe2porc",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AAricainAA",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "tiseb17",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BouffmonBite",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LorenzJ",
+                "action": "raises",
+                "amount": 1200.0
+            },
+            {
+                "player": "tripe2porc",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Darius92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vulcx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AAricainAA",
+                "action": "calls",
+                "amount": 1700.0
+            },
+            {
+                "player": "tiseb17",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "AAricainAA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "LorenzJ",
+                "action": "bets",
+                "amount": 2930.0
+            },
+            {
+                "player": "AAricainAA",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jd",
+        "flop_card_2": "Th",
+        "flop_card_3": "2h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "LorenzJ": {
+            "amount": 9130.0,
+            "pot_type": "pot"
+        }
+    }
+}

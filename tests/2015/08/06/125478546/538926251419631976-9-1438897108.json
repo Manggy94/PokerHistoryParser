@@ -1,0 +1,202 @@
+{
+    "hand_id": "538926251419631976-9-1438897108",
+    "datetime": "06-08-2015 21:38:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125478546",
+        "table_number": "359",
+        "prize_pool": 100.0,
+        "registered_players": 2820,
+        "speed": "turbo",
+        "start_date": "2015/08/06 21:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "QuentG60",
+            "init_stack": 830.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "gaga29200",
+            "init_stack": 5700.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "pakpot",
+            "init_stack": 4320.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "kaiser1310",
+            "init_stack": 1970.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 5434.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "PAPADV",
+            "init_stack": 4623.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "QuentG60",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gaga29200",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pakpot",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kaiser1310",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "PAPADV",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "QuentG60",
+                "action": "calls",
+                "amount": 75.0
+            },
+            {
+                "player": "gaga29200",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "QuentG60",
+                "action": "calls",
+                "amount": 150.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "QuentG60",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "gaga29200",
+                "action": "bets",
+                "amount": 900.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 900.0
+            },
+            {
+                "player": "QuentG60",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gaga29200",
+                "action": "calls",
+                "amount": 900.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "gaga29200",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "gaga29200",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 3334.0
+            },
+            {
+                "player": "gaga29200",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "Ks",
+        "flop_card_3": "7d"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 7834.0,
+            "pot_type": "pot"
+        }
+    }
+}

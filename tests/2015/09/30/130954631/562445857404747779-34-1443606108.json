@@ -1,0 +1,239 @@
+{
+    "hand_id": "562445857404747779-34-1443606108",
+    "datetime": "30-09-2015 09:41:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 7.0,
+        "bounty": 0.0,
+        "rake": 3.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "130954631",
+        "table_number": "002",
+        "prize_pool": 406.0,
+        "registered_players": 58,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 09:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "dct jovan",
+            "init_stack": 30852.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bobone4",
+            "init_stack": 16140.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "TOTSSS",
+            "init_stack": 13567.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "pukasimpi",
+            "init_stack": 11920.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "TheLuckyCat",
+            "init_stack": 9041.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "MonkeyRush",
+            "init_stack": 7585.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 3275.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "moplai",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "lugui0777",
+            "init_stack": 5473.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "TOTSSS",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "pukasimpi",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "TheLuckyCat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MonkeyRush",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "moplai",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lugui0777",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dct jovan",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "bobone4",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TOTSSS",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "pukasimpi",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "TOTSSS",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pukasimpi",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "dct jovan",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "TOTSSS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pukasimpi",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "pukasimpi",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "dct jovan",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "pukasimpi",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "dct jovan",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jd",
+        "flop_card_2": "Jc",
+        "flop_card_3": "Qc"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "dct jovan": {
+            "first_card": "Ad",
+            "second_card": "7c"
+        },
+        "pukasimpi": {
+            "first_card": "5d",
+            "second_card": "Qd"
+        }
+    },
+    "winners": {
+        "pukasimpi": {
+            "amount": 2400.0,
+            "pot_type": "pot"
+        }
+    }
+}

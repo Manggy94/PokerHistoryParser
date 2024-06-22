@@ -1,0 +1,138 @@
+{
+    "hand_id": "541906112614498643-7-1439583803",
+    "datetime": "14-08-2015 20:23:23",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172349",
+        "table_number": "338",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/14 20:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "baba59440",
+            "init_stack": 3005.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "jayce xxx x",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "stef-fb",
+            "init_stack": 1290.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 3610.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "quabiss",
+            "init_stack": 4470.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Idcwdp",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "As"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "quabiss",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Idcwdp",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "baba59440",
+                "action": "raises",
+                "amount": 2965.0
+            },
+            {
+                "player": "jayce xxx x",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2965.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "9c",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": "Kd"
+    },
+    "showdown": {
+        "baba59440": {
+            "first_card": "Ks",
+            "second_card": "Ad"
+        },
+        "manggy94": {
+            "first_card": "Ac",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 6010.0,
+            "pot_type": "pot"
+        }
+    }
+}

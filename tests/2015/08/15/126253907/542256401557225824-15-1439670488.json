@@ -1,0 +1,144 @@
+{
+    "hand_id": "542256401557225824-15-1439670488",
+    "datetime": "15-08-2015 20:28:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253907",
+        "table_number": "351",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/15 20:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "LarsOlSkool",
+            "init_stack": 5870.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "rack-sky",
+            "init_stack": 2995.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "FREEDY43",
+            "init_stack": 7400.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "benji2f",
+            "init_stack": 4860.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Sooooophie",
+            "init_stack": 2865.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8d",
+        "second_card": "Js"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Sooooophie",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "LarsOlSkool",
+                "action": "raises",
+                "amount": 5790.0
+            },
+            {
+                "player": "rack-sky",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FREEDY43",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "benji2f",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sooooophie",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {
+        "LarsOlSkool raises 5790 to 5870 and is all-in\nrack-sky folds\nFREEDY43 folds\nbenji2f folds\nmanggy94 folds\nSooooophie folds\nLarsOlSkool": {
+            "first_card": "Ac",
+            "second_card": "3h"
+        }
+    },
+    "winners": {
+        "LarsOlSkool": {
+            "amount": 5990.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,196 @@
+{
+    "hand_id": "539281767337558454-51-1438951183",
+    "datetime": "07-08-2015 12:39:43",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 13,
+        "ante": 70.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561321",
+        "table_number": "437",
+        "prize_pool": 100.0,
+        "registered_players": 3950,
+        "speed": "turbo",
+        "start_date": "2015/08/07 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jackland",
+            "init_stack": 7342.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Letyuna",
+            "init_stack": 11659.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "MINOUCHE23",
+            "init_stack": 2575.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 9865.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "elodie26100",
+            "init_stack": 6640.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "edenpark524",
+            "init_stack": 5130.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "MINOUCHE23",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jackland",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Letyuna",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "elodie26100",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "edenpark524",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MINOUCHE23",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "elodie26100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "edenpark524",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jackland",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "Letyuna",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MINOUCHE23",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 3120.0
+            },
+            {
+                "player": "jackland",
+                "action": "calls",
+                "amount": 3120.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "jackland",
+                "action": "bets",
+                "amount": 2952.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ac",
+        "flop_card_2": "Ts",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "jackland": {
+            "amount": 12312.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "hand_id": "555316774334103694-9-1442424126",
+    "datetime": "16-09-2015 17:22:06",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "129294762",
+        "table_number": "141",
+        "prize_pool": 150.0,
+        "registered_players": 4072,
+        "speed": "turbo",
+        "start_date": "2015/09/16 17:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "popeye42",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "K604",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Netheleya",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ptitpierrot",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 6355.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "sirmacdowell",
+            "init_stack": 2395.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "sirmacdowell",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "popeye42",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "K604",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Netheleya",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ptitpierrot",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "sirmacdowell",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sirmacdowell",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "popeye42",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sirmacdowell",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "popeye42",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sirmacdowell",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "popeye42",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "sirmacdowell",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "As",
+        "flop_card_2": "3h",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "7h"
+    },
+    "river": {
+        "river_card": "8d"
+    },
+    "showdown": {},
+    "winners": {
+        "popeye42": {
+            "amount": 360.0,
+            "pot_type": "pot"
+        }
+    }
+}

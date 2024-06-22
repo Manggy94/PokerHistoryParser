@@ -1,0 +1,174 @@
+{
+    "hand_id": "539281767337558454-31-1438950087",
+    "datetime": "07-08-2015 12:21:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561321",
+        "table_number": "437",
+        "prize_pool": 100.0,
+        "registered_players": 3950,
+        "speed": "turbo",
+        "start_date": "2015/08/07 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Kashmiri59",
+            "init_stack": 5010.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "adeliineaa24",
+            "init_stack": 160.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "WmySterOPliv",
+            "init_stack": 2735.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 5740.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "elodie26100",
+            "init_stack": 5080.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "LEGION1831",
+            "init_stack": 2765.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2c",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "name": "LEGION1831",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kashmiri59",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "adeliineaa24",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "WmySterOPliv",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "elodie26100",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LEGION1831",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Kashmiri59",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "adeliineaa24",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "WmySterOPliv",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "elodie26100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LEGION1831",
+                "action": "calls",
+                "amount": 75.0
+            },
+            {
+                "player": "Kashmiri59",
+                "action": "raises",
+                "amount": 375.0
+            },
+            {
+                "player": "LEGION1831",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Kashmiri59": {
+            "amount": 765.0,
+            "pot_type": "pot"
+        }
+    }
+}

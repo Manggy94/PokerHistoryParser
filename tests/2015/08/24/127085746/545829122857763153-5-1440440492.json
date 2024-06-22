@@ -1,0 +1,186 @@
+{
+    "hand_id": "545829122857763153-5-1440440492",
+    "datetime": "24-08-2015 18:21:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085746",
+        "table_number": "0336",
+        "prize_pool": 150.0,
+        "registered_players": 8729,
+        "speed": "turbo",
+        "start_date": "2015/08/24 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "sleven19",
+            "init_stack": 3045.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "laurics",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "blackjack90",
+            "init_stack": 3040.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "badboy84",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "vendetta8549",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "lechat20",
+            "init_stack": 3375.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Le Flow",
+            "init_stack": 2950.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "psychogirls",
+            "init_stack": 2750.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9s",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lechat20",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Le Flow",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "psychogirls",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sleven19",
+                "action": "raises",
+                "amount": 3005.0
+            },
+            {
+                "player": "laurics",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "blackjack90",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "badboy84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vendetta8549",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lechat20",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Le Flow",
+                "action": "calls",
+                "amount": 2910.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8c",
+        "flop_card_2": "Qs",
+        "flop_card_3": "7d"
+    },
+    "turn": {
+        "turn_card": "As"
+    },
+    "river": {
+        "river_card": "3s"
+    },
+    "showdown": {
+        "Le Flow": {
+            "first_card": "Jc",
+            "second_card": "Kh"
+        },
+        "sleven19": {
+            "first_card": "Ac",
+            "second_card": "6h"
+        }
+    },
+    "winners": {
+        "sleven19": {
+            "amount": 6055.0,
+            "pot_type": "pot"
+        }
+    }
+}

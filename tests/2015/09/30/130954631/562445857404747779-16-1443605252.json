@@ -1,0 +1,198 @@
+{
+    "hand_id": "562445857404747779-16-1443605252",
+    "datetime": "30-09-2015 09:27:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 7.0,
+        "bounty": 0.0,
+        "rake": 3.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "130954631",
+        "table_number": "002",
+        "prize_pool": 406.0,
+        "registered_players": 58,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 09:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "dct jovan",
+            "init_stack": 26547.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bobone4",
+            "init_stack": 19535.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "TOTSSS",
+            "init_stack": 11692.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "pukasimpi",
+            "init_stack": 11400.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "TheLuckyCat",
+            "init_stack": 9951.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "MonkeyRush",
+            "init_stack": 1430.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 7225.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "zebird",
+            "init_stack": 8300.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Td",
+        "second_card": "8c"
+    },
+    "postings": [
+        {
+            "name": "bobone4",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "TOTSSS",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pukasimpi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TheLuckyCat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MonkeyRush",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zebird",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "dct jovan",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "bobone4",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TOTSSS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zebird",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "zebird",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "dct jovan",
+                "action": "raises",
+                "amount": 675.0
+            },
+            {
+                "player": "zebird",
+                "action": "calls",
+                "amount": 675.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "zebird",
+                "action": "bets",
+                "amount": 2775.0
+            },
+            {
+                "player": "dct jovan",
+                "action": "raises",
+                "amount": 22497.0
+            },
+            {
+                "player": "zebird",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8s",
+        "flop_card_2": "Ad",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "dct jovan": {
+            "amount": 30822.0,
+            "pot_type": "pot"
+        }
+    }
+}

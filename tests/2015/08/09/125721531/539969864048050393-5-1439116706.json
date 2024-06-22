@@ -1,0 +1,195 @@
+{
+    "hand_id": "539969864048050393-5-1439116706",
+    "datetime": "09-08-2015 10:38:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "216",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "pacessien",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "-sofymdr-",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Yace388",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "poulpo94700",
+            "init_stack": 2965.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nico-82",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Ryan06",
+            "init_stack": 3145.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Ma Brendaaa",
+            "init_stack": 3030.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "gegettebmw",
+            "init_stack": 3045.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "4h"
+    },
+    "postings": [
+        {
+            "name": "Ma Brendaaa",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gegettebmw",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pacessien",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-sofymdr-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yace388",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "poulpo94700",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ryan06",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "Ma Brendaaa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gegettebmw",
+                "action": "raises",
+                "amount": 3005.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ryan06",
+                "action": "raises",
+                "amount": 100.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "Qc",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "Qd"
+    },
+    "river": {
+        "river_card": "Tc"
+    },
+    "showdown": {
+        "gegettebmw": {
+            "first_card": "6s",
+            "second_card": "Ah"
+        },
+        "Ryan06": {
+            "first_card": "9c",
+            "second_card": "2c"
+        }
+    },
+    "winners": {
+        "Ryan06": {
+            "amount": 100.0,
+            "pot_type": "side pot 1"
+        },
+        "gegettebmw": {
+            "amount": 6150.0,
+            "pot_type": "main pot"
+        }
+    }
+}

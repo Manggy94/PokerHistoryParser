@@ -1,0 +1,231 @@
+{
+    "hand_id": "568654782386929668-111-1444848255",
+    "datetime": "14-10-2015 18:44:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 7.0,
+        "bounty": 0.0,
+        "rake": 3.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 320.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132400259",
+        "table_number": "003",
+        "prize_pool": 1533.0,
+        "registered_players": 219,
+        "speed": "semiturbo",
+        "start_date": "2015/10/14 17:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "93HARDCORE",
+            "init_stack": 56801.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 24361.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-NAZGUL29-",
+            "init_stack": 15186.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "noelalexis",
+            "init_stack": 92925.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "La pasteque",
+            "init_stack": 122725.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "vinzouille13",
+            "init_stack": 16780.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "fettkorn",
+            "init_stack": 35230.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "whiterust",
+            "init_stack": 45118.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2c",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "93HARDCORE",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-NAZGUL29-",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "noelalexis",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "La pasteque",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vinzouille13",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fettkorn",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "whiterust",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "93HARDCORE",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "-NAZGUL29-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "noelalexis",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "La pasteque",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vinzouille13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fettkorn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "whiterust",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "93HARDCORE",
+                "action": "calls",
+                "amount": 1250.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "93HARDCORE",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 7560.0
+            },
+            {
+                "player": "93HARDCORE",
+                "action": "raises",
+                "amount": 46421.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 13981.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "2h",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "3c"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "2c",
+            "second_card": "7s"
+        },
+        "93HARDCORE": {
+            "first_card": "8h",
+            "second_card": "Qh"
+        }
+    },
+    "winners": {
+        "93HARDCORE": {
+            "amount": 83082.0,
+            "pot_type": "pot"
+        }
+    }
+}

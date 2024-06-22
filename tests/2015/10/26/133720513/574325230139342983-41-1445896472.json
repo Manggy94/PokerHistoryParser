@@ -1,0 +1,196 @@
+{
+    "hand_id": "574325230139342983-41-1445896472",
+    "datetime": "26-10-2015 21:54:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 9,
+        "ante": 75.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "LE TOTEM",
+        "tournament_id": "133720513",
+        "table_number": "0134",
+        "prize_pool": 7902.0,
+        "registered_players": 1384,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 21:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "LINO13000",
+            "init_stack": 29982.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Dan_per",
+            "init_stack": 9880.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 7960.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "MalcolmCrowe",
+            "init_stack": 25018.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "arctic11112",
+            "init_stack": 30120.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Chaiseman",
+            "init_stack": 37040.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "LINO13000",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dan_per",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MalcolmCrowe",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "arctic11112",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Chaiseman",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LINO13000",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Dan_per",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MalcolmCrowe",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "arctic11112",
+                "action": "raises",
+                "amount": 896.0
+            },
+            {
+                "player": "Chaiseman",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LINO13000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dan_per",
+                "action": "calls",
+                "amount": 896.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Dan_per",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "arctic11112",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Dan_per",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "arctic11112",
+                "action": "bets",
+                "amount": 2121.0
+            },
+            {
+                "player": "Dan_per",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3s",
+        "flop_card_2": "Qc",
+        "flop_card_3": "9d"
+    },
+    "turn": {
+        "turn_card": "3c"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "arctic11112": {
+            "amount": 6363.0,
+            "pot_type": "pot"
+        }
+    }
+}

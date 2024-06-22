@@ -1,0 +1,293 @@
+{
+    "hand_id": "540379475079070083-26-1439215789",
+    "datetime": "10-08-2015 14:09:49",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816901",
+        "table_number": "386",
+        "prize_pool": 100.0,
+        "registered_players": 4083,
+        "speed": "turbo",
+        "start_date": "2015/08/10 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "IXX764",
+            "init_stack": 11497.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "-DUWEN-",
+            "init_stack": 21535.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "oliveneoo",
+            "init_stack": 10730.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 7175.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bruce58190",
+            "init_stack": 13020.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "_GAMBINO_",
+            "init_stack": 12265.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "littleson",
+            "init_stack": 1675.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Lionnel 30",
+            "init_stack": 2160.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "mikaemi60",
+            "init_stack": 14575.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "3s"
+    },
+    "postings": [
+        {
+            "name": "oliveneoo",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "IXX764",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-DUWEN-",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bruce58190",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "_GAMBINO_",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "littleson",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lionnel 30",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mikaemi60",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "oliveneoo",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bruce58190",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "_GAMBINO_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "littleson",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lionnel 30",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mikaemi60",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "IXX764",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-DUWEN-",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "oliveneoo",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "oliveneoo",
+                "action": "bets",
+                "amount": 400.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bruce58190",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "mikaemi60",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-DUWEN-",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "oliveneoo",
+                "action": "calls",
+                "amount": 400.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "oliveneoo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bruce58190",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "-DUWEN-",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "oliveneoo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bruce58190",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "-DUWEN-",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "9s",
+        "flop_card_3": "Ac"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": "Qs"
+    },
+    "showdown": {
+        "-DUWEN-": {
+            "first_card": "Qh",
+            "second_card": "Td"
+        },
+        "oliveneoo": {
+            "first_card": "9c",
+            "second_card": "7c"
+        },
+        "bruce58190": {
+            "first_card": "Ad",
+            "second_card": "5c"
+        }
+    },
+    "winners": {
+        "bruce58190": {
+            "amount": 4760.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "hand_id": "544802389450817537-9-1438958893",
+    "datetime": "07-08-2015 14:48:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Sit&Go Freeroll",
+        "tournament_id": "126846691",
+        "table_number": "0",
+        "prize_pool": 0.1,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/08/07 14:42:13 UTC",
+        "levels_structure": [],
+        "tournament_type": "sitngo"
+    },
+    "max_players": 10,
+    "button_seat": 7,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "moviolitini",
+            "init_stack": 5935.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Kind_PP",
+            "init_stack": 1380.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "lafacture",
+            "init_stack": 1485.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 3190.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "ddel49",
+            "init_stack": 3010.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ddel49",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "moviolitini",
+                "action": "raises",
+                "amount": 5895.0
+            },
+            {
+                "player": "Kind_PP",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lafacture",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ddel49",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {
+        "moviolitini raises 5895 to 5935 and is all-in\nKind_PP folds\nlafacture folds\nmanggy94 folds\nddel49 folds\nmoviolitini": {
+            "first_card": "6s",
+            "second_card": "2c"
+        }
+    },
+    "winners": {
+        "moviolitini": {
+            "amount": 5995.0,
+            "pot_type": "pot"
+        }
+    }
+}

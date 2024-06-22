@@ -1,0 +1,221 @@
+{
+    "hand_id": "538925989426626570-73-1438872053",
+    "datetime": "06-08-2015 14:40:53",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 16,
+        "ante": 135.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "PMBM37",
+            "init_stack": 33122.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 23395.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "mumu2411",
+            "init_stack": 7115.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Emilayy",
+            "init_stack": 13640.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Kingofsicile",
+            "init_stack": 29426.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "MoiMoi60",
+            "init_stack": 49096.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "5s"
+    },
+    "postings": [
+        {
+            "name": "Emilayy",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kingofsicile",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PMBM37",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mumu2411",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MoiMoi60",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Emilayy",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Kingofsicile",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "MoiMoi60",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PMBM37",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "mumu2411",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Emilayy",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "Kingofsicile",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Emilayy",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "Kingofsicile",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PMBM37",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Emilayy",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Emilayy",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "5d",
+        "flop_card_2": "9s",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "9d"
+    },
+    "river": {
+        "river_card": "Ad"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "4s",
+            "second_card": "5s"
+        },
+        "Emilayy": {
+            "first_card": "Jc",
+            "second_card": "Tc"
+        }
+    },
+    "winners": {
+        "Emilayy": {
+            "amount": 12810.0,
+            "pot_type": "pot"
+        }
+    }
+}

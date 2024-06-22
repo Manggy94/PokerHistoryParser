@@ -1,0 +1,136 @@
+{
+    "hand_id": "609437124655054849-37-1450729093",
+    "datetime": "21-12-2015 20:18:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block Winamax Poker Tour",
+        "tournament_id": "141895638",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/12/21 19:52:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 3,
+    "players": {
+        "3": {
+            "seat": 3,
+            "name": "KesKillA",
+            "init_stack": 9932.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 5068.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jh",
+        "second_card": "Qc"
+    },
+    "postings": [
+        {
+            "name": "KesKillA",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "KesKillA",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "KesKillA",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "KesKillA",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 4248.0
+            },
+            {
+                "player": "KesKillA",
+                "action": "calls",
+                "amount": 4248.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "Ah",
+        "flop_card_3": "Qh"
+    },
+    "turn": {
+        "turn_card": "Th"
+    },
+    "river": {
+        "river_card": "5c"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Jh",
+            "second_card": "Qc"
+        },
+        "KesKillA": {
+            "first_card": "8h",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "KesKillA": {
+            "amount": 10136.0,
+            "pot_type": "pot"
+        }
+    }
+}

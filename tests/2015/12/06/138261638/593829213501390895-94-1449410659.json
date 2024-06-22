@@ -1,0 +1,185 @@
+{
+    "hand_id": "593829213501390895-94-1449410659",
+    "datetime": "06-12-2015 14:04:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138261638",
+        "table_number": "046",
+        "prize_pool": 3726.0,
+        "registered_players": 828,
+        "speed": "normal",
+        "start_date": "2015/12/06 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 10738.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "afogal1976",
+            "init_stack": 3450.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BEINGOFLIGHT",
+            "init_stack": 28580.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-sgayou-",
+            "init_stack": 6617.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "puce 09",
+            "init_stack": 40314.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "pluck",
+            "init_stack": 29676.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4h",
+        "second_card": "3h"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "afogal1976",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BEINGOFLIGHT",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-sgayou-",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "puce 09",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pluck",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "afogal1976",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "BEINGOFLIGHT",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-sgayou-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "puce 09",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "pluck",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "afogal1976",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "puce 09",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "Ad",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "puce 09": {
+            "amount": 2760.0,
+            "pot_type": "pot"
+        }
+    }
+}

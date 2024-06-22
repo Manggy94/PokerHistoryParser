@@ -1,0 +1,217 @@
+{
+    "hand_id": "538925989426626574-9-1438872737",
+    "datetime": "06-08-2015 14:52:17",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 20,
+        "ante": 350.0,
+        "sb": 1500.0,
+        "bb": 3000.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 7,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Kingofsicile",
+            "init_stack": 52578.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fsraerdah",
+            "init_stack": 57681.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "MoiMoi60",
+            "init_stack": 41278.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "mayous974",
+            "init_stack": 42680.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 14471.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "PMBM37",
+            "init_stack": 52312.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "7c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PMBM37",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kingofsicile",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fsraerdah",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MoiMoi60",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mayous974",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PMBM37",
+            "amount": 3000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Kingofsicile",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fsraerdah",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "MoiMoi60",
+                "action": "raises",
+                "amount": 3000.0
+            },
+            {
+                "player": "mayous974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PMBM37",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fsraerdah",
+                "action": "calls",
+                "amount": 3000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "fsraerdah",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "MoiMoi60",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "fsraerdah",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "MoiMoi60",
+                "action": "bets",
+                "amount": 3000.0
+            },
+            {
+                "player": "fsraerdah",
+                "action": "calls",
+                "amount": 3000.0
+            }
+        ],
+        "river": [
+            {
+                "player": "fsraerdah",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "MoiMoi60",
+                "action": "bets",
+                "amount": 3000.0
+            },
+            {
+                "player": "fsraerdah",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2s",
+        "flop_card_2": "6c",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "3c"
+    },
+    "showdown": {},
+    "winners": {
+        "MoiMoi60": {
+            "amount": 27600.0,
+            "pot_type": "pot"
+        }
+    }
+}

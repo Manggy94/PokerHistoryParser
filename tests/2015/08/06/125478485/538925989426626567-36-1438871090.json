@@ -1,0 +1,179 @@
+{
+    "hand_id": "538925989426626567-36-1438871090",
+    "datetime": "06-08-2015 14:24:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "zinc 19",
+            "init_stack": 3485.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 9740.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "El diablo om",
+            "init_stack": 17887.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "R4Gn4TiK",
+            "init_stack": 745.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "name": "El diablo om",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "R4Gn4TiK",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zinc 19",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "El diablo om",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "R4Gn4TiK",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "zinc 19",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "El diablo om",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "R4Gn4TiK",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "El diablo om",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zinc 19",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "El diablo om",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zinc 19",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "El diablo om",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zinc 19",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3h",
+        "flop_card_2": "Ks",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "2d"
+    },
+    "showdown": {
+        "El diablo om": {
+            "first_card": "9c",
+            "second_card": "5s"
+        },
+        "zinc 19": {
+            "first_card": "7s",
+            "second_card": "7d"
+        }
+    },
+    "winners": {
+        "zinc 19": {
+            "amount": 1360.0,
+            "pot_type": "pot"
+        }
+    }
+}

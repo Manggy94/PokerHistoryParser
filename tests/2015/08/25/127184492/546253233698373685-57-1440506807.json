@@ -1,0 +1,148 @@
+{
+    "hand_id": "546253233698373685-57-1440506807",
+    "datetime": "25-08-2015 12:46:47",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "052",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 18282.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "pyrat64",
+            "init_stack": 4092.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gazidaniel",
+            "init_stack": 10770.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "vengachapati",
+            "init_stack": 32297.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "nounours503",
+            "init_stack": 5096.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "Td"
+    },
+    "postings": [
+        {
+            "name": "nounours503",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pyrat64",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gazidaniel",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vengachapati",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nounours503",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pyrat64",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gazidaniel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vengachapati",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nounours503",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 2000.0,
+            "pot_type": "pot"
+        }
+    }
+}

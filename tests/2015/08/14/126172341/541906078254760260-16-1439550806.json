@@ -1,0 +1,269 @@
+{
+    "hand_id": "541906078254760260-16-1439550806",
+    "datetime": "14-08-2015 11:13:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172341",
+        "table_number": "323",
+        "prize_pool": 100.0,
+        "registered_players": 4249,
+        "speed": "turbo",
+        "start_date": "2015/08/14 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "titi835001",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Tomacito347",
+            "init_stack": 12115.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "jazzman69",
+            "init_stack": 1135.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "blufeur13120",
+            "init_stack": 2240.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "serekoum",
+            "init_stack": 5315.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jeandan70",
+            "init_stack": 8560.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "pierro 67",
+            "init_stack": 2830.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 1405.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "wwf1811",
+            "init_stack": 13140.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "4h"
+    },
+    "postings": [
+        {
+            "name": "wwf1811",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "titi835001",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tomacito347",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jazzman69",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "blufeur13120",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "serekoum",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jeandan70",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pierro 67",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wwf1811",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "titi835001",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Tomacito347",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jazzman69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "blufeur13120",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "serekoum",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jeandan70",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pierro 67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wwf1811",
+                "action": "calls",
+                "amount": 250.0
+            },
+            {
+                "player": "titi835001",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "wwf1811",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "titi835001",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "wwf1811",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "wwf1811",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "titi835001",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "wwf1811",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "river": [
+            {
+                "player": "wwf1811",
+                "action": "bets",
+                "amount": 2000.0
+            },
+            {
+                "player": "titi835001",
+                "action": "calls",
+                "amount": 2000.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "Jc",
+        "flop_card_3": "Jh"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "titi835001": {
+            "first_card": "4d",
+            "second_card": "4c"
+        },
+        "wwf1811": {
+            "first_card": "Tc",
+            "second_card": "Js"
+        }
+    },
+    "winners": {
+        "wwf1811": {
+            "amount": 7450.0,
+            "pot_type": "pot"
+        }
+    }
+}

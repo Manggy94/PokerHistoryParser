@@ -1,0 +1,175 @@
+{
+    "hand_id": "538925989426626562-16-1438869812",
+    "datetime": "06-08-2015 14:03:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "isabella87",
+            "init_stack": 3500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "domi110965",
+            "init_stack": 4780.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 5335.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JteBaise31",
+            "init_stack": 2830.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Gwada-Fan",
+            "init_stack": 5280.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "RoyalFlush95",
+            "init_stack": 3590.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "domi110965",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "JteBaise31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gwada-Fan",
+                "action": "raises",
+                "amount": 240.0
+            },
+            {
+                "player": "RoyalFlush95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "isabella87",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "domi110965",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 240.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 680.0
+            },
+            {
+                "player": "Gwada-Fan",
+                "action": "calls",
+                "amount": 680.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2040.0
+            },
+            {
+                "player": "Gwada-Fan",
+                "action": "raises",
+                "amount": 2240.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2240.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2h",
+        "flop_card_2": "Ts",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "Qs"
+    },
+    "river": {
+        "river_card": "9c"
+    },
+    "showdown": {
+        "Gwada-Fan": {
+            "first_card": "Qh",
+            "second_card": "Ac"
+        },
+        "manggy94": {
+            "first_card": "As",
+            "second_card": "7s"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 10600.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,175 @@
+{
+    "hand_id": "598909738905763841-6-1450367052",
+    "datetime": "17-12-2015 15:44:12",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.45,
+        "bounty": 0.0,
+        "rake": 0.05
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 29.7,
+        "registered_players": 26,
+        "speed": "turbo",
+        "start_date": "2015/12/17 15:40:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 410.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "caroun63",
+            "init_stack": 310.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "REDA69230",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "psbond77",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "mans69",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "jessas14",
+            "init_stack": 420.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8h",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "name": "caroun63",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "REDA69230",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "psbond77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mans69",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "jessas14",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "caroun63",
+                "action": "calls",
+                "amount": 15.0
+            },
+            {
+                "player": "REDA69230",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "caroun63",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "REDA69230",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mans69",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "jessas14",
+                "action": "bets",
+                "amount": 30.0
+            },
+            {
+                "player": "caroun63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "REDA69230",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mans69",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "8d",
+        "flop_card_3": "4h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "jessas14": {
+            "amount": 150.0,
+            "pot_type": "pot"
+        }
+    }
+}

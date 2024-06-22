@@ -1,0 +1,194 @@
+{
+    "hand_id": "594319995119337482-110-1449493654",
+    "datetime": "07-12-2015 13:07:34",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 29,
+        "ante": 2500.0,
+        "sb": 12500.0,
+        "bb": 25000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "009",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "merguez49",
+            "init_stack": 130621.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 94008.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "WuForever",
+            "init_stack": 250383.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "AirAmerikA",
+            "init_stack": 423434.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "toninosniper",
+            "init_stack": 175676.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "grmax",
+            "init_stack": 40618.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "critinuma",
+            "init_stack": 45792.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kh",
+        "second_card": "5d"
+    },
+    "postings": [
+        {
+            "name": "grmax",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "critinuma",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "merguez49",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "WuForever",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AirAmerikA",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "toninosniper",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "grmax",
+            "amount": 12500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "critinuma",
+            "amount": 25000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "merguez49",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "WuForever",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AirAmerikA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "grmax",
+                "action": "raises",
+                "amount": 13118.0
+            },
+            {
+                "player": "critinuma",
+                "action": "calls",
+                "amount": 13118.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2s",
+        "flop_card_2": "3s",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": "6d"
+    },
+    "showdown": {
+        "grmax": {
+            "first_card": "Ks",
+            "second_card": "2h"
+        },
+        "critinuma": {
+            "first_card": "Qd",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "critinuma": {
+            "amount": 93736.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "hand_id": "541906086844694720-10-1439559919",
+    "datetime": "14-08-2015 13:45:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172343",
+        "table_number": "191",
+        "prize_pool": 100.0,
+        "registered_players": 4436,
+        "speed": "turbo",
+        "start_date": "2015/08/14 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "guilola16",
+            "init_stack": 2020.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manu1989",
+            "init_stack": 2195.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 3350.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lolopaizay",
+            "init_stack": 10700.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "legeek27",
+            "init_stack": 2790.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Woon-woon",
+            "init_stack": 15070.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Restonspolis",
+            "init_stack": 7140.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "drom-adair",
+            "init_stack": 2830.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "titi170773",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jh",
+        "second_card": "2d"
+    },
+    "postings": [
+        {
+            "name": "drom-adair",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "titi170773",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "guilola16",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manu1989",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lolopaizay",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "legeek27",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "Woon-woon",
+                "action": "raises",
+                "amount": 14990.0
+            },
+            {
+                "player": "Restonspolis",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "drom-adair",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "titi170773",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lolopaizay",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "legeek27",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Woon-woon": {
+            "amount": 15350.0,
+            "pot_type": "pot"
+        }
+    }
+}

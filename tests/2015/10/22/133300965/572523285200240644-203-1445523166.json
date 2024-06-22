@@ -1,0 +1,205 @@
+{
+    "hand_id": "572523285200240644-203-1445523166",
+    "datetime": "22-10-2015 14:12:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 16,
+        "ante": 500.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133300965",
+        "table_number": "003",
+        "prize_pool": 1662.5,
+        "registered_players": 475,
+        "speed": "semiturbo",
+        "start_date": "2015/10/22 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "FraBaMMDXCII",
+            "init_stack": 109586.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Eloube84",
+            "init_stack": 122060.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Lorman67",
+            "init_stack": 243940.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 81668.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "La je di oui",
+            "init_stack": 149285.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "3s"
+    },
+    "postings": [
+        {
+            "name": "FraBaMMDXCII",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Eloube84",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lorman67",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "La je di oui",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "FraBaMMDXCII",
+            "amount": 2000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Eloube84",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Lorman67",
+                "action": "calls",
+                "amount": 4000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "La je di oui",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FraBaMMDXCII",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "Eloube84",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "FraBaMMDXCII",
+                "action": "bets",
+                "amount": 6000.0
+            },
+            {
+                "player": "Eloube84",
+                "action": "calls",
+                "amount": 6000.0
+            },
+            {
+                "player": "Lorman67",
+                "action": "calls",
+                "amount": 6000.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "FraBaMMDXCII",
+                "action": "bets",
+                "amount": 14000.0
+            },
+            {
+                "player": "Eloube84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lorman67",
+                "action": "calls",
+                "amount": 14000.0
+            }
+        ],
+        "river": [
+            {
+                "player": "FraBaMMDXCII",
+                "action": "bets",
+                "amount": 22000.0
+            },
+            {
+                "player": "Lorman67",
+                "action": "calls",
+                "amount": 22000.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "6s",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "7c"
+    },
+    "river": {
+        "river_card": "Ac"
+    },
+    "showdown": {
+        "FraBaMMDXCII": {
+            "first_card": "9c",
+            "second_card": "8d"
+        },
+        "Lorman67": {
+            "first_card": "Kh",
+            "second_card": "Kd"
+        }
+    },
+    "winners": {
+        "Lorman67": {
+            "amount": 104500.0,
+            "pot_type": "pot"
+        }
+    }
+}

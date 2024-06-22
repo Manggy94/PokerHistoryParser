@@ -1,0 +1,199 @@
+{
+    "hand_id": "590114019545710607-6-1448727689",
+    "datetime": "28-11-2015 16:21:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "137396627",
+        "table_number": "014",
+        "prize_pool": 1066.5,
+        "registered_players": 237,
+        "speed": "turbo",
+        "start_date": "2015/11/28 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "siciliano300",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "kiki38200",
+            "init_stack": 13075.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "bobone4",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "samuuus",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 2950.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "ElPaddre41",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Darkchoco",
+            "init_stack": 16950.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "soph69",
+            "init_stack": 7300.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "kiki38200",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "bobone4",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "samuuus",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ElPaddre41",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Darkchoco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "soph69",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "siciliano300",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kiki38200",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bobone4",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "bobone4",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "soph69",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "bobone4",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "soph69",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "bobone4",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "soph69",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "bobone4",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3h",
+        "flop_card_2": "3d",
+        "flop_card_3": "6s"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "7c"
+    },
+    "showdown": {},
+    "winners": {
+        "soph69": {
+            "amount": 825.0,
+            "pot_type": "pot"
+        }
+    }
+}

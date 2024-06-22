@@ -1,0 +1,223 @@
+{
+    "hand_id": "540379118596784129-2-1439199124",
+    "datetime": "10-08-2015 09:32:04",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1200.0,
+        "registered_players": 99,
+        "speed": "normal",
+        "start_date": "2015/08/10 09:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "BRINOU67",
+            "init_stack": 19900.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 8150.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Yazco",
+            "init_stack": 19350.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lapiaz39",
+            "init_stack": 19900.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "lucky_good",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "neumohr",
+            "init_stack": 19350.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "K-l-K",
+            "init_stack": 33350.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "simba76170",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9s",
+        "second_card": "3c"
+    },
+    "postings": [
+        {
+            "name": "lapiaz39",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lucky_good",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "neumohr",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "K-l-K",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "simba76170",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BRINOU67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yazco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lapiaz39",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "lucky_good",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "lapiaz39",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lucky_good",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "neumohr",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "K-l-K",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "lapiaz39",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lucky_good",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "neumohr",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "K-l-K",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "lapiaz39",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lucky_good",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "neumohr",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "9h",
+        "flop_card_3": "As"
+    },
+    "turn": {
+        "turn_card": "6c"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {
+        "lapiaz39 checks\nlucky_good checks\nneumohr checks\nK-l-K bets 100\nlapiaz39 folds\nlucky_good folds\nneumohr folds\nK-l-K": {
+            "first_card": "Qc",
+            "second_card": "8d"
+        }
+    },
+    "winners": {
+        "K-l-K": {
+            "amount": 500.0,
+            "pot_type": "pot"
+        }
+    }
+}

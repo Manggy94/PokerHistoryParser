@@ -1,0 +1,179 @@
+{
+    "hand_id": "572026580822392836-83-1445415493",
+    "datetime": "21-10-2015 08:18:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 5,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 841.5,
+        "registered_players": 187,
+        "speed": "normal",
+        "start_date": "2015/10/21 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 4,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "pistak777",
+            "init_stack": 45170.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 27343.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "bastien4218",
+            "init_stack": 14758.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "slav4ella",
+            "init_stack": 12729.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "3h"
+    },
+    "postings": [
+        {
+            "name": "slav4ella",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pistak777",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bastien4218",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "slav4ella",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "pistak777",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bastien4218",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "slav4ella",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "pistak777",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "slav4ella",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pistak777",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "slav4ella",
+                "action": "bets",
+                "amount": 506.0
+            },
+            {
+                "player": "pistak777",
+                "action": "calls",
+                "amount": 506.0
+            }
+        ],
+        "river": [
+            {
+                "player": "slav4ella",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pistak777",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "8c",
+        "flop_card_3": "2c"
+    },
+    "turn": {
+        "turn_card": "Qh"
+    },
+    "river": {
+        "river_card": "Qs"
+    },
+    "showdown": {
+        "pistak777": {
+            "first_card": "Td",
+            "second_card": "9h"
+        },
+        "slav4ella": {
+            "first_card": "Js",
+            "second_card": "7d"
+        }
+    },
+    "winners": {
+        "slav4ella": {
+            "amount": 1932.0,
+            "pot_type": "pot"
+        }
+    }
+}

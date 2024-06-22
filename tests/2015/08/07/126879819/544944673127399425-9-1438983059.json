@@ -1,0 +1,199 @@
+{
+    "hand_id": "544944673127399425-9-1438983059",
+    "datetime": "07-08-2015 21:30:59",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Sit&Go Freeroll",
+        "tournament_id": "126879819",
+        "table_number": "0",
+        "prize_pool": 0.1,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/08/07 21:19:35 UTC",
+        "levels_structure": [],
+        "tournament_type": "sitngo"
+    },
+    "max_players": 10,
+    "button_seat": 5,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "ju_al",
+            "init_stack": 1360.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2550.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "-999-",
+            "init_stack": 2665.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gadjetpat",
+            "init_stack": 1330.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "NoBs35",
+            "init_stack": 1510.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "eddylesau 76",
+            "init_stack": 2575.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "gustavio777",
+            "init_stack": 3010.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "gadjetpat",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "NoBs35",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "eddylesau 76",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "gustavio777",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ju_al",
+                "action": "raises",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "-999-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gadjetpat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NoBs35",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "eddylesau 76",
+                "action": "calls",
+                "amount": 60.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "NoBs35",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "eddylesau 76",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ju_al",
+                "action": "bets",
+                "amount": 1240.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1190.0
+            },
+            {
+                "player": "NoBs35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "eddylesau 76",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "8c",
+        "flop_card_3": "4h"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "3c"
+    },
+    "showdown": {
+        "ju_al": {
+            "first_card": "Ad",
+            "second_card": "Ah"
+        },
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "8s"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 1190.0,
+            "pot_type": "side pot 1"
+        },
+        "ju_al": {
+            "amount": 2990.0,
+            "pot_type": "main pot"
+        }
+    }
+}

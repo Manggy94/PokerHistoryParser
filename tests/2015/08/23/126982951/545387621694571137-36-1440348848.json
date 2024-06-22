@@ -1,0 +1,211 @@
+{
+    "hand_id": "545387621694571137-36-1440348848",
+    "datetime": "23-08-2015 16:54:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126982951",
+        "table_number": "640",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/23 16:30:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "VITALIS63",
+            "init_stack": 2805.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "silde7",
+            "init_stack": 3255.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "FORZA OM 13",
+            "init_stack": 6515.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 2130.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Sman069",
+            "init_stack": 2160.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nico-82",
+            "init_stack": 4645.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3s",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "VITALIS63",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "silde7",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "FORZA OM 13",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sman069",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nico-82",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "VITALIS63",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "silde7",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "FORZA OM 13",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sman069",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "VITALIS63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "silde7",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "silde7",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "FORZA OM 13",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "silde7",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "FORZA OM 13",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "silde7",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "FORZA OM 13",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Qs",
+        "flop_card_2": "Th",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "2d"
+    },
+    "river": {
+        "river_card": "As"
+    },
+    "showdown": {
+        "silde7": {
+            "first_card": "5c",
+            "second_card": "7s"
+        },
+        "FORZA OM 13": {
+            "first_card": "8d",
+            "second_card": "7d"
+        }
+    },
+    "winners": {
+        "FORZA OM 13": {
+            "amount": 465.0,
+            "pot_type": "pot"
+        }
+    }
+}

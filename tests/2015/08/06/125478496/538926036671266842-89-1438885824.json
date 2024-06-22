@@ -1,0 +1,203 @@
+{
+    "hand_id": "538926036671266842-89-1438885824",
+    "datetime": "06-08-2015 18:30:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 240.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 5000.0,
+        "registered_players": 242,
+        "speed": "normal",
+        "start_date": "2015/08/06 16:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Roronoa Z.",
+            "init_stack": 62786.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Pierrot.69",
+            "init_stack": 21125.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "LeBouliste44",
+            "init_stack": 195321.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "fa11",
+            "init_stack": 31995.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 88199.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qc",
+        "second_card": "8c"
+    },
+    "postings": [
+        {
+            "name": "Roronoa Z.",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pierrot.69",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LeBouliste44",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fa11",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Roronoa Z.",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Pierrot.69",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "LeBouliste44",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "fa11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "Roronoa Z.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pierrot.69",
+                "action": "raises",
+                "amount": 2000.0
+            },
+            {
+                "player": "LeBouliste44",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Pierrot.69",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "LeBouliste44",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 14200.0
+            },
+            {
+                "player": "Pierrot.69",
+                "action": "raises",
+                "amount": 2685.0
+            },
+            {
+                "player": "LeBouliste44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2685.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qh",
+        "flop_card_2": "7d",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": "6c"
+    },
+    "showdown": {
+        "Pierrot.69": {
+            "first_card": "Ks",
+            "second_card": "Ah"
+        },
+        "manggy94": {
+            "first_card": "Qc",
+            "second_card": "8c"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 47970.0,
+            "pot_type": "pot"
+        }
+    }
+}

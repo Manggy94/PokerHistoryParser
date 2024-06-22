@@ -1,0 +1,176 @@
+{
+    "hand_id": "539623453460791823-39-1439037495",
+    "datetime": "08-08-2015 12:38:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "526",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "chachnaq",
+            "init_stack": 16152.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Fredo extra",
+            "init_stack": 625.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "NINIE19841",
+            "init_stack": 18405.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "dulcecita",
+            "init_stack": 5680.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "chico89 x",
+            "init_stack": 2835.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 7560.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qd",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chachnaq",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fredo extra",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NINIE19841",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dulcecita",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "chachnaq",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Fredo extra",
+                "action": "raises",
+                "amount": 75.0
+            },
+            {
+                "player": "NINIE19841",
+                "action": "raises",
+                "amount": 17780.0
+            },
+            {
+                "player": "dulcecita",
+                "action": "calls",
+                "amount": 5630.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chachnaq",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6c",
+        "flop_card_2": "3d",
+        "flop_card_3": "9c"
+    },
+    "turn": {
+        "turn_card": "9d"
+    },
+    "river": {
+        "river_card": "5h"
+    },
+    "showdown": {
+        "Fredo extra": {
+            "first_card": "Jh",
+            "second_card": "Qh"
+        },
+        "dulcecita": {
+            "first_card": "Kc",
+            "second_card": "Ks"
+        },
+        "NINIE19841": {
+            "first_card": "7c",
+            "second_card": "7h"
+        }
+    },
+    "winners": {
+        "NINIE19841": {
+            "amount": 12725.0,
+            "pot_type": "side pot 1"
+        },
+        "dulcecita": {
+            "amount": 13085.0,
+            "pot_type": "main pot"
+        }
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "hand_id": "539969864048050602-9-1439118291",
+    "datetime": "09-08-2015 11:04:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 9,
+        "ante": 25.0,
+        "sb": 125.0,
+        "bb": 250.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "425",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "alittledream",
+            "init_stack": 4965.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 3790.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nico-82",
+            "init_stack": 13555.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "idaho94420",
+            "init_stack": 2530.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "NeRVouze68",
+            "init_stack": 6040.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "le-loup",
+            "init_stack": 6805.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "MIDE1991",
+            "init_stack": 6270.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "larnaqueuse0",
+            "init_stack": 7360.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "gringer 33",
+            "init_stack": 435.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5c",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "le-loup",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MIDE1991",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "alittledream",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nico-82",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "idaho94420",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NeRVouze68",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "larnaqueuse0",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gringer 33",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "le-loup",
+            "amount": 125.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "MIDE1991",
+            "amount": 250.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "larnaqueuse0",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gringer 33",
+                "action": "raises",
+                "amount": 160.0
+            },
+            {
+                "player": "alittledream",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "idaho94420",
+                "action": "raises",
+                "amount": 2095.0
+            },
+            {
+                "player": "NeRVouze68",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le-loup",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MIDE1991",
+                "action": "calls",
+                "amount": 2255.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "7s",
+        "flop_card_3": "9h"
+    },
+    "turn": {
+        "turn_card": "4h"
+    },
+    "river": {
+        "river_card": "7d"
+    },
+    "showdown": {
+        "idaho94420": {
+            "first_card": "Ac",
+            "second_card": "Qc"
+        },
+        "gringer 33": {
+            "first_card": "8c",
+            "second_card": "As"
+        },
+        "MIDE1991": {
+            "first_card": "8s",
+            "second_card": "9s"
+        }
+    },
+    "winners": {
+        "MIDE1991": {
+            "amount": 5770.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "hand_id": "539281771632525639-44-1438958116",
+    "datetime": "07-08-2015 14:35:16",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 19,
+        "ante": 250.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "326",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jcdu31",
+            "init_stack": 8908.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Tioloups",
+            "init_stack": 7135.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "arwin29",
+            "init_stack": 7325.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tebat40",
+            "init_stack": 16978.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mariktof",
+            "init_stack": 42340.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 7874.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "franceronge",
+            "init_stack": 33720.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ren.1945",
+            "init_stack": 24431.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "leoboss60",
+            "init_stack": 61700.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "Tioloups",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "arwin29",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jcdu31",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tebat40",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mariktof",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "franceronge",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ren.1945",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "leoboss60",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tioloups",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "arwin29",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "tebat40",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mariktof",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "franceronge",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ren.1945",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "leoboss60",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "jcdu31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tioloups",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "arwin29",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "arwin29",
+                "action": "bets",
+                "amount": 4575.0
+            },
+            {
+                "player": "mariktof",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "leoboss60",
+                "action": "calls",
+                "amount": 4575.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Tc",
+        "flop_card_2": "6d",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "Ah"
+    },
+    "river": {
+        "river_card": "7h"
+    },
+    "showdown": {
+        "arwin29": {
+            "first_card": "4s",
+            "second_card": "Td"
+        },
+        "leoboss60": {
+            "first_card": "Ks",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "leoboss60": {
+            "amount": 20150.0,
+            "pot_type": "pot"
+        }
+    }
+}

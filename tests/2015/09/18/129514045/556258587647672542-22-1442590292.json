@@ -1,0 +1,259 @@
+{
+    "hand_id": "556258587647672542-22-1442590292",
+    "datetime": "18-09-2015 15:31:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "129514045",
+        "table_number": "221",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/18 15:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2355.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "jean-lc",
+            "init_stack": 4070.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "raps77",
+            "init_stack": 9515.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Fiston95190",
+            "init_stack": 8349.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "celasse974",
+            "init_stack": 3551.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jackryan82",
+            "init_stack": 6270.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "jean lou2A",
+            "init_stack": 19240.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Lemauche 1er",
+            "init_stack": 8610.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "laurics",
+            "init_stack": 4880.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9d",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "jean-lc",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "raps77",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fiston95190",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "celasse974",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jackryan82",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jean lou2A",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lemauche 1er",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "laurics",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jean-lc",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "raps77",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Fiston95190",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "celasse974",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "jackryan82",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jean lou2A",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lemauche 1er",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "laurics",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jean-lc",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "raps77",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "raps77",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "celasse974",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "raps77",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "celasse974",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "raps77",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "celasse974",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "Js",
+        "flop_card_3": "3c"
+    },
+    "turn": {
+        "turn_card": "Ts"
+    },
+    "river": {
+        "river_card": "6d"
+    },
+    "showdown": {
+        "raps77": {
+            "first_card": "9c",
+            "second_card": "8d"
+        },
+        "celasse974": {
+            "first_card": "2c",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "celasse974": {
+            "amount": 1065.0,
+            "pot_type": "pot"
+        }
+    }
+}

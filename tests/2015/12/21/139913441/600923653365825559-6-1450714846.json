@@ -1,0 +1,223 @@
+{
+    "hand_id": "600923653365825559-6-1450714846",
+    "datetime": "21-12-2015 16:20:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "139913441",
+        "table_number": "022",
+        "prize_pool": 1813.5,
+        "registered_players": 403,
+        "speed": "turbo",
+        "start_date": "2015/12/21 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "FLOFLIFLOSC",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "patrick77000",
+            "init_stack": 11250.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "lihum",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Osco manosco",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "maximito0646",
+            "init_stack": 8700.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Sharky69",
+            "init_stack": 10650.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "zzz0zzz",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "patrick77000",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lihum",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Osco manosco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "maximito0646",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "Sharky69",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "zzz0zzz",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FLOFLIFLOSC",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "patrick77000",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "lihum",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "patrick77000",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "lihum",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "maximito0646",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sharky69",
+                "action": "calls",
+                "amount": 100.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "patrick77000",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Sharky69",
+                "action": "bets",
+                "amount": 350.0
+            },
+            {
+                "player": "patrick77000",
+                "action": "calls",
+                "amount": 350.0
+            }
+        ],
+        "river": [
+            {
+                "player": "patrick77000",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Sharky69",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8c",
+        "flop_card_2": "6c",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "8s"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {
+        "Sharky69": {
+            "first_card": "5c",
+            "second_card": "6s"
+        },
+        "patrick77000": {
+            "first_card": "8d",
+            "second_card": "Qc"
+        }
+    },
+    "winners": {
+        "patrick77000": {
+            "amount": 1400.0,
+            "pot_type": "pot"
+        }
+    }
+}

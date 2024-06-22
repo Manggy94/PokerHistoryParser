@@ -1,0 +1,185 @@
+{
+    "hand_id": "556729724085207088-112-1442670511",
+    "datetime": "19-09-2015 13:48:31",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 14,
+        "ante": 320.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "047",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Paranada",
+            "init_stack": 67568.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 90966.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "K_Or_p",
+            "init_stack": 211500.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Zissell",
+            "init_stack": 92800.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "_Missill_",
+            "init_stack": 60435.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Arciesis3.14",
+            "init_stack": 137743.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qd",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "K_Or_p",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Paranada",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Zissell",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "_Missill_",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Arciesis3.14",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "K_Or_p",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Zissell",
+                "action": "raises",
+                "amount": 3950.0
+            },
+            {
+                "player": "_Missill_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Arciesis3.14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Paranada",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 17320.0
+            },
+            {
+                "player": "K_Or_p",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Zissell",
+                "action": "calls",
+                "amount": 17320.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 51960.0
+            },
+            {
+                "player": "Zissell",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ac",
+        "flop_card_2": "As",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 103920.0,
+            "pot_type": "pot"
+        }
+    }
+}

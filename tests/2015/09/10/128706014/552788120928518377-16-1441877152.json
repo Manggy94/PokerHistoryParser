@@ -1,0 +1,257 @@
+{
+    "hand_id": "552788120928518377-16-1441877152",
+    "datetime": "10-09-2015 09:25:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "232",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "cocolatax67",
+            "init_stack": 2420.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Maje666",
+            "init_stack": 7236.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "viciousduck",
+            "init_stack": 2140.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Tango66",
+            "init_stack": 2700.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "The Red Hood",
+            "init_stack": 19985.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "tintin1231",
+            "init_stack": 4745.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "eve123",
+            "init_stack": 3260.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "darkclaude",
+            "init_stack": 3760.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 14555.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "cocolatax67",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Maje666",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "viciousduck",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tango66",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "The Red Hood",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tintin1231",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "eve123",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "darkclaude",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cocolatax67",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Maje666",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "viciousduck",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tango66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "The Red Hood",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "tintin1231",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "eve123",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "darkclaude",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1280.0
+            },
+            {
+                "player": "cocolatax67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Maje666",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "The Red Hood",
+                "action": "calls",
+                "amount": 1280.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "The Red Hood",
+                "action": "bets",
+                "amount": 3840.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 3840.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "The Red Hood",
+                "action": "bets",
+                "amount": 11520.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 9015.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kc",
+        "flop_card_2": "Td",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": "7d"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Js",
+            "second_card": "Jc"
+        },
+        "The Red Hood": {
+            "first_card": "5s",
+            "second_card": "3s"
+        }
+    },
+    "winners": {
+        "The Red Hood": {
+            "amount": 2505.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 29550.0,
+            "pot_type": "main pot"
+        }
+    }
+}

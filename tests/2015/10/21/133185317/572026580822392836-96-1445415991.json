@@ -1,0 +1,122 @@
+{
+    "hand_id": "572026580822392836-96-1445415991",
+    "datetime": "21-10-2015 08:26:31",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 6,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 841.5,
+        "registered_players": 187,
+        "speed": "normal",
+        "start_date": "2015/10/21 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 4,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "pistak777",
+            "init_stack": 51149.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 36503.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "bastien4218",
+            "init_stack": 12348.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "douvrain977",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "pistak777",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bastien4218",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pistak777",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bastien4218",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pistak777",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 870.0,
+            "pot_type": "pot"
+        }
+    }
+}

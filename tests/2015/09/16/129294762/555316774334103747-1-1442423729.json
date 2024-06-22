@@ -1,0 +1,181 @@
+{
+    "hand_id": "555316774334103747-1-1442423729",
+    "datetime": "16-09-2015 17:15:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "129294762",
+        "table_number": "194",
+        "prize_pool": 150.0,
+        "registered_players": 4072,
+        "speed": "turbo",
+        "start_date": "2015/09/16 17:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "-Marlin-",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "trin83",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "pilou1702",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "bab 14",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "lazar07",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "lazar07",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "-Marlin-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "trin83",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pilou1702",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bab 14",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "lazar07",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "lazar07",
+                "action": "bets",
+                "amount": 20.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bab 14",
+                "action": "calls",
+                "amount": 20.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "lazar07",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "bab 14",
+                "action": "calls",
+                "amount": 100.0
+            }
+        ],
+        "river": [
+            {
+                "player": "lazar07",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "bab 14",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7c",
+        "flop_card_2": "8h",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "Ts"
+    },
+    "showdown": {},
+    "winners": {
+        "lazar07": {
+            "amount": 450.0,
+            "pot_type": "pot"
+        },
+        "bab 14": {
+            "amount": 450.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "hand_id": "556729724085207048-35-1442665048",
+    "datetime": "19-09-2015 12:17:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "007",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "olivier17810",
+            "init_stack": 5257.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "lamorgane69",
+            "init_stack": 16725.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "I__o__I",
+            "init_stack": 19150.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "PILZ3",
+            "init_stack": 8295.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 21600.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lefavorie",
+            "init_stack": 15715.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "8d"
+    },
+    "postings": [
+        {
+            "name": "I__o__I",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PILZ3",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lefavorie",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "olivier17810",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lamorgane69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "I__o__I",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "PILZ3",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "lefavorie",
+                "action": "calls",
+                "amount": 400.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "I__o__I",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "PILZ3",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lefavorie",
+                "action": "bets",
+                "amount": 698.0
+            },
+            {
+                "player": "I__o__I",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PILZ3",
+                "action": "calls",
+                "amount": 698.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "PILZ3",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lefavorie",
+                "action": "bets",
+                "amount": 1406.0
+            },
+            {
+                "player": "PILZ3",
+                "action": "calls",
+                "amount": 1406.0
+            }
+        ],
+        "river": [
+            {
+                "player": "PILZ3",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lefavorie",
+                "action": "bets",
+                "amount": 1616.0
+            },
+            {
+                "player": "PILZ3",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ad",
+        "flop_card_2": "Js",
+        "flop_card_3": "2c"
+    },
+    "turn": {
+        "turn_card": "6h"
+    },
+    "river": {
+        "river_card": "Kh"
+    },
+    "showdown": {},
+    "winners": {
+        "lefavorie": {
+            "amount": 7624.0,
+            "pot_type": "pot"
+        }
+    }
+}

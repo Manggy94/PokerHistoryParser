@@ -1,0 +1,194 @@
+{
+    "hand_id": "556258798101069831-1-1442589305",
+    "datetime": "18-09-2015 15:15:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129514094",
+        "table_number": "006",
+        "prize_pool": 773.5,
+        "registered_players": 221,
+        "speed": "turbo",
+        "start_date": "2015/09/18 15:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "roubb",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "KILLgaranti",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "placeverte",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "DARADRIANO",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Jaan Tatikas",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Sexer89",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "SAMBAVATHB",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Berzakar",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8c",
+        "second_card": "Ad"
+    },
+    "postings": [
+        {
+            "name": "KILLgaranti",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "placeverte",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "DARADRIANO",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jaan Tatikas",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sexer89",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SAMBAVATHB",
+                "action": "raises",
+                "amount": 125.0
+            },
+            {
+                "player": "Berzakar",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "roubb",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KILLgaranti",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "placeverte",
+                "action": "calls",
+                "amount": 125.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "placeverte",
+                "action": "bets",
+                "amount": 50.0
+            },
+            {
+                "player": "SAMBAVATHB",
+                "action": "calls",
+                "amount": 50.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "placeverte",
+                "action": "bets",
+                "amount": 475.0
+            },
+            {
+                "player": "SAMBAVATHB",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "3h",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "placeverte": {
+            "amount": 950.0,
+            "pot_type": "pot"
+        }
+    }
+}

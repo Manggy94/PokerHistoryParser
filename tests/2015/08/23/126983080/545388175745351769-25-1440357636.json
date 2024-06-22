@@ -1,0 +1,186 @@
+{
+    "hand_id": "545388175745351769-25-1440357636",
+    "datetime": "23-08-2015 19:20:36",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Welcome Freeroll",
+        "tournament_id": "126983080",
+        "table_number": "088",
+        "prize_pool": 1000.0,
+        "registered_players": 1150,
+        "speed": "semiturbo",
+        "start_date": "2015/08/23 18:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Zeuss3102",
+            "init_stack": 5895.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bencbonsa",
+            "init_stack": 2075.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "TigriTheTank",
+            "init_stack": 2845.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Spainofom",
+            "init_stack": 6510.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Jojorob",
+            "init_stack": 5052.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "alexisworld",
+            "init_stack": 2810.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "SeLimBluFf",
+            "init_stack": 2785.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 10675.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "jmmecagoule",
+            "init_stack": 5233.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5c",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "bencbonsa",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "TigriTheTank",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Spainofom",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jojorob",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "alexisworld",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SeLimBluFf",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jmmecagoule",
+                "action": "raises",
+                "amount": 240.0
+            },
+            {
+                "player": "Zeuss3102",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bencbonsa",
+                "action": "raises",
+                "amount": 1715.0
+            },
+            {
+                "player": "TigriTheTank",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jmmecagoule",
+                "action": "calls",
+                "amount": 1715.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "3h",
+        "flop_card_3": "Kc"
+    },
+    "turn": {
+        "turn_card": "2d"
+    },
+    "river": {
+        "river_card": "3c"
+    },
+    "showdown": {
+        "jmmecagoule": {
+            "first_card": "Ad",
+            "second_card": "6c"
+        },
+        "bencbonsa": {
+            "first_card": "Ks",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "bencbonsa": {
+            "amount": 4270.0,
+            "pot_type": "pot"
+        }
+    }
+}

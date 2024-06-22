@@ -1,0 +1,164 @@
+{
+    "hand_id": "2595178390256353552-170-1672695788",
+    "datetime": "02-01-2023 21:43:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 9.0,
+        "bounty": 0.0,
+        "rake": 1.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 30.0,
+        "sb": 125.0,
+        "bb": 250.0
+    },
+    "tournament_info": {
+        "tournament_name": "W SERIES MASTER",
+        "tournament_id": "604237055",
+        "table_number": "0271",
+        "prize_pool": null,
+        "registered_players": null,
+        "speed": null,
+        "start_date": null,
+        "levels_structure": [],
+        "tournament_type": null
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 65700.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Fafa13OM84",
+            "init_stack": 19700.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "J--M",
+            "init_stack": 34530.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Allan-Q-Laid",
+            "init_stack": 29502.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CassisFruite",
+            "init_stack": 91243.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4c",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "Fafa13OM84",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "J--M",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Allan-Q-Laid",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fafa13OM84",
+            "amount": 125.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "J--M",
+            "amount": 250.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Allan-Q-Laid",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fafa13OM84",
+                "action": "calls",
+                "amount": 125.0
+            },
+            {
+                "player": "J--M",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Fafa13OM84",
+                "action": "bets",
+                "amount": 250.0
+            },
+            {
+                "player": "J--M",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ts",
+        "flop_card_2": "Th",
+        "flop_card_3": "Ah"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Fafa13OM84": {
+            "amount": 900.0,
+            "pot_type": "pot"
+        }
+    }
+}

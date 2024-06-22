@@ -1,0 +1,226 @@
+{
+    "hand_id": "546663063772725429-73-1440605433",
+    "datetime": "26-08-2015 16:10:33",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 21,
+        "ante": 400.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279913",
+        "table_number": "180",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/26 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "bilou11111",
+            "init_stack": 71418.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 43403.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "SuperPrezzy",
+            "init_stack": 44363.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lensois5962",
+            "init_stack": 73625.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "cat0268",
+            "init_stack": 29758.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Miss Kissy",
+            "init_stack": 15215.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "gil....les",
+            "init_stack": 16290.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "xxxThug13xxx",
+            "init_stack": 45994.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "elguajedu13",
+            "init_stack": 42793.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2d",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "lensois5962",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cat0268",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bilou11111",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SuperPrezzy",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Miss Kissy",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gil....les",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "xxxThug13xxx",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "elguajedu13",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lensois5962",
+            "amount": 2000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "cat0268",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Miss Kissy",
+                "action": "raises",
+                "amount": 10815.0
+            },
+            {
+                "player": "gil....les",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "xxxThug13xxx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "elguajedu13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bilou11111",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SuperPrezzy",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lensois5962",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cat0268",
+                "action": "calls",
+                "amount": 10815.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7h",
+        "flop_card_2": "Ts",
+        "flop_card_3": "5d"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "4h"
+    },
+    "showdown": {
+        "Miss Kissy": {
+            "first_card": "Ad",
+            "second_card": "Qh"
+        },
+        "cat0268": {
+            "first_card": "Kc",
+            "second_card": "Ks"
+        }
+    },
+    "winners": {
+        "cat0268": {
+            "amount": 35230.0,
+            "pot_type": "pot"
+        }
+    }
+}

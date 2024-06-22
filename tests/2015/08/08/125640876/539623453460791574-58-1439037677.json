@@ -1,0 +1,231 @@
+{
+    "hand_id": "539623453460791574-58-1439037677",
+    "datetime": "08-08-2015 12:41:17",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 13,
+        "ante": 70.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "277",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 6320.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Little liars",
+            "init_stack": 4900.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "x_thegame95",
+            "init_stack": 9420.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "spoutnik47",
+            "init_stack": 24836.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Alexandre 63",
+            "init_stack": 56663.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Dolibaz",
+            "init_stack": 23337.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "Dolibaz",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Little liars",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "x_thegame95",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "spoutnik47",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Alexandre 63",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dolibaz",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Little liars",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "x_thegame95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "spoutnik47",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "Alexandre 63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dolibaz",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Little liars",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "spoutnik47",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Little liars",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "spoutnik47",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Little liars",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "spoutnik47",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7c",
+        "flop_card_2": "4d",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "5d"
+    },
+    "showdown": {
+        "Little liars": {
+            "first_card": "Th",
+            "second_card": "Tc"
+        },
+        "spoutnik47": {
+            "first_card": "Jd",
+            "second_card": "Qs"
+        }
+    },
+    "winners": {
+        "spoutnik47": {
+            "amount": 8520.0,
+            "pot_type": "pot"
+        }
+    }
+}

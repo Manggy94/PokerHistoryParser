@@ -1,0 +1,258 @@
+{
+    "hand_id": "593828534896558086-30-1449413563",
+    "datetime": "06-12-2015 14:52:43",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138261480",
+        "table_number": "005",
+        "prize_pool": 3546.0,
+        "registered_players": 788,
+        "speed": "semiturbo",
+        "start_date": "2015/12/06 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "chnalex80",
+            "init_stack": 8570.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "TheKnarfy",
+            "init_stack": 14483.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "6.....9",
+            "init_stack": 25268.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 8646.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "siscolino",
+            "init_stack": 12938.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "frybronson",
+            "init_stack": 9370.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "roubb",
+            "init_stack": 20005.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "76logan",
+            "init_stack": 10720.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Tc",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "TheKnarfy",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "6.....9",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chnalex80",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "siscolino",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "frybronson",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "roubb",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "76logan",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TheKnarfy",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "6.....9",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "siscolino",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "frybronson",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "roubb",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "76logan",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "chnalex80",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "TheKnarfy",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "6.....9",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "TheKnarfy",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "siscolino",
+                "action": "bets",
+                "amount": 400.0
+            },
+            {
+                "player": "76logan",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "chnalex80",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TheKnarfy",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "siscolino",
+                "action": "bets",
+                "amount": 400.0
+            },
+            {
+                "player": "76logan",
+                "action": "calls",
+                "amount": 400.0
+            }
+        ],
+        "river": [
+            {
+                "player": "siscolino",
+                "action": "bets",
+                "amount": 1920.0
+            },
+            {
+                "player": "76logan",
+                "action": "calls",
+                "amount": 1920.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9h",
+        "flop_card_2": "2d",
+        "flop_card_3": "2s"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "5c"
+    },
+    "showdown": {
+        "siscolino": {
+            "first_card": "Jh",
+            "second_card": "8h"
+        },
+        "76logan": {
+            "first_card": "5h",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "76logan": {
+            "amount": 7680.0,
+            "pot_type": "pot"
+        }
+    }
+}

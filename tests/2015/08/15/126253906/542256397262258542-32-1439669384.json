@@ -1,0 +1,229 @@
+{
+    "hand_id": "542256397262258542-32-1439669384",
+    "datetime": "15-08-2015 20:09:44",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 16,
+        "ante": 135.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0365",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "PatronLover",
+            "init_stack": 17303.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "SAMOSSA",
+            "init_stack": 2010.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "sakura76700",
+            "init_stack": 20710.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Thunder.",
+            "init_stack": 13967.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "anhminh",
+            "init_stack": 23845.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 44828.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "mammyli",
+            "init_stack": 6902.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "nicodine",
+            "init_stack": 9225.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "blamic",
+            "init_stack": 40.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "blamic",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PatronLover",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SAMOSSA",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sakura76700",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Thunder.",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "anhminh",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mammyli",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nicodine",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "blamic",
+            "amount": 0.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PatronLover",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "SAMOSSA",
+                "action": "raises",
+                "amount": 675.0
+            },
+            {
+                "player": "sakura76700",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Thunder.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "anhminh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 6070.0
+            },
+            {
+                "player": "mammyli",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nicodine",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PatronLover",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4c",
+        "flop_card_2": "7c",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "2h"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {
+        "blamic": {
+            "first_card": "Ks",
+            "second_card": "9c"
+        },
+        "SAMOSSA": {
+            "first_card": "Kd",
+            "second_card": "6s"
+        },
+        "manggy94": {
+            "first_card": "Js",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 6070.0,
+            "pot_type": "side pot 1"
+        },
+        "SAMOSSA": {
+            "amount": 6070.0,
+            "pot_type": "main pot"
+        }
+    }
+}

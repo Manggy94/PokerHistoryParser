@@ -1,7 +1,7 @@
 """
 This module contains regular expressions used to parse Winamax hand histories.
 """
-
+# HAND HISTORY PATTERNS
 PLAYER_PATTERN = r"Seat (\d+): ([\w\s.\-&]{3,12}) \((\d+)(?:, ([\d\.]+)\D)?"
 BLINDS_PATTERN = r"(\n[\w\s\-&.]{3,12})\s+posts\s+(small blind|big blind|ante)\s+([\d.,]+)"
 NORMAL_BUY_IN_PATTERN = r"buyIn:\s+([\d.,]+)€\s+\+\s+([\d.,]+)€"
@@ -14,7 +14,7 @@ LEVEL_PATTERN = r"level: (\d+)"
 MAX_PLAYERS_PATTERN = r"(\d+)-max"
 BUTTON_SEAT_PATTERN = r"Seat #(\d+) is the button"
 TABLE_NAME_PATTERN = r"Table: '(.*)' "
-TOURNAMENT_INFO_PATTERN = r"Table: [\'\"]([\w\s\-&\€]+)\((\d+)\)\#(\d+)"
+TOURNAMENT_INFO_PATTERN = r"Table: [\'\"]([\w\s\-&\€\:]+)\((\d+)\)\#(\d+)"
 TABLE_IDENT_PATTERN = r"(\(\d+\)#\d+)"
 HERO_HAND_PATTERN = r"Dealt to ([\w\s.\-&]{3,12}) \[(\w\w) (\w\w)\]"
 FLOP_PATTERN = r"\*\*\* FLOP \*\*\* \[(\w\w) (\w\w) (\w\w)\]"
@@ -29,5 +29,13 @@ FLOP_ACTION_PATTERN = r"\*\*\*\sFLOP\s\*\*\*\s\[[\w\s]+\]([&\w\s.€-]+)"
 TURN_ACTION_PATTERN = r"\*\*\*\sTURN\s\*\*\*\s\[[\w\s]+\]\[[\w\s]+\]([&\w\s.€-]+)"
 RIVER_ACTION_PATTERN = r"\*\*\*\sRIVER\s\*\*\*\s\[[\w\s]+\]\[[\w\s]+\]([&\w\s.€-]+)"
 STREET_ACTION_PATTERNS = [PREFLOP_ACTION_PATTERN, FLOP_ACTION_PATTERN, TURN_ACTION_PATTERN, RIVER_ACTION_PATTERN]
+# TOURNAMENT INFO PATTERNS
+PRIZE_POOL_PATTERN = r"Prizepool\s+:\s+([\d.]+)"
+REGISTERED_PLAYERS_PATTERN = r"Registered\s+players\s+:\s+(\d+)"
+SPEED_PATTERN = r"Speed\s+:\s+(\w+)"
+LEVELS_STRUCTURE_PATTERN = r"Levels\s+:\s+\[((.){2,})\]"
+START_DATE_PATTERN = r"(\d{4}/\d{2}/\d{2}\s\d{2}:\d{2}:\d{2}\sUTC)"
+LEVEL_BLINDS_PATTERN = r"\,?([\dkM\,]+)-([\dkM\,]+):([\dkM\,]+)"
+TOURNAMENT_TYPE_PATTERN = r"Type\s+:\s+(\w+)"
 
 

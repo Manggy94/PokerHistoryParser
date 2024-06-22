@@ -1,0 +1,161 @@
+{
+    "hand_id": "592942745136398342-8-1449246083",
+    "datetime": "04-12-2015 16:21:23",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138055241",
+        "table_number": "005",
+        "prize_pool": 1458.0,
+        "registered_players": 324,
+        "speed": "turbo",
+        "start_date": "2015/12/04 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "loups48",
+            "init_stack": 9650.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "perturB",
+            "init_stack": 9750.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Djaystyle",
+            "init_stack": 10550.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "hunter 25",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Gun Rood",
+            "init_stack": 11175.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "fred12000",
+            "init_stack": 9200.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "alex tasi",
+            "init_stack": 9525.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 10300.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "hunter 25",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Gun Rood",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "fred12000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "alex tasi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "loups48",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "perturB",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Djaystyle",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "hunter 25",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gun Rood",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Djaystyle": {
+            "amount": 525.0,
+            "pot_type": "pot"
+        }
+    }
+}

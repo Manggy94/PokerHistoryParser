@@ -1,0 +1,217 @@
+{
+    "hand_id": "2595178390256353552-14-1672686911",
+    "datetime": "02-01-2023 19:15:11",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 9.0,
+        "bounty": 0.0,
+        "rake": 1.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 25.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "W SERIES MASTER",
+        "tournament_id": "604237055",
+        "table_number": "0271",
+        "prize_pool": null,
+        "registered_players": null,
+        "speed": null,
+        "start_date": null,
+        "levels_structure": [],
+        "tournament_type": null
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 11102.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Magayan56",
+            "init_stack": 20979.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "J--M",
+            "init_stack": 48769.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ADSHOW37",
+            "init_stack": 20425.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Mele Mele",
+            "init_stack": 19075.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CassisFruite",
+            "init_stack": 20325.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "Magayan56",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "J--M",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ADSHOW37",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Mele Mele",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Magayan56",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "J--M",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ADSHOW37",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "Mele Mele",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Magayan56",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "J--M",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Magayan56",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "J--M",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ADSHOW37",
+                "action": "bets",
+                "amount": 750.0
+            },
+            {
+                "player": "Magayan56",
+                "action": "calls",
+                "amount": 750.0
+            },
+            {
+                "player": "J--M",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Magayan56",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ADSHOW37",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Magayan56",
+                "action": "bets",
+                "amount": 1688.0
+            },
+            {
+                "player": "ADSHOW37",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9c",
+        "flop_card_2": "6d",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "4d"
+    },
+    "showdown": {},
+    "winners": {
+        "Magayan56": {
+            "amount": 3938.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,237 @@
+{
+    "hand_id": "539281470984814593-11-1438946832",
+    "datetime": "07-08-2015 11:27:12",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Omaha",
+        "tournament_id": "125561252",
+        "table_number": "000",
+        "prize_pool": 1000.0,
+        "registered_players": 40,
+        "speed": "normal",
+        "start_date": "2015/08/07 11:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Adamarcus",
+            "init_stack": 4140.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 3090.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Mistral13480",
+            "init_stack": 5160.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "rgr51",
+            "init_stack": 1080.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Lana Poker",
+            "init_stack": 1120.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "34Ricardo",
+            "init_stack": 1290.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "rgr51",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Lana Poker",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "rgr51",
+                "action": "calls",
+                "amount": 15.0
+            },
+            {
+                "player": "Lana Poker",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "rgr51",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Lana Poker",
+                "action": "bets",
+                "amount": 30.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "raises",
+                "amount": 270.0
+            },
+            {
+                "player": "rgr51",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lana Poker",
+                "action": "calls",
+                "amount": 270.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 270.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 270.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Lana Poker",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Lana Poker",
+                "action": "bets",
+                "amount": 790.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 790.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 790.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "raises",
+                "amount": 4040.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 170.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1970.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "Qc",
+        "flop_card_3": "Qh"
+    },
+    "turn": {
+        "turn_card": "Qs"
+    },
+    "river": {
+        "river_card": "Jh"
+    },
+    "showdown": {},
+    "winners": {
+        "Mistral13480": {
+            "amount": 10690.0,
+            "pot_type": "pot"
+        }
+    }
+}

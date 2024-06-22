@@ -1,0 +1,211 @@
+{
+    "hand_id": "572291326901485569-6-1444237377",
+    "datetime": "07-10-2015 17:02:57",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block Winamax Poker Tour",
+        "tournament_id": "133246958",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/07 16:56:18 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "fredoka",
+            "init_stack": 5890.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Anahata",
+            "init_stack": 1380.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "jmds63",
+            "init_stack": 1350.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Romain.26",
+            "init_stack": 1840.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "fragomeni",
+            "init_stack": 1650.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "ping45",
+            "init_stack": 1610.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "manggy94",
+            "init_stack": 1280.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4c",
+        "second_card": "Tc"
+    },
+    "postings": [
+        {
+            "name": "Romain.26",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "fragomeni",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ping45",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "fredoka",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Anahata",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "jmds63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Romain.26",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fragomeni",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "fragomeni",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Anahata",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "fragomeni",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Anahata",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "fragomeni",
+                "action": "bets",
+                "amount": 93.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 93.0
+            },
+            {
+                "player": "Anahata",
+                "action": "calls",
+                "amount": 93.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2s",
+        "flop_card_2": "Th",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "6h"
+    },
+    "showdown": {
+        "Anahata": {
+            "first_card": "8d",
+            "second_card": "8h"
+        },
+        "fragomeni": {
+            "first_card": "3c",
+            "second_card": "5c"
+        },
+        "manggy94": {
+            "first_card": "4c",
+            "second_card": "Tc"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 419.0,
+            "pot_type": "pot"
+        }
+    }
+}

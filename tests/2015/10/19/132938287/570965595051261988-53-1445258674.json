@@ -1,0 +1,149 @@
+{
+    "hand_id": "570965595051261988-53-1445258674",
+    "datetime": "19-10-2015 12:44:34",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132938287",
+        "table_number": "035",
+        "prize_pool": 1757.0,
+        "registered_players": 502,
+        "speed": "semiturbo",
+        "start_date": "2015/10/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "paslamainmax",
+            "init_stack": 16815.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "1tonyregal9",
+            "init_stack": 21870.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "RUP3I4",
+            "init_stack": 10545.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ceddam08",
+            "init_stack": 22785.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Chrismorgen",
+            "init_stack": 24072.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 42598.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "Ts"
+    },
+    "postings": [
+        {
+            "name": "RUP3I4",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ceddam08",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Chrismorgen",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RUP3I4",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ceddam08",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Chrismorgen",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1120.0
+            },
+            {
+                "player": "RUP3I4",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ceddam08",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 2240.0,
+            "pot_type": "pot"
+        }
+    }
+}

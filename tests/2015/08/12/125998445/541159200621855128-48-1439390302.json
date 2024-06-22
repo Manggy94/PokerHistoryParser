@@ -1,0 +1,234 @@
+{
+    "hand_id": "541159200621855128-48-1439390302",
+    "datetime": "12-08-2015 14:38:22",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 20,
+        "ante": 350.0,
+        "sb": 1500.0,
+        "bb": 3000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "407",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Madininna",
+            "init_stack": 27952.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Sosobb",
+            "init_stack": 56140.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "philou2676",
+            "init_stack": 17718.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "onetwo84",
+            "init_stack": 34870.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Dens86000",
+            "init_stack": 32513.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "PolakAA",
+            "init_stack": 43394.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 43828.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Sam1976",
+            "init_stack": 10135.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kd",
+        "second_card": "Qc"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sam1976",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Madininna",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sosobb",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "philou2676",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "onetwo84",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dens86000",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PolakAA",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Sam1976",
+            "amount": 3000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Madininna",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "Sosobb",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "philou2676",
+                "action": "raises",
+                "amount": 14368.0
+            },
+            {
+                "player": "onetwo84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dens86000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PolakAA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 15868.0
+            },
+            {
+                "player": "Sam1976",
+                "action": "calls",
+                "amount": 6785.0
+            },
+            {
+                "player": "Madininna",
+                "action": "calls",
+                "amount": 14368.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 26110.0
+            },
+            {
+                "player": "Madininna",
+                "action": "calls",
+                "amount": 10234.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kh",
+        "flop_card_2": "Jc",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": "5c"
+    },
+    "showdown": {
+        "Madininna": {
+            "first_card": "3d",
+            "second_card": "Ad"
+        },
+        "philou2676": {
+            "first_card": "6d",
+            "second_card": "7d"
+        },
+        "Sam1976": {
+            "first_card": "Tc",
+            "second_card": "9d"
+        },
+        "manggy94": {
+            "first_card": "Kd",
+            "second_card": "Qc"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 101033.0,
+            "pot_type": "pot"
+        }
+    }
+}

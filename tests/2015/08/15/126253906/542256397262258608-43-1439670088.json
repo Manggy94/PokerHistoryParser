@@ -1,0 +1,220 @@
+{
+    "hand_id": "542256397262258608-43-1439670088",
+    "datetime": "15-08-2015 20:21:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 20,
+        "ante": 350.0,
+        "sb": 1500.0,
+        "bb": 3000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0431",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 26971.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fossa37",
+            "init_stack": 17109.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "MICHLOU",
+            "init_stack": 4619.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Vendrely",
+            "init_stack": 54127.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Dim-Vals",
+            "init_stack": 19553.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Cemar",
+            "init_stack": 13642.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Marrakechy",
+            "init_stack": 7800.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "zapatil",
+            "init_stack": 20821.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "baobab-49",
+            "init_stack": 9270.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "fossa37",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MICHLOU",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Vendrely",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dim-Vals",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Cemar",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Marrakechy",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zapatil",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "baobab-49",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fossa37",
+            "amount": 1500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "MICHLOU",
+            "amount": 3000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Vendrely",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dim-Vals",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Cemar",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Marrakechy",
+                "action": "raises",
+                "amount": 4450.0
+            },
+            {
+                "player": "zapatil",
+                "action": "raises",
+                "amount": 13021.0
+            },
+            {
+                "player": "baobab-49",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fossa37",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MICHLOU",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6d",
+        "flop_card_2": "5d",
+        "flop_card_3": "8c"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": "2c"
+    },
+    "showdown": {
+        "Marrakechy": {
+            "first_card": "Ad",
+            "second_card": "2d"
+        },
+        "zapatil": {
+            "first_card": "Ks",
+            "second_card": "Qs"
+        }
+    },
+    "winners": {
+        "zapatil": {
+            "amount": 13021.0,
+            "pot_type": "side pot 1"
+        },
+        "Marrakechy": {
+            "amount": 22200.0,
+            "pot_type": "main pot"
+        }
+    }
+}

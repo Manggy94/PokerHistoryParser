@@ -1,0 +1,166 @@
+{
+    "hand_id": "596949799299710996-19-1450011875",
+    "datetime": "13-12-2015 13:04:35",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138988206",
+        "table_number": "019",
+        "prize_pool": 2500.0,
+        "registered_players": 479,
+        "speed": "normal",
+        "start_date": "2015/12/13 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 7875.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "squatvt",
+            "init_stack": 9200.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Fanta-Orange",
+            "init_stack": 8449.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-IU-",
+            "init_stack": 14909.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "BacSijp",
+            "init_stack": 6836.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mitouflin",
+            "init_stack": 12731.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "mitouflin",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "squatvt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fanta-Orange",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-IU-",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "BacSijp",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mitouflin",
+                "action": "calls",
+                "amount": 250.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "mitouflin",
+                "action": "bets",
+                "amount": 900.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-IU-",
+                "action": "calls",
+                "amount": 900.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "mitouflin",
+                "action": "bets",
+                "amount": 11531.0
+            },
+            {
+                "player": "-IU-",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6d",
+        "flop_card_2": "9s",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": "8s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "mitouflin": {
+            "amount": 14231.0,
+            "pot_type": "pot"
+        }
+    }
+}

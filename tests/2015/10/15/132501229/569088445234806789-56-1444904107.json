@@ -1,0 +1,222 @@
+{
+    "hand_id": "569088445234806789-56-1444904107",
+    "datetime": "15-10-2015 10:15:07",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 7.0,
+        "bounty": 0.0,
+        "rake": 3.0
+    },
+    "level": {
+        "value": 9,
+        "ante": 75.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132501229",
+        "table_number": "004",
+        "prize_pool": 868.0,
+        "registered_players": 124,
+        "speed": "semiturbo",
+        "start_date": "2015/10/15 09:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "22mumu22",
+            "init_stack": 17645.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "K-Oslott-K",
+            "init_stack": 35504.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Fullodam",
+            "init_stack": 16486.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 9265.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CLEO2009",
+            "init_stack": 20464.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Guigz92",
+            "init_stack": 25324.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "baaaarrrcca",
+            "init_stack": 32450.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "donlamberti",
+            "init_stack": 19605.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kd",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "Fullodam",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "22mumu22",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "K-Oslott-K",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CLEO2009",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Guigz92",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "baaaarrrcca",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "donlamberti",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fullodam",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "CLEO2009",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Guigz92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "baaaarrrcca",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "donlamberti",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "22mumu22",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "K-Oslott-K",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fullodam",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Fullodam",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 8390.0
+            },
+            {
+                "player": "donlamberti",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fullodam",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "Td",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 11390.0,
+            "pot_type": "pot"
+        }
+    }
+}

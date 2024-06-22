@@ -1,0 +1,195 @@
+{
+    "hand_id": "562444208137306132-144-1443620308",
+    "datetime": "30-09-2015 13:38:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 12,
+        "ante": 180.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "130954247",
+        "table_number": "019",
+        "prize_pool": 1382.5,
+        "registered_players": 395,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 102022.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "potpotpooot",
+            "init_stack": 110890.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Sirvent77",
+            "init_stack": 45556.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "vivielo31",
+            "init_stack": 28162.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "lainlain11",
+            "init_stack": 128025.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Tatsuya745",
+            "init_stack": 47203.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "Tatsuya745",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "potpotpooot",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sirvent77",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vivielo31",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lainlain11",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tatsuya745",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "potpotpooot",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "Sirvent77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vivielo31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lainlain11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tatsuya745",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Tatsuya745",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "potpotpooot",
+                "action": "bets",
+                "amount": 3920.0
+            },
+            {
+                "player": "Tatsuya745",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "Kc",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "potpotpooot": {
+            "amount": 9800.0,
+            "pot_type": "pot"
+        }
+    }
+}

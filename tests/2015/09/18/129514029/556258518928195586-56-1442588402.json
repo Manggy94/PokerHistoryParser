@@ -1,0 +1,211 @@
+{
+    "hand_id": "556258518928195586-56-1442588402",
+    "datetime": "18-09-2015 15:00:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.45,
+        "bounty": 0.0,
+        "rake": 0.05
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "129514029",
+        "table_number": "001",
+        "prize_pool": 125.55,
+        "registered_players": 279,
+        "speed": "semiturbo",
+        "start_date": "2015/09/18 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 8910.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "-Curtis-",
+            "init_stack": 10321.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Niko75014",
+            "init_stack": 14021.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "pat13666",
+            "init_stack": 29585.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "CHRISVANES76",
+            "init_stack": 41112.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "middle chass",
+            "init_stack": 17760.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6s",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "CHRISVANES76",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "middle chass",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-Curtis-",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Niko75014",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pat13666",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CHRISVANES76",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "middle chass",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-Curtis-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Niko75014",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pat13666",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CHRISVANES76",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "middle chass",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "CHRISVANES76",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "middle chass",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "CHRISVANES76",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "middle chass",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "CHRISVANES76",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "middle chass",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "5h",
+        "flop_card_2": "Jd",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "7h"
+    },
+    "river": {
+        "river_card": "2c"
+    },
+    "showdown": {
+        "middle chass": {
+            "first_card": "Kd",
+            "second_card": "Ts"
+        },
+        "CHRISVANES76": {
+            "first_card": "Ac",
+            "second_card": "4d"
+        }
+    },
+    "winners": {
+        "CHRISVANES76": {
+            "amount": 980.0,
+            "pot_type": "pot"
+        }
+    }
+}

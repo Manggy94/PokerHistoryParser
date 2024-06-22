@@ -1,0 +1,167 @@
+{
+    "hand_id": "565681462427254791-27-1444236070",
+    "datetime": "07-10-2015 16:41:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 14.0,
+        "bounty": 0.0,
+        "rake": 6.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131707979",
+        "table_number": "006",
+        "prize_pool": 1316.0,
+        "registered_players": 94,
+        "speed": "semiturbo",
+        "start_date": "2015/10/07 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "TCBpat",
+            "init_stack": 10625.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "lanfeust_tor",
+            "init_stack": 8452.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 10150.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Dante A.",
+            "init_stack": 7425.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "2Q1mek.",
+            "init_stack": 30433.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lionel13007",
+            "init_stack": 18063.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "Dante A.",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "2Q1mek.",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "lionel13007",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lanfeust_tor",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Dante A.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "2Q1mek.",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "2Q1mek.",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "lionel13007",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "2Q1mek.",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lionel13007",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "2Q1mek.",
+                "action": "bets",
+                "amount": 1350.0
+            },
+            {
+                "player": "lionel13007",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "5h",
+        "flop_card_2": "Td",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": "3s"
+    },
+    "showdown": {},
+    "winners": {
+        "2Q1mek.": {
+            "amount": 2700.0,
+            "pot_type": "pot"
+        }
+    }
+}

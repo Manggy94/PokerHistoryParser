@@ -1,0 +1,194 @@
+{
+    "hand_id": "550711753349005770-35-1441486241",
+    "datetime": "05-09-2015 20:50:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "457",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "topaloff33",
+            "init_stack": 6595.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "vair78",
+            "init_stack": 17449.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Jeff-bzh",
+            "init_stack": 12008.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 11544.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "toubilou",
+            "init_stack": 2020.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "dimtri76",
+            "init_stack": 5840.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "7h"
+    },
+    "postings": [
+        {
+            "name": "dimtri76",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "topaloff33",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vair78",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jeff-bzh",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "toubilou",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dimtri76",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "topaloff33",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "vair78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeff-bzh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "toubilou",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "dimtri76",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "topaloff33",
+                "action": "calls",
+                "amount": 400.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "topaloff33",
+                "action": "bets",
+                "amount": 400.0
+            },
+            {
+                "player": "toubilou",
+                "action": "raises",
+                "amount": 780.0
+            },
+            {
+                "player": "topaloff33",
+                "action": "calls",
+                "amount": 780.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ac",
+        "flop_card_2": "2d",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "Jh"
+    },
+    "showdown": {
+        "toubilou": {
+            "first_card": "8c",
+            "second_card": "8h"
+        },
+        "topaloff33": {
+            "first_card": "Kc",
+            "second_card": "4c"
+        }
+    },
+    "winners": {
+        "topaloff33": {
+            "amount": 4400.0,
+            "pot_type": "pot"
+        }
+    }
+}

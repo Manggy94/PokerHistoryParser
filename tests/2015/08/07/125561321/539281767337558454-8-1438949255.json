@@ -1,0 +1,129 @@
+{
+    "hand_id": "539281767337558454-8-1438949255",
+    "datetime": "07-08-2015 12:07:35",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561321",
+        "table_number": "437",
+        "prize_pool": 100.0,
+        "registered_players": 3950,
+        "speed": "turbo",
+        "start_date": "2015/08/07 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "TEUMC",
+            "init_stack": 6490.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bryanleskin",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "klopp62570",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 6520.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "elodie26100",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "LEGION1831",
+            "init_stack": 6605.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "bryanleskin",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "klopp62570",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "elodie26100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LEGION1831",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bryanleskin",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 80.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "hand_id": "600923498747002881-15-1450704747",
+    "datetime": "21-12-2015 13:32:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.7,
+        "bounty": 0.0,
+        "rake": 0.3
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 50.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/12/21 13:25:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "__4ap4__",
+            "init_stack": 1000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fxdebeuz",
+            "init_stack": 1890.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 240.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "maxapnea83",
+            "init_stack": 810.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qs",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "fxdebeuz",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "maxapnea83",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "__4ap4__",
+                "action": "raises",
+                "amount": 60.0
+            },
+            {
+                "player": "fxdebeuz",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 140.0
+            },
+            {
+                "player": "__4ap4__",
+                "action": "calls",
+                "amount": 140.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9d",
+        "flop_card_2": "Ad",
+        "flop_card_3": "8c"
+    },
+    "turn": {
+        "turn_card": "Ac"
+    },
+    "river": {
+        "river_card": "4c"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Qs",
+            "second_card": "Ks"
+        },
+        "__4ap4__": {
+            "first_card": "Kh",
+            "second_card": "9h"
+        }
+    },
+    "winners": {
+        "__4ap4__": {
+            "amount": 500.0,
+            "pot_type": "pot"
+        }
+    }
+}

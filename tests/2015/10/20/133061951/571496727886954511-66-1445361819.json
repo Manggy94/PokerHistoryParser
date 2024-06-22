@@ -1,0 +1,228 @@
+{
+    "hand_id": "571496727886954511-66-1445361819",
+    "datetime": "20-10-2015 17:23:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 10,
+        "ante": 150.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1759.5,
+        "registered_players": 391,
+        "speed": "normal",
+        "start_date": "2015/10/20 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "cramitt",
+            "init_stack": 24109.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Be Focus",
+            "init_stack": 34307.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "lbleuffer",
+            "init_stack": 19620.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "buzz-nickeur",
+            "init_stack": 22141.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "JackLeJoker",
+            "init_stack": 43526.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "james31",
+            "init_stack": 25620.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 48090.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ShoWShaR",
+            "init_stack": 51111.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "AmissA",
+            "init_stack": 57973.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ShoWShaR",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cramitt",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Be Focus",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lbleuffer",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "buzz-nickeur",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JackLeJoker",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "james31",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AmissA",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ShoWShaR",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "AmissA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cramitt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Be Focus",
+                "action": "raises",
+                "amount": 1440.0
+            },
+            {
+                "player": "lbleuffer",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "buzz-nickeur",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JackLeJoker",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "james31",
+                "action": "calls",
+                "amount": 2640.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ShoWShaR",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Be Focus",
+                "action": "bets",
+                "amount": 3965.0
+            },
+            {
+                "player": "james31",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Tc",
+        "flop_card_2": "9s",
+        "flop_card_3": "2h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Be Focus": {
+            "amount": 12395.0,
+            "pot_type": "pot"
+        }
+    }
+}

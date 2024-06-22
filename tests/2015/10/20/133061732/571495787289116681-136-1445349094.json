@@ -1,0 +1,169 @@
+{
+    "hand_id": "571495787289116681-136-1445349094",
+    "datetime": "20-10-2015 13:51:34",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 14,
+        "ante": 320.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133061732",
+        "table_number": "008",
+        "prize_pool": 1694.0,
+        "registered_players": 484,
+        "speed": "semiturbo",
+        "start_date": "2015/10/20 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Incognito 55",
+            "init_stack": 181257.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "sharkingpro",
+            "init_stack": 94830.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 33688.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Liloosweet",
+            "init_stack": 16302.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "PYKORrino",
+            "init_stack": 36044.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "ALLNIGHT-AA",
+            "init_stack": 96994.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3h",
+        "second_card": "7c"
+    },
+    "postings": [
+        {
+            "name": "Liloosweet",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PYKORrino",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Incognito 55",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sharkingpro",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ALLNIGHT-AA",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Liloosweet",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PYKORrino",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ALLNIGHT-AA",
+                "action": "raises",
+                "amount": 2500.0
+            },
+            {
+                "player": "Incognito 55",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sharkingpro",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Liloosweet",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PYKORrino",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "ALLNIGHT-AA": {
+            "amount": 10670.0,
+            "pot_type": "pot"
+        }
+    }
+}

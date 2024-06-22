@@ -1,0 +1,172 @@
+{
+    "hand_id": "552393752736432129-6-1441826366",
+    "datetime": "09-09-2015 19:19:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "128614193",
+        "table_number": "000",
+        "prize_pool": 2240.0,
+        "registered_players": 640,
+        "speed": "semiturbo",
+        "start_date": "2015/09/09 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "CocKyx",
+            "init_stack": 9125.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bucheron",
+            "init_stack": 8100.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Banderas888",
+            "init_stack": 9825.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Lexness1",
+            "init_stack": 10275.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 13175.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "chrislateur",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Edy70p",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "zoybergusha",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Tonton Ed",
+            "init_stack": 12013.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "chrislateur",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Edy70p",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zoybergusha",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tonton Ed",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CocKyx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bucheron",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Banderas888",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lexness1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 100.0
+            },
+            {
+                "player": "chrislateur",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 200.0,
+            "pot_type": "pot"
+        }
+    }
+}

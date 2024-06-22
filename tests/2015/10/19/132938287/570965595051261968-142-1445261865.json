@@ -1,0 +1,230 @@
+{
+    "hand_id": "570965595051261968-142-1445261865",
+    "datetime": "19-10-2015 13:37:45",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 12,
+        "ante": 180.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132938287",
+        "table_number": "015",
+        "prize_pool": 1757.0,
+        "registered_players": 502,
+        "speed": "semiturbo",
+        "start_date": "2015/10/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 29952.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "LikeHoney",
+            "init_stack": 79933.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Admc",
+            "init_stack": 123164.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "kishok",
+            "init_stack": 37510.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gahara35",
+            "init_stack": 118263.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5h",
+        "second_card": "5s"
+    },
+    "postings": [
+        {
+            "name": "gahara35",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LikeHoney",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Admc",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kishok",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gahara35",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "LikeHoney",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Admc",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "kishok",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gahara35",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "gahara35",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 5700.0
+            },
+            {
+                "player": "Admc",
+                "action": "calls",
+                "amount": 5700.0
+            },
+            {
+                "player": "gahara35",
+                "action": "calls",
+                "amount": 5700.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "gahara35",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Admc",
+                "action": "bets",
+                "amount": 1600.0
+            },
+            {
+                "player": "gahara35",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1600.0
+            }
+        ],
+        "river": [
+            {
+                "player": "gahara35",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 20872.0
+            },
+            {
+                "player": "Admc",
+                "action": "calls",
+                "amount": 20872.0
+            },
+            {
+                "player": "gahara35",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Qc",
+        "flop_card_2": "6c",
+        "flop_card_3": "6s"
+    },
+    "turn": {
+        "turn_card": "9c"
+    },
+    "river": {
+        "river_card": "5d"
+    },
+    "showdown": {
+        "Admc": {
+            "first_card": "Qs",
+            "second_card": "Ah"
+        },
+        "manggy94": {
+            "first_card": "5h",
+            "second_card": "5s"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 69344.0,
+            "pot_type": "pot"
+        }
+    }
+}

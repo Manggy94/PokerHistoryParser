@@ -1,0 +1,129 @@
+{
+    "hand_id": "539623453460791351-23-1439036288",
+    "datetime": "08-08-2015 12:18:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "054",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "doudou16120",
+            "init_stack": 4475.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "mentaliste",
+            "init_stack": 3120.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 6750.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "METEO34",
+            "init_stack": 3700.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Visuel",
+            "init_stack": 2053.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "clementhinio",
+            "init_stack": 15190.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "METEO34",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Visuel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "clementhinio",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "doudou16120",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "METEO34": {
+            "amount": 180.0,
+            "pot_type": "pot"
+        }
+    }
+}

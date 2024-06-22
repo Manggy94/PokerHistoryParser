@@ -1,0 +1,185 @@
+{
+    "hand_id": "541906112614498850-21-1439584544",
+    "datetime": "14-08-2015 20:35:44",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 6,
+        "ante": 10.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172349",
+        "table_number": "545",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/14 20:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "chulesback",
+            "init_stack": 6105.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Bigfish44",
+            "init_stack": 4126.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 6555.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "DjiLee2X",
+            "init_stack": 3550.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fabinou68",
+            "init_stack": 5887.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "SKYZO__91",
+            "init_stack": 4483.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "2h"
+    },
+    "postings": [
+        {
+            "name": "Bigfish44",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chulesback",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DjiLee2X",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fabinou68",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SKYZO__91",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bigfish44",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "DjiLee2X",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "fabinou68",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SKYZO__91",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chulesback",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Bigfish44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 360.0
+            },
+            {
+                "player": "DjiLee2X",
+                "action": "raises",
+                "amount": 720.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8c",
+        "flop_card_2": "5c",
+        "flop_card_3": "8h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "DjiLee2X": {
+            "amount": 1800.0,
+            "pot_type": "pot"
+        }
+    }
+}

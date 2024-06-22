@@ -1,0 +1,195 @@
+{
+    "hand_id": "563848804177018951-77-1443879190",
+    "datetime": "03-10-2015 13:33:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 12,
+        "ante": 180.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131281280",
+        "table_number": "070",
+        "prize_pool": 1883.0,
+        "registered_players": 538,
+        "speed": "semiturbo",
+        "start_date": "2015/10/03 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "fredyfix",
+            "init_stack": 17712.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "gdm3807",
+            "init_stack": 208373.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 50000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "guyrogersI",
+            "init_stack": 35200.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "TCBpat",
+            "init_stack": 172658.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "As"
+    },
+    "postings": [
+        {
+            "name": "TCBpat",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fredyfix",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gdm3807",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "guyrogersI",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TCBpat",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "fredyfix",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gdm3807",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "guyrogersI",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "TCBpat",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 4100.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "calls",
+                "amount": 4100.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "TCBpat",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "TCBpat",
+                "action": "bets",
+                "amount": 1600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1600.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4c",
+        "flop_card_2": "5s",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "3c"
+    },
+    "river": {
+        "river_card": "Jc"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "As"
+        },
+        "TCBpat": {
+            "first_card": "2s",
+            "second_card": "Jh"
+        }
+    },
+    "winners": {
+        "TCBpat": {
+            "amount": 15500.0,
+            "pot_type": "pot"
+        }
+    }
+}

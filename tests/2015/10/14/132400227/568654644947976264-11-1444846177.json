@@ -1,0 +1,208 @@
+{
+    "hand_id": "568654644947976264-11-1444846177",
+    "datetime": "14-10-2015 18:09:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 2000.0,
+        "registered_players": 3723,
+        "speed": "semiturbo",
+        "start_date": "2015/10/14 18:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "special"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "yeO25",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "le  chat",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Steeeeeven",
+            "init_stack": 3730.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "BeN-RuN",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Yayounette49",
+            "init_stack": 5520.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "_enorme_",
+            "init_stack": 2945.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ssik1611",
+            "init_stack": 2925.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 5955.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3h",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "yeO25",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "le  chat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Steeeeeven",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "BeN-RuN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yayounette49",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "_enorme_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ssik1611",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 90.0
+            },
+            {
+                "player": "yeO25",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Steeeeeven",
+                "action": "calls",
+                "amount": 90.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Steeeeeven",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Steeeeeven",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Steeeeeven",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8d",
+        "flop_card_2": "8h",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "6d"
+    },
+    "showdown": {
+        "Steeeeeven": {
+            "first_card": "Jh",
+            "second_card": "2h"
+        },
+        "manggy94": {
+            "first_card": "3h",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 270.0,
+            "pot_type": "pot"
+        }
+    }
+}

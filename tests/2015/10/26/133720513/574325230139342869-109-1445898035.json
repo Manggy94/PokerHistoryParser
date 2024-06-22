@@ -1,0 +1,211 @@
+{
+    "hand_id": "574325230139342869-109-1445898035",
+    "datetime": "26-10-2015 22:20:35",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 12,
+        "ante": 180.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "LE TOTEM",
+        "tournament_id": "133720513",
+        "table_number": "0020",
+        "prize_pool": 7902.0,
+        "registered_players": 1384,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 21:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "AA-MNESKIIK",
+            "init_stack": 69509.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Manjon1902",
+            "init_stack": 24732.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "woogataga911",
+            "init_stack": 54065.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Roaring_Lion",
+            "init_stack": 14438.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 18400.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Morefayaa",
+            "init_stack": 49260.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "Morefayaa",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AA-MNESKIIK",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Manjon1902",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "woogataga911",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Roaring_Lion",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Morefayaa",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "AA-MNESKIIK",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Manjon1902",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "woogataga911",
+                "action": "raises",
+                "amount": 1600.0
+            },
+            {
+                "player": "Roaring_Lion",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Morefayaa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AA-MNESKIIK",
+                "action": "calls",
+                "amount": 1600.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "AA-MNESKIIK",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "woogataga911",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "AA-MNESKIIK",
+                "action": "bets",
+                "amount": 4140.0
+            },
+            {
+                "player": "woogataga911",
+                "action": "calls",
+                "amount": 4140.0
+            }
+        ],
+        "river": [
+            {
+                "player": "AA-MNESKIIK",
+                "action": "bets",
+                "amount": 16560.0
+            },
+            {
+                "player": "woogataga911",
+                "action": "calls",
+                "amount": 16560.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "5d",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "AA-MNESKIIK": {
+            "first_card": "5h",
+            "second_card": "5s"
+        },
+        "woogataga911": {
+            "first_card": "Ah",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "woogataga911": {
+            "amount": 49680.0,
+            "pot_type": "pot"
+        }
+    }
+}

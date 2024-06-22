@@ -1,0 +1,259 @@
+{
+    "hand_id": "545388175745351769-38-1440358421",
+    "datetime": "23-08-2015 19:33:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Welcome Freeroll",
+        "tournament_id": "126983080",
+        "table_number": "088",
+        "prize_pool": 1000.0,
+        "registered_players": 1150,
+        "speed": "semiturbo",
+        "start_date": "2015/08/23 18:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Zeuss3102",
+            "init_stack": 2130.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bencbonsa",
+            "init_stack": 3490.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "TigriTheTank",
+            "init_stack": 6162.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Spainofom",
+            "init_stack": 6686.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Jojorob",
+            "init_stack": 14490.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "alexisworld",
+            "init_stack": 2440.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "SeLimBluFf",
+            "init_stack": 2535.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 2717.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Shoshana_77",
+            "init_stack": 6230.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "alexisworld",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SeLimBluFf",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Zeuss3102",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bencbonsa",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TigriTheTank",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Spainofom",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jojorob",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Shoshana_77",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "alexisworld",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "SeLimBluFf",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Shoshana_77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Zeuss3102",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bencbonsa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TigriTheTank",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Spainofom",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "Jojorob",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "alexisworld",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SeLimBluFf",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Spainofom",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "Jojorob",
+                "action": "calls",
+                "amount": 150.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Spainofom",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Jojorob",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Spainofom",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Jojorob",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "Ad",
+        "flop_card_3": "3h"
+    },
+    "turn": {
+        "turn_card": "6c"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "Jojorob": {
+            "first_card": "Jh",
+            "second_card": "Kh"
+        },
+        "Spainofom": {
+            "first_card": "Js",
+            "second_card": "3s"
+        }
+    },
+    "winners": {
+        "Spainofom": {
+            "amount": 1260.0,
+            "pot_type": "pot"
+        }
+    }
+}

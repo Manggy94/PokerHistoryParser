@@ -1,0 +1,233 @@
+{
+    "hand_id": "590115746122563618-9-1448722973",
+    "datetime": "28-11-2015 15:02:53",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "137397029",
+        "table_number": "033",
+        "prize_pool": 2281.5,
+        "registered_players": 507,
+        "speed": "semiturbo",
+        "start_date": "2015/11/28 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "pinhas374",
+            "init_stack": 13936.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Iuly09",
+            "init_stack": 10548.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Cassegrain75",
+            "init_stack": 6775.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "kak47",
+            "init_stack": 4878.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 7385.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "crapou",
+            "init_stack": 9910.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "pokk30",
+            "init_stack": 32840.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Nono du 33",
+            "init_stack": 9940.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "crapou",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pinhas374",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Iuly09",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Cassegrain75",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kak47",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pokk30",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nono du 33",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "crapou",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pokk30",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nono du 33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pinhas374",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Iuly09",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Cassegrain75",
+                "action": "raises",
+                "amount": 1250.0
+            },
+            {
+                "player": "kak47",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 4820.0
+            },
+            {
+                "player": "crapou",
+                "action": "raises",
+                "amount": 3300.0
+            },
+            {
+                "player": "Iuly09",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Cassegrain75",
+                "action": "calls",
+                "amount": 4985.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 775.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "9h",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": "2h"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {
+        "Cassegrain75": {
+            "first_card": "Js",
+            "second_card": "Th"
+        },
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "Ks"
+        },
+        "crapou": {
+            "first_card": "Jd",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "crapou": {
+            "amount": 2525.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 22245.0,
+            "pot_type": "main pot"
+        }
+    }
+}

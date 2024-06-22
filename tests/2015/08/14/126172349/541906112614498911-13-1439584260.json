@@ -1,0 +1,209 @@
+{
+    "hand_id": "541906112614498911-13-1439584260",
+    "datetime": "14-08-2015 20:31:00",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172349",
+        "table_number": "606",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/14 20:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "laminetiti",
+            "init_stack": 15330.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "heidi59",
+            "init_stack": 2865.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "neuch29",
+            "init_stack": 2730.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Jolimourse",
+            "init_stack": 3520.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 6575.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jyer50",
+            "init_stack": 1655.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7h",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "jyer50",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "laminetiti",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "heidi59",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "neuch29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jolimourse",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jyer50",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "laminetiti",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "jyer50",
+                "action": "bets",
+                "amount": 1535.0
+            },
+            {
+                "player": "laminetiti",
+                "action": "calls",
+                "amount": 1535.0
+            },
+            {
+                "player": "heidi59",
+                "action": "calls",
+                "amount": 1535.0
+            },
+            {
+                "player": "Jolimourse",
+                "action": "calls",
+                "amount": 1535.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "laminetiti",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "heidi59",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Jolimourse",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "laminetiti",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "heidi59",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Jolimourse",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7c",
+        "flop_card_2": "9h",
+        "flop_card_3": "2c"
+    },
+    "turn": {
+        "turn_card": "Ks"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {
+        "laminetiti": {
+            "first_card": "9c",
+            "second_card": "4s"
+        },
+        "heidi59": {
+            "first_card": "Jd",
+            "second_card": "Jc"
+        },
+        "jyer50": {
+            "first_card": "9s",
+            "second_card": "5s"
+        },
+        "Jolimourse": {
+            "first_card": "Ts",
+            "second_card": "9d"
+        }
+    },
+    "winners": {
+        "Jolimourse": {
+            "amount": 6620.0,
+            "pot_type": "pot"
+        }
+    }
+}

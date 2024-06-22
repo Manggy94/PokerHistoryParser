@@ -1,0 +1,237 @@
+{
+    "hand_id": "594319995119337482-92-1449492614",
+    "datetime": "07-12-2015 12:50:14",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 24,
+        "ante": 800.0,
+        "sb": 4000.0,
+        "bb": 8000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "009",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "RIPOUX49",
+            "init_stack": 4014.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 126709.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "flo_dpr",
+            "init_stack": 4205.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "AirAmerikA",
+            "init_stack": 161161.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "toninosniper",
+            "init_stack": 321334.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "grmax",
+            "init_stack": 49128.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "critinuma",
+            "init_stack": 132301.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "9c"
+    },
+    "postings": [
+        {
+            "name": "AirAmerikA",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "toninosniper",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RIPOUX49",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "flo_dpr",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "grmax",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "critinuma",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AirAmerikA",
+            "amount": 4000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "toninosniper",
+            "amount": 8000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "grmax",
+                "action": "calls",
+                "amount": 8000.0
+            },
+            {
+                "player": "critinuma",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "RIPOUX49",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "flo_dpr",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AirAmerikA",
+                "action": "calls",
+                "amount": 4000.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "AirAmerikA",
+                "action": "bets",
+                "amount": 8000.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "grmax",
+                "action": "calls",
+                "amount": 8000.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "AirAmerikA",
+                "action": "bets",
+                "amount": 8000.0
+            },
+            {
+                "player": "grmax",
+                "action": "calls",
+                "amount": 8000.0
+            }
+        ],
+        "river": [
+            {
+                "player": "AirAmerikA",
+                "action": "bets",
+                "amount": 8000.0
+            },
+            {
+                "player": "grmax",
+                "action": "raises",
+                "amount": 8000.0
+            },
+            {
+                "player": "AirAmerikA",
+                "action": "calls",
+                "amount": 8000.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7s",
+        "flop_card_2": "6d",
+        "flop_card_3": "4h"
+    },
+    "turn": {
+        "turn_card": "3s"
+    },
+    "river": {
+        "river_card": "8s"
+    },
+    "showdown": {
+        "AirAmerikA": {
+            "first_card": "7c",
+            "second_card": "Ad"
+        },
+        "grmax": {
+            "first_card": "9s",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "grmax": {
+            "amount": 93600.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "hand_id": "2595178390256353552-278-1672701446",
+    "datetime": "02-01-2023 23:17:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 9.0,
+        "bounty": 0.0,
+        "rake": 1.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 70.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "W SERIES MASTER",
+        "tournament_id": "604237055",
+        "table_number": "0271",
+        "prize_pool": null,
+        "registered_players": null,
+        "speed": null,
+        "start_date": null,
+        "levels_structure": [],
+        "tournament_type": null
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 76154.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Fashionkilla",
+            "init_stack": 36192.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "J--M",
+            "init_stack": 45972.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Yazid Zidane",
+            "init_stack": 114864.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Mathieu392",
+            "init_stack": 31228.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CassisFruite",
+            "init_stack": 79842.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "Jh"
+    },
+    "postings": [
+        {
+            "name": "Mathieu392",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fashionkilla",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "J--M",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Yazid Zidane",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Mathieu392",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fashionkilla",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "J--M",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yazid Zidane",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Mathieu392",
+                "action": "raises",
+                "amount": 1200.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Mathieu392": {
+            "amount": 2820.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "hand_id": "545829127152730555-7-1440444396",
+    "datetime": "24-08-2015 19:26:36",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085747",
+        "table_number": "0442",
+        "prize_pool": 250.0,
+        "registered_players": 9824,
+        "speed": "turbo",
+        "start_date": "2015/08/24 19:15:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 6020.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Jeremie98765",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "deadcalimero",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "MI 7LIMA",
+            "init_stack": 6550.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bapoi",
+            "init_stack": 2810.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "matteodu64",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "titcalimero",
+            "init_stack": 5680.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "zaoun1313",
+            "init_stack": 220.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Bones67",
+            "init_stack": 10.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "2h"
+    },
+    "postings": [
+        {
+            "name": "titcalimero",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "zaoun1313",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Bones67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeremie98765",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "deadcalimero",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MI 7LIMA",
+                "action": "raises",
+                "amount": 180.0
+            },
+            {
+                "player": "bapoi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "matteodu64",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "titcalimero",
+                "action": "calls",
+                "amount": 210.0
+            },
+            {
+                "player": "zaoun1313",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "titcalimero",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "MI 7LIMA",
+                "action": "bets",
+                "amount": 6310.0
+            },
+            {
+                "player": "titcalimero",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3s",
+        "flop_card_2": "6h",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "MI 7LIMA": {
+            "amount": 6850.0,
+            "pot_type": "pot"
+        }
+    }
+}

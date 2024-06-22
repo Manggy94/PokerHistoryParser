@@ -1,0 +1,184 @@
+{
+    "hand_id": "540379118596784129-3-1439199168",
+    "datetime": "10-08-2015 09:32:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1200.0,
+        "registered_players": 99,
+        "speed": "normal",
+        "start_date": "2015/08/10 09:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "BRINOU67",
+            "init_stack": 19900.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 8150.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Yazco",
+            "init_stack": 19350.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lapiaz39",
+            "init_stack": 19800.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "lucky_good",
+            "init_stack": 19900.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "neumohr",
+            "init_stack": 19250.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "K-l-K",
+            "init_stack": 33650.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "simba76170",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ah",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "lucky_good",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "neumohr",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "K-l-K",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "simba76170",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BRINOU67",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 8050.0
+            },
+            {
+                "player": "Yazco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lapiaz39",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lucky_good",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "neumohr",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "K-l-K",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BRINOU67",
+                "action": "calls",
+                "amount": 8050.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7c",
+        "flop_card_2": "7h",
+        "flop_card_3": "2c"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": "6d"
+    },
+    "showdown": {
+        "BRINOU67": {
+            "first_card": "Ad",
+            "second_card": "5c"
+        },
+        "manggy94": {
+            "first_card": "Ah",
+            "second_card": "2s"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 8275.0,
+            "pot_type": "pot"
+        },
+        "BRINOU67": {
+            "amount": 8275.0,
+            "pot_type": "pot"
+        }
+    }
+}

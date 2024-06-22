@@ -1,0 +1,191 @@
+{
+    "hand_id": "539281771632525639-29-1438957182",
+    "datetime": "07-08-2015 14:19:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "326",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jcdu31",
+            "init_stack": 11643.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "777..28",
+            "init_stack": 150.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tebat40",
+            "init_stack": 22060.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mariktof",
+            "init_stack": 15105.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 6567.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "little cat 3",
+            "init_stack": 5880.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "10 e c trop",
+            "init_stack": 6615.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "-Xiaoyu-",
+            "init_stack": 15306.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4c",
+        "second_card": "8d"
+    },
+    "postings": [
+        {
+            "name": "tebat40",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jcdu31",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mariktof",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "little cat 3",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "10 e c trop",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-Xiaoyu-",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tebat40",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "mariktof",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "little cat 3",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "10 e c trop",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-Xiaoyu-",
+                "action": "raises",
+                "amount": 3200.0
+            },
+            {
+                "player": "jcdu31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tebat40",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "little cat 3",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "-Xiaoyu-": {
+            "amount": 6160.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "hand_id": "563848804177018953-222-1443884812",
+    "datetime": "03-10-2015 15:06:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 22,
+        "ante": 2000.0,
+        "sb": 8000.0,
+        "bb": 16000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131281280",
+        "table_number": "072",
+        "prize_pool": 1883.0,
+        "registered_players": 538,
+        "speed": "semiturbo",
+        "start_date": "2015/10/03 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "MATOLO",
+            "init_stack": 627173.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "GOUPY27",
+            "init_stack": 884101.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 456907.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "BaddoG38",
+            "init_stack": 276803.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "djeje38",
+            "init_stack": 312144.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "phenix7",
+            "init_stack": 690082.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BaddoG38",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MATOLO",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "GOUPY27",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "djeje38",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "phenix7",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 8000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "BaddoG38",
+            "amount": 16000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "djeje38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "phenix7",
+                "action": "raises",
+                "amount": 19550.0
+            },
+            {
+                "player": "MATOLO",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "GOUPY27",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BaddoG38",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "phenix7": {
+            "amount": 71550.0,
+            "pot_type": "pot"
+        }
+    }
+}

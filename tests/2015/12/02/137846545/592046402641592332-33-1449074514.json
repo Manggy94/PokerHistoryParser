@@ -1,0 +1,225 @@
+{
+    "hand_id": "592046402641592332-33-1449074514",
+    "datetime": "02-12-2015 16:41:54",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "137846545",
+        "table_number": "011",
+        "prize_pool": 1701.0,
+        "registered_players": 378,
+        "speed": "turbo",
+        "start_date": "2015/12/02 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "SHAARRK01",
+            "init_stack": 20635.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Doc9445",
+            "init_stack": 9340.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "GOTAGA-EU",
+            "init_stack": 7715.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kiara14",
+            "init_stack": 23110.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "pOte-pOte",
+            "init_stack": 10105.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lapuce59999",
+            "init_stack": 24078.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 14243.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "NeverRest",
+            "init_stack": 10774.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kh",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "lapuce59999",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SHAARRK01",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Doc9445",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "GOTAGA-EU",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kiara14",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pOte-pOte",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NeverRest",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lapuce59999",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "NeverRest",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SHAARRK01",
+                "action": "raises",
+                "amount": 1200.0
+            },
+            {
+                "player": "Doc9445",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "GOTAGA-EU",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kiara14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pOte-pOte",
+                "action": "calls",
+                "amount": 1800.0
+            },
+            {
+                "player": "lapuce59999",
+                "action": "calls",
+                "amount": 1500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 12383.0
+            },
+            {
+                "player": "SHAARRK01",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pOte-pOte",
+                "action": "calls",
+                "amount": 8245.0
+            },
+            {
+                "player": "lapuce59999",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6s",
+        "flop_card_2": "6d",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": "Kd"
+    },
+    "river": {
+        "river_card": "8h"
+    },
+    "showdown": {
+        "pOte-pOte": {
+            "first_card": "Jd",
+            "second_card": "Kc"
+        },
+        "manggy94": {
+            "first_card": "Kh",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 28308.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,241 @@
+{
+    "hand_id": "539281771632525621-4-1438954849",
+    "datetime": "07-08-2015 13:40:49",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "308",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "lauryn1705",
+            "init_stack": 6185.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "titi52300",
+            "init_stack": 6560.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "tarzoon29200",
+            "init_stack": 340.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "jask27",
+            "init_stack": 1920.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Gwen 77",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "k-you59",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "pito70",
+            "init_stack": 6605.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 9570.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "playerdream",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "k-you59",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "pito70",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "playerdream",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "lauryn1705",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "titi52300",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tarzoon29200",
+                "action": "raises",
+                "amount": 280.0
+            },
+            {
+                "player": "jask27",
+                "action": "raises",
+                "amount": 1580.0
+            },
+            {
+                "player": "Gwen 77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "k-you59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pito70",
+                "action": "calls",
+                "amount": 1860.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "playerdream",
+                "action": "calls",
+                "amount": 1860.0
+            },
+            {
+                "player": "lauryn1705",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "pito70",
+                "action": "bets",
+                "amount": 60.0
+            },
+            {
+                "player": "playerdream",
+                "action": "calls",
+                "amount": 60.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "pito70",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "playerdream",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "pito70",
+                "action": "bets",
+                "amount": 180.0
+            },
+            {
+                "player": "playerdream",
+                "action": "calls",
+                "amount": 180.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4s",
+        "flop_card_2": "7h",
+        "flop_card_3": "Kd"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "9c"
+    },
+    "showdown": {
+        "tarzoon29200": {
+            "first_card": "Ah",
+            "second_card": "8c"
+        },
+        "pito70": {
+            "first_card": "Ac",
+            "second_card": "Jc"
+        },
+        "jask27": {
+            "first_card": "4d",
+            "second_card": "Ad"
+        },
+        "playerdream": {
+            "first_card": "Qd",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "playerdream": {
+            "amount": 480.0,
+            "pot_type": "side pot 1"
+        },
+        "jask27": {
+            "amount": 6250.0,
+            "pot_type": "main pot"
+        }
+    }
+}

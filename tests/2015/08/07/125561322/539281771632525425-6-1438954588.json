@@ -1,0 +1,215 @@
+{
+    "hand_id": "539281771632525425-6-1438954588",
+    "datetime": "07-08-2015 13:36:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "112",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "zz pepito",
+            "init_stack": 2790.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Gwen 77",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Raydon",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 3690.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Roms87",
+            "init_stack": 2965.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "playerdream",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "vespa06",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Pokerwoman41",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "pito70",
+            "init_stack": 3895.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "3c"
+    },
+    "postings": [
+        {
+            "name": "vespa06",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Pokerwoman41",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pito70",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "zz pepito",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gwen 77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Raydon",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "Roms87",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "vespa06",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "Pokerwoman41",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "pito70",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 800.0
+            },
+            {
+                "player": "Roms87",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vespa06",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "Pokerwoman41",
+                "action": "raises",
+                "amount": 1940.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1940.0
+            },
+            {
+                "player": "vespa06",
+                "action": "calls",
+                "amount": 1780.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "2c",
+        "flop_card_3": "Ks"
+    },
+    "turn": {
+        "turn_card": "7d"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "vespa06": {
+            "first_card": "7c",
+            "second_card": "4h"
+        },
+        "Pokerwoman41": {
+            "first_card": "Ts",
+            "second_card": "7s"
+        },
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "3c"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 8860.0,
+            "pot_type": "pot"
+        }
+    }
+}

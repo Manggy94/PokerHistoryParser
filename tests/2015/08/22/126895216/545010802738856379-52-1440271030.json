@@ -1,0 +1,278 @@
+{
+    "hand_id": "545010802738856379-52-1440271030",
+    "datetime": "22-08-2015 19:17:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 18,
+        "ante": 200.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126895216",
+        "table_number": "0442",
+        "prize_pool": 150.0,
+        "registered_players": 5943,
+        "speed": "turbo",
+        "start_date": "2015/08/22 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DAVISCUP",
+            "init_stack": 11930.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "nini77-93",
+            "init_stack": 21535.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "sunday1302",
+            "init_stack": 15615.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 17210.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Emilie1985",
+            "init_stack": 51840.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Baga9",
+            "init_stack": 10795.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "bluker_1986",
+            "init_stack": 8488.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "TheToilet2b",
+            "init_stack": 18052.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "ChowYunFat",
+            "init_stack": 33850.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "ChowYunFat",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DAVISCUP",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nini77-93",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sunday1302",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Emilie1985",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Baga9",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bluker_1986",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TheToilet2b",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ChowYunFat",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "DAVISCUP",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "nini77-93",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sunday1302",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Emilie1985",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "Baga9",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bluker_1986",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "TheToilet2b",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ChowYunFat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DAVISCUP",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "DAVISCUP",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Emilie1985",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bluker_1986",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "DAVISCUP",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Emilie1985",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bluker_1986",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "DAVISCUP",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Emilie1985",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bluker_1986",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "3s",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": "8d"
+    },
+    "showdown": {
+        "Emilie1985": {
+            "first_card": "Kd",
+            "second_card": "2s"
+        },
+        "bluker_1986": {
+            "first_card": "5d",
+            "second_card": "5s"
+        },
+        "DAVISCUP": {
+            "first_card": "8s",
+            "second_card": "6h"
+        }
+    },
+    "winners": {
+        "DAVISCUP": {
+            "amount": 8800.0,
+            "pot_type": "pot"
+        }
+    }
+}

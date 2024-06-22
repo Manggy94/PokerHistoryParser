@@ -1,0 +1,276 @@
+{
+    "hand_id": "539969864048050585-42-1439120938",
+    "datetime": "09-08-2015 11:48:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 24,
+        "ante": 800.0,
+        "sb": 4000.0,
+        "bb": 8000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "408",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Granzo71",
+            "init_stack": 96737.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "barbosbarbos",
+            "init_stack": 26325.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "vb051963",
+            "init_stack": 167239.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gressier1234",
+            "init_stack": 28944.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fullcontact8",
+            "init_stack": 49765.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "NASTAKASS",
+            "init_stack": 153221.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 9746.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manix69 69",
+            "init_stack": 53866.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "Jh"
+    },
+    "postings": [
+        {
+            "name": "NASTAKASS",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Granzo71",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "barbosbarbos",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vb051963",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gressier1234",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fullcontact8",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manix69 69",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NASTAKASS",
+            "amount": 4000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 8000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manix69 69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Granzo71",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "barbosbarbos",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vb051963",
+                "action": "calls",
+                "amount": 8000.0
+            },
+            {
+                "player": "gressier1234",
+                "action": "calls",
+                "amount": 8000.0
+            },
+            {
+                "player": "fullcontact8",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NASTAKASS",
+                "action": "calls",
+                "amount": 4000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "NASTAKASS",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 946.0
+            },
+            {
+                "player": "vb051963",
+                "action": "calls",
+                "amount": 946.0
+            },
+            {
+                "player": "gressier1234",
+                "action": "calls",
+                "amount": 946.0
+            },
+            {
+                "player": "NASTAKASS",
+                "action": "calls",
+                "amount": 946.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "NASTAKASS",
+                "action": "bets",
+                "amount": 8000.0
+            },
+            {
+                "player": "vb051963",
+                "action": "calls",
+                "amount": 8000.0
+            },
+            {
+                "player": "gressier1234",
+                "action": "calls",
+                "amount": 8000.0
+            }
+        ],
+        "river": [
+            {
+                "player": "NASTAKASS",
+                "action": "bets",
+                "amount": 8000.0
+            },
+            {
+                "player": "vb051963",
+                "action": "calls",
+                "amount": 8000.0
+            },
+            {
+                "player": "gressier1234",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9c",
+        "flop_card_2": "3d",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "Kd"
+    },
+    "river": {
+        "river_card": "Ts"
+    },
+    "showdown": {
+        "NASTAKASS": {
+            "first_card": "2h",
+            "second_card": "Jc"
+        },
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "Jh"
+        },
+        "vb051963": {
+            "first_card": "9s",
+            "second_card": "Ks"
+        }
+    },
+    "winners": {
+        "vb051963": {
+            "amount": 40000.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 42184.0,
+            "pot_type": "main pot"
+        }
+    }
+}

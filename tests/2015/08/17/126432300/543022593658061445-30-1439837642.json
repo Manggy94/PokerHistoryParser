@@ -1,0 +1,259 @@
+{
+    "hand_id": "543022593658061445-30-1439837642",
+    "datetime": "17-08-2015 18:54:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126432300",
+        "table_number": "0644",
+        "prize_pool": 150.0,
+        "registered_players": 7593,
+        "speed": "turbo",
+        "start_date": "2015/08/17 18:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "VRECKA",
+            "init_stack": 23430.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "DANHOE57",
+            "init_stack": 11170.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "grelouille",
+            "init_stack": 1065.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Bel Fredo",
+            "init_stack": 1880.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 7070.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "herve catto",
+            "init_stack": 6310.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "miantchAS",
+            "init_stack": 1300.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "cpamoii",
+            "init_stack": 11195.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "pastaga30500",
+            "init_stack": 19435.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5h",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "miantchAS",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cpamoii",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "VRECKA",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DANHOE57",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "grelouille",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bel Fredo",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "herve catto",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pastaga30500",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "miantchAS",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "cpamoii",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pastaga30500",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "VRECKA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DANHOE57",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "grelouille",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Bel Fredo",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "herve catto",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "miantchAS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cpamoii",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "DANHOE57",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "herve catto",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "DANHOE57",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "herve catto",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "river": [
+            {
+                "player": "DANHOE57",
+                "action": "bets",
+                "amount": 750.0
+            },
+            {
+                "player": "herve catto",
+                "action": "calls",
+                "amount": 750.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ad",
+        "flop_card_2": "Qs",
+        "flop_card_3": "6d"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "5s"
+    },
+    "showdown": {
+        "DANHOE57": {
+            "first_card": "2h",
+            "second_card": "2d"
+        },
+        "herve catto": {
+            "first_card": "Js",
+            "second_card": "Qc"
+        }
+    },
+    "winners": {
+        "herve catto": {
+            "amount": 4700.0,
+            "pot_type": "pot"
+        }
+    }
+}

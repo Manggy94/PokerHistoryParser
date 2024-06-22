@@ -1,0 +1,207 @@
+{
+    "hand_id": "570965595051261955-168-1445263604",
+    "datetime": "19-10-2015 14:06:44",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 15,
+        "ante": 430.0,
+        "sb": 1500.0,
+        "bb": 3000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132938287",
+        "table_number": "002",
+        "prize_pool": 1757.0,
+        "registered_players": 502,
+        "speed": "semiturbo",
+        "start_date": "2015/10/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ANOUR-83",
+            "init_stack": 75696.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 30174.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "VaNystelrooy",
+            "init_stack": 67909.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-SuReBeT-",
+            "init_stack": 72183.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "figo78",
+            "init_stack": 61621.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "goodplayer01",
+            "init_stack": 74226.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qs",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "VaNystelrooy",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ANOUR-83",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-SuReBeT-",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "figo78",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "goodplayer01",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "VaNystelrooy",
+            "amount": 3000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "-SuReBeT-",
+                "action": "raises",
+                "amount": 3000.0
+            },
+            {
+                "player": "figo78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "goodplayer01",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ANOUR-83",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "VaNystelrooy",
+                "action": "calls",
+                "amount": 3000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "VaNystelrooy",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "-SuReBeT-",
+                "action": "bets",
+                "amount": 8040.0
+            },
+            {
+                "player": "VaNystelrooy",
+                "action": "calls",
+                "amount": 8040.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "VaNystelrooy",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "-SuReBeT-",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "VaNystelrooy",
+                "action": "bets",
+                "amount": 16500.0
+            },
+            {
+                "player": "-SuReBeT-",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "Ac",
+        "flop_card_3": "9h"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {},
+    "winners": {
+        "VaNystelrooy": {
+            "amount": 48660.0,
+            "pot_type": "pot"
+        }
+    }
+}

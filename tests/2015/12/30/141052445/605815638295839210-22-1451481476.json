@@ -1,0 +1,155 @@
+{
+    "hand_id": "605815638295839210-22-1451481476",
+    "datetime": "30-12-2015 13:17:56",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "141052445",
+        "table_number": "489",
+        "prize_pool": 100.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/12/30 13:00:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "mimi84336",
+            "init_stack": 2565.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Hashirama57",
+            "init_stack": 11155.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Gringaaa",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "TITI 02000",
+            "init_stack": 2060.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 8340.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "Hashirama57",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Gringaaa",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "TITI 02000",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mimi84336",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Hashirama57",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "Gringaaa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TITI 02000",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Hashirama57",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "TITI 02000",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Hashirama57",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "TITI 02000",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "Ts",
+        "flop_card_3": "3h"
+    },
+    "turn": {
+        "turn_card": "Kd"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Hashirama57": {
+            "amount": 1800.0,
+            "pot_type": "pot"
+        }
+    }
+}

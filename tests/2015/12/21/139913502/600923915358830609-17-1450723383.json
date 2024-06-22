@@ -1,0 +1,172 @@
+{
+    "hand_id": "600923915358830609-17-1450723383",
+    "datetime": "21-12-2015 18:43:03",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 4.5
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "139913502",
+        "table_number": "016",
+        "prize_pool": 2610.0,
+        "registered_players": 290,
+        "speed": "semiturbo",
+        "start_date": "2015/12/21 18:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "sexus7",
+            "init_stack": 15425.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "OMGBomberman",
+            "init_stack": 25825.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "SamPlayer",
+            "init_stack": 23250.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kaps44980",
+            "init_stack": 19900.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "- NZL -",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "aude2311",
+            "init_stack": 15250.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Nina NMS",
+            "init_stack": 44025.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5s",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "Kaps44980",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "- NZL -",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "aude2311",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "Nina NMS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sexus7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "OMGBomberman",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SamPlayer",
+                "action": "calls",
+                "amount": 900.0
+            },
+            {
+                "player": "Kaps44980",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "- NZL -",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "aude2311",
+                "action": "bets",
+                "amount": 1500.0
+            },
+            {
+                "player": "SamPlayer",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8c",
+        "flop_card_2": "6s",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "aude2311": {
+            "amount": 3750.0,
+            "pot_type": "pot"
+        }
+    }
+}

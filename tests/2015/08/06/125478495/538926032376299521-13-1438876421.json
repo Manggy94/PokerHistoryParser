@@ -1,0 +1,185 @@
+{
+    "hand_id": "538926032376299521-13-1438876421",
+    "datetime": "06-08-2015 15:53:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 4000.0,
+        "registered_players": 95,
+        "speed": "semiturbo",
+        "start_date": "2015/08/06 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "willolo",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Didy95",
+            "init_stack": 2660.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 1520.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Pompierspp67",
+            "init_stack": 3195.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mick37",
+            "init_stack": 3015.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lecanaille",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Tc",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "mick37",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lecanaille",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "willolo",
+                "action": "raises",
+                "amount": 60.0
+            },
+            {
+                "player": "Didy95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 90.0
+            },
+            {
+                "player": "Pompierspp67",
+                "action": "calls",
+                "amount": 90.0
+            },
+            {
+                "player": "mick37",
+                "action": "calls",
+                "amount": 75.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "mick37",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "willolo",
+                "action": "bets",
+                "amount": 390.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 390.0
+            },
+            {
+                "player": "Pompierspp67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mick37",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "willolo",
+                "action": "bets",
+                "amount": 1020.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1020.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "8s",
+        "flop_card_3": "6c"
+    },
+    "turn": {
+        "turn_card": "9d"
+    },
+    "river": {
+        "river_card": "8h"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Tc",
+            "second_card": "Kh"
+        },
+        "willolo": {
+            "first_card": "Kd",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "willolo": {
+            "amount": 3210.0,
+            "pot_type": "pot"
+        }
+    }
+}

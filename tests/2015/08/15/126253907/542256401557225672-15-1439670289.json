@@ -1,0 +1,138 @@
+{
+    "hand_id": "542256401557225672-15-1439670289",
+    "datetime": "15-08-2015 20:24:49",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253907",
+        "table_number": "199",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/15 20:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "MRC41",
+            "init_stack": 13640.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "FISSOUILLE",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "kiriks95400",
+            "init_stack": 4160.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "NICOFOOTIX92",
+            "init_stack": 2865.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "a.b.b.y",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "MRC41",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "FISSOUILLE",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kiriks95400",
+                "action": "raises",
+                "amount": 4100.0
+            },
+            {
+                "player": "NICOFOOTIX92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "a.b.b.y",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MRC41",
+                "action": "calls",
+                "amount": 4100.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jh",
+        "flop_card_2": "9s",
+        "flop_card_3": "2h"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "7h"
+    },
+    "showdown": {
+        "kiriks95400": {
+            "first_card": "6s",
+            "second_card": "Td"
+        },
+        "MRC41": {
+            "first_card": "Qc",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "MRC41": {
+            "amount": 8320.0,
+            "pot_type": "pot"
+        }
+    }
+}

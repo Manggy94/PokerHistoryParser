@@ -1,0 +1,274 @@
+{
+    "hand_id": "539281771632525621-7-1438955150",
+    "datetime": "07-08-2015 13:45:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "308",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "lauryn1705",
+            "init_stack": 5965.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "titi52300",
+            "init_stack": 6480.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "mehdiazi",
+            "init_stack": 6156.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "jask27",
+            "init_stack": 6810.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Gwen 77",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "k-you59",
+            "init_stack": 2230.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "pito70",
+            "init_stack": 4245.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 10150.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "playerdream",
+            "init_stack": 1200.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3s",
+        "second_card": "Kd"
+    },
+    "postings": [
+        {
+            "name": "playerdream",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lauryn1705",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "titi52300",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mehdiazi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jask27",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gwen 77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "k-you59",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "pito70",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "playerdream",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "lauryn1705",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "playerdream",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lauryn1705",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "k-you59",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pito70",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "playerdream",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lauryn1705",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "k-you59",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pito70",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "playerdream",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "lauryn1705",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "k-you59",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "playerdream",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lauryn1705",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pito70",
+                "action": "bets",
+                "amount": 240.0
+            },
+            {
+                "player": "playerdream",
+                "action": "calls",
+                "amount": 240.0
+            },
+            {
+                "player": "lauryn1705",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "4h",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": "6h"
+    },
+    "river": {
+        "river_card": "Jh"
+    },
+    "showdown": {
+        "pito70": {
+            "first_card": "Js",
+            "second_card": "7c"
+        },
+        "playerdream": {
+            "first_card": "As",
+            "second_card": "7d"
+        }
+    },
+    "winners": {
+        "playerdream": {
+            "amount": 1440.0,
+            "pot_type": "pot"
+        }
+    }
+}

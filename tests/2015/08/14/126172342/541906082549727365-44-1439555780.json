@@ -1,0 +1,194 @@
+{
+    "hand_id": "541906082549727365-44-1439555780",
+    "datetime": "14-08-2015 12:36:20",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "132",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Hervach",
+            "init_stack": 3863.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "anto8391",
+            "init_stack": 6055.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nicolito11",
+            "init_stack": 4200.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "hugydu62",
+            "init_stack": 1925.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "LEGION1831",
+            "init_stack": 14690.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 5968.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "5d"
+    },
+    "postings": [
+        {
+            "name": "Hervach",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "anto8391",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nicolito11",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "hugydu62",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LEGION1831",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Hervach",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "anto8391",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Nicolito11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "hugydu62",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LEGION1831",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1240.0
+            },
+            {
+                "player": "Hervach",
+                "action": "raises",
+                "amount": 1240.0
+            },
+            {
+                "player": "anto8391",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1240.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Hervach",
+                "action": "bets",
+                "amount": 943.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 943.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "As",
+        "flop_card_2": "3d",
+        "flop_card_3": "2s"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "9c"
+    },
+    "showdown": {
+        "Hervach": {
+            "first_card": "Kc",
+            "second_card": "Qh"
+        },
+        "manggy94": {
+            "first_card": "Ad",
+            "second_card": "5d"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 8286.0,
+            "pot_type": "pot"
+        }
+    }
+}

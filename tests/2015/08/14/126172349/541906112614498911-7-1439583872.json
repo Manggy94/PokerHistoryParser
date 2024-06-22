@@ -1,0 +1,190 @@
+{
+    "hand_id": "541906112614498911-7-1439583872",
+    "datetime": "14-08-2015 20:24:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172349",
+        "table_number": "606",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/14 20:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "laminetiti",
+            "init_stack": 6385.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "heidi59",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Tornado77",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Jolimourse",
+            "init_stack": 2290.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 6615.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jyer50",
+            "init_stack": 8610.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "jyer50",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "laminetiti",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "heidi59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tornado77",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "jyer50",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "laminetiti",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "jyer50",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "laminetiti",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Tornado77",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "jyer50",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "laminetiti",
+                "action": "bets",
+                "amount": 1810.0
+            },
+            {
+                "player": "Tornado77",
+                "action": "calls",
+                "amount": 1810.0
+            },
+            {
+                "player": "jyer50",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "laminetiti",
+                "action": "bets",
+                "amount": 1618.0
+            },
+            {
+                "player": "Tornado77",
+                "action": "calls",
+                "amount": 1010.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "5c",
+        "flop_card_3": "4d"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "4s"
+    },
+    "showdown": {
+        "Tornado77": {
+            "first_card": "Jc",
+            "second_card": "3h"
+        },
+        "laminetiti": {
+            "first_card": "3d",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "laminetiti": {
+            "amount": 3518.0,
+            "pot_type": "side pot 1"
+        },
+        "Tornado77": {
+            "amount": 2910.0,
+            "pot_type": "main pot"
+        }
+    }
+}

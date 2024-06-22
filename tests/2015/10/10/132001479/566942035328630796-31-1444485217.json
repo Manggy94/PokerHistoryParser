@@ -1,0 +1,251 @@
+{
+    "hand_id": "566942035328630796-31-1444485217",
+    "datetime": "10-10-2015 13:53:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132001479",
+        "table_number": "011",
+        "prize_pool": 1004.5,
+        "registered_players": 287,
+        "speed": "semiturbo",
+        "start_date": "2015/10/10 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "guivy974",
+            "init_stack": 9540.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 13710.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "intermimi",
+            "init_stack": 8334.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "trastal",
+            "init_stack": 26198.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bastosrafle",
+            "init_stack": 19615.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Barbaskonn",
+            "init_stack": 16057.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "kaisernono",
+            "init_stack": 9940.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "okkono",
+            "init_stack": 16990.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Take Five",
+            "init_stack": 19466.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8c",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "bastosrafle",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Barbaskonn",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "guivy974",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "intermimi",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "trastal",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kaisernono",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "okkono",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Take Five",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bastosrafle",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Barbaskonn",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "kaisernono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "okkono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Take Five",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "guivy974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "intermimi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "trastal",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bastosrafle",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Barbaskonn",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Take Five",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 4870.0
+            },
+            {
+                "player": "Take Five",
+                "action": "raises",
+                "amount": 12566.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 6810.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5d",
+        "flop_card_2": "8d",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "2h"
+    },
+    "river": {
+        "river_card": "Ad"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "8c",
+            "second_card": "Ah"
+        },
+        "Take Five": {
+            "first_card": "Qd",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "Take Five": {
+            "amount": 5756.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 28230.0,
+            "pot_type": "main pot"
+        }
+    }
+}

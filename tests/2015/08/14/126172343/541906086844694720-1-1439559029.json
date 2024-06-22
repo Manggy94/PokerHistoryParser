@@ -1,0 +1,185 @@
+{
+    "hand_id": "541906086844694720-1-1439559029",
+    "datetime": "14-08-2015 13:30:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172343",
+        "table_number": "191",
+        "prize_pool": 100.0,
+        "registered_players": 4436,
+        "speed": "turbo",
+        "start_date": "2015/08/14 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DomKalista",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manu1989",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Naahalek013",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "G-home",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Geoffroy1990",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "tito711",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Norm81",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "No-revenge",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5s",
+        "second_card": "Ad"
+    },
+    "postings": [
+        {
+            "name": "Norm81",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "No-revenge",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "DomKalista",
+                "action": "raises",
+                "amount": 2980.0
+            },
+            {
+                "player": "manu1989",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Naahalek013",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "G-home",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Geoffroy1990",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "tito711",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Norm81",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "No-revenge",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "4s",
+        "flop_card_3": "Ts"
+    },
+    "turn": {
+        "turn_card": "7h"
+    },
+    "river": {
+        "river_card": "8h"
+    },
+    "showdown": {
+        "DomKalista": {
+            "first_card": "9h",
+            "second_card": "Ah"
+        },
+        "Naahalek013": {
+            "first_card": "4h",
+            "second_card": "As"
+        },
+        "Geoffroy1990": {
+            "first_card": "Kc",
+            "second_card": "Tc"
+        }
+    },
+    "winners": {
+        "Geoffroy1990": {
+            "amount": 9030.0,
+            "pot_type": "pot"
+        }
+    }
+}

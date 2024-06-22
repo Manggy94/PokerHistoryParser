@@ -1,0 +1,169 @@
+{
+    "hand_id": "574325230139342952-62-1445897325",
+    "datetime": "26-10-2015 22:08:45",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 10,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "LE TOTEM",
+        "tournament_id": "133720513",
+        "table_number": "0103",
+        "prize_pool": 7902.0,
+        "registered_players": 1384,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 21:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "baboul35",
+            "init_stack": 25550.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "stypeur30",
+            "init_stack": 29105.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ROUSSMAN9100",
+            "init_stack": 31022.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 10410.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "IlEstLaaPapa",
+            "init_stack": 13699.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "2122FG",
+            "init_stack": 70238.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ts",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "ROUSSMAN9100",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "baboul35",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "stypeur30",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "IlEstLaaPapa",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "2122FG",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ROUSSMAN9100",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "IlEstLaaPapa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "2122FG",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "baboul35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "stypeur30",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ROUSSMAN9100",
+                "action": "raises",
+                "amount": 29922.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "ROUSSMAN9100": {
+            "amount": 32522.0,
+            "pot_type": "pot"
+        }
+    }
+}

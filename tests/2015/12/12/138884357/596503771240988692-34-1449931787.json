@@ -1,0 +1,288 @@
+{
+    "hand_id": "596503771240988692-34-1449931787",
+    "datetime": "12-12-2015 14:49:47",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 5,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138884357",
+        "table_number": "019",
+        "prize_pool": 2218.5,
+        "registered_players": 493,
+        "speed": "semiturbo",
+        "start_date": "2015/12/12 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Jonjones67",
+            "init_stack": 19673.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "ChauVeDuCoN",
+            "init_stack": 13005.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Cyrnos 77",
+            "init_stack": 11550.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Le Yougo13",
+            "init_stack": 9900.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ABDULBACH",
+            "init_stack": 6191.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 20725.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "M.Seven",
+            "init_stack": 21356.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "fifi1664",
+            "init_stack": 27300.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "Jonjones67",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ChauVeDuCoN",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Cyrnos 77",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Le Yougo13",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ABDULBACH",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "M.Seven",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fifi1664",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jonjones67",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ChauVeDuCoN",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Cyrnos 77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Le Yougo13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ABDULBACH",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "M.Seven",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "fifi1664",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "Jonjones67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ChauVeDuCoN",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "ChauVeDuCoN",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ABDULBACH",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "M.Seven",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "fifi1664",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "ChauVeDuCoN",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ABDULBACH",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "M.Seven",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "fifi1664",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "ChauVeDuCoN",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ABDULBACH",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "M.Seven",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "fifi1664",
+                "action": "bets",
+                "amount": 1375.0
+            },
+            {
+                "player": "ChauVeDuCoN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ABDULBACH",
+                "action": "calls",
+                "amount": 1375.0
+            },
+            {
+                "player": "M.Seven",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7h",
+        "flop_card_2": "Th",
+        "flop_card_3": "2h"
+    },
+    "turn": {
+        "turn_card": "Qc"
+    },
+    "river": {
+        "river_card": "5s"
+    },
+    "showdown": {
+        "ABDULBACH": {
+            "first_card": "7s",
+            "second_card": "6s"
+        },
+        "fifi1664": {
+            "first_card": "Kd",
+            "second_card": "Qd"
+        }
+    },
+    "winners": {
+        "fifi1664": {
+            "amount": 5500.0,
+            "pot_type": "pot"
+        }
+    }
+}

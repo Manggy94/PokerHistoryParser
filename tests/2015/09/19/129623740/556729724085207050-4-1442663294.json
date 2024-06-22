@@ -1,0 +1,166 @@
+{
+    "hand_id": "556729724085207050-4-1442663294",
+    "datetime": "19-09-2015 11:48:14",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "009",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "I__o__I",
+            "init_stack": 10525.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "GG_bin",
+            "init_stack": 9975.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "40 K FAST",
+            "init_stack": 9550.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 10475.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "kevv95",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "BUTIA974",
+            "init_stack": 9525.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4h",
+        "second_card": "Td"
+    },
+    "postings": [
+        {
+            "name": "kevv95",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "BUTIA974",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "I__o__I",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "GG_bin",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "40 K FAST",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 125.0
+            },
+            {
+                "player": "kevv95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BUTIA974",
+                "action": "calls",
+                "amount": 125.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "BUTIA974",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 375.0
+            },
+            {
+                "player": "BUTIA974",
+                "action": "calls",
+                "amount": 375.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "BUTIA974",
+                "action": "bets",
+                "amount": 563.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "7c",
+        "flop_card_3": "Kh"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "BUTIA974": {
+            "amount": 1688.0,
+            "pot_type": "pot"
+        }
+    }
+}

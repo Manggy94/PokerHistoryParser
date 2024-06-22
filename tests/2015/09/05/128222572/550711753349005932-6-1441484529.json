@@ -1,0 +1,189 @@
+{
+    "hand_id": "550711753349005932-6-1441484529",
+    "datetime": "05-09-2015 20:22:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "619",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Paulbrazh",
+            "init_stack": 95.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "PCSI",
+            "init_stack": 5780.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "steven79350",
+            "init_stack": 2950.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "rodricarl74",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "christobal03",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4h",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "rodricarl74",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "christobal03",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Paulbrazh",
+                "action": "raises",
+                "amount": 55.0
+            },
+            {
+                "player": "PCSI",
+                "action": "calls",
+                "amount": 95.0
+            },
+            {
+                "player": "steven79350",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rodricarl74",
+                "action": "calls",
+                "amount": 55.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "rodricarl74",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "PCSI",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "rodricarl74",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "PCSI",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "rodricarl74",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "PCSI",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Tc",
+        "flop_card_2": "7c",
+        "flop_card_3": "6s"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": "Kc"
+    },
+    "showdown": {
+        "rodricarl74": {
+            "first_card": "8h",
+            "second_card": "Qd"
+        },
+        "Paulbrazh": {
+            "first_card": "9c",
+            "second_card": "As"
+        },
+        "PCSI": {
+            "first_card": "9h",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "PCSI": {
+            "amount": 153.0,
+            "pot_type": "pot"
+        },
+        "Paulbrazh": {
+            "amount": 152.0,
+            "pot_type": "pot"
+        }
+    }
+}

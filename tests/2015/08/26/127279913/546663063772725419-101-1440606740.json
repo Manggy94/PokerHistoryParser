@@ -1,0 +1,216 @@
+{
+    "hand_id": "546663063772725419-101-1440606740",
+    "datetime": "26-08-2015 16:32:20",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 28,
+        "ante": 2000.0,
+        "sb": 10000.0,
+        "bb": 20000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279913",
+        "table_number": "170",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/26 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "BULL OR BEAR",
+            "init_stack": 530683.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 94424.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "RUN 97",
+            "init_stack": 50617.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "mamibramou",
+            "init_stack": 105816.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Benisboob",
+            "init_stack": 578118.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Justfun63",
+            "init_stack": 505694.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "marcomoine56",
+            "init_stack": 42884.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Justerner",
+            "init_stack": 396037.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "LEVILAIN",
+            "init_stack": 137491.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2d",
+        "second_card": "9c"
+    },
+    "postings": [
+        {
+            "name": "BULL OR BEAR",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RUN 97",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mamibramou",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Benisboob",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Justfun63",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "marcomoine56",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Justerner",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BULL OR BEAR",
+            "amount": 10000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "RUN 97",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mamibramou",
+                "action": "raises",
+                "amount": 83816.0
+            },
+            {
+                "player": "Benisboob",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Justfun63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "marcomoine56",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Justerner",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BULL OR BEAR",
+                "action": "calls",
+                "amount": 93816.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6d",
+        "flop_card_2": "Kd",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "3d"
+    },
+    "showdown": {
+        "BULL OR BEAR": {
+            "first_card": "9h",
+            "second_card": "Ac"
+        },
+        "mamibramou": {
+            "first_card": "Qd",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "mamibramou": {
+            "amount": 243632.0,
+            "pot_type": "pot"
+        }
+    }
+}

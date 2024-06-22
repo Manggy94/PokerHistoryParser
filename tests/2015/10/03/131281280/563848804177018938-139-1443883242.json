@@ -1,0 +1,205 @@
+{
+    "hand_id": "563848804177018938-139-1443883242",
+    "datetime": "03-10-2015 14:40:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 20,
+        "ante": 1250.0,
+        "sb": 5000.0,
+        "bb": 10000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131281280",
+        "table_number": "057",
+        "prize_pool": 1883.0,
+        "registered_players": 538,
+        "speed": "semiturbo",
+        "start_date": "2015/10/03 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 149299.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "intermimi",
+            "init_stack": 57974.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Noexcuses",
+            "init_stack": 285080.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "vilca",
+            "init_stack": 376834.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "MATOLO",
+            "init_stack": 399538.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ts",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "MATOLO",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "intermimi",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Noexcuses",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vilca",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MATOLO",
+            "amount": 5000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 10000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "intermimi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Noexcuses",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vilca",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MATOLO",
+                "action": "calls",
+                "amount": 5000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "MATOLO",
+                "action": "bets",
+                "amount": 10000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 46250.0
+            },
+            {
+                "player": "MATOLO",
+                "action": "calls",
+                "amount": 46250.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "MATOLO",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "MATOLO",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 81799.0
+            },
+            {
+                "player": "MATOLO",
+                "action": "calls",
+                "amount": 81799.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "9h",
+        "flop_card_3": "5s"
+    },
+    "turn": {
+        "turn_card": "Ks"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {
+        "MATOLO": {
+            "first_card": "Jd",
+            "second_card": "9c"
+        },
+        "manggy94": {
+            "first_card": "Ts",
+            "second_card": "6h"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 302348.0,
+            "pot_type": "pot"
+        }
+    }
+}

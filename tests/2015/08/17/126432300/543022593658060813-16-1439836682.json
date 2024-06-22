@@ -1,0 +1,267 @@
+{
+    "hand_id": "543022593658060813-16-1439836682",
+    "datetime": "17-08-2015 18:38:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126432300",
+        "table_number": "0012",
+        "prize_pool": 150.0,
+        "registered_players": 7593,
+        "speed": "turbo",
+        "start_date": "2015/08/17 18:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "nicostar49",
+            "init_stack": 2770.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "calou4433",
+            "init_stack": 1620.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2470.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "mel62100",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "cousin67",
+            "init_stack": 4450.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "josymini",
+            "init_stack": 11350.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "edisonkchuil",
+            "init_stack": 17330.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "faloli13800",
+            "init_stack": 7210.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "alexfou7",
+            "init_stack": 11990.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "alexfou7",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nicostar49",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "calou4433",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mel62100",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cousin67",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "josymini",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "edisonkchuil",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "faloli13800",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "alexfou7",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "nicostar49",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "calou4433",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mel62100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cousin67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "josymini",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "edisonkchuil",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "faloli13800",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "alexfou7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nicostar49",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "nicostar49",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "calou4433",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "josymini",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "faloli13800",
+                "action": "raises",
+                "amount": 1260.0
+            },
+            {
+                "player": "nicostar49",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "calou4433",
+                "action": "raises",
+                "amount": 45.0
+            },
+            {
+                "player": "josymini",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "faloli13800",
+                "action": "calls",
+                "amount": 45.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4c",
+        "flop_card_2": "4h",
+        "flop_card_3": "5h"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "4s"
+    },
+    "showdown": {
+        "faloli13800": {
+            "first_card": "Kc",
+            "second_card": "5c"
+        },
+        "calou4433": {
+            "first_card": "Kd",
+            "second_card": "Ks"
+        }
+    },
+    "winners": {
+        "calou4433": {
+            "amount": 3870.0,
+            "pot_type": "pot"
+        }
+    }
+}

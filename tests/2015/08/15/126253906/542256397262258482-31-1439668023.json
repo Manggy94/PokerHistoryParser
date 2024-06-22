@@ -1,0 +1,265 @@
+{
+    "hand_id": "542256397262258482-31-1439668023",
+    "datetime": "15-08-2015 19:47:03",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0305",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "toftof1",
+            "init_stack": 3165.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "wini74",
+            "init_stack": 2145.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "tycia49",
+            "init_stack": 332.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kahel80",
+            "init_stack": 22137.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Lakhdar24",
+            "init_stack": 11108.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "djee76 x",
+            "init_stack": 12255.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "wutangclan04",
+            "init_stack": 20740.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "TerYbaRt",
+            "init_stack": 2105.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 27725.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Td",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "TerYbaRt",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "toftof1",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wini74",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tycia49",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kahel80",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lakhdar24",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "djee76 x",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wutangclan04",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TerYbaRt",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "toftof1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wini74",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tycia49",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kahel80",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Lakhdar24",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "djee76 x",
+                "action": "raises",
+                "amount": 450.0
+            },
+            {
+                "player": "wutangclan04",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TerYbaRt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 450.0
+            },
+            {
+                "player": "Kahel80",
+                "action": "calls",
+                "amount": 450.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Kahel80",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "djee76 x",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Kahel80",
+                "action": "bets",
+                "amount": 450.0
+            },
+            {
+                "player": "djee76 x",
+                "action": "calls",
+                "amount": 450.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Kahel80",
+                "action": "bets",
+                "amount": 2810.0
+            },
+            {
+                "player": "djee76 x",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "3c",
+        "flop_card_3": "9h"
+    },
+    "turn": {
+        "turn_card": "4s"
+    },
+    "river": {
+        "river_card": "Tc"
+    },
+    "showdown": {},
+    "winners": {
+        "Kahel80": {
+            "amount": 7025.0,
+            "pot_type": "pot"
+        }
+    }
+}

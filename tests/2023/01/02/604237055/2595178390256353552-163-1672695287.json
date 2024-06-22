@@ -1,0 +1,221 @@
+{
+    "hand_id": "2595178390256353552-163-1672695287",
+    "datetime": "02-01-2023 21:34:47",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 9.0,
+        "bounty": 0.0,
+        "rake": 1.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 25.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "W SERIES MASTER",
+        "tournament_id": "604237055",
+        "table_number": "0271",
+        "prize_pool": null,
+        "registered_players": null,
+        "speed": null,
+        "start_date": null,
+        "levels_structure": [],
+        "tournament_type": null
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 46272.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "HISOKA-XX",
+            "init_stack": 19525.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "J--M",
+            "init_stack": 34580.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Allan-Q-Laid",
+            "init_stack": 30577.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Da_chNeOwW",
+            "init_stack": 19256.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CassisFruite",
+            "init_stack": 70465.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7d",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "HISOKA-XX",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "J--M",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Allan-Q-Laid",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Da_chNeOwW",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "HISOKA-XX",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "J--M",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Allan-Q-Laid",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Da_chNeOwW",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "HISOKA-XX",
+                "action": "raises",
+                "amount": 1200.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "HISOKA-XX",
+                "action": "bets",
+                "amount": 913.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "calls",
+                "amount": 913.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "HISOKA-XX",
+                "action": "bets",
+                "amount": 2738.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "calls",
+                "amount": 2738.0
+            }
+        ],
+        "river": [
+            {
+                "player": "HISOKA-XX",
+                "action": "bets",
+                "amount": 5476.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "raises",
+                "amount": 59613.0
+            },
+            {
+                "player": "HISOKA-XX",
+                "action": "calls",
+                "amount": 8673.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ah",
+        "flop_card_2": "6h",
+        "flop_card_3": "3c"
+    },
+    "turn": {
+        "turn_card": "Qd"
+    },
+    "river": {
+        "river_card": "6s"
+    },
+    "showdown": {
+        "HISOKA-XX": {
+            "first_card": "Ac",
+            "second_card": "Qc"
+        },
+        "CassisFruite": {
+            "first_card": "6d",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "CassisFruite": {
+            "amount": 90190.0,
+            "pot_type": "pot"
+        }
+    }
+}

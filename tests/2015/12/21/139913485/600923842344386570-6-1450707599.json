@@ -1,0 +1,195 @@
+{
+    "hand_id": "600923842344386570-6-1450707599",
+    "datetime": "21-12-2015 14:19:59",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "139913485",
+        "table_number": "009",
+        "prize_pool": 1543.5,
+        "registered_players": 343,
+        "speed": "semiturbo",
+        "start_date": "2015/12/21 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "resmije",
+            "init_stack": 5505.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tipokpok",
+            "init_stack": 9456.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Supras_",
+            "init_stack": 11075.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ShArKcHiPs",
+            "init_stack": 20800.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "gaellem29",
+            "init_stack": 5559.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "PS3u6D09Nlm3",
+            "init_stack": 10050.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ROBINSON 14",
+            "init_stack": 7555.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "gaellem29",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PS3u6D09Nlm3",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 125.0
+            },
+            {
+                "player": "ROBINSON 14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "resmije",
+                "action": "calls",
+                "amount": 175.0
+            },
+            {
+                "player": "tipokpok",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Supras_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ShArKcHiPs",
+                "action": "calls",
+                "amount": 175.0
+            },
+            {
+                "player": "gaellem29",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "PS3u6D09Nlm3",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "gaellem29",
+                "action": "bets",
+                "amount": 5384.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "resmije",
+                "action": "calls",
+                "amount": 5330.0
+            },
+            {
+                "player": "ShArKcHiPs",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9c",
+        "flop_card_2": "Ks",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "6c"
+    },
+    "river": {
+        "river_card": "Jh"
+    },
+    "showdown": {
+        "resmije": {
+            "first_card": "2h",
+            "second_card": "Kc"
+        },
+        "gaellem29": {
+            "first_card": "Qs",
+            "second_card": "4s"
+        }
+    },
+    "winners": {
+        "gaellem29": {
+            "amount": 54.0,
+            "pot_type": "side pot 1"
+        },
+        "resmije": {
+            "amount": 11410.0,
+            "pot_type": "main pot"
+        }
+    }
+}

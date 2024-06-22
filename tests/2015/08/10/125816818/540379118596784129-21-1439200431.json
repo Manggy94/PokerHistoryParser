@@ -1,0 +1,161 @@
+{
+    "hand_id": "540379118596784129-21-1439200431",
+    "datetime": "10-08-2015 09:53:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1200.0,
+        "registered_players": 99,
+        "speed": "normal",
+        "start_date": "2015/08/10 09:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Mareta65",
+            "init_stack": 18500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 22250.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Cebuano",
+            "init_stack": 39175.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "SOURIS38",
+            "init_stack": 16900.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "KHOR ANGAR",
+            "init_stack": 74975.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "willow12_x",
+            "init_stack": 25050.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "01remy01",
+            "init_stack": 35300.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qc",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "willow12_x",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "01remy01",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Mareta65",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 500.0
+            },
+            {
+                "player": "Cebuano",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SOURIS38",
+                "action": "calls",
+                "amount": 700.0
+            },
+            {
+                "player": "KHOR ANGAR",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "willow12_x",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "01remy01",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 21550.0
+            },
+            {
+                "player": "SOURIS38",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ts",
+        "flop_card_2": "Td",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 23250.0,
+            "pot_type": "pot"
+        }
+    }
+}

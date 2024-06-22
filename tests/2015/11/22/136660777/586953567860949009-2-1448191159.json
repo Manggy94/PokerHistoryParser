@@ -1,0 +1,179 @@
+{
+    "hand_id": "586953567860949009-2-1448191159",
+    "datetime": "22-11-2015 11:19:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "FAST FOOD",
+        "tournament_id": "136660777",
+        "table_number": "016",
+        "prize_pool": 1512.0,
+        "registered_players": 291,
+        "speed": "turbo",
+        "start_date": "2015/11/22 11:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 6,
+    "players": {
+        "4": {
+            "seat": 4,
+            "name": "Freu92",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "AUBUSSON 23",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 10100.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "gilbzh",
+            "init_stack": 9900.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "gilbzh",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Freu92",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "AUBUSSON 23",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "gilbzh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Freu92",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Freu92",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "AUBUSSON 23",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 350.0
+            },
+            {
+                "player": "Freu92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AUBUSSON 23",
+                "action": "calls",
+                "amount": 350.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "AUBUSSON 23",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1050.0
+            },
+            {
+                "player": "AUBUSSON 23",
+                "action": "calls",
+                "amount": 1050.0
+            }
+        ],
+        "river": [
+            {
+                "player": "AUBUSSON 23",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "As",
+        "flop_card_3": "8c"
+    },
+    "turn": {
+        "turn_card": "3c"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "AUBUSSON 23": {
+            "first_card": "8d",
+            "second_card": "4d"
+        },
+        "manggy94": {
+            "first_card": "Ac",
+            "second_card": "5h"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 3150.0,
+            "pot_type": "pot"
+        }
+    }
+}

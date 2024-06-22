@@ -1,0 +1,219 @@
+{
+    "hand_id": "550711753349006106-45-1441487248",
+    "datetime": "05-09-2015 21:07:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "793",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Gojko",
+            "init_stack": 535.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Jessima",
+            "init_stack": 14695.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 16854.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "guidelph",
+            "init_stack": 21783.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Shayna mavie",
+            "init_stack": 17666.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "techete",
+            "init_stack": 37639.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8h",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "Jessima",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Gojko",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "guidelph",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Shayna mavie",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "techete",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jessima",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "guidelph",
+                "action": "raises",
+                "amount": 1000.0
+            },
+            {
+                "player": "Shayna mavie",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "techete",
+                "action": "raises",
+                "amount": 4000.0
+            },
+            {
+                "player": "Gojko",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jessima",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "guidelph",
+                "action": "calls",
+                "amount": 4000.0
+            },
+            {
+                "player": "Shayna mavie",
+                "action": "calls",
+                "amount": 4000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "guidelph",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Shayna mavie",
+                "action": "bets",
+                "amount": 1000.0
+            },
+            {
+                "player": "techete",
+                "action": "raises",
+                "amount": 4000.0
+            },
+            {
+                "player": "guidelph",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Shayna mavie",
+                "action": "raises",
+                "amount": 6566.0
+            },
+            {
+                "player": "techete",
+                "action": "calls",
+                "amount": 6566.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "6h",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "9d"
+    },
+    "river": {
+        "river_card": "Qh"
+    },
+    "showdown": {
+        "Shayna mavie": {
+            "first_card": "Qs",
+            "second_card": "Ks"
+        },
+        "techete": {
+            "first_card": "Kh",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "techete": {
+            "amount": 43232.0,
+            "pot_type": "pot"
+        }
+    }
+}

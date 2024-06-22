@@ -1,0 +1,216 @@
+{
+    "hand_id": "593829213501390895-96-1449410718",
+    "datetime": "06-12-2015 14:05:18",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138261638",
+        "table_number": "046",
+        "prize_pool": 3726.0,
+        "registered_players": 828,
+        "speed": "normal",
+        "start_date": "2015/12/06 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 10018.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "afogal1976",
+            "init_stack": 2430.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BEINGOFLIGHT",
+            "init_stack": 29120.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-sgayou-",
+            "init_stack": 6497.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "puce 09",
+            "init_stack": 41754.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "pluck",
+            "init_stack": 29556.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2s",
+        "second_card": "2d"
+    },
+    "postings": [
+        {
+            "name": "BEINGOFLIGHT",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-sgayou-",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "afogal1976",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "puce 09",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pluck",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BEINGOFLIGHT",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "-sgayou-",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "puce 09",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pluck",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "afogal1976",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BEINGOFLIGHT",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "-sgayou-",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "BEINGOFLIGHT",
+                "action": "bets",
+                "amount": 840.0
+            },
+            {
+                "player": "-sgayou-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pluck",
+                "action": "calls",
+                "amount": 840.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "BEINGOFLIGHT",
+                "action": "bets",
+                "amount": 1380.0
+            },
+            {
+                "player": "pluck",
+                "action": "calls",
+                "amount": 1380.0
+            }
+        ],
+        "river": [
+            {
+                "player": "BEINGOFLIGHT",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pluck",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "As",
+        "flop_card_2": "5d",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": "Jc"
+    },
+    "showdown": {
+        "BEINGOFLIGHT": {
+            "first_card": "8d",
+            "second_card": "4d"
+        },
+        "pluck": {
+            "first_card": "Ac",
+            "second_card": "4s"
+        }
+    },
+    "winners": {
+        "pluck": {
+            "amount": 6600.0,
+            "pot_type": "pot"
+        }
+    }
+}

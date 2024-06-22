@@ -1,0 +1,253 @@
+{
+    "hand_id": "571496727886954511-81-1445362709",
+    "datetime": "20-10-2015 17:38:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 12,
+        "ante": 240.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1759.5,
+        "registered_players": 391,
+        "speed": "normal",
+        "start_date": "2015/10/20 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "cramitt",
+            "init_stack": 53479.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Be Focus",
+            "init_stack": 84625.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "DoukDouk83",
+            "init_stack": 51072.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "winamax6100",
+            "init_stack": 36135.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "nathan36",
+            "init_stack": 53320.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "maozz",
+            "init_stack": 5390.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 84721.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "AmissA",
+            "init_stack": 66631.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "Tc"
+    },
+    "postings": [
+        {
+            "name": "nathan36",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "maozz",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cramitt",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Be Focus",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DoukDouk83",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "winamax6100",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AmissA",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nathan36",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "maozz",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AmissA",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "cramitt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Be Focus",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DoukDouk83",
+                "action": "raises",
+                "amount": 4000.0
+            },
+            {
+                "player": "winamax6100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nathan36",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "maozz",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AmissA",
+                "action": "calls",
+                "amount": 4000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "AmissA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "DoukDouk83",
+                "action": "bets",
+                "amount": 9000.0
+            },
+            {
+                "player": "AmissA",
+                "action": "calls",
+                "amount": 9000.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "AmissA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "DoukDouk83",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "AmissA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "DoukDouk83",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "8d",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "As"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "AmissA": {
+            "first_card": "3d",
+            "second_card": "Kd"
+        },
+        "DoukDouk83": {
+            "first_card": "9d",
+            "second_card": "9c"
+        }
+    },
+    "winners": {
+        "DoukDouk83": {
+            "amount": 34920.0,
+            "pot_type": "pot"
+        }
+    }
+}

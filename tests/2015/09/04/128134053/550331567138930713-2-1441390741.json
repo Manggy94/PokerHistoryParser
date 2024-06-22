@@ -1,0 +1,250 @@
+{
+    "hand_id": "550331567138930713-2-1441390741",
+    "datetime": "04-09-2015 18:19:01",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128134053",
+        "table_number": "0024",
+        "prize_pool": 150.0,
+        "registered_players": 5407,
+        "speed": "turbo",
+        "start_date": "2015/09/04 18:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "edmond66",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ANGE IRIS",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lioh67190",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "frackass1290",
+            "init_stack": 12030.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jjrif02",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Mours38",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "bordeauxNLR",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "kothie",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "Js"
+    },
+    "postings": [
+        {
+            "name": "lioh67190",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "frackass1290",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jjrif02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Mours38",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "bordeauxNLR",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "kothie",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "edmond66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ANGE IRIS",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "lioh67190",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "frackass1290",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "frackass1290",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mours38",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bordeauxNLR",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ANGE IRIS",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "frackass1290",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mours38",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bordeauxNLR",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ANGE IRIS",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "frackass1290",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mours38",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bordeauxNLR",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ANGE IRIS",
+                "action": "bets",
+                "amount": 30.0
+            },
+            {
+                "player": "frackass1290",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Mours38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bordeauxNLR",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jh",
+        "flop_card_2": "Ks",
+        "flop_card_3": "8c"
+    },
+    "turn": {
+        "turn_card": "8s"
+    },
+    "river": {
+        "river_card": "4c"
+    },
+    "showdown": {},
+    "winners": {
+        "ANGE IRIS": {
+            "amount": 165.0,
+            "pot_type": "pot"
+        }
+    }
+}

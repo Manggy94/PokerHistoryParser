@@ -1,0 +1,220 @@
+{
+    "hand_id": "552788120928518377-12-1441876943",
+    "datetime": "10-09-2015 09:22:23",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "232",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Bobdu2105",
+            "init_stack": 2715.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Maje666",
+            "init_stack": 7946.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Tango66",
+            "init_stack": 2765.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "The Red Hood",
+            "init_stack": 20005.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "tintin1231",
+            "init_stack": 1955.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "gib 83",
+            "init_stack": 2285.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "darkclaude",
+            "init_stack": 3090.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 14335.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "tintin1231",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gib 83",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bobdu2105",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Maje666",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tango66",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "The Red Hood",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "darkclaude",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tintin1231",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gib 83",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "darkclaude",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 495.0
+            },
+            {
+                "player": "Bobdu2105",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Maje666",
+                "action": "calls",
+                "amount": 645.0
+            },
+            {
+                "player": "Tango66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "The Red Hood",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tintin1231",
+                "action": "raises",
+                "amount": 1295.0
+            },
+            {
+                "player": "gib 83",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1295.0
+            },
+            {
+                "player": "Maje666",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8s",
+        "flop_card_2": "Qc",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": "4s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ks",
+            "second_card": "Ah"
+        },
+        "tintin1231": {
+            "first_card": "Js",
+            "second_card": "Jh"
+        }
+    },
+    "winners": {
+        "tintin1231": {
+            "amount": 4795.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "hand_id": "572523285200240674-53-1445517156",
+    "datetime": "22-10-2015 12:32:36",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 5,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133300965",
+        "table_number": "033",
+        "prize_pool": 1662.5,
+        "registered_players": 475,
+        "speed": "semiturbo",
+        "start_date": "2015/10/22 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "6nilon9",
+            "init_stack": 28275.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 6075.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "boumerdassi",
+            "init_stack": 45825.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JoO638",
+            "init_stack": 25500.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Fishyard51",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5s",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "JoO638",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fishyard51",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "6nilon9",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "boumerdassi",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JoO638",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Fishyard51",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "6nilon9",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "boumerdassi",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "JoO638",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fishyard51",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Fishyard51",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "boumerdassi",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "Fishyard51",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "Ah",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "boumerdassi": {
+            "amount": 1775.0,
+            "pot_type": "pot"
+        }
+    }
+}

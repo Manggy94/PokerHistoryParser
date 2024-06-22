@@ -1,0 +1,171 @@
+{
+    "hand_id": "600923812279615525-25-1450703452",
+    "datetime": "21-12-2015 13:10:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "139913478",
+        "table_number": "036",
+        "prize_pool": 2000.0,
+        "registered_players": 438,
+        "speed": "normal",
+        "start_date": "2015/12/21 12:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jrdey",
+            "init_stack": 22187.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "_MADBLAKE_",
+            "init_stack": 9335.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Petomane26",
+            "init_stack": 16967.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "tonsawyer",
+            "init_stack": 9861.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jOjO87700",
+            "init_stack": 12000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "8d"
+    },
+    "postings": [
+        {
+            "name": "_MADBLAKE_",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Petomane26",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tonsawyer",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jOjO87700",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jrdey",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "_MADBLAKE_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "jrdey",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 150.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "jrdey",
+                "action": "bets",
+                "amount": 450.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Tc",
+        "flop_card_2": "4s",
+        "flop_card_3": "9c"
+    },
+    "turn": {
+        "turn_card": "Ah"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "jrdey": {
+            "amount": 1125.0,
+            "pot_type": "pot"
+        }
+    }
+}

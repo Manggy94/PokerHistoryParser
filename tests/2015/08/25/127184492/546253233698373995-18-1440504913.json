@@ -1,0 +1,196 @@
+{
+    "hand_id": "546253233698373995-18-1440504913",
+    "datetime": "25-08-2015 12:15:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "362",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Anthone_X",
+            "init_stack": 3098.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "AroUrOuA",
+            "init_stack": 3035.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "gratouille50",
+            "init_stack": 2885.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Maille Nem_S",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "campeon22",
+            "init_stack": 4109.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 7706.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "Js"
+    },
+    "postings": [
+        {
+            "name": "Anthone_X",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "AroUrOuA",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gratouille50",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Maille Nem_S",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "campeon22",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "Anthone_X",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "AroUrOuA",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Anthone_X",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "AroUrOuA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "campeon22",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Anthone_X",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "AroUrOuA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "campeon22",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 320.0
+            },
+            {
+                "player": "Anthone_X",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AroUrOuA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "campeon22",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "Qh",
+        "flop_card_3": "3h"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 640.0,
+            "pot_type": "pot"
+        }
+    }
+}

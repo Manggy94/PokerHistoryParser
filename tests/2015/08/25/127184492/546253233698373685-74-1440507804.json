@@ -1,0 +1,203 @@
+{
+    "hand_id": "546253233698373685-74-1440507804",
+    "datetime": "25-08-2015 13:03:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 19,
+        "ante": 250.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "052",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 7842.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "cililyla",
+            "init_stack": 33354.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "smoker2fish",
+            "init_stack": 41597.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gazidaniel",
+            "init_stack": 29140.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "geuvye",
+            "init_stack": 50858.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "AKing-Julien",
+            "init_stack": 16752.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "geuvye",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AKing-Julien",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cililyla",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "smoker2fish",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gazidaniel",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "geuvye",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "AKing-Julien",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cililyla",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "smoker2fish",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gazidaniel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "geuvye",
+                "action": "calls",
+                "amount": 1250.0
+            },
+            {
+                "player": "AKing-Julien",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "geuvye",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "AKing-Julien",
+                "action": "bets",
+                "amount": 5000.0
+            },
+            {
+                "player": "geuvye",
+                "action": "raises",
+                "amount": 16500.0
+            },
+            {
+                "player": "AKing-Julien",
+                "action": "calls",
+                "amount": 9002.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "8c",
+        "flop_card_3": "6d"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {
+        "AKing-Julien": {
+            "first_card": "4d",
+            "second_card": "8h"
+        },
+        "geuvye": {
+            "first_card": "Kd",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "geuvye": {
+            "amount": 7498.0,
+            "pot_type": "side pot 1"
+        },
+        "AKing-Julien": {
+            "amount": 34504.0,
+            "pot_type": "main pot"
+        }
+    }
+}

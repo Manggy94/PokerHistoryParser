@@ -1,0 +1,234 @@
+{
+    "hand_id": "565681402297712650-50-1444227278",
+    "datetime": "07-10-2015 14:14:38",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 9,
+        "ante": 75.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131707965",
+        "table_number": "009",
+        "prize_pool": 959.0,
+        "registered_players": 274,
+        "speed": "semiturbo",
+        "start_date": "2015/10/07 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "zoralucky",
+            "init_stack": 9215.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 4980.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ak13000",
+            "init_stack": 34270.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Osco manosco",
+            "init_stack": 62748.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Ridersvenson",
+            "init_stack": 22458.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "IBrokeUrMum",
+            "init_stack": 8890.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Bendu72400",
+            "init_stack": 3896.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "nenoux26",
+            "init_stack": 72148.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "TaPiPrFlop35",
+            "init_stack": 8680.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6s",
+        "second_card": "Td"
+    },
+    "postings": [
+        {
+            "name": "Osco manosco",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ridersvenson",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zoralucky",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ak13000",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "IBrokeUrMum",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bendu72400",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nenoux26",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TaPiPrFlop35",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Osco manosco",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Ridersvenson",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "IBrokeUrMum",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Bendu72400",
+                "action": "raises",
+                "amount": 3021.0
+            },
+            {
+                "player": "nenoux26",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TaPiPrFlop35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zoralucky",
+                "action": "raises",
+                "amount": 5319.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ak13000",
+                "action": "raises",
+                "amount": 25055.0
+            },
+            {
+                "player": "Osco manosco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ridersvenson",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "5h",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "As"
+    },
+    "showdown": {
+        "zoralucky": {
+            "first_card": "Jh",
+            "second_card": "2c"
+        },
+        "Bendu72400": {
+            "first_card": "Ah",
+            "second_card": "5c"
+        },
+        "ak13000": {
+            "first_card": "Qh",
+            "second_card": "Js"
+        }
+    },
+    "winners": {
+        "ak13000": {
+            "amount": 35693.0,
+            "pot_type": "side pot 1"
+        },
+        "Bendu72400": {
+            "amount": 13338.0,
+            "pot_type": "main pot"
+        }
+    }
+}

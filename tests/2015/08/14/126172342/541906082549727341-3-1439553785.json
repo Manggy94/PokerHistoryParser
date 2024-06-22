@@ -1,0 +1,230 @@
+{
+    "hand_id": "541906082549727341-3-1439553785",
+    "datetime": "14-08-2015 12:03:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "108",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tietco",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bibiche62230",
+            "init_stack": 3275.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2855.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "DansTonSlip",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "calypsso870",
+            "init_stack": 3030.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Mina0606",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2d",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "bibiche62230",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "DansTonSlip",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "calypsso870",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Mina0606",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tietco",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "bibiche62230",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "bibiche62230",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "DansTonSlip",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "calypsso870",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "tietco",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "bibiche62230",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "DansTonSlip",
+                "action": "bets",
+                "amount": 50.0
+            },
+            {
+                "player": "calypsso870",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "tietco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bibiche62230",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "bibiche62230",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "DansTonSlip",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "calypsso870",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "Qs",
+        "flop_card_3": "Ac"
+    },
+    "turn": {
+        "turn_card": "4s"
+    },
+    "river": {
+        "river_card": "9h"
+    },
+    "showdown": {
+        "bibiche62230": {
+            "first_card": "Tc",
+            "second_card": "Jh"
+        },
+        "calypsso870": {
+            "first_card": "3c",
+            "second_card": "2c"
+        },
+        "DansTonSlip": {
+            "first_card": "Qh",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "DansTonSlip": {
+            "amount": 250.0,
+            "pot_type": "pot"
+        }
+    }
+}

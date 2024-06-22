@@ -1,0 +1,149 @@
+{
+    "hand_id": "600923537401708546-23-1450726085",
+    "datetime": "21-12-2015 19:28:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 1.8,
+        "bounty": 0.0,
+        "rake": 0.2
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 81.0,
+        "registered_players": 19,
+        "speed": "turbo",
+        "start_date": "2015/12/21 19:10:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Ready to Die",
+            "init_stack": 620.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 1620.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "daminatorx",
+            "init_stack": 1045.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": ".BLEKLEROC.",
+            "init_stack": 3960.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Tacktik",
+            "init_stack": 400.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Td",
+        "second_card": "9c"
+    },
+    "postings": [
+        {
+            "name": "Ready to Die",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "daminatorx",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": ".BLEKLEROC.",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "Tacktik",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ready to Die",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "daminatorx",
+                "action": "bets",
+                "amount": 925.0
+            },
+            {
+                "player": ".BLEKLEROC.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ah",
+        "flop_card_2": "6c",
+        "flop_card_3": "5h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "daminatorx": {
+            "amount": 1345.0,
+            "pot_type": "pot"
+        }
+    }
+}

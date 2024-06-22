@@ -1,0 +1,200 @@
+{
+    "hand_id": "556258587647672542-11-1442589387",
+    "datetime": "18-09-2015 15:16:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "129514045",
+        "table_number": "221",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/18 15:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "jean-lc",
+            "init_stack": 2385.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Kyliannolhan",
+            "init_stack": 6750.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "bnjeams1492",
+            "init_stack": 2540.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "celasse974",
+            "init_stack": 4821.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "maxdsou",
+            "init_stack": 3356.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "jean lou2A",
+            "init_stack": 7685.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Lemauche 1er",
+            "init_stack": 3770.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "frackass1290",
+            "init_stack": 4020.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "frackass1290",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jean-lc",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kyliannolhan",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "bnjeams1492",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "celasse974",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "maxdsou",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "jean lou2A",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lemauche 1er",
+                "action": "raises",
+                "amount": 3650.0
+            },
+            {
+                "player": "frackass1290",
+                "action": "raises",
+                "amount": 250.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kyliannolhan",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "celasse974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "maxdsou",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "7d",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "Qh"
+    },
+    "showdown": {
+        "Lemauche 1er": {
+            "first_card": "As",
+            "second_card": "Ad"
+        },
+        "frackass1290": {
+            "first_card": "8c",
+            "second_card": "8h"
+        }
+    },
+    "winners": {
+        "frackass1290": {
+            "amount": 250.0,
+            "pot_type": "side pot 1"
+        },
+        "Lemauche 1er": {
+            "amount": 8020.0,
+            "pot_type": "main pot"
+        }
+    }
+}

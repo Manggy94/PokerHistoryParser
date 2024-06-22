@@ -1,0 +1,181 @@
+{
+    "hand_id": "545387621694571277-3-1440347649",
+    "datetime": "23-08-2015 16:34:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126982951",
+        "table_number": "780",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/23 16:30:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "portsall64",
+            "init_stack": 3005.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fanight",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "x_chaitan",
+            "init_stack": 3035.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "rilos",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "doudetadoud",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8d",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "rilos",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "doudetadoud",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "portsall64",
+                "action": "raises",
+                "amount": 30.0
+            },
+            {
+                "player": "fanight",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "x_chaitan",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "rilos",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "portsall64",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "x_chaitan",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "portsall64",
+                "action": "bets",
+                "amount": 30.0
+            },
+            {
+                "player": "x_chaitan",
+                "action": "calls",
+                "amount": 30.0
+            }
+        ],
+        "river": [
+            {
+                "player": "portsall64",
+                "action": "bets",
+                "amount": 30.0
+            },
+            {
+                "player": "x_chaitan",
+                "action": "calls",
+                "amount": 30.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "5h",
+        "flop_card_2": "4d",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {
+        "x_chaitan": {
+            "first_card": "6d",
+            "second_card": "Ah"
+        },
+        "portsall64": {
+            "first_card": "Kd",
+            "second_card": "Js"
+        }
+    },
+    "winners": {
+        "portsall64": {
+            "amount": 285.0,
+            "pot_type": "pot"
+        }
+    }
+}

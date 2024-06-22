@@ -1,0 +1,211 @@
+{
+    "hand_id": "594319995119337527-66-1449491390",
+    "datetime": "07-12-2015 12:29:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 18,
+        "ante": 200.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "054",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Nerull44",
+            "init_stack": 32571.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "sopra61",
+            "init_stack": 4147.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "turckas",
+            "init_stack": 21730.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Bigawouel",
+            "init_stack": 4160.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "1.PERSONNE.1",
+            "init_stack": 40805.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 27950.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "prendpastout",
+            "init_stack": 115315.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "Bigawouel",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "1.PERSONNE.1",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nerull44",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sopra61",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "turckas",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "prendpastout",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bigawouel",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "1.PERSONNE.1",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "prendpastout",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nerull44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sopra61",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "turckas",
+                "action": "calls",
+                "amount": 2000.0
+            },
+            {
+                "player": "Bigawouel",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "1.PERSONNE.1",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Bigawouel",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "1.PERSONNE.1",
+                "action": "bets",
+                "amount": 2000.0
+            },
+            {
+                "player": "turckas",
+                "action": "raises",
+                "amount": 17530.0
+            },
+            {
+                "player": "Bigawouel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "1.PERSONNE.1",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2s",
+        "flop_card_2": "8h",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "turckas": {
+            "amount": 28930.0,
+            "pot_type": "pot"
+        }
+    }
+}

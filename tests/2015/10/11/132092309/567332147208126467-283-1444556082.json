@@ -1,0 +1,199 @@
+{
+    "hand_id": "567332147208126467-283-1444556082",
+    "datetime": "11-10-2015 09:34:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 13,
+        "ante": 320.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1332.0,
+        "registered_players": 296,
+        "speed": "normal",
+        "start_date": "2015/10/11 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 4,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 47877.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "redcactus69",
+            "init_stack": 287735.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "PSEUDOMICHEL",
+            "init_stack": 334970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "AAGregusAA",
+            "init_stack": 197000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "PSEUDOMICHEL",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AAGregusAA",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "redcactus69",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PSEUDOMICHEL",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "AAGregusAA",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "redcactus69",
+                "action": "raises",
+                "amount": 2500.0
+            },
+            {
+                "player": "PSEUDOMICHEL",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AAGregusAA",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2500.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "AAGregusAA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "redcactus69",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "AAGregusAA",
+                "action": "bets",
+                "amount": 2500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "redcactus69",
+                "action": "calls",
+                "amount": 2500.0
+            }
+        ],
+        "river": [
+            {
+                "player": "AAGregusAA",
+                "action": "bets",
+                "amount": 2500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "redcactus69",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "9d",
+        "flop_card_3": "7d"
+    },
+    "turn": {
+        "turn_card": "5d"
+    },
+    "river": {
+        "river_card": "3s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ac",
+            "second_card": "5h"
+        },
+        "AAGregusAA": {
+            "first_card": "9s",
+            "second_card": "6d"
+        }
+    },
+    "winners": {
+        "AAGregusAA": {
+            "amount": 30030.0,
+            "pot_type": "pot"
+        }
+    }
+}

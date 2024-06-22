@@ -1,0 +1,243 @@
+{
+    "hand_id": "568654782386929675-65-1444847408",
+    "datetime": "14-10-2015 18:30:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 7.0,
+        "bounty": 0.0,
+        "rake": 3.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 150.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132400259",
+        "table_number": "010",
+        "prize_pool": 1533.0,
+        "registered_players": 219,
+        "speed": "semiturbo",
+        "start_date": "2015/10/14 17:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tonyweeds",
+            "init_stack": 9834.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "syla84",
+            "init_stack": 35424.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "w2totor",
+            "init_stack": 18740.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "93HARDCORE",
+            "init_stack": 47366.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Sinnlos",
+            "init_stack": 27424.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 28817.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "latirel",
+            "init_stack": 37785.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "eldiabloss",
+            "init_stack": 41000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "syla84",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "w2totor",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tonyweeds",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "93HARDCORE",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sinnlos",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "latirel",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "eldiabloss",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "syla84",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "w2totor",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "93HARDCORE",
+                "action": "raises",
+                "amount": 1800.0
+            },
+            {
+                "player": "Sinnlos",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "latirel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "eldiabloss",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tonyweeds",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "syla84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "w2totor",
+                "action": "calls",
+                "amount": 1800.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "w2totor",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "93HARDCORE",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "w2totor",
+                "action": "bets",
+                "amount": 5200.0
+            },
+            {
+                "player": "93HARDCORE",
+                "action": "calls",
+                "amount": 5200.0
+            }
+        ],
+        "river": [
+            {
+                "player": "w2totor",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "93HARDCORE",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7h",
+        "flop_card_2": "Jc",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "8s"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {
+        "93HARDCORE": {
+            "first_card": "Ah",
+            "second_card": "Qc"
+        },
+        "w2totor": {
+            "first_card": "Kd",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "w2totor": {
+            "amount": 18200.0,
+            "pot_type": "pot"
+        }
+    }
+}

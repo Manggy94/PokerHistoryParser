@@ -1,0 +1,148 @@
+{
+    "hand_id": "596503771240988703-1-1449930634",
+    "datetime": "12-12-2015 14:30:34",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138884357",
+        "table_number": "030",
+        "prize_pool": 2218.5,
+        "registered_players": 493,
+        "speed": "semiturbo",
+        "start_date": "2015/12/12 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "CoccinelleMJ",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "soyezaimable",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "4h"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "soyezaimable",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 75.0
+            },
+            {
+                "player": "soyezaimable",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "soyezaimable",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "soyezaimable",
+                "action": "calls",
+                "amount": 150.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "soyezaimable",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "soyezaimable",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "8d",
+        "flop_card_3": "Kc"
+    },
+    "turn": {
+        "turn_card": "6c"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "9h",
+            "second_card": "4h"
+        },
+        "soyezaimable": {
+            "first_card": "4c",
+            "second_card": "4s"
+        }
+    },
+    "winners": {
+        "soyezaimable": {
+            "amount": 600.0,
+            "pot_type": "pot"
+        }
+    }
+}

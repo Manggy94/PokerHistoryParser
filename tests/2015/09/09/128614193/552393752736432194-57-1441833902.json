@@ -1,0 +1,201 @@
+{
+    "hand_id": "552393752736432194-57-1441833902",
+    "datetime": "09-09-2015 21:25:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 20,
+        "ante": 1250.0,
+        "sb": 5000.0,
+        "bb": 10000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "128614193",
+        "table_number": "065",
+        "prize_pool": 2240.0,
+        "registered_players": 640,
+        "speed": "semiturbo",
+        "start_date": "2015/09/09 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "dams-king78",
+            "init_stack": 88943.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": ".Frezoco.",
+            "init_stack": 38070.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "1tripAAA",
+            "init_stack": 78236.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bernie57",
+            "init_stack": 234252.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "DnkyOnASpree",
+            "init_stack": 98841.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "ATP26",
+            "init_stack": 38616.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 74549.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "christal94",
+            "init_stack": 139604.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "Td"
+    },
+    "postings": [
+        {
+            "name": "1tripAAA",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bernie57",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dams-king78",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": ".Frezoco.",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DnkyOnASpree",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ATP26",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "christal94",
+            "amount": 1250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "1tripAAA",
+            "amount": 5000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "bernie57",
+            "amount": 10000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "DnkyOnASpree",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ATP26",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "christal94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dams-king78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": ".Frezoco.",
+                "action": "raises",
+                "amount": 26820.0
+            },
+            {
+                "player": "1tripAAA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bernie57",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        ".Frezoco.": {
+            "amount": 61820.0,
+            "pot_type": "pot"
+        }
+    }
+}

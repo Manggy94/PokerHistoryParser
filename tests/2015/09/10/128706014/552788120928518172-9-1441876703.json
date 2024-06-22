@@ -1,0 +1,218 @@
+{
+    "hand_id": "552788120928518172-9-1441876703",
+    "datetime": "10-09-2015 09:18:23",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 10.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "027",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Manu8321",
+            "init_stack": 3855.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "enola62",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Romcok",
+            "init_stack": 1490.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 9500.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "lyria34",
+            "init_stack": 5525.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gedeon001",
+            "init_stack": 1615.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Kyte",
+            "init_stack": 95.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "MARSUPILANI7",
+            "init_stack": 4430.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "CHAKIF",
+            "init_stack": 60.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kd",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lyria34",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Manu8321",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gedeon001",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kyte",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MARSUPILANI7",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CHAKIF",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lyria34",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gedeon001",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "Kyte",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MARSUPILANI7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CHAKIF",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Manu8321",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 430.0
+            },
+            {
+                "player": "lyria34",
+                "action": "calls",
+                "amount": 430.0
+            },
+            {
+                "player": "gedeon001",
+                "action": "calls",
+                "amount": 430.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1720.0
+            },
+            {
+                "player": "lyria34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gedeon001",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "4s",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 3440.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,259 @@
+{
+    "hand_id": "545010802738856043-14-1440268696",
+    "datetime": "22-08-2015 18:38:16",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126895216",
+        "table_number": "0106",
+        "prize_pool": 150.0,
+        "registered_players": 5943,
+        "speed": "turbo",
+        "start_date": "2015/08/22 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "AAmanullah",
+            "init_stack": 2725.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "hechris",
+            "init_stack": 5715.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "BANGOMA976",
+            "init_stack": 2705.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Moussdaddy",
+            "init_stack": 2735.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "_MasterYoda_",
+            "init_stack": 2715.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Quick31",
+            "init_stack": 2730.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "steel_dandy",
+            "init_stack": 2775.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "POKERBOYMAN",
+            "init_stack": 1050.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "AAmanullah",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "hechris",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BANGOMA976",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Moussdaddy",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "_MasterYoda_",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Quick31",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "steel_dandy",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "POKERBOYMAN",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AAmanullah",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "hechris",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "BANGOMA976",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Moussdaddy",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "_MasterYoda_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Quick31",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "steel_dandy",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "POKERBOYMAN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AAmanullah",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "hechris",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "hechris",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Quick31",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "hechris",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Quick31",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "hechris",
+                "action": "calls",
+                "amount": 150.0
+            }
+        ],
+        "river": [
+            {
+                "player": "hechris",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Quick31",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "hechris",
+                "action": "calls",
+                "amount": 150.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "5h",
+        "flop_card_3": "6c"
+    },
+    "turn": {
+        "turn_card": "As"
+    },
+    "river": {
+        "river_card": "Qd"
+    },
+    "showdown": {
+        "hechris": {
+            "first_card": "6d",
+            "second_card": "3d"
+        },
+        "Quick31": {
+            "first_card": "9s",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "Quick31": {
+            "amount": 1095.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "hand_id": "574322373986091027-50-1445866269",
+    "datetime": "26-10-2015 13:31:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 5,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133719848",
+        "table_number": "018",
+        "prize_pool": 1827.0,
+        "registered_players": 522,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 12:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Yekoms",
+            "init_stack": 7137.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Full River",
+            "init_stack": 11350.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "-valueporc-",
+            "init_stack": 42044.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "RuunBiAtch",
+            "init_stack": 7475.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Nevro97436",
+            "init_stack": 15965.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 16029.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Yekoms",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Full River",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-valueporc-",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RuunBiAtch",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nevro97436",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Yekoms",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Full River",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "-valueporc-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "RuunBiAtch",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yekoms",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Full River",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Full River",
+                "action": "bets",
+                "amount": 900.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "3h",
+        "flop_card_3": "7d"
+    },
+    "turn": {
+        "turn_card": "5d"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Full River": {
+            "amount": 2700.0,
+            "pot_type": "pot"
+        }
+    }
+}

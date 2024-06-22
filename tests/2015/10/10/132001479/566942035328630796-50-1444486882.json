@@ -1,0 +1,241 @@
+{
+    "hand_id": "566942035328630796-50-1444486882",
+    "datetime": "10-10-2015 14:21:22",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 10,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132001479",
+        "table_number": "011",
+        "prize_pool": 1004.5,
+        "registered_players": 287,
+        "speed": "semiturbo",
+        "start_date": "2015/10/10 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "guivy974",
+            "init_stack": 20462.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 15930.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "intermimi",
+            "init_stack": 4620.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "nosoucy974",
+            "init_stack": 74247.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Barbaskonn",
+            "init_stack": 10997.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "kaisernono",
+            "init_stack": 15060.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "gerard69",
+            "init_stack": 8700.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "KKrASleQtino",
+            "init_stack": 16534.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "Qs"
+    },
+    "postings": [
+        {
+            "name": "Barbaskonn",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kaisernono",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "guivy974",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "intermimi",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nosoucy974",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gerard69",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "KKrASleQtino",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Barbaskonn",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "kaisernono",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gerard69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KKrASleQtino",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "guivy974",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 4300.0
+            },
+            {
+                "player": "intermimi",
+                "action": "calls",
+                "amount": 4520.0
+            },
+            {
+                "player": "nosoucy974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Barbaskonn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kaisernono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "guivy974",
+                "action": "calls",
+                "amount": 4300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "guivy974",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "guivy974",
+                "action": "bets",
+                "amount": 15062.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 10530.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "2h",
+        "flop_card_3": "Ts"
+    },
+    "turn": {
+        "turn_card": "6c"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ks",
+            "second_card": "Qs"
+        },
+        "intermimi": {
+            "first_card": "Js",
+            "second_card": "Qh"
+        },
+        "guivy974": {
+            "first_card": "Kc",
+            "second_card": "Tc"
+        }
+    },
+    "winners": {
+        "guivy974": {
+            "amount": 43012.0,
+            "pot_type": "pot"
+        }
+    }
+}

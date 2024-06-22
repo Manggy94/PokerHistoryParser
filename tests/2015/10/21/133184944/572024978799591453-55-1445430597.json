@@ -1,0 +1,201 @@
+{
+    "hand_id": "572024978799591453-55-1445430597",
+    "datetime": "21-10-2015 12:29:57",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133184944",
+        "table_number": "028",
+        "prize_pool": 1669.5,
+        "registered_players": 477,
+        "speed": "semiturbo",
+        "start_date": "2015/10/21 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tibo352",
+            "init_stack": 15586.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "loi kroh",
+            "init_stack": 14886.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 37394.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "zarden",
+            "init_stack": 22629.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fred4242",
+            "init_stack": 9218.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nelson_du_77",
+            "init_stack": 9998.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5c",
+        "second_card": "5d"
+    },
+    "postings": [
+        {
+            "name": "tibo352",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "loi kroh",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "zarden",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "fred4242",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nelson_du_77",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "tibo352",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "loi kroh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zarden",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nelson_du_77",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 900.0
+            },
+            {
+                "player": "zarden",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nelson_du_77",
+                "action": "calls",
+                "amount": 900.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nelson_du_77",
+                "action": "bets",
+                "amount": 1543.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1543.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3s",
+        "flop_card_2": "Tc",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "8s"
+    },
+    "river": {
+        "river_card": "Kd"
+    },
+    "showdown": {
+        "Nelson_du_77": {
+            "first_card": "7s",
+            "second_card": "As"
+        },
+        "manggy94": {
+            "first_card": "5c",
+            "second_card": "5d"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 7136.0,
+            "pot_type": "pot"
+        }
+    }
+}

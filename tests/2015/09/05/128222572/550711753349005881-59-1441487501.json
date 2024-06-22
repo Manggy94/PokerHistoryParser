@@ -1,0 +1,169 @@
+{
+    "hand_id": "550711753349005881-59-1441487501",
+    "datetime": "05-09-2015 21:11:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 17,
+        "ante": 160.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "568",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "trefle007",
+            "init_stack": 12750.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "nonodrino",
+            "init_stack": 11645.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "mabelle51",
+            "init_stack": 33085.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 15619.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "pattate57",
+            "init_stack": 47434.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "guigui291",
+            "init_stack": 20336.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7c",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "trefle007",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nonodrino",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mabelle51",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pattate57",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "guigui291",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "trefle007",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "nonodrino",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "mabelle51",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pattate57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "guigui291",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "trefle007",
+                "action": "raises",
+                "amount": 1600.0
+            },
+            {
+                "player": "nonodrino",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "trefle007": {
+            "amount": 5760.0,
+            "pot_type": "pot"
+        }
+    }
+}

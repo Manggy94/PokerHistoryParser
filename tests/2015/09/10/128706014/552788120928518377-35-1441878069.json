@@ -1,0 +1,221 @@
+{
+    "hand_id": "552788120928518377-35-1441878069",
+    "datetime": "10-09-2015 09:41:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 13,
+        "ante": 70.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "232",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "BRABR",
+            "init_stack": 22939.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Maje666",
+            "init_stack": 5086.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "viciousduck",
+            "init_stack": 215.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Tango66",
+            "init_stack": 975.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "The Red Hood",
+            "init_stack": 4275.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "sszfzmh",
+            "init_stack": 12030.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "eve123",
+            "init_stack": 4090.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "darkclaude",
+            "init_stack": 3575.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 22460.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "Maje666",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "viciousduck",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BRABR",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tango66",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "The Red Hood",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sszfzmh",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "eve123",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "darkclaude",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Maje666",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "viciousduck",
+            "amount": 145.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Tango66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "The Red Hood",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sszfzmh",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "eve123",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "darkclaude",
+                "action": "raises",
+                "amount": 3360.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BRABR",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Maje666",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9c",
+        "flop_card_2": "2h",
+        "flop_card_3": "As"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {
+        "viciousduck": {
+            "first_card": "5c",
+            "second_card": "Qs"
+        },
+        "darkclaude": {
+            "first_card": "Ad",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "darkclaude": {
+            "amount": 4580.0,
+            "pot_type": "pot"
+        }
+    }
+}

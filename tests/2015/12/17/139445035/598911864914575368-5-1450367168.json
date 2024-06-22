@@ -1,0 +1,122 @@
+{
+    "hand_id": "598911864914575368-5-1450367168",
+    "datetime": "17-12-2015 15:46:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.9,
+        "bounty": 0.0,
+        "rake": 0.1
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "D\u00e9glingos",
+        "tournament_id": "139445035",
+        "table_number": "007",
+        "prize_pool": 100.0,
+        "registered_players": 36,
+        "speed": "turbo",
+        "start_date": "2015/12/17 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "madtilt"
+    },
+    "max_players": 3,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "gauvinou",
+            "init_stack": 470.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "worox13",
+            "init_stack": 520.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 530.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qs",
+        "second_card": "8c"
+    },
+    "postings": [
+        {
+            "name": "worox13",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gauvinou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "worox13",
+                "action": "raises",
+                "amount": 20.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "worox13",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 490.0
+            },
+            {
+                "player": "worox13",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "8h",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 570.0,
+            "pot_type": "pot"
+        }
+    }
+}

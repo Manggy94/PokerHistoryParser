@@ -1,0 +1,168 @@
+{
+    "hand_id": "548316621886717953-13-1439711990",
+    "datetime": "16-08-2015 07:59:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Super Freeroll Stade 1",
+        "tournament_id": "127664912",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 6,
+        "speed": "turbo",
+        "start_date": "2015/08/16 07:50:22 UTC",
+        "levels_structure": [],
+        "tournament_type": "freeroll100k"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "patochelucie",
+            "init_stack": 1730.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "laulau40",
+            "init_stack": 1220.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Battlesun",
+            "init_stack": 1710.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "gegeguzzi",
+            "init_stack": 3455.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 885.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "patochelucie",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "laulau40",
+                "action": "raises",
+                "amount": 60.0
+            },
+            {
+                "player": "Battlesun",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gegeguzzi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "patochelucie",
+                "action": "calls",
+                "amount": 60.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "patochelucie",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "laulau40",
+                "action": "raises",
+                "amount": 510.0
+            },
+            {
+                "player": "patochelucie",
+                "action": "calls",
+                "amount": 510.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "patochelucie",
+                "action": "bets",
+                "amount": 510.0
+            },
+            {
+                "player": "laulau40",
+                "action": "calls",
+                "amount": 470.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Tc",
+        "flop_card_2": "3h",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": "5s"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "laulau40": {
+            "first_card": "Td",
+            "second_card": "As"
+        },
+        "patochelucie": {
+            "first_card": "Kd",
+            "second_card": "Ts"
+        }
+    },
+    "winners": {
+        "patochelucie": {
+            "amount": 40.0,
+            "pot_type": "side pot 1"
+        },
+        "laulau40": {
+            "amount": 2470.0,
+            "pot_type": "main pot"
+        }
+    }
+}

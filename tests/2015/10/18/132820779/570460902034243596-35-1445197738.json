@@ -1,0 +1,275 @@
+{
+    "hand_id": "570460902034243596-35-1445197738",
+    "datetime": "18-10-2015 19:48:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 5,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132820779",
+        "table_number": "011",
+        "prize_pool": 2516.5,
+        "registered_players": 719,
+        "speed": "semiturbo",
+        "start_date": "2015/10/18 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "rorop42",
+            "init_stack": 7104.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "OhSoFarAway",
+            "init_stack": 12039.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "LG24",
+            "init_stack": 7625.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tipoye",
+            "init_stack": 27485.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "A-llow win",
+            "init_stack": 10275.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 10050.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Ymvej",
+            "init_stack": 6097.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "loloetloll",
+            "init_stack": 26400.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "taken",
+            "init_stack": 12925.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "OhSoFarAway",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LG24",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "rorop42",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tipoye",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "A-llow win",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ymvej",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "loloetloll",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "taken",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "OhSoFarAway",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "LG24",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "tipoye",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "A-llow win",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Ymvej",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "loloetloll",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "taken",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "OhSoFarAway",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LG24",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "LG24",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "LG24",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "LG24",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "river": [
+            {
+                "player": "LG24",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "5d",
+        "flop_card_3": "Kh"
+    },
+    "turn": {
+        "turn_card": "7d"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {},
+    "winners": {
+        "LG24": {
+            "amount": 3375.0,
+            "pot_type": "pot"
+        }
+    }
+}

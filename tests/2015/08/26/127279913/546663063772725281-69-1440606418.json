@@ -1,0 +1,201 @@
+{
+    "hand_id": "546663063772725281-69-1440606418",
+    "datetime": "26-08-2015 16:26:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 27,
+        "ante": 1600.0,
+        "sb": 8000.0,
+        "bb": 16000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279913",
+        "table_number": "032",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/26 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "LEVILAIN",
+            "init_stack": 107598.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fulldidy",
+            "init_stack": 100396.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 16206.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "woodoo-child",
+            "init_stack": 37234.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ledubsindust",
+            "init_stack": 90478.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Justfun63",
+            "init_stack": 526494.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Ptiyou92",
+            "init_stack": 88677.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "mamibramou",
+            "init_stack": 56079.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5h",
+        "second_card": "Qs"
+    },
+    "postings": [
+        {
+            "name": "Justfun63",
+            "amount": 1600.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ptiyou92",
+            "amount": 1600.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LEVILAIN",
+            "amount": 1600.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fulldidy",
+            "amount": 1600.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1600.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "woodoo-child",
+            "amount": 1600.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ledubsindust",
+            "amount": 1600.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mamibramou",
+            "amount": 1600.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Justfun63",
+            "amount": 8000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Ptiyou92",
+            "amount": 16000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "mamibramou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LEVILAIN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fulldidy",
+                "action": "raises",
+                "amount": 82796.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "woodoo-child",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ledubsindust",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Justfun63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ptiyou92",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "fulldidy": {
+            "amount": 135596.0,
+            "pot_type": "pot"
+        }
+    }
+}

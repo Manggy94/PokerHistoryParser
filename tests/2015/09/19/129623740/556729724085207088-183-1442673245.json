@@ -1,0 +1,195 @@
+{
+    "hand_id": "556729724085207088-183-1442673245",
+    "datetime": "19-09-2015 14:34:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 19,
+        "ante": 950.0,
+        "sb": 4000.0,
+        "bb": 8000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "047",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Paranada",
+            "init_stack": 145906.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 95773.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Zissell",
+            "init_stack": 32672.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "wooky68",
+            "init_stack": 129900.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Clhoe19",
+            "init_stack": 238791.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "wooky68",
+            "amount": 950.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Clhoe19",
+            "amount": 950.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Paranada",
+            "amount": 950.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 950.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Zissell",
+            "amount": 950.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wooky68",
+            "amount": 4000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Clhoe19",
+            "amount": 8000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Paranada",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Zissell",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wooky68",
+                "action": "calls",
+                "amount": 4000.0
+            },
+            {
+                "player": "Clhoe19",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "wooky68",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Clhoe19",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "wooky68",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Clhoe19",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "wooky68",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Clhoe19",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9d",
+        "flop_card_2": "Tc",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "3d"
+    },
+    "showdown": {
+        "Clhoe19": {
+            "first_card": "7s",
+            "second_card": "2d"
+        },
+        "wooky68": {
+            "first_card": "7d",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "wooky68": {
+            "amount": 20750.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "hand_id": "545387621694571137-17-1440348232",
+    "datetime": "23-08-2015 16:43:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126982951",
+        "table_number": "640",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/23 16:30:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "FREEDY43",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "pierrefra813",
+            "init_stack": 4555.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 2650.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Sman069",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nico-82",
+            "init_stack": 4910.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "Nico-82",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "FREEDY43",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pierrefra813",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sman069",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "FREEDY43",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Nico-82",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "pierrefra813",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9c",
+        "flop_card_2": "6d",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "pierrefra813": {
+            "amount": 360.0,
+            "pot_type": "pot"
+        }
+    }
+}

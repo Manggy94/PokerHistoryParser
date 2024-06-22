@@ -1,0 +1,243 @@
+{
+    "hand_id": "545829122857763348-26-1440441486",
+    "datetime": "24-08-2015 18:38:06",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085746",
+        "table_number": "0531",
+        "prize_pool": 150.0,
+        "registered_players": 8729,
+        "speed": "turbo",
+        "start_date": "2015/08/24 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "rs171169",
+            "init_stack": 15335.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "badboy84",
+            "init_stack": 11946.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "virus35",
+            "init_stack": 2650.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kwiqq",
+            "init_stack": 2625.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "geronimo2003",
+            "init_stack": 3028.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 6375.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "nache29",
+            "init_stack": 2935.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "MissCRICRI16",
+            "init_stack": 5325.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "jcbot31280",
+            "init_stack": 2675.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "Kwiqq",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "geronimo2003",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "rs171169",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "badboy84",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "virus35",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nache29",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MissCRICRI16",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jcbot31280",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kwiqq",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "geronimo2003",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "nache29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MissCRICRI16",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jcbot31280",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rs171169",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "badboy84",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "virus35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kwiqq",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "geronimo2003",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "geronimo2003",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "badboy84",
+                "action": "bets",
+                "amount": 330.0
+            },
+            {
+                "player": "geronimo2003",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "Th",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "badboy84": {
+            "amount": 990.0,
+            "pot_type": "pot"
+        }
+    }
+}

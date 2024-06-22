@@ -1,0 +1,238 @@
+{
+    "hand_id": "541159200621854830-31-1439388679",
+    "datetime": "12-08-2015 14:11:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "109",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "OOTMan66",
+            "init_stack": 4736.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "777..28",
+            "init_stack": 2460.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Catrider83",
+            "init_stack": 1760.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "MOAH30",
+            "init_stack": 5573.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Welmar",
+            "init_stack": 7905.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Qqnek",
+            "init_stack": 19035.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "davstreemer",
+            "init_stack": 1730.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 29435.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Pacman05",
+            "init_stack": 2435.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4h",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "OOTMan66",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "777..28",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Catrider83",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MOAH30",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Welmar",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Qqnek",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "davstreemer",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pacman05",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "OOTMan66",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "777..28",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Catrider83",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MOAH30",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Welmar",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "Qqnek",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "davstreemer",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1760.0
+            },
+            {
+                "player": "Pacman05",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "OOTMan66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "777..28",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Welmar",
+                "action": "calls",
+                "amount": 1760.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Welmar",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 5280.0
+            },
+            {
+                "player": "Welmar",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6s",
+        "flop_card_2": "3d",
+        "flop_card_3": "Ac"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 10560.0,
+            "pot_type": "pot"
+        }
+    }
+}

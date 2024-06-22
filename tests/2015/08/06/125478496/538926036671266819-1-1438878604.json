@@ -1,0 +1,217 @@
+{
+    "hand_id": "538926036671266819-1-1438878604",
+    "datetime": "06-08-2015 16:30:04",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 5000.0,
+        "registered_players": 242,
+        "speed": "normal",
+        "start_date": "2015/08/06 16:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fuster",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "peppert",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "baby08",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fifi2308",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "wipiga",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8d",
+        "second_card": "Ad"
+    },
+    "postings": [
+        {
+            "name": "peppert",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "baby08",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "fifi2308",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wipiga",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "fuster",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "peppert",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "baby08",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "peppert",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "baby08",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "wipiga",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "peppert",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "baby08",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "wipiga",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "peppert",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "baby08",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "wipiga",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 6050.0
+            },
+            {
+                "player": "peppert",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "baby08",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wipiga",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "Jh",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "7d"
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 6450.0,
+            "pot_type": "pot"
+        }
+    }
+}

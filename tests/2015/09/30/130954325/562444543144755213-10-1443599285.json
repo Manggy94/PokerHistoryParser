@@ -1,0 +1,186 @@
+{
+    "hand_id": "562444543144755213-10-1443599285",
+    "datetime": "30-09-2015 07:48:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.22,
+        "bounty": 0.0,
+        "rake": 0.03
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "130954325",
+        "table_number": "012",
+        "prize_pool": 23.1,
+        "registered_players": 105,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "BigBamTheory",
+            "init_stack": 12125.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Chip Bully13",
+            "init_stack": 750.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "theboss62700",
+            "init_stack": 29100.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 5650.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "janyo",
+            "init_stack": 8025.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "Chip Bully13",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "theboss62700",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 500.0
+            },
+            {
+                "player": "janyo",
+                "action": "calls",
+                "amount": 700.0
+            },
+            {
+                "player": "BigBamTheory",
+                "action": "calls",
+                "amount": 700.0
+            },
+            {
+                "player": "Chip Bully13",
+                "action": "raises",
+                "amount": 50.0
+            },
+            {
+                "player": "theboss62700",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "janyo",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "BigBamTheory",
+                "action": "calls",
+                "amount": 50.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "janyo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "BigBamTheory",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 3200.0
+            },
+            {
+                "player": "janyo",
+                "action": "calls",
+                "amount": 3200.0
+            },
+            {
+                "player": "BigBamTheory",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1700.0
+            },
+            {
+                "player": "janyo",
+                "action": "calls",
+                "amount": 1700.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Qh",
+        "flop_card_2": "3h",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "5d"
+    },
+    "river": {
+        "river_card": "4d"
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 13000.0,
+            "pot_type": "pot"
+        }
+    }
+}

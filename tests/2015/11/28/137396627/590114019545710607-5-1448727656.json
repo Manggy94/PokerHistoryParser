@@ -1,0 +1,188 @@
+{
+    "hand_id": "590114019545710607-5-1448727656",
+    "datetime": "28-11-2015 16:20:56",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "137396627",
+        "table_number": "014",
+        "prize_pool": 1066.5,
+        "registered_players": 237,
+        "speed": "turbo",
+        "start_date": "2015/11/28 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "siciliano300",
+            "init_stack": 9900.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "kiki38200",
+            "init_stack": 13175.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "bobone4",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "samuuus",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 2500.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "ElPaddre41",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Darkchoco",
+            "init_stack": 17250.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "soph69",
+            "init_stack": 7300.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2s",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "siciliano300",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "kiki38200",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bobone4",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "samuuus",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "ElPaddre41",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Darkchoco",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "soph69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "siciliano300",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kiki38200",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Darkchoco",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2200.0
+            },
+            {
+                "player": "Darkchoco",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "3h",
+        "flop_card_3": "Qs"
+    },
+    "turn": {
+        "turn_card": "4s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 2950.0,
+            "pot_type": "pot"
+        }
+    }
+}

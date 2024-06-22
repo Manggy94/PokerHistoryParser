@@ -1,0 +1,279 @@
+{
+    "hand_id": "541159179147018342-4-1439370219",
+    "datetime": "12-08-2015 09:03:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998440",
+        "table_number": "101",
+        "prize_pool": 50.0,
+        "registered_players": 1839,
+        "speed": "turbo",
+        "start_date": "2015/08/12 09:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DJJM",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "NIICO2704",
+            "init_stack": 3025.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "JJP92",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "reveilmatin",
+            "init_stack": 5990.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "SNT89",
+            "init_stack": 3080.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "choupette-06",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "miguel3004",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "le litalien",
+            "init_stack": 3035.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ts",
+        "second_card": "As"
+    },
+    "postings": [
+        {
+            "name": "SNT89",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "choupette-06",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "miguel3004",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "le litalien",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "DJJM",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NIICO2704",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "JJP92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "reveilmatin",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "SNT89",
+                "action": "calls",
+                "amount": 15.0
+            },
+            {
+                "player": "choupette-06",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "SNT89",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "choupette-06",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "miguel3004",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "le litalien",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "NIICO2704",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "reveilmatin",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "SNT89",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "choupette-06",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 210.0
+            },
+            {
+                "player": "miguel3004",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le litalien",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NIICO2704",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "reveilmatin",
+                "action": "calls",
+                "amount": 210.0
+            },
+            {
+                "player": "SNT89",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "choupette-06",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "reveilmatin",
+                "action": "bets",
+                "amount": 75.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 75.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ah",
+        "flop_card_2": "6c",
+        "flop_card_3": "6s"
+    },
+    "turn": {
+        "turn_card": "9d"
+    },
+    "river": {
+        "river_card": "4s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ts",
+            "second_card": "As"
+        },
+        "reveilmatin": {
+            "first_card": "4h",
+            "second_card": "4d"
+        }
+    },
+    "winners": {
+        "reveilmatin": {
+            "amount": 780.0,
+            "pot_type": "pot"
+        }
+    }
+}

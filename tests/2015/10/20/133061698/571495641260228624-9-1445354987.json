@@ -1,0 +1,214 @@
+{
+    "hand_id": "571495641260228624-9-1445354987",
+    "datetime": "20-10-2015 15:29:47",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133061698",
+        "table_number": "015",
+        "prize_pool": 707.0,
+        "registered_players": 202,
+        "speed": "turbo",
+        "start_date": "2015/10/20 15:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "PucelIe",
+            "init_stack": 9550.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "billyhayes",
+            "init_stack": 7900.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Louakk",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "sab05",
+            "init_stack": 8825.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "maketonio",
+            "init_stack": 18863.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 9100.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "checkcheck56",
+            "init_stack": 8762.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "redpoker37",
+            "init_stack": 10500.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "ShAArK PLAAY",
+            "init_stack": 14600.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4h",
+        "second_card": "9h"
+    },
+    "postings": [
+        {
+            "name": "billyhayes",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Louakk",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "sab05",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "maketonio",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "checkcheck56",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "redpoker37",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ShAArK PLAAY",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "PucelIe",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "billyhayes",
+                "action": "calls",
+                "amount": 450.0
+            },
+            {
+                "player": "Louakk",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "billyhayes",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ShAArK PLAAY",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "billyhayes",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ShAArK PLAAY",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "billyhayes",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ShAArK PLAAY",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "6d",
+        "flop_card_3": "Ks"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "ShAArK PLAAY": {
+            "first_card": "As",
+            "second_card": "7h"
+        },
+        "billyhayes": {
+            "first_card": "3h",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "billyhayes": {
+            "amount": 1500.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "hand_id": "541906082549727365-66-1439557340",
+    "datetime": "14-08-2015 13:02:20",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 18,
+        "ante": 200.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "132",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "gaugau7",
+            "init_stack": 13709.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "anto8391",
+            "init_stack": 4085.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nicolito11",
+            "init_stack": 6942.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "sandymillion",
+            "init_stack": 22245.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "frater13015x",
+            "init_stack": 8110.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 8133.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "8h"
+    },
+    "postings": [
+        {
+            "name": "frater13015x",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gaugau7",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "anto8391",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nicolito11",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sandymillion",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "frater13015x",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gaugau7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "anto8391",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nicolito11",
+                "action": "raises",
+                "amount": 4742.0
+            },
+            {
+                "player": "sandymillion",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Nicolito11": {
+            "amount": 10942.0,
+            "pot_type": "pot"
+        }
+    }
+}

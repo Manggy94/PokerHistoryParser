@@ -1,0 +1,199 @@
+{
+    "hand_id": "539623457755758651-1-1439040626",
+    "datetime": "08-08-2015 13:30:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640877",
+        "table_number": "058",
+        "prize_pool": 100.0,
+        "registered_players": 3390,
+        "speed": "turbo",
+        "start_date": "2015/08/08 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "yohanesse",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "samyse",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ArthurD83",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "cyrval6214",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "c-sa-k-c-bon",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "nast49C",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "stormas6",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "musicabella",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "samyse",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ArthurD83",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cyrval6214",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "c-sa-k-c-bon",
+                "action": "raises",
+                "amount": 50.0
+            },
+            {
+                "player": "nast49C",
+                "action": "calls",
+                "amount": 70.0
+            },
+            {
+                "player": "stormas6",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "musicabella",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "yohanesse",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "samyse",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ArthurD83",
+                "action": "calls",
+                "amount": 50.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "ArthurD83",
+                "action": "bets",
+                "amount": 147.0
+            },
+            {
+                "player": "c-sa-k-c-bon",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nast49C",
+                "action": "calls",
+                "amount": 147.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "ArthurD83",
+                "action": "bets",
+                "amount": 386.0
+            },
+            {
+                "player": "nast49C",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "Tc",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": "2s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "ArthurD83": {
+            "amount": 900.0,
+            "pot_type": "pot"
+        }
+    }
+}

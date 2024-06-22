@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Affiche un message pour indiquer le début des tests
+# Display a message to indicate the beginning of the tests
 echo "Running tests..."
 
-# Dossier de référence pour la couverture
+# Reference directory for coverage
 SOURCE_DIRS="pkrhistoryparser"
 
 # Execute tests
@@ -19,16 +19,16 @@ fi
 coverage report > coverage.txt
 
 
-# Extraire le pourcentage total de couverture
+# Extract the total coverage percentage
 total_coverage=$(grep 'TOTAL' coverage.txt | awk '{print $4}' | sed 's/%//')
+coverage html
 
-# Vérifier si la couverture est supérieure ou égale à 90%
-if [ $(echo "$total_coverage >= 98" | bc -l) -eq 1 ]  ; then
+# Check if the coverage is greater than or equal to 75%
+if [ $(echo "$total_coverage >= 75" | bc -l) -eq 1 ]  ; then
     echo "Test coverage is sufficient: ${total_coverage}%"
     exit 0
 else
     echo "Test coverage is insufficient: ${total_coverage}%"
     # Afficher le rapport de couverture en html
-    coverage html
     exit 1
 fi

@@ -1,0 +1,169 @@
+{
+    "hand_id": "546253233698373685-70-1440507295",
+    "datetime": "25-08-2015 12:54:55",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 18,
+        "ante": 200.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "052",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 15492.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "cililyla",
+            "init_stack": 39954.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "smoker2fish",
+            "init_stack": 33447.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gazidaniel",
+            "init_stack": 33240.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "geuvye",
+            "init_stack": 35776.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "nounours503",
+            "init_stack": 4632.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qd",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cililyla",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "smoker2fish",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gazidaniel",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "geuvye",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nounours503",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "cililyla",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "smoker2fish",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gazidaniel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "geuvye",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nounours503",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 13292.0
+            },
+            {
+                "player": "cililyla",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 18492.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "hand_id": "566942035328630796-18-1444484406",
+    "datetime": "10-10-2015 13:40:06",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132001479",
+        "table_number": "011",
+        "prize_pool": 1004.5,
+        "registered_players": 287,
+        "speed": "semiturbo",
+        "start_date": "2015/10/10 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "zino05",
+            "init_stack": 4775.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 23500.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Denver6923",
+            "init_stack": 9999.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bastosrafle",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Barbaskonn",
+            "init_stack": 8850.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "22mistral",
+            "init_stack": 3975.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "okkono",
+            "init_stack": 17650.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Take Five",
+            "init_stack": 21101.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8h",
+        "second_card": "3s"
+    },
+    "postings": [
+        {
+            "name": "Take Five",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "zino05",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Denver6923",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bastosrafle",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Barbaskonn",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "22mistral",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "okkono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Take Five",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zino05",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "zino05",
+                "action": "bets",
+                "amount": 4175.0
+            },
+            {
+                "player": "Barbaskonn",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4s",
+        "flop_card_2": "Qh",
+        "flop_card_3": "Jh"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "zino05": {
+            "amount": 5525.0,
+            "pot_type": "pot"
+        }
+    }
+}

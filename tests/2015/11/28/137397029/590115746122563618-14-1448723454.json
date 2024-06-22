@@ -1,0 +1,199 @@
+{
+    "hand_id": "590115746122563618-14-1448723454",
+    "datetime": "28-11-2015 15:10:54",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "137397029",
+        "table_number": "033",
+        "prize_pool": 2281.5,
+        "registered_players": 507,
+        "speed": "semiturbo",
+        "start_date": "2015/11/28 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "pinhas374",
+            "init_stack": 13356.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Iuly09",
+            "init_stack": 26304.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Zetitof",
+            "init_stack": 8360.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 14567.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "crapou",
+            "init_stack": 2095.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "pokk30",
+            "init_stack": 31870.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Nono du 33",
+            "init_stack": 9660.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2d",
+        "second_card": "Tc"
+    },
+    "postings": [
+        {
+            "name": "Iuly09",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Zetitof",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pinhas374",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "crapou",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pokk30",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nono du 33",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Iuly09",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Zetitof",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "crapou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pokk30",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "Nono du 33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pinhas374",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Iuly09",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Zetitof",
+                "action": "raises",
+                "amount": 7100.0
+            },
+            {
+                "player": "pokk30",
+                "action": "calls",
+                "amount": 7100.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9h",
+        "flop_card_2": "6d",
+        "flop_card_3": "9s"
+    },
+    "turn": {
+        "turn_card": "5d"
+    },
+    "river": {
+        "river_card": "7d"
+    },
+    "showdown": {
+        "Zetitof": {
+            "first_card": "Ac",
+            "second_card": "7h"
+        },
+        "pokk30": {
+            "first_card": "Kh",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "pokk30": {
+            "amount": 17320.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,216 @@
+{
+    "hand_id": "562445011296190503-2-1443598627",
+    "datetime": "30-09-2015 07:37:07",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.45,
+        "bounty": 0.0,
+        "rake": 0.05
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "130954434",
+        "table_number": "038",
+        "prize_pool": 108.9,
+        "registered_players": 242,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 06:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 15850.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "vinsou1834",
+            "init_stack": 6740.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "papyange",
+            "init_stack": 9435.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "rb85",
+            "init_stack": 17100.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "makenzy85",
+            "init_stack": 9960.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "kikinan",
+            "init_stack": 4015.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "papyange",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "rb85",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vinsou1834",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "makenzy85",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kikinan",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "papyange",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "rb85",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "makenzy85",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kikinan",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "vinsou1834",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "papyange",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rb85",
+                "action": "raises",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "rb85",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "rb85",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "river": [
+            {
+                "player": "rb85",
+                "action": "bets",
+                "amount": 2671.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2671.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9h",
+        "flop_card_2": "3c",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "4h"
+    },
+    "river": {
+        "river_card": "7h"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Js",
+            "second_card": "Qh"
+        },
+        "rb85": {
+            "first_card": "Ah",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "rb85": {
+            "amount": 9832.0,
+            "pot_type": "pot"
+        }
+    }
+}

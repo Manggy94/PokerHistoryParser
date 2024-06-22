@@ -1,0 +1,182 @@
+{
+    "hand_id": "539281767337558454-24-1438949719",
+    "datetime": "07-08-2015 12:15:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561321",
+        "table_number": "437",
+        "prize_pool": 100.0,
+        "registered_players": 3950,
+        "speed": "turbo",
+        "start_date": "2015/08/07 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Kashmiri59",
+            "init_stack": 5460.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bryanleskin",
+            "init_stack": 2685.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "WmySterOPliv",
+            "init_stack": 2760.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 6450.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "elodie26100",
+            "init_stack": 2725.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "LEGION1831",
+            "init_stack": 3795.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jh",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "elodie26100",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "LEGION1831",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Kashmiri59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bryanleskin",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "WmySterOPliv",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "elodie26100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LEGION1831",
+                "action": "raises",
+                "amount": 280.0
+            },
+            {
+                "player": "WmySterOPliv",
+                "action": "calls",
+                "amount": 280.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "LEGION1831",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "WmySterOPliv",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "LEGION1831",
+                "action": "bets",
+                "amount": 80.0
+            },
+            {
+                "player": "WmySterOPliv",
+                "action": "calls",
+                "amount": 80.0
+            }
+        ],
+        "river": [
+            {
+                "player": "LEGION1831",
+                "action": "bets",
+                "amount": 80.0
+            },
+            {
+                "player": "WmySterOPliv",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7c",
+        "flop_card_2": "Ac",
+        "flop_card_3": "9h"
+    },
+    "turn": {
+        "turn_card": "4s"
+    },
+    "river": {
+        "river_card": "5h"
+    },
+    "showdown": {},
+    "winners": {
+        "LEGION1831": {
+            "amount": 1080.0,
+            "pot_type": "pot"
+        }
+    }
+}

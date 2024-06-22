@@ -1,0 +1,196 @@
+{
+    "hand_id": "569086336405864456-26-1444910970",
+    "datetime": "15-10-2015 12:09:30",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132500738",
+        "table_number": "007",
+        "prize_pool": 1500.0,
+        "registered_players": 398,
+        "speed": "semiturbo",
+        "start_date": "2015/10/15 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Saiid92",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "edounono",
+            "init_stack": 19475.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "-spewungar-",
+            "init_stack": 9975.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 8625.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Stder",
+            "init_stack": 6500.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Picsou643640",
+            "init_stack": 15475.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kd",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Stder",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Picsou643640",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Saiid92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "edounono",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "-spewungar-",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 75.0
+            },
+            {
+                "player": "Stder",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "Stder",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "edounono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-spewungar-",
+                "action": "raises",
+                "amount": 1350.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1350.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 900.0
+            },
+            {
+                "player": "-spewungar-",
+                "action": "calls",
+                "amount": 900.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 5625.0
+            },
+            {
+                "player": "-spewungar-",
+                "action": "calls",
+                "amount": 5625.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "9c",
+        "flop_card_3": "6c"
+    },
+    "turn": {
+        "turn_card": "4d"
+    },
+    "river": {
+        "river_card": "6h"
+    },
+    "showdown": {
+        "-spewungar-": {
+            "first_card": "Qc",
+            "second_card": "Tc"
+        },
+        "manggy94": {
+            "first_card": "Kd",
+            "second_card": "6s"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 17550.0,
+            "pot_type": "pot"
+        }
+    }
+}

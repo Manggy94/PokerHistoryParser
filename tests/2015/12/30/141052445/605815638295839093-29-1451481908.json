@@ -1,0 +1,174 @@
+{
+    "hand_id": "605815638295839093-29-1451481908",
+    "datetime": "30-12-2015 13:25:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "141052445",
+        "table_number": "372",
+        "prize_pool": 100.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/12/30 13:00:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "philblues",
+            "init_stack": 7367.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Renantais",
+            "init_stack": 8125.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Koulipsg",
+            "init_stack": 30881.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 9320.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "zribette",
+            "init_stack": 845.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qd",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "Koulipsg",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "philblues",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Renantais",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zribette",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Koulipsg",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "zribette",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "philblues",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "Renantais",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Koulipsg",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Koulipsg",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 700.0
+            },
+            {
+                "player": "philblues",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Koulipsg",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qc",
+        "flop_card_2": "4h",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 1400.0,
+            "pot_type": "pot"
+        }
+    }
+}

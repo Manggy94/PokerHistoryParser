@@ -1,0 +1,196 @@
+{
+    "hand_id": "600923842344386570-28-1450708994",
+    "datetime": "21-12-2015 14:43:14",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "139913485",
+        "table_number": "009",
+        "prize_pool": 1543.5,
+        "registered_players": 343,
+        "speed": "semiturbo",
+        "start_date": "2015/12/21 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Genburgh-24",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tipokpok",
+            "init_stack": 11939.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Supras_",
+            "init_stack": 13761.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ShArKcHiPs",
+            "init_stack": 31279.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "allstaars",
+            "init_stack": 12478.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "PS3u6D09Nlm3",
+            "init_stack": 17068.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 7395.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ROBINSON 14",
+            "init_stack": 6080.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "ShArKcHiPs",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "allstaars",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "PS3u6D09Nlm3",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 750.0
+            },
+            {
+                "player": "ROBINSON 14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Genburgh-24",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tipokpok",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Supras_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ShArKcHiPs",
+                "action": "calls",
+                "amount": 900.0
+            },
+            {
+                "player": "allstaars",
+                "action": "calls",
+                "amount": 750.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "ShArKcHiPs",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "allstaars",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 6345.0
+            },
+            {
+                "player": "ShArKcHiPs",
+                "action": "calls",
+                "amount": 6345.0
+            },
+            {
+                "player": "allstaars",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kh",
+        "flop_card_2": "Ts",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "6c"
+    },
+    "river": {
+        "river_card": "Tc"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ad",
+            "second_card": "Jd"
+        },
+        "ShArKcHiPs": {
+            "first_card": "7s",
+            "second_card": "6s"
+        }
+    },
+    "winners": {
+        "ShArKcHiPs": {
+            "amount": 15840.0,
+            "pot_type": "pot"
+        }
+    }
+}

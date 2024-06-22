@@ -1,0 +1,242 @@
+{
+    "hand_id": "541159200621854969-36-1439389120",
+    "datetime": "12-08-2015 14:18:40",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "248",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "sacristef",
+            "init_stack": 555.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "dolef",
+            "init_stack": 4195.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "fullnobeat",
+            "init_stack": 19982.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "icekush",
+            "init_stack": 14076.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "PoneyKlub",
+            "init_stack": 37649.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 58730.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Rochefort10",
+            "init_stack": 18686.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "davstreemer",
+            "init_stack": 1210.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "PoneyKlub",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sacristef",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dolef",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fullnobeat",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "icekush",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Rochefort10",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "davstreemer",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PoneyKlub",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Rochefort10",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "davstreemer",
+                "action": "raises",
+                "amount": 330.0
+            },
+            {
+                "player": "sacristef",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dolef",
+                "action": "raises",
+                "amount": 800.0
+            },
+            {
+                "player": "fullnobeat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "icekush",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PoneyKlub",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1130.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "dolef",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 800.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "dolef",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "Ah",
+        "flop_card_3": "8h"
+    },
+    "turn": {
+        "turn_card": "Ks"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {
+        "davstreemer": {
+            "first_card": "Qc",
+            "second_card": "Ac"
+        },
+        "dolef": {
+            "first_card": "As",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "dolef": {
+            "amount": 8430.0,
+            "pot_type": "pot"
+        }
+    }
+}

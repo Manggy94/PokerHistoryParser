@@ -1,0 +1,245 @@
+{
+    "hand_id": "539281771632525621-10-1438955526",
+    "datetime": "07-08-2015 13:52:06",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "308",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "lauryn1705",
+            "init_stack": 5585.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "titi52300",
+            "init_stack": 6280.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "mehdiazi",
+            "init_stack": 5776.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "thesnoopy38",
+            "init_stack": 3010.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Gwen 77",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "bambin576",
+            "init_stack": 4229.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "pito70",
+            "init_stack": 3505.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 9890.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "playerdream",
+            "init_stack": 2140.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kh",
+        "second_card": "Ad"
+    },
+    "postings": [
+        {
+            "name": "mehdiazi",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "thesnoopy38",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lauryn1705",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "titi52300",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Gwen 77",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bambin576",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pito70",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "playerdream",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mehdiazi",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "thesnoopy38",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Gwen 77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bambin576",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pito70",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 660.0
+            },
+            {
+                "player": "playerdream",
+                "action": "calls",
+                "amount": 810.0
+            },
+            {
+                "player": "lauryn1705",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "titi52300",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mehdiazi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "thesnoopy38",
+                "action": "raises",
+                "amount": 2185.0
+            },
+            {
+                "player": "pito70",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2185.0
+            },
+            {
+                "player": "playerdream",
+                "action": "calls",
+                "amount": 1315.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "5h",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": "5d"
+    },
+    "river": {
+        "river_card": "Kd"
+    },
+    "showdown": {
+        "thesnoopy38": {
+            "first_card": "Kc",
+            "second_card": "Tc"
+        },
+        "playerdream": {
+            "first_card": "2s",
+            "second_card": "2h"
+        },
+        "manggy94": {
+            "first_card": "Kh",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 8475.0,
+            "pot_type": "pot"
+        }
+    }
+}

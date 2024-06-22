@@ -1,0 +1,264 @@
+{
+    "hand_id": "539281771632525370-1-1438954226",
+    "datetime": "07-08-2015 13:30:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "057",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Sharkira",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "petitemelan",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ILOVEYOU29",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "RAOURAOU",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "27GoreAlex",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Rain_bow",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "callof1984",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "injah",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "27GoreAlex",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Rain_bow",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "callof1984",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "injah",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Sharkira",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "petitemelan",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "ILOVEYOU29",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "RAOURAOU",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "27GoreAlex",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Rain_bow",
+                "action": "raises",
+                "amount": 130.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 130.0
+            },
+            {
+                "player": "Sharkira",
+                "action": "calls",
+                "amount": 130.0
+            },
+            {
+                "player": "petitemelan",
+                "action": "calls",
+                "amount": 130.0
+            },
+            {
+                "player": "ILOVEYOU29",
+                "action": "calls",
+                "amount": 130.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Rain_bow",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Sharkira",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "petitemelan",
+                "action": "bets",
+                "amount": 20.0
+            },
+            {
+                "player": "ILOVEYOU29",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Rain_bow",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Sharkira",
+                "action": "calls",
+                "amount": 20.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Rain_bow",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 860.0
+            },
+            {
+                "player": "Sharkira",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "petitemelan",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ILOVEYOU29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Rain_bow",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7s",
+        "flop_card_2": "Js",
+        "flop_card_3": "6d"
+    },
+    "turn": {
+        "turn_card": "2s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 1720.0,
+            "pot_type": "pot"
+        }
+    }
+}

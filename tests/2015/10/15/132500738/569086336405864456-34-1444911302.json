@@ -1,0 +1,123 @@
+{
+    "hand_id": "569086336405864456-34-1444911302",
+    "datetime": "15-10-2015 12:15:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132500738",
+        "table_number": "007",
+        "prize_pool": 1500.0,
+        "registered_players": 398,
+        "speed": "semiturbo",
+        "start_date": "2015/10/15 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Saiid92",
+            "init_stack": 9350.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "edounono",
+            "init_stack": 19438.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 4638.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Stder",
+            "init_stack": 15899.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Picsou643640",
+            "init_stack": 30675.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5h",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "Picsou643640",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Saiid92",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "edounono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Stder",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Picsou643640",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Saiid92": {
+            "amount": 300.0,
+            "pot_type": "pot"
+        }
+    }
+}

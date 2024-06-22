@@ -1,0 +1,183 @@
+{
+    "hand_id": "590115582913806350-41-1448724444",
+    "datetime": "28-11-2015 15:27:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.7,
+        "bounty": 0.0,
+        "rake": 0.3
+    },
+    "level": {
+        "value": 9,
+        "ante": 75.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 488.7,
+        "registered_players": 181,
+        "speed": "turbo",
+        "start_date": "2015/11/28 15:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "roubb",
+            "init_stack": 9255.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "_Choupinou_",
+            "init_stack": 19660.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "POUPIPOK",
+            "init_stack": 14440.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Julien2684",
+            "init_stack": 14535.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "SofAAtsogood",
+            "init_stack": 22385.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qd",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "roubb",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "_Choupinou_",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "POUPIPOK",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Julien2684",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SofAAtsogood",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "roubb",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "_Choupinou_",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "POUPIPOK",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 800.0
+            },
+            {
+                "player": "Julien2684",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SofAAtsogood",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "roubb",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "_Choupinou_",
+                "action": "raises",
+                "amount": 17985.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 8250.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5s",
+        "flop_card_2": "Jc",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "Th"
+    },
+    "river": {
+        "river_card": "3c"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Qd",
+            "second_card": "Ah"
+        },
+        "_Choupinou_": {
+            "first_card": "Kc",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "_Choupinou_": {
+            "amount": 30285.0,
+            "pot_type": "pot"
+        }
+    }
+}

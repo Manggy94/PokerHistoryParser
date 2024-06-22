@@ -1,0 +1,202 @@
+{
+    "hand_id": "562445857404747779-11-1443604941",
+    "datetime": "30-09-2015 09:22:21",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 7.0,
+        "bounty": 0.0,
+        "rake": 3.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "130954631",
+        "table_number": "002",
+        "prize_pool": 406.0,
+        "registered_players": 58,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 09:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "dct jovan",
+            "init_stack": 20397.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bobone4",
+            "init_stack": 19635.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "TOTSSS",
+            "init_stack": 11692.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "TheLuckyCat",
+            "init_stack": 10151.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "MonkeyRush",
+            "init_stack": 1130.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "zebird",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "3h"
+    },
+    "postings": [
+        {
+            "name": "MonkeyRush",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "zebird",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "dct jovan",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bobone4",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TOTSSS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TheLuckyCat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MonkeyRush",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "MonkeyRush",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zebird",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "MonkeyRush",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zebird",
+                "action": "calls",
+                "amount": 100.0
+            }
+        ],
+        "river": [
+            {
+                "player": "MonkeyRush",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "zebird",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9c",
+        "flop_card_2": "5h",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "zebird": {
+            "first_card": "Ad",
+            "second_card": "Qh"
+        },
+        "MonkeyRush": {
+            "first_card": "5d",
+            "second_card": "9d"
+        }
+    },
+    "winners": {
+        "MonkeyRush": {
+            "amount": 500.0,
+            "pot_type": "pot"
+        }
+    }
+}

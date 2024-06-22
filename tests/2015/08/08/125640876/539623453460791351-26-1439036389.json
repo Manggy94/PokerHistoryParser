@@ -1,0 +1,242 @@
+{
+    "hand_id": "539623453460791351-26-1439036389",
+    "datetime": "08-08-2015 12:19:49",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 6,
+        "ante": 10.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "054",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "doudou16120",
+            "init_stack": 4455.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "mentaliste",
+            "init_stack": 3100.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 7180.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "METEO34",
+            "init_stack": 4400.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Visuel",
+            "init_stack": 1793.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "chachnaq",
+            "init_stack": 7165.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "chachnaq",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "doudou16120",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mentaliste",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "METEO34",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Visuel",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chachnaq",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "doudou16120",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "mentaliste",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "METEO34",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "Visuel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chachnaq",
+                "action": "calls",
+                "amount": 180.0
+            },
+            {
+                "player": "doudou16120",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "chachnaq",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "doudou16120",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "METEO34",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "chachnaq",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "chachnaq",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "doudou16120",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "METEO34",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "chachnaq",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "doudou16120",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "river": [
+            {
+                "player": "chachnaq",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "doudou16120",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "METEO34",
+                "action": "bets",
+                "amount": 1500.0
+            },
+            {
+                "player": "chachnaq",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "doudou16120",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "9d",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "9c"
+    },
+    "river": {
+        "river_card": "7c"
+    },
+    "showdown": {},
+    "winners": {
+        "METEO34": {
+            "amount": 3000.0,
+            "pot_type": "pot"
+        }
+    }
+}

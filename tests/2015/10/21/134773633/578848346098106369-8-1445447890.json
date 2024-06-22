@@ -1,0 +1,152 @@
+{
+    "hand_id": "578848346098106369-8-1445447890",
+    "datetime": "21-10-2015 17:18:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "134773633",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/21 17:12:59 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 7,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "versace34000",
+            "init_stack": 470.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "VinceMaxWin",
+            "init_stack": 470.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ROCKROCK",
+            "init_stack": 1970.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "12emax",
+            "init_stack": 1030.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 545.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "KQsuited",
+            "init_stack": 515.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8h",
+        "second_card": "7h"
+    },
+    "postings": [
+        {
+            "name": "KQsuited",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "versace34000",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "VinceMaxWin",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ROCKROCK",
+                "action": "raises",
+                "amount": 1940.0
+            },
+            {
+                "player": "12emax",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KQsuited",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "versace34000",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6d",
+        "flop_card_2": "Ah",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": "5s"
+    },
+    "showdown": {
+        "KQsuited": {
+            "first_card": "Kh",
+            "second_card": "Qh"
+        },
+        "ROCKROCK": {
+            "first_card": "Ts",
+            "second_card": "Td"
+        }
+    },
+    "winners": {
+        "ROCKROCK": {
+            "amount": 1455.0,
+            "pot_type": "side pot 1"
+        },
+        "KQsuited": {
+            "amount": 1060.0,
+            "pot_type": "main pot"
+        }
+    }
+}

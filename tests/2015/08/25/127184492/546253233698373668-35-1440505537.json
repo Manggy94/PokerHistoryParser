@@ -1,0 +1,212 @@
+{
+    "hand_id": "546253233698373668-35-1440505537",
+    "datetime": "25-08-2015 12:25:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "035",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 8331.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "crockeuzedas",
+            "init_stack": 4125.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "muriel26",
+            "init_stack": 2160.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "labidocromis",
+            "init_stack": 3371.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "moukki13",
+            "init_stack": 6005.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "cc.60",
+            "init_stack": 9005.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "7c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "crockeuzedas",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "muriel26",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "labidocromis",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "moukki13",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cc.60",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "crockeuzedas",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "muriel26",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "labidocromis",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "moukki13",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "cc.60",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "crockeuzedas",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "crockeuzedas",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "moukki13",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "crockeuzedas",
+                "action": "bets",
+                "amount": 200.0
+            },
+            {
+                "player": "moukki13",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "crockeuzedas",
+                "action": "calls",
+                "amount": 200.0
+            }
+        ],
+        "river": [
+            {
+                "player": "crockeuzedas",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "moukki13",
+                "action": "bets",
+                "amount": 200.0
+            },
+            {
+                "player": "crockeuzedas",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "7s",
+        "flop_card_3": "Kh"
+    },
+    "turn": {
+        "turn_card": "5d"
+    },
+    "river": {
+        "river_card": "8d"
+    },
+    "showdown": {},
+    "winners": {
+        "moukki13": {
+            "amount": 1620.0,
+            "pot_type": "pot"
+        }
+    }
+}

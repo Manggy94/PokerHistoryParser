@@ -1,0 +1,169 @@
+{
+    "hand_id": "596949799299710996-13-1450011272",
+    "datetime": "13-12-2015 12:54:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138988206",
+        "table_number": "019",
+        "prize_pool": 2500.0,
+        "registered_players": 479,
+        "speed": "normal",
+        "start_date": "2015/12/13 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 11900.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "squatvt",
+            "init_stack": 4675.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Fanta-Orange",
+            "init_stack": 7849.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-IU-",
+            "init_stack": 16827.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "BacSijp",
+            "init_stack": 10846.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mitouflin",
+            "init_stack": 7903.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qc",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "mitouflin",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "squatvt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fanta-Orange",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-IU-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BacSijp",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "mitouflin",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "mitouflin",
+                "action": "bets",
+                "amount": 250.0
+            },
+            {
+                "player": "BacSijp",
+                "action": "raises",
+                "amount": 1100.0
+            },
+            {
+                "player": "mitouflin",
+                "action": "raises",
+                "amount": 6303.0
+            },
+            {
+                "player": "BacSijp",
+                "action": "calls",
+                "amount": 6303.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "Jc",
+        "flop_card_3": "9s"
+    },
+    "turn": {
+        "turn_card": "Kh"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "BacSijp": {
+            "first_card": "Js",
+            "second_card": "As"
+        },
+        "mitouflin": {
+            "first_card": "9h",
+            "second_card": "7h"
+        }
+    },
+    "winners": {
+        "mitouflin": {
+            "amount": 15906.0,
+            "pot_type": "pot"
+        }
+    }
+}

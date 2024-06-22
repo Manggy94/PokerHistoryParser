@@ -1,0 +1,169 @@
+{
+    "hand_id": "546253233698373668-53-1440506047",
+    "datetime": "25-08-2015 12:34:07",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 11,
+        "ante": 40.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "035",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 8021.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "crockeuzedas",
+            "init_stack": 12096.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "muriel26",
+            "init_stack": 510.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "CALMIE",
+            "init_stack": 935.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "moukki13",
+            "init_stack": 8455.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "cc.60",
+            "init_stack": 7055.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "3h"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "crockeuzedas",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "muriel26",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CALMIE",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "moukki13",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cc.60",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "crockeuzedas",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "muriel26",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CALMIE",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "moukki13",
+                "action": "raises",
+                "amount": 8015.0
+            },
+            {
+                "player": "cc.60",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "crockeuzedas",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "moukki13": {
+            "amount": 9255.0,
+            "pot_type": "pot"
+        }
+    }
+}

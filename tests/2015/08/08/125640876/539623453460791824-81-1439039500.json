@@ -1,0 +1,220 @@
+{
+    "hand_id": "539623453460791824-81-1439039500",
+    "datetime": "08-08-2015 13:11:40",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 22,
+        "ante": 500.0,
+        "sb": 2500.0,
+        "bb": 5000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "527",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "lelfe53",
+            "init_stack": 102529.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "...6M...",
+            "init_stack": 55911.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "kaaris1991",
+            "init_stack": 172190.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 15490.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "zaga31",
+            "init_stack": 177025.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "bipbip94",
+            "init_stack": 29718.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "7h"
+    },
+    "postings": [
+        {
+            "name": "bipbip94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lelfe53",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "...6M...",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kaaris1991",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zaga31",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bipbip94",
+            "amount": 2500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lelfe53",
+            "amount": 5000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "...6M...",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kaaris1991",
+                "action": "calls",
+                "amount": 5000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zaga31",
+                "action": "raises",
+                "amount": 5000.0
+            },
+            {
+                "player": "bipbip94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lelfe53",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kaaris1991",
+                "action": "calls",
+                "amount": 5000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "kaaris1991",
+                "action": "bets",
+                "amount": 5000.0
+            },
+            {
+                "player": "zaga31",
+                "action": "calls",
+                "amount": 5000.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "kaaris1991",
+                "action": "bets",
+                "amount": 40500.0
+            },
+            {
+                "player": "zaga31",
+                "action": "calls",
+                "amount": 40500.0
+            }
+        ],
+        "river": [
+            {
+                "player": "kaaris1991",
+                "action": "bets",
+                "amount": 116190.0
+            },
+            {
+                "player": "zaga31",
+                "action": "raises",
+                "amount": 4835.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "2h",
+        "flop_card_2": "Ac",
+        "flop_card_3": "2s"
+    },
+    "turn": {
+        "turn_card": "8d"
+    },
+    "river": {
+        "river_card": "9c"
+    },
+    "showdown": {
+        "kaaris1991": {
+            "first_card": "9h",
+            "second_card": "Ad"
+        },
+        "zaga31": {
+            "first_card": "5h",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "zaga31": {
+            "amount": 4835.0,
+            "pot_type": "side pot 1"
+        },
+        "kaaris1991": {
+            "amount": 353880.0,
+            "pot_type": "main pot"
+        }
+    }
+}

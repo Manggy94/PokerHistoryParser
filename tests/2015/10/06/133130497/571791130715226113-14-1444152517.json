@@ -1,0 +1,144 @@
+{
+    "hand_id": "571791130715226113-14-1444152517",
+    "datetime": "06-10-2015 17:28:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "133130497",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/06 17:19:36 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "kridojm",
+            "init_stack": 1050.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BROKA",
+            "init_stack": 2740.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 825.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Green_Knight",
+            "init_stack": 385.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4c",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "BROKA",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Green_Knight",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kridojm",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BROKA",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "BROKA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "BROKA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "BROKA",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "6h",
+        "flop_card_3": "2h"
+    },
+    "turn": {
+        "turn_card": "Ts"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 240.0,
+            "pot_type": "pot"
+        }
+    }
+}

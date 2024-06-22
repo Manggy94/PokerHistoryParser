@@ -1,0 +1,229 @@
+{
+    "hand_id": "552788120928518351-74-1441880418",
+    "datetime": "10-09-2015 10:20:18",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 24,
+        "ante": 800.0,
+        "sb": 4000.0,
+        "bb": 8000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706014",
+        "table_number": "206",
+        "prize_pool": 50.0,
+        "registered_players": 2894,
+        "speed": "turbo",
+        "start_date": "2015/09/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Fou savant",
+            "init_stack": 9270.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "xx29xx",
+            "init_stack": 600.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "pris59680",
+            "init_stack": 39494.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "beoutedu33",
+            "init_stack": 23299.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "MIKALEX",
+            "init_stack": 86571.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Camax",
+            "init_stack": 12500.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "joppvincent",
+            "init_stack": 93101.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "kikeur54",
+            "init_stack": 167881.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 16417.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "Camax",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "joppvincent",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fou savant",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "xx29xx",
+            "amount": 600.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pris59680",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "beoutedu33",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MIKALEX",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kikeur54",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Camax",
+            "amount": 4000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "joppvincent",
+            "amount": 8000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "kikeur54",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fou savant",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pris59680",
+                "action": "raises",
+                "amount": 30694.0
+            },
+            {
+                "player": "beoutedu33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MIKALEX",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Camax",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "joppvincent",
+                "action": "calls",
+                "amount": 30694.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2h",
+        "flop_card_2": "3s",
+        "flop_card_3": "6h"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "Jc"
+    },
+    "showdown": {
+        "pris59680": {
+            "first_card": "Qd",
+            "second_card": "9d"
+        },
+        "xx29xx": {
+            "first_card": "Qh",
+            "second_card": "7h"
+        },
+        "joppvincent": {
+            "first_card": "Kd",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "joppvincent": {
+            "amount": 82988.0,
+            "pot_type": "side pot 1"
+        },
+        "xx29xx": {
+            "amount": 5400.0,
+            "pot_type": "main pot"
+        }
+    }
+}

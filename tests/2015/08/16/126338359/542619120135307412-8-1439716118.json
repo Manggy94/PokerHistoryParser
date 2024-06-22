@@ -1,0 +1,239 @@
+{
+    "hand_id": "542619120135307412-8-1439716118",
+    "datetime": "16-08-2015 09:08:38",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126338359",
+        "table_number": "147",
+        "prize_pool": 50.0,
+        "registered_players": 2586,
+        "speed": "turbo",
+        "start_date": "2015/08/16 09:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DickOnFire69",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Benjamin 14",
+            "init_stack": 5645.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "kito64",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "m pitoux",
+            "init_stack": 2945.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "babastiti",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "bamba85",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "-denis-62-",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 1570.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sevdu10",
+            "init_stack": 7615.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8c",
+        "second_card": "Qc"
+    },
+    "postings": [
+        {
+            "name": "sevdu10",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "DickOnFire69",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Benjamin 14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kito64",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "m pitoux",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "babastiti",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bamba85",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "-denis-62-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "sevdu10",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "DickOnFire69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bamba85",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "sevdu10",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "bamba85",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sevdu10",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "bamba85",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "sevdu10",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "bamba85",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ],
+        "river": [
+            {
+                "player": "sevdu10",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "bamba85",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ad",
+        "flop_card_2": "3c",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "5c"
+    },
+    "showdown": {
+        "bamba85": {
+            "first_card": "Td",
+            "second_card": "As"
+        },
+        "sevdu10": {
+            "first_card": "3d",
+            "second_card": "Jc"
+        }
+    },
+    "winners": {
+        "sevdu10": {
+            "amount": 1400.0,
+            "pot_type": "pot"
+        }
+    }
+}

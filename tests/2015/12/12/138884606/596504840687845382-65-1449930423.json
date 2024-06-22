@@ -1,0 +1,116 @@
+{
+    "hand_id": "596504840687845382-65-1449930423",
+    "datetime": "12-12-2015 14:27:03",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.7,
+        "bounty": 0.0,
+        "rake": 0.3
+    },
+    "level": {
+        "value": 9,
+        "ante": 25.0,
+        "sb": 125.0,
+        "bb": 250.0
+    },
+    "tournament_info": {
+        "tournament_name": "D\u00e9glingos",
+        "tournament_id": "138884606",
+        "table_number": "005",
+        "prize_pool": 342.9,
+        "registered_players": 127,
+        "speed": "turbo",
+        "start_date": "2015/12/12 14:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "madtilt"
+    },
+    "max_players": 3,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "pokerviet33",
+            "init_stack": 365.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 2200.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Delafourche",
+            "init_stack": 1960.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3c",
+        "second_card": "Qd"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Delafourche",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pokerviet33",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 125.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Delafourche",
+            "amount": 250.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pokerviet33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Delafourche": {
+            "amount": 450.0,
+            "pot_type": "pot"
+        }
+    }
+}

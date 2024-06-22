@@ -1,0 +1,254 @@
+{
+    "hand_id": "541906108319531581-15-1439580859",
+    "datetime": "14-08-2015 19:34:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 6,
+        "ante": 10.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172348",
+        "table_number": "0572",
+        "prize_pool": 250.0,
+        "registered_players": 7239,
+        "speed": "turbo",
+        "start_date": "2015/08/14 19:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "SMIMTH976",
+            "init_stack": 5255.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "lAAf",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "DizTx",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JED59",
+            "init_stack": 2510.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "DidierBZH",
+            "init_stack": 6630.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Luc76-70",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 10305.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "974LS974",
+            "init_stack": 5400.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "mamours72",
+            "init_stack": 3140.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8h",
+        "second_card": "As"
+    },
+    "postings": [
+        {
+            "name": "JED59",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DidierBZH",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SMIMTH976",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Luc76-70",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "974LS974",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mamours72",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JED59",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "DidierBZH",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Luc76-70",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "974LS974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mamours72",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "SMIMTH976",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "JED59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DidierBZH",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "mamours72",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 970.0
+            },
+            {
+                "player": "mamours72",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SMIMTH976",
+                "action": "calls",
+                "amount": 970.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "SMIMTH976",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "SMIMTH976",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7h",
+        "flop_card_2": "Js",
+        "flop_card_3": "3h"
+    },
+    "turn": {
+        "turn_card": "Kd"
+    },
+    "river": {
+        "river_card": "Ad"
+    },
+    "showdown": {
+        "SMIMTH976": {
+            "first_card": "4c",
+            "second_card": "4h"
+        },
+        "manggy94": {
+            "first_card": "8h",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 2910.0,
+            "pot_type": "pot"
+        }
+    }
+}

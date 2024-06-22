@@ -1,0 +1,233 @@
+{
+    "hand_id": "540379475079069801-22-1439215584",
+    "datetime": "10-08-2015 14:06:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816901",
+        "table_number": "104",
+        "prize_pool": 100.0,
+        "registered_players": 4083,
+        "speed": "turbo",
+        "start_date": "2015/08/10 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Krakkoott",
+            "init_stack": 3240.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "SPANGHERRO",
+            "init_stack": 4913.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 5415.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Darkiro",
+            "init_stack": 2300.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mag12",
+            "init_stack": 2560.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "- FANTOME -",
+            "init_stack": 6775.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "ameliam",
+            "init_stack": 9143.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "scorpiokano",
+            "init_stack": 7448.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "beny57000",
+            "init_stack": 1665.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "Kd"
+    },
+    "postings": [
+        {
+            "name": "- FANTOME -",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ameliam",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Krakkoott",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "SPANGHERRO",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Darkiro",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mag12",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "scorpiokano",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "beny57000",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "- FANTOME -",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ameliam",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "scorpiokano",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "beny57000",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Krakkoott",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SPANGHERRO",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Darkiro",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mag12",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "- FANTOME -",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ameliam",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "ameliam",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "beny57000",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "ameliam",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "Td",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "beny57000": {
+            "amount": 1365.0,
+            "pot_type": "pot"
+        }
+    }
+}

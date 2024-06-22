@@ -1,0 +1,221 @@
+{
+    "hand_id": "541906082549727365-53-1439556244",
+    "datetime": "14-08-2015 12:44:04",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "132",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Labale",
+            "init_stack": 42127.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "anto8391",
+            "init_stack": 6395.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nicolito11",
+            "init_stack": 5785.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "sandymillion",
+            "init_stack": 6540.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "frater13015x",
+            "init_stack": 21044.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 7861.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3s",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "sandymillion",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "frater13015x",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Labale",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "anto8391",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nicolito11",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sandymillion",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "frater13015x",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Labale",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "anto8391",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nicolito11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sandymillion",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "raises",
+                "amount": 800.0
+            },
+            {
+                "player": "Labale",
+                "action": "calls",
+                "amount": 800.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "frater13015x",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "Labale",
+                "action": "calls",
+                "amount": 800.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "frater13015x",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "Labale",
+                "action": "calls",
+                "amount": 800.0
+            }
+        ],
+        "river": [
+            {
+                "player": "frater13015x",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "Labale",
+                "action": "raises",
+                "amount": 800.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "calls",
+                "amount": 800.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "3h",
+        "flop_card_3": "5s"
+    },
+    "turn": {
+        "turn_card": "7d"
+    },
+    "river": {
+        "river_card": "Td"
+    },
+    "showdown": {
+        "Labale": {
+            "first_card": "4c",
+            "second_card": "9c"
+        },
+        "frater13015x": {
+            "first_card": "4s",
+            "second_card": "Kd"
+        }
+    },
+    "winners": {
+        "frater13015x": {
+            "amount": 10480.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "hand_id": "570965595051261968-113-1445260732",
+    "datetime": "19-10-2015 13:18:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 10,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132938287",
+        "table_number": "015",
+        "prize_pool": 1757.0,
+        "registered_players": 502,
+        "speed": "semiturbo",
+        "start_date": "2015/10/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "bonfils",
+            "init_stack": 40481.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 43190.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "LikeHoney",
+            "init_stack": 52772.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Admc",
+            "init_stack": 67024.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "kishok",
+            "init_stack": 52230.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gahara35",
+            "init_stack": 63183.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Tc",
+        "second_card": "9c"
+    },
+    "postings": [
+        {
+            "name": "gahara35",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bonfils",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LikeHoney",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Admc",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kishok",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gahara35",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "bonfils",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LikeHoney",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Admc",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kishok",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "gahara35",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "bonfils",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "gahara35",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bonfils",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "kishok",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "gahara35",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bonfils",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "kishok",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "gahara35",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bonfils",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "kishok",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9d",
+        "flop_card_2": "Ts",
+        "flop_card_3": "8h"
+    },
+    "turn": {
+        "turn_card": "5s"
+    },
+    "river": {
+        "river_card": "3s"
+    },
+    "showdown": {
+        "kishok": {
+            "first_card": "Kc",
+            "second_card": "Ad"
+        },
+        "gahara35": {
+            "first_card": "3d",
+            "second_card": "Kd"
+        },
+        "bonfils": {
+            "first_card": "5d",
+            "second_card": "Ks"
+        }
+    },
+    "winners": {
+        "bonfils": {
+            "amount": 3600.0,
+            "pot_type": "pot"
+        }
+    }
+}

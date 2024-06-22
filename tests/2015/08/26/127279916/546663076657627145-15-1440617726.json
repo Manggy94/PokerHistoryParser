@@ -1,0 +1,309 @@
+{
+    "hand_id": "546663076657627145-15-1440617726",
+    "datetime": "26-08-2015 19:35:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 6,
+        "ante": 10.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279916",
+        "table_number": "0008",
+        "prize_pool": 250.0,
+        "registered_players": 9038,
+        "speed": "turbo",
+        "start_date": "2015/08/26 19:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 3640.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "piKpoKoeur",
+            "init_stack": 7175.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nathmar",
+            "init_stack": 8460.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-pasta-",
+            "init_stack": 5215.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ARTHURE33",
+            "init_stack": 2410.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "giani88",
+            "init_stack": 4230.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "PluieDetoile",
+            "init_stack": 2510.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "abs78200",
+            "init_stack": 2800.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Jeunie",
+            "init_stack": 5080.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kh",
+        "second_card": "3c"
+    },
+    "postings": [
+        {
+            "name": "Jeunie",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "piKpoKoeur",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nathmar",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-pasta-",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ARTHURE33",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "giani88",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PluieDetoile",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "abs78200",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jeunie",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "piKpoKoeur",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nathmar",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-pasta-",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "ARTHURE33",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "giani88",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "PluieDetoile",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "abs78200",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeunie",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Jeunie",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-pasta-",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "ARTHURE33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "giani88",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "Jeunie",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "-pasta-",
+                "action": "calls",
+                "amount": 240.0
+            },
+            {
+                "player": "giani88",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Jeunie",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "-pasta-",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "giani88",
+                "action": "raises",
+                "amount": 2130.0
+            },
+            {
+                "player": "Jeunie",
+                "action": "calls",
+                "amount": 2130.0
+            },
+            {
+                "player": "-pasta-",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Jeunie",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "giani88",
+                "action": "raises",
+                "amount": 1370.0
+            },
+            {
+                "player": "Jeunie",
+                "action": "calls",
+                "amount": 1370.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9d",
+        "flop_card_2": "Jh",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "6s"
+    },
+    "showdown": {
+        "giani88": {
+            "first_card": "Js",
+            "second_card": "Qh"
+        },
+        "Jeunie": {
+            "first_card": "Jc",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "Jeunie": {
+            "amount": 9370.0,
+            "pot_type": "pot"
+        }
+    }
+}

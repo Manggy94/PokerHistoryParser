@@ -1,0 +1,186 @@
+{
+    "hand_id": "539969864048050459-55-1439119842",
+    "datetime": "09-08-2015 11:30:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 18,
+        "ante": 200.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "282",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Massik1981",
+            "init_stack": 16495.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "laika om",
+            "init_stack": 38890.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Zoupizap",
+            "init_stack": 61552.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 8856.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "corsica18",
+            "init_stack": 17375.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "chmteuf",
+            "init_stack": 17156.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Lucky-Luke",
+            "init_stack": 19085.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "fred1965",
+            "init_stack": 60316.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "2d"
+    },
+    "postings": [
+        {
+            "name": "Lucky-Luke",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Massik1981",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "laika om",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Zoupizap",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "corsica18",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fred1965",
+            "amount": 200.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lucky-Luke",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "fred1965",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Massik1981",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "laika om",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Zoupizap",
+                "action": "raises",
+                "amount": 2000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "corsica18",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lucky-Luke",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Zoupizap": {
+            "amount": 7400.0,
+            "pot_type": "pot"
+        }
+    }
+}

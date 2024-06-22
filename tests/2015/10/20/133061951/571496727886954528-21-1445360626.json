@@ -1,0 +1,222 @@
+{
+    "hand_id": "571496727886954528-21-1445360626",
+    "datetime": "20-10-2015 17:03:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 8,
+        "ante": 75.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1759.5,
+        "registered_players": 391,
+        "speed": "normal",
+        "start_date": "2015/10/20 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 44465.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "hold-up-31",
+            "init_stack": 32836.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Broopyn",
+            "init_stack": 20700.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "corillaz",
+            "init_stack": 14756.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "UneMeringue",
+            "init_stack": 61106.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "maykie13",
+            "init_stack": 38686.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Nemean",
+            "init_stack": 13355.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Steuf59",
+            "init_stack": 14930.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "Broopyn",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "corillaz",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "hold-up-31",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "UneMeringue",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "maykie13",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nemean",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Steuf59",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Broopyn",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "corillaz",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "UneMeringue",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "maykie13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nemean",
+                "action": "raises",
+                "amount": 800.0
+            },
+            {
+                "player": "Steuf59",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "hold-up-31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Broopyn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "corillaz",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Nemean",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Steuf59",
+                "action": "bets",
+                "amount": 3894.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nemean",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kc",
+        "flop_card_2": "8c",
+        "flop_card_3": "Jh"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Steuf59": {
+            "amount": 10494.0,
+            "pot_type": "pot"
+        }
+    }
+}

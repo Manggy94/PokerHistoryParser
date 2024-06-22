@@ -1,0 +1,165 @@
+{
+    "hand_id": "541906082549727341-4-1439553847",
+    "datetime": "14-08-2015 12:04:07",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "108",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tietco",
+            "init_stack": 2920.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bibiche62230",
+            "init_stack": 3205.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2835.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Chris_laleau",
+            "init_stack": 3050.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "calypsso870",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Mina0606",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Chris_laleau",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "calypsso870",
+                "action": "raises",
+                "amount": 30.0
+            },
+            {
+                "player": "Mina0606",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tietco",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "bibiche62230",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 45.0
+            },
+            {
+                "player": "Chris_laleau",
+                "action": "calls",
+                "amount": 30.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Chris_laleau",
+                "action": "bets",
+                "amount": 30.0
+            },
+            {
+                "player": "calypsso870",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tietco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "2s",
+        "flop_card_3": "9s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Chris_laleau": {
+            "amount": 270.0,
+            "pot_type": "pot"
+        }
+    }
+}

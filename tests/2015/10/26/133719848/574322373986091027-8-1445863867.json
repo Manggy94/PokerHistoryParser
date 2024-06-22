@@ -1,0 +1,181 @@
+{
+    "hand_id": "574322373986091027-8-1445863867",
+    "datetime": "26-10-2015 12:51:07",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133719848",
+        "table_number": "018",
+        "prize_pool": 1827.0,
+        "registered_players": 522,
+        "speed": "semiturbo",
+        "start_date": "2015/10/26 12:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Yekoms",
+            "init_stack": 9763.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tipokpok",
+            "init_stack": 10862.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "-valueporc-",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Celestaaa",
+            "init_stack": 10250.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Nevro97436",
+            "init_stack": 9000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 20125.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "Ts"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Yekoms",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "tipokpok",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-valueporc-",
+                "action": "raises",
+                "amount": 50.0
+            },
+            {
+                "player": "Celestaaa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nevro97436",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 75.0
+            },
+            {
+                "player": "Yekoms",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 250.0
+            },
+            {
+                "player": "-valueporc-",
+                "action": "calls",
+                "amount": 250.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "-valueporc-",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 750.0
+            },
+            {
+                "player": "-valueporc-",
+                "action": "calls",
+                "amount": 750.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7s",
+        "flop_card_2": "2c",
+        "flop_card_3": "6c"
+    },
+    "turn": {
+        "turn_card": "8c"
+    },
+    "river": {
+        "river_card": "5s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Jd",
+            "second_card": "Ts"
+        },
+        "-valueporc-": {
+            "first_card": "8h",
+            "second_card": "Th"
+        }
+    },
+    "winners": {
+        "-valueporc-": {
+            "amount": 2250.0,
+            "pot_type": "pot"
+        }
+    }
+}

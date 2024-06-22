@@ -1,0 +1,238 @@
+{
+    "hand_id": "552788065093943321-15-1441880233",
+    "datetime": "10-09-2015 10:17:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.22,
+        "bounty": 0.0,
+        "rake": 0.03
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "128706001",
+        "table_number": "024",
+        "prize_pool": 67.98,
+        "registered_players": 309,
+        "speed": "semiturbo",
+        "start_date": "2015/09/10 09:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Cees_Van_Och",
+            "init_stack": 10100.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "juventus25",
+            "init_stack": 20700.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 1237.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "youmarseille",
+            "init_stack": 14338.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "neve127",
+            "init_stack": 7975.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "khanalexvd",
+            "init_stack": 15050.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "karambol972",
+            "init_stack": 21875.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "PaTaTe2Forr1",
+            "init_stack": 5825.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "L.A.23.",
+            "init_stack": 11150.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "3s"
+    },
+    "postings": [
+        {
+            "name": "juventus25",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "youmarseille",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "neve127",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "khanalexvd",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "karambol972",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "PaTaTe2Forr1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "L.A.23.",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "Cees_Van_Och",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "juventus25",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "juventus25",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "khanalexvd",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "karambol972",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "L.A.23.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Cees_Van_Och",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "juventus25",
+                "action": "bets",
+                "amount": 2700.0
+            },
+            {
+                "player": "karambol972",
+                "action": "calls",
+                "amount": 2700.0
+            },
+            {
+                "player": "Cees_Van_Och",
+                "action": "raises",
+                "amount": 5900.0
+            },
+            {
+                "player": "juventus25",
+                "action": "calls",
+                "amount": 5900.0
+            },
+            {
+                "player": "karambol972",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9h",
+        "flop_card_2": "2d",
+        "flop_card_3": "8d"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {
+        "juventus25": {
+            "first_card": "8s",
+            "second_card": "9c"
+        },
+        "Cees_Van_Och": {
+            "first_card": "7h",
+            "second_card": "Ts"
+        }
+    },
+    "winners": {
+        "Cees_Van_Och": {
+            "amount": 25300.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "hand_id": "538925989426626570-51-1438871391",
+    "datetime": "06-08-2015 14:29:51",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 13,
+        "ante": 70.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "sague1",
+            "init_stack": 31450.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 10930.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "francky72290",
+            "init_stack": 9025.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Emilayy",
+            "init_stack": 2824.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mage847",
+            "init_stack": 6588.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "7h"
+    },
+    "postings": [
+        {
+            "name": "mage847",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sague1",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "francky72290",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Emilayy",
+            "amount": 70.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mage847",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "sague1",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "francky72290",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Emilayy",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mage847",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "sague1",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "mage847",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sague1",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "mage847",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "sague1",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "river": [
+            {
+                "player": "mage847",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sague1",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "8d",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "6c"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "mage847": {
+            "first_card": "9h",
+            "second_card": "Kc"
+        },
+        "sague1": {
+            "first_card": "Jd",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "sague1": {
+            "amount": 2750.0,
+            "pot_type": "pot"
+        }
+    }
+}

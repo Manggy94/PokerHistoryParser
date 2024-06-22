@@ -1,0 +1,138 @@
+{
+    "hand_id": "548316621886717953-20-1439712225",
+    "datetime": "16-08-2015 08:03:45",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Super Freeroll Stade 1",
+        "tournament_id": "127664912",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 6,
+        "speed": "turbo",
+        "start_date": "2015/08/16 07:50:22 UTC",
+        "levels_structure": [],
+        "tournament_type": "freeroll100k"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "3": {
+            "seat": 3,
+            "name": "laulau40",
+            "init_stack": 3150.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Battlesun",
+            "init_stack": 2200.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "gegeguzzi",
+            "init_stack": 2755.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 895.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "Battlesun",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gegeguzzi",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "laulau40",
+                "action": "raises",
+                "amount": 80.0
+            },
+            {
+                "player": "Battlesun",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gegeguzzi",
+                "action": "calls",
+                "amount": 80.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "gegeguzzi",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "laulau40",
+                "action": "bets",
+                "amount": 160.0
+            },
+            {
+                "player": "gegeguzzi",
+                "action": "raises",
+                "amount": 160.0
+            },
+            {
+                "player": "laulau40",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9d",
+        "flop_card_2": "9c",
+        "flop_card_3": "Qs"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "gegeguzzi": {
+            "amount": 840.0,
+            "pot_type": "pot"
+        }
+    }
+}

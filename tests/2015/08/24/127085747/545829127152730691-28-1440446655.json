@@ -1,0 +1,214 @@
+{
+    "hand_id": "545829127152730691-28-1440446655",
+    "datetime": "24-08-2015 20:04:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085747",
+        "table_number": "0578",
+        "prize_pool": 250.0,
+        "registered_players": 9824,
+        "speed": "turbo",
+        "start_date": "2015/08/24 19:15:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "tachillon",
+            "init_stack": 18142.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "allo_quoi",
+            "init_stack": 33210.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "cuicui85",
+            "init_stack": 415.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "synhedionn",
+            "init_stack": 7180.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "missdoudou13",
+            "init_stack": 15389.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 7922.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "pouffy59",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "outly",
+            "init_stack": 4105.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7c",
+        "second_card": "9c"
+    },
+    "postings": [
+        {
+            "name": "allo_quoi",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cuicui85",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tachillon",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "synhedionn",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "missdoudou13",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pouffy59",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "outly",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "allo_quoi",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "cuicui85",
+            "amount": 335.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "synhedionn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "missdoudou13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "pouffy59",
+                "action": "raises",
+                "amount": 2495.0
+            },
+            {
+                "player": "outly",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tachillon",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "allo_quoi",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "8c",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "6h"
+    },
+    "river": {
+        "river_card": "9h"
+    },
+    "showdown": {
+        "cuicui85": {
+            "first_card": "9d",
+            "second_card": "3d"
+        },
+        "pouffy59": {
+            "first_card": "Qc",
+            "second_card": "Kd"
+        }
+    },
+    "winners": {
+        "pouffy59": {
+            "amount": 3025.0,
+            "pot_type": "side pot 1"
+        },
+        "cuicui85": {
+            "amount": 1980.0,
+            "pot_type": "main pot"
+        }
+    }
+}

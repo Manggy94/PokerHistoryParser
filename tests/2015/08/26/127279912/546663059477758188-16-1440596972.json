@@ -1,0 +1,255 @@
+{
+    "hand_id": "546663059477758188-16-1440596972",
+    "datetime": "26-08-2015 13:49:32",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 6,
+        "ante": 10.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279912",
+        "table_number": "235",
+        "prize_pool": 100.0,
+        "registered_players": 4340,
+        "speed": "turbo",
+        "start_date": "2015/08/26 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Barthood44",
+            "init_stack": 2700.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "rycke",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "maxemn",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "empetre79",
+            "init_stack": 5780.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Malloryknox",
+            "init_stack": 1940.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Pliskenback",
+            "init_stack": 2740.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "PHILDU30",
+            "init_stack": 3360.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "badboycer02",
+            "init_stack": 5650.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 2020.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "rycke",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "maxemn",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Barthood44",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "empetre79",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Malloryknox",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pliskenback",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PHILDU30",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "badboycer02",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "rycke",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "maxemn",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "empetre79",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Malloryknox",
+                "action": "raises",
+                "amount": 1810.0
+            },
+            {
+                "player": "Pliskenback",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PHILDU30",
+                "action": "calls",
+                "amount": 1930.0
+            },
+            {
+                "player": "badboycer02",
+                "action": "calls",
+                "amount": 1930.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 80.0
+            },
+            {
+                "player": "Barthood44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rycke",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "maxemn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PHILDU30",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "badboycer02",
+                "action": "calls",
+                "amount": 80.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "PHILDU30",
+                "action": "bets",
+                "amount": 1340.0
+            },
+            {
+                "player": "badboycer02",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qs",
+        "flop_card_2": "8h",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "Ks"
+    },
+    "river": {
+        "river_card": "Jd"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "As",
+            "second_card": "2s"
+        },
+        "Malloryknox": {
+            "first_card": "Qd",
+            "second_card": "Ad"
+        },
+        "PHILDU30": {
+            "first_card": "9d",
+            "second_card": "9c"
+        }
+    },
+    "winners": {
+        "PHILDU30": {
+            "amount": 1580.0,
+            "pot_type": "side pot 1"
+        },
+        "Malloryknox": {
+            "amount": 7990.0,
+            "pot_type": "main pot"
+        }
+    }
+}

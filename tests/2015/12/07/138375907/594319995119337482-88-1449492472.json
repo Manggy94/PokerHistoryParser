@@ -1,0 +1,250 @@
+{
+    "hand_id": "594319995119337482-88-1449492472",
+    "datetime": "07-12-2015 12:47:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 24,
+        "ante": 800.0,
+        "sb": 4000.0,
+        "bb": 8000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "009",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 7,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 28593.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "flo_dpr",
+            "init_stack": 2735.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "kykypoker",
+            "init_stack": 13670.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "AirAmerikA",
+            "init_stack": 175284.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "toninosniper",
+            "init_stack": 368327.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "grmax",
+            "init_stack": 52328.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "critinuma",
+            "init_stack": 151501.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "Js"
+    },
+    "postings": [
+        {
+            "name": "critinuma",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "flo_dpr",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kykypoker",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AirAmerikA",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "toninosniper",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "grmax",
+            "amount": 800.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "critinuma",
+            "amount": 4000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 8000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "flo_dpr",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kykypoker",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AirAmerikA",
+                "action": "calls",
+                "amount": 8000.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "calls",
+                "amount": 8000.0
+            },
+            {
+                "player": "grmax",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "critinuma",
+                "action": "calls",
+                "amount": 4000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 19793.0
+            },
+            {
+                "player": "AirAmerikA",
+                "action": "calls",
+                "amount": 19793.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "calls",
+                "amount": 19793.0
+            },
+            {
+                "player": "critinuma",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "AirAmerikA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "AirAmerikA",
+                "action": "bets",
+                "amount": 8000.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "calls",
+                "amount": 8000.0
+            }
+        ],
+        "river": [
+            {
+                "player": "AirAmerikA",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "9h",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": "5d"
+    },
+    "showdown": {
+        "toninosniper": {
+            "first_card": "8d",
+            "second_card": "Ad"
+        },
+        "manggy94": {
+            "first_card": "Jd",
+            "second_card": "Js"
+        },
+        "AirAmerikA": {
+            "first_card": "Qd",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "AirAmerikA": {
+            "amount": 16000.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 96979.0,
+            "pot_type": "main pot"
+        }
+    }
+}

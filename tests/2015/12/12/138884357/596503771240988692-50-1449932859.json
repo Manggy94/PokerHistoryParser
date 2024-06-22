@@ -1,0 +1,268 @@
+{
+    "hand_id": "596503771240988692-50-1449932859",
+    "datetime": "12-12-2015 15:07:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138884357",
+        "table_number": "019",
+        "prize_pool": 2218.5,
+        "registered_players": 493,
+        "speed": "semiturbo",
+        "start_date": "2015/12/12 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Jonjones67",
+            "init_stack": 19369.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "ChauVeDuCoN",
+            "init_stack": 11845.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Romanin75",
+            "init_stack": 8750.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Le Yougo13",
+            "init_stack": 20463.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Katseng",
+            "init_stack": 16292.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 12820.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "M.Seven",
+            "init_stack": 31616.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "fifi1664",
+            "init_stack": 30175.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9d",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "Jonjones67",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ChauVeDuCoN",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Romanin75",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Le Yougo13",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Katseng",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "M.Seven",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fifi1664",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jonjones67",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ChauVeDuCoN",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Romanin75",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Le Yougo13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Katseng",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "M.Seven",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "fifi1664",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jonjones67",
+                "action": "calls",
+                "amount": 250.0
+            },
+            {
+                "player": "ChauVeDuCoN",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Jonjones67",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ChauVeDuCoN",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Katseng",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "M.Seven",
+                "action": "bets",
+                "amount": 2320.0
+            },
+            {
+                "player": "Jonjones67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ChauVeDuCoN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Katseng",
+                "action": "calls",
+                "amount": 2320.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Katseng",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "M.Seven",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Katseng",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "M.Seven",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "8c",
+        "flop_card_3": "Jh"
+    },
+    "turn": {
+        "turn_card": "Tc"
+    },
+    "river": {
+        "river_card": "4d"
+    },
+    "showdown": {
+        "Katseng": {
+            "first_card": "3c",
+            "second_card": "3s"
+        },
+        "M.Seven": {
+            "first_card": "Ac",
+            "second_card": "8s"
+        }
+    },
+    "winners": {
+        "M.Seven": {
+            "amount": 6960.0,
+            "pot_type": "pot"
+        }
+    }
+}

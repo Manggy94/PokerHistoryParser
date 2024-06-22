@@ -1,0 +1,233 @@
+{
+    "hand_id": "545010802738856379-54-1440271164",
+    "datetime": "22-08-2015 19:19:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 19,
+        "ante": 250.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126895216",
+        "table_number": "0442",
+        "prize_pool": 150.0,
+        "registered_players": 5943,
+        "speed": "turbo",
+        "start_date": "2015/08/22 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DAVISCUP",
+            "init_stack": 17030.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Mr Joff",
+            "init_stack": 14555.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "sunday1302",
+            "init_stack": 12665.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 22510.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Emilie1985",
+            "init_stack": 49390.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Baga9",
+            "init_stack": 10345.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "bluker_1986",
+            "init_stack": 6038.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "TheToilet2b",
+            "init_stack": 17602.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "ChowYunFat",
+            "init_stack": 32400.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "sunday1302",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DAVISCUP",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Emilie1985",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Baga9",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bluker_1986",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TheToilet2b",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ChowYunFat",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sunday1302",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Emilie1985",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Baga9",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "bluker_1986",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "TheToilet2b",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ChowYunFat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DAVISCUP",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sunday1302",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Baga9",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bluker_1986",
+                "action": "bets",
+                "amount": 3288.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Baga9",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qh",
+        "flop_card_2": "Tc",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "bluker_1986": {
+            "amount": 14038.0,
+            "pot_type": "pot"
+        }
+    }
+}

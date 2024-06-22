@@ -1,0 +1,208 @@
+{
+    "hand_id": "540379453604233350-14-1439197966",
+    "datetime": "10-08-2015 09:12:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816896",
+        "table_number": "133",
+        "prize_pool": 50.0,
+        "registered_players": 2487,
+        "speed": "turbo",
+        "start_date": "2015/08/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "anaabellee",
+            "init_stack": 2780.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "magach",
+            "init_stack": 13750.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2360.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "call me dude",
+            "init_stack": 5490.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Taosacco",
+            "init_stack": 3030.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "valdo126",
+            "init_stack": 7880.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "LECHIRURGIEN",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Ivalue_cut..",
+            "init_stack": 3750.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "letroubadour",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "5h"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "call me dude",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Taosacco",
+                "action": "raises",
+                "amount": 80.0
+            },
+            {
+                "player": "valdo126",
+                "action": "calls",
+                "amount": 160.0
+            },
+            {
+                "player": "LECHIRURGIEN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ivalue_cut..",
+                "action": "raises",
+                "amount": 3590.0
+            },
+            {
+                "player": "letroubadour",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "anaabellee",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "magach",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "call me dude",
+                "action": "calls",
+                "amount": 3670.0
+            },
+            {
+                "player": "Taosacco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "valdo126",
+                "action": "raises",
+                "amount": 4130.0
+            },
+            {
+                "player": "call me dude",
+                "action": "calls",
+                "amount": 1740.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "3c",
+        "flop_card_3": "6s"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {
+        "Ivalue_cut..": {
+            "first_card": "Kc",
+            "second_card": "As"
+        },
+        "call me dude": {
+            "first_card": "Ad",
+            "second_card": "Jd"
+        },
+        "valdo126": {
+            "first_card": "5c",
+            "second_card": "Qc"
+        }
+    },
+    "winners": {
+        "valdo126": {
+            "amount": 2390.0,
+            "pot_type": "side pot 2"
+        },
+        "call me dude": {
+            "amount": 3480.0,
+            "pot_type": "side pot 1"
+        },
+        "Ivalue_cut..": {
+            "amount": 11450.0,
+            "pot_type": "main pot"
+        }
+    }
+}

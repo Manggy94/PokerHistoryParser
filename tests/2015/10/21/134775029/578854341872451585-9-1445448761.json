@@ -1,0 +1,179 @@
+{
+    "hand_id": "578854341872451585-9-1445448761",
+    "datetime": "21-10-2015 17:32:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "134775029",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/21 17:26:07 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "astek56",
+            "init_stack": 550.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "FaroukVazaha",
+            "init_stack": 1190.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 1870.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "GCAM31",
+            "init_stack": 410.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "swifced",
+            "init_stack": 980.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "swifced",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "astek56",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "FaroukVazaha",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "GCAM31",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "swifced",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "astek56",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "swifced",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "FaroukVazaha",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "GCAM31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "swifced",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "FaroukVazaha",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1630.0
+            },
+            {
+                "player": "FaroukVazaha",
+                "action": "calls",
+                "amount": 950.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "9c",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "Ad"
+    },
+    "river": {
+        "river_card": "3h"
+    },
+    "showdown": {
+        "FaroukVazaha": {
+            "first_card": "8c",
+            "second_card": "Ts"
+        },
+        "manggy94": {
+            "first_card": "4d",
+            "second_card": "9d"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 3180.0,
+            "pot_type": "pot"
+        }
+    }
+}

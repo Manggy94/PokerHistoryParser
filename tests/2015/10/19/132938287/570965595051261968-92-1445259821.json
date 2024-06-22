@@ -1,0 +1,208 @@
+{
+    "hand_id": "570965595051261968-92-1445259821",
+    "datetime": "19-10-2015 13:03:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132938287",
+        "table_number": "015",
+        "prize_pool": 1757.0,
+        "registered_players": 502,
+        "speed": "semiturbo",
+        "start_date": "2015/10/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "bonfils",
+            "init_stack": 19452.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 73870.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "LikeHoney",
+            "init_stack": 54295.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Admc",
+            "init_stack": 74314.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Le-GrEc-FoU",
+            "init_stack": 13329.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kh",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LikeHoney",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bonfils",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Admc",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Le-GrEc-FoU",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "LikeHoney",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Admc",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Le-GrEc-FoU",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "bonfils",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "LikeHoney",
+                "action": "raises",
+                "amount": 1800.0
+            },
+            {
+                "player": "Le-GrEc-FoU",
+                "action": "calls",
+                "amount": 1800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1800.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 7500.0
+            },
+            {
+                "player": "LikeHoney",
+                "action": "calls",
+                "amount": 7500.0
+            },
+            {
+                "player": "Le-GrEc-FoU",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 22500.0
+            },
+            {
+                "player": "LikeHoney",
+                "action": "raises",
+                "amount": 21835.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 21835.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "Qs",
+        "flop_card_3": "Kd"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "3s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Kh",
+            "second_card": "6s"
+        },
+        "LikeHoney": {
+            "first_card": "Ks",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "LikeHoney": {
+            "amount": 55585.0,
+            "pot_type": "pot"
+        },
+        "manggy94": {
+            "amount": 55585.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "hand_id": "563848804177018951-39-1443877629",
+    "datetime": "03-10-2015 13:07:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 9,
+        "ante": 75.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131281280",
+        "table_number": "070",
+        "prize_pool": 1883.0,
+        "registered_players": 538,
+        "speed": "semiturbo",
+        "start_date": "2015/10/03 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "fredyfix",
+            "init_stack": 46818.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "HANSENTOF59",
+            "init_stack": 29584.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 33894.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "jc47",
+            "init_stack": 41973.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Emma57",
+            "init_stack": 20452.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mickkey59",
+            "init_stack": 43605.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "2c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jc47",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fredyfix",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "HANSENTOF59",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Emma57",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mickkey59",
+            "amount": 75.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "jc47",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Emma57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mickkey59",
+                "action": "raises",
+                "amount": 800.0
+            },
+            {
+                "player": "fredyfix",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "HANSENTOF59",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jc47",
+                "action": "calls",
+                "amount": 800.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "jc47",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mickkey59",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "fredyfix",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "HANSENTOF59",
+                "action": "bets",
+                "amount": 3625.0
+            },
+            {
+                "player": "jc47",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mickkey59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fredyfix",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "3h",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "HANSENTOF59": {
+            "amount": 10875.0,
+            "pot_type": "pot"
+        }
+    }
+}

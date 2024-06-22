@@ -1,0 +1,224 @@
+{
+    "hand_id": "542619609761579045-19-1439752122",
+    "datetime": "16-08-2015 19:08:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Welcome Freeroll",
+        "tournament_id": "126338473",
+        "table_number": "036",
+        "prize_pool": 1000.0,
+        "registered_players": 943,
+        "speed": "semiturbo",
+        "start_date": "2015/08/16 18:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "smileys",
+            "init_stack": 6280.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "rem.chrlt",
+            "init_stack": 2895.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "KK3010",
+            "init_stack": 2800.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tr00evil",
+            "init_stack": 3265.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "COuXGaamer",
+            "init_stack": 3160.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "david.08",
+            "init_stack": 3640.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Micky47",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 2680.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "lootiian",
+            "init_stack": 8190.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8d",
+        "second_card": "2h"
+    },
+    "postings": [
+        {
+            "name": "tr00evil",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "COuXGaamer",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "david.08",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Micky47",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lootiian",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "smileys",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rem.chrlt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KK3010",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "tr00evil",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "COuXGaamer",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "tr00evil",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "COuXGaamer",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lootiian",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "KK3010",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "tr00evil",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "COuXGaamer",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lootiian",
+                "action": "bets",
+                "amount": 180.0
+            },
+            {
+                "player": "KK3010",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tr00evil",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "COuXGaamer",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kc",
+        "flop_card_2": "8c",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": "7c"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "lootiian": {
+            "amount": 420.0,
+            "pot_type": "pot"
+        }
+    }
+}

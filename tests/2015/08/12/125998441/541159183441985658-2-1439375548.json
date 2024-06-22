@@ -1,0 +1,185 @@
+{
+    "hand_id": "541159183441985658-2-1439375548",
+    "datetime": "12-08-2015 10:32:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998441",
+        "table_number": "121",
+        "prize_pool": 100.0,
+        "registered_players": 3241,
+        "speed": "turbo",
+        "start_date": "2015/08/12 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "-marcel-38",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "SKULLS77",
+            "init_stack": 9030.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "vincecyril59",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "falain13",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "joly666",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "beldoche85",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ATOMYSER",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "5pidou",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8d",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "-marcel-38",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "SKULLS77",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "vincecyril59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "falain13",
+                "action": "raises",
+                "amount": 2980.0
+            },
+            {
+                "player": "joly666",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "beldoche85",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ATOMYSER",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "5pidou",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-marcel-38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SKULLS77",
+                "action": "calls",
+                "amount": 2980.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "Td",
+        "flop_card_3": "2s"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": "Jd"
+    },
+    "showdown": {
+        "SKULLS77": {
+            "first_card": "8h",
+            "second_card": "8c"
+        },
+        "5pidou": {
+            "first_card": "As",
+            "second_card": "6c"
+        },
+        "falain13": {
+            "first_card": "Kh",
+            "second_card": "Ts"
+        }
+    },
+    "winners": {
+        "falain13": {
+            "amount": 9010.0,
+            "pot_type": "pot"
+        }
+    }
+}

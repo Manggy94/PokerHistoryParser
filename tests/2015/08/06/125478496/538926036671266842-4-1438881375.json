@@ -1,0 +1,153 @@
+{
+    "hand_id": "538926036671266842-4-1438881375",
+    "datetime": "06-08-2015 17:16:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 5000.0,
+        "registered_players": 242,
+        "speed": "normal",
+        "start_date": "2015/08/06 16:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "stridou29",
+            "init_stack": 20383.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Noumea38",
+            "init_stack": 1888.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "gaoutcho",
+            "init_stack": 76204.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Kader2bb",
+            "init_stack": 22350.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 13675.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "Noumea38",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gaoutcho",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "stridou29",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kader2bb",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Noumea38",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gaoutcho",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Kader2bb",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "stridou29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Noumea38",
+                "action": "raises",
+                "amount": 1458.0
+            },
+            {
+                "player": "gaoutcho",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Noumea38": {
+            "amount": 2408.0,
+            "pot_type": "pot"
+        }
+    }
+}

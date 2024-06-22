@@ -1,0 +1,138 @@
+{
+    "hand_id": "538926101095776287-1-1438893440",
+    "datetime": "06-08-2015 20:37:20",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125478511",
+        "table_number": "030",
+        "prize_pool": 3000.0,
+        "registered_players": 308,
+        "speed": "semiturbo",
+        "start_date": "2015/08/06 20:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Akastacha",
+            "init_stack": 7000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "gilbert49",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7c",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Akastacha",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gilbert49",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Akastacha",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Akastacha",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "gilbert49",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 180.0
+            },
+            {
+                "player": "Akastacha",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gilbert49",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ah",
+        "flop_card_2": "7d",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "4s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 360.0,
+            "pot_type": "pot"
+        }
+    }
+}

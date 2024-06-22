@@ -1,0 +1,225 @@
+{
+    "hand_id": "541159200621854830-8-1439386793",
+    "datetime": "12-08-2015 13:39:53",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "109",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Filippo31",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "34kikou34",
+            "init_stack": 3974.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "psycologique",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Survivor",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "LEMAK74",
+            "init_stack": 14251.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "NATALEX83",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "davstreemer",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 6520.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Pacman05",
+            "init_stack": 2945.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4h",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "LEMAK74",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "NATALEX83",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "davstreemer",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pacman05",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Filippo31",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "34kikou34",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "psycologique",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Survivor",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LEMAK74",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "NATALEX83",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "LEMAK74",
+                "action": "bets",
+                "amount": 60.0
+            },
+            {
+                "player": "NATALEX83",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "Filippo31",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "34kikou34",
+                "action": "calls",
+                "amount": 60.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "LEMAK74",
+                "action": "bets",
+                "amount": 480.0
+            },
+            {
+                "player": "NATALEX83",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Filippo31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "34kikou34",
+                "action": "calls",
+                "amount": 480.0
+            }
+        ],
+        "river": [
+            {
+                "player": "LEMAK74",
+                "action": "bets",
+                "amount": 960.0
+            },
+            {
+                "player": "34kikou34",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3h",
+        "flop_card_2": "4c",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {},
+    "winners": {
+        "LEMAK74": {
+            "amount": 2400.0,
+            "pot_type": "pot"
+        }
+    }
+}

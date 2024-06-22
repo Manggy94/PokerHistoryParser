@@ -1,0 +1,238 @@
+{
+    "hand_id": "593828534896558086-8-1449411917",
+    "datetime": "06-12-2015 14:25:17",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138261480",
+        "table_number": "005",
+        "prize_pool": 3546.0,
+        "registered_players": 788,
+        "speed": "semiturbo",
+        "start_date": "2015/12/06 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "lamakdesmaks",
+            "init_stack": 7300.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "TheKnarfy",
+            "init_stack": 9400.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "6.....9",
+            "init_stack": 5650.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 15425.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "siscolino",
+            "init_stack": 14425.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "BattleDave1",
+            "init_stack": 9600.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "roubb",
+            "init_stack": 8725.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "VASICALL",
+            "init_stack": 9475.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3h",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "siscolino",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "BattleDave1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "roubb",
+                "action": "raises",
+                "amount": 100.0
+            },
+            {
+                "player": "VASICALL",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "lamakdesmaks",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "TheKnarfy",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "6.....9",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "siscolino",
+                "action": "calls",
+                "amount": 100.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "siscolino",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "roubb",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "VASICALL",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lamakdesmaks",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "TheKnarfy",
+                "action": "raises",
+                "amount": 675.0
+            },
+            {
+                "player": "siscolino",
+                "action": "calls",
+                "amount": 675.0
+            },
+            {
+                "player": "roubb",
+                "action": "calls",
+                "amount": 675.0
+            },
+            {
+                "player": "lamakdesmaks",
+                "action": "calls",
+                "amount": 675.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "siscolino",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "roubb",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lamakdesmaks",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TheKnarfy",
+                "action": "bets",
+                "amount": 8425.0
+            },
+            {
+                "player": "siscolino",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "roubb",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lamakdesmaks",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jh",
+        "flop_card_2": "6s",
+        "flop_card_3": "Qs"
+    },
+    "turn": {
+        "turn_card": "7c"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "TheKnarfy": {
+            "amount": 12575.0,
+            "pot_type": "pot"
+        }
+    }
+}

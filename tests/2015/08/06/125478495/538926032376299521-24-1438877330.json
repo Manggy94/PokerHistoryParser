@@ -1,0 +1,184 @@
+{
+    "hand_id": "538926032376299521-24-1438877330",
+    "datetime": "06-08-2015 16:08:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 4000.0,
+        "registered_players": 95,
+        "speed": "semiturbo",
+        "start_date": "2015/08/06 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "moviolitini",
+            "init_stack": 3060.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Coolman69",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 245.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Pompierspp67",
+            "init_stack": 2985.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mick37",
+            "init_stack": 3330.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lecanaille",
+            "init_stack": 10800.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "mick37",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lecanaille",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "moviolitini",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Coolman69",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "Pompierspp67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mick37",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "mick37",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Coolman69",
+                "action": "bets",
+                "amount": 180.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 5.0
+            },
+            {
+                "player": "mick37",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lecanaille",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Coolman69",
+                "action": "calls",
+                "amount": 5.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ad",
+        "flop_card_2": "7c",
+        "flop_card_3": "8h"
+    },
+    "turn": {
+        "turn_card": "8d"
+    },
+    "river": {
+        "river_card": "Qh"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "2h",
+            "second_card": "Th"
+        },
+        "Coolman69": {
+            "first_card": "6h",
+            "second_card": "6d"
+        }
+    },
+    "winners": {
+        "Coolman69": {
+            "amount": 610.0,
+            "pot_type": "pot"
+        }
+    }
+}

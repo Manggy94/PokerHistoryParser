@@ -1,0 +1,169 @@
+{
+    "hand_id": "598909240689557574-21-1450363683",
+    "datetime": "17-12-2015 14:48:03",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "139444424",
+        "table_number": "069",
+        "prize_pool": 100.0,
+        "registered_players": 4178,
+        "speed": "turbo",
+        "start_date": "2015/12/17 14:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Ruf 911",
+            "init_stack": 8576.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 31.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "FLOKILMAT 01",
+            "init_stack": 5878.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "nekpoker75",
+            "init_stack": 1314.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fullbiker",
+            "init_stack": 2770.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "K10ismagic",
+            "init_stack": 5618.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Hous94",
+            "init_stack": 6118.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "unbandefhish",
+            "init_stack": 2695.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7c",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "Ruf 911",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 31.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "FLOKILMAT 01",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nekpoker75",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fullbiker",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "K10ismagic",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Hous94",
+                "action": "raises",
+                "amount": 209.0
+            },
+            {
+                "player": "unbandefhish",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ruf 911",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7h",
+        "flop_card_2": "Kc",
+        "flop_card_3": "7s"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "Jh"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "7c",
+            "second_card": "Jc"
+        },
+        "Hous94": {
+            "first_card": "Td",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "Hous94": {
+            "amount": 238.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 93.0,
+            "pot_type": "main pot"
+        }
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "hand_id": "538925972246757382-8-1438867327",
+    "datetime": "06-08-2015 13:22:07",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1000.0,
+        "registered_players": 39,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 17025.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "EAGLE TWO",
+            "init_stack": 13800.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "jucathjo35",
+            "init_stack": 47800.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "BERMUDE 83",
+            "init_stack": 19550.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gracieuse33",
+            "init_stack": 19350.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qc",
+        "second_card": "Qs"
+    },
+    "postings": [
+        {
+            "name": "EAGLE TWO",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "jucathjo35",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "BERMUDE 83",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "gracieuse33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1000.0
+            },
+            {
+                "player": "EAGLE TWO",
+                "action": "calls",
+                "amount": 1100.0
+            },
+            {
+                "player": "jucathjo35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BERMUDE 83",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "EAGLE TWO",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "EAGLE TWO",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 2100.0
+            },
+            {
+                "player": "EAGLE TWO",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "3s",
+        "flop_card_3": "Ah"
+    },
+    "turn": {
+        "turn_card": "6s"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 4900.0,
+            "pot_type": "pot"
+        }
+    }
+}

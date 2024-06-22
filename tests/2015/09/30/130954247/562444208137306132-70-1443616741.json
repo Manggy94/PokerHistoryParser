@@ -1,0 +1,174 @@
+{
+    "hand_id": "562444208137306132-70-1443616741",
+    "datetime": "30-09-2015 12:39:01",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "130954247",
+        "table_number": "019",
+        "prize_pool": 1382.5,
+        "registered_players": 395,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 54685.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Winaarien69",
+            "init_stack": 17638.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BananeB64",
+            "init_stack": 9595.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "vegaston",
+            "init_stack": 27135.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bounce974",
+            "init_stack": 15404.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "GreGaby",
+            "init_stack": 19425.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jc",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "Winaarien69",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BananeB64",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vegaston",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bounce974",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "GreGaby",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Winaarien69",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "BananeB64",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "vegaston",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "bounce974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "GreGaby",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1580.0
+            },
+            {
+                "player": "Winaarien69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BananeB64",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vegaston",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 3160.0,
+            "pot_type": "pot"
+        }
+    }
+}

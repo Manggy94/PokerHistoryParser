@@ -1,0 +1,229 @@
+{
+    "hand_id": "542619120135307412-5-1439715904",
+    "datetime": "16-08-2015 09:05:04",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126338359",
+        "table_number": "147",
+        "prize_pool": 50.0,
+        "registered_players": 2586,
+        "speed": "turbo",
+        "start_date": "2015/08/16 09:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "niko76280",
+            "init_stack": 1940.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Benjamin 14",
+            "init_stack": 6335.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "kito64",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "m pitoux",
+            "init_stack": 2945.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "babastiti",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "micka72190",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "FAROOK69",
+            "init_stack": 1530.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sevdu10",
+            "init_stack": 5445.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kd",
+        "second_card": "Qc"
+    },
+    "postings": [
+        {
+            "name": "micka72190",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "FAROOK69",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "sevdu10",
+                "action": "raises",
+                "amount": 90.0
+            },
+            {
+                "player": "niko76280",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "Benjamin 14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kito64",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "m pitoux",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "babastiti",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "micka72190",
+                "action": "calls",
+                "amount": 105.0
+            },
+            {
+                "player": "FAROOK69",
+                "action": "calls",
+                "amount": 90.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 90.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "micka72190",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "FAROOK69",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "sevdu10",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "niko76280",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "micka72190",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FAROOK69",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sevdu10",
+                "action": "bets",
+                "amount": 510.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "Js",
+        "flop_card_3": "4s"
+    },
+    "turn": {
+        "turn_card": "2d"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "sevdu10": {
+            "amount": 2310.0,
+            "pot_type": "pot"
+        }
+    }
+}

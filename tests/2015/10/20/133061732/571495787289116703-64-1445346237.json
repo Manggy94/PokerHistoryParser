@@ -1,0 +1,179 @@
+{
+    "hand_id": "571495787289116703-64-1445346237",
+    "datetime": "20-10-2015 13:03:57",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133061732",
+        "table_number": "030",
+        "prize_pool": 1694.0,
+        "registered_players": 484,
+        "speed": "semiturbo",
+        "start_date": "2015/10/20 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 13868.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Jacoby23",
+            "init_stack": 21416.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Raisingman86",
+            "init_stack": 62157.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "sahabo",
+            "init_stack": 53138.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "pierloch29",
+            "init_stack": 50052.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "sahabo",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jacoby23",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pierloch29",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sahabo",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pierloch29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "Jacoby23",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sahabo",
+                "action": "raises",
+                "amount": 900.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 900.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "sahabo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "sahabo",
+                "action": "bets",
+                "amount": 2100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 10208.0
+            },
+            {
+                "player": "sahabo",
+                "action": "calls",
+                "amount": 10208.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "7s",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": "3s"
+    },
+    "showdown": {
+        "sahabo": {
+            "first_card": "5d",
+            "second_card": "5c"
+        },
+        "manggy94": {
+            "first_card": "6d",
+            "second_card": "4d"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 27856.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "hand_id": "539623462050726159-3-1439046438",
+    "datetime": "08-08-2015 15:07:18",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640878",
+        "table_number": "270",
+        "prize_pool": 150.0,
+        "registered_players": 4151,
+        "speed": "turbo",
+        "start_date": "2015/08/08 15:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ovechkin02",
+            "init_stack": 3205.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "cartalias",
+            "init_stack": 2965.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "rahpaelh",
+            "init_stack": 2950.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Makkani",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Fish73000",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "berneeeex",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Morinzip",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Mylene64",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "rahpaelh",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Makkani",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Fish73000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "berneeeex",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "Morinzip",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Mylene64",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "ovechkin02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cartalias",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rahpaelh",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Makkani",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "rahpaelh",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "berneeeex",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "Mylene64",
+                "action": "raises",
+                "amount": 100.0
+            },
+            {
+                "player": "rahpaelh",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "berneeeex",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "rahpaelh",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "Mylene64",
+                "action": "raises",
+                "amount": 260.0
+            },
+            {
+                "player": "rahpaelh",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6d",
+        "flop_card_2": "3c",
+        "flop_card_3": "4d"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Mylene64": {
+            "amount": 820.0,
+            "pot_type": "pot"
+        }
+    }
+}

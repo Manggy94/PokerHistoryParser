@@ -1,0 +1,215 @@
+{
+    "hand_id": "572525355374477330-10-1445510175",
+    "datetime": "22-10-2015 10:36:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "FAST FOOD",
+        "tournament_id": "133301447",
+        "table_number": "017",
+        "prize_pool": 904.5,
+        "registered_players": 201,
+        "speed": "turbo",
+        "start_date": "2015/10/22 10:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "UthinkIMgod",
+            "init_stack": 9240.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "AAGregusAA",
+            "init_stack": 9735.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "AmericanA93",
+            "init_stack": 9965.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 9465.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "camclem",
+            "init_stack": 9140.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Le_COqUeTieR",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Torchedefeu",
+            "init_stack": 23645.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "JAAMS34",
+            "init_stack": 9390.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jh",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "camclem",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "UthinkIMgod",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AAGregusAA",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AmericanA93",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Le_COqUeTieR",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Torchedefeu",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JAAMS34",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "camclem",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Le_COqUeTieR",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Torchedefeu",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JAAMS34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "UthinkIMgod",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AAGregusAA",
+                "action": "raises",
+                "amount": 1000.0
+            },
+            {
+                "player": "AmericanA93",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 7925.0
+            },
+            {
+                "player": "camclem",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AAGregusAA",
+                "action": "calls",
+                "amount": 7925.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "Jc",
+        "flop_card_3": "2c"
+    },
+    "turn": {
+        "turn_card": "Qd"
+    },
+    "river": {
+        "river_card": "5s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Jh",
+            "second_card": "Ks"
+        },
+        "AAGregusAA": {
+            "first_card": "Ah",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "AAGregusAA": {
+            "amount": 19670.0,
+            "pot_type": "pot"
+        }
+    }
+}

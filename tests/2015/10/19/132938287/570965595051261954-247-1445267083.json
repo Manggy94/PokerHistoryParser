@@ -1,0 +1,182 @@
+{
+    "hand_id": "570965595051261954-247-1445267083",
+    "datetime": "19-10-2015 15:04:43",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 22,
+        "ante": 2000.0,
+        "sb": 8000.0,
+        "bb": 16000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132938287",
+        "table_number": "001",
+        "prize_pool": 1757.0,
+        "registered_players": 502,
+        "speed": "semiturbo",
+        "start_date": "2015/10/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "montiti42",
+            "init_stack": 166738.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "CHRISFAB34",
+            "init_stack": 582426.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "chipal",
+            "init_stack": 349976.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kwad9seya",
+            "init_stack": 57880.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ReddinG",
+            "init_stack": 479204.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 60708.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Td",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "ReddinG",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "montiti42",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CHRISFAB34",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chipal",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kwad9seya",
+            "amount": 2000.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ReddinG",
+            "amount": 8000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 16000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "montiti42",
+                "action": "raises",
+                "amount": 148738.0
+            },
+            {
+                "player": "CHRISFAB34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chipal",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kwad9seya",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ReddinG",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 42708.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jd",
+        "flop_card_2": "Jc",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "Qh"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Td",
+            "second_card": "Kh"
+        },
+        "montiti42": {
+            "first_card": "7h",
+            "second_card": "7s"
+        }
+    },
+    "winners": {
+        "montiti42": {
+            "amount": 106030.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 137416.0,
+            "pot_type": "main pot"
+        }
+    }
+}

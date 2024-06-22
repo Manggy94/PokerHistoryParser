@@ -1,0 +1,169 @@
+{
+    "hand_id": "570965595051261968-128-1445261295",
+    "datetime": "19-10-2015 13:28:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 11,
+        "ante": 150.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132938287",
+        "table_number": "015",
+        "prize_pool": 1757.0,
+        "registered_players": 502,
+        "speed": "semiturbo",
+        "start_date": "2015/10/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ABDULBACH",
+            "init_stack": 15768.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 96520.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "LikeHoney",
+            "init_stack": 69123.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Admc",
+            "init_stack": 103298.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "kishok",
+            "init_stack": 43780.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gahara35",
+            "init_stack": 60333.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7c",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "LikeHoney",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Admc",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ABDULBACH",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kishok",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gahara35",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LikeHoney",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Admc",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "kishok",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gahara35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ABDULBACH",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 3900.0
+            },
+            {
+                "player": "LikeHoney",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Admc",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 7800.0,
+            "pot_type": "pot"
+        }
+    }
+}

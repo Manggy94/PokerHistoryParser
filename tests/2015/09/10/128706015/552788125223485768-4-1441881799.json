@@ -1,0 +1,191 @@
+{
+    "hand_id": "552788125223485768-4-1441881799",
+    "datetime": "10-09-2015 10:43:19",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706015",
+        "table_number": "327",
+        "prize_pool": 100.0,
+        "registered_players": 4250,
+        "speed": "turbo",
+        "start_date": "2015/09/10 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 3180.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "jonathan7719",
+            "init_stack": 3080.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "HeiseenberG",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ratquipue",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "sanchosaaaa",
+            "init_stack": 2850.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lensois2893",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "SPOUT93270",
+            "init_stack": 3070.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "tche56150",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "gregou009",
+            "init_stack": 3010.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "lensois2893",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "SPOUT93270",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "tche56150",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gregou009",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "jonathan7719",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "HeiseenberG",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ratquipue",
+                "action": "calls",
+                "amount": 280.0
+            },
+            {
+                "player": "sanchosaaaa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lensois2893",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "SPOUT93270",
+                "action": "raises",
+                "amount": 2790.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2790.0
+            },
+            {
+                "player": "ratquipue",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5h",
+        "flop_card_2": "Qs",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": "9h"
+    },
+    "showdown": {
+        "SPOUT93270": {
+            "first_card": "8h",
+            "second_card": "3h"
+        },
+        "manggy94": {
+            "first_card": "Ks",
+            "second_card": "6s"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 6460.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,235 @@
+{
+    "hand_id": "563848804177018951-83-1443879522",
+    "datetime": "03-10-2015 13:38:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 12,
+        "ante": 180.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131281280",
+        "table_number": "070",
+        "prize_pool": 1883.0,
+        "registered_players": 538,
+        "speed": "semiturbo",
+        "start_date": "2015/10/03 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "JUL.M",
+            "init_stack": 38925.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "gdm3807",
+            "init_stack": 216643.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 41100.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "guyrogersI",
+            "init_stack": 33770.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ToniL78",
+            "init_stack": 15592.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "TCBpat",
+            "init_stack": 196430.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ah",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "ToniL78",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TCBpat",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JUL.M",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gdm3807",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "guyrogersI",
+            "amount": 180.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ToniL78",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "TCBpat",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "JUL.M",
+                "action": "raises",
+                "amount": 3200.0
+            },
+            {
+                "player": "gdm3807",
+                "action": "calls",
+                "amount": 4800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "guyrogersI",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ToniL78",
+                "action": "raises",
+                "amount": 10612.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JUL.M",
+                "action": "calls",
+                "amount": 10612.0
+            },
+            {
+                "player": "gdm3807",
+                "action": "calls",
+                "amount": 10612.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "JUL.M",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "gdm3807",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "JUL.M",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "gdm3807",
+                "action": "bets",
+                "amount": 1600.0
+            },
+            {
+                "player": "JUL.M",
+                "action": "calls",
+                "amount": 1600.0
+            }
+        ],
+        "river": [
+            {
+                "player": "JUL.M",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "gdm3807",
+                "action": "bets",
+                "amount": 34744.0
+            },
+            {
+                "player": "JUL.M",
+                "action": "calls",
+                "amount": 21733.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4c",
+        "flop_card_2": "6d",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": "Ad"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "JUL.M": {
+            "first_card": "As",
+            "second_card": "Tc"
+        },
+        "ToniL78": {
+            "first_card": "7c",
+            "second_card": "7h"
+        },
+        "gdm3807": {
+            "first_card": "Kd",
+            "second_card": "7d"
+        }
+    },
+    "winners": {
+        "gdm3807": {
+            "amount": 108593.0,
+            "pot_type": "pot"
+        }
+    }
+}

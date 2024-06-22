@@ -1,0 +1,166 @@
+{
+    "hand_id": "605818271110791172-14-1451483556",
+    "datetime": "30-12-2015 13:52:36",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.9,
+        "bounty": 0.0,
+        "rake": 0.1
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 71.1,
+        "registered_players": 79,
+        "speed": "semiturbo",
+        "start_date": "2015/12/30 13:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jackas56",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "rudylan59",
+            "init_stack": 18375.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tonyfranklin",
+            "init_stack": 10550.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "MOSVA",
+            "init_stack": 9475.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gambarote",
+            "init_stack": 10100.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 10375.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "philau22",
+            "init_stack": 15400.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qc",
+        "second_card": "Ad"
+    },
+    "postings": [
+        {
+            "name": "MOSVA",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gambarote",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "philau22",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jackas56",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rudylan59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tonyfranklin",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MOSVA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gambarote",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "gambarote",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "gambarote",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "2s",
+        "flop_card_3": "2c"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 1000.0,
+            "pot_type": "pot"
+        }
+    }
+}

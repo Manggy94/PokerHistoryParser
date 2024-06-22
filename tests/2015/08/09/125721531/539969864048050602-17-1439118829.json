@@ -1,0 +1,258 @@
+{
+    "hand_id": "539969864048050602-17-1439118829",
+    "datetime": "09-08-2015 11:13:49",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "425",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "didd1er",
+            "init_stack": 1475.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 2603.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nico-82",
+            "init_stack": 11690.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "zougataga08",
+            "init_stack": 10330.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "NeRVouze68",
+            "init_stack": 235.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "le-loup",
+            "init_stack": 6365.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "WINATYA",
+            "init_stack": 2335.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "gratorino",
+            "init_stack": 7150.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sylv419",
+            "init_stack": 8710.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "NeRVouze68",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "le-loup",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "didd1er",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nico-82",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zougataga08",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "WINATYA",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gratorino",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sylv419",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NeRVouze68",
+            "amount": 185.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "le-loup",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "WINATYA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gratorino",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sylv419",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "didd1er",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "zougataga08",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "le-loup",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "le-loup",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "le-loup",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "le-loup",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "Qh",
+        "flop_card_3": "Td"
+    },
+    "turn": {
+        "turn_card": "9d"
+    },
+    "river": {
+        "river_card": "Ac"
+    },
+    "showdown": {
+        "NeRVouze68": {
+            "first_card": "2h",
+            "second_card": "7h"
+        },
+        "le-loup": {
+            "first_card": "3d",
+            "second_card": "3c"
+        },
+        "Nico-82": {
+            "first_card": "5h",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "Nico-82": {
+            "amount": 1635.0,
+            "pot_type": "pot"
+        }
+    }
+}

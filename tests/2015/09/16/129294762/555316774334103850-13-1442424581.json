@@ -1,0 +1,176 @@
+{
+    "hand_id": "555316774334103850-13-1442424581",
+    "datetime": "16-09-2015 17:29:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "129294762",
+        "table_number": "297",
+        "prize_pool": 150.0,
+        "registered_players": 4072,
+        "speed": "turbo",
+        "start_date": "2015/09/16 17:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 1009.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "vivi83000",
+            "init_stack": 2490.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "titof77",
+            "init_stack": 13004.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "martell17",
+            "init_stack": 2855.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "coucoudk",
+            "init_stack": 2830.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "tofenoha",
+            "init_stack": 1355.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "vivi83000",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "titof77",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "martell17",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "coucoudk",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tofenoha",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 320.0
+            },
+            {
+                "player": "vivi83000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "titof77",
+                "action": "calls",
+                "amount": 320.0
+            },
+            {
+                "player": "tofenoha",
+                "action": "calls",
+                "amount": 320.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "titof77",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "tofenoha",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 489.0
+            },
+            {
+                "player": "titof77",
+                "action": "raises",
+                "amount": 489.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "As",
+        "flop_card_2": "2s",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "7s"
+    },
+    "showdown": {},
+    "winners": {
+        "titof77": {
+            "amount": 2987.0,
+            "pot_type": "pot"
+        }
+    }
+}

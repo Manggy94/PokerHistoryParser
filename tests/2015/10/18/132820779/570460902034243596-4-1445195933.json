@@ -1,0 +1,214 @@
+{
+    "hand_id": "570460902034243596-4-1445195933",
+    "datetime": "18-10-2015 19:18:53",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132820779",
+        "table_number": "011",
+        "prize_pool": 2516.5,
+        "registered_players": 719,
+        "speed": "semiturbo",
+        "start_date": "2015/10/18 19:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "rorop42",
+            "init_stack": 8328.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "OhSoFarAway",
+            "init_stack": 11640.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "hypocrisy90",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tipoye",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "TOM-AS11",
+            "init_stack": 8560.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "Ymvej",
+            "init_stack": 11947.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "loloetloll",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "truchemole",
+            "init_stack": 9950.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8h",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "Ymvej",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "loloetloll",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "truchemole",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rorop42",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "OhSoFarAway",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "hypocrisy90",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tipoye",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TOM-AS11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 125.0
+            },
+            {
+                "player": "Ymvej",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "loloetloll",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Ymvej",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Ymvej",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Ymvej",
+                "action": "bets",
+                "amount": 267.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 267.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4s",
+        "flop_card_2": "Ks",
+        "flop_card_3": "2c"
+    },
+    "turn": {
+        "turn_card": "8s"
+    },
+    "river": {
+        "river_card": "As"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "8h",
+            "second_card": "7d"
+        },
+        "Ymvej": {
+            "first_card": "Ad",
+            "second_card": "Qc"
+        }
+    },
+    "winners": {
+        "Ymvej": {
+            "amount": 934.0,
+            "pot_type": "pot"
+        }
+    }
+}

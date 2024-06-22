@@ -1,0 +1,169 @@
+{
+    "hand_id": "539281767337558129-76-1438951535",
+    "datetime": "07-08-2015 12:45:35",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561321",
+        "table_number": "112",
+        "prize_pool": 100.0,
+        "registered_players": 3950,
+        "speed": "turbo",
+        "start_date": "2015/08/07 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Tocitsa",
+            "init_stack": 23062.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 5485.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Coco62530",
+            "init_stack": 24591.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "gogo_76",
+            "init_stack": 1786.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "glisse",
+            "init_stack": 12713.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jonhfour777",
+            "init_stack": 45837.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "3h"
+    },
+    "postings": [
+        {
+            "name": "Tocitsa",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Coco62530",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gogo_76",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "glisse",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jonhfour777",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tocitsa",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Coco62530",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gogo_76",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "glisse",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jonhfour777",
+                "action": "raises",
+                "amount": 4000.0
+            },
+            {
+                "player": "Tocitsa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "jonhfour777": {
+            "amount": 7100.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,269 @@
+{
+    "hand_id": "540379475079070044-36-1439216487",
+    "datetime": "10-08-2015 14:21:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816901",
+        "table_number": "347",
+        "prize_pool": 100.0,
+        "registered_players": 4083,
+        "speed": "turbo",
+        "start_date": "2015/08/10 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "frakil66",
+            "init_stack": 4395.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "scorpiokano",
+            "init_stack": 853.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "IBrere",
+            "init_stack": 4490.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "jmnpaco",
+            "init_stack": 48176.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "DarkSayan",
+            "init_stack": 8180.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "biniz60xx",
+            "init_stack": 16950.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 6235.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Minah38",
+            "init_stack": 20560.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "fredo844",
+            "init_stack": 18765.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "biniz60xx",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "frakil66",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "scorpiokano",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "IBrere",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jmnpaco",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DarkSayan",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Minah38",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fredo844",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "biniz60xx",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Minah38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fredo844",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "frakil66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "scorpiokano",
+                "action": "calls",
+                "amount": 753.0
+            },
+            {
+                "player": "IBrere",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jmnpaco",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "DarkSayan",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "biniz60xx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "jmnpaco",
+                "action": "bets",
+                "amount": 1000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1000.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "jmnpaco",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "jmnpaco",
+                "action": "bets",
+                "amount": 6153.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8h",
+        "flop_card_2": "As",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "6h"
+    },
+    "river": {
+        "river_card": "Js"
+    },
+    "showdown": {
+        "scorpiokano": {
+            "first_card": "7c",
+            "second_card": "Kc"
+        },
+        "jmnpaco": {
+            "first_card": "Ts",
+            "second_card": "Jh"
+        }
+    },
+    "winners": {
+        "jmnpaco": {
+            "amount": 12306.0,
+            "pot_type": "pot"
+        }
+    }
+}

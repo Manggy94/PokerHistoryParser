@@ -1,0 +1,229 @@
+{
+    "hand_id": "563848804177018951-102-1443881257",
+    "datetime": "03-10-2015 14:07:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 15,
+        "ante": 430.0,
+        "sb": 1500.0,
+        "bb": 3000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "131281280",
+        "table_number": "070",
+        "prize_pool": 1883.0,
+        "registered_players": 538,
+        "speed": "semiturbo",
+        "start_date": "2015/10/03 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "8LuckyRenzo8",
+            "init_stack": 39533.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "gdm3807",
+            "init_stack": 283450.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 34060.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "guyrogersI",
+            "init_stack": 112540.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "bella499",
+            "init_stack": 7092.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "TCBpat",
+            "init_stack": 140340.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "8LuckyRenzo8",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gdm3807",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "guyrogersI",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bella499",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TCBpat",
+            "amount": 430.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "8LuckyRenzo8",
+            "amount": 1500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gdm3807",
+            "amount": 3000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "guyrogersI",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bella499",
+                "action": "raises",
+                "amount": 3662.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "calls",
+                "amount": 6662.0
+            },
+            {
+                "player": "8LuckyRenzo8",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gdm3807",
+                "action": "calls",
+                "amount": 3662.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "gdm3807",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "bets",
+                "amount": 3000.0
+            },
+            {
+                "player": "gdm3807",
+                "action": "calls",
+                "amount": 3000.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "gdm3807",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "bets",
+                "amount": 3000.0
+            },
+            {
+                "player": "gdm3807",
+                "action": "calls",
+                "amount": 3000.0
+            }
+        ],
+        "river": [
+            {
+                "player": "gdm3807",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TCBpat",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "6c",
+        "flop_card_3": "7h"
+    },
+    "turn": {
+        "turn_card": "7s"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "gdm3807": {
+            "first_card": "5s",
+            "second_card": "6d"
+        },
+        "bella499": {
+            "first_card": "As",
+            "second_card": "Qh"
+        },
+        "TCBpat": {
+            "first_card": "Qc",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "TCBpat": {
+            "amount": 12000.0,
+            "pot_type": "side pot 1"
+        },
+        "bella499": {
+            "amount": 24066.0,
+            "pot_type": "main pot"
+        }
+    }
+}

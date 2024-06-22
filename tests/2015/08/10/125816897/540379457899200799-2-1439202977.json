@@ -1,0 +1,168 @@
+{
+    "hand_id": "540379457899200799-2-1439202977",
+    "datetime": "10-08-2015 10:36:17",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816897",
+        "table_number": "286",
+        "prize_pool": 100.0,
+        "registered_players": 3005,
+        "speed": "turbo",
+        "start_date": "2015/08/10 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2780.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Herve50300",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "MagicDoooph",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "jalien52",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "elisabeth60",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Zuly13110",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "diablerouge3",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Lyam29",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "STAFFO59",
+            "init_stack": 3570.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "Zuly13110",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "diablerouge3",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Lyam29",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "STAFFO59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Zuly13110",
+                "action": "calls",
+                "amount": 15.0
+            },
+            {
+                "player": "diablerouge3",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Zuly13110",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Lyam29",
+                "action": "bets",
+                "amount": 60.0
+            },
+            {
+                "player": "Zuly13110",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8d",
+        "flop_card_2": "Jc",
+        "flop_card_3": "Ad"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Lyam29": {
+            "amount": 150.0,
+            "pot_type": "pot"
+        }
+    }
+}

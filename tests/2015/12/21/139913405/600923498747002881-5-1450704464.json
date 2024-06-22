@@ -1,0 +1,122 @@
+{
+    "hand_id": "600923498747002881-5-1450704464",
+    "datetime": "21-12-2015 13:27:44",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.7,
+        "bounty": 0.0,
+        "rake": 0.3
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 50.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/12/21 13:25:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "__4ap4__",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fxdebeuz",
+            "init_stack": 680.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Naturalee",
+            "init_stack": 420.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 340.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ts",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "fxdebeuz",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Naturalee",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "fxdebeuz",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "Naturalee",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fxdebeuz",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Naturalee": {
+            "amount": 460.0,
+            "pot_type": "pot"
+        }
+    }
+}

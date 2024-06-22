@@ -1,0 +1,198 @@
+{
+    "hand_id": "545829122857763348-21-1440441124",
+    "datetime": "24-08-2015 18:32:04",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085746",
+        "table_number": "0531",
+        "prize_pool": 150.0,
+        "registered_players": 8729,
+        "speed": "turbo",
+        "start_date": "2015/08/24 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Lauro",
+            "init_stack": 2710.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tucsy57",
+            "init_stack": 4130.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "virus35",
+            "init_stack": 2890.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kwiqq",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "geronimo2003",
+            "init_stack": 3553.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 6240.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "nache29",
+            "init_stack": 3100.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "caroline1235",
+            "init_stack": 3810.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "jcbot31280",
+            "init_stack": 2900.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "caroline1235",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "jcbot31280",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Lauro",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "tucsy57",
+                "action": "calls",
+                "amount": 240.0
+            },
+            {
+                "player": "virus35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kwiqq",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "geronimo2003",
+                "action": "calls",
+                "amount": 240.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nache29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "caroline1235",
+                "action": "calls",
+                "amount": 180.0
+            },
+            {
+                "player": "jcbot31280",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "caroline1235",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Lauro",
+                "action": "bets",
+                "amount": 2470.0
+            },
+            {
+                "player": "tucsy57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "geronimo2003",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "caroline1235",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "6h",
+        "flop_card_3": "7h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Lauro": {
+            "amount": 3550.0,
+            "pot_type": "pot"
+        }
+    }
+}

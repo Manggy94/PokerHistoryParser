@@ -1,0 +1,213 @@
+{
+    "hand_id": "600923842344386570-22-1450708598",
+    "datetime": "21-12-2015 14:36:38",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "139913485",
+        "table_number": "009",
+        "prize_pool": 1543.5,
+        "registered_players": 343,
+        "speed": "semiturbo",
+        "start_date": "2015/12/21 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "resmije",
+            "init_stack": 8538.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tipokpok",
+            "init_stack": 8781.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Supras_",
+            "init_stack": 11500.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ShArKcHiPs",
+            "init_stack": 31579.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "allstaars",
+            "init_stack": 15216.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "PS3u6D09Nlm3",
+            "init_stack": 11600.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 6256.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ROBINSON 14",
+            "init_stack": 6530.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5c",
+        "second_card": "9h"
+    },
+    "postings": [
+        {
+            "name": "allstaars",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PS3u6D09Nlm3",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ROBINSON 14",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "resmije",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "tipokpok",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Supras_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ShArKcHiPs",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "allstaars",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "PS3u6D09Nlm3",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "resmije",
+                "action": "calls",
+                "amount": 400.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "allstaars",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "resmije",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "allstaars",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "resmije",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "allstaars",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "resmije",
+                "action": "bets",
+                "amount": 1600.0
+            },
+            {
+                "player": "allstaars",
+                "action": "calls",
+                "amount": 1600.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ts",
+        "flop_card_2": "Qc",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "6h"
+    },
+    "river": {
+        "river_card": "4s"
+    },
+    "showdown": {
+        "resmije": {
+            "first_card": "4d",
+            "second_card": "Ad"
+        },
+        "allstaars": {
+            "first_card": "6s",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "allstaars": {
+            "amount": 4600.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,194 @@
+{
+    "hand_id": "596948978960957504-22-1450019288",
+    "datetime": "13-12-2015 15:08:08",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138988015",
+        "table_number": "063",
+        "prize_pool": 3672.0,
+        "registered_players": 816,
+        "speed": "semiturbo",
+        "start_date": "2015/12/13 14:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "GaetCath62",
+            "init_stack": 56400.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "bazinga_guys",
+            "init_stack": 7002.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 14630.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "iloseanyway",
+            "init_stack": 32338.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ShoveAllin",
+            "init_stack": 10430.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "zizou4FR",
+            "init_stack": 9343.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "BOBBYMONSTER",
+            "init_stack": 29072.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "zizou4FR",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "BOBBYMONSTER",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "GaetCath62",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bazinga_guys",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "iloseanyway",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ShoveAllin",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zizou4FR",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "BOBBYMONSTER",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "GaetCath62",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bazinga_guys",
+                "action": "raises",
+                "amount": 6342.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "iloseanyway",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ShoveAllin",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zizou4FR",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BOBBYMONSTER",
+                "action": "calls",
+                "amount": 6342.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "8c",
+        "flop_card_3": "2h"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": "Qs"
+    },
+    "showdown": {
+        "bazinga_guys": {
+            "first_card": "As",
+            "second_card": "Th"
+        },
+        "BOBBYMONSTER": {
+            "first_card": "Ac",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "BOBBYMONSTER": {
+            "amount": 14604.0,
+            "pot_type": "pot"
+        }
+    }
+}

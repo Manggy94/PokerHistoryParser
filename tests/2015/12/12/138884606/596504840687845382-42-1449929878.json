@@ -1,0 +1,124 @@
+{
+    "hand_id": "596504840687845382-42-1449929878",
+    "datetime": "12-12-2015 14:17:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.7,
+        "bounty": 0.0,
+        "rake": 0.3
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "D\u00e9glingos",
+        "tournament_id": "138884606",
+        "table_number": "005",
+        "prize_pool": 342.9,
+        "registered_players": 127,
+        "speed": "turbo",
+        "start_date": "2015/12/12 14:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "madtilt"
+    },
+    "max_players": 3,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "pokerviet33",
+            "init_stack": 1620.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "motuNono",
+            "init_stack": 880.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kd",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "pokerviet33",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "motuNono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pokerviet33",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 260.0
+            },
+            {
+                "player": "pokerviet33",
+                "action": "raises",
+                "amount": 260.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2h",
+        "flop_card_2": "Kh",
+        "flop_card_3": "Ac"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "4c"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Kd",
+            "second_card": "Ks"
+        },
+        "pokerviet33": {
+            "first_card": "Qd",
+            "second_card": "3h"
+        }
+    },
+    "winners": {
+        "pokerviet33": {
+            "amount": 260.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 1000.0,
+            "pot_type": "main pot"
+        }
+    }
+}

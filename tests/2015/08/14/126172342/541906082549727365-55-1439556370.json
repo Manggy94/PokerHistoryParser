@@ -1,0 +1,180 @@
+{
+    "hand_id": "541906082549727365-55-1439556370",
+    "datetime": "14-08-2015 12:46:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "132",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Labale",
+            "init_stack": 36367.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "anto8391",
+            "init_stack": 6235.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Nicolito11",
+            "init_stack": 8105.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "sandymillion",
+            "init_stack": 5980.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "frater13015x",
+            "init_stack": 26164.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 6901.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "3h"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Labale",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "anto8391",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Nicolito11",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sandymillion",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "frater13015x",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Labale",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "anto8391",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nicolito11",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sandymillion",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Labale",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Labale",
+                "action": "bets",
+                "amount": 3100.0
+            },
+            {
+                "player": "frater13015x",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "8d",
+        "flop_card_3": "5s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Labale": {
+            "amount": 6200.0,
+            "pot_type": "pot"
+        }
+    }
+}

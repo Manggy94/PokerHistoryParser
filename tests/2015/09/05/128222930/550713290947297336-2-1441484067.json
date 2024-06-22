@@ -1,0 +1,159 @@
+{
+    "hand_id": "550713290947297336-2-1441484067",
+    "datetime": "05-09-2015 20:14:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.22,
+        "bounty": 0.0,
+        "rake": 0.03
+    },
+    "level": {
+        "value": 6,
+        "ante": 0.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "128222930",
+        "table_number": "055",
+        "prize_pool": 71.5,
+        "registered_players": 325,
+        "speed": "semiturbo",
+        "start_date": "2015/09/05 19:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "supapoker",
+            "init_stack": 9500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "CHAMBIZ34510",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Quinter1313",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Blue Daemon",
+            "init_stack": 10500.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "supapoker",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "CHAMBIZ34510",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1250.0
+            },
+            {
+                "player": "Quinter1313",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Blue Daemon",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "supapoker",
+                "action": "calls",
+                "amount": 1500.0
+            },
+            {
+                "player": "CHAMBIZ34510",
+                "action": "raises",
+                "amount": 5250.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 5250.0
+            },
+            {
+                "player": "supapoker",
+                "action": "raises",
+                "amount": 2500.0
+            },
+            {
+                "player": "CHAMBIZ34510",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2500.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "CHAMBIZ34510",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2s",
+        "flop_card_2": "6d",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "Qd"
+    },
+    "river": {
+        "river_card": "8d"
+    },
+    "showdown": {},
+    "winners": {
+        "CHAMBIZ34510": {
+            "amount": 29500.0,
+            "pot_type": "pot"
+        }
+    }
+}

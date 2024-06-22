@@ -1,0 +1,221 @@
+{
+    "hand_id": "556258518928195586-58-1442588485",
+    "datetime": "18-09-2015 15:01:25",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.45,
+        "bounty": 0.0,
+        "rake": 0.05
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "129514029",
+        "table_number": "001",
+        "prize_pool": 125.55,
+        "registered_players": 279,
+        "speed": "semiturbo",
+        "start_date": "2015/09/18 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 8450.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "-Curtis-",
+            "init_stack": 10261.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Niko75014",
+            "init_stack": 13961.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "pat13666",
+            "init_stack": 29525.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "CHRISVANES76",
+            "init_stack": 41232.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "xX.Celine.Xx",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3d",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-Curtis-",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Niko75014",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "pat13666",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CHRISVANES76",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "-Curtis-",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Niko75014",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pat13666",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "CHRISVANES76",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "-Curtis-",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "-Curtis-",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "pat13666",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "-Curtis-",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "pat13666",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "-Curtis-",
+                "action": "bets",
+                "amount": 1400.0
+            },
+            {
+                "player": "pat13666",
+                "action": "calls",
+                "amount": 1400.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "Th",
+        "flop_card_3": "5d"
+    },
+    "turn": {
+        "turn_card": "9c"
+    },
+    "river": {
+        "river_card": "4s"
+    },
+    "showdown": {
+        "pat13666": {
+            "first_card": "Kh",
+            "second_card": "5h"
+        },
+        "-Curtis-": {
+            "first_card": "Jh",
+            "second_card": "Td"
+        }
+    },
+    "winners": {
+        "-Curtis-": {
+            "amount": 7150.0,
+            "pot_type": "pot"
+        }
+    }
+}

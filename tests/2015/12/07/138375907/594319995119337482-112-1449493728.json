@@ -1,0 +1,194 @@
+{
+    "hand_id": "594319995119337482-112-1449493728",
+    "datetime": "07-12-2015 13:08:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 29,
+        "ante": 2500.0,
+        "sb": 12500.0,
+        "bb": 25000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "138375907",
+        "table_number": "009",
+        "prize_pool": 100.0,
+        "registered_players": 4691,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "merguez49",
+            "init_stack": 281242.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 89008.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "WuForever",
+            "init_stack": 245383.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "sativa&Cie",
+            "init_stack": 50010.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "AirAmerikA",
+            "init_stack": 292813.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "toninosniper",
+            "init_stack": 170676.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "critinuma",
+            "init_stack": 83910.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3s",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "merguez49",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "WuForever",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sativa&Cie",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AirAmerikA",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "toninosniper",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "critinuma",
+            "amount": 2500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "merguez49",
+            "amount": 12500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "WuForever",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sativa&Cie",
+                "action": "raises",
+                "amount": 22510.0
+            },
+            {
+                "player": "AirAmerikA",
+                "action": "calls",
+                "amount": 47510.0
+            },
+            {
+                "player": "toninosniper",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "critinuma",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "merguez49",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2h",
+        "flop_card_2": "As",
+        "flop_card_3": "Ks"
+    },
+    "turn": {
+        "turn_card": "8s"
+    },
+    "river": {
+        "river_card": "Ad"
+    },
+    "showdown": {
+        "sativa&Cie": {
+            "first_card": "Qc",
+            "second_card": "Qs"
+        },
+        "AirAmerikA": {
+            "first_card": "8d",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "AirAmerikA": {
+            "amount": 150020.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "hand_id": "539281771632525331-18-1438956424",
+    "datetime": "07-08-2015 14:07:04",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "018",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 6835.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "NAS11.43",
+            "init_stack": 900.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "philblues",
+            "init_stack": 8565.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Corced62",
+            "init_stack": 4264.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Yanismix",
+            "init_stack": 2385.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "kevinmessi02",
+            "init_stack": 2330.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "ChaMr-ixe",
+            "init_stack": 2205.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "THESEE",
+            "init_stack": 32760.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "den222",
+            "init_stack": 1945.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "Qd"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NAS11.43",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "philblues",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Corced62",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Yanismix",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kevinmessi02",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ChaMr-ixe",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "THESEE",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "NAS11.43",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "philblues",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Corced62",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yanismix",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kevinmessi02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ChaMr-ixe",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "THESEE",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "NAS11.43",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 880.0
+            },
+            {
+                "player": "NAS11.43",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kd",
+        "flop_card_2": "8s",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 1760.0,
+            "pot_type": "pot"
+        }
+    }
+}

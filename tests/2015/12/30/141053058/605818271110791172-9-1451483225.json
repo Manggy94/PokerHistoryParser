@@ -1,0 +1,208 @@
+{
+    "hand_id": "605818271110791172-9-1451483225",
+    "datetime": "30-12-2015 13:47:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.9,
+        "bounty": 0.0,
+        "rake": 0.1
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 71.1,
+        "registered_players": 79,
+        "speed": "semiturbo",
+        "start_date": "2015/12/30 13:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jackas56",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "champion000",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "rudylan59",
+            "init_stack": 10725.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "neutrinos1.0",
+            "init_stack": 5750.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "MOSVA",
+            "init_stack": 9675.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gambarote",
+            "init_stack": 10100.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 14575.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "philau22",
+            "init_stack": 17300.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9d",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "gambarote",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "philau22",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jackas56",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "champion000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rudylan59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "neutrinos1.0",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MOSVA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gambarote",
+                "action": "calls",
+                "amount": 75.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "gambarote",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "gambarote",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "gambarote",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "gambarote",
+                "action": "bets",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 150.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8s",
+        "flop_card_2": "Js",
+        "flop_card_3": "7d"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": "Qs"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "9d",
+            "second_card": "Ah"
+        },
+        "gambarote": {
+            "first_card": "Td",
+            "second_card": "7c"
+        }
+    },
+    "winners": {
+        "gambarote": {
+            "amount": 1200.0,
+            "pot_type": "pot"
+        }
+    }
+}

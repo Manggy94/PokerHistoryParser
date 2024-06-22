@@ -1,0 +1,156 @@
+{
+    "hand_id": "594320888472535067-20-1449499310",
+    "datetime": "07-12-2015 14:41:50",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138376115",
+        "table_number": "026",
+        "prize_pool": 1957.5,
+        "registered_players": 435,
+        "speed": "semiturbo",
+        "start_date": "2015/12/07 14:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "hona19",
+            "init_stack": 17150.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "milimac",
+            "init_stack": 18500.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "fouuuuu57",
+            "init_stack": 19300.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Glatrick",
+            "init_stack": 13950.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CrazyFred02",
+            "init_stack": 9300.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "koppiscine29",
+            "init_stack": 8800.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Djaystyle",
+            "init_stack": 3525.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "Js"
+    },
+    "postings": [
+        {
+            "name": "milimac",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "fouuuuu57",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Glatrick",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CrazyFred02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "koppiscine29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Djaystyle",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "hona19",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "milimac",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "fouuuuu57": {
+            "amount": 450.0,
+            "pot_type": "pot"
+        }
+    }
+}

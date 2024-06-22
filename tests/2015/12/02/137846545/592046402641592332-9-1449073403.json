@@ -1,0 +1,185 @@
+{
+    "hand_id": "592046402641592332-9-1449073403",
+    "datetime": "02-12-2015 16:23:23",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "137846545",
+        "table_number": "011",
+        "prize_pool": 1701.0,
+        "registered_players": 378,
+        "speed": "turbo",
+        "start_date": "2015/12/02 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "JeremyVts",
+            "init_stack": 11675.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tresores026",
+            "init_stack": 9550.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Asse74x",
+            "init_stack": 6033.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "xaneta7",
+            "init_stack": 9775.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "pOte-pOte",
+            "init_stack": 9775.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lapuce59999",
+            "init_stack": 10333.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 8075.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "NeverRest",
+            "init_stack": 14784.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qh",
+        "second_card": "Kh"
+    },
+    "postings": [
+        {
+            "name": "lapuce59999",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "NeverRest",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JeremyVts",
+                "action": "raises",
+                "amount": 150.0
+            },
+            {
+                "player": "tresores026",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Asse74x",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "xaneta7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pOte-pOte",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lapuce59999",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 975.0
+            },
+            {
+                "player": "JeremyVts",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Asse74x",
+                "action": "raises",
+                "amount": 4758.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 4758.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "8c",
+        "flop_card_2": "9c",
+        "flop_card_3": "7d"
+    },
+    "turn": {
+        "turn_card": "5d"
+    },
+    "river": {
+        "river_card": "7h"
+    },
+    "showdown": {
+        "Asse74x": {
+            "first_card": "Ks",
+            "second_card": "4s"
+        },
+        "manggy94": {
+            "first_card": "Qh",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 12441.0,
+            "pot_type": "pot"
+        }
+    }
+}

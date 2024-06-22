@@ -1,0 +1,155 @@
+{
+    "hand_id": "546663055182791035-7-1440590980",
+    "datetime": "26-08-2015 12:09:40",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279911",
+        "table_number": "378",
+        "prize_pool": 100.0,
+        "registered_players": 3953,
+        "speed": "turbo",
+        "start_date": "2015/08/26 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Cenith X",
+            "init_stack": 2360.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Bibi3134",
+            "init_stack": 7035.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Oldentexas",
+            "init_stack": 5505.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "chipour",
+            "init_stack": 2470.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 2300.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "mondeo 68",
+            "init_stack": 2900.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2s",
+        "second_card": "Jh"
+    },
+    "postings": [
+        {
+            "name": "Bibi3134",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Oldentexas",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "chipour",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mondeo 68",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Cenith X",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "Bibi3134",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Oldentexas",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chipour",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "chipour",
+                "action": "bets",
+                "amount": 2290.0
+            },
+            {
+                "player": "Cenith X",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5c",
+        "flop_card_2": "Th",
+        "flop_card_3": "9c"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "chipour": {
+            "amount": 2740.0,
+            "pot_type": "pot"
+        }
+    }
+}

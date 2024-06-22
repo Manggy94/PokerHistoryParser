@@ -1,0 +1,230 @@
+{
+    "hand_id": "2595178390256353552-189-1672697183",
+    "datetime": "02-01-2023 22:06:23",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 9.0,
+        "bounty": 0.0,
+        "rake": 1.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "W SERIES MASTER",
+        "tournament_id": "604237055",
+        "table_number": "0271",
+        "prize_pool": null,
+        "registered_players": null,
+        "speed": null,
+        "start_date": null,
+        "levels_structure": [],
+        "tournament_type": null
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 65615.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Fafa13OM84",
+            "init_stack": 21075.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "J--M",
+            "init_stack": 34135.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Allan-Q-Laid",
+            "init_stack": 32598.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Mathieu392",
+            "init_stack": 15089.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CassisFruite",
+            "init_stack": 92163.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "Ts"
+    },
+    "postings": [
+        {
+            "name": "Allan-Q-Laid",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Mathieu392",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fafa13OM84",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "J--M",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Allan-Q-Laid",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Mathieu392",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "CassisFruite",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 360.0
+            },
+            {
+                "player": "Fafa13OM84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "J--M",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Allan-Q-Laid",
+                "action": "calls",
+                "amount": 510.0
+            },
+            {
+                "player": "Mathieu392",
+                "action": "calls",
+                "amount": 360.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Allan-Q-Laid",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mathieu392",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Allan-Q-Laid",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mathieu392",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Allan-Q-Laid",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mathieu392",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7h",
+        "flop_card_2": "4d",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "4c"
+    },
+    "river": {
+        "river_card": "8d"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Js",
+            "second_card": "Ts"
+        },
+        "Mathieu392": {
+            "first_card": "5d",
+            "second_card": "Jd"
+        },
+        "Allan-Q-Laid": {
+            "first_card": "Td",
+            "second_card": "Qd"
+        }
+    },
+    "winners": {
+        "Allan-Q-Laid": {
+            "amount": 2190.0,
+            "pot_type": "pot"
+        }
+    }
+}

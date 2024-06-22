@@ -1,0 +1,188 @@
+{
+    "hand_id": "2595178390256353552-295-1672702092",
+    "datetime": "02-01-2023 23:28:12",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 9.0,
+        "bounty": 0.0,
+        "rake": 1.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 80.0,
+        "sb": 350.0,
+        "bb": 700.0
+    },
+    "tournament_info": {
+        "tournament_name": "W SERIES MASTER",
+        "tournament_id": "604237055",
+        "table_number": "0271",
+        "prize_pool": null,
+        "registered_players": null,
+        "speed": null,
+        "start_date": null,
+        "levels_structure": [],
+        "tournament_type": null
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 73794.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Fashionkilla",
+            "init_stack": 26383.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "GelAAtouuu",
+            "init_stack": 45050.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Yazid Zidane",
+            "init_stack": 113548.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Mathieu392",
+            "init_stack": 7852.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CassisFruite",
+            "init_stack": 91793.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "Mathieu392",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fashionkilla",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "GelAAtouuu",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Yazid Zidane",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Mathieu392",
+            "amount": 350.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 700.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fashionkilla",
+                "action": "raises",
+                "amount": 700.0
+            },
+            {
+                "player": "GelAAtouuu",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yazid Zidane",
+                "action": "calls",
+                "amount": 1400.0
+            },
+            {
+                "player": "Mathieu392",
+                "action": "raises",
+                "amount": 6372.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Fashionkilla",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Yazid Zidane",
+                "action": "calls",
+                "amount": 6372.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jh",
+        "flop_card_2": "9c",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": "Tc"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "Mathieu392": {
+            "first_card": "7d",
+            "second_card": "Ah"
+        },
+        "Yazid Zidane": {
+            "first_card": "5c",
+            "second_card": "5s"
+        }
+    },
+    "winners": {
+        "Yazid Zidane": {
+            "amount": 18124.0,
+            "pot_type": "pot"
+        }
+    }
+}

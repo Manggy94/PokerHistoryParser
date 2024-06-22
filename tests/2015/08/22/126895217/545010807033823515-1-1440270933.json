@@ -1,0 +1,214 @@
+{
+    "hand_id": "545010807033823515-1-1440270933",
+    "datetime": "22-08-2015 19:15:33",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126895217",
+        "table_number": "0282",
+        "prize_pool": 250.0,
+        "registered_players": 6680,
+        "speed": "turbo",
+        "start_date": "2015/08/22 19:15:05 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "FANTAGARO69",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Kazeer",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "mickdundee1",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "YEDDOU",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "25manu69",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "dmk12",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "BaronK",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "philmax32",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "Ks"
+    },
+    "postings": [
+        {
+            "name": "dmk12",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "BaronK",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "philmax32",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "FANTAGARO69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kazeer",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mickdundee1",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "YEDDOU",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "25manu69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dmk12",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BaronK",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mickdundee1",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mickdundee1",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mickdundee1",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4s",
+        "flop_card_2": "Jh",
+        "flop_card_3": "3h"
+    },
+    "turn": {
+        "turn_card": "8d"
+    },
+    "river": {
+        "river_card": "6s"
+    },
+    "showdown": {
+        "mickdundee1": {
+            "first_card": "Qs",
+            "second_card": "2s"
+        },
+        "manggy94": {
+            "first_card": "6c",
+            "second_card": "Ks"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 70.0,
+            "pot_type": "pot"
+        }
+    }
+}

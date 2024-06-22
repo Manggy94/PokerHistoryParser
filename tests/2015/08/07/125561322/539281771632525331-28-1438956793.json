@@ -1,0 +1,304 @@
+{
+    "hand_id": "539281771632525331-28-1438956793",
+    "datetime": "07-08-2015 14:13:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "018",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 8910.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "trinita34",
+            "init_stack": 14230.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "philblues",
+            "init_stack": 9010.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Corced62",
+            "init_stack": 4794.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Matys47",
+            "init_stack": 1980.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "kevinmessi02",
+            "init_stack": 1300.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "ChaMr-ixe",
+            "init_stack": 1125.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "THESEE",
+            "init_stack": 30130.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "-marcel-38",
+            "init_stack": 296.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7d",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "trinita34",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "philblues",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Corced62",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Matys47",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kevinmessi02",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ChaMr-ixe",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "THESEE",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-marcel-38",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "trinita34",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "philblues",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Corced62",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Matys47",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kevinmessi02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ChaMr-ixe",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "THESEE",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "-marcel-38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "trinita34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "philblues",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "philblues",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Corced62",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "THESEE",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "philblues",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Corced62",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "philblues",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Corced62",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "THESEE",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "philblues",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Corced62",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "river": [
+            {
+                "player": "philblues",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Corced62",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "THESEE",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "philblues",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Corced62",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "7h",
+        "flop_card_3": "6s"
+    },
+    "turn": {
+        "turn_card": "2d"
+    },
+    "river": {
+        "river_card": "Kc"
+    },
+    "showdown": {
+        "THESEE": {
+            "first_card": "Ts",
+            "second_card": "Js"
+        },
+        "philblues": {
+            "first_card": "Ac",
+            "second_card": "9d"
+        }
+    },
+    "winners": {
+        "philblues": {
+            "amount": 6200.0,
+            "pot_type": "pot"
+        }
+    }
+}

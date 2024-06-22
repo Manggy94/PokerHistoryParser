@@ -1,0 +1,196 @@
+{
+    "hand_id": "562445011296190500-9-1443598455",
+    "datetime": "30-09-2015 07:34:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.45,
+        "bounty": 0.0,
+        "rake": 0.05
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "130954434",
+        "table_number": "035",
+        "prize_pool": 108.9,
+        "registered_players": 242,
+        "speed": "semiturbo",
+        "start_date": "2015/09/30 06:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "grillon0336_",
+            "init_stack": 10560.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Gdg77",
+            "init_stack": 25610.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "chabalizer",
+            "init_stack": 43565.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "fleure80",
+            "init_stack": 34260.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 11790.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lamproie81",
+            "init_stack": 22398.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5s",
+        "second_card": "7h"
+    },
+    "postings": [
+        {
+            "name": "grillon0336_",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Gdg77",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chabalizer",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fleure80",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lamproie81",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "grillon0336_",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Gdg77",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "chabalizer",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "fleure80",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lamproie81",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "grillon0336_",
+                "action": "raises",
+                "amount": 500.0
+            },
+            {
+                "player": "Gdg77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chabalizer",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "grillon0336_",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "chabalizer",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "grillon0336_",
+                "action": "bets",
+                "amount": 1000.0
+            },
+            {
+                "player": "chabalizer",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9s",
+        "flop_card_2": "Jc",
+        "flop_card_3": "Jd"
+    },
+    "turn": {
+        "turn_card": "5h"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "grillon0336_": {
+            "amount": 3740.0,
+            "pot_type": "pot"
+        }
+    }
+}

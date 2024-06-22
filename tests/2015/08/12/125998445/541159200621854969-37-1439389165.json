@@ -1,0 +1,249 @@
+{
+    "hand_id": "541159200621854969-37-1439389165",
+    "datetime": "12-08-2015 14:19:25",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "248",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jahden 974",
+            "init_stack": 28616.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "sacristef",
+            "init_stack": 475.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "dolef",
+            "init_stack": 9015.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "fullnobeat",
+            "init_stack": 19902.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "icekush",
+            "init_stack": 13996.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "PoneyKlub",
+            "init_stack": 37169.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 55920.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Rochefort10",
+            "init_stack": 18606.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "kris2307",
+            "init_stack": 26832.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9s",
+        "second_card": "Ts"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Rochefort10",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jahden 974",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sacristef",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dolef",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fullnobeat",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "icekush",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PoneyKlub",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kris2307",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Rochefort10",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "kris2307",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "jahden 974",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sacristef",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dolef",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fullnobeat",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "icekush",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PoneyKlub",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "Rochefort10",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "kris2307",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "fullnobeat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1200.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 14800.0
+            },
+            {
+                "player": "kris2307",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "2s",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "Js"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 21120.0,
+            "pot_type": "pot"
+        }
+    }
+}

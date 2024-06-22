@@ -69,3 +69,9 @@ E
 docs/requirements.txt,2\7\271b54d579b58b0097c7c56b8ab060c6e3a67b4f
 ;
 LICENSE.txt,7\9\79b82ce9b64a924266619555502f890dd80c83b9
+H
+pkrhistoryparser/main.py,b\0\b01e4d143ec3c0f486732694f711fde505705ded
+4
+.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+O
+pkrhistoryparser/directories.py,d\c\dcb17ec2d6e0418a4633e13584841dcb1075443e

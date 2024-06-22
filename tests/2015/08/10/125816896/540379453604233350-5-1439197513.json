@@ -1,0 +1,201 @@
+{
+    "hand_id": "540379453604233350-5-1439197513",
+    "datetime": "10-08-2015 09:05:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816896",
+        "table_number": "133",
+        "prize_pool": 50.0,
+        "registered_players": 2487,
+        "speed": "turbo",
+        "start_date": "2015/08/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "anaabellee",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "maelismo",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "call me dude",
+            "init_stack": 9230.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "DogbaLM",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "valdo126",
+            "init_stack": 5980.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "mydlegui",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "G-rome77",
+            "init_stack": 2970.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "gabys19",
+            "init_stack": 3450.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "Th"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "call me dude",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "DogbaLM",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "valdo126",
+                "action": "raises",
+                "amount": 30.0
+            },
+            {
+                "player": "mydlegui",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "G-rome77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gabys19",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "anaabellee",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 270.0
+            },
+            {
+                "player": "call me dude",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "valdo126",
+                "action": "calls",
+                "amount": 270.0
+            },
+            {
+                "player": "mydlegui",
+                "action": "raises",
+                "amount": 2670.0
+            },
+            {
+                "player": "gabys19",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "valdo126",
+                "action": "calls",
+                "amount": 2670.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "9d",
+        "flop_card_2": "6c",
+        "flop_card_3": "Ts"
+    },
+    "turn": {
+        "turn_card": "Ah"
+    },
+    "river": {
+        "river_card": "7d"
+    },
+    "showdown": {
+        "valdo126": {
+            "first_card": "9c",
+            "second_card": "Kh"
+        },
+        "mydlegui": {
+            "first_card": "As",
+            "second_card": "5s"
+        }
+    },
+    "winners": {
+        "mydlegui": {
+            "amount": 6420.0,
+            "pot_type": "pot"
+        }
+    }
+}

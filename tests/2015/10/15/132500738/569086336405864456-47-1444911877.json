@@ -1,0 +1,153 @@
+{
+    "hand_id": "569086336405864456-47-1444911877",
+    "datetime": "15-10-2015 12:24:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132500738",
+        "table_number": "007",
+        "prize_pool": 1500.0,
+        "registered_players": 398,
+        "speed": "semiturbo",
+        "start_date": "2015/10/15 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Saiid92",
+            "init_stack": 12950.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "edounono",
+            "init_stack": 26676.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "jonathan9549",
+            "init_stack": 14325.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 7126.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Stder",
+            "init_stack": 28098.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Kolbi",
+            "init_stack": 10825.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4c",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "Saiid92",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "edounono",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jonathan9549",
+                "action": "raises",
+                "amount": 1200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Stder",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kolbi",
+                "action": "raises",
+                "amount": 9325.0
+            },
+            {
+                "player": "Saiid92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "edounono",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jonathan9549",
+                "action": "raises",
+                "amount": 3500.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2d",
+        "flop_card_2": "3h",
+        "flop_card_3": "9s"
+    },
+    "turn": {
+        "turn_card": "2c"
+    },
+    "river": {
+        "river_card": "5d"
+    },
+    "showdown": {
+        "Kolbi": {
+            "first_card": "Jh",
+            "second_card": "Ad"
+        },
+        "jonathan9549": {
+            "first_card": "Ts",
+            "second_card": "Th"
+        }
+    },
+    "winners": {
+        "jonathan9549": {
+            "amount": 25600.0,
+            "pot_type": "pot"
+        }
+    }
+}

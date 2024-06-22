@@ -1,0 +1,220 @@
+{
+    "hand_id": "541906104024564329-2-1439576979",
+    "datetime": "14-08-2015 18:29:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172347",
+        "table_number": "0616",
+        "prize_pool": 150.0,
+        "registered_players": 6420,
+        "speed": "turbo",
+        "start_date": "2015/08/14 18:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Erekosei",
+            "init_stack": 2430.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "xjojopokerx",
+            "init_stack": 2830.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "r2983jjj",
+            "init_stack": 2965.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Aconit Napel",
+            "init_stack": 2055.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "O-kan",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "pirate as",
+            "init_stack": 7240.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "comino34",
+            "init_stack": 6560.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "rantan6400",
+            "init_stack": 815.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "As",
+        "second_card": "3h"
+    },
+    "postings": [
+        {
+            "name": "xjojopokerx",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "r2983jjj",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Aconit Napel",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "O-kan",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pirate as",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 200.0
+            },
+            {
+                "player": "comino34",
+                "action": "calls",
+                "amount": 280.0
+            },
+            {
+                "player": "rantan6400",
+                "action": "raises",
+                "amount": 535.0
+            },
+            {
+                "player": "Erekosei",
+                "action": "calls",
+                "amount": 815.0
+            },
+            {
+                "player": "xjojopokerx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "r2983jjj",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 535.0
+            },
+            {
+                "player": "comino34",
+                "action": "calls",
+                "amount": 535.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "comino34",
+                "action": "bets",
+                "amount": 5745.0
+            },
+            {
+                "player": "Erekosei",
+                "action": "calls",
+                "amount": 1615.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jc",
+        "flop_card_2": "Jd",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "5d"
+    },
+    "river": {
+        "river_card": "5c"
+    },
+    "showdown": {
+        "rantan6400": {
+            "first_card": "3c",
+            "second_card": "9c"
+        },
+        "Erekosei": {
+            "first_card": "Js",
+            "second_card": "Jh"
+        },
+        "comino34": {
+            "first_card": "Qh",
+            "second_card": "7h"
+        }
+    },
+    "winners": {
+        "comino34": {
+            "amount": 4130.0,
+            "pot_type": "side pot 1"
+        },
+        "Erekosei": {
+            "amount": 6610.0,
+            "pot_type": "main pot"
+        }
+    }
+}

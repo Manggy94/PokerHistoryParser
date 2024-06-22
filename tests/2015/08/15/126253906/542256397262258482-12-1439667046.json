@@ -1,0 +1,207 @@
+{
+    "hand_id": "542256397262258482-12-1439667046",
+    "datetime": "15-08-2015 19:30:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0305",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Theido74",
+            "init_stack": 8470.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Blackcloud",
+            "init_stack": 5920.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "yocartouche",
+            "init_stack": 65.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Zeng As",
+            "init_stack": 2800.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "yovan60",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "djee76 x",
+            "init_stack": 4380.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "fullmaster",
+            "init_stack": 2095.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "mike2mars",
+            "init_stack": 2780.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 6045.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "mike2mars",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Theido74",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Blackcloud",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "yocartouche",
+                "action": "calls",
+                "amount": 65.0
+            },
+            {
+                "player": "Zeng As",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "yovan60",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "djee76 x",
+                "action": "raises",
+                "amount": 240.0
+            },
+            {
+                "player": "mike2mars",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Zeng As",
+                "action": "calls",
+                "amount": 240.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Zeng As",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "djee76 x",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Zeng As",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "djee76 x",
+                "action": "raises",
+                "amount": 480.0
+            },
+            {
+                "player": "Zeng As",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "9d",
+        "flop_card_3": "3h"
+    },
+    "turn": {
+        "turn_card": "Qs"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "yocartouche": {
+            "first_card": "Qd",
+            "second_card": "9h"
+        },
+        "djee76 x": {
+            "first_card": "Qh",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "djee76 x": {
+            "amount": 1365.0,
+            "pot_type": "side pot 1"
+        },
+        "yocartouche": {
+            "amount": 260.0,
+            "pot_type": "main pot"
+        }
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "hand_id": "539623453460791574-70-1439038294",
+    "datetime": "08-08-2015 12:51:34",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 17,
+        "ante": 160.0,
+        "sb": 800.0,
+        "bb": 1600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640876",
+        "table_number": "277",
+        "prize_pool": 100.0,
+        "registered_players": 4155,
+        "speed": "turbo",
+        "start_date": "2015/08/08 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 17475.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Little liars",
+            "init_stack": 7335.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "x_thegame95",
+            "init_stack": 11710.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "spoutnik47",
+            "init_stack": 20396.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "samedisoir",
+            "init_stack": 28344.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Dolibaz",
+            "init_stack": 48944.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Little liars",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "x_thegame95",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "spoutnik47",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "samedisoir",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Dolibaz",
+            "amount": 160.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 800.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Little liars",
+            "amount": 1600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "x_thegame95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "spoutnik47",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "samedisoir",
+                "action": "raises",
+                "amount": 26584.0
+            },
+            {
+                "player": "Dolibaz",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 16515.0
+            },
+            {
+                "player": "Little liars",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "6c",
+        "flop_card_3": "5d"
+    },
+    "turn": {
+        "turn_card": "5c"
+    },
+    "river": {
+        "river_card": "7s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Ks",
+            "second_card": "Ac"
+        },
+        "samedisoir": {
+            "first_card": "Th",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "samedisoir": {
+            "amount": 29464.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 18595.0,
+            "pot_type": "main pot"
+        }
+    }
+}

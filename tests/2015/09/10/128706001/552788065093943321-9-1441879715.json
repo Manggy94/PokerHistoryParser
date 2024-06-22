@@ -1,0 +1,200 @@
+{
+    "hand_id": "552788065093943321-9-1441879715",
+    "datetime": "10-09-2015 10:08:35",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.22,
+        "bounty": 0.0,
+        "rake": 0.03
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "MiniRoll",
+        "tournament_id": "128706001",
+        "table_number": "024",
+        "prize_pool": 67.98,
+        "registered_players": 309,
+        "speed": "semiturbo",
+        "start_date": "2015/09/10 09:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "2": {
+            "seat": 2,
+            "name": "juventus25",
+            "init_stack": 22700.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 725.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "youmarseille",
+            "init_stack": 8725.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "jeff1003",
+            "init_stack": 7775.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "The-Joker75",
+            "init_stack": 11150.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "karambol972",
+            "init_stack": 19525.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "PaTaTe2Forr1",
+            "init_stack": 8825.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "L.A.23.",
+            "init_stack": 11700.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "jeff1003",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "The-Joker75",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "karambol972",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "PaTaTe2Forr1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "L.A.23.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "juventus25",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 525.0
+            },
+            {
+                "player": "youmarseille",
+                "action": "calls",
+                "amount": 725.0
+            },
+            {
+                "player": "jeff1003",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "The-Joker75",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "karambol972",
+                "action": "calls",
+                "amount": 525.0
+            },
+            {
+                "player": "juventus25",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "karambol972",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "youmarseille",
+                "action": "bets",
+                "amount": 8000.0
+            },
+            {
+                "player": "karambol972",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ah",
+        "flop_card_2": "As",
+        "flop_card_3": "9d"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Kc",
+            "second_card": "Ac"
+        },
+        "youmarseille": {
+            "first_card": "3h",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "youmarseille": {
+            "amount": 9338.0,
+            "pot_type": "side pot 1"
+        },
+        "manggy94": {
+            "amount": 1337.0,
+            "pot_type": "main pot"
+        }
+    }
+}

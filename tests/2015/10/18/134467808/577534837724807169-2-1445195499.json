@@ -1,0 +1,213 @@
+{
+    "hand_id": "577534837724807169-2-1445195499",
+    "datetime": "18-10-2015 19:11:39",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "134467808",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/18 19:11:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "la  couenne",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "guivarchio45",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "virgil1804",
+            "init_stack": 490.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Fwank60100",
+            "init_stack": 480.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "fayaboto",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "nino x1",
+            "init_stack": 500.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "Marvin2A.",
+            "init_stack": 1530.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "Fwank60100",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "fayaboto",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "nino x1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Marvin2A.",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "la  couenne",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "guivarchio45",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "virgil1804",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Fwank60100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fayaboto",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "fayaboto",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Marvin2A.",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "virgil1804",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "fayaboto",
+                "action": "bets",
+                "amount": 70.0
+            },
+            {
+                "player": "Marvin2A.",
+                "action": "calls",
+                "amount": 70.0
+            },
+            {
+                "player": "virgil1804",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "fayaboto",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Marvin2A.",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Kh",
+        "flop_card_2": "Th",
+        "flop_card_3": "9d"
+    },
+    "turn": {
+        "turn_card": "4h"
+    },
+    "river": {
+        "river_card": "Kc"
+    },
+    "showdown": {
+        "Marvin2A.": {
+            "first_card": "2s",
+            "second_card": "2d"
+        },
+        "fayaboto": {
+            "first_card": "4d",
+            "second_card": "Qh"
+        }
+    },
+    "winners": {
+        "fayaboto": {
+            "amount": 210.0,
+            "pot_type": "pot"
+        }
+    }
+}

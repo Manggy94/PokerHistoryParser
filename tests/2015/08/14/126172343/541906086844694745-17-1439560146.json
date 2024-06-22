@@ -1,0 +1,231 @@
+{
+    "hand_id": "541906086844694745-17-1439560146",
+    "datetime": "14-08-2015 13:49:06",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 6,
+        "ante": 10.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172343",
+        "table_number": "216",
+        "prize_pool": 100.0,
+        "registered_players": 4436,
+        "speed": "turbo",
+        "start_date": "2015/08/14 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "dan80200",
+            "init_stack": 3070.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 1790.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "IcebergSlimy",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "baptiste1608",
+            "init_stack": 6890.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fcroda",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "fugi57",
+            "init_stack": 2790.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "nounoute 24",
+            "init_stack": 5708.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Tez8z",
+            "init_stack": 26600.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "-Ecaflip-",
+            "init_stack": 2740.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kh",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "dan80200",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "IcebergSlimy",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "baptiste1608",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fcroda",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fugi57",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nounoute 24",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tez8z",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-Ecaflip-",
+            "amount": 10.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dan80200",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "IcebergSlimy",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "baptiste1608",
+                "action": "calls",
+                "amount": 120.0
+            },
+            {
+                "player": "fcroda",
+                "action": "raises",
+                "amount": 2870.0
+            },
+            {
+                "player": "fugi57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nounoute 24",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tez8z",
+                "action": "calls",
+                "amount": 2990.0
+            },
+            {
+                "player": "-Ecaflip-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dan80200",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "baptiste1608",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4s",
+        "flop_card_2": "4h",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "9d"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "Tez8z": {
+            "first_card": "8c",
+            "second_card": "5c"
+        },
+        "fcroda": {
+            "first_card": "2s",
+            "second_card": "2d"
+        }
+    },
+    "winners": {
+        "fcroda": {
+            "amount": 6370.0,
+            "pot_type": "pot"
+        }
+    }
+}

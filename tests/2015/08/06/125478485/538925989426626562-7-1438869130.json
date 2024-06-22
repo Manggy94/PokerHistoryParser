@@ -1,0 +1,176 @@
+{
+    "hand_id": "538925989426626562-7-1438869130",
+    "datetime": "06-08-2015 13:52:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "KABO71",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "domi110965",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 3005.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JteBaise31",
+            "init_stack": 2950.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "leaveORafk",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "ROASTARS",
+            "init_stack": 3300.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qs",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "JteBaise31",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "leaveORafk",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ROASTARS",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "KABO71",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "domi110965",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "JteBaise31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "leaveORafk",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "leaveORafk",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ROASTARS",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "KABO71",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "leaveORafk",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "ROASTARS",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "3s",
+        "flop_card_3": "As"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "ROASTARS": {
+            "amount": 300.0,
+            "pot_type": "pot"
+        }
+    }
+}

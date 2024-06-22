@@ -1,0 +1,128 @@
+{
+    "hand_id": "572523285200240674-43-1445516846",
+    "datetime": "22-10-2015 12:27:26",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133300965",
+        "table_number": "033",
+        "prize_pool": 1662.5,
+        "registered_players": 475,
+        "speed": "semiturbo",
+        "start_date": "2015/10/22 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "6nilon9",
+            "init_stack": 29275.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 15675.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JoO638",
+            "init_stack": 8900.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Akrapovitch",
+            "init_stack": 7750.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Regis",
+            "init_stack": 18275.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "Regis",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "6nilon9",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JoO638",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "Akrapovitch",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Regis",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "6nilon9",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "JoO638": {
+            "amount": 1050.0,
+            "pot_type": "pot"
+        }
+    }
+}

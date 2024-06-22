@@ -1,0 +1,112 @@
+{
+    "hand_id": "571791130715226113-12-1444152478",
+    "datetime": "06-10-2015 17:27:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "133130497",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/06 17:19:36 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "kridojm",
+            "init_stack": 1050.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BROKA",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 665.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Green_Knight",
+            "init_stack": 405.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "7c"
+    },
+    "postings": [
+        {
+            "name": "Green_Knight",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "kridojm",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "BROKA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Green_Knight",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "kridojm": {
+            "amount": 60.0,
+            "pot_type": "pot"
+        }
+    }
+}

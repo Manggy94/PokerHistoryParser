@@ -1,0 +1,242 @@
+{
+    "hand_id": "539969864048050221-37-1439119432",
+    "datetime": "09-08-2015 11:23:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 16,
+        "ante": 135.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "044",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 7526.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "chercher pa",
+            "init_stack": 13145.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Jackoline",
+            "init_stack": 20490.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lunatique999",
+            "init_stack": 35444.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "david2803",
+            "init_stack": 12530.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "AXL09160",
+            "init_stack": 3605.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "stanroll",
+            "init_stack": 17125.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "O pescador",
+            "init_stack": 1300.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Canela ...",
+            "init_stack": 10395.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "chercher pa",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jackoline",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lunatique999",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "david2803",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AXL09160",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "stanroll",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "O pescador",
+            "amount": 135.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chercher pa",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Jackoline",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "lunatique999",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "david2803",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "AXL09160",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "stanroll",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "O pescador",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "chercher pa",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "Jackoline",
+                "action": "raises",
+                "amount": 2400.0
+            },
+            {
+                "player": "david2803",
+                "action": "calls",
+                "amount": 2400.0
+            },
+            {
+                "player": "stanroll",
+                "action": "calls",
+                "amount": 2400.0
+            },
+            {
+                "player": "chercher pa",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Jackoline",
+                "action": "bets",
+                "amount": 3000.0
+            },
+            {
+                "player": "david2803",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "stanroll",
+                "action": "raises",
+                "amount": 10390.0
+            },
+            {
+                "player": "Jackoline",
+                "action": "calls",
+                "amount": 10390.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qh",
+        "flop_card_2": "9c",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "Tc"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {
+        "stanroll": {
+            "first_card": "Kh",
+            "second_card": "Qs"
+        },
+        "Jackoline": {
+            "first_card": "Jd",
+            "second_card": "Jc"
+        }
+    },
+    "winners": {
+        "Jackoline": {
+            "amount": 39725.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "hand_id": "546663063772725429-82-1440605789",
+    "datetime": "26-08-2015 16:16:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 23,
+        "ante": 700.0,
+        "sb": 3000.0,
+        "bb": 6000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279913",
+        "table_number": "180",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/26 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "bilou11111",
+            "init_stack": 73035.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 26203.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "luffyzorro7",
+            "init_stack": 122249.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lensois5962",
+            "init_stack": 106525.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Pocky Balboa",
+            "init_stack": 9466.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "CristianOzil",
+            "init_stack": 20752.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "xxxThug13xxx",
+            "init_stack": 50794.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sebou06210",
+            "init_stack": 17279.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "4h"
+    },
+    "postings": [
+        {
+            "name": "Pocky Balboa",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bilou11111",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "luffyzorro7",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lensois5962",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CristianOzil",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "xxxThug13xxx",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sebou06210",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pocky Balboa",
+            "amount": 6000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "CristianOzil",
+                "action": "raises",
+                "amount": 14052.0
+            },
+            {
+                "player": "xxxThug13xxx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sebou06210",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bilou11111",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "luffyzorro7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lensois5962",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pocky Balboa",
+                "action": "calls",
+                "amount": 2766.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "2d",
+        "flop_card_3": "Tc"
+    },
+    "turn": {
+        "turn_card": "Js"
+    },
+    "river": {
+        "river_card": "Qh"
+    },
+    "showdown": {
+        "Pocky Balboa": {
+            "first_card": "3c",
+            "second_card": "2s"
+        },
+        "CristianOzil": {
+            "first_card": "Kh",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "CristianOzil": {
+            "amount": 34418.0,
+            "pot_type": "pot"
+        }
+    }
+}

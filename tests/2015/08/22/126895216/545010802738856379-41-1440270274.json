@@ -1,0 +1,248 @@
+{
+    "hand_id": "545010802738856379-41-1440270274",
+    "datetime": "22-08-2015 19:04:34",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126895216",
+        "table_number": "0442",
+        "prize_pool": 150.0,
+        "registered_players": 5943,
+        "speed": "turbo",
+        "start_date": "2015/08/22 18:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "DAVISCUP",
+            "init_stack": 15095.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "....seb....",
+            "init_stack": 25603.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "lalo71",
+            "init_stack": 3685.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 8610.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "steevefleur",
+            "init_stack": 22812.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "bluker_1986",
+            "init_stack": 15853.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "TheToilet2b",
+            "init_stack": 6894.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "gromitpoker",
+            "init_stack": 4904.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "bluker_1986",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TheToilet2b",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "DAVISCUP",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "....seb....",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lalo71",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "steevefleur",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gromitpoker",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bluker_1986",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "TheToilet2b",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "gromitpoker",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "DAVISCUP",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "....seb....",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lalo71",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "steevefleur",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bluker_1986",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "TheToilet2b",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "bluker_1986",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TheToilet2b",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "bluker_1986",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TheToilet2b",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "bluker_1986",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "TheToilet2b",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "bluker_1986",
+                "action": "calls",
+                "amount": 800.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "3c",
+        "flop_card_3": "3s"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {
+        "bluker_1986": {
+            "first_card": "7c",
+            "second_card": "7s"
+        },
+        "TheToilet2b": {
+            "first_card": "8s",
+            "second_card": "2h"
+        }
+    },
+    "winners": {
+        "TheToilet2b": {
+            "amount": 3840.0,
+            "pot_type": "pot"
+        }
+    }
+}

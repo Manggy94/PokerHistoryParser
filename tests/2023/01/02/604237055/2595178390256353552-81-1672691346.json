@@ -1,0 +1,212 @@
+{
+    "hand_id": "2595178390256353552-81-1672691346",
+    "datetime": "02-01-2023 20:29:06",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 9.0,
+        "bounty": 0.0,
+        "rake": 1.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 25.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "W SERIES MASTER",
+        "tournament_id": "604237055",
+        "table_number": "0271",
+        "prize_pool": null,
+        "registered_players": null,
+        "speed": null,
+        "start_date": null,
+        "levels_structure": [],
+        "tournament_type": null
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 23329.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Magayan56",
+            "init_stack": 30699.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "J--M",
+            "init_stack": 44121.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "babybel 120",
+            "init_stack": 17337.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Mele Mele",
+            "init_stack": 21985.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CassisFruite",
+            "init_stack": 23204.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "Qh"
+    },
+    "postings": [
+        {
+            "name": "J--M",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "babybel 120",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Magayan56",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Mele Mele",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "J--M",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "babybel 120",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Mele Mele",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 240.0
+            },
+            {
+                "player": "Magayan56",
+                "action": "calls",
+                "amount": 440.0
+            },
+            {
+                "player": "J--M",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "babybel 120",
+                "action": "calls",
+                "amount": 240.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "babybel 120",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 785.0
+            },
+            {
+                "player": "Magayan56",
+                "action": "calls",
+                "amount": 785.0
+            },
+            {
+                "player": "babybel 120",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1570.0
+            },
+            {
+                "player": "Magayan56",
+                "action": "calls",
+                "amount": 1570.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 3140.0
+            },
+            {
+                "player": "Magayan56",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4d",
+        "flop_card_2": "Qd",
+        "flop_card_3": "8c"
+    },
+    "turn": {
+        "turn_card": "6h"
+    },
+    "river": {
+        "river_card": "Ad"
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 9420.0,
+            "pot_type": "pot"
+        }
+    }
+}

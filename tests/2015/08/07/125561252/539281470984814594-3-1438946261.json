@@ -1,0 +1,155 @@
+{
+    "hand_id": "539281470984814594-3-1438946261",
+    "datetime": "07-08-2015 11:17:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Omaha",
+        "tournament_id": "125561252",
+        "table_number": "001",
+        "prize_pool": 1000.0,
+        "registered_players": 40,
+        "speed": "normal",
+        "start_date": "2015/08/07 11:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "AKENATON88",
+            "init_stack": 1180.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "K-l-K",
+            "init_stack": 1400.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "bastos555",
+            "init_stack": 3820.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 1100.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "AKENATON88",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "K-l-K",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bastos555",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "AKENATON88",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "K-l-K",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "K-l-K",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "K-l-K",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "K-l-K",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 50.0
+            },
+            {
+                "player": "K-l-K",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8c",
+        "flop_card_2": "4h",
+        "flop_card_3": "As"
+    },
+    "turn": {
+        "turn_card": "Qs"
+    },
+    "river": {
+        "river_card": "Js"
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 100.0,
+            "pot_type": "pot"
+        }
+    }
+}

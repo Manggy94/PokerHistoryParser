@@ -1,0 +1,171 @@
+{
+    "hand_id": "600923812279615525-38-1450704046",
+    "datetime": "21-12-2015 13:20:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "139913478",
+        "table_number": "036",
+        "prize_pool": 2000.0,
+        "registered_players": 438,
+        "speed": "normal",
+        "start_date": "2015/12/21 12:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jrdey",
+            "init_stack": 25362.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "_MADBLAKE_",
+            "init_stack": 8360.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 6875.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Petomane26",
+            "init_stack": 17542.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "goodluckman1",
+            "init_stack": 12350.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "jOjO87700",
+            "init_stack": 19561.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8d",
+        "second_card": "9c"
+    },
+    "postings": [
+        {
+            "name": "Petomane26",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "goodluckman1",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "jOjO87700",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jrdey",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "_MADBLAKE_",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Petomane26",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "goodluckman1",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Petomane26",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "goodluckman1",
+                "action": "bets",
+                "amount": 400.0
+            },
+            {
+                "player": "Petomane26",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": "goodluckman1",
+                "action": "calls",
+                "amount": 600.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Petomane26",
+                "action": "bets",
+                "amount": 2200.0
+            },
+            {
+                "player": "goodluckman1",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7h",
+        "flop_card_2": "Qd",
+        "flop_card_3": "2d"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Petomane26": {
+            "amount": 5200.0,
+            "pot_type": "pot"
+        }
+    }
+}

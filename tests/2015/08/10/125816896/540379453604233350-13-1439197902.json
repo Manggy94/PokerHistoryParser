@@ -1,0 +1,214 @@
+{
+    "hand_id": "540379453604233350-13-1439197902",
+    "datetime": "10-08-2015 09:11:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125816896",
+        "table_number": "133",
+        "prize_pool": 50.0,
+        "registered_players": 2487,
+        "speed": "turbo",
+        "start_date": "2015/08/10 09:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "anaabellee",
+            "init_stack": 2780.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "magach",
+            "init_stack": 5210.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2420.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "call me dude",
+            "init_stack": 5490.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Taosacco",
+            "init_stack": 3030.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "valdo126",
+            "init_stack": 8480.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Ivalue_cut..",
+            "init_stack": 8960.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "gabys19",
+            "init_stack": 2670.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "2h"
+    },
+    "postings": [
+        {
+            "name": "magach",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "call me dude",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Taosacco",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "valdo126",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "Ivalue_cut..",
+                "action": "raises",
+                "amount": 360.0
+            },
+            {
+                "player": "gabys19",
+                "action": "calls",
+                "amount": 540.0
+            },
+            {
+                "player": "anaabellee",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "magach",
+                "action": "calls",
+                "amount": 510.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "valdo126",
+                "action": "calls",
+                "amount": 360.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "magach",
+                "action": "bets",
+                "amount": 60.0
+            },
+            {
+                "player": "valdo126",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "Ivalue_cut..",
+                "action": "raises",
+                "amount": 8360.0
+            },
+            {
+                "player": "gabys19",
+                "action": "calls",
+                "amount": 2130.0
+            },
+            {
+                "player": "magach",
+                "action": "calls",
+                "amount": 4610.0
+            },
+            {
+                "player": "valdo126",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4s",
+        "flop_card_2": "As",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "7h"
+    },
+    "showdown": {
+        "gabys19": {
+            "first_card": "Js",
+            "second_card": "9s"
+        },
+        "magach": {
+            "first_card": "Ah",
+            "second_card": "Qd"
+        },
+        "Ivalue_cut..": {
+            "first_card": "5s",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "Ivalue_cut..": {
+            "amount": 3750.0,
+            "pot_type": "side pot 1"
+        },
+        "magach": {
+            "amount": 13750.0,
+            "pot_type": "main pot"
+        }
+    }
+}

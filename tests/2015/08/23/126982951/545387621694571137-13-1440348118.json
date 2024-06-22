@@ -1,0 +1,155 @@
+{
+    "hand_id": "545387621694571137-13-1440348118",
+    "datetime": "23-08-2015 16:41:58",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126982951",
+        "table_number": "640",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/23 16:30:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "FREEDY43",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Zeepeek78",
+            "init_stack": 3380.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Mister-Trop",
+            "init_stack": 2640.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 2750.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Sman069",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nico-82",
+            "init_stack": 4360.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "4s"
+    },
+    "postings": [
+        {
+            "name": "Zeepeek78",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Mister-Trop",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sman069",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "FREEDY43",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Zeepeek78",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Mister-Trop",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Zeepeek78",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mister-Trop",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "Zeepeek78",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "6h",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Mister-Trop": {
+            "amount": 240.0,
+            "pot_type": "pot"
+        }
+    }
+}

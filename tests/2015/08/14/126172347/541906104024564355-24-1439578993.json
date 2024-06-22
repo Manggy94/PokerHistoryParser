@@ -1,0 +1,281 @@
+{
+    "hand_id": "541906104024564355-24-1439578993",
+    "datetime": "14-08-2015 19:03:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172347",
+        "table_number": "0642",
+        "prize_pool": 150.0,
+        "registered_players": 6420,
+        "speed": "turbo",
+        "start_date": "2015/08/14 18:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "MIKADEMIR",
+            "init_stack": 30632.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Lisa666",
+            "init_stack": 1710.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Erekosei",
+            "init_stack": 10880.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "vince33127",
+            "init_stack": 220.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "r2983jjj",
+            "init_stack": 18595.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "patou33520",
+            "init_stack": 6905.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "EFerrari84",
+            "init_stack": 13225.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Kyozor",
+            "init_stack": 6365.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 5650.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8s",
+        "second_card": "3c"
+    },
+    "postings": [
+        {
+            "name": "patou33520",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "EFerrari84",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "MIKADEMIR",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lisa666",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Erekosei",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vince33127",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "r2983jjj",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kyozor",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "patou33520",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "EFerrari84",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Kyozor",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "MIKADEMIR",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lisa666",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Erekosei",
+                "action": "raises",
+                "amount": 800.0
+            },
+            {
+                "player": "vince33127",
+                "action": "calls",
+                "amount": 140.0
+            },
+            {
+                "player": "r2983jjj",
+                "action": "calls",
+                "amount": 1600.0
+            },
+            {
+                "player": "patou33520",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "EFerrari84",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "patou33520",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Erekosei",
+                "action": "bets",
+                "amount": 2400.0
+            },
+            {
+                "player": "r2983jjj",
+                "action": "calls",
+                "amount": 2400.0
+            },
+            {
+                "player": "patou33520",
+                "action": "calls",
+                "amount": 2400.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "patou33520",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Erekosei",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "r2983jjj",
+                "action": "bets",
+                "amount": 4400.0
+            },
+            {
+                "player": "patou33520",
+                "action": "calls",
+                "amount": 2825.0
+            },
+            {
+                "player": "Erekosei",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "5c",
+        "flop_card_3": "7d"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "Qd"
+    },
+    "showdown": {
+        "vince33127": {
+            "first_card": "Ac",
+            "second_card": "Qh"
+        },
+        "patou33520": {
+            "first_card": "4d",
+            "second_card": "Ad"
+        },
+        "r2983jjj": {
+            "first_card": "9c",
+            "second_card": "9d"
+        }
+    },
+    "winners": {
+        "r2983jjj": {
+            "amount": 1575.0,
+            "pot_type": "side pot 1"
+        },
+        "patou33520": {
+            "amount": 19310.0,
+            "pot_type": "main pot"
+        }
+    }
+}

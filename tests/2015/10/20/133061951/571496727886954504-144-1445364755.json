@@ -1,0 +1,217 @@
+{
+    "hand_id": "571496727886954504-144-1445364755",
+    "datetime": "20-10-2015 18:12:35",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 15,
+        "ante": 500.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1759.5,
+        "registered_players": 391,
+        "speed": "normal",
+        "start_date": "2015/10/20 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "PAT_THE OLD",
+            "init_stack": 56412.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Hideo-Kojima",
+            "init_stack": 232343.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "KKnet",
+            "init_stack": 48470.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Lahn90",
+            "init_stack": 60526.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 34822.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Kevin54100",
+            "init_stack": 135140.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "misequuncoup",
+            "init_stack": 148213.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sebastien777",
+            "init_stack": 94694.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3s",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "sebastien777",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PAT_THE OLD",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Hideo-Kojima",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "KKnet",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lahn90",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kevin54100",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "misequuncoup",
+            "amount": 500.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sebastien777",
+            "amount": 2000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PAT_THE OLD",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Hideo-Kojima",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KKnet",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lahn90",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kevin54100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "misequuncoup",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sebastien777",
+                "action": "raises",
+                "amount": 6000.0
+            },
+            {
+                "player": "PAT_THE OLD",
+                "action": "calls",
+                "amount": 6000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "sebastien777",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "PAT_THE OLD",
+                "action": "bets",
+                "amount": 45912.0
+            },
+            {
+                "player": "sebastien777",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ts",
+        "flop_card_2": "5c",
+        "flop_card_3": "7h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "PAT_THE OLD": {
+            "amount": 69912.0,
+            "pot_type": "pot"
+        }
+    }
+}

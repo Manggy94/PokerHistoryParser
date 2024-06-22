@@ -1,0 +1,232 @@
+{
+    "hand_id": "594320888472535067-37-1449500000",
+    "datetime": "07-12-2015 14:53:20",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 6,
+        "ante": 30.0,
+        "sb": 200.0,
+        "bb": 400.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138376115",
+        "table_number": "026",
+        "prize_pool": 1957.5,
+        "registered_players": 435,
+        "speed": "semiturbo",
+        "start_date": "2015/12/07 14:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "hona19",
+            "init_stack": 26130.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Mauresque.51",
+            "init_stack": 9560.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "niquedoul",
+            "init_stack": 15560.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 16385.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Glatrick",
+            "init_stack": 7485.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CrazyFred02",
+            "init_stack": 8060.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "koppiscine29",
+            "init_stack": 51760.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ludocbo",
+            "init_stack": 7785.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7s",
+        "second_card": "6s"
+    },
+    "postings": [
+        {
+            "name": "niquedoul",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "hona19",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Mauresque.51",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Glatrick",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CrazyFred02",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "koppiscine29",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ludocbo",
+            "amount": 30.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "niquedoul",
+            "amount": 200.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Glatrick",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CrazyFred02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "koppiscine29",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ludocbo",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "hona19",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Mauresque.51",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "niquedoul",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "niquedoul",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "ludocbo",
+                "action": "bets",
+                "amount": 7355.0
+            },
+            {
+                "player": "Mauresque.51",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "niquedoul",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ac",
+        "flop_card_2": "Jd",
+        "flop_card_3": "8c"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "ludocbo": {
+            "amount": 9195.0,
+            "pot_type": "pot"
+        }
+    }
+}

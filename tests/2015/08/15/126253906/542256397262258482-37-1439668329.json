@@ -1,0 +1,248 @@
+{
+    "hand_id": "542256397262258482-37-1439668329",
+    "datetime": "15-08-2015 19:52:09",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 12,
+        "ante": 50.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0305",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "toftof1",
+            "init_stack": 7897.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "wini74",
+            "init_stack": 1305.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Gilles03",
+            "init_stack": 16980.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kahel80",
+            "init_stack": 21562.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Ka.san",
+            "init_stack": 1710.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "wutangclan04",
+            "init_stack": 23880.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "TerYbaRt",
+            "init_stack": 1715.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 23640.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2d",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "Ka.san",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wutangclan04",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "toftof1",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "wini74",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Gilles03",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kahel80",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TerYbaRt",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ka.san",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "wutangclan04",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "TerYbaRt",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "toftof1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wini74",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Gilles03",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Kahel80",
+                "action": "raises",
+                "amount": 500.0
+            },
+            {
+                "player": "Ka.san",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wutangclan04",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "Gilles03",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "wutangclan04",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Gilles03",
+                "action": "bets",
+                "amount": 500.0
+            },
+            {
+                "player": "Kahel80",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "wutangclan04",
+                "action": "calls",
+                "amount": 500.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "wutangclan04",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Gilles03",
+                "action": "bets",
+                "amount": 5150.0
+            },
+            {
+                "player": "Kahel80",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "wutangclan04",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kh",
+        "flop_card_2": "5c",
+        "flop_card_3": "7h"
+    },
+    "turn": {
+        "turn_card": "As"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Gilles03": {
+            "amount": 10300.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "hand_id": "543022602247995524-5-1439839284",
+    "datetime": "17-08-2015 19:21:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126432302",
+        "table_number": "0131",
+        "prize_pool": 250.0,
+        "registered_players": 8751,
+        "speed": "turbo",
+        "start_date": "2015/08/17 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "flairsou.17",
+            "init_stack": 3245.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "lelynx",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "usul60",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "fragomeni",
+            "init_stack": 2830.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Inaciotiago",
+            "init_stack": 2895.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Elchico",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "christobal03",
+            "init_stack": 1965.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "amel1308",
+            "init_stack": 3270.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6s",
+        "second_card": "As"
+    },
+    "postings": [
+        {
+            "name": "fragomeni",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Inaciotiago",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Elchico",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "christobal03",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "amel1308",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "flairsou.17",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lelynx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "usul60",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "fragomeni",
+                "action": "calls",
+                "amount": 15.0
+            },
+            {
+                "player": "Inaciotiago",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "fragomeni",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "christobal03",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "usul60",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "fragomeni",
+                "action": "bets",
+                "amount": 180.0
+            },
+            {
+                "player": "christobal03",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "usul60",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5h",
+        "flop_card_2": "9c",
+        "flop_card_3": "5s"
+    },
+    "turn": {
+        "turn_card": "Js"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "fragomeni": {
+            "amount": 300.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "hand_id": "572523285200240674-14-1445515780",
+    "datetime": "22-10-2015 12:09:40",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133300965",
+        "table_number": "033",
+        "prize_pool": 1662.5,
+        "registered_players": 475,
+        "speed": "semiturbo",
+        "start_date": "2015/10/22 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "6nilon9",
+            "init_stack": 9325.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "INCO_NITO",
+            "init_stack": 10975.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Ratgondin",
+            "init_stack": 14325.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Akrapovitch",
+            "init_stack": 9675.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Regis",
+            "init_stack": 15575.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qs",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "Regis",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "6nilon9",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 375.0
+            },
+            {
+                "player": "INCO_NITO",
+                "action": "calls",
+                "amount": 525.0
+            },
+            {
+                "player": "Ratgondin",
+                "action": "raises",
+                "amount": 1425.0
+            },
+            {
+                "player": "Akrapovitch",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Regis",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "6nilon9",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1425.0
+            },
+            {
+                "player": "INCO_NITO",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 8050.0
+            },
+            {
+                "player": "Ratgondin",
+                "action": "calls",
+                "amount": 8050.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Jh",
+        "flop_card_2": "6d",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": "3c"
+    },
+    "river": {
+        "river_card": "4c"
+    },
+    "showdown": {
+        "Ratgondin": {
+            "first_card": "As",
+            "second_card": "Kd"
+        },
+        "manggy94": {
+            "first_card": "Qs",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 20750.0,
+            "pot_type": "pot"
+        }
+    }
+}

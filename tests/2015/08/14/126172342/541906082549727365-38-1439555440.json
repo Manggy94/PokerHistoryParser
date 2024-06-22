@@ -1,0 +1,241 @@
+{
+    "hand_id": "541906082549727365-38-1439555440",
+    "datetime": "14-08-2015 12:30:40",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 10,
+        "ante": 35.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172342",
+        "table_number": "132",
+        "prize_pool": 100.0,
+        "registered_players": 4621,
+        "speed": "turbo",
+        "start_date": "2015/08/14 12:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Hervach",
+            "init_stack": 5388.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Bulgroz 69",
+            "init_stack": 1390.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Shayna mavie",
+            "init_stack": 3702.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "hugydu62",
+            "init_stack": 3950.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "LEGION1831",
+            "init_stack": 7903.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 4793.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "4d"
+    },
+    "postings": [
+        {
+            "name": "Hervach",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Bulgroz 69",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Shayna mavie",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "hugydu62",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LEGION1831",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 35.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Hervach",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Bulgroz 69",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Shayna mavie",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "hugydu62",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "LEGION1831",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Hervach",
+                "action": "calls",
+                "amount": 450.0
+            },
+            {
+                "player": "Bulgroz 69",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "hugydu62",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Hervach",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Bulgroz 69",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "hugydu62",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "LEGION1831",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "Hervach",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Bulgroz 69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "hugydu62",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "hugydu62",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "LEGION1831",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "hugydu62",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "LEGION1831",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "8c",
+        "flop_card_3": "5d"
+    },
+    "turn": {
+        "turn_card": "3h"
+    },
+    "river": {
+        "river_card": "3d"
+    },
+    "showdown": {
+        "hugydu62": {
+            "first_card": "Qd",
+            "second_card": "Th"
+        },
+        "LEGION1831": {
+            "first_card": "Ah",
+            "second_card": "Kd"
+        }
+    },
+    "winners": {
+        "LEGION1831": {
+            "amount": 3210.0,
+            "pot_type": "pot"
+        }
+    }
+}

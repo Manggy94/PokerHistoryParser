@@ -1,0 +1,150 @@
+{
+    "hand_id": "600923537401708546-18-1450725804",
+    "datetime": "21-12-2015 19:23:24",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 1.8,
+        "bounty": 0.0,
+        "rake": 0.2
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 81.0,
+        "registered_players": 19,
+        "speed": "turbo",
+        "start_date": "2015/12/21 19:10:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "qualifier"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "fran1664",
+            "init_stack": 340.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 740.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "daminatorx",
+            "init_stack": 1275.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": ".BLEKLEROC.",
+            "init_stack": 2800.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Tacktik",
+            "init_stack": 370.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6c",
+        "second_card": "Jh"
+    },
+    "postings": [
+        {
+            "name": "fran1664",
+            "amount": 40.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "daminatorx",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": ".BLEKLEROC.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tacktik",
+                "action": "raises",
+                "amount": 290.0
+            },
+            {
+                "player": "fran1664",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "daminatorx",
+                "action": "calls",
+                "amount": 290.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4c",
+        "flop_card_2": "5h",
+        "flop_card_3": "4h"
+    },
+    "turn": {
+        "turn_card": "Th"
+    },
+    "river": {
+        "river_card": "Qd"
+    },
+    "showdown": {
+        "fran1664": {
+            "first_card": "9s",
+            "second_card": "Ad"
+        },
+        "daminatorx": {
+            "first_card": "Ts",
+            "second_card": "9h"
+        },
+        "Tacktik": {
+            "first_card": "Js",
+            "second_card": "Td"
+        }
+    },
+    "winners": {
+        "Tacktik": {
+            "amount": 580.0,
+            "pot_type": "pot"
+        },
+        "daminatorx": {
+            "amount": 580.0,
+            "pot_type": "pot"
+        }
+    }
+}

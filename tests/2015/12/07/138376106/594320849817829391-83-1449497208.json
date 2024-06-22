@@ -1,0 +1,219 @@
+{
+    "hand_id": "594320849817829391-83-1449497208",
+    "datetime": "07-12-2015 14:06:48",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 8,
+        "ante": 60.0,
+        "sb": 300.0,
+        "bb": 600.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138376106",
+        "table_number": "014",
+        "prize_pool": 2875.5,
+        "registered_players": 639,
+        "speed": "normal",
+        "start_date": "2015/12/07 12:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": ".restart.",
+            "init_stack": 33344.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "maxcalll1",
+            "init_stack": 332.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "JEP973",
+            "init_stack": 36296.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "crapou",
+            "init_stack": 32600.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 16460.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "TheCat77",
+            "init_stack": 24360.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Js",
+        "second_card": "3d"
+    },
+    "postings": [
+        {
+            "name": "crapou",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": ".restart.",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "maxcalll1",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "JEP973",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TheCat77",
+            "amount": 60.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "crapou",
+            "amount": 300.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 600.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "TheCat77",
+                "action": "raises",
+                "amount": 600.0
+            },
+            {
+                "player": ".restart.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "maxcalll1",
+                "action": "calls",
+                "amount": 272.0
+            },
+            {
+                "player": "JEP973",
+                "action": "calls",
+                "amount": 1200.0
+            },
+            {
+                "player": "crapou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "TheCat77",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "JEP973",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "TheCat77",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "JEP973",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "TheCat77",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "JEP973",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "5c",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "9h"
+    },
+    "showdown": {
+        "maxcalll1": {
+            "first_card": "Kh",
+            "second_card": "7c"
+        },
+        "JEP973": {
+            "first_card": "7d",
+            "second_card": "As"
+        },
+        "TheCat77": {
+            "first_card": "7s",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "TheCat77": {
+            "amount": 1966.0,
+            "pot_type": "pot"
+        },
+        "JEP973": {
+            "amount": 1966.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "hand_id": "556729724085207088-163-1442672782",
+    "datetime": "19-09-2015 14:26:22",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 18,
+        "ante": 820.0,
+        "sb": 3000.0,
+        "bb": 6000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "047",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Paranada",
+            "init_stack": 76913.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 56478.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "K_Or_p",
+            "init_stack": 173473.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Zissell",
+            "init_stack": 212620.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "titoche31",
+            "init_stack": 87196.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4s",
+        "second_card": "Tc"
+    },
+    "postings": [
+        {
+            "name": "titoche31",
+            "amount": 820.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Paranada",
+            "amount": 820.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 820.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "K_Or_p",
+            "amount": 820.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Zissell",
+            "amount": 820.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "titoche31",
+            "amount": 3000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Paranada",
+            "amount": 6000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "K_Or_p",
+                "action": "raises",
+                "amount": 8047.0
+            },
+            {
+                "player": "Zissell",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "titoche31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Paranada",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "K_Or_p": {
+            "amount": 27147.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "hand_id": "596503771240988692-23-1449931045",
+    "datetime": "12-12-2015 14:37:25",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138884357",
+        "table_number": "019",
+        "prize_pool": 2218.5,
+        "registered_players": 493,
+        "speed": "semiturbo",
+        "start_date": "2015/12/12 14:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Jonjones67",
+            "init_stack": 17763.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "ChauVeDuCoN",
+            "init_stack": 9300.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "76logan",
+            "init_stack": 8025.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "filtsous",
+            "init_stack": 18900.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ABDULBACH",
+            "init_stack": 5861.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 13600.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "M.Seven",
+            "init_stack": 23376.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "fifi1664",
+            "init_stack": 12875.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "Tc"
+    },
+    "postings": [
+        {
+            "name": "ABDULBACH",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "M.Seven",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fifi1664",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jonjones67",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "ChauVeDuCoN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "76logan",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "filtsous",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ABDULBACH",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Jonjones67",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "76logan",
+                "action": "bets",
+                "amount": 525.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 1750.0
+            },
+            {
+                "player": "Jonjones67",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "76logan",
+                "action": "raises",
+                "amount": 5550.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 5550.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "2c",
+        "flop_card_3": "Kh"
+    },
+    "turn": {
+        "turn_card": "Jd"
+    },
+    "river": {
+        "river_card": "5c"
+    },
+    "showdown": {
+        "76logan": {
+            "first_card": "9h",
+            "second_card": "7h"
+        },
+        "manggy94": {
+            "first_card": "Ks",
+            "second_card": "Tc"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 16350.0,
+            "pot_type": "pot"
+        }
+    }
+}

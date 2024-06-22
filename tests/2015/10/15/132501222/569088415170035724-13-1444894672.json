@@ -1,0 +1,261 @@
+{
+    "hand_id": "569088415170035724-13-1444894672",
+    "datetime": "15-10-2015 07:37:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.7,
+        "bounty": 0.0,
+        "rake": 0.3
+    },
+    "level": {
+        "value": 4,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 326.7,
+        "registered_players": 121,
+        "speed": "normal",
+        "start_date": "2015/10/15 07:00:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "-Francky-btz",
+            "init_stack": 28175.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "raffleur000",
+            "init_stack": 34225.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Cool-AA-Kill",
+            "init_stack": 20925.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "xeno-1417",
+            "init_stack": 22375.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "meldid84",
+            "init_stack": 19425.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "El-Sharko-7",
+            "init_stack": 20000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 3825.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "grogneur 88",
+            "init_stack": 37075.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "magwemes",
+            "init_stack": 19575.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6s",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "name": "magwemes",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-Francky-btz",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "raffleur000",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Cool-AA-Kill",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "xeno-1417",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "meldid84",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "El-Sharko-7",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "grogneur 88",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "magwemes",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "-Francky-btz",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "raffleur000",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Cool-AA-Kill",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "xeno-1417",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "meldid84",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "El-Sharko-7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "grogneur 88",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "magwemes",
+                "action": "raises",
+                "amount": 1950.0
+            },
+            {
+                "player": "-Francky-btz",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "meldid84",
+                "action": "calls",
+                "amount": 1950.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1950.0
+            },
+            {
+                "player": "grogneur 88",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "magwemes",
+                "action": "bets",
+                "amount": 17300.0
+            },
+            {
+                "player": "meldid84",
+                "action": "calls",
+                "amount": 17150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1550.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "3h",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": "4c"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "meldid84": {
+            "first_card": "Td",
+            "second_card": "Th"
+        },
+        "manggy94": {
+            "first_card": "6s",
+            "second_card": "6d"
+        },
+        "magwemes": {
+            "first_card": "Ac",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "magwemes": {
+            "amount": 43575.0,
+            "pot_type": "pot"
+        }
+    }
+}

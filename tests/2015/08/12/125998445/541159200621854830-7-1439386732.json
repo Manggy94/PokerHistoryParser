@@ -1,0 +1,181 @@
+{
+    "hand_id": "541159200621854830-7-1439386732",
+    "datetime": "12-08-2015 13:38:52",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125998445",
+        "table_number": "109",
+        "prize_pool": 100.0,
+        "registered_players": 4002,
+        "speed": "turbo",
+        "start_date": "2015/08/12 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Filippo31",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "34kikou34",
+            "init_stack": 3974.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "psycologique",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Survivor",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "LEMAK74",
+            "init_stack": 11231.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "pinok33260",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "davstreemer",
+            "init_stack": 2990.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 6520.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Pacman05",
+            "init_stack": 2945.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2c",
+        "second_card": "7h"
+    },
+    "postings": [
+        {
+            "name": "Survivor",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "LEMAK74",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "pinok33260",
+                "action": "raises",
+                "amount": 2960.0
+            },
+            {
+                "player": "davstreemer",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pacman05",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Filippo31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "34kikou34",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "psycologique",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Survivor",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LEMAK74",
+                "action": "calls",
+                "amount": 2960.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qd",
+        "flop_card_2": "8d",
+        "flop_card_3": "3c"
+    },
+    "turn": {
+        "turn_card": "Qs"
+    },
+    "river": {
+        "river_card": "6h"
+    },
+    "showdown": {
+        "pinok33260": {
+            "first_card": "Kd",
+            "second_card": "9d"
+        },
+        "LEMAK74": {
+            "first_card": "As",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "LEMAK74": {
+            "amount": 6020.0,
+            "pot_type": "pot"
+        }
+    }
+}

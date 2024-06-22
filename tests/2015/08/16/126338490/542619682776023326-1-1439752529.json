@@ -1,0 +1,205 @@
+{
+    "hand_id": "542619682776023326-1-1439752529",
+    "datetime": "16-08-2015 19:15:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126338490",
+        "table_number": "0285",
+        "prize_pool": 250.0,
+        "registered_players": 6390,
+        "speed": "turbo",
+        "start_date": "2015/08/16 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "moradpsg",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "fuegogtx",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Murat67500",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JULIE_1991",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "sokoman",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "mouscraife",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "nico991",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "75-Dabou",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "As"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "sokoman",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "mouscraife",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "nico991",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "75-Dabou",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "moradpsg",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fuegogtx",
+                "action": "raises",
+                "amount": 80.0
+            },
+            {
+                "player": "Murat67500",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "JULIE_1991",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 260.0
+            },
+            {
+                "player": "sokoman",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mouscraife",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "75-Dabou",
+                "action": "raises",
+                "amount": 2640.0
+            },
+            {
+                "player": "fuegogtx",
+                "action": "calls",
+                "amount": 2900.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 2640.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ts",
+        "flop_card_2": "9s",
+        "flop_card_3": "7c"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "Jd",
+            "second_card": "As"
+        },
+        "75-Dabou": {
+            "first_card": "Ad",
+            "second_card": "Kc"
+        },
+        "fuegogtx": {
+            "first_card": "Qs",
+            "second_card": "Ks"
+        }
+    },
+    "winners": {
+        "fuegogtx": {
+            "amount": 9040.0,
+            "pot_type": "pot"
+        }
+    }
+}

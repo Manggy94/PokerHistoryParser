@@ -1,0 +1,236 @@
+{
+    "hand_id": "552788125223485869-3-1441882803",
+    "datetime": "10-09-2015 11:00:03",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 8,
+        "ante": 20.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128706015",
+        "table_number": "428",
+        "prize_pool": 100.0,
+        "registered_players": 4250,
+        "speed": "turbo",
+        "start_date": "2015/09/10 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "oO TAKEO Oo",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Centoxx",
+            "init_stack": 2650.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "lvmagicien",
+            "init_stack": 2240.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Tatine45",
+            "init_stack": 4715.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "karlito331",
+            "init_stack": 2965.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 8015.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "TABLESUN",
+            "init_stack": 7425.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "iat2914",
+            "init_stack": 20813.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Vadila",
+            "init_stack": 5840.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "8d"
+    },
+    "postings": [
+        {
+            "name": "Tatine45",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "karlito331",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "oO TAKEO Oo",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Centoxx",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lvmagicien",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "TABLESUN",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "iat2914",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Vadila",
+            "amount": 20.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tatine45",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "karlito331",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "TABLESUN",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "iat2914",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "Vadila",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "oO TAKEO Oo",
+                "action": "calls",
+                "amount": 200.0
+            },
+            {
+                "player": "Centoxx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lvmagicien",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tatine45",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "karlito331",
+                "action": "raises",
+                "amount": 2745.0
+            },
+            {
+                "player": "iat2914",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "oO TAKEO Oo",
+                "action": "calls",
+                "amount": 2745.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3c",
+        "flop_card_2": "5d",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": "5s"
+    },
+    "river": {
+        "river_card": "9c"
+    },
+    "showdown": {
+        "oO TAKEO Oo": {
+            "first_card": "Qc",
+            "second_card": "Kh"
+        },
+        "karlito331": {
+            "first_card": "8h",
+            "second_card": "Ad"
+        }
+    },
+    "winners": {
+        "karlito331": {
+            "amount": 6370.0,
+            "pot_type": "pot"
+        }
+    }
+}

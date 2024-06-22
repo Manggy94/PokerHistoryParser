@@ -1,0 +1,172 @@
+{
+    "hand_id": "556729724085207075-69-1442667015",
+    "datetime": "19-09-2015 12:50:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 7,
+        "ante": 40.0,
+        "sb": 250.0,
+        "bb": 500.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "034",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 47170.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Joffeyr",
+            "init_stack": 11027.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "mamoon85420",
+            "init_stack": 46796.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Pacoste1",
+            "init_stack": 11080.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Galinette66",
+            "init_stack": 6241.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "Galinette66",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Joffeyr",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mamoon85420",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Pacoste1",
+            "amount": 40.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Galinette66",
+            "amount": 250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Joffeyr",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mamoon85420",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pacoste1",
+                "action": "raises",
+                "amount": 500.0
+            },
+            {
+                "player": "Galinette66",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 2450.0
+            },
+            {
+                "player": "Pacoste1",
+                "action": "raises",
+                "amount": 7590.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 7590.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kh",
+        "flop_card_2": "9s",
+        "flop_card_3": "Qh"
+    },
+    "turn": {
+        "turn_card": "5c"
+    },
+    "river": {
+        "river_card": "2s"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "9c",
+            "second_card": "6h"
+        },
+        "Pacoste1": {
+            "first_card": "Js",
+            "second_card": "Jh"
+        }
+    },
+    "winners": {
+        "Pacoste1": {
+            "amount": 22530.0,
+            "pot_type": "pot"
+        }
+    }
+}

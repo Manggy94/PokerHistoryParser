@@ -1,0 +1,233 @@
+{
+    "hand_id": "571496727886954504-124-1445363537",
+    "datetime": "20-10-2015 17:52:17",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 13,
+        "ante": 320.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1759.5,
+        "registered_players": 391,
+        "speed": "normal",
+        "start_date": "2015/10/20 15:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "PAT_THE OLD",
+            "init_stack": 78896.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Hideo-Kojima",
+            "init_stack": 29650.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "KKnet",
+            "init_stack": 72730.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "winamax6100",
+            "init_stack": 26465.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 77081.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "ShoWShaR",
+            "init_stack": 34081.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "bens23",
+            "init_stack": 66747.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "misequuncoup",
+            "init_stack": 167807.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Ohlebatard06",
+            "init_stack": 98264.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "7d"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ShoWShaR",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PAT_THE OLD",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Hideo-Kojima",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "KKnet",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "winamax6100",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bens23",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "misequuncoup",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ohlebatard06",
+            "amount": 320.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ShoWShaR",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "bens23",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "misequuncoup",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ohlebatard06",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PAT_THE OLD",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Hideo-Kojima",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KKnet",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "winamax6100",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ShoWShaR",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "ShoWShaR",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "bens23",
+                "action": "bets",
+                "amount": 2500.0
+            },
+            {
+                "player": "ShoWShaR",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "8c",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "bens23": {
+            "amount": 11630.0,
+            "pot_type": "pot"
+        }
+    }
+}

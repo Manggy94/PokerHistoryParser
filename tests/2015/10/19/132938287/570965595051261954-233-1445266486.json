@@ -1,0 +1,185 @@
+{
+    "hand_id": "570965595051261954-233-1445266486",
+    "datetime": "19-10-2015 14:54:46",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 21,
+        "ante": 1700.0,
+        "sb": 6000.0,
+        "bb": 12000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "132938287",
+        "table_number": "001",
+        "prize_pool": 1757.0,
+        "registered_players": 502,
+        "speed": "semiturbo",
+        "start_date": "2015/10/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "montiti42",
+            "init_stack": 311526.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "CHRISFAB34",
+            "init_stack": 534826.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "chipal",
+            "init_stack": 232788.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Kwad9seya",
+            "init_stack": 71740.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ReddinG",
+            "init_stack": 315804.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 230248.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "chipal",
+            "amount": 1700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Kwad9seya",
+            "amount": 1700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "montiti42",
+            "amount": 1700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CHRISFAB34",
+            "amount": 1700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ReddinG",
+            "amount": 1700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "chipal",
+            "amount": 6000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Kwad9seya",
+            "amount": 12000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ReddinG",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 40200.0
+            },
+            {
+                "player": "montiti42",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CHRISFAB34",
+                "action": "calls",
+                "amount": 52200.0
+            },
+            {
+                "player": "chipal",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Kwad9seya",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "CHRISFAB34",
+                "action": "bets",
+                "amount": 66300.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6d",
+        "flop_card_2": "Jc",
+        "flop_card_3": "4d"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "CHRISFAB34": {
+            "amount": 198900.0,
+            "pot_type": "pot"
+        }
+    }
+}

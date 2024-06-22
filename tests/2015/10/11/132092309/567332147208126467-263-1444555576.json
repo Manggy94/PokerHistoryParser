@@ -1,0 +1,188 @@
+{
+    "hand_id": "567332147208126467-263-1444555576",
+    "datetime": "11-10-2015 09:26:16",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 4.5,
+        "bounty": 0.0,
+        "rake": 0.5
+    },
+    "level": {
+        "value": 12,
+        "ante": 240.0,
+        "sb": 1000.0,
+        "bb": 2000.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 1332.0,
+        "registered_players": 296,
+        "speed": "normal",
+        "start_date": "2015/10/11 07:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 4,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 104437.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "river.fight",
+            "init_stack": 82007.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "PSEUDOMICHEL",
+            "init_stack": 149413.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lmira77",
+            "init_stack": 64976.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Tc",
+        "second_card": "Jh"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "river.fight",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "PSEUDOMICHEL",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lmira77",
+            "amount": 240.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "river.fight",
+            "amount": 2000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "PSEUDOMICHEL",
+                "action": "raises",
+                "amount": 2000.0
+            },
+            {
+                "player": "lmira77",
+                "action": "calls",
+                "amount": 4000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "river.fight",
+                "action": "calls",
+                "amount": 2000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "river.fight",
+                "action": "bets",
+                "amount": 12720.0
+            },
+            {
+                "player": "PSEUDOMICHEL",
+                "action": "calls",
+                "amount": 12720.0
+            },
+            {
+                "player": "lmira77",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "river.fight",
+                "action": "bets",
+                "amount": 31800.0
+            },
+            {
+                "player": "PSEUDOMICHEL",
+                "action": "raises",
+                "amount": 100653.0
+            },
+            {
+                "player": "river.fight",
+                "action": "calls",
+                "amount": 33247.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "7h",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "9h"
+    },
+    "river": {
+        "river_card": "Td"
+    },
+    "showdown": {
+        "river.fight": {
+            "first_card": "5h",
+            "second_card": "5s"
+        },
+        "PSEUDOMICHEL": {
+            "first_card": "Ah",
+            "second_card": "Qh"
+        }
+    },
+    "winners": {
+        "PSEUDOMICHEL": {
+            "amount": 239900.0,
+            "pot_type": "pot"
+        }
+    }
+}

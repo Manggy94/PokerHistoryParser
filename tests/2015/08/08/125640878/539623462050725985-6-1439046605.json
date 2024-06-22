@@ -1,0 +1,191 @@
+{
+    "hand_id": "539623462050725985-6-1439046605",
+    "datetime": "08-08-2015 15:10:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125640878",
+        "table_number": "096",
+        "prize_pool": 150.0,
+        "registered_players": 4151,
+        "speed": "turbo",
+        "start_date": "2015/08/08 15:00:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "john97600",
+            "init_stack": 2820.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "jeanfan",
+            "init_stack": 3050.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "karasayan44",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "ADAMlou",
+            "init_stack": 3105.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "HOLMES133",
+            "init_stack": 3160.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Joe Li",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "celpotuss",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sarrazyn",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "8h",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "karasayan44",
+            "amount": 30.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "ADAMlou",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "HOLMES133",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Joe Li",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "celpotuss",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sarrazyn",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "john97600",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "jeanfan",
+                "action": "calls",
+                "amount": 60.0
+            },
+            {
+                "player": "karasayan44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ADAMlou",
+                "action": "raises",
+                "amount": 3045.0
+            },
+            {
+                "player": "john97600",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jeanfan",
+                "action": "calls",
+                "amount": 2990.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ac",
+        "flop_card_2": "3c",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": "9c"
+    },
+    "showdown": {
+        "jeanfan": {
+            "first_card": "Qh",
+            "second_card": "Jd"
+        },
+        "ADAMlou": {
+            "first_card": "As",
+            "second_card": "Qs"
+        }
+    },
+    "winners": {
+        "ADAMlou": {
+            "amount": 6245.0,
+            "pot_type": "pot"
+        }
+    }
+}

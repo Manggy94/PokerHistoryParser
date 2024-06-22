@@ -1,0 +1,193 @@
+{
+    "hand_id": "594320888472535067-10-1449498743",
+    "datetime": "07-12-2015 14:32:23",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "138376115",
+        "table_number": "026",
+        "prize_pool": 1957.5,
+        "registered_players": 435,
+        "speed": "semiturbo",
+        "start_date": "2015/12/07 14:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "hona19",
+            "init_stack": 9850.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "vincedesbois",
+            "init_stack": 9825.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "fouuuuu57",
+            "init_stack": 7625.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Glatrick",
+            "init_stack": 13375.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CrazyFred02",
+            "init_stack": 8800.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "mouskitos57",
+            "init_stack": 9425.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Djaystyle",
+            "init_stack": 21150.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7c",
+        "second_card": "Qd"
+    },
+    "postings": [
+        {
+            "name": "mouskitos57",
+            "amount": 75.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Djaystyle",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "hona19",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vincedesbois",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fouuuuu57",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Glatrick",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "CrazyFred02",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mouskitos57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Djaystyle",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fouuuuu57",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "fouuuuu57",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Glatrick",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "fouuuuu57",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Glatrick",
+                "action": "bets",
+                "amount": 450.0
+            },
+            {
+                "player": "fouuuuu57",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2c",
+        "flop_card_2": "Jh",
+        "flop_card_3": "4c"
+    },
+    "turn": {
+        "turn_card": "3c"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Glatrick": {
+            "amount": 1575.0,
+            "pot_type": "pot"
+        }
+    }
+}

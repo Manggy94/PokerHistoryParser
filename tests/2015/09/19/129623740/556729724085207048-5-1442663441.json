@@ -1,0 +1,139 @@
+{
+    "hand_id": "556729724085207048-5-1442663441",
+    "datetime": "19-09-2015 11:50:41",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 25.0,
+        "bb": 50.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "129623740",
+        "table_number": "007",
+        "prize_pool": 1634.5,
+        "registered_players": 467,
+        "speed": "semiturbo",
+        "start_date": "2015/09/19 11:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "AlbinosWolf",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Pacoste1",
+            "init_stack": 10050.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "cavadaller",
+            "init_stack": 8166.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "PATFISH",
+            "init_stack": 12109.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lefavorie",
+            "init_stack": 9925.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ts",
+        "second_card": "7c"
+    },
+    "postings": [
+        {
+            "name": "cavadaller",
+            "amount": 25.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "PATFISH",
+            "amount": 50.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lefavorie",
+                "action": "raises",
+                "amount": 50.0
+            },
+            {
+                "player": "AlbinosWolf",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Pacoste1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cavadaller",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "PATFISH",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "lefavorie": {
+            "amount": 175.0,
+            "pot_type": "pot"
+        }
+    }
+}

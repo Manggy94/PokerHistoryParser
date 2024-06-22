@@ -1,0 +1,161 @@
+{
+    "hand_id": "571791130715226113-8-1444152310",
+    "datetime": "06-10-2015 17:25:10",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block - Deglingos",
+        "tournament_id": "133130497",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/06 17:19:36 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "kridojm",
+            "init_stack": 1030.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "DonPapaStyle",
+            "init_stack": 760.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BROKA",
+            "init_stack": 2075.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manggy94",
+            "init_stack": 690.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Green_Knight",
+            "init_stack": 445.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4d",
+        "second_card": "3h"
+    },
+    "postings": [
+        {
+            "name": "kridojm",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "DonPapaStyle",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "BROKA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Green_Knight",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kridojm",
+                "action": "calls",
+                "amount": 15.0
+            },
+            {
+                "player": "DonPapaStyle",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "kridojm",
+                "action": "bets",
+                "amount": 30.0
+            },
+            {
+                "player": "DonPapaStyle",
+                "action": "calls",
+                "amount": 30.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "kridojm",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "DonPapaStyle",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "kridojm",
+                "action": "bets",
+                "amount": 120.0
+            },
+            {
+                "player": "DonPapaStyle",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jd",
+        "flop_card_2": "7s",
+        "flop_card_3": "8s"
+    },
+    "turn": {
+        "turn_card": "Td"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {},
+    "winners": {
+        "kridojm": {
+            "amount": 240.0,
+            "pot_type": "pot"
+        }
+    }
+}

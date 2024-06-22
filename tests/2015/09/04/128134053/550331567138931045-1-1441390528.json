@@ -1,0 +1,205 @@
+{
+    "hand_id": "550331567138931045-1-1441390528",
+    "datetime": "04-09-2015 18:15:28",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128134053",
+        "table_number": "0356",
+        "prize_pool": 150.0,
+        "registered_players": 5407,
+        "speed": "turbo",
+        "start_date": "2015/09/04 18:15:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Mours38",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "kothie",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "rusty13",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "papapok85",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "high tech",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "peter08",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Chips-Dealer",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "M c10",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "3c"
+    },
+    "postings": [
+        {
+            "name": "M c10",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "manggy94",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Mours38",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "kothie",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rusty13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "papapok85",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "high tech",
+                "action": "raises",
+                "amount": 130.0
+            },
+            {
+                "player": "peter08",
+                "action": "raises",
+                "amount": 350.0
+            },
+            {
+                "player": "Chips-Dealer",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "M c10",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Mours38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "high tech",
+                "action": "raises",
+                "amount": 2500.0
+            },
+            {
+                "player": "peter08",
+                "action": "calls",
+                "amount": 2500.0
+            },
+            {
+                "player": "Chips-Dealer",
+                "action": "calls",
+                "amount": 2500.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qs",
+        "flop_card_2": "Qh",
+        "flop_card_3": "5s"
+    },
+    "turn": {
+        "turn_card": "4h"
+    },
+    "river": {
+        "river_card": "4d"
+    },
+    "showdown": {
+        "high tech": {
+            "first_card": "As",
+            "second_card": "Kd"
+        },
+        "Chips-Dealer": {
+            "first_card": "Kh",
+            "second_card": "Td"
+        },
+        "peter08": {
+            "first_card": "Tc",
+            "second_card": "Qd"
+        }
+    },
+    "winners": {
+        "peter08": {
+            "amount": 9050.0,
+            "pot_type": "pot"
+        }
+    }
+}

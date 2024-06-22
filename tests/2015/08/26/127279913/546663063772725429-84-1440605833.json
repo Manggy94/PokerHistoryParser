@@ -1,0 +1,206 @@
+{
+    "hand_id": "546663063772725429-84-1440605833",
+    "datetime": "26-08-2015 16:17:13",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 23,
+        "ante": 700.0,
+        "sb": 3000.0,
+        "bb": 6000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279913",
+        "table_number": "180",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/26 15:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "bilou11111",
+            "init_stack": 71635.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 24803.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "luffyzorro7",
+            "init_stack": 120849.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "lensois5962",
+            "init_stack": 105125.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "fripounet44",
+            "init_stack": 48432.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "MEMO26",
+            "init_stack": 64976.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "CristianOzil",
+            "init_stack": 38618.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "xxxThug13xxx",
+            "init_stack": 49394.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "sebou06210",
+            "init_stack": 15879.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6d",
+        "second_card": "Jc"
+    },
+    "postings": [
+        {
+            "name": "CristianOzil",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "xxxThug13xxx",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "bilou11111",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "luffyzorro7",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "lensois5962",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "sebou06210",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CristianOzil",
+            "amount": 3000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "xxxThug13xxx",
+            "amount": 6000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "sebou06210",
+                "action": "raises",
+                "amount": 9179.0
+            },
+            {
+                "player": "bilou11111",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "luffyzorro7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lensois5962",
+                "action": "calls",
+                "amount": 15179.0
+            },
+            {
+                "player": "CristianOzil",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "xxxThug13xxx",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qh",
+        "flop_card_2": "Jd",
+        "flop_card_3": "Qs"
+    },
+    "turn": {
+        "turn_card": "4c"
+    },
+    "river": {
+        "river_card": "8h"
+    },
+    "showdown": {
+        "lensois5962": {
+            "first_card": "As",
+            "second_card": "5c"
+        },
+        "sebou06210": {
+            "first_card": "Ts",
+            "second_card": "Td"
+        }
+    },
+    "winners": {
+        "sebou06210": {
+            "amount": 44258.0,
+            "pot_type": "pot"
+        }
+    }
+}

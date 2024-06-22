@@ -1,0 +1,162 @@
+{
+    "hand_id": "545387621694571137-14-1440348142",
+    "datetime": "23-08-2015 16:42:22",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 3,
+        "ante": 0.0,
+        "sb": 30.0,
+        "bb": 60.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126982951",
+        "table_number": "640",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/23 16:30:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "FREEDY43",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Zeepeek78",
+            "init_stack": 3320.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "pierrefra813",
+            "init_stack": 4555.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 2750.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Sman069",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Nico-82",
+            "init_stack": 4360.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qd",
+        "second_card": "2s"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 60.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Sman069",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Nico-82",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "FREEDY43",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Zeepeek78",
+                "action": "calls",
+                "amount": 180.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Nico-82",
+                "action": "bets",
+                "amount": 210.0
+            },
+            {
+                "player": "Zeepeek78",
+                "action": "calls",
+                "amount": 210.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Nico-82",
+                "action": "bets",
+                "amount": 180.0
+            },
+            {
+                "player": "Zeepeek78",
+                "action": "calls",
+                "amount": 180.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Nico-82",
+                "action": "bets",
+                "amount": 600.0
+            },
+            {
+                "player": "Zeepeek78",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Qc",
+        "flop_card_2": "Kc",
+        "flop_card_3": "8d"
+    },
+    "turn": {
+        "turn_card": "Th"
+    },
+    "river": {
+        "river_card": "Jd"
+    },
+    "showdown": {},
+    "winners": {
+        "Nico-82": {
+            "amount": 1800.0,
+            "pot_type": "pot"
+        }
+    }
+}

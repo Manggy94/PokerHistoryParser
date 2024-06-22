@@ -1,0 +1,210 @@
+{
+    "hand_id": "572025648814489602-65-1445437262",
+    "datetime": "21-10-2015 14:21:02",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 10,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133185100",
+        "table_number": "001",
+        "prize_pool": 931.0,
+        "registered_players": 266,
+        "speed": "semiturbo",
+        "start_date": "2015/10/21 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ibra68",
+            "init_stack": 34131.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Ste Therese",
+            "init_stack": 42070.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "RaiseMou",
+            "init_stack": 17150.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "A.Stremilova",
+            "init_stack": 15236.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 8060.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "NjoyUrStay",
+            "init_stack": 25874.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "deuf73",
+            "init_stack": 50640.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Sir.WinALot",
+            "init_stack": 12910.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Kc",
+        "second_card": "9d"
+    },
+    "postings": [
+        {
+            "name": "NjoyUrStay",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "deuf73",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ibra68",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ste Therese",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "RaiseMou",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "A.Stremilova",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sir.WinALot",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NjoyUrStay",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "deuf73",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Sir.WinALot",
+                "action": "raises",
+                "amount": 11810.0
+            },
+            {
+                "player": "ibra68",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ste Therese",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "RaiseMou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "A.Stremilova",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NjoyUrStay",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "deuf73",
+                "action": "calls",
+                "amount": 11810.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "As",
+        "flop_card_2": "7s",
+        "flop_card_3": "Th"
+    },
+    "turn": {
+        "turn_card": "3d"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {
+        "deuf73": {
+            "first_card": "9s",
+            "second_card": "Ts"
+        },
+        "Sir.WinALot": {
+            "first_card": "Qc",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "Sir.WinALot": {
+            "amount": 26920.0,
+            "pot_type": "pot"
+        }
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "hand_id": "550711753349006106-43-1441487154",
+    "datetime": "05-09-2015 21:05:54",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "793",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Gojko",
+            "init_stack": 2235.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Jessima",
+            "init_stack": 15895.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 15054.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "guidelph",
+            "init_stack": 21983.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "jackjack3494",
+            "init_stack": 17673.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "techete",
+            "init_stack": 18666.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9s",
+        "second_card": "7s"
+    },
+    "postings": [
+        {
+            "name": "techete",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Gojko",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jessima",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "guidelph",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jackjack3494",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "techete",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Gojko",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Jessima",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "guidelph",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jackjack3494",
+                "action": "raises",
+                "amount": 2000.0
+            },
+            {
+                "player": "techete",
+                "action": "raises",
+                "amount": 15566.0
+            },
+            {
+                "player": "Gojko",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jackjack3494",
+                "action": "calls",
+                "amount": 14573.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "Ad",
+        "flop_card_3": "5s"
+    },
+    "turn": {
+        "turn_card": "Qd"
+    },
+    "river": {
+        "river_card": "Kh"
+    },
+    "showdown": {
+        "jackjack3494": {
+            "first_card": "9d",
+            "second_card": "Jh"
+        },
+        "techete": {
+            "first_card": "As",
+            "second_card": "Qs"
+        }
+    },
+    "winners": {
+        "techete": {
+            "amount": 37739.0,
+            "pot_type": "pot"
+        }
+    }
+}

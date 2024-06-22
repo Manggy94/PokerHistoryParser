@@ -1,0 +1,144 @@
+{
+    "hand_id": "572291326901485569-18-1444238018",
+    "datetime": "07-10-2015 17:13:38",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 5,
+        "ante": 0.0,
+        "sb": 60.0,
+        "bb": 120.0
+    },
+    "tournament_info": {
+        "tournament_name": "Starting Block Winamax Poker Tour",
+        "tournament_id": "133246958",
+        "table_number": "0",
+        "prize_pool": 0.0,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/10/07 16:56:18 UTC",
+        "levels_structure": [],
+        "tournament_type": "winamaxpokertour"
+    },
+    "max_players": 10,
+    "button_seat": 2,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "fredoka",
+            "init_stack": 7877.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Anahata",
+            "init_stack": 1037.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "jmds63",
+            "init_stack": 2140.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Romain.26",
+            "init_stack": 1456.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "manggy94",
+            "init_stack": 2490.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ad",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "jmds63",
+            "amount": 60.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Romain.26",
+            "amount": 120.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "fredoka",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Anahata",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jmds63",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Romain.26",
+                "action": "calls",
+                "amount": 300.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Romain.26",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 900.0
+            },
+            {
+                "player": "Romain.26",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3s",
+        "flop_card_2": "6s",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 1800.0,
+            "pot_type": "pot"
+        }
+    }
+}

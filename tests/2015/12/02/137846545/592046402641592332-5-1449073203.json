@@ -1,0 +1,243 @@
+{
+    "hand_id": "592046402641592332-5-1449073203",
+    "datetime": "02-12-2015 16:20:03",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 50.0,
+        "bb": 100.0
+    },
+    "tournament_info": {
+        "tournament_name": "Kill The Fish",
+        "tournament_id": "137846545",
+        "table_number": "011",
+        "prize_pool": 1701.0,
+        "registered_players": 378,
+        "speed": "turbo",
+        "start_date": "2015/12/02 16:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "JeremyVts",
+            "init_stack": 9350.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tresores026",
+            "init_stack": 9650.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Asse74x",
+            "init_stack": 9650.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "xaneta7",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "pOte-pOte",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "lapuce59999",
+            "init_stack": 11800.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 9800.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "NeverRest",
+            "init_stack": 9750.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "5s"
+    },
+    "postings": [
+        {
+            "name": "tresores026",
+            "amount": 50.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Asse74x",
+            "amount": 100.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "xaneta7",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "pOte-pOte",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lapuce59999",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NeverRest",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "JeremyVts",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tresores026",
+                "action": "calls",
+                "amount": 50.0
+            },
+            {
+                "player": "Asse74x",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "tresores026",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Asse74x",
+                "action": "bets",
+                "amount": 300.0
+            },
+            {
+                "player": "lapuce59999",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "NeverRest",
+                "action": "raises",
+                "amount": 767.0
+            },
+            {
+                "player": "tresores026",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Asse74x",
+                "action": "calls",
+                "amount": 767.0
+            },
+            {
+                "player": "lapuce59999",
+                "action": "calls",
+                "amount": 767.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Asse74x",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lapuce59999",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "NeverRest",
+                "action": "bets",
+                "amount": 2600.0
+            },
+            {
+                "player": "Asse74x",
+                "action": "calls",
+                "amount": 2600.0
+            },
+            {
+                "player": "lapuce59999",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Asse74x",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "NeverRest",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7s",
+        "flop_card_2": "4c",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": "Kc"
+    },
+    "showdown": {
+        "Asse74x": {
+            "first_card": "6c",
+            "second_card": "Td"
+        },
+        "NeverRest": {
+            "first_card": "7c",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "NeverRest": {
+            "amount": 8801.0,
+            "pot_type": "pot"
+        }
+    }
+}

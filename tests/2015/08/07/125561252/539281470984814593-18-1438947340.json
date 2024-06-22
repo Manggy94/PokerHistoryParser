@@ -1,0 +1,191 @@
+{
+    "hand_id": "539281470984814593-18-1438947340",
+    "datetime": "07-08-2015 11:35:40",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Omaha",
+        "tournament_id": "125561252",
+        "table_number": "000",
+        "prize_pool": 1000.0,
+        "registered_players": 40,
+        "speed": "normal",
+        "start_date": "2015/08/07 11:15:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Adamarcus",
+            "init_stack": 4740.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 1200.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Mistral13480",
+            "init_stack": 10120.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "rgr51",
+            "init_stack": 3435.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "34Ricardo",
+            "init_stack": 2235.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": null,
+        "first_card": null,
+        "second_card": null
+    },
+    "postings": [
+        {
+            "name": "34Ricardo",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Adamarcus",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "rgr51",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "34Ricardo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "rgr51",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "34Ricardo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "rgr51",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "34Ricardo",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Adamarcus",
+                "action": "bets",
+                "amount": 40.0
+            },
+            {
+                "player": "Mistral13480",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rgr51",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "34Ricardo",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8s",
+        "flop_card_2": "Js",
+        "flop_card_3": "Ts"
+    },
+    "turn": {
+        "turn_card": "2s"
+    },
+    "river": {
+        "river_card": "Qd"
+    },
+    "showdown": {},
+    "winners": {
+        "Adamarcus": {
+            "amount": 240.0,
+            "pot_type": "pot"
+        }
+    }
+}

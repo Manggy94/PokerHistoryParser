@@ -1,0 +1,211 @@
+{
+    "hand_id": "542256397262258345-4-1439666531",
+    "datetime": "15-08-2015 19:22:11",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0168",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 2980.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "papabouto18",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "fiston38",
+            "init_stack": 3240.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Fusiion",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "lio681",
+            "init_stack": 3250.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "chritelle",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "gnoukan",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "JeanBlues",
+            "init_stack": 3750.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Tea & riZ",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9s",
+        "second_card": "Js"
+    },
+    "postings": [
+        {
+            "name": "papabouto18",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "fiston38",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Fusiion",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lio681",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "chritelle",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gnoukan",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "JeanBlues",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tea & riZ",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "papabouto18",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fiston38",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lio681",
+                "action": "calls",
+                "amount": 120.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "lio681",
+                "action": "bets",
+                "amount": 80.0
+            },
+            {
+                "player": "gnoukan",
+                "action": "raises",
+                "amount": 540.0
+            },
+            {
+                "player": "lio681",
+                "action": "raises",
+                "amount": 2470.0
+            },
+            {
+                "player": "gnoukan",
+                "action": "calls",
+                "amount": 2220.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Th",
+        "flop_card_2": "8c",
+        "flop_card_3": "Jc"
+    },
+    "turn": {
+        "turn_card": "Ad"
+    },
+    "river": {
+        "river_card": "2h"
+    },
+    "showdown": {
+        "gnoukan": {
+            "first_card": "Ah",
+            "second_card": "As"
+        },
+        "lio681": {
+            "first_card": "Ts",
+            "second_card": "Jd"
+        }
+    },
+    "winners": {
+        "lio681": {
+            "amount": 250.0,
+            "pot_type": "side pot 1"
+        },
+        "gnoukan": {
+            "amount": 6060.0,
+            "pot_type": "main pot"
+        }
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "hand_id": "545388175745351720-1-1440355527",
+    "datetime": "23-08-2015 18:45:27",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Welcome Freeroll",
+        "tournament_id": "126983080",
+        "table_number": "039",
+        "prize_pool": 1000.0,
+        "registered_players": 1150,
+        "speed": "semiturbo",
+        "start_date": "2015/08/23 18:45:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Sleng93",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Damien93230",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "CashUrgent",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "-16-pascool",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "ziedzinedine",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Senia13",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "ORMA1",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "gareth.bale",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Qd",
+        "second_card": "2d"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gareth.bale",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Sleng93",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Damien93230",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "CashUrgent",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-16-pascool",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ziedzinedine",
+                "action": "raises",
+                "amount": 2980.0
+            },
+            {
+                "player": "Senia13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ORMA1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gareth.bale",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {
+        "Sleng93 folds\nDamien93230 folds\nCashUrgent folds\n-16-pascool folds\nziedzinedine raises 2980 to 3000 and is all-in\nSenia13 folds\nORMA1 folds\nmanggy94 folds\ngareth.bale folds\nziedzinedine": {
+            "first_card": "Ac",
+            "second_card": "Qs"
+        }
+    },
+    "winners": {
+        "ziedzinedine": {
+            "amount": 3030.0,
+            "pot_type": "pot"
+        }
+    }
+}

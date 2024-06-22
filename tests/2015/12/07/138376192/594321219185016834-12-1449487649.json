@@ -1,0 +1,222 @@
+{
+    "hand_id": "594321219185016834-12-1449487649",
+    "datetime": "07-12-2015 11:27:29",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "FAST FOOD",
+        "tournament_id": "138376192",
+        "table_number": "001",
+        "prize_pool": 1912.5,
+        "registered_players": 363,
+        "speed": "turbo",
+        "start_date": "2015/12/07 11:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Psg77400",
+            "init_stack": 49675.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "xxcalouxx",
+            "init_stack": 16775.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "D RiNoX",
+            "init_stack": 9700.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "sherinneAK",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "kezizou",
+            "init_stack": 9000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "m00k",
+            "init_stack": 28000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": ". com",
+            "init_stack": 6850.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5d",
+        "second_card": "5c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": ". com",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Psg77400",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "xxcalouxx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "D RiNoX",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "sherinneAK",
+                "action": "calls",
+                "amount": 300.0
+            },
+            {
+                "player": "kezizou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "m00k",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": ". com",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": ". com",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sherinneAK",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": ". com",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sherinneAK",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": ". com",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "sherinneAK",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "6h",
+        "flop_card_2": "8d",
+        "flop_card_3": "Ac"
+    },
+    "turn": {
+        "turn_card": "Ts"
+    },
+    "river": {
+        "river_card": "Qc"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "5d",
+            "second_card": "5c"
+        },
+        ". com": {
+            "first_card": "Kd",
+            "second_card": "7h"
+        },
+        "sherinneAK": {
+            "first_card": "9c",
+            "second_card": "6s"
+        }
+    },
+    "winners": {
+        "sherinneAK": {
+            "amount": 900.0,
+            "pot_type": "pot"
+        }
+    }
+}

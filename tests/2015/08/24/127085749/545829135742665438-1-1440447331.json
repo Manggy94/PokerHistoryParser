@@ -1,0 +1,225 @@
+{
+    "hand_id": "545829135742665438-1-1440447331",
+    "datetime": "24-08-2015 20:15:31",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127085749",
+        "table_number": "733",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/08/24 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "greta2004",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Pascaldas",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BukG",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "LeClaud",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Alex.BZH.22",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9h",
+        "second_card": "6d"
+    },
+    "postings": [
+        {
+            "name": "LeClaud",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Alex.BZH.22",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "greta2004",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Pascaldas",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "BukG",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LeClaud",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "Alex.BZH.22",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "LeClaud",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "greta2004",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Pascaldas",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "BukG",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "LeClaud",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "greta2004",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Pascaldas",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "BukG",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "LeClaud",
+                "action": "bets",
+                "amount": 100.0
+            },
+            {
+                "player": "greta2004",
+                "action": "calls",
+                "amount": 100.0
+            },
+            {
+                "player": "Pascaldas",
+                "action": "raises",
+                "amount": 400.0
+            },
+            {
+                "player": "BukG",
+                "action": "calls",
+                "amount": 500.0
+            },
+            {
+                "player": "LeClaud",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "greta2004",
+                "action": "calls",
+                "amount": 400.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "4h",
+        "flop_card_2": "Td",
+        "flop_card_3": "9s"
+    },
+    "turn": {
+        "turn_card": "Jh"
+    },
+    "river": {
+        "river_card": "Kh"
+    },
+    "showdown": {
+        "Pascaldas": {
+            "first_card": "7s",
+            "second_card": "Qc"
+        },
+        "BukG": {
+            "first_card": "2s",
+            "second_card": "Qs"
+        },
+        "greta2004": {
+            "first_card": "7h",
+            "second_card": "Qh"
+        }
+    },
+    "winners": {
+        "greta2004": {
+            "amount": 1700.0,
+            "pot_type": "pot"
+        }
+    }
+}

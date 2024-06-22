@@ -1,0 +1,143 @@
+{
+    "hand_id": "546253233698373685-91-1440508542",
+    "datetime": "25-08-2015 13:15:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 23,
+        "ante": 700.0,
+        "sb": 3000.0,
+        "bb": 6000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "052",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 17628.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "cililyla",
+            "init_stack": 60320.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "smoker2fish",
+            "init_stack": 172812.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Anonyme 38",
+            "init_stack": 81666.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "adnanos",
+            "init_stack": 115503.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5s",
+        "second_card": "4h"
+    },
+    "postings": [
+        {
+            "name": "adnanos",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cililyla",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "smoker2fish",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Anonyme 38",
+            "amount": 700.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "adnanos",
+            "amount": 6000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cililyla",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "smoker2fish",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Anonyme 38",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "adnanos": {
+            "amount": 9500.0,
+            "pot_type": "pot"
+        }
+    }
+}

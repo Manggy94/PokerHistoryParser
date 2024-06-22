@@ -1,0 +1,210 @@
+{
+    "hand_id": "539969864048050459-64-1439120400",
+    "datetime": "09-08-2015 11:40:00",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 21,
+        "ante": 400.0,
+        "sb": 2000.0,
+        "bb": 4000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125721531",
+        "table_number": "282",
+        "prize_pool": 100.0,
+        "registered_players": 4434,
+        "speed": "turbo",
+        "start_date": "2015/08/09 10:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 7,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "xxkeoxx",
+            "init_stack": 58875.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "laika om",
+            "init_stack": 51446.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "shlomi5999",
+            "init_stack": 13142.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 14046.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "corsica18",
+            "init_stack": 10925.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Tao974bdx",
+            "init_stack": 10245.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Lucky-Luke",
+            "init_stack": 50760.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "fred1965",
+            "init_stack": 42116.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "7d",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "Lucky-Luke",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fred1965",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "xxkeoxx",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "laika om",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "shlomi5999",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "corsica18",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tao974bdx",
+            "amount": 400.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Lucky-Luke",
+            "amount": 2000.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "fred1965",
+            "amount": 4000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "xxkeoxx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "laika om",
+                "action": "raises",
+                "amount": 47046.0
+            },
+            {
+                "player": "shlomi5999",
+                "action": "calls",
+                "amount": 12742.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "corsica18",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Tao974bdx",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Lucky-Luke",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fred1965",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Js",
+        "flop_card_2": "5h",
+        "flop_card_3": "4h"
+    },
+    "turn": {
+        "turn_card": "Qh"
+    },
+    "river": {
+        "river_card": "4d"
+    },
+    "showdown": {
+        "shlomi5999": {
+            "first_card": "Jh",
+            "second_card": "Qc"
+        },
+        "laika om": {
+            "first_card": "Ah",
+            "second_card": "As"
+        }
+    },
+    "winners": {
+        "laika om": {
+            "amount": 72988.0,
+            "pot_type": "pot"
+        }
+    }
+}

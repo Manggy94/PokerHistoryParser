@@ -1,0 +1,239 @@
+{
+    "hand_id": "541906086844694745-21-1439560451",
+    "datetime": "14-08-2015 13:54:11",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 7,
+        "ante": 15.0,
+        "sb": 75.0,
+        "bb": 150.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126172343",
+        "table_number": "216",
+        "prize_pool": 100.0,
+        "registered_players": 4436,
+        "speed": "turbo",
+        "start_date": "2015/08/14 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "dan80200",
+            "init_stack": 1760.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "manggy94",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "IcebergSlimy",
+            "init_stack": 5390.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "baptiste1608",
+            "init_stack": 5520.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "fugi57",
+            "init_stack": 2740.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "nounoute 24",
+            "init_stack": 5658.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Tez8z",
+            "init_stack": 24150.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "-Ecaflip-",
+            "init_stack": 2690.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "4c",
+        "second_card": "Ah"
+    },
+    "postings": [
+        {
+            "name": "fugi57",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dan80200",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "IcebergSlimy",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "baptiste1608",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nounoute 24",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Tez8z",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-Ecaflip-",
+            "amount": 15.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "fugi57",
+            "amount": 150.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "nounoute 24",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "Tez8z",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-Ecaflip-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "dan80200",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 150.0
+            },
+            {
+                "player": "IcebergSlimy",
+                "action": "raises",
+                "amount": 825.0
+            },
+            {
+                "player": "baptiste1608",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "fugi57",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "nounoute 24",
+                "action": "calls",
+                "amount": 825.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 825.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "nounoute 24",
+                "action": "bets",
+                "amount": 4668.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 510.0
+            },
+            {
+                "player": "IcebergSlimy",
+                "action": "calls",
+                "amount": 4400.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Kh",
+        "flop_card_2": "Jd",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "Qc"
+    },
+    "river": {
+        "river_card": "5c"
+    },
+    "showdown": {
+        "manggy94": {
+            "first_card": "4c",
+            "second_card": "Ah"
+        },
+        "IcebergSlimy": {
+            "first_card": "Jh",
+            "second_card": "Qs"
+        },
+        "nounoute 24": {
+            "first_card": "Qh",
+            "second_card": "Tc"
+        }
+    },
+    "winners": {
+        "nounoute 24": {
+            "amount": 268.0,
+            "pot_type": "side pot 1"
+        },
+        "IcebergSlimy": {
+            "amount": 12505.0,
+            "pot_type": "main pot"
+        }
+    }
+}

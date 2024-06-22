@@ -1,0 +1,252 @@
+{
+    "hand_id": "542256397262258542-38-1439669855",
+    "datetime": "15-08-2015 20:17:35",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 19,
+        "ante": 250.0,
+        "sb": 1250.0,
+        "bb": 2500.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "126253906",
+        "table_number": "0365",
+        "prize_pool": 250.0,
+        "registered_players": 6770,
+        "speed": "turbo",
+        "start_date": "2015/08/15 19:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "LATABASS",
+            "init_stack": 24206.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "micka-93",
+            "init_stack": 839.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "kooken73",
+            "init_stack": 13961.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Thunder.",
+            "init_stack": 14884.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "anhminh",
+            "init_stack": 19855.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 32721.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "mammyli",
+            "init_stack": 5912.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "nicodine",
+            "init_stack": 8235.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "zanshi88",
+            "init_stack": 14707.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ac",
+        "second_card": "8h"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mammyli",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "LATABASS",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "micka-93",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "kooken73",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Thunder.",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "anhminh",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "nicodine",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "zanshi88",
+            "amount": 250.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 1250.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "mammyli",
+            "amount": 2500.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "nicodine",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "zanshi88",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LATABASS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "micka-93",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "kooken73",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Thunder.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "anhminh",
+                "action": "raises",
+                "amount": 2500.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 3750.0
+            },
+            {
+                "player": "mammyli",
+                "action": "calls",
+                "amount": 2500.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mammyli",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "anhminh",
+                "action": "bets",
+                "amount": 14605.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mammyli",
+                "action": "calls",
+                "amount": 662.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qc",
+        "flop_card_2": "5s",
+        "flop_card_3": "2s"
+    },
+    "turn": {
+        "turn_card": "7c"
+    },
+    "river": {
+        "river_card": "9d"
+    },
+    "showdown": {
+        "mammyli": {
+            "first_card": "4s",
+            "second_card": "3c"
+        },
+        "anhminh": {
+            "first_card": "Qh",
+            "second_card": "Kd"
+        }
+    },
+    "winners": {
+        "anhminh": {
+            "amount": 32517.0,
+            "pot_type": "pot"
+        }
+    }
+}

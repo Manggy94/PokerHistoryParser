@@ -1,0 +1,268 @@
+{
+    "hand_id": "539281771632525639-32-1438957293",
+    "datetime": "07-08-2015 14:21:33",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 15,
+        "ante": 100.0,
+        "sb": 500.0,
+        "bb": 1000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "125561322",
+        "table_number": "326",
+        "prize_pool": 100.0,
+        "registered_players": 3715,
+        "speed": "turbo",
+        "start_date": "2015/08/07 13:30:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jcdu31",
+            "init_stack": 11383.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "777..28",
+            "init_stack": 50.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "NAIROLFB",
+            "init_stack": 565.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tebat40",
+            "init_stack": 20200.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mariktof",
+            "init_stack": 29890.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 5307.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "little cat 3",
+            "init_stack": 4820.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "ren.1945",
+            "init_stack": 20530.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "-Xiaoyu-",
+            "init_stack": 5321.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2h",
+        "second_card": "Jh"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "little cat 3",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "jcdu31",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "777..28",
+            "amount": 50.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "NAIROLFB",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tebat40",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mariktof",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ren.1945",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "-Xiaoyu-",
+            "amount": 100.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "little cat 3",
+            "amount": 1000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ren.1945",
+                "action": "calls",
+                "amount": 1000.0
+            },
+            {
+                "player": "-Xiaoyu-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "jcdu31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "NAIROLFB",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tebat40",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "mariktof",
+                "action": "raises",
+                "amount": 1000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "little cat 3",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ren.1945",
+                "action": "calls",
+                "amount": 1000.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "ren.1945",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mariktof",
+                "action": "bets",
+                "amount": 1000.0
+            },
+            {
+                "player": "ren.1945",
+                "action": "calls",
+                "amount": 1000.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "ren.1945",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mariktof",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "river": [
+            {
+                "player": "ren.1945",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "mariktof",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "7d",
+        "flop_card_2": "Ks",
+        "flop_card_3": "Qh"
+    },
+    "turn": {
+        "turn_card": "Ad"
+    },
+    "river": {
+        "river_card": "Ah"
+    },
+    "showdown": {
+        "777..28": {
+            "first_card": "5d",
+            "second_card": "7c"
+        },
+        "ren.1945": {
+            "first_card": "Qc",
+            "second_card": "Jd"
+        },
+        "mariktof": {
+            "first_card": "9h",
+            "second_card": "Kc"
+        }
+    },
+    "winners": {
+        "mariktof": {
+            "amount": 8350.0,
+            "pot_type": "pot"
+        }
+    }
+}

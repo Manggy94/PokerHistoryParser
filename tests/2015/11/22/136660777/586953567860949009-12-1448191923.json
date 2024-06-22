@@ -1,0 +1,213 @@
+{
+    "hand_id": "586953567860949009-12-1448191923",
+    "datetime": "22-11-2015 11:32:03",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 2.25,
+        "bounty": 0.0,
+        "rake": 2.25
+    },
+    "level": {
+        "value": 5,
+        "ante": 25.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": "FAST FOOD",
+        "tournament_id": "136660777",
+        "table_number": "016",
+        "prize_pool": 1512.0,
+        "registered_players": 291,
+        "speed": "turbo",
+        "start_date": "2015/11/22 11:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 8,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "t0ny00",
+            "init_stack": 10175.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "meglio95",
+            "init_stack": 16975.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "ACBABA",
+            "init_stack": 9525.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Freu92",
+            "init_stack": 13525.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "takapacall49",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 7975.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "gilbzh",
+            "init_stack": 13875.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "mawa",
+            "init_stack": 7950.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2c",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "gilbzh",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "t0ny00",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "meglio95",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ACBABA",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Freu92",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mawa",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "gilbzh",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "mawa",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "t0ny00",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "meglio95",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "ACBABA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Freu92",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gilbzh",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "t0ny00",
+                "action": "bets",
+                "amount": 913.0
+            },
+            {
+                "player": "meglio95",
+                "action": "calls",
+                "amount": 913.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "t0ny00",
+                "action": "bets",
+                "amount": 1826.0
+            },
+            {
+                "player": "meglio95",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Qc",
+        "flop_card_2": "8d",
+        "flop_card_3": "Jh"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "t0ny00": {
+            "amount": 5477.0,
+            "pot_type": "pot"
+        }
+    }
+}

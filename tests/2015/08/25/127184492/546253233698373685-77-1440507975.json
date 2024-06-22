@@ -1,0 +1,195 @@
+{
+    "hand_id": "546253233698373685-77-1440507975",
+    "datetime": "25-08-2015 13:06:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 20,
+        "ante": 350.0,
+        "sb": 1500.0,
+        "bb": 3000.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127184492",
+        "table_number": "052",
+        "prize_pool": 100.0,
+        "registered_players": 4712,
+        "speed": "turbo",
+        "start_date": "2015/08/25 12:00:01 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 15576.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "cililyla",
+            "init_stack": 15512.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "smoker2fish",
+            "init_stack": 58497.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "moukki13",
+            "init_stack": 57049.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "geuvye",
+            "init_stack": 33506.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "AKing-Julien",
+            "init_stack": 32654.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "8s"
+    },
+    "postings": [
+        {
+            "name": "cililyla",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "smoker2fish",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "moukki13",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "geuvye",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "AKing-Julien",
+            "amount": 350.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "cililyla",
+            "amount": 1500.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "smoker2fish",
+            "amount": 3000.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "moukki13",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "geuvye",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "AKing-Julien",
+                "action": "calls",
+                "amount": 3000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "cililyla",
+                "action": "calls",
+                "amount": 1500.0
+            },
+            {
+                "player": "smoker2fish",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "cililyla",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "smoker2fish",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "AKing-Julien",
+                "action": "bets",
+                "amount": 6000.0
+            },
+            {
+                "player": "cililyla",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "smoker2fish",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ts",
+        "flop_card_2": "Th",
+        "flop_card_3": "Ks"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "AKing-Julien": {
+            "amount": 17100.0,
+            "pot_type": "pot"
+        }
+    }
+}

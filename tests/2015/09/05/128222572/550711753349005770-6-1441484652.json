@@ -1,0 +1,144 @@
+{
+    "hand_id": "550711753349005770-6-1441484652",
+    "datetime": "05-09-2015 20:24:12",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "457",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ilanmanon",
+            "init_stack": 3020.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "aliboudou",
+            "init_stack": 2640.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "77foo",
+            "init_stack": 3385.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 3182.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "toubilou",
+            "init_stack": 3090.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "4ENA",
+            "init_stack": 2910.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Jd",
+        "second_card": "6h"
+    },
+    "postings": [
+        {
+            "name": "ilanmanon",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "aliboudou",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "77foo",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "toubilou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "4ENA",
+                "action": "raises",
+                "amount": 2870.0
+            },
+            {
+                "player": "ilanmanon",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "aliboudou",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "77foo",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": null,
+        "flop_card_2": null,
+        "flop_card_3": null
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "4ENA": {
+            "amount": 3010.0,
+            "pot_type": "pot"
+        }
+    }
+}

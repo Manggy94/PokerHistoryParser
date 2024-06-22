@@ -1,0 +1,173 @@
+{
+    "hand_id": "550711753349005932-4-1441484415",
+    "datetime": "05-09-2015 20:20:15",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "619",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 1,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Paulbrazh",
+            "init_stack": 2955.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "PCSI",
+            "init_stack": 2860.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "steven79350",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "39nanard",
+            "init_stack": 3185.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "christobal03",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "5c",
+        "second_card": "Kc"
+    },
+    "postings": [
+        {
+            "name": "PCSI",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "steven79350",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "39nanard",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "christobal03",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Paulbrazh",
+                "action": "raises",
+                "amount": 2069.0
+            },
+            {
+                "player": "PCSI",
+                "action": "calls",
+                "amount": 2084.0
+            },
+            {
+                "player": "steven79350",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "PCSI",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Paulbrazh",
+                "action": "bets",
+                "amount": 856.0
+            },
+            {
+                "player": "PCSI",
+                "action": "calls",
+                "amount": 761.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Td",
+        "flop_card_2": "4c",
+        "flop_card_3": "Qc"
+    },
+    "turn": {
+        "turn_card": "9s"
+    },
+    "river": {
+        "river_card": "4d"
+    },
+    "showdown": {
+        "PCSI": {
+            "first_card": "Ac",
+            "second_card": "Ad"
+        },
+        "Paulbrazh": {
+            "first_card": "Jc",
+            "second_card": "Js"
+        }
+    },
+    "winners": {
+        "Paulbrazh": {
+            "amount": 95.0,
+            "pot_type": "side pot 1"
+        },
+        "PCSI": {
+            "amount": 5780.0,
+            "pot_type": "main pot"
+        }
+    }
+}

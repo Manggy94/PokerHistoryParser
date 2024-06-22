@@ -1,0 +1,185 @@
+{
+    "hand_id": "605818271110791172-18-1451484061",
+    "datetime": "30-12-2015 14:01:01",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.9,
+        "bounty": 0.0,
+        "rake": 0.1
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 150.0,
+        "bb": 300.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 71.1,
+        "registered_players": 79,
+        "speed": "semiturbo",
+        "start_date": "2015/12/30 13:30:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 8,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "jackas56",
+            "init_stack": 6200.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "pacodelucha1",
+            "init_stack": 10000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "rudylan59",
+            "init_stack": 17775.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "tonyfranklin",
+            "init_stack": 18800.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "MOSVA",
+            "init_stack": 9375.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "manggy94",
+            "init_stack": 7025.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "philau22",
+            "init_stack": 18100.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Th",
+        "second_card": "9s"
+    },
+    "postings": [
+        {
+            "name": "jackas56",
+            "amount": 150.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "pacodelucha1",
+            "amount": 300.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "rudylan59",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tonyfranklin",
+                "action": "raises",
+                "amount": 450.0
+            },
+            {
+                "player": "MOSVA",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 750.0
+            },
+            {
+                "player": "philau22",
+                "action": "calls",
+                "amount": 750.0
+            },
+            {
+                "player": "jackas56",
+                "action": "calls",
+                "amount": 600.0
+            },
+            {
+                "player": "pacodelucha1",
+                "action": "calls",
+                "amount": 450.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "jackas56",
+                "action": "bets",
+                "amount": 5450.0
+            },
+            {
+                "player": "pacodelucha1",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tonyfranklin",
+                "action": "calls",
+                "amount": 5450.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "philau22",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3d",
+        "flop_card_2": "Ac",
+        "flop_card_3": "5c"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": "8c"
+    },
+    "showdown": {
+        "jackas56": {
+            "first_card": "6h",
+            "second_card": "Ad"
+        },
+        "tonyfranklin": {
+            "first_card": "Jc",
+            "second_card": "Ah"
+        }
+    },
+    "winners": {
+        "tonyfranklin": {
+            "amount": 14650.0,
+            "pot_type": "pot"
+        }
+    }
+}

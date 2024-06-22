@@ -1,0 +1,233 @@
+{
+    "hand_id": "572025648814489602-78-1445437825",
+    "datetime": "21-10-2015 14:30:25",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 3.5,
+        "bounty": 0.0,
+        "rake": 1.5
+    },
+    "level": {
+        "value": 11,
+        "ante": 150.0,
+        "sb": 600.0,
+        "bb": 1200.0
+    },
+    "tournament_info": {
+        "tournament_name": "KILL THE FISH",
+        "tournament_id": "133185100",
+        "table_number": "001",
+        "prize_pool": 931.0,
+        "registered_players": 266,
+        "speed": "semiturbo",
+        "start_date": "2015/10/21 13:15:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "knockout"
+    },
+    "max_players": 9,
+    "button_seat": 3,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "ibra68",
+            "init_stack": 35267.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "tarifapirat.",
+            "init_stack": 21443.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Ste Therese",
+            "init_stack": 52720.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Darky780",
+            "init_stack": 24295.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "mariposa32",
+            "init_stack": 25234.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 30690.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "rock2as",
+            "init_stack": 40138.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "deuf73",
+            "init_stack": 66479.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "Sir.WinALot",
+            "init_stack": 72612.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "9c",
+        "second_card": "Jd"
+    },
+    "postings": [
+        {
+            "name": "Darky780",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "mariposa32",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "ibra68",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "tarifapirat.",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Ste Therese",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "rock2as",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "deuf73",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Sir.WinALot",
+            "amount": 150.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Darky780",
+            "amount": 600.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "mariposa32",
+            "amount": 1200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "rock2as",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "deuf73",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Sir.WinALot",
+                "action": "raises",
+                "amount": 1200.0
+            },
+            {
+                "player": "ibra68",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "tarifapirat.",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Ste Therese",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Darky780",
+                "action": "calls",
+                "amount": 1800.0
+            },
+            {
+                "player": "mariposa32",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Darky780",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Sir.WinALot",
+                "action": "bets",
+                "amount": 3675.0
+            },
+            {
+                "player": "Darky780",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "3h",
+        "flop_card_2": "6c",
+        "flop_card_3": "7h"
+    },
+    "turn": {
+        "turn_card": null
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "Sir.WinALot": {
+            "amount": 11025.0,
+            "pot_type": "pot"
+        }
+    }
+}

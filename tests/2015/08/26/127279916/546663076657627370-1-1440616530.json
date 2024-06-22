@@ -1,0 +1,249 @@
+{
+    "hand_id": "546663076657627370-1-1440616530",
+    "datetime": "26-08-2015 19:15:30",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 0,
+        "ante": 0.0,
+        "sb": 10.0,
+        "bb": 20.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279916",
+        "table_number": "0233",
+        "prize_pool": 250.0,
+        "registered_players": 9038,
+        "speed": "turbo",
+        "start_date": "2015/08/26 19:15:04 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 8,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "lolobzh29670",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Manuela_88",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Li.ly",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Praslin31",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "michel23",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "manggy94",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "lasuja69",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "Zouk zouk 95",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "bagda07",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "2d",
+        "second_card": "Qd"
+    },
+    "postings": [
+        {
+            "name": "bagda07",
+            "amount": 10.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "lolobzh29670",
+            "amount": 20.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "Manuela_88",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Li.ly",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Praslin31",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "michel23",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lasuja69",
+                "action": "calls",
+                "amount": 20.0
+            },
+            {
+                "player": "Zouk zouk 95",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bagda07",
+                "action": "calls",
+                "amount": 10.0
+            },
+            {
+                "player": "lolobzh29670",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "bagda07",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "lolobzh29670",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Li.ly",
+                "action": "bets",
+                "amount": 132.0
+            },
+            {
+                "player": "Praslin31",
+                "action": "calls",
+                "amount": 132.0
+            },
+            {
+                "player": "lasuja69",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "bagda07",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "lolobzh29670",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "Li.ly",
+                "action": "bets",
+                "amount": 159.0
+            },
+            {
+                "player": "Praslin31",
+                "action": "raises",
+                "amount": 159.0
+            },
+            {
+                "player": "Li.ly",
+                "action": "calls",
+                "amount": 159.0
+            }
+        ],
+        "river": [
+            {
+                "player": "Li.ly",
+                "action": "bets",
+                "amount": 272.0
+            },
+            {
+                "player": "Praslin31",
+                "action": "raises",
+                "amount": 272.0
+            },
+            {
+                "player": "Li.ly",
+                "action": "calls",
+                "amount": 272.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Ks",
+        "flop_card_2": "Qh",
+        "flop_card_3": "3h"
+    },
+    "turn": {
+        "turn_card": "Kc"
+    },
+    "river": {
+        "river_card": "7s"
+    },
+    "showdown": {
+        "Praslin31": {
+            "first_card": "6h",
+            "second_card": "Kd"
+        },
+        "Li.ly": {
+            "first_card": "Td",
+            "second_card": "Kh"
+        }
+    },
+    "winners": {
+        "Li.ly": {
+            "amount": 2088.0,
+            "pot_type": "pot"
+        }
+    }
+}

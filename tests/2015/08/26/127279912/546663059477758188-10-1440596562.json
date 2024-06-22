@@ -1,0 +1,205 @@
+{
+    "hand_id": "546663059477758188-10-1440596562",
+    "datetime": "26-08-2015 13:42:42",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 4,
+        "ante": 0.0,
+        "sb": 40.0,
+        "bb": 80.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "127279912",
+        "table_number": "235",
+        "prize_pool": 100.0,
+        "registered_players": 4340,
+        "speed": "turbo",
+        "start_date": "2015/08/26 13:30:02 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 9,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "Barthood44",
+            "init_stack": 2880.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "LVNARD2vin6",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "BrestoAS",
+            "init_stack": 5854.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "shelton78",
+            "init_stack": 6350.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Malloryknox",
+            "init_stack": 2960.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "Pliskenback",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "PHILDU30",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "badboycer02",
+            "init_stack": 4130.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "manggy94",
+            "init_stack": 2940.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "6h",
+        "second_card": "4c"
+    },
+    "postings": [
+        {
+            "name": "Pliskenback",
+            "amount": 80.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "PHILDU30",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "badboycer02",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Barthood44",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "LVNARD2vin6",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "BrestoAS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "shelton78",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "Pliskenback",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "Pliskenback",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "badboycer02",
+                "action": "bets",
+                "amount": 80.0
+            },
+            {
+                "player": "shelton78",
+                "action": "calls",
+                "amount": 80.0
+            },
+            {
+                "player": "Pliskenback",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "badboycer02",
+                "action": "bets",
+                "amount": 400.0
+            },
+            {
+                "player": "shelton78",
+                "action": "calls",
+                "amount": 400.0
+            }
+        ],
+        "river": [
+            {
+                "player": "badboycer02",
+                "action": "bets",
+                "amount": 1200.0
+            },
+            {
+                "player": "shelton78",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "8c",
+        "flop_card_2": "4d",
+        "flop_card_3": "Qh"
+    },
+    "turn": {
+        "turn_card": "8h"
+    },
+    "river": {
+        "river_card": "Ks"
+    },
+    "showdown": {},
+    "winners": {
+        "badboycer02": {
+            "amount": 2400.0,
+            "pot_type": "pot"
+        }
+    }
+}

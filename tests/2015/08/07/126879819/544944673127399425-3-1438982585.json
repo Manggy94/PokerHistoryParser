@@ -1,0 +1,207 @@
+{
+    "hand_id": "544944673127399425-3-1438982585",
+    "datetime": "07-08-2015 21:23:05",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 0.0,
+        "sb": 15.0,
+        "bb": 30.0
+    },
+    "tournament_info": {
+        "tournament_name": "Sit&Go Freeroll",
+        "tournament_id": "126879819",
+        "table_number": "0",
+        "prize_pool": 0.1,
+        "registered_players": 10,
+        "speed": "turbo",
+        "start_date": "2015/08/07 21:19:35 UTC",
+        "levels_structure": [],
+        "tournament_type": "sitngo"
+    },
+    "max_players": 10,
+    "button_seat": 9,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "kiwi39",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "ju_al",
+            "init_stack": 1480.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 1480.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Lakhdar24",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "-999-",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "gadjetpat",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "7": {
+            "seat": 7,
+            "name": "QueenAman",
+            "init_stack": 1500.0,
+            "bounty": 0.0
+        },
+        "8": {
+            "seat": 8,
+            "name": "NoBs35",
+            "init_stack": 1550.0,
+            "bounty": 0.0
+        },
+        "9": {
+            "seat": 9,
+            "name": "eddylesau 76",
+            "init_stack": 1530.0,
+            "bounty": 0.0
+        },
+        "10": {
+            "seat": 10,
+            "name": "gustavio777",
+            "init_stack": 1460.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "3c",
+        "second_card": "Qc"
+    },
+    "postings": [
+        {
+            "name": "gustavio777",
+            "amount": 15.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "kiwi39",
+            "amount": 30.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "ju_al",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "Lakhdar24",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-999-",
+                "action": "calls",
+                "amount": 30.0
+            },
+            {
+                "player": "gadjetpat",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "QueenAman",
+                "action": "raises",
+                "amount": 120.0
+            },
+            {
+                "player": "NoBs35",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "eddylesau 76",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "gustavio777",
+                "action": "raises",
+                "amount": 1310.0
+            },
+            {
+                "player": "kiwi39",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "-999-",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "QueenAman",
+                "action": "calls",
+                "amount": 1310.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "5h",
+        "flop_card_2": "7c",
+        "flop_card_3": "Qd"
+    },
+    "turn": {
+        "turn_card": "4d"
+    },
+    "river": {
+        "river_card": "Qs"
+    },
+    "showdown": {
+        "QueenAman": {
+            "first_card": "9s",
+            "second_card": "As"
+        },
+        "gustavio777": {
+            "first_card": "8d",
+            "second_card": "8c"
+        }
+    },
+    "winners": {
+        "gustavio777": {
+            "amount": 3010.0,
+            "pot_type": "pot"
+        }
+    }
+}

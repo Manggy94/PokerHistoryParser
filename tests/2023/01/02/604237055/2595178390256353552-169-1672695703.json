@@ -1,0 +1,198 @@
+{
+    "hand_id": "2595178390256353552-169-1672695703",
+    "datetime": "02-01-2023 21:41:43",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 9.0,
+        "bounty": 0.0,
+        "rake": 1.0
+    },
+    "level": {
+        "value": 1,
+        "ante": 25.0,
+        "sb": 100.0,
+        "bb": 200.0
+    },
+    "tournament_info": {
+        "tournament_name": "W SERIES MASTER",
+        "tournament_id": "604237055",
+        "table_number": "0271",
+        "prize_pool": null,
+        "registered_players": null,
+        "speed": null,
+        "start_date": null,
+        "levels_structure": [],
+        "tournament_type": null
+    },
+    "max_players": 6,
+    "button_seat": 6,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "manggy94",
+            "init_stack": 43869.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "Fafa13OM84",
+            "init_stack": 19925.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "J--M",
+            "init_stack": 34555.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "Allan-Q-Laid",
+            "init_stack": 29527.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Da_chNeOwW",
+            "init_stack": 20031.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "CassisFruite",
+            "init_stack": 92768.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ah",
+        "second_card": "Ac"
+    },
+    "postings": [
+        {
+            "name": "manggy94",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Fafa13OM84",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "J--M",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Allan-Q-Laid",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Da_chNeOwW",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "CassisFruite",
+            "amount": 25.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 100.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "Fafa13OM84",
+            "amount": 200.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "J--M",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Allan-Q-Laid",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Da_chNeOwW",
+                "action": "raises",
+                "amount": 300.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "raises",
+                "amount": 1000.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 1400.0
+            },
+            {
+                "player": "Fafa13OM84",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Da_chNeOwW",
+                "action": "raises",
+                "amount": 4850.0
+            },
+            {
+                "player": "CassisFruite",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 37494.0
+            },
+            {
+                "player": "Da_chNeOwW",
+                "action": "calls",
+                "amount": 13656.0
+            }
+        ],
+        "flop": [],
+        "turn": [],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "2h",
+        "flop_card_2": "5h",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "6c"
+    },
+    "river": {
+        "river_card": "Th"
+    },
+    "showdown": {
+        "Da_chNeOwW": {
+            "first_card": "Jc",
+            "second_card": "Jh"
+        },
+        "manggy94": {
+            "first_card": "Ah",
+            "second_card": "Ac"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 65700.0,
+            "pot_type": "pot"
+        }
+    }
+}

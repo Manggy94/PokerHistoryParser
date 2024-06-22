@@ -1,0 +1,221 @@
+{
+    "hand_id": "550711753349005770-40-1441486957",
+    "datetime": "05-09-2015 21:02:37",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 14,
+        "ante": 80.0,
+        "sb": 400.0,
+        "bb": 800.0
+    },
+    "tournament_info": {
+        "tournament_name": "Freeroll",
+        "tournament_id": "128222572",
+        "table_number": "457",
+        "prize_pool": 150.0,
+        "registered_players": 5000,
+        "speed": "turbo",
+        "start_date": "2015/09/05 20:15:03 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 4,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "topaloff33",
+            "init_stack": 11415.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "vair78",
+            "init_stack": 11239.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "Jeff-bzh",
+            "init_stack": 10428.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "manggy94",
+            "init_stack": 10814.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "manouel75",
+            "init_stack": 11280.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "dimtri76",
+            "init_stack": 10510.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ah",
+        "second_card": "6c"
+    },
+    "postings": [
+        {
+            "name": "manouel75",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "dimtri76",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "topaloff33",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "vair78",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "Jeff-bzh",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manggy94",
+            "amount": 80.0,
+            "blind_type": "ante"
+        },
+        {
+            "name": "manouel75",
+            "amount": 400.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "dimtri76",
+            "amount": 800.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "topaloff33",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "vair78",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeff-bzh",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "manouel75",
+                "action": "calls",
+                "amount": 400.0
+            },
+            {
+                "player": "dimtri76",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "manouel75",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "dimtri76",
+                "action": "bets",
+                "amount": 800.0
+            },
+            {
+                "player": "Jeff-bzh",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "manggy94",
+                "action": "calls",
+                "amount": 800.0
+            },
+            {
+                "player": "manouel75",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "dimtri76",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeff-bzh",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 6080.0
+            },
+            {
+                "player": "dimtri76",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "Jeff-bzh",
+                "action": "folds",
+                "amount": 0.0
+            }
+        ],
+        "river": []
+    },
+    "flop": {
+        "flop_card_1": "Ac",
+        "flop_card_2": "Jh",
+        "flop_card_3": "3d"
+    },
+    "turn": {
+        "turn_card": "8c"
+    },
+    "river": {
+        "river_card": null
+    },
+    "showdown": {},
+    "winners": {
+        "manggy94": {
+            "amount": 12160.0,
+            "pot_type": "pot"
+        }
+    }
+}

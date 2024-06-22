@@ -1,0 +1,201 @@
+{
+    "hand_id": "538925989426626562-9-1438869223",
+    "datetime": "06-08-2015 13:53:43",
+    "game_type": "Tournament",
+    "buy_in": {
+        "prize_pool_contribution": 0.0,
+        "bounty": 0.0,
+        "rake": 0.0
+    },
+    "level": {
+        "value": 2,
+        "ante": 0.0,
+        "sb": 20.0,
+        "bb": 40.0
+    },
+    "tournament_info": {
+        "tournament_name": null,
+        "tournament_id": null,
+        "table_number": null,
+        "prize_pool": 400.0,
+        "registered_players": 87,
+        "speed": "turbo",
+        "start_date": "2015/08/06 13:45:00 UTC",
+        "levels_structure": [],
+        "tournament_type": "normal"
+    },
+    "max_players": 6,
+    "button_seat": 5,
+    "players": {
+        "1": {
+            "seat": 1,
+            "name": "KABO71",
+            "init_stack": 3090.0,
+            "bounty": 0.0
+        },
+        "2": {
+            "seat": 2,
+            "name": "domi110965",
+            "init_stack": 2740.0,
+            "bounty": 0.0
+        },
+        "3": {
+            "seat": 3,
+            "name": "manggy94",
+            "init_stack": 2725.0,
+            "bounty": 0.0
+        },
+        "4": {
+            "seat": 4,
+            "name": "JteBaise31",
+            "init_stack": 2930.0,
+            "bounty": 0.0
+        },
+        "5": {
+            "seat": 5,
+            "name": "Gwada-Fan",
+            "init_stack": 3000.0,
+            "bounty": 0.0
+        },
+        "6": {
+            "seat": 6,
+            "name": "ROASTARS",
+            "init_stack": 3620.0,
+            "bounty": 0.0
+        }
+    },
+    "hero_hand": {
+        "hero": "manggy94",
+        "first_card": "Ks",
+        "second_card": "Ts"
+    },
+    "postings": [
+        {
+            "name": "ROASTARS",
+            "amount": 20.0,
+            "blind_type": "small blind"
+        },
+        {
+            "name": "KABO71",
+            "amount": 40.0,
+            "blind_type": "big blind"
+        }
+    ],
+    "actions": {
+        "preflop": [
+            {
+                "player": "domi110965",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "manggy94",
+                "action": "raises",
+                "amount": 40.0
+            },
+            {
+                "player": "JteBaise31",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "ROASTARS",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "KABO71",
+                "action": "calls",
+                "amount": 40.0
+            },
+            {
+                "player": "domi110965",
+                "action": "calls",
+                "amount": 40.0
+            }
+        ],
+        "flop": [
+            {
+                "player": "KABO71",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "domi110965",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 260.0
+            },
+            {
+                "player": "KABO71",
+                "action": "folds",
+                "amount": 0.0
+            },
+            {
+                "player": "domi110965",
+                "action": "calls",
+                "amount": 260.0
+            }
+        ],
+        "turn": [
+            {
+                "player": "domi110965",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "bets",
+                "amount": 1100.0
+            },
+            {
+                "player": "domi110965",
+                "action": "calls",
+                "amount": 1100.0
+            }
+        ],
+        "river": [
+            {
+                "player": "domi110965",
+                "action": "checks",
+                "amount": 0.0
+            },
+            {
+                "player": "manggy94",
+                "action": "checks",
+                "amount": 0.0
+            }
+        ]
+    },
+    "flop": {
+        "flop_card_1": "Jd",
+        "flop_card_2": "Tc",
+        "flop_card_3": "Js"
+    },
+    "turn": {
+        "turn_card": "Jc"
+    },
+    "river": {
+        "river_card": "4d"
+    },
+    "showdown": {
+        "domi110965": {
+            "first_card": "As",
+            "second_card": "4h"
+        },
+        "manggy94": {
+            "first_card": "Ks",
+            "second_card": "Ts"
+        }
+    },
+    "winners": {
+        "manggy94": {
+            "amount": 2980.0,
+            "pot_type": "pot"
+        }
+    }
+}
