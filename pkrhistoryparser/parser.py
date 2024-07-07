@@ -737,6 +737,7 @@ class HandHistoryParser:
         Args:
             check_exists (bool): Check if the file is already parsed
         """
+        print(f"Parsing all files from {self.split_dir} to {self.parsed_dir}")
         threads = []
         for split_path in self.split_paths:
             parsing_condition = not (check_exists and self.check_is_parsed(split_path))

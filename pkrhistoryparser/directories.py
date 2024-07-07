@@ -8,4 +8,7 @@ SUMMARIES_DIR = os.path.join(SOURCE_DIR, "summaries")
 SPLIT_HISTORIES_DIR = os.path.join(HISTORIES_DIR, "split")
 PARSED_HISTORIES_DIR = os.path.join(HISTORIES_DIR, "parsed")
 
+if __name__ == "__main__":
+    print(SOURCE_DIR)
+
 

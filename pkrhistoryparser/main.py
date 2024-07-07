@@ -10,14 +10,9 @@ if not os.path.exists(PARSED_HISTORIES_DIR):
     PARSED_HISTORIES_DIR.replace("C:/", "/mnt/c/")
 
 
-
 if __name__ == "__main__":
     parser = HandHistoryParser(
         split_dir=SPLIT_HISTORIES_DIR,
         parsed_dir=PARSED_HISTORIES_DIR,
         summaries_dir=SUMMARIES_DIR)
     parser.parse_all(check_exists=True)
-
-
-
-
