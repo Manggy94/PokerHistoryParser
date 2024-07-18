@@ -482,37 +482,43 @@
             "seat": 1,
             "name": "FrenchAAAA",
             "init_stack": 19575.0,
-            "bounty": 2.25
+            "bounty": 2.25,
+            "entered_hand": true
         },
         "2": {
             "seat": 2,
             "name": "daifwa",
             "init_stack": 21830.0,
-            "bounty": 2.25
+            "bounty": 2.25,
+            "entered_hand": true
         },
         "3": {
             "seat": 3,
             "name": "Roomxx",
             "init_stack": 34263.0,
-            "bounty": 3.37
+            "bounty": 3.37,
+            "entered_hand": true
         },
         "4": {
             "seat": 4,
             "name": "SB Warrior34",
             "init_stack": 18548.0,
-            "bounty": 2.25
+            "bounty": 2.25,
+            "entered_hand": true
         },
         "5": {
             "seat": 5,
             "name": "GoToVG",
             "init_stack": 26609.0,
-            "bounty": 2.25
+            "bounty": 2.25,
+            "entered_hand": true
         },
         "6": {
             "seat": 6,
             "name": "manggy94",
             "init_stack": 19175.0,
-            "bounty": 2.25
+            "bounty": 2.25,
+            "entered_hand": true
         }
     },
     "hero_hand": {

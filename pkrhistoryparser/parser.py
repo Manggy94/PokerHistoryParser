@@ -618,6 +618,23 @@ class HandHistoryParser:
             "ante": self.to_float(level_tuple[2])
         }
 
+    def check_players(self, hand_history_dict: dict) -> None:
+        """
+        Check if the players in the hand history are the same as the players in the summary.
+        Args:
+            hand_history_dict (dict): The hand history dictionary
+        """
+        players = hand_history_dict["players"]
+        preflop_actions = hand_history_dict["actions"]["preflop"]
+        preflop_players = set([action["player"] for action in preflop_actions])
+        posting_players = set([posting["name"] for posting in hand_history_dict["postings"]])
+        verified_players = preflop_players | posting_players
+        for player in players.values():
+            player["entered_hand"] = player["name"] in verified_players
+        print(players)
+
+
+
     @staticmethod
     def extract_tournament_type(summary_text: str) -> dict:
         """
@@ -670,6 +687,7 @@ class HandHistoryParser:
                 "showdown": self.extract_showdown(hand_txt),
                 "winners": self.extract_winners(hand_txt)
             }
+            self.check_players(hand_history_dict)
             return hand_history_dict
         except HandIdNotFoundError:
             print("Hand ID not found")
