@@ -2,70 +2,37 @@
 This module contains the HandHistoryParser class which is used to parse poker hand histories.
 This doc is destined for developers who will work on the pkrhistoryparser module.
 """
+import boto3
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-from functools import cached_property
-from threading import Thread, Lock
-from pkrhistoryparser.patterns import winamax as patterns
+from patterns import winamax as patterns
 
 
-class HandHistoryParser:
+class S3HandHistoryParser:
     """
-    A class to parse poker hand histories.
-
-    Methods:
-        get_raw_text: Get the raw text from a history file.
-        to_float: Transform a string number into a float.
-        extract_game_type: Extract the type of the game from the hand text.
-        parse_to_json: Parse a poker hand history to a JSON format.
-        extract_players: Extract player information from a hand text.
-        extract_posting: Extract blinds and antes posted information from a hand text.
-        extract_buy_in: Extract the buy-in and rake information from a hand text.
-        extract_datetime: Extract the datetime information from a hand text.
-        extract_blinds: Extract the blind levels and ante from a hand text.
-        extract_level: Extract the level information from a hand text.
-        extract_max_players: Extract the max players at the table from a hand text.
-        extract_button_seat: Extract the button seat information from a hand text.
-        extract_tournament_info: Extract the tournament information from a hand text.
-        extract_hero_hand: Extract the hero's hand from a hand text.
-        extract_flop: Extract the cards on the Flop from a hand text.
-        extract_turn: Extract the card on the Turn from a hand text.
-        extract_river: Extract the card on the River from a hand text.
-        parse_actions: Parse the actions text for a specific street.
-        extract_actions: Extract the actions information from a hand text.
-        extract_showdown: Extract the showdown information from a hand text.
-        extract_winners: Extract the winners information from a hand text.
-        extract_hand_id: Extract the hand id information from a hand text.
-        parse_hand: Extract all information from a hand text.
-    --------
-    Examples
-
-    Parse a poker hand history to a dict to be used in a program:
-    ```python
-    >>> parser = HandHistoryParser()
-    >>> hand_text = parser.get_raw_text("path/to/hand/history.txt")
-    >>> hand_info = parser.parse_hand(hand_text)
-    ```
-
-    Parse a poker hand history to a JSON file:
-    ```python
-    >>> parser = HandHistoryParser()
-    >>> parser.parse_to_json('path/to/hand/history.txt', 'path/to/save/json/file.json')
-    ```
     """
 
-    def __init__(self, split_dir: str, summaries_dir: str, parsed_dir: str):
-        self.split_dir = split_dir
-        self.summaries_dir = summaries_dir
-        self.parsed_dir = parsed_dir
-        self.lock = Lock()
+    def __init__(self, bucket_name: str):
+        self.s3 = boto3.client('s3')
+        self.bucket_name = bucket_name
+        self.split_prefix = "data/histories/split"
+        self.parsed_prefix = "data/histories/parsed"
 
-    @staticmethod
-    def get_raw_text(history_path) -> str:
+    def list_histories_keys(self):
         """
-        Get the raw text from a history file
+        Get all the keys of the poker hand histories in the bucket.
+        """
+        paginator = self.s3.get_paginator("list_objects_v2")
+        pages = paginator.paginate(Bucket=self.bucket_name, Prefix=self.split_prefix)
+        keys = [obj["Key"] for page in pages for obj in page.get("Contents", [])]
+        return keys
+
+    def get_text(self, history_path) -> str:
+        """
+        Get the raw hand_text from a history file
 
         Parameters:
             history_path (str): The path to the history file.
@@ -73,121 +40,29 @@ class HandHistoryParser:
         Returns:
             (str): The text of the hand history file.
         """
-        with open(history_path, "r", encoding="utf-8") as file:
-            hand_text = file.read()
-        return hand_text
+        response = self.s3.get_object(Bucket=self.bucket_name, Key=history_path)
+        hand_raw_text = response["Body"].read().decode("utf-8")
+        return hand_raw_text
 
-    def get_destination_path(self, history_path: str) -> str:
+    @staticmethod
+    def get_destination_path(history_path: str) -> str:
         """
         Get the path to save the JSON file.
 
         Parameters:
             history_path (str): The path to the poker hand history file.
-
         Returns:
             destination_path (str): The path to save the JSON file.
         """
-        path_list = self.path_to_list(history_path)
-        file_indicators = path_list[-5:]
-        destination_path = os.path.join(self.parsed_dir, *file_indicators)
-        destination_path = destination_path.replace(".txt", ".json")
+        destination_path = history_path.replace("split", "parsed").replace(".txt", ".json")
         return destination_path
 
-    @cached_property
-    def split_histories(self):
-        """
-        List all the split poker hand histories in the split directory.
-        """
-        histories_list = [{"root": root, "filename": filename} for root, _, files in os.walk(self.split_dir)
-                          for filename in files]
-        return histories_list
-
     @staticmethod
-    def path_to_list(path: str) -> list:
-        """
-        Transform a path string into a list of directories
-        """
-        path_list = []
-        while True:
-            path, folder = os.path.split(path)
-            if folder:
-                path_list.insert(0, folder)
-            else:
-                if path:
-                    path_list.insert(0, path)
-                break
-        return path_list
-
-    @staticmethod
-    def get_split_path(root: str, filename: str) -> str:
-        """
-        Get the path to a split poker hand history file.
-
-        Parameters:
-            root (str): The root directory of the split file.
-            filename (str): The name of the split file.
-
-        Returns:
-            split_path (str): The path to the split file.
-        """
-        split_path = os.path.join(root, filename)
-        return split_path
-
-    @cached_property
-    def split_paths(self) -> list:
-        """
-        Get a list of paths to all the split poker hand histories.
-
-        Returns:
-            split_paths (list): A list of paths to all the split poker hand histories.
-        """
-        split_paths = [self.get_split_path(history["root"], history["filename"]) for history in self.split_histories]
-        return split_paths
-
-    def get_summary_path(self, split_path: str) -> str:
-        try:
-
-            path_list = self.path_to_list(split_path)
-            summary_path_list = path_list[:-2]
-            tournament_id = path_list[-2]
-            histories_index = summary_path_list.index("histories")
-            summary_path_list[histories_index] = "summaries"
-            summary_path_list.remove("split")
-            summary_dir = str(os.path.join(*summary_path_list))
-            summary_name = [summary for summary in os.listdir(summary_dir) if tournament_id in summary][0]
-            summary_path = os.path.join(summary_dir, summary_name)
-            return summary_path
-        except IndexError:
-            print(f"\nSummary not found for {split_path}\n")
-            raise SummaryNotFoundError
-        except FileNotFoundError:
-            raise SummaryNotFoundError
-
-    @staticmethod
-    def get_summary_text(summary_path: str) -> str:
-        """
-        Get the raw text from a summary file
-
-        Parameters:
-            summary_path (str): The root directory of the summary file.
-
-        Returns:
-            summary_text (str): The text of the summary file.
-        """
-        with open(summary_path, "r", encoding="utf-8") as file:
-            summary_text = file.read()
-        return summary_text
-
-    @cached_property
-    def summary_paths(self) -> list:
-        """
-        Get a list of paths to all the summaries of the split poker hand histories.
-
-        Returns:
-            summary_paths (list): A list of paths to all the summaries of the split poker hand histories.
-        """
-        summary_paths = [self.get_summary_path(history["root"]) for history in self.split_histories]
-        return summary_paths
+    def get_summary_path(split_path: str) -> str:
+        summary_pattern = r"\/([\d\-]+).txt"
+        summary_path = split_path.replace("histories/split", "summaries")
+        summary_path = re.sub(summary_pattern, r".txt", summary_path)
+        return summary_path
 
     @staticmethod
     def to_float(txt_num: str) -> float:
@@ -523,13 +398,8 @@ class HandHistoryParser:
         Returns:
             hand_id (dict): A dictionary containing the hand id extracted from the poker hand history(hand_id).
         """
-        try:
-            hand_id = re.search(pattern=patterns.HAND_ID_PATTERN, string=hand_txt).group(1)
-            return {"hand_id": hand_id}
-        except AttributeError:
-            print("Hand ID not found")
-            print(hand_txt)
-            raise HandIdNotFoundError
+        hand_id = re.search(pattern=patterns.HAND_ID_PATTERN, string=hand_txt).group(1)
+        return {"hand_id": hand_id}
 
     def extract_prize_pool(self, summary_text: str) -> dict:
         """
@@ -618,7 +488,8 @@ class HandHistoryParser:
             "ante": self.to_float(level_tuple[2])
         }
 
-    def check_players(self, hand_history_dict: dict) -> None:
+    @staticmethod
+    def check_players(hand_history_dict: dict) -> None:
         """
         Check if the players in the hand history are the same as the players in the summary.
         Args:
@@ -632,8 +503,6 @@ class HandHistoryParser:
         for player in players.values():
             player["entered_hand"] = player["name"] in verified_players
         print(players)
-
-
 
     @staticmethod
     def extract_tournament_type(summary_text: str) -> dict:
@@ -662,37 +531,32 @@ class HandHistoryParser:
         (hand_id, datetime, game_type, buy_in, blinds, level, max_players, button_seat, table_name, table_ident,
         players, hero_hand, postings, actions, flop, turn, river, showdown, winners).
         """
-        try:
-            hand_history_dict = {
-                "hand_id": self.extract_hand_id(hand_txt)["hand_id"],
-                "datetime": self.extract_datetime(hand_txt)["datetime"],
-                "game_type": self.extract_game_type(hand_txt)["game_type"],
-                "buy_in": self.extract_buy_in(hand_txt),
-                "level": {
-                    "value": self.extract_level(hand_txt)["level"],
-                    "ante": self.extract_blinds(hand_txt)["ante"],
-                    "sb": self.extract_blinds(hand_txt)["sb"],
-                    "bb": self.extract_blinds(hand_txt)["bb"]
-                },
-                "tournament_info": self.extract_tournament_info(hand_txt),
-                "max_players": self.extract_max_players(hand_txt)["max_players"],
-                "button_seat": self.extract_button_seat(hand_txt)["button"],
-                "players": self.extract_players(hand_txt),
-                "hero_hand": self.extract_hero_hand(hand_txt),
-                "postings": self.extract_posting(hand_txt),
-                "actions": self.extract_actions(hand_txt),
-                "flop": self.extract_flop(hand_txt),
-                "turn": self.extract_turn(hand_txt),
-                "river": self.extract_river(hand_txt),
-                "showdown": self.extract_showdown(hand_txt),
-                "winners": self.extract_winners(hand_txt)
-            }
-            self.check_players(hand_history_dict)
-            return hand_history_dict
-        except HandIdNotFoundError:
-            print("Hand ID not found")
-            print(hand_txt)
-            raise HandIdNotFoundError
+        hand_history_dict = {
+            "hand_id": self.extract_hand_id(hand_txt)["hand_id"],
+            "datetime": self.extract_datetime(hand_txt)["datetime"],
+            "game_type": self.extract_game_type(hand_txt)["game_type"],
+            "buy_in": self.extract_buy_in(hand_txt),
+            "level": {
+                "value": self.extract_level(hand_txt)["level"],
+                "ante": self.extract_blinds(hand_txt)["ante"],
+                "sb": self.extract_blinds(hand_txt)["sb"],
+                "bb": self.extract_blinds(hand_txt)["bb"]
+            },
+            "tournament_info": self.extract_tournament_info(hand_txt),
+            "max_players": self.extract_max_players(hand_txt)["max_players"],
+            "button_seat": self.extract_button_seat(hand_txt)["button"],
+            "players": self.extract_players(hand_txt),
+            "hero_hand": self.extract_hero_hand(hand_txt),
+            "postings": self.extract_posting(hand_txt),
+            "actions": self.extract_actions(hand_txt),
+            "flop": self.extract_flop(hand_txt),
+            "turn": self.extract_turn(hand_txt),
+            "river": self.extract_river(hand_txt),
+            "showdown": self.extract_showdown(hand_txt),
+            "winners": self.extract_winners(hand_txt)
+        }
+        self.check_players(hand_history_dict)
+        return hand_history_dict
 
     def get_summary_info(self, summary_text: str) -> dict:
         """
@@ -719,33 +583,17 @@ class HandHistoryParser:
         Parameters:
             history_path (str): The path to the poker hand history file.
         """
-        hand_text = self.get_raw_text(history_path)
+        hand_text = self.get_text(history_path)
         destination_path = self.get_destination_path(history_path)
-        try:
-            hand_info = self.parse_hand(hand_text)
-        except HandIdNotFoundError:
-            os.remove(history_path)
-            return
-        try:
-            summary_path = self.get_summary_path(history_path)
-            summary_text = self.get_summary_text(summary_path)
-            summary_info = self.get_summary_info(summary_text)
-            for key, value in summary_info.items():
-                hand_info["tournament_info"][key] = value
-        except SummaryNotFoundError:
-            print(f"Summary not found for {history_path}")
-            hand_info["tournament_info"]["prize_pool"] = None
-            hand_info["tournament_info"]["registered_players"] = None
-            hand_info["tournament_info"]["speed"] = None
-            hand_info["tournament_info"]["start_date"] = None
-            hand_info["tournament_info"]["levels_structure"] = []
-            hand_info["tournament_info"]["tournament_type"] = None
-        destination_dir = os.path.dirname(destination_path)
-        if not os.path.exists(destination_dir):
-            os.makedirs(destination_dir, exist_ok=True)
-        with open(destination_path, "w", encoding="utf-8") as file:
-            json.dump(hand_info, file, indent=4)
-            print(f"File {history_path} parsed to {destination_path}")
+        hand_info = self.parse_hand(hand_text)
+        summary_path = self.get_summary_path(history_path)
+        summary_text = self.get_text(summary_path)
+        summary_info = self.get_summary_info(summary_text)
+        for key, value in summary_info.items():
+            hand_info["tournament_info"][key] = value
+        json_hand = json.dumps(hand_info, indent=4)
+        self.s3.put_object(Bucket=self.bucket_name, Key=destination_path, Body=json_hand)
+        print(f"File {history_path} parsed to {destination_path}")
 
     def check_is_parsed(self, split_path: str) -> bool:
         """
@@ -760,49 +608,34 @@ class HandHistoryParser:
         destination_path = self.get_destination_path(split_path)
         return os.path.exists(destination_path)
 
-    def parse_all(self, check_exists=True):
+    def parse_all(self):
         """
         Parse all the poker hand histories in the split directory.
         Args:
-            check_exists (bool): Check if the file is already parsed
         """
-        print(f"Parsing all files from {self.split_dir} to {self.parsed_dir}")
-        threads = []
-        for split_path in self.split_paths:
-            parsing_condition = not (check_exists and self.check_is_parsed(split_path))
-            if parsing_condition:
-                print(f"Parsing {split_path}")
-                try:
-                    thread = Thread(target=self.parse_to_json, args=(split_path,))
-                    threads.append(thread)
-                    thread.start()
-                except SummaryNotFoundError:
-                    self.add_not_found_summary(split_path)
-
-        for thread in threads:
-            thread.join()
+        print(f"Parsing all files from {self.split_prefix} to {self.parsed_prefix}")
+        history_keys = self.list_histories_keys()[::-1][:10]
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            futures = {executor.submit(self.parse_to_json, split_path): split_path for split_path in history_keys}
+            for future in as_completed(futures):
+                future.result()
         print("All files have been parsed.")
 
-    def add_not_found_summary(self, split_path: str):
-        not_found_path = os.path.join(self.summaries_dir, "not_found.txt")
-        with self.lock:
-            if os.path.exists(not_found_path):
-                with open(not_found_path, "r") as file:
-                    content = file.read()
-            else:
-                content = ""
 
-            if split_path not in content:
-                with open(not_found_path, "a") as file:
-                    file.write(split_path + "\n")
-
-        print(f"Summary not found for {split_path}")
-        raise SummaryNotFoundError
-
-
-class SummaryNotFoundError(Exception):
-    pass
-
-
-class HandIdNotFoundError(Exception):
-    pass
+def lambda_handler(event, context):
+    bucket_name = event['Records'][0]['s3']['bucket']['name']
+    key = event['Records'][0]['s3']['object']['key']
+    print(f"Splitting file {key}")
+    try:
+        parser = S3HandHistoryParser(bucket_name)
+        parser.parse_to_json(key)
+        return {
+            'statusCode': 200,
+            'body': f'File {key} processed successfully as parsed hand to {parser.get_destination_path(key)}'
+        }
+    except Exception as e:
+        print(f"Error in lambda_handler: {e}")
+        return {
+            'statusCode': 500,
+            'body': f'Error processing file {key}: {e}'
+        }

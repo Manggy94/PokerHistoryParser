@@ -7,6 +7,7 @@ HISTORIES_DIR = os.path.join(SOURCE_DIR, "histories")
 SUMMARIES_DIR = os.path.join(SOURCE_DIR, "summaries")
 SPLIT_HISTORIES_DIR = os.path.join(HISTORIES_DIR, "split")
 PARSED_HISTORIES_DIR = os.path.join(HISTORIES_DIR, "parsed")
+BUCKET_NAME = os.environ.get("BUCKET_NAME")
 
 if __name__ == "__main__":
     print(SOURCE_DIR)

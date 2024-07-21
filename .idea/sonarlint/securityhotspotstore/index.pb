@@ -81,3 +81,7 @@ M
 pkrhistoryparser/main_test.py,9\c\9c4bd7d7109edda807f1f107270ec1265d097059
 o
 ?tests/2015/08/07/125561252/539281470984814593-4-1438946352.json,5\5\5515691ac9763ebd2b9d02afee273f85443c5ce1
+M
+pkrhistoryparser/s3_parser.py,9\1\915ca9f5dbf2dca3b64dec88edf0a32fd38a2e30
+K
+pkrhistoryparser/s3_main.py,7\b\7b461760c71e8e7bc6264687a4653cdac6b73326

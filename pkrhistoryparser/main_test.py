@@ -15,6 +15,6 @@ if __name__ == "__main__":
         split_dir=SPLIT_HISTORIES_DIR,
         parsed_dir=PARSED_HISTORIES_DIR,
         summaries_dir=SUMMARIES_DIR)
-    paths = parser.split_paths[:15]
+    paths = parser.split_paths[:25]
     for path in paths:
         parser.parse_to_json(path)
