@@ -1,86 +1,44 @@
 import unittest
 import os
 from dotenv import load_dotenv
-from pkrhistoryparser.parser import HandHistoryParser
+from pkrhistoryparser.parsers.local import LocalHandHistoryParser
 
-env_path = os.path.join(os.path.dirname(__file__), ".env.test")
-load_dotenv(env_path)
-SOURCE_DIR = os.environ.get("SOURCE_DIR")
-
-HISTORIES_DIR = os.path.join(SOURCE_DIR, "histories")
-SUMMARIES_DIR = os.path.join(SOURCE_DIR, "summaries")
-SPLIT_HISTORIES_DIR = os.path.join(HISTORIES_DIR, "split")
-PARSED_HISTORIES_DIR = os.path.join(HISTORIES_DIR, "parsed")
+load_dotenv()
+TEST_DATA_DIR = os.environ.get("TEST_DATA_DIR")
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
-
-if not os.path.exists(SPLIT_HISTORIES_DIR):
-    SPLIT_HISTORIES_DIR = SPLIT_HISTORIES_DIR.replace("C:/", "/mnt/c/")
-if not os.path.exists(SUMMARIES_DIR):
-    SUMMARIES_DIR.replace("C:/", "/mnt/c/")
-if not os.path.exists(TEST_DIR):
-    TEST_DIR.replace("C:/", "/mnt/c/")
 
 
 class TestHandHistoryParser(unittest.TestCase):
     def setUp(self):
 
-        self.parser = HandHistoryParser(
-            split_dir=SPLIT_HISTORIES_DIR,
-            parsed_dir=TEST_DIR,
-            summaries_dir=SUMMARIES_DIR
-        )
-        self.example_file_name = "2612804708405870609-6-1672853787.txt"
-        split_histories = self.parser.split_histories
-        example_split_history = [path for path in split_histories if self.example_file_name in path.get("filename")][0]
-        split_path = self.parser.get_split_path(
-            root=example_split_history.get("root"),
-            filename=example_split_history.get("filename")
-        )
-        self.file_path = split_path
-        self.hand_text = self.parser.get_raw_text(self.file_path)
+        self.parser = LocalHandHistoryParser(data_dir=TEST_DATA_DIR)
+        self.file_key = [key for key in self.parser.list_split_histories_keys()
+                         if "2612804708405870609-6-1672853787.txt" in key][0]
+        self.hand_text = self.parser.get_text(self.file_key)
 
-    def test_split_histories(self):
-        self.assertIsInstance(self.parser.split_histories, list)
+    def test_list_split_histories_keys(self):
+        self.assertIsInstance(self.parser.list_split_histories_keys(), list)
 
     def test_check_is_parsed(self):
-        self.assertTrue(self.parser.check_is_parsed(self.file_path))
+        right_split_key = self.file_key.replace("data_test", "data")
+        self.assertTrue(self.parser.check_is_parsed(right_split_key))
         self.assertFalse(self.parser.check_is_parsed("not_a_file.txt"))
 
-    def test_path_to_list(self):
-        path = self.file_path
-        path_list = self.parser.path_to_list(path)
-        self.assertIsInstance(path_list, list)
 
-    def test_get_summary_path(self):
-        path = self.file_path
-        summary_path = self.parser.get_summary_path(path)
-        self.assertTrue(os.path.exists(summary_path))
+    def test_get_summary_key(self):
+        path = self.file_key
+        summary_key = self.parser.get_summary_key(path)
+        self.assertTrue(os.path.exists(summary_key))
 
-    def test_get_destination_path(self):
-        destination_path = self.parser.get_destination_path(self.file_path)
-        self.assertIn(
-            destination_path,
-            [
-                'C:\\Users\\mangg\\projects\\PokerHistoryParser\\tests\\2023\\01\\04\\608341002\\'
-                '2612804708405870609-6-1672853787.json',
-                '/mnt/c/Users/mangg/projects/PokerHistoryParser/tests/2023/01/04/608341002/'
-                '2612804708405870609-6-1672853787.json'
-            ]
-            )
+    def test_get_parsed_key(self):
+        parsed_key = self.parser.get_parsed_key(self.file_key)
+        self.assertIn("2612804708405870609-6-1672853787.json", parsed_key)
+        self.assertIn("parsed", parsed_key)
 
-    def test_parse_all(self):
-        self.parser.parse_all()
+    def test_parse_new_hand_history(self):
+        self.parser.parse_new_hand_history(self.file_key)
         self.assertTrue(os.path.exists(self.parser.parsed_dir))
-        self.assertTrue(os.path.exists(self.parser.get_destination_path(self.file_path)))
-
-    def test_get_split_path(self):
-        split_histories = self.parser.split_histories
-        example_split_history = [path for path in split_histories if self.example_file_name in path.get("filename")][0]
-        split_path = self.parser.get_split_path(
-            root=example_split_history.get("root"),
-            filename=example_split_history.get("filename")
-        )
-        self.assertTrue(os.path.exists(split_path))
+        self.assertTrue(os.path.exists(self.parser.get_parsed_key(self.file_key)))
 
     def test_extract_game_type(self):
         result = self.parser.extract_game_type(self.hand_text)
@@ -240,11 +198,19 @@ class TestHandHistoryParser(unittest.TestCase):
             self.assertIn("ante", level.keys())
             self.assertIsInstance(level.get("ante"), float)
 
-    def test_parse_to_json(self):
-        file_path = self.file_path
-        destination_path = self.parser.get_destination_path(file_path)
-        self.parser.parse_to_json(file_path)
-        self.assertTrue(os.path.exists(destination_path))
+class TestProblematicFiles(unittest.TestCase):
+    def setUp(self):
+        self.parser = LocalHandHistoryParser(data_dir=TEST_DATA_DIR)
+        self.file_name = "539281767337558454-52-1438951219.txt"
+        self.file_key = os.path.join(self.parser.split_dir, "2015", "08", "07", "125561321", self.file_name)
 
-
-
+    def test_parse_showdown(self):
+        hand_text = self.parser.get_text(self.file_key)
+        showdown_info = self.parser.extract_showdown(hand_text)
+        self.assertIsInstance(showdown_info, dict)
+        self.assertEqual(showdown_info, {
+            "jackland": {
+                "first_card": "As",
+                "second_card": "Jd",
+            }
+        })

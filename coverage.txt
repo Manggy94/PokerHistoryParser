@@ -1,11 +1,19 @@
-Name                                    Stmts   Miss  Cover
------------------------------------------------------------
-pkrhistoryparser/__init__.py                0      0   100%
-pkrhistoryparser/directories.py            10     10     0%
-pkrhistoryparser/main.py                   12     12     0%
-pkrhistoryparser/main_test.py              14     14     0%
-pkrhistoryparser/parser.py                295     57    81%
-pkrhistoryparser/patterns/__init__.py       0      0   100%
-pkrhistoryparser/patterns/winamax.py       34      0   100%
------------------------------------------------------------
-TOTAL                                     365     93    75%
+Name                                                      Stmts   Miss  Cover
+-----------------------------------------------------------------------------
+pkrhistoryparser/__init__.py                                  0      0   100%
+pkrhistoryparser/parsers/__init__.py                          0      0   100%
+pkrhistoryparser/parsers/abstract.py                        208     51    75%
+pkrhistoryparser/parsers/local.py                            27      4    85%
+pkrhistoryparser/parsers/s3.py                               35     35     0%
+pkrhistoryparser/patterns/__init__.py                         0      0   100%
+pkrhistoryparser/patterns/winamax.py                         34      0   100%
+pkrhistoryparser/runs/__init__.py                             0      0   100%
+pkrhistoryparser/runs/local/__init__.py                       0      0   100%
+pkrhistoryparser/runs/local/parse_hand_histories.py           5      5     0%
+pkrhistoryparser/runs/local/parse_new_hand_histories.py       5      5     0%
+pkrhistoryparser/runs/s3/__init__.py                          0      0   100%
+pkrhistoryparser/runs/s3/parse_hand_histories.py              5      5     0%
+pkrhistoryparser/runs/s3/parse_new_hand_histories.py          5      5     0%
+pkrhistoryparser/settings.py                                 11     11     0%
+-----------------------------------------------------------------------------
+TOTAL                                                       335    121    64%

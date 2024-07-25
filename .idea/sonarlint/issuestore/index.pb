@@ -85,3 +85,41 @@ M
 pkrhistoryparser/s3_parser.py,9\1\915ca9f5dbf2dca3b64dec88edf0a32fd38a2e30
 K
 pkrhistoryparser/s3_main.py,7\b\7b461760c71e8e7bc6264687a4653cdac6b73326
+[
++tests/539281767337558454-52-1438951219.json,e\2\e21f75abd212c8bbbef1b4053bf2a4569222f6c1
+C
+tests/example02.txt,7\3\730ed4a7b32b63a7e8b3d6a2ac66e05d5b6d78ce
+Z
+*tests/539281767337558454-52-1438951219.txt,3\4\3475e60d2085fe2be33c57f6ca2cccd82b78358a
+O
+pkrhistoryparser/data_loader.py,1\1\119d093d52f569176008c124323f2ce5f9362962
+‘
+apkrhistoryparser/data/histories/parsed/2024/07/19/805002000/3457457263214592001-1-1721397603.json,d\3\d3c6987cb8cc0812a49c8d18b44904e04ebb288a
+P
+ pkrhistoryparser/local_parser.py,a\f\af4485a8b9b3840c2672088de05756354851ba16
+?
+tests/.env.test,d\8\d876480604140944f74a25ba41facb7e6e2c741d
+Q
+!pkrhistoryparser/parsers/local.py,7\f\7fab029e2b259c9f4bf5bf274e2e9069459f050c
+N
+pkrhistoryparser/parsers/s3.py,a\1\a13a1da810821e90b63d3260d631cba436383c44
+T
+$pkrhistoryparser/parsers/abstract.py,c\e\ced3c1da6a46ac1bd2ce42acb7c7d881617a8c3d
+K
+pkrhistoryparser/runs/s3.py,d\2\d2f17748c5510fd4095a8ac0ed4f06f0250aa98a
+N
+pkrhistoryparser/runs/local.py,2\5\256bae3b768bde192b7820624b1a287d71c82f2f
+W
+'pkrhistoryparser/runs/s3/parse_files.py,b\5\b536202f8b4aa7d305e423f269fea377bf94782d
+[
++pkrhistoryparser/runs/s3/parse_new_files.py,b\9\b95650ee29f6d040509d00bb40035f55d3ca411e
+d
+4pkrhistoryparser/runs/s3/parse_new_hand_histories.py,4\1\41d4a5123fc54ca6ccb50ab480fa45d45bce1943
+`
+0pkrhistoryparser/runs/s3/parse_hand_histories.py,5\a\5ac59f545f66fe2bcf80d0d13f76295543ddd63f
+c
+3pkrhistoryparser/runs/local/parse_hand_histories.py,f\8\f8e87cb5df6b27714f112d1181af5b310f86d0e6
+g
+7pkrhistoryparser/runs/local/parse_new_hand_histories.py,2\5\25ccf73349bc59ecbcb198cdf2efb304f424f1bb
+Z
+*tests/2612804708405870609-6-1672853787.txt,c\c\cc4ee61ff96df863daa044bd114c5b7636552e32
