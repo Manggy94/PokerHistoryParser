@@ -22,13 +22,6 @@ class AbstractHandHistoryParser(ABC):
         return destination_key
 
     @staticmethod
-    def get_summary_key(split_key: str) -> str:
-        summary_pattern = r"[\/\\]([\d\-]+).txt"
-        summary_key = split_key.replace("histories/split", "summaries").replace("histories\split", "summaries")
-        summary_key = re.sub(summary_pattern, r".txt", summary_key)
-        return summary_key
-
-    @staticmethod
     def to_float(txt_num: str) -> float:
         """
         Transforms any written str number into a float
@@ -98,28 +91,7 @@ class AbstractHandHistoryParser(ABC):
 
         return blinds_antes_info
 
-    def extract_buy_in(self, hand_txt: str) -> dict:
-        """
-        Extract the buy-in and rake information.
 
-        Parameters:
-            hand_txt (str): The raw poker hand text as a string.
-
-        Returns:
-            buy_in (dict): A dict containing the buy-in and rake extracted
-            from the poker hand history(prize_pool_contribution, bounty, rake).
-
-        """
-        buy_in_match = re.search(pattern=patterns.NORMAL_BUY_IN_PATTERN, string=hand_txt)
-        free_roll_match = re.search(pattern=patterns.FREE_ROLL_PATTERN, string=hand_txt)
-        if buy_in_match:
-            prize_pool_contribution, rake = self.to_float(buy_in_match.group(1)), self.to_float(buy_in_match.group(2))
-            bounty = 0
-        elif free_roll_match:
-            prize_pool_contribution, bounty, rake = 0, 0, 0
-        else:
-            prize_pool_contribution, bounty, rake = 0, 0, 0
-        return {"prize_pool_contribution": prize_pool_contribution, "bounty": bounty, "rake": rake}
 
     @staticmethod
     def extract_datetime(hand_txt: str) -> dict:
@@ -365,92 +337,7 @@ class AbstractHandHistoryParser(ABC):
         hand_id = re.search(pattern=patterns.HAND_ID_PATTERN, string=hand_txt).group(1)
         return {"hand_id": hand_id}
 
-    def extract_prize_pool(self, summary_text: str) -> dict:
-        """
-        Extract the prize pool information from a poker summary.
 
-        Parameters:
-            summary_text (str): The raw poker hand text as a string.
-
-        Returns:
-            prize_pool (dict): A dictionary containing the prize pool extracted from the poker hand history(prize_pool).
-        """
-        prize_pool = re.findall(pattern=patterns.PRIZE_POOL_PATTERN, string=summary_text)[-1]
-        return {"prize_pool": self.to_float(prize_pool)}
-
-    @staticmethod
-    def extract_registered_players(summary_text: str) -> dict:
-        """
-        Extract the registered players information from a poker summary.
-
-        Parameters:
-            summary_text (str): The raw poker hand text as a string.
-
-        Returns:
-            registered_players (dict): A dictionary containing the registered players extracted from the poker hand
-            history(registered_players).
-        """
-        registered_players = re.findall(pattern=patterns.REGISTERED_PLAYERS_PATTERN, string=summary_text)[-1]
-        return {"registered_players": int(registered_players)}
-
-    @staticmethod
-    def extract_speed(summary_text: str) -> dict:
-        """
-        Extract the speed information from a poker summary.
-
-        Parameters:
-            summary_text (str): The raw poker hand text as a string.
-
-        Returns:
-            speed (dict): A dictionary containing the speed extracted from the poker hand history(speed).
-        """
-        try:
-            speed = re.findall(pattern=patterns.SPEED_PATTERN, string=summary_text)[-1]
-            return {"speed": speed}
-        except IndexError:
-            return {"speed": "normal"}
-
-    @staticmethod
-    def extract_start_date(summary_text: str) -> dict:
-        """
-        Extract the start date information from a poker summary.
-
-        Parameters:
-            summary_text (str): The raw poker hand text as a string.
-
-        Returns:
-            start_date (dict): A dictionary containing the start date extracted from the poker hand history(start_date).
-        """
-        start_date = re.findall(pattern=patterns.START_DATE_PATTERN, string=summary_text)[-1]
-        return {"start_date": start_date}
-
-    def extract_levels_structure(self, summary_text: str) -> dict:
-        """
-        Extract the levels structure information from a poker summary.
-
-        Parameters:
-            summary_text (str): The raw poker hand text as a string.
-
-        Returns:
-            levels_structure (dict): A dictionary containing the levels structure extracted from the poker hand history
-            (levels_structure).
-        """
-        levels_text = re.findall(pattern=patterns.LEVELS_STRUCTURE_PATTERN, string=summary_text)[-1][0]
-        levels = re.findall(patterns.LEVEL_BLINDS_PATTERN, levels_text)
-        levels_structure = [
-            self.extract_level_from_structure(level_tuple=level_tuple, level_value=level_value)
-            for level_value, level_tuple in enumerate(levels, start=1)
-        ]
-        return {"levels_structure": levels_structure}
-
-    def extract_level_from_structure(self, level_tuple: tuple, level_value: int) -> dict:
-
-        return {
-            "value": level_value,
-            "sb": self.to_float(level_tuple[0]),
-            "bb": self.to_float(level_tuple[1]),
-            "ante": self.to_float(level_tuple[2])
-        }
 
     @staticmethod
     def check_players(hand_history_dict: dict) -> None:
@@ -466,21 +353,6 @@ class AbstractHandHistoryParser(ABC):
         verified_players = preflop_players | posting_players
         for player in players.values():
             player["entered_hand"] = player["name"] in verified_players
-
-    @staticmethod
-    def extract_tournament_type(summary_text: str) -> dict:
-        """
-        Extract the tournament type information from a poker summary.
-
-        Parameters:
-            summary_text (str): The raw poker hand text as a string.
-
-        Returns:
-            tournament_type (dict): A dictionary containing the tournament type extracted from the poker hand
-            history(tournament_type).
-        """
-        tournament_type = re.findall(pattern=patterns.TOURNAMENT_TYPE_PATTERN, string=summary_text)[-1]
-        return {"tournament_type": tournament_type}
 
     def parse_hand(self, hand_txt: str) -> dict:
         """
@@ -498,7 +370,6 @@ class AbstractHandHistoryParser(ABC):
             "hand_id": self.extract_hand_id(hand_txt)["hand_id"],
             "datetime": self.extract_datetime(hand_txt)["datetime"],
             "game_type": self.extract_game_type(hand_txt)["game_type"],
-            "buy_in": self.extract_buy_in(hand_txt),
             "level": {
                 "value": self.extract_level(hand_txt)["level"],
                 "ante": self.extract_blinds(hand_txt)["ante"],
@@ -521,25 +392,6 @@ class AbstractHandHistoryParser(ABC):
         self.check_players(hand_history_dict)
         return hand_history_dict
 
-    def get_summary_info(self, summary_text: str) -> dict:
-        """
-        Get all the information from a poker summary.
-        Args:
-            summary_text (str): The raw text of the summary
-        Returns:
-            summary_info (dict): A dictionary containing all the information extracted from the poker
-        """
-        summary_info = {
-
-            "prize_pool": self.extract_prize_pool(summary_text)["prize_pool"],
-            "registered_players": self.extract_registered_players(summary_text)["registered_players"],
-            "speed": self.extract_speed(summary_text)["speed"],
-            "start_date": self.extract_start_date(summary_text)["start_date"],
-            "levels_structure": self.extract_levels_structure(summary_text)["levels_structure"],
-            "tournament_type": self.extract_tournament_type(summary_text)["tournament_type"]
-        }
-        return summary_info
-
     @abstractmethod
     def check_is_parsed(self, split_key: str) -> bool:
         pass
@@ -553,11 +405,6 @@ class AbstractHandHistoryParser(ABC):
         """
         hand_text = self.get_text(split_key)
         hand_info = self.parse_hand(hand_text)
-        summary_key = self.get_summary_key(split_key)
-        summary_text = self.get_text(summary_key)
-        summary_info = self.get_summary_info(summary_text)
-        for key, value in summary_info.items():
-            hand_info["tournament_info"][key] = value
         json_hand = dumps(hand_info, indent=4)
         return json_hand
 

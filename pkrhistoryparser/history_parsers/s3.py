@@ -31,20 +31,3 @@ class S3HandHistoryParser(AbstractHandHistoryParser):
         self.s3.put_object(Bucket=self.bucket_name, Key=parsed_key, Body=json_hand)
 
 
-def lambda_handler(event, context):
-    bucket_name = event['Records'][0]['s3']['bucket']['name']
-    key = event['Records'][0]['s3']['object']['key']
-    print(f"Splitting file {key}")
-    try:
-        parser = S3HandHistoryParser(bucket_name)
-        parser.parse_to_json(key)
-        return {
-            'statusCode': 200,
-            'body': f'File {key} processed successfully as parsed hand to {parser.get_parsed_key(key)}'
-        }
-    except Exception as e:
-        print(f"Error in lambda_handler: {e}")
-        return {
-            'statusCode': 500,
-            'body': f'Error processing file {key}: {e}'
-        }
