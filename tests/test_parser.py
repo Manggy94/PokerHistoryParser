@@ -69,8 +69,8 @@ class TestSummaryParser(unittest.TestCase):
         expected_result = {"final_position": 223}
         self.assertEqual(result, expected_result)
 
-    def test_parse_summary(self):
-        result = self.parser.parse_summary(self.summary_text)
+    def test_parse_tournament_summary(self):
+        result = self.parser.parse_tournament_summary(self.summary_text)
         self.assertIsInstance(result, dict)
         self.assertEqual(
             set(result.keys()),
@@ -135,7 +135,10 @@ class TestHandHistoryParser(unittest.TestCase):
         ]
         self.assertEqual(result, expected_result)
 
-
+    def test_extract_buy_in(self):
+        result = self.parser.extract_buy_in(self.hand_text)
+        expected_result = {"buy_in": 5.0}
+        self.assertEqual(result, expected_result)
 
     def test_extract_datetime(self):
         result = self.parser.extract_datetime(self.hand_text)
@@ -239,11 +242,9 @@ class TestHandHistoryParser(unittest.TestCase):
             set(result.keys()),
             {'hand_id', 'datetime', 'game_type', 'buy_in', 'level', 'max_players', 'button_seat', 'players',
              'tournament_info', 'hero_hand', 'postings', 'actions', 'flop', 'turn', 'river', 'showdown',
-             'winners'
+             'winners', "buy_in"
              }
         )
-
-
 
 class TestProblematicFiles(unittest.TestCase):
     def setUp(self):

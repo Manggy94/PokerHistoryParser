@@ -53,6 +53,27 @@ class AbstractHandHistoryParser(ABC):
         game_type = next((game_types[key] for key in game_types if key in hand_txt), "Unknown")
         return {"game_type": game_type}
 
+    def extract_buy_in(self, hand_txt: str) -> dict:
+        """
+        Extract the buy-in and rake information.
+        Parameters:
+            hand_txt (str): The raw poker hand text as a string.
+        Returns:
+            buy_in (dict): A dict containing the buy-in and rake extracted
+            from the poker hand history(prize_pool_contribution, bounty, rake).
+
+        """
+        buy_in_match = re.search(pattern=patterns.NORMAL_BUY_IN_PATTERN, string=hand_txt)
+        free_roll_match = re.search(pattern=patterns.FREE_ROLL_PATTERN, string=hand_txt)
+        if buy_in_match:
+            prize_pool_contribution, rake = self.to_float(buy_in_match.group(1)), self.to_float(buy_in_match.group(2))
+            bounty = 0
+        elif free_roll_match:
+            prize_pool_contribution, bounty, rake = 0, 0, 0
+        else:
+            prize_pool_contribution, bounty, rake = 0, 0, 0
+        return {"buy_in": prize_pool_contribution + bounty + rake}
+
     def extract_players(self, hand_txt: str) -> dict:
         """
         Extract player information from a raw poker hand history and return as a dictionary.
@@ -387,7 +408,8 @@ class AbstractHandHistoryParser(ABC):
             "turn": self.extract_turn(hand_txt),
             "river": self.extract_river(hand_txt),
             "showdown": self.extract_showdown(hand_txt),
-            "winners": self.extract_winners(hand_txt)
+            "winners": self.extract_winners(hand_txt),
+            "buy_in": self.extract_buy_in(hand_txt)["buy_in"]
         }
         self.check_players(hand_history_dict)
         return hand_history_dict
@@ -405,7 +427,7 @@ class AbstractHandHistoryParser(ABC):
         """
         hand_text = self.get_text(split_key)
         hand_info = self.parse_hand(hand_text)
-        json_hand = dumps(hand_info, indent=4)
+        json_hand = dumps(hand_info, indent=4, sort_keys=True)
         return json_hand
 
     @abstractmethod

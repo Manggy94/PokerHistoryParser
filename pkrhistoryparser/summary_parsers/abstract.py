@@ -265,6 +265,7 @@ class AbstractSummaryParser(ABC):
         Returns:
             json_summary: The json string of the parsed summary
         """
+        print(summary_key)
         summary_text = self.get_text(summary_key)
         summary_info = self.parse_tournament_summary(summary_text)
         json_summary = dumps(summary_info, indent=4, sort_keys=True)
