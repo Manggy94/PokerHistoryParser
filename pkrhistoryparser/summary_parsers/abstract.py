@@ -227,6 +227,20 @@ class AbstractSummaryParser(ABC):
         amount_won = self.to_float(match.group(1)) if match else 0.0
         return {"amount_won": amount_won}
 
+    def extract_nb_entries(self, summary_text: str) -> dict:
+        """
+        Extract the number of entries in the tournament
+
+        Parameters:
+            summary_text (str): The raw poker hand text as a string.
+
+        Returns:
+            nb_entries (dict): A dict containing the number of entries in the tournament.
+        """
+        split_histories = re.split(patterns.SPLIT_PATTERN, summary_text)
+        split_histories.pop(0)
+        return {"nb_entries": len(split_histories)}
+
     def parse_tournament_summary(self, summary_text: str) -> dict:
         """
         Get all the information from a poker summary.
@@ -246,7 +260,8 @@ class AbstractSummaryParser(ABC):
             "levels_structure": self.extract_levels_structure(summary_text)["levels_structure"],
             "tournament_type": self.extract_tournament_type(summary_text)["tournament_type"],
             "amount_won": self.extract_amount_won(summary_text)["amount_won"],
-            "final_position": self.extract_final_position(summary_text)["final_position"]
+            "final_position": self.extract_final_position(summary_text)["final_position"],
+            "nb_entries": self.extract_nb_entries(summary_text)["nb_entries"]
         }
         return summary_info
 
@@ -268,7 +283,7 @@ class AbstractSummaryParser(ABC):
         print(summary_key)
         summary_text = self.get_text(summary_key)
         summary_info = self.parse_tournament_summary(summary_text)
-        json_summary = dumps(summary_info, indent=4, sort_keys=True)
+        json_summary = dumps(summary_info, indent=4, sort_keys=True, ensure_ascii=False)
         return json_summary
 
     @abstractmethod
@@ -294,13 +309,13 @@ class AbstractSummaryParser(ABC):
         if not self.check_is_parsed(summary_key):
             self.parse_summary(summary_key)
 
-
     def parse_summaries(self) -> None:
         """
         Parse all the summaries in the raw directory
         """
+        summary_keys = self.list_summary_keys()[::-1]
         with ThreadPoolExecutor() as executor:
-            futures = [executor.submit(self.parse_summary, summary_key) for summary_key in self.list_summary_keys()]
+            futures = [executor.submit(self.parse_summary, summary_key) for summary_key in summary_keys]
             for future in as_completed(futures):
                 future.result()
         print(f"Finished parsing summaries at {datetime.now()}")
@@ -309,8 +324,9 @@ class AbstractSummaryParser(ABC):
         """
         Parse all the summaries in the raw directory if they have not already been parsed
         """
+        summary_keys = self.list_summary_keys()[::-1]
         with ThreadPoolExecutor() as executor:
-            futures = [executor.submit(self.parse_new_summary, summary_key) for summary_key in self.list_summary_keys()]
+            futures = [executor.submit(self.parse_new_summary, summary_key) for summary_key in summary_keys]
             for future in as_completed(futures):
                 future.result()
         print(f"Finished parsing summaries at {datetime.now()}")

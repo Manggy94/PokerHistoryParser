@@ -30,6 +30,7 @@ TURN_ACTION_PATTERN = r"\*\*\*\sTURN\s\*\*\*\s\[[\w\s]+\]\[[\w\s]+\]([&\w\s.€-
 RIVER_ACTION_PATTERN = r"\*\*\*\sRIVER\s\*\*\*\s\[[\w\s]+\]\[[\w\s]+\]([&\w\s.€-]+)"
 STREET_ACTION_PATTERNS = [PREFLOP_ACTION_PATTERN, FLOP_ACTION_PATTERN, TURN_ACTION_PATTERN, RIVER_ACTION_PATTERN]
 # TOURNAMENT INFO PATTERNS
+SPLIT_PATTERN = r"Winamax\sPoker\s-\sTournament\ssummary"
 PRIZE_POOL_PATTERN = r"Prizepool[\s\:]+([\d\.\,]+)\s?€"
 REGISTERED_PLAYERS_PATTERN = r"Registered\s+players\s+:\s+(\d+)"
 SPEED_PATTERN = r"Speed\s+:\s+(\w+)"

@@ -427,7 +427,7 @@ class AbstractHandHistoryParser(ABC):
         """
         hand_text = self.get_text(split_key)
         hand_info = self.parse_hand(hand_text)
-        json_hand = dumps(hand_info, indent=4, sort_keys=True)
+        json_hand = dumps(hand_info, indent=4, sort_keys=True, ensure_ascii=False)
         return json_hand
 
     @abstractmethod
@@ -461,7 +461,7 @@ class AbstractHandHistoryParser(ABC):
         """
         Parse all poker hand histories and save them in JSON format.
         """
-        split_keys = self.list_split_histories_keys()
+        split_keys = self.list_split_histories_keys()[::-1]
         with ThreadPoolExecutor() as executor:
             futures = [executor.submit(self.parse_hand_history, split_key) for split_key in split_keys]
             for future in as_completed(futures):
@@ -471,7 +471,7 @@ class AbstractHandHistoryParser(ABC):
         """
         Parse new poker hand histories and save them in JSON format if they have not been parsed yet.
         """
-        split_keys = self.list_split_histories_keys()
+        split_keys = self.list_split_histories_keys()[::-1]
         with ThreadPoolExecutor() as executor:
             futures = [executor.submit(self.parse_new_hand_history, split_key) for split_key in split_keys]
             for future in as_completed(futures):

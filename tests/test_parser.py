@@ -44,7 +44,7 @@ class TestSummaryParser(unittest.TestCase):
         expected_result = {"speed": "normal"}
         self.assertEqual(result, expected_result)
 
-    def test_extract_touenament_prize_pool(self):
+    def test_extract_tournament_prize_pool(self):
         result = self.parser.extract_prize_pool(self.summary_text)
         expected_result = {"prize_pool": 3240}
         self.assertEqual(result, expected_result)
@@ -245,6 +245,7 @@ class TestHandHistoryParser(unittest.TestCase):
              'winners', "buy_in"
              }
         )
+
 
 class TestProblematicFiles(unittest.TestCase):
     def setUp(self):

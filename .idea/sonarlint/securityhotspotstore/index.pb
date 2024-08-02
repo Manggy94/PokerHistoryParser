@@ -87,3 +87,7 @@ Y
 )pkrhistoryparser/lambda/history_parser.py,b\7\b7e7b6d731054bd90ccace6fb241396e8b201e37
 Y
 )pkrhistoryparser/lambda/summary_parser.py,2\c\2ca683101b4ac175e7d165fd96a30638072b9100
+C
+tests/test_speed.py,b\b\bb3033b121f1fdf86cefb29560bd1ec40aaad9c8
+D
+tests/speed_tests.py,a\8\a88a77ce4634dfc739922eaf07437c37cc66346c
