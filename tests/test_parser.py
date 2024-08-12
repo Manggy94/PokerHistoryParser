@@ -75,7 +75,7 @@ class TestSummaryParser(unittest.TestCase):
         self.assertEqual(
             set(result.keys()),
             {'tournament_id', 'tournament_name', 'buy_in', 'prize_pool', 'registered_players', 'speed',
-             'start_date', 'levels_structure', 'tournament_type', 'amount_won', 'final_position'}
+             'start_date', 'levels_structure', 'nb_entries', 'tournament_type', 'amount_won', 'final_position'}
         )
 
 

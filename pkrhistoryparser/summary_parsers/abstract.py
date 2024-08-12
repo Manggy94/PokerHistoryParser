@@ -252,16 +252,17 @@ class AbstractSummaryParser(ABC):
         summary_info = {
             "tournament_id": self.extract_tournament_id(summary_text)["tournament_id"],
             "tournament_name": self.extract_tournament_name(summary_text)["tournament_name"],
+            "speed": self.extract_speed(summary_text)["speed"],
             "buy_in": self.extract_buy_in(summary_text),
+            "nb_entries": self.extract_nb_entries(summary_text)["nb_entries"],
             "prize_pool": self.extract_prize_pool(summary_text)["prize_pool"],
             "registered_players": self.extract_registered_players(summary_text)["registered_players"],
-            "speed": self.extract_speed(summary_text)["speed"],
             "start_date": self.extract_start_date(summary_text)["start_date"],
             "levels_structure": self.extract_levels_structure(summary_text)["levels_structure"],
             "tournament_type": self.extract_tournament_type(summary_text)["tournament_type"],
             "amount_won": self.extract_amount_won(summary_text)["amount_won"],
             "final_position": self.extract_final_position(summary_text)["final_position"],
-            "nb_entries": self.extract_nb_entries(summary_text)["nb_entries"]
+
         }
         return summary_info
 

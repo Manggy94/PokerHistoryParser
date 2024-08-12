@@ -1,4 +1,4 @@
-from pkrhistoryparser.summary_parsers.s3 import S3SummaryParser
+from pkrhistoryparser.summary_parsers.cloud import CloudSummaryParser
 
 
 def lambda_handler(event, context):
@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     key = event['Records'][0]['s3']['object']['key']
     print(f"Splitting file {key}")
     try:
-        parser = S3SummaryParser(bucket_name)
+        parser = CloudSummaryParser(bucket_name)
         parser.parse_summary(key)
         return {
             'statusCode': 200,

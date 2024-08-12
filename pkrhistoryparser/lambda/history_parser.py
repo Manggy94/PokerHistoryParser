@@ -1,4 +1,4 @@
-from pkrhistoryparser.history_parsers.s3 import S3HandHistoryParser
+from pkrhistoryparser.history_parsers.cloud import CloudHandHistoryParser
 
 
 def lambda_handler(event, context):
@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     key = event['Records'][0]['s3']['object']['key']
     print(f"Splitting file {key}")
     try:
-        parser = S3HandHistoryParser(bucket_name)
+        parser = CloudHandHistoryParser(bucket_name)
         parser.parse_hand_history(key)
         return {
             'statusCode': 200,

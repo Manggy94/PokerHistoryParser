@@ -2,7 +2,7 @@ import boto3
 from pkrhistoryparser.summary_parsers.abstract import AbstractSummaryParser
 
 
-class S3SummaryParser(AbstractSummaryParser):
+class CloudSummaryParser(AbstractSummaryParser):
     def __init__(self, bucket_name: str):
         self.bucket_name = bucket_name
         self.s3 = boto3.client("s3")

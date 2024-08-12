@@ -388,6 +388,8 @@ class AbstractHandHistoryParser(ABC):
         players, hero_hand, postings, actions, flop, turn, river, showdown, winners).
         """
         hand_history_dict = {
+            "tournament_info": self.extract_tournament_info(hand_txt),
+            "buy_in": self.extract_buy_in(hand_txt)["buy_in"],
             "hand_id": self.extract_hand_id(hand_txt)["hand_id"],
             "datetime": self.extract_datetime(hand_txt)["datetime"],
             "game_type": self.extract_game_type(hand_txt)["game_type"],
@@ -397,7 +399,6 @@ class AbstractHandHistoryParser(ABC):
                 "sb": self.extract_blinds(hand_txt)["sb"],
                 "bb": self.extract_blinds(hand_txt)["bb"]
             },
-            "tournament_info": self.extract_tournament_info(hand_txt),
             "max_players": self.extract_max_players(hand_txt)["max_players"],
             "button_seat": self.extract_button_seat(hand_txt)["button"],
             "players": self.extract_players(hand_txt),
@@ -409,7 +410,7 @@ class AbstractHandHistoryParser(ABC):
             "river": self.extract_river(hand_txt),
             "showdown": self.extract_showdown(hand_txt),
             "winners": self.extract_winners(hand_txt),
-            "buy_in": self.extract_buy_in(hand_txt)["buy_in"]
+
         }
         self.check_players(hand_history_dict)
         return hand_history_dict
@@ -427,7 +428,7 @@ class AbstractHandHistoryParser(ABC):
         """
         hand_text = self.get_text(split_key)
         hand_info = self.parse_hand(hand_text)
-        json_hand = dumps(hand_info, indent=4, sort_keys=True, ensure_ascii=False)
+        json_hand = dumps(hand_info, indent=4, ensure_ascii=False)
         return json_hand
 
     @abstractmethod

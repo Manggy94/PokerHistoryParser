@@ -2,7 +2,7 @@ import boto3
 from .abstract import AbstractHandHistoryParser
 
 
-class S3HandHistoryParser(AbstractHandHistoryParser):
+class CloudHandHistoryParser(AbstractHandHistoryParser):
 
     def __init__(self, bucket_name: str):
         self.bucket_name = bucket_name
