@@ -9,6 +9,8 @@ def create_zip_archive(source_dir: str, dist_dir: str, archive_name: str, archiv
     Creates a zip archive of the pkrsplitter package
     """
     print(f"Zipping {source_dir} to {dist_dir} as {archive_name}")
+    if not os.path.exists(dist_dir):
+        os.makedirs(dist_dir)
     with zipfile.ZipFile(archive_path, "w") as z:
         for root, dirs, files in os.walk(source_dir):
             for file in files:
