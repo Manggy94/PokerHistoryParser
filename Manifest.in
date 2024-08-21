@@ -6,13 +6,7 @@ prune venv
 prune docs
 prune tests
 prune scripts
-prune .github
-prune .git
-prune .gitignore
-prune .idea
-prune .vscode
-prune .pytest_cache
-prune coverage
+
 
 global-exclude *.py[cod]  # Exclure les fichiers de bytecode Python
 global-exclude *.swp      # Exclure les fichiers swap de Vim

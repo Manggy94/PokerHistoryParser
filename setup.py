@@ -39,8 +39,8 @@ setup(
         "Documentation": "https://pkrhistoryparser.readthedocs.io/en/latest/parser/"
     },
     classifiers=classifiers,
-    packages=find_packages(exclude=["tests", ".venv", "venv", "venv.*"], include=["pkrhistoryparser"]),
-    python_requires=">=3.9",
+    packages=find_packages(exclude=["tests", ".venv", "venv", "venv.*"]),
+    python_requires=">=3.10",
     install_requires=install_requires,
     license="MIT",
 )

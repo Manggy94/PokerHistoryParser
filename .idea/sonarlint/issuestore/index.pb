@@ -97,3 +97,13 @@ e
 5pkrhistoryparser/runs/local/parse_correction_files.py,9\f\9f7669eda4b98f94f092cfc3e953c9ef65e39016
 \
 ,pkrhistoryparser/runs/cloud/correct_files.py,0\4\0453d724f363385021a4c1d9863a82428a43aef0
+f
+6pkrhistoryparser/pkrhistoryparser.egg-info/SOURCES.txt,0\3\036953caefad8d6b4424c22162defb4523247b61
+h
+8pkrhistoryparser/pkrhistoryparser.egg-info/top_level.txt,4\0\40404d6bef544aefcb375f3fe42594a65af501e1
+g
+7pkrhistoryparser/pkrhistoryparser.egg-info/requires.txt,0\6\060e704bf9c7a44efbc8e1eb1865dbb25a850528
+c
+3pkrhistoryparser/pkrhistoryparser.egg-info/PKG-INFO,e\c\ec0ff39b389583e12ee414be51418aa6e33d36cb
+o
+?pkrhistoryparser/pkrhistoryparser.egg-info/dependency_links.txt,7\c\7cfef9a5d523694d338a96358b4b83525e369b82
