@@ -1,0 +1,28 @@
+ Tournament "Freeroll" buyIn: 0€ + 0€ level: 20 - HandId: #1755523025601560743-37-1606853397 - Holdem no limit (350/1500/3000) - 2020/12/01 20:09:57 UTC
+Table: 'Freeroll(408739556)#0166' 8-max (real money) Seat #2 is the button
+Seat 1: Fab lachatte (244233)
+Seat 2: Mas_L (108668)
+Seat 3: manggy94 (119649)
+Seat 5: Laula⌃ (73434)
+Seat 7: Sissi1736 (40005)
+Seat 8: FORBIN635 (9590)
+*** ANTE/BLINDS ***
+Laula⌃ posts ante 350
+Fab lachatte posts ante 350
+Mas_L posts ante 350
+Sissi1736 posts ante 350
+FORBIN635 posts ante 350
+Laula⌃ posts big blind 3000
+*** PRE-FLOP ***
+Sissi1736 calls 3000
+FORBIN635 folds
+Fab lachatte folds
+Mas_L raises 105318 to 108318 and is all-in
+Laula⌃ folds
+Sissi1736 folds
+Mas_L collected 116068 from pot
+*** SUMMARY ***
+Total pot 116068 | No rake
+Seat 2: Mas_L (button) won 116068
+
+

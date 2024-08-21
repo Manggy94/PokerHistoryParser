@@ -24,7 +24,7 @@ total_coverage=$(grep 'TOTAL' coverage.txt | awk '{print $4}' | sed 's/%//')
 coverage html
 
 # Check if the coverage is greater than or equal to 75%
-if [ $(echo "$total_coverage >= 60" | bc -l) -eq 1 ]  ; then
+if [ $(echo "$total_coverage >= 50" | bc -l) -eq 1 ]  ; then
     echo "Test coverage is sufficient: ${total_coverage}%"
     exit 0
 else

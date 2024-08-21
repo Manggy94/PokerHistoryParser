@@ -2,9 +2,9 @@ Name                                                      Stmts   Miss  Cover
 -----------------------------------------------------------------------------
 pkrhistoryparser/__init__.py                                  0      0   100%
 pkrhistoryparser/history_parsers/__init__.py                  0      0   100%
-pkrhistoryparser/history_parsers/abstract.py                165     31    81%
-pkrhistoryparser/history_parsers/cloud.py                    24     24     0%
-pkrhistoryparser/history_parsers/local.py                    27      4    85%
+pkrhistoryparser/history_parsers/abstract.py                196     51    74%
+pkrhistoryparser/history_parsers/cloud.py                    33     33     0%
+pkrhistoryparser/history_parsers/local.py                    37      9    76%
 pkrhistoryparser/lambda/__init__.py                           0      0   100%
 pkrhistoryparser/lambda/history_parser.py                    12     12     0%
 pkrhistoryparser/lambda/summary_parser.py                    12     12     0%
@@ -12,11 +12,13 @@ pkrhistoryparser/patterns/__init__.py                         0      0   100%
 pkrhistoryparser/patterns/winamax.py                         39      0   100%
 pkrhistoryparser/runs/__init__.py                             0      0   100%
 pkrhistoryparser/runs/cloud/__init__.py                       0      0   100%
+pkrhistoryparser/runs/cloud/correct_files.py                  5      5     0%
 pkrhistoryparser/runs/cloud/parse_hand_histories.py           5      5     0%
 pkrhistoryparser/runs/cloud/parse_new_hand_histories.py       5      5     0%
 pkrhistoryparser/runs/cloud/parse_new_summaries.py            5      5     0%
 pkrhistoryparser/runs/cloud/parse_summaries.py                5      5     0%
 pkrhistoryparser/runs/local/__init__.py                       0      0   100%
+pkrhistoryparser/runs/local/correct_files.py                  5      5     0%
 pkrhistoryparser/runs/local/parse_hand_histories.py           5      5     0%
 pkrhistoryparser/runs/local/parse_new_hand_histories.py       5      5     0%
 pkrhistoryparser/runs/local/parse_new_summaries.py            5      5     0%
@@ -27,4 +29,4 @@ pkrhistoryparser/summary_parsers/abstract.py                124     38    69%
 pkrhistoryparser/summary_parsers/cloud.py                    24     24     0%
 pkrhistoryparser/summary_parsers/local.py                    27      6    78%
 -----------------------------------------------------------------------------
-TOTAL                                                       505    202    60%
+TOTAL                                                       565    246    56%

@@ -53,10 +53,6 @@ E
 LICENSE.txt,7\9\79b82ce9b64a924266619555502f890dd80c83b9
 4
 .env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
-d
-4pkrhistoryparser/runs/s3/parse_new_hand_histories.py,4\1\41d4a5123fc54ca6ccb50ab480fa45d45bce1943
-`
-0pkrhistoryparser/runs/s3/parse_hand_histories.py,5\a\5ac59f545f66fe2bcf80d0d13f76295543ddd63f
 c
 3pkrhistoryparser/runs/local/parse_hand_histories.py,f\8\f8e87cb5df6b27714f112d1181af5b310f86d0e6
 g
@@ -65,8 +61,6 @@ g
 ,pkrhistoryparser/summary_parsers/abstract.py,b\9\b966a8a49d60ce31be3363d8e014b7d04df1a43c
 Y
 )pkrhistoryparser/summary_parsers/local.py,6\b\6bb3748066e67b71e345ba1b56e98592c00c0f67
-V
-&pkrhistoryparser/summary_parsers/s3.py,d\4\d4a815e6c18970aa49f0e5bb68850de5c2b9ebe4
 \
 ,pkrhistoryparser/history_parsers/abstract.py,3\c\3c5e5558912820352ed22395cbc50b2b3de7f55f
 Y
@@ -75,8 +69,6 @@ Y
 .pkrhistoryparser/runs/local/parse_summaries.py,f\8\f87356098713cbb02d15dbc287bf9bcc381ae922
 b
 2pkrhistoryparser/runs/local/parse_new_summaries.py,f\d\fda99037527d99f89024444690b7fde8276ed7c2
-V
-&pkrhistoryparser/history_parsers/s3.py,7\8\78247164bf19be492774be0ff648d4e9ad290aab
 Y
 )pkrhistoryparser/lambda/history_parser.py,b\7\b7e7b6d731054bd90ccace6fb241396e8b201e37
 Y
@@ -99,3 +91,9 @@ b
 .pkrhistoryparser/runs/cloud/parse_summaries.py,d\9\d9919cbf840adf3d90f0886ba7709e8d7aeacb63
 Y
 )pkrhistoryparser/summary_parsers/cloud.py,5\8\58fc8632d17176b7a68d0afe6f7b73dd6d448c07
+M
+tests/txt_files/example02.txt,e\9\e930c5c58e1b1979a3c73919f5eb3f4234eee581
+e
+5pkrhistoryparser/runs/local/parse_correction_files.py,9\f\9f7669eda4b98f94f092cfc3e953c9ef65e39016
+\
+,pkrhistoryparser/runs/cloud/correct_files.py,0\4\0453d724f363385021a4c1d9863a82428a43aef0

@@ -8,12 +8,26 @@ from pkrhistoryparser.patterns import winamax as patterns
 
 class AbstractHandHistoryParser(ABC):
 
+    data_dir: str
+    split_dir: str
+    parsed_dir: str
+    correction_split_keys_file_key: str
+    correction_parsed_keys_file_key: str
+
     @abstractmethod
-    def list_split_histories_keys(self) -> list:
+    def list_split_histories_keys(self, directory_key: str = None) -> list:
         pass
 
     @abstractmethod
     def get_text(self, file_key: str) -> str:
+        pass
+
+    @abstractmethod
+    def write_text(self, key: str, content: str) -> None:
+        pass
+
+    @abstractmethod
+    def write_text_from_list(self, key: str, content: list) -> None:
         pass
 
     @staticmethod
@@ -112,8 +126,6 @@ class AbstractHandHistoryParser(ABC):
 
         return blinds_antes_info
 
-
-
     @staticmethod
     def extract_datetime(hand_txt: str) -> dict:
         """
@@ -210,9 +222,9 @@ class AbstractHandHistoryParser(ABC):
             history (tournament_name, tournament_id, table_ident).
         """
         tournament_info = re.search(pattern=patterns.TOURNAMENT_INFO_PATTERN, string=hand_txt)
-        tournament_name = tournament_info.group(1) if tournament_info else None
-        tournament_id = tournament_info.group(2) if tournament_info else None
-        table_number = tournament_info.group(3) if tournament_info else None
+        tournament_name = tournament_info.group(1)
+        tournament_id = tournament_info.group(2)
+        table_number = tournament_info.group(3)
 
         return {"tournament_name": tournament_name, "tournament_id": tournament_id, "table_number": table_number}
 
@@ -292,8 +304,15 @@ class AbstractHandHistoryParser(ABC):
             parsed_actions (list): A list of dictionaries (player, action, amount), each representing an action.
         """
         actions = re.findall(pattern=patterns.ACTION_PATTERN, string=actions_txt)
-        parsed_actions = [{'player': player.strip(), 'action': action_type, 'amount': self.to_float(amount)}
-                          for player, action_type, amount in actions]
+        parsed_actions = [
+            {
+                'player': player.strip(),
+                'action': action_type,
+                'amount': self.to_float(amount),
+                'raise_total': self.to_float(raise_total),
+                'is_all_in': bool(all_in)}
+            for player, action_type, amount, raise_total, all_in in actions
+        ]
         return parsed_actions
 
     def extract_actions(self, hand_txt: str) -> dict:
@@ -357,8 +376,6 @@ class AbstractHandHistoryParser(ABC):
         """
         hand_id = re.search(pattern=patterns.HAND_ID_PATTERN, string=hand_txt).group(1)
         return {"hand_id": hand_id}
-
-
 
     @staticmethod
     def check_players(hand_history_dict: dict) -> None:
@@ -462,7 +479,20 @@ class AbstractHandHistoryParser(ABC):
         """
         Parse all poker hand histories and save them in JSON format.
         """
-        split_keys = self.list_split_histories_keys()[::-1]
+        split_keys = self.list_split_histories_keys()
+        with ThreadPoolExecutor() as executor:
+            futures = [executor.submit(self.parse_hand_history, split_key) for split_key in split_keys]
+            for future in as_completed(futures):
+                future.result()
+
+    def parse_hand_histories_from_directory(self, directory_key: str):
+        """
+        Parse all poker hand histories from a directory and save them in JSON format.
+
+        Parameters:
+            directory_key (str): The path to the directory containing the poker hand history files.
+        """
+        split_keys = self.list_split_histories_keys(directory_key)
         with ThreadPoolExecutor() as executor:
             futures = [executor.submit(self.parse_hand_history, split_key) for split_key in split_keys]
             for future in as_completed(futures):
@@ -477,3 +507,21 @@ class AbstractHandHistoryParser(ABC):
             futures = [executor.submit(self.parse_new_hand_history, split_key) for split_key in split_keys]
             for future in as_completed(futures):
                 future.result()
+
+    def parse_correction_files(self):
+        """
+        Parse the correction files. It takes the split keys from the correction_split_keys.txt file and parses them.
+        """
+        print("Parsing correction files...\n")
+        content = self.get_text(self.correction_split_keys_file_key)
+        split_keys = content.split()
+        parsed_keys = [self.get_parsed_key(split_key) for split_key in split_keys]
+        print(f"There are {len(split_keys)} split files to parse.\n")
+        print(f"Writing parsed keys to {self.correction_parsed_keys_file_key}...\n")
+        self.write_text_from_list(self.correction_parsed_keys_file_key, parsed_keys)
+        with ThreadPoolExecutor() as executor:
+            futures = [executor.submit(self.parse_hand, split_key) for split_key in split_keys]
+            for future in as_completed(futures):
+                future.result()
+        self.write_text(self.correction_split_keys_file_key, "")
+        print("Corrections have been parsed")
