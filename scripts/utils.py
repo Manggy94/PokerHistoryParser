@@ -4,9 +4,9 @@ import zipfile
 import boto3
 
 
-def create_zip_archive(source_dir: str, dist_dir: str, archive_name: str, archive_path: str):
+def create_zip_archive(source_dir: str, dist_dir: str, archive_name: str, archive_path: str, package_name: str):
     """
-    Creates a zip archive of the pkrsplitter package
+    Creates a zip archive of the package with the package name as the root directory
     """
     print(f"Zipping {source_dir} to {dist_dir} as {archive_name}")
     if not os.path.exists(dist_dir):
@@ -14,7 +14,11 @@ def create_zip_archive(source_dir: str, dist_dir: str, archive_name: str, archiv
     with zipfile.ZipFile(archive_path, "w") as z:
         for root, dirs, files in os.walk(source_dir):
             for file in files:
-                z.write(os.path.join(root, file), os.path.relpath(os.path.join(root, file), source_dir))
+                if file.endswith(".py"):
+                    source_path = os.path.join(root, file)
+                    relative_path = os.path.relpath(source_path, source_dir)
+                    dest_path = os.path.join(package_name, relative_path)
+                    z.write(source_path, dest_path)
     print(f"Created {archive_name}")
 
 
