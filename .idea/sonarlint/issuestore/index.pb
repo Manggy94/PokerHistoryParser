@@ -150,3 +150,5 @@ V
 &config/summury_parser/useless_dirs.txt,2\3\23c41a5ca282680b4f5c8bc38a3e212c5f4604fd
 W
 'config/summury_parser/useless_files.txt,0\c\0c8536ec1f1039ea6b52eb61e29cf3d456123b79
+L
+pkrhistoryparser/settings.py,c\9\c98915792a09fa8c18e4193219ff92220c38c9d2
