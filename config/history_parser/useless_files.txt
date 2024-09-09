@@ -1,2 +1,0 @@
-pkrhistoryparser/settings.py
-pkrhistoryparser/history_parsers/local.py

@@ -1,2 +1,0 @@
-pkrhistoryparser/summary_parsers
-pkrhistoryparser/runs
