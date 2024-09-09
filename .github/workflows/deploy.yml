@@ -144,12 +144,6 @@ jobs:
       run: |
         docker push ${{ env.IMAGE_URI }}
 
-    - name: Set environment variables
-      id: set-env
-      run: |
-        ENV_TEXT=$(cat ${{ matrix.function.lambdaEnv }}) >> $GITHUB_ENV
-        echo "ENV_TEXT=$ENV_TEXT"
-
     - name: Create or update lambda function
       id: create-or-update-lambda-function
       run: |
