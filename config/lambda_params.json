@@ -1,0 +1,31 @@
+{
+  "functions": [
+    {
+      "functionName": "summary_parser",
+      "description": "Parse the summary of a txt tournament summary into a json object",
+      "runtime": "python3.12",
+      "packageName": "pkrhistoryparser",
+      "handler":"pkrhistoryparser.lambda.summary_parser.lambda_handler",
+      "functionRoleName": "LambdaS3FilesManager",
+      "uselessDirs": "config/summary_parser/useless_dirs.txt",
+      "uselessFiles": "config/summary_parser/useless_files.txt",
+      "appRequirements": "config/summary_parser/app_requirements.txt",
+      "memorySize": 128,
+      "timeout": 30
+    },
+    {
+      "functionName": "history_parser",
+      "description": "Parse the history of a txt hand history into a json object",
+      "runtime": "python3.12",
+      "packageName": "pkrhistoryparser",
+      "handler":"pkrhistoryparser.lambda.history_parser.lambda_handler",
+      "functionRoleName": "LambdaS3FilesManager",
+      "uselessDirs": "config/history_parser/useless_dirs.txt",
+      "uselessFiles": "config/history_parser/useless_files.txt",
+      "appRequirements": "config/history_parser/app_requirements.txt",
+      "memorySize": 256,
+      "timeout": 30
+
+    }
+  ]
+}

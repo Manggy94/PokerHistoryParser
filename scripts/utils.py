@@ -19,7 +19,56 @@ def create_zip_archive(source_dir: str, dist_dir: str, archive_name: str, archiv
                     relative_path = os.path.relpath(source_path, source_dir)
                     dest_path = os.path.join(package_name, relative_path)
                     z.write(source_path, dest_path)
+        # Copy packages from venv
+        for root, dirs, files in os.walk(os.path.join(source_dir, "venv/Lib/site-packages")):
+            for file in files:
+                source_path = os.path.join(root, file)
+                relative_path = os.path.relpath(source_path, os.path.join(source_dir, "venv/Lib/site-packages"))
+                dest_path = os.path.join("site-packages", relative_path)
+                z.write(source_path, dest_path)
+
     print(f"Created {archive_name}")
+
+
+def create_zip_layer(dist_dir: str):
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    layer_dir = os.path.join(base_dir, "tmp/layer")
+    layer_path = os.path.join(dist_dir, "layer.zip")
+    with zipfile.ZipFile(layer_path, "w") as z:
+        for root, dirs, files in os.walk(layer_dir):
+            for file in files[:3]:
+                source_path = os.path.join(root, file)
+                relative_path = os.path.relpath(source_path, layer_dir)
+                z.write(source_path, relative_path)
+    print("Created layer.zip")
+
+
+def publish_layer(package_name: str):
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    layer_path = os.path.join(base_dir, "dist/layer.zip")
+    lambda_client = boto3.client('lambda', region_name='eu-west-3')
+    layer_name = f"{package_name}_layer"
+    with open(layer_path, 'rb') as f:
+        zip_content = f.read()
+    lambda_client.publish_layer_version(
+        LayerName=layer_name,
+        Description=f"{package_name} layer",
+        Content={'ZipFile': zip_content}
+    )
+
+
+def connect_lambda_to_layer(function_name: str, layer_name: str):
+    """
+    Connects a lambda function to a layer
+    """
+    print(f"Connecting lambda function {function_name} to layer {layer_name}")
+    lambda_client = boto3.client('lambda')
+    layer_arn = lambda_client.list_layer_versions(LayerName=layer_name)['LayerVersions'][0]['LayerVersionArn']
+    lambda_client.update_function_configuration(
+        FunctionName=function_name,
+        Layers=[layer_arn],
+    )
+    print(f"Connected lambda function {function_name} to layer {layer_name}")
 
 
 def get_lambda_role(function_role: str):

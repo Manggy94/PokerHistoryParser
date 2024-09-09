@@ -1,0 +1,162 @@
+name: Deploy to AWS
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  build-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+    - name: Checkout code
+      id: checkout-matrix
+      uses: actions/checkout@v2
+    - name: Read lambda_params.json and set as environment variable
+      id: set-matrix
+      run: |
+        functions=$(jq -c '.functions[]' < config/lambda_params.json)
+        matrix="[]"
+        echo $functions
+        while IFS= read -r function; do
+          functionName=$(echo "$function" | jq -r '.functionName')
+          description=$(echo "$function" | jq -r '.description')
+          runtime=$(echo "$function" | jq -r '.runtime')
+          handler=$(echo "$function" | jq -r '.handler')
+          functionRoleName=$(echo "$function" | jq -r '.functionRoleName')
+          packageName=$(echo "$function" | jq -r '.packageName')
+          uselessDirs=$(echo "$function" | jq -r '.uselessDirs')
+          uselessFiles=$(echo "$function" | jq -r '.uselessFiles')
+          memorySize=$(echo "$function" | jq -r '.memorySize')
+          timeout=$(echo "$function" | jq -r '.timeout')
+          appRequirements=$(echo "$function" | jq -r '.appRequirements')
+
+          functionMatrix=$(echo '{}' | jq --arg fn "$functionName" \
+          --arg desc "$description" \
+          --arg rt "$runtime" \
+          --arg hnd "$handler" \
+          --arg frn "$functionRoleName" \
+          --arg pn "$packageName"  \
+          --arg uds "$uselessDirs" \
+          --arg ufs "$uselessFiles" \
+          --arg ms "$memorySize" \
+          --arg to "$timeout" \
+          --arg ar "$appRequirements" \
+          '.functionName = $fn | .runtime = $rt | .handler = $hnd | .functionRoleName = $frn | .packageName = $pn | .uselessDirs = $uds | .uselessFiles = $ufs | .memorySize = $ms | .timeout = $to | .description = $desc | .appRequirements = $ar')
+
+          matrix=$(echo "$matrix" | jq --argjson func "$functionMatrix" '. + [$func]')
+        done <<< "$functions"
+        echo "matrix=$matrix"
+        matrix_escaped=$(echo "$matrix" | jq -c .)
+        echo "matrix=$matrix_escaped" >> $GITHUB_OUTPUT
+
+
+  deploy:
+    needs: build-matrix
+    runs-on: ubuntu-latest
+    strategy:
+        matrix:
+          function: ${{fromJson(needs.build-matrix.outputs.matrix)}}
+    env:
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+      AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+      AWS_NAMESPACE: ${{ secrets.AWS_NAMESPACE }}
+      AWS_PACKAGE_NAME: ${{ secrets.AWS_PACKAGE_NAME }}
+      REPOSITORY_NAME: ${{ secrets.AWS_NAMESPACE }}/${{ secrets.AWS_PACKAGE_NAME }}
+      TAG: latest
+      IMAGE_NAME: ${{ secrets.AWS_NAMESPACE }}/${{ secrets.AWS_PACKAGE_NAME }}:latest
+      REGISTRY_URI: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com
+      IMAGE_URI: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.AWS_NAMESPACE }}/${{ secrets.AWS_PACKAGE_NAME }}:latest
+      COMMIT_HASH: ${{ github.sha }}
+      COMMIT_TAG: ${{ github.ref }}
+
+
+    steps:
+    - name: Checkout code
+      id: checkout
+      uses: actions/checkout@v2
+
+    - name: Configure AWS credentials
+      id: aws-credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ secrets.AWS_REGION }}
+
+    - name: Get python Version from lambda_params.json runtime
+      id: get-python-version
+      run: |
+        echo "PYTHON_VERSION=$(echo ${{ matrix.function.runtime }})" | sed 's/python//' >> $GITHUB_ENV
+        echo "Python Version: ${{ env.PYTHON_VERSION }}"
+
+    - name: Replace handler in Dockerfile
+      run: |
+        sed -i 's#<lambda_handler>#${{ matrix.function.handler }}#g' Dockerfile
+
+
+    - name: Build docker image
+      id: build-image
+      run: |
+        echo "Building the Docker image ${{ env.IMAGE_NAME }}"
+        docker build . \
+        -t ${{ env.IMAGE_NAME}} \
+        --build-arg PACKAGE_NAME=${{ matrix.function.packageName }} \
+        --build-arg PYTHON_VERSION=${{ env.PYTHON_VERSION }} \
+        --build-arg USELESS_DIRS=${{ matrix.function.uselessDirs }} \
+        --build-arg USELESS_FILES=${{ matrix.function.uselessFiles }} \
+        --build-arg APP_REQUIREMENTS=${{ matrix.function.appRequirements }}
+
+    - name: Log in to Amazon ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Create or update ECR repository
+      id: create-or-update-ecr-repository
+      run: |
+        aws ecr describe-repositories --repository-names ${{ env.REPOSITORY_NAME }} || aws ecr create-repository --repository-name ${{ env.REPOSITORY_NAME }}
+
+    - name: Login Docker to Amazon ECR
+      id: login-docker
+      run: |
+        docker login -u AWS -p $(aws ecr get-login-password --region ${{ secrets.AWS_REGION }}) ${{ env.REGISTRY_URI }}
+
+    - name: Tag image with ECR URI
+      id: tag-image
+      run: |
+        docker tag ${{ env.IMAGE_NAME }} ${{ env.IMAGE_URI }}
+
+    - name: Delete old image with tag latest or no tag
+      id: delete-old-image
+      run: |
+        aws ecr batch-delete-image --repository-name ${{ env.REPOSITORY_NAME }} --image-ids imageTag=latest
+        aws ecr batch-delete-image --repository-name ${{ env.REPOSITORY_NAME }} --image-ids imageTag=null
+
+    - name: Push image to Amazon ECR
+      id: push-image
+      run: |
+        docker push ${{ env.IMAGE_URI }}
+
+    - name: Create or update lambda function
+      id: create-or-update-lambda-function
+      run: |
+        aws lambda create-function \
+        --function-name ${{ matrix.function.functionName }} \
+        --package-type Image \
+        --code ImageUri=${{ env.IMAGE_URI }} \
+        --role arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ matrix.function.functionRoleName }} \
+        --timeout ${{ matrix.function.timeout }} --memory-size ${{ matrix.function.memorySize }} \
+        --description "${{ matrix.function.description }}" || \
+        aws lambda update-function-configuration \
+        --function-name ${{ matrix.function.functionName }} \
+        --role arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ matrix.function.functionRoleName }} \
+        --timeout ${{ matrix.function.timeout }} \
+        --memory-size ${{ matrix.function.memorySize }} \
+        --description "${{ matrix.function.description }}" && \
+        aws lambda wait function-updated --function-name ${{ matrix.function.functionName }} &&
+        aws lambda update-function-code \
+        --function-name ${{ matrix.function.functionName }} \
+        --image-uri ${{ env.IMAGE_URI }}
