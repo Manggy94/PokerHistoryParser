@@ -26,7 +26,6 @@ Markdown==3.6
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
-
 more-itertools==10.2.0
 nh3==0.2.17
 packaging==24.0
@@ -38,7 +37,6 @@ pyasn1==0.6.0
 pycparser==2.22
 Pygments==2.18.0
 pymdown-extensions==10.8.1
-
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2024.1
