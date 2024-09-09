@@ -73,7 +73,6 @@ jobs:
       COMMIT_HASH: ${{ github.sha }}
       COMMIT_TAG: ${{ github.ref }}
 
-
     steps:
     - name: Checkout code
       id: checkout
