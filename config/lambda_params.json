@@ -11,7 +11,8 @@
       "uselessFiles": "config/useless_files.txt",
       "appRequirements": "config/app_requirements.txt",
       "memorySize": 128,
-      "timeout": 30
+      "timeout": 30,
+      "lambdaEnv": "config/lambda_env.json"
     },
     {
       "functionName": "history_parser",
