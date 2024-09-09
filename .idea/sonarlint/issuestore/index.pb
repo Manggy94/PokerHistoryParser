@@ -156,3 +156,5 @@ G
 config/useless_dirs.txt,4\8\48d7155cef2b582c6888692bd825890c0d24a6ac
 H
 config/useless_files.txt,e\6\e64079fc670fe81d709db05e8dd6c967526a7798
+F
+config/lambda_env.json,2\7\2773ecc56210d5abfe5f8ee32aa9d42fe1f295ab

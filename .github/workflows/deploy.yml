@@ -33,6 +33,7 @@ jobs:
           memorySize=$(echo "$function" | jq -r '.memorySize')
           timeout=$(echo "$function" | jq -r '.timeout')
           appRequirements=$(echo "$function" | jq -r '.appRequirements')
+          lambdaEnv=$(echo "$function" | jq -r '.lambdaEnv')
 
           functionMatrix=$(echo '{}' | jq --arg fn "$functionName" \
           --arg desc "$description" \
@@ -45,7 +46,8 @@ jobs:
           --arg ms "$memorySize" \
           --arg to "$timeout" \
           --arg ar "$appRequirements" \
-          '.functionName = $fn | .runtime = $rt | .handler = $hnd | .functionRoleName = $frn | .packageName = $pn | .uselessDirs = $uds | .uselessFiles = $ufs | .memorySize = $ms | .timeout = $to | .description = $desc | .appRequirements = $ar')
+          --arg env "$lambdaEnv" \
+          '.functionName = $fn | .runtime = $rt | .handler = $hnd | .functionRoleName = $frn | .packageName = $pn | .uselessDirs = $uds | .uselessFiles = $ufs | .memorySize = $ms | .timeout = $to | .description = $desc | .appRequirements = $ar | .lambdaEnv = $env')
 
           matrix=$(echo "$matrix" | jq --argjson func "$functionMatrix" '. + [$func]')
         done <<< "$functions"
@@ -72,6 +74,7 @@ jobs:
       IMAGE_URI: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.AWS_NAMESPACE }}/${{ secrets.AWS_PACKAGE_NAME }}:latest
       COMMIT_HASH: ${{ github.sha }}
       COMMIT_TAG: ${{ github.ref }}
+
 
     steps:
     - name: Checkout code
@@ -141,21 +144,31 @@ jobs:
       run: |
         docker push ${{ env.IMAGE_URI }}
 
+    - name: Set environment variables
+      id: set-env
+      run: |
+        ENV_TEXT=$(cat ${{ matrix.function.lambdaEnv }}) >> $GITHUB_ENV
+        echo "ENV_TEXT=$ENV_TEXT"
+
     - name: Create or update lambda function
       id: create-or-update-lambda-function
       run: |
+        ENV_VARS=$(jq -c . ${{ matrix.function.lambdaEnv }})
+
         aws lambda create-function \
         --function-name ${{ matrix.function.functionName }} \
         --package-type Image \
         --code ImageUri=${{ env.IMAGE_URI }} \
         --role arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ matrix.function.functionRoleName }} \
         --timeout ${{ matrix.function.timeout }} --memory-size ${{ matrix.function.memorySize }} \
+        --environment $ENV_VARS \
         --description "${{ matrix.function.description }}" || \
         aws lambda update-function-configuration \
         --function-name ${{ matrix.function.functionName }} \
         --role arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ matrix.function.functionRoleName }} \
         --timeout ${{ matrix.function.timeout }} \
         --memory-size ${{ matrix.function.memorySize }} \
+        --environment $ENV_VARS \
         --description "${{ matrix.function.description }}" && \
         aws lambda wait function-updated --function-name ${{ matrix.function.functionName }} &&
         aws lambda update-function-code \
