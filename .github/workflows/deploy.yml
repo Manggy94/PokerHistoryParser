@@ -68,10 +68,9 @@ jobs:
       AWS_NAMESPACE: ${{ secrets.AWS_NAMESPACE }}
       AWS_PACKAGE_NAME: ${{ secrets.AWS_PACKAGE_NAME }}
       REPOSITORY_NAME: ${{ secrets.AWS_NAMESPACE }}/${{ secrets.AWS_PACKAGE_NAME }}
-      TAG: latest
-      IMAGE_NAME: ${{ secrets.AWS_NAMESPACE }}/${{ secrets.AWS_PACKAGE_NAME }}:latest
+      IMAGE_NAME: ${{ secrets.AWS_NAMESPACE }}/${{ matrix.function.packageName }}:${{ matrix.function.functionName}}
       REGISTRY_URI: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com
-      IMAGE_URI: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.AWS_NAMESPACE }}/${{ secrets.AWS_PACKAGE_NAME }}:latest
+      IMAGE_URI: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.AWS_NAMESPACE }}/${{ matrix.function.packageName }}:${{ matrix.function.functionName}}
       COMMIT_HASH: ${{ github.sha }}
       COMMIT_TAG: ${{ github.ref }}
 

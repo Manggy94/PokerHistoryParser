@@ -1,11 +1,9 @@
 import unittest
 import os
-from dotenv import load_dotenv
 from pkrhistoryparser.history_parsers.local import LocalHandHistoryParser
 from pkrhistoryparser.summary_parsers.local import LocalSummaryParser
+from pkrhistoryparser.settings import TEST_DATA_DIR
 
-load_dotenv()
-TEST_DATA_DIR = os.environ.get("TEST_DATA_DIR")
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
