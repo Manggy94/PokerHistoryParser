@@ -51,8 +51,6 @@ E
 docs/requirements.txt,2\7\271b54d579b58b0097c7c56b8ab060c6e3a67b4f
 ;
 LICENSE.txt,7\9\79b82ce9b64a924266619555502f890dd80c83b9
-4
-.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 c
 3pkrhistoryparser/runs/local/parse_hand_histories.py,f\8\f8e87cb5df6b27714f112d1181af5b310f86d0e6
 g
@@ -73,10 +71,6 @@ Y
 )pkrhistoryparser/lambda/history_parser.py,b\7\b7e7b6d731054bd90ccace6fb241396e8b201e37
 Y
 )pkrhistoryparser/lambda/summary_parser.py,2\c\2ca683101b4ac175e7d165fd96a30638072b9100
-H
-scripts/zip_to_lambda.py,8\d\8dfb3801e3061a9961cbbaad382108d961b2e14d
-@
-scripts/utils.py,1\0\105566ee714bab70c3af9b61f63a65c2622e4ab3
 Y
 )pkrhistoryparser/history_parsers/cloud.py,6\1\61b16d97ace08fe2a0758df484a0bbc2a94ce919
 c
@@ -129,8 +123,6 @@ Z
 *reports/parsing_history_financial_cost.csv,4\4\44a6e19a03972a297838ec74b08d1dca6cb83d06
 K
 config/dev_requirements.txt,0\3\03d5072960d1a9f04e6ba8d9454cd87e0785f749
-G
-scripts/build_lambda.sh,9\2\92b460f2ff76419d9a532169f5b0238c5a8f81aa
 L
 .github/workflows/deploy.yml,f\1\f130ad0d1d16d0d70ec30d355f736ae3784b05cf
 I
@@ -140,16 +132,6 @@ I
 Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
 K
 config/app_requirements.txt,f\e\fe84a364d6afcbf2d01f815ae2afecef0a37ba44
-Z
-*config/history_parser/app_requirements.txt,f\d\fdfa13ce79b213aa4b8bb491a4b0cc5100183335
-V
-&config/history_parser/useless_dirs.txt,9\8\984f806ca0d5dab8376db06ea412c59e3344c314
-W
-'config/history_parser/useless_files.txt,8\2\827853dc0aad0f92c5b67751732ec5beb1f5a0ea
-V
-&config/summury_parser/useless_dirs.txt,2\3\23c41a5ca282680b4f5c8bc38a3e212c5f4604fd
-W
-'config/summury_parser/useless_files.txt,0\c\0c8536ec1f1039ea6b52eb61e29cf3d456123b79
 L
 pkrhistoryparser/settings.py,c\9\c98915792a09fa8c18e4193219ff92220c38c9d2
 G
