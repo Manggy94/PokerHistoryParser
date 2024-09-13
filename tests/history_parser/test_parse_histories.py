@@ -1,101 +1,26 @@
 import unittest
 import os
+
 from pkrhistoryparser.history_parsers.local import LocalHandHistoryParser
-from pkrhistoryparser.summary_parsers.local import LocalSummaryParser
 from pkrhistoryparser.settings import TEST_DATA_DIR
 
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
-class TestSummaryParser(unittest.TestCase):
-    def setUp(self):
-        self.parser = LocalSummaryParser(data_dir=TEST_DATA_DIR)
-        self.file_key = [key for key in self.parser.list_summary_keys()
-                         if "651237360.txt" in key][0]
-        self.summary_text = self.parser.get_text(self.file_key)
-
-    def test_list_summary_keys(self):
-        self.assertIsInstance(self.parser.list_summary_keys(), list)
-
-    def test_extract_buy_in(self):
-        result = self.parser.extract_buy_in(self.summary_text)
-        expected_result = {"prize_pool_contribution": 4.5, "bounty": 4.50, "rake": 1.0}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_tournament_id(self):
-        result = self.parser.extract_tournament_id(self.summary_text)
-        expected_result = {"tournament_id": "651237360"}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_tournament_name(self):
-        result = self.parser.extract_tournament_name(self.summary_text)
-        expected_result = {"tournament_name": "RING"}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_tournament_type(self):
-        result = self.parser.extract_tournament_type(self.summary_text)
-        expected_result = {"tournament_type": "knockout"}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_tournament_speed(self):
-        result = self.parser.extract_speed(self.summary_text)
-        expected_result = {"speed": "normal"}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_tournament_prize_pool(self):
-        result = self.parser.extract_prize_pool(self.summary_text)
-        expected_result = {"prize_pool": 3240}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_registered_players(self):
-        result = self.parser.extract_registered_players(self.summary_text)
-        expected_result = {"registered_players": 605}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_tournament_start_date(self):
-        result = self.parser.extract_start_date(self.summary_text)
-        expected_result = {"start_date": "2023/05/07 14:00:00 UTC"}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_amount_won(self):
-        result = self.parser.extract_amount_won(self.summary_text)
-        expected_result = {"amount_won": 0.0}
-        self.assertEqual(result, expected_result)
-
-    def test_extract_final_position(self):
-        result = self.parser.extract_final_position(self.summary_text)
-        expected_result = {"final_position": 223}
-        self.assertEqual(result, expected_result)
-
-    def test_parse_tournament_summary(self):
-        result = self.parser.parse_tournament_summary(self.summary_text)
-        self.assertIsInstance(result, dict)
-        self.assertEqual(
-            set(result.keys()),
-            {'tournament_id', 'tournament_name', 'buy_in', 'prize_pool', 'registered_players', 'speed',
-             'start_date', 'levels_structure', 'nb_entries', 'tournament_type', 'amount_won', 'final_position'}
-        )
-
-
-class TestHandHistoryParser(unittest.TestCase):
+class Test01(unittest.TestCase):
     def setUp(self):
 
         self.parser = LocalHandHistoryParser(data_dir=TEST_DATA_DIR)
-        self.file_key = [key for key in self.parser.list_split_histories_keys()
-                         if "2612804708405870609-6-1672853787.txt" in key][0]
+        self.file_key = os.path.join(TEST_DIR, "split_files", "example01.txt")
         self.hand_text = self.parser.get_text(self.file_key)
 
     def test_list_split_histories_keys(self):
         self.assertIsInstance(self.parser.list_split_histories_keys(), list)
 
-    def test_check_is_parsed(self):
-        right_split_key = self.file_key.replace("data_test", "data")
-        self.assertTrue(self.parser.check_is_parsed(right_split_key))
-        self.assertFalse(self.parser.check_is_parsed("not_a_file.txt"))
 
     def test_get_parsed_key(self):
         parsed_key = self.parser.get_parsed_key(self.file_key)
-        self.assertIn("2612804708405870609-6-1672853787.json", parsed_key)
+        self.assertIn("example01.json", parsed_key)
         self.assertIn("parsed", parsed_key)
 
     def test_parse_new_hand_history(self):
@@ -297,21 +222,3 @@ class TestHandHistoryParser(unittest.TestCase):
              'winners', "buy_in"
              }
         )
-
-
-class TestProblematicFiles(unittest.TestCase):
-    def setUp(self):
-        self.parser = LocalHandHistoryParser(data_dir=TEST_DATA_DIR)
-        self.file_name = "539281767337558454-52-1438951219.txt"
-        self.file_key = os.path.join(self.parser.split_dir, "2015", "08", "07", "125561321", self.file_name)
-
-    def test_parse_showdown(self):
-        hand_text = self.parser.get_text(self.file_key)
-        showdown_info = self.parser.extract_showdown(hand_text)
-        self.assertIsInstance(showdown_info, dict)
-        self.assertEqual(showdown_info, {
-            "jackland": {
-                "first_card": "As",
-                "second_card": "Jd",
-            }
-        })

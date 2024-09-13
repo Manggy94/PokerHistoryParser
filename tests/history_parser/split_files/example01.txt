@@ -1,0 +1,45 @@
+ Tournament "GUERILLA" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #2612804708405870609-6-1672853787 - Holdem no limit (25/100/200) - 2023/01/04 17:36:27 UTC
+Table: 'GUERILLA(608341002)#016' 6-max (real money) Seat #4 is the button
+Seat 1: FrenchAAAA (19575, 2.25€ bounty)
+Seat 2: daifwa (21830, 2.25€ bounty)
+Seat 3: Roomxx (34263, 3.37€ bounty)
+Seat 4: SB Warrior34 (18548, 2.25€ bounty)
+Seat 5: GoToVG (26609, 2.25€ bounty)
+Seat 6: manggy94 (19175, 2.25€ bounty)
+*** ANTE/BLINDS ***
+GoToVG posts ante 25
+manggy94 posts ante 25
+FrenchAAAA posts ante 25
+daifwa posts ante 25
+Roomxx posts ante 25
+SB Warrior34 posts ante 25
+GoToVG posts small blind 100
+manggy94 posts big blind 200
+Dealt to manggy94 [2c 5h]
+*** PRE-FLOP ***
+FrenchAAAA folds
+daifwa calls 200
+Roomxx folds
+SB Warrior34 calls 200
+GoToVG raises 700 to 900
+manggy94 folds
+daifwa calls 700
+SB Warrior34 calls 700
+*** FLOP *** [7h 2d 5c]
+GoToVG checks
+daifwa checks
+SB Warrior34 checks
+*** TURN *** [7h 2d 5c][2h]
+GoToVG bets 1000
+daifwa folds
+SB Warrior34 calls 1000
+*** RIVER *** [7h 2d 5c 2h][8c]
+GoToVG bets 2525
+SB Warrior34 folds
+GoToVG collected 7575 from pot
+*** SUMMARY ***
+Total pot 7575 | No rake
+Board: [7h 2d 5c 2h 8c]
+Seat 5: GoToVG (small blind) won 7575
+
+

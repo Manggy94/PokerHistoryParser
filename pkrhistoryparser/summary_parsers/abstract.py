@@ -119,7 +119,7 @@ class AbstractSummaryParser(ABC):
     def extract_level_from_structure(self, level_tuple: tuple, level_value: int) -> dict:
 
         return {
-            "value": level_value,
+            "value": level_value if level_value < 300 else 1,
             "sb": self.to_float(level_tuple[0]),
             "bb": self.to_float(level_tuple[1]),
             "ante": self.to_float(level_tuple[2])
@@ -265,8 +265,6 @@ class AbstractSummaryParser(ABC):
 
         }
         return summary_info
-
-
 
     @abstractmethod
     def check_is_parsed(self, summary_key: str) -> bool:

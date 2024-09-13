@@ -1,0 +1,30 @@
+ Tournament "#30 - W SERIES - MYSTERY REBUY" buyIn: 4.50€ + 0.50€ level: 22 - HandId: #3554930429305815100-158-1725228148 - Holdem no limit (1000/4000/8000) - 2024/09/01 22:02:28 UTC
+Table: '#30 - W SERIES - MYSTERY REBUY(827696740)#0059' 6-max (real money) Seat #5 is the button
+Seat 1: M4NUSCRITO (207825)
+Seat 2: SecretLab (190919)
+Seat 3: Palax11 (141148)
+Seat 4: GoteeenX (610125)
+Seat 5: manggy94 (131744)
+Seat 6: NBarish (348002)
+*** ANTE/BLINDS ***
+NBarish posts ante 1000
+M4NUSCRITO posts ante 1000
+SecretLab posts ante 1000
+Palax11 posts ante 1000
+GoteeenX posts ante 1000
+manggy94 posts ante 1000
+NBarish posts small blind 4000
+M4NUSCRITO posts big blind 8000
+Dealt to manggy94 [9c Jh]
+*** PRE-FLOP ***
+SecretLab folds
+Palax11 folds
+GoteeenX folds
+manggy94 folds
+NBarish raises 16000 to 24000
+M4NUSCRITO folds
+NBarish collected 38000 from pot
+*** SUMMARY ***
+Total pot 38000 | No rake
+Seat 6: NBarish (small blind) won 38000
+
