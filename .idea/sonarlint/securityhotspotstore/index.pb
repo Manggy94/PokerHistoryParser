@@ -154,3 +154,5 @@ F
 ,tests/summary_parser/raw_files/example02.txt,c\c\cc639ba1c336bb234de336ac656819769c6cce58
 ^
 .tests/history_parser/split_files/example03.txt,a\9\a919b74ef507c45dd3fab52164213011d4fd2b8c
+\
+,tests/summary_parser/raw_files/example03.txt,e\8\e8ccf04e402ca0b486c6f8e7ee8bcbd54a2c68bb

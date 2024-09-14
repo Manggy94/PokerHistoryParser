@@ -41,6 +41,7 @@ TOURNAMENT_TYPE_PATTERN = r"Type\s+:\s+(\w+)"
 SUMMARY_TOURNAMENT_INFO_PATTERN = r"Tournament summary[\:\s]+([\#\wé\s\-&\€\:\.\'\!\\\[\]]+)\((\d+)\)"
 BUY_IN_PATTERN = r"Buy-In[\s\:]+([\d\.\,]+)\s?€\s?\+?\s?([\d\.\,]+)?\s?€?\s?\+\s([\d\.\,]+)"
 AMOUNT_WON_PATTERN = r"You\s+won\s+([\d\.\,]+)€"
+AMOUNT_WON_PATTERN = r"You\s+won\s+([\d\.\,]+)?€?\s?\+?\s?(Bounty)?\s?([\d\.\,]+)?\€?"
 FINAL_POSITION_PATTERN = r"You\sfinished\sin\s(\d+)"
 
 

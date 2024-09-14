@@ -223,9 +223,10 @@ class AbstractSummaryParser(ABC):
         Returns:
             amount_won (dict): A dict containing the amount won by the player.
         """
-        match = re.search(pattern=patterns.AMOUNT_WON_PATTERN, string=summary_text)
-        amount_won = self.to_float(match.group(1)) if match else 0.0
-        return {"amount_won": amount_won}
+        matches = re.findall(patterns.AMOUNT_WON_PATTERN, string=summary_text)
+        total_amount = sum([self.to_float(match[0]) for match in matches])
+        total_bounty = sum([self.to_float(match[2]) for match in matches])
+        return {"amount_won": total_amount, "bounty_won": total_bounty}
 
     def extract_nb_entries(self, summary_text: str) -> dict:
         """
@@ -261,6 +262,7 @@ class AbstractSummaryParser(ABC):
             "levels_structure": self.extract_levels_structure(summary_text)["levels_structure"],
             "tournament_type": self.extract_tournament_type(summary_text)["tournament_type"],
             "amount_won": self.extract_amount_won(summary_text)["amount_won"],
+            "bounty_won": self.extract_amount_won(summary_text)["bounty_won"],
             "final_position": self.extract_final_position(summary_text)["final_position"],
 
         }
